@@ -20,83 +20,54 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync bobwya
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/bobwya/miscellaneous_ebuilds
-   66be5d4..7a2c637  master     -> origin/master
-Updating 66be5d4..7a2c637
-Fast-forward
- www-client/firefox-kde-opensuse/ChangeLog          |  40 +-
- www-client/firefox-kde-opensuse/Manifest           | 184 +--------
- ...nsuse-31.0-webm-disallow-negative-samples.patch |  29 --
- ...efox-kde-opensuse-33.0-jemalloc-configure.patch |  29 --
- ...ox-kde-opensuse-35.0-gmp-clearkey-sprintf.patch |  10 -
- ...e-opensuse-36.0-depollute-CONST-from-dtoa.patch |  18 -
- .../firefox-kde-opensuse-36.0-disable-ion.patch    |  18 -
- ...pensuse-37.0-jemalloc_configure_unbashify.patch |  11 -
- ...efox-kde-opensuse-38-hppa-js-syntax-error.patch |  30 ++
- .../firefox-kde-opensuse-31.5.3.ebuild             | 418 ---------------------
- .../firefox-kde-opensuse-31.7.0.ebuild             | 418 ---------------------
- .../firefox-kde-opensuse-31.8.0.ebuild             |   3 +-
- .../firefox-kde-opensuse-38.1.0.ebuild             |   4 +-
- .../firefox-kde-opensuse-39.0.ebuild               |   1 +
- 14 files changed, 80 insertions(+), 1133 deletions(-)
- delete mode 100644 www-client/firefox-kde-opensuse/files/firefox-kde-opensuse-31.0-webm-disallow-negative-samples.patch
- delete mode 100644 www-client/firefox-kde-opensuse/files/firefox-kde-opensuse-33.0-jemalloc-configure.patch
- delete mode 100644 www-client/firefox-kde-opensuse/files/firefox-kde-opensuse-35.0-gmp-clearkey-sprintf.patch
- delete mode 100644 www-client/firefox-kde-opensuse/files/firefox-kde-opensuse-36.0-depollute-CONST-from-dtoa.patch
- delete mode 100644 www-client/firefox-kde-opensuse/files/firefox-kde-opensuse-36.0-disable-ion.patch
- delete mode 100644 www-client/firefox-kde-opensuse/files/firefox-kde-opensuse-37.0-jemalloc_configure_unbashify.patch
- create mode 100644 www-client/firefox-kde-opensuse/files/firefox-kde-opensuse-38-hppa-js-syntax-error.patch
- delete mode 100644 www-client/firefox-kde-opensuse/firefox-kde-opensuse-31.5.3.ebuild
- delete mode 100644 www-client/firefox-kde-opensuse/firefox-kde-opensuse-31.7.0.ebuild
+Already up-to-date.
 *** syncing bobwya
 *** synced bobwya
  * Sync succeeded
 $ pmaint regen -t 2 bobwya
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/pion-5.0.7
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-331.113caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-340.76
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-343.36caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-349.16
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/beshell-9999
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-352.09
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/dockmanager-kde_and_extra-0.9.17
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-331.113
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/pion-5.0.7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-346.72
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kmozillahelper-0.6.4
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/freetuxtv-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/firefox-kde-opensuse-31.8.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/firefox-kde-opensuse-38.1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-benchmarks/i7z-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/firefox-kde-opensuse-39.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/btsync-1.4.111
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-352.09caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-343.36
+!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-349.16
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-340.76
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/dockmanager-kde_and_extra-0.9.17
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/beshell-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kmozillahelper-0.6.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/freetuxtv-9999
+!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/firefox-kde-opensuse-39.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/firefox-kde-opensuse-31.8.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-benchmarks/i7z-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/firefox-kde-opensuse-38.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/btsync-1.2.82
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/btsync-1.3.109
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/btsync-1.4.72
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/syncthing-9999
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/syncthing-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/btsync-1.4.111
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/btsync-1.3.109
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-shells/bash-completion-2.1-r93
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-shells/bash-completion-2.1-r91
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-shells/bash-completion-2.1-r92
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-shells/bash-completion-2.1_p20141224
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-shells/bash-completion-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/chntpw-110511
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-shells/bash-completion-2.1-r92
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/chntpw-140201!!! 
+!!! !!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/chntpw-110511
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/chntpw-140201!!! 
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/chntpw-100627
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/uksmstat-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/dhewm3-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-backup/fsarchiver-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/libreoffice-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/fatrat-1.2.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/teamviewer-10.0.41499
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/teamviewer-9.0.32150caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/filebot-4.6
-!!! 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/h264enc-10.4.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/h264enc-9.4.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/handbrake-0.9.9
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/dhewm3-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-backup/fsarchiver-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/uksmstat-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/libreoffice-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/fatrat-1.2.9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/teamviewer-10.0.41499
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/handbrake-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/h264enc-9.4.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/filebot-4.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/filebot-4.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/teamviewer-9.0.32150
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/handbrake-0.9.9
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/filebot-4.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/h264enc-9.4.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/handbrake-9999
+
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/h264enc-9.4.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/h264enc-10.4.0
  * Cache regenerated successfully
