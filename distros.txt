@@ -12,12 +12,16 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync distros
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/distros
-   b26249a..106b600  develop    -> origin/develop
-Already up-to-date.
+   b26249a..106b600  master     -> origin/master
+   b26249a..106b600  update     -> origin/update
+Updating b26249a..106b600
+Fast-forward
+ profiles/templates/3.2/6_ac_update_sync/world/0-ini              | 2 +-
+ profiles/templates/3.2/6_ac_update_sync/world/update/100-199/121 | 7 +++++++
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+ create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/100-199/121
 *** syncing distros
 *** synced distros
  * Sync succeeded
