@@ -12,202 +12,126 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync calculate
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://git.calculate.ru/calculate/overlay
-   c88ff01..c3747bd  master     -> origin/master
-   0b793ab..c3747bd  develop    -> origin/develop
-   c88ff01..c3747bd  update     -> origin/update
-Checking out files:   3% (2/66)   Checking out files:   4% (3/66)   Checking out files:   6% (4/66)   Checking out files:   7% (5/66)   Checking out files:   9% (6/66)   Checking out files:  10% (7/66)   Checking out files:  12% (8/66)   Checking out files:  13% (9/66)   Checking out files:  15% (10/66)   Checking out files:  16% (11/66)   Checking out files:  18% (12/66)   Checking out files:  19% (13/66)   Checking out files:  21% (14/66)   Checking out files:  22% (15/66)   Checking out files:  24% (16/66)   Checking out files:  25% (17/66)   Checking out files:  27% (18/66)   Checking out files:  28% (19/66)   Checking out files:  30% (20/66)   Checking out files:  31% (21/66)   Checking out files:  33% (22/66)   Checking out files:  34% (23/66)   Checking out files:  36% (24/66)   Checking out files:  37% (25/66)   Checking out files:  39% (26/66)   Checking out files:  40% (27/66)   Checking out files:  42% (28/66)   Checking out files:  43% (29/66)   Checking out files:  45% (30/66)   Checking out files:  46% (31/66)   Checking out files:  48% (32/66)   Checking out files:  50% (33/66)   Checking out files:  51% (34/66)   Checking out files:  53% (35/66)   Checking out files:  54% (36/66)   Checking out files:  56% (37/66)   Checking out files:  57% (38/66)   Checking out files:  59% (39/66)   Checking out files:  60% (40/66)   Checking out files:  62% (41/66)   Checking out files:  63% (42/66)   Checking out files:  65% (43/66)   Checking out files:  66% (44/66)   Checking out files:  68% (45/66)   Checking out files:  69% (46/66)   Checking out files:  71% (47/66)   Checking out files:  72% (48/66)   Checking out files:  74% (49/66)   Checking out files:  75% (50/66)   Checking out files:  77% (51/66)   Checking out files:  78% (52/66)   Checking out files:  80% (53/66)   Checking out files:  81% (54/66)   Checking out files:  83% (55/66)   Checking out files:  84% (56/66)   Checking out files:  86% (57/66)   Checking out files:  87% (58/66)   Checking out files:  89% (59/66)   Checking out files:  90% (60/66)   Checking out files:  92% (61/66)   Checking out files:  93% (62/66)   Checking out files:  95% (63/66)   Checking out files:  96% (64/66)   Checking out files:  98% (65/66)   Checking out files: 100% (66/66)   Checking out files: 100% (66/66), done.
-Updating c88ff01..c3747bd
-Fast-forward
- .../3.3/2_ac_install_merge/mate-base/mate-desktop/.calculate_directory  | 1 -
- .../1-merge}/mate-base/.calculate_directory                             | 0
- .../1-merge/mate-base/mate-desktop/.calculate_directory                 | 1 +
- .../1-merge}/mate-base/mate-desktop/glib-compile-schemas                | 0
- .../1-merge}/mate-base/mate-desktop/org.mate.background.gschema.xml     | 0
- .../1-merge}/media-gfx/calculate-wallpapers/.calculate_directory        | 0
- .../1-merge}/media-gfx/calculate-wallpapers/calculate.xml               | 0
- .../media-gfx/calculate-wallpapers/calculate/.calculate_directory       | 0
- .../1-merge/media-gfx/calculate-wallpapers/calculate}/Calculate Linux   | 0
- .../media-gfx/calculate-wallpapers/calculate}/Calculate Linux 11 Blue   | 0
- .../media-gfx/calculate-wallpapers/calculate}/Calculate Linux 11 Brown  | 0
- .../media-gfx/calculate-wallpapers/calculate}/Calculate Linux 12 Blue   | 0
- .../media-gfx/calculate-wallpapers/calculate}/Calculate Linux 12 Brown  | 0
- .../media-gfx/calculate-wallpapers/calculate}/Calculate Linux 13 Blue   | 0
- .../media-gfx/calculate-wallpapers/calculate}/Calculate Linux 13 Brown  | 0
- .../media-gfx/calculate-wallpapers/calculate}/Calculate Linux 13 Green  | 0
- .../calculate-wallpapers/calculate}/Calculate Linux 13 Magenta          | 0
- .../media-gfx/calculate-wallpapers/calculate}/Calculate Linux 14        | 0
- .../1-merge}/media-gfx/calculate-wallpapers/mate.xml                    | 0
- .../1-merge}/media-gfx/calculate-wallpapers/xfce/.calculate_directory   | 0
- .../1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux        | 0
- .../media-gfx/calculate-wallpapers/xfce}/Calculate Linux 11 Blue        | 0
- .../media-gfx/calculate-wallpapers/xfce}/Calculate Linux 11 Brown       | 0
- .../media-gfx/calculate-wallpapers/xfce}/Calculate Linux 12 Blue        | 0
- .../media-gfx/calculate-wallpapers/xfce}/Calculate Linux 12 Brown       | 0
- .../media-gfx/calculate-wallpapers/xfce}/Calculate Linux 13 Blue        | 0
- .../media-gfx/calculate-wallpapers/xfce}/Calculate Linux 13 Brown       | 0
- .../media-gfx/calculate-wallpapers/xfce}/Calculate Linux 13 Green       | 0
- .../media-gfx/calculate-wallpapers/xfce}/Calculate Linux 13 Magenta     | 0
- .../1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux 14     | 0
- .../3.3/3_ac_install_live/1-merge/sys-boot/grub/update-grub.new         | 2 +-
- profiles/templates/3.3/3_ac_install_live/Depends/dm-themes-calculate    | 1 +
- .../{2_ac_install_merge => 3_ac_install_live}/Depends/gnome-backgrounds | 0
- .../Depends/mate-session-manager                                        | 0
- .../3.3/{2_ac_install_merge => 3_ac_install_live}/Depends/xfdesktop     | 0
- 35 files changed, 3 insertions(+), 2 deletions(-)
- delete mode 100644 profiles/templates/3.3/2_ac_install_merge/mate-base/mate-desktop/.calculate_directory
- rename profiles/templates/3.3/{2_ac_install_merge => 3_ac_install_live/1-merge}/mate-base/.calculate_directory (100%)
- create mode 100644 profiles/templates/3.3/3_ac_install_live/1-merge/mate-base/mate-desktop/.calculate_directory
- rename profiles/templates/3.3/{2_ac_install_merge => 3_ac_install_live/1-merge}/mate-base/mate-desktop/glib-compile-schemas (100%)
- rename profiles/templates/3.3/{2_ac_install_merge => 3_ac_install_live/1-merge}/mate-base/mate-desktop/org.mate.background.gschema.xml (100%)
- rename profiles/templates/3.3/{2_ac_install_merge => 3_ac_install_live/1-merge}/media-gfx/calculate-wallpapers/.calculate_directory (100%)
- rename profiles/templates/3.3/{2_ac_install_merge => 3_ac_install_live/1-merge}/media-gfx/calculate-wallpapers/calculate.xml (100%)
- rename profiles/templates/3.3/{2_ac_install_merge => 3_ac_install_live/1-merge}/media-gfx/calculate-wallpapers/calculate/.calculate_directory (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/xfce => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/calculate}/Calculate Linux (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/xfce => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/calculate}/Calculate Linux 11 Blue (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/xfce => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/calculate}/Calculate Linux 11 Brown (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/xfce => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/calculate}/Calculate Linux 12 Blue (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/xfce => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/calculate}/Calculate Linux 12 Brown (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/xfce => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/calculate}/Calculate Linux 13 Blue (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/xfce => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/calculate}/Calculate Linux 13 Brown (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/xfce => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/calculate}/Calculate Linux 13 Green (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/xfce => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/calculate}/Calculate Linux 13 Magenta (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/xfce => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/calculate}/Calculate Linux 14 (100%)
- rename profiles/templates/3.3/{2_ac_install_merge => 3_ac_install_live/1-merge}/media-gfx/calculate-wallpapers/mate.xml (100%)
- rename profiles/templates/3.3/{2_ac_install_merge => 3_ac_install_live/1-merge}/media-gfx/calculate-wallpapers/xfce/.calculate_directory (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/calculate => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/calculate => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux 11 Blue (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/calculate => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux 11 Brown (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/calculate => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux 12 Blue (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/calculate => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux 12 Brown (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/calculate => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux 13 Blue (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/calculate => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux 13 Brown (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/calculate => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux 13 Green (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/calculate => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux 13 Magenta (100%)
- rename profiles/templates/3.3/{2_ac_install_merge/media-gfx/calculate-wallpapers/calculate => 3_ac_install_live/1-merge/media-gfx/calculate-wallpapers/xfce}/Calculate Linux 14 (100%)
- create mode 100644 profiles/templates/3.3/3_ac_install_live/Depends/dm-themes-calculate
- rename profiles/templates/3.3/{2_ac_install_merge => 3_ac_install_live}/Depends/gnome-backgrounds (100%)
- rename profiles/templates/3.3/{2_ac_install_merge => 3_ac_install_live}/Depends/mate-session-manager (100%)
- rename profiles/templates/3.3/{2_ac_install_merge => 3_ac_install_live}/Depends/xfdesktop (100%)
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Already up-to-date.
 *** syncing calculate
 *** synced calculate
  * Sync succeeded
 $ pmaint regen -t 2 calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_update-0.1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_client-0.2.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_update-0.1.2!!! 
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/steam-launcher-1.0.0.49-r3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_keystore-0.1.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_client-0.2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_update-0.1.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/steam-launcher-1.0.0.49-r4
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_update-0.1.2
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/light-locker-1.4.0-r2
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_update-0.1.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_keystore-0.1.3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/calculate-wallpapers-15
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/steam-launcher-1.0.0.49-r3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/calculate-wallpapers-14-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/dm-themes-calculate-13
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/calculate-wallpapers-15
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/dm-themes-calculate-15caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/dm-themes-calculate-14-r2
 
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/calculate-wallpapers-14-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/steam-launcher-1.0.0.49-r4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/dm-themes-calculate-13
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/gdm-themes-calculate-13caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/dm-themes-calculate-15
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/gfxboot-4.4.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/gdm-themes-calculate-13
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/gfxboot-4.4.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/gfxboot-themes-calculate-15
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/grub-splashes-calculate-14
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/grub-splashes-calculate-13
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/gfxboot-themes-calculate-15caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/dm-themes-calculate-14-r2
-
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/grub-splashes-calculate-15
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/kdm-themes-calculate-15
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/kdm-themes-calculate-14-r1!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/light-locker-1.4.0-r2
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/lightdm-themes-calculate-15caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/grub-splashes-calculate-14
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/grub-splashes-calculate-15
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/kdm-themes-calculate-14-r1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/kdm-themes-calculate-15
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/kdm-themes-calculate-13
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/lightdm-themes-calculate-14-r1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/lightdm-themes-calculate-14-r3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/lxdm-themes-calculate-13
 
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/lxdm-themes-calculate-13!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/lightdm-themes-calculate-14-r3
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/lightdm-themes-calculate-14-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/splash-themes-calculate-14
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/plymouth-themes-calculate-14-r4!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/splash-themes-calculate-13
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/syslinux-themes-calculate-13
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/lightdm-themes-calculate-15
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/plymouth-themes-calculate-15
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/splash-themes-calculate-13
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/plymouth-themes-calculate-14-r4
-
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/syslinux-themes-calculate-13
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/splash-themes-calculate-14caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/calcboot-4.07.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/syslinux-themes-calculate-14
-
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/calculate-icon-theme-14-r7
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/calculate-icon-theme-13-r3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/calculate-xcursors-13-r1
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/calcboot-3.86.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/elementary-icon-theme-2.7.1-r4caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/kdm-themes-calculate-13caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/elementary-icon-theme-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/claws-mail-theme-calculate-20120129
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/syslinux-themes-calculate-14
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/calcboot-4.07.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/calculate-icon-theme-13-r3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/calculate-icon-theme-14-r7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/elementary-icon-theme-2.7.1-r4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/calculate-xcursors-13-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/calculate-xcursors-14caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/elementary-icon-theme-9999
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/calculate-xcursors-14
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/media-player-info-17-r1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/wgetpaste-2.25-r4
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/wgetpaste-2.22-r1
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-proxy/squidguard-digincore-20111116
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/xorg-meta-7.4-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/wgetpaste-2.25-r4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/media-player-info-17-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-proxy/squidguard-digincore-20111116
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-proxy/squidguard-shallalist-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-dicts/stardict-calculate-ru-1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-arch/unzip-6.0-r10
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-proxy/squidguard-shallalist-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/shim-signed-0.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-dicts/stardict-calculate-ru-1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: xfce-extra/xfce4-power-manager-1.2.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/shim-signed-0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-plugins/chrome-ublock-0.9.8.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-assemble-2.2.32-r9caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-assemble-2.2.9999
+
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: xfce-extra/xfce4-power-manager-1.2.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-builder-2.2.9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/claws-mail-theme-calculate-20120129
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-builder-2.2.32-r8
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-assemble-2.2.32-r9
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-plugins/chrome-ublock-0.9.8.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-assemble-2.2.9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-client-3.2.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-builder-2.2.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-console-gui-3.2.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-console-3.2.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-client-3.2.9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-console-gui-3.2.9999
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-console-3.2.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-core-3.2.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-desktop-3.2.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-lib-2.1.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-lib-2.1.11-r5
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-lib-2.2.32-r11
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-i18n-2.2.32
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-install-3.2.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-lib-2.2.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-lib-2.2.32-r12
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-toolkit-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-toolkit-0.1.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-update-3.2.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-lib-2.2.32-r12caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-lib-2.1.11-r5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-install-3.2.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-i18n-2.2.32
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-lib-2.2.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-server-2.1.9999
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-server-2.1.16-r21
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-utils-2.2.9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-server-2.1.9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-toolkit-0.1.5!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-utils-3.3.3.7
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-toolkit-0.1.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-toolkit-0.1.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-toolkit-0.1.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-toolkit-0.1.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-toolkit-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-update-3.2.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-utils-2.2.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-utils-3.3.3.7
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-utils-3.3.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-utils-2.2.32-r28
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-utils-2.2.32-r30
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-utils-3.3.9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-utils-3.3.3.8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dns/bind-9.10.2_p3-r1
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/keyexec-0.1.2-r4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pymilter-0.9.3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cherrypy-3.2.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/mailx-1-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-utils-2.2.32-r30caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/calculate-utils-3.3.3.8
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/linux-sources-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/m2crypto-0.21.1-r2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cherrypy-3.2.0-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/soaplib-1.0.0-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/keyexec-0.1.2-r4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cherrypy-3.2.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dns/bind-9.10.2_p3-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cherrypy-3.2.0-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/m2crypto-0.21.1-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/soaplib-1.0.0-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pymilter-0.9.3
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/mailx-1-r1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/linux-sources-1
 
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/modutils-0-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-cdr/dumpet-2.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/modem-manager-gui-0.0.17.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/smtube-15.5.10caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/modemmanager-1.2.0-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/modem-manager-gui-0.0.17.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-cdr/dumpet-2.1
 
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/hplip-plugin-3.15.6
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/hplip-plugin-3.14.10
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/modem-manager-gui-0.0.17
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/hplip-plugin-3.15.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/smtube-15.5.17
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/hplip-plugin-3.15.4caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/cnijfilter-3.80
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/modemmanager-1.2.0-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/smtube-15.5.17
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/smtube-15.5.10
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/cnijfilter-3.80
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/hplip-plugin-3.14.10
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/hplip-plugin-3.15.6
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/hplip-plugin-3.15.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/hplip-plugin-3.15.4!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/samsung-unified-linux-driver-1.01
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/samsung-unified-linux-driver-1.01
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/samsung-unified-linux-driver-1.05
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/calculate-sources-3.18.19
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/calculate-sources-3.18.14-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/calculate-sources-3.12.45
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/calculate-sources-3.14.49
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/calculate-sources-4.1.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/calculate-sources-3.18.14-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/samsung-unified-linux-driver-1.05
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/calculate-sources-3.12.45
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/calculate-sources-3.18.19
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/calculate-sources-4.0.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/calculate-sources-3.14.49
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/calculate-sources-4.1.4
  * Cache regenerated successfully
