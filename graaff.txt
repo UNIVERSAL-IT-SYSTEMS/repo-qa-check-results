@@ -12,7 +12,15 @@
  'status': 'official'}
 $ pmaint sync graaff
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/graaff
+   b329181..f26c7d3  master     -> origin/master
+Updating b329181..f26c7d3
+Fast-forward
+ dev-ruby/rubocop/ChangeLog             |  5 +++++
+ dev-ruby/rubocop/Manifest              |  1 +
+ dev-ruby/rubocop/rubocop-0.33.0.ebuild | 38 ++++++++++++++++++++++++++++++++++
+ 3 files changed, 44 insertions(+)
+ create mode 100644 dev-ruby/rubocop/rubocop-0.33.0.ebuild
 *** syncing graaff
 *** synced graaff
  * Sync succeeded

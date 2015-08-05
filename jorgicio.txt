@@ -22,10 +22,13 @@ Already up-to-date.
 $ pmaint regen -t 2 jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
@@ -34,24 +37,21 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f3c393700a8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fce1ea7ee68> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

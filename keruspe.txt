@@ -26,13 +26,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use_enable' function invoked by x11-misc/gpaste-2.2.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use_enable' function invoked by x11-misc/gpaste-2.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by x11-misc/gpaste-2.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use_enable' function invoked by x11-misc/gpaste-2.2.1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by x11-misc/gpaste-2.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by x11-misc/gpaste-2.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by x11-misc/gpaste-2.5 during metadata regeneration.
@@ -46,7 +46,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7efec4d87418> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f0906d72418> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -125,5 +125,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

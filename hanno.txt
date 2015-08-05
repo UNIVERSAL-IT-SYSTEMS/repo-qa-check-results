@@ -18,43 +18,43 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: dev-db/mysql-5.4.3_beta failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '186' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 
 !!! ERROR: dev-db/mysql-5.5.1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '186' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '161' 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
 !!!        mysql-5.4.3_beta.ebuild, line   8:  Called inherit 'toolchain-funcs' 'mysql'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for mysql failed
 
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '161' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
 !!!             mysql-5.5.1.ebuild, line  10:  Called inherit 'toolchain-funcs' 'mysql'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for mysql failed
 
-!!! caught exception inherit requires an unknown eclass, mysql cannot be found while processing ebuild src: dev-db/mysql-5.5.1
 !!! caught exception inherit requires an unknown eclass, mysql cannot be found while processing ebuild src: dev-db/mysql-5.4.3_beta
+!!! caught exception inherit requires an unknown eclass, mysql cannot be found while processing ebuild src: dev-db/mysql-5.5.1
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f7669610208> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fa9a2cc6208> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -133,7 +133,6 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f766966afc8> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f766966aec0> ignored
-Sandboxed process killed by signal: Broken pipe
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fa9a2cc6100> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fa9a2d20fc8> ignored
  * Cache regen failed with 246
