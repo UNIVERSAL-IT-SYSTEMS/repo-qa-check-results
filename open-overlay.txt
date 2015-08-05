@@ -18,15 +18,15 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use_enable' function invoked by mate-extra/caja-dropbox-1.10.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-9999 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-6.0.0_alpha20150719 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-6.0.0_alpha20150719 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fb852c14260> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f81c0c5ad08> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -105,6 +105,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fb852c14050> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fb852c6be10> ignored
  * Cache regen failed with 246

@@ -18,90 +18,86 @@ $ pmaint regen -t 2 moonrise
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
-!!! ERROR: app-editors/gvim-7.3.125 failed.
-
-!!! ERROR: app-editors/vim-core-7.3.161 failed.
-
 !!! ERROR: app-editors/gvim-7.3.161 failed.
 
 !!! ERROR: app-editors/vim-core-7.3.125 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+
+!!! ERROR: app-editors/gvim-7.3.125 failed.
 
 !!! ERROR: app-editors/vim-7.3.161 failed.
+
+!!! ERROR: app-editors/vim-core-7.3.161 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: app-editors/vim-7.3.125 failed.
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '201' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '201' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
-!!!        vim-core-7.3.125.ebuild, line   6:  Called inherit 'vim'
-!!!             vim-7.3.125.ebuild, line   6:  Called inherit 'vim'
 !!!            gvim-7.3.161.ebuild, line   6:  Called inherit 'vim'
-!!!        vim-core-7.3.161.ebuild, line   6:  Called inherit 'vim'
-!!!            gvim-7.3.125.ebuild, line   6:  Called inherit 'vim'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
+!!!        vim-core-7.3.125.ebuild, line   6:  Called inherit 'vim'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vim failed
+
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vim failed
+
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
 !!!             vim-7.3.161.ebuild, line   6:  Called inherit 'vim'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
+!!!        vim-core-7.3.161.ebuild, line   6:  Called inherit 'vim'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
-
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!            gvim-7.3.125.ebuild, line   6:  Called inherit 'vim'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
@@ -111,22 +107,24 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for vim failed
 
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vim failed
 
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
+!!!             vim-7.3.125.ebuild, line   6:  Called inherit 'vim'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vim failed
 
+!!! !!! !!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-7.3.161
+caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/gvim-7.3.161
+caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3.125
+caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/gvim-7.3.125
 !!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3.161
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/gvim-7.3.161
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/gvim-7.3.125
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3.125
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-7.3.161
 !!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-7.3.125
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-misc/lightdm-0.3.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-misc/lightdm-0.2.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
@@ -135,149 +133,45 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-misc/bashrun-0.16.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-misc/lightdm-0.3.4
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-misc/lightdm-0.3.2
 Error running an operation:
  Unhandled exception in regen_cache
  app-backup/qt4-fsarchiver-0.6.19-1
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fb3aa44f578> ignored
-Traceback (most recent call last):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-TimeoutError
-Error in atexit._run_exitfuncs:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
-    return functor(*args, **kwds)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-TimeoutError
-
-!!! ERROR: x11-misc/lightdm-0.2.3 failed.
-
-!!! ERROR: x11-misc/lightdm-0.3.2 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-
-!!! ERROR: x11-misc/lightdm-0.3.4 failed.
 
 !!! ERROR: x11-misc/lightdm-0.3.0 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-Error in sys.exitfunc:
-ERROR pkgcore: 
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
-    return functor(*args, **kwds)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-pkgcore.ebuild.processor.TimeoutError
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+sandbox:stop  caught signal 15 in pid 21770
+Sandboxed process killed by signal: Terminated
+
+!!! ERROR: x11-misc/lightdm-0.2.3 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '178' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+sandbox:stop  caught signal 15 in pid 19035
+Sandboxed process killed by signal: Terminated
+
+!!! ERROR: x11-misc/lightdm-0.3.2 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+sandbox:stop  caught signal 15 in pid 17533
+Sandboxed process killed by signal: Terminated
+
+!!! ERROR: x11-misc/lightdm-0.3.4 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '178' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '178' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '178' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '178' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.2.3.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.2.3.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.2.3.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.4.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.0.ebuild'
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fb3aa44f260> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fb3aa44f050> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fb3aa4a7f18> ignored
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.2.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.4.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.0.ebuild'
-!!!           lightdm-0.2.3.ebuild, line   6:  Called inherit 'autotools' 'eutils' 'pam'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.2.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.0.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.4.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.2.ebuild'
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fb3aa4a7e10> ignored
-!!!           lightdm-0.3.4.ebuild, line   6:  Called inherit 'autotools' 'eutils' 'pam'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass autotools
-
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fb3aa4a77e0> ignored
-!!!           lightdm-0.3.0.ebuild, line   6:  Called inherit 'autotools' 'eutils' 'pam'
-!!!           lightdm-0.3.2.ebuild, line   6:  Called inherit 'autotools' 'eutils' 'pam'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass autotools
-
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fb3aa4a7260> ignored
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass autotools
-
-Sandboxed process killed by signal: Broken pipe
+sandbox:stop  caught signal 15 in pid 15829
+Sandboxed process killed by signal: Terminated
+sandbox:stop  caught signal 15 in pid 11938
+Sandboxed process killed by signal: Terminated
  * Cache regen failed with 246
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass autotools
-
-Sandboxed process killed by signal: Broken pipe

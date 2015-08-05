@@ -39,12 +39,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 15493
+sandbox:stop  caught signal 15 in pid 6538
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/starcluster-9999
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7febcd56f418> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fca41224418> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

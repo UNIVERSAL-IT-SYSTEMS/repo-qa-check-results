@@ -12,25 +12,16 @@
  'status': 'official'}
 $ pmaint sync maekke
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing maekke
-*** failed syncing maekke
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync maekke
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/lootr' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/lootr', named 'lootr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/maekke'...
+Already up-to-date.
 *** syncing maekke
 *** synced maekke
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 maekke
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fc690719368> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f773f8d6470> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
