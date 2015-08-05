@@ -9,21 +9,10 @@
  'status': 'unofficial'}
 $ pmaint sync roslin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: unable to access 'https://gitlab.com/roslin-uberlay/roslin.git/': The requested URL returned error: 502
-*** syncing roslin
-*** failed syncing roslin
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync roslin
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/n900' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/anaximander' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/anaximander', named 'anaximander', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/roslin'...
+Already up-to-date.
 *** syncing roslin
 *** synced roslin
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 roslin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

@@ -9,23 +9,16 @@
  'status': 'unofficial'}
 $ pmaint sync nightmare
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: unable to access 'https://gitlab.com/r3lgar/nightmare.git/': The requested URL returned error: 502
-*** syncing nightmare
-*** failed syncing nightmare
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync nightmare
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/nightmare'...
+Already up-to-date.
 *** syncing nightmare
 *** synced nightmare
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 nightmare
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fe5fb332578> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f1e167ece68> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

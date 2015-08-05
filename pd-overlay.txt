@@ -8,6 +8,10 @@
              'uri': 'https://pd-overlay.svn.sourceforge.net/svnroot/pd-overlay/pd-overlay'}],
  'status': 'unofficial'}
 $ pmaint sync pd-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/n8x0' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/n8x0', named 'n8x0', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/n900' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Updating '.':
 At revision 603.
@@ -23,6 +27,4 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by puredata-externals/soundhack-0.0.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-Error running an operation:
- Unhandled exception in regen_cache
- * Cache regen failed with 246
+ * Cache regenerated successfully

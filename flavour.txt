@@ -27,9 +27,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '168' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/flavour/net-misc/epoptes/epoptes-9999.ebuild'
-!!! caught exception inherit requires an unknown eclass, twisted cannot be found while processing ebuild src: net-misc/epoptes-9999
-Error running an operation:
- Unhandled exception in regen_cache
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/flavour/net-misc/epoptes/epoptes-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/flavour/net-misc/epoptes/epoptes-9999.ebuild'
 !!!            epoptes-9999.ebuild, line  10:  Called inherit 'bzr' 'distutils' 'eutils' 'twisted'
@@ -38,9 +35,10 @@ Error running an operation:
 !!! The die message:
 !!!  inherit for twisted failed
 
-sandbox:stop  caught signal 15 in pid 23199
-Sandboxed process killed by signal: Terminated
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fefb07c40a8> ignored
+!!! caught exception inherit requires an unknown eclass, twisted cannot be found while processing ebuild src: net-misc/epoptes-9999
+Error running an operation:
+ Unhandled exception in regen_cache
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fd99b3ca788> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

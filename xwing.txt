@@ -25,7 +25,7 @@ Total file size: 32 bytes
 Total transferred file size: 32 bytes
 Literal data: 32 bytes
 Matched data: 0 bytes
-File list size: 46
+File list size: 47
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 85
@@ -70,7 +70,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f9df900a158> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f1af53d6940> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

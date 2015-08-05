@@ -14,23 +14,10 @@
  'status': 'unofficial'}
 $ pmaint sync andy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing andy
-*** failed syncing andy
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync andy
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/nightmare' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/n900' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/anaximander' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/anaximander', named 'anaximander', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/andy'...
+Already up-to-date.
 *** syncing andy
 *** synced andy
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 andy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -41,7 +28,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 /home/mgorny/repos/andy/dev-embedded/jlink/jlink-4.84a.ebuild: line 9: usex: command not found
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7efcc29e60a8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f77c401d730> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

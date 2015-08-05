@@ -202,7 +202,7 @@ Total file size: 5.13M bytes
 Total transferred file size: 394.94K bytes
 Literal data: 394.94K bytes
 Matched data: 0 bytes
-File list size: 50.33K
+File list size: 46.82K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 3.16K
@@ -221,7 +221,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f10295d8cb0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f11f6248f70> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
