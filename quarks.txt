@@ -18,47 +18,129 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: perl-gcpan/Parse-Win32Registry-0.60 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 
 !!! ERROR: app-admin/ocsinventory-agent-2.0.5 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!!                ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!                ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '235' 'depend'
 !!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '237' 'depend'
-!!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
+!!!                ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '235' 'depend'
 !!!                ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
+!!!                ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 http://launchpad.net/cairo-dock-core/2.4/2.4.0/+download/cairo-dock-2.4.0~2.tar.gz
-!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
+!!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
+!!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
 !!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!   ocsinventory-agent-2.0.5.ebuild, line   7:  Called inherit 'perl-module'
+!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
 !!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!   Parse-Win32Registry-0.60.ebuild, line   9:  Called inherit 'perl-module'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ocsinventory-agent-2.0.5.ebuild, line   7:  Called inherit 'perl-module'
 !!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-admin/ocsinventory-agent-2.0.5
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/Parse-Win32Registry-0.60
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-admin/ocsinventory-agent-2.0.5
 Error running an operation:
  Unhandled exception in regen_cache
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fb9ef94c4c8> ignored
+Traceback (most recent call last):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+    return functor(*args, **kwds)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
+    obj.__finalizer__()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
+    if self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in sys.exitfunc:
+ERROR pkgcore: 
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
+    obj.__finalizer__()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
+    if self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+pkgcore.ebuild.processor.TimeoutError
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fb9ef94c1b0> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fb9ef9a6e68> ignored
+Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

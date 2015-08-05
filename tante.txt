@@ -31,10 +31,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
+
+!!! ERROR: media-video/devede-3.16.9 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lang/nodejs-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-video/devede-3.16.9
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f83d6796470> ignored
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '181' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f944c39dc00> ignored
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/tante/media-video/devede/devede-3.16.9.ebuild'
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -74,6 +85,8 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 TimeoutError
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/tante/media-video/devede/devede-3.16.9.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/tante/media-video/devede/devede-3.16.9.ebuild'
 Error in sys.exitfunc:
 ERROR pkgcore: 
 Traceback (most recent call last):
@@ -98,4 +111,11 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
+!!!           devede-3.16.9.ebuild, line   8:  Called inherit 'multilib' 'python'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'multilib'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'alive' for eclass multilib
+
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f944c39d9f0> ignored
  * Cache regen failed with 246
