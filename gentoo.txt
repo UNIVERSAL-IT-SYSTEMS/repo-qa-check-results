@@ -11,29 +11,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   d6521f8..1b8b997  master     -> origin/master
-Updating d6521f8..1b8b997
-Fast-forward
- dev-python/fabric/ChangeLog                        |  8 +++++-
- dev-python/fabric/Manifest                         | 15 ++++++----
- .../{fabric-1.10.0.ebuild => fabric-1.10.2.ebuild} | 16 ++++-------
- metadata/dtd/timestamp.chk                         |  2 +-
- metadata/glsa/timestamp.chk                        |  2 +-
- metadata/md5-cache/dev-python/fabric-1.10.0        | 14 ----------
- metadata/md5-cache/dev-python/fabric-1.10.2        | 14 ++++++++++
- metadata/md5-cache/sys-apps/coreutils-8.24         |  4 +--
- metadata/news/timestamp.chk                        |  2 +-
- metadata/timestamp                                 |  2 +-
- metadata/timestamp.chk                             |  2 +-
- metadata/timestamp.x                               |  2 +-
- sys-apps/coreutils/ChangeLog                       |  5 +++-
- sys-apps/coreutils/Manifest                        | 32 +++++++++++-----------
- sys-apps/coreutils/coreutils-8.24.ebuild           |  4 +--
- 15 files changed, 65 insertions(+), 59 deletions(-)
- rename dev-python/fabric/{fabric-1.10.0.ebuild => fabric-1.10.2.ebuild} (83%)
- delete mode 100644 metadata/md5-cache/dev-python/fabric-1.10.0
- create mode 100644 metadata/md5-cache/dev-python/fabric-1.10.2
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

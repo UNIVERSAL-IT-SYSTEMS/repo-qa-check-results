@@ -14,7 +14,6 @@
  'status': 'unofficial'}
 $ pmaint sync AzP
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing AzP
 *** synced AzP
@@ -22,6 +21,6 @@ Already up-to-date.
 $ pmaint regen -t 2 AzP
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 14939
+sandbox:stop  caught signal 15 in pid 14418
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully
