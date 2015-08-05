@@ -30,7 +30,14 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/flavour/net-misc/epoptes/epoptes-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/flavour/net-misc/epoptes/epoptes-9999.ebuild'
 !!!            epoptes-9999.ebuild, line  10:  Called inherit 'bzr' 'distutils' 'eutils' 'twisted'
-sandbox:stop  caught signal 15 in pid 28404
-Sandboxed process killed by signal: Terminated
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'twisted'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for twisted failed
+
 !!! caught exception inherit requires an unknown eclass, twisted cannot be found while processing ebuild src: net-misc/epoptes-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-misc/meresco-harvester-6.1
+sandbox:stop  caught signal 15 in pid 9231
+Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully
