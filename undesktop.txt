@@ -18,10 +18,19 @@
  u'supported': True}
 $ pmaint sync undesktop
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to access 'https://github.com/undesktop/undesktop-overlay.git/': Unknown SSL protocol error in connection to github.com:443 
+*** syncing undesktop
+*** failed syncing undesktop
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync undesktop
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/netcrave' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/netcrave', named 'netcrave', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/undesktop'...
 *** syncing undesktop
 *** synced undesktop
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 undesktop
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

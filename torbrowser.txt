@@ -21,17 +21,48 @@
  u'supported': True}
 $ pmaint sync torbrowser
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to connect to github.com:
+github.com[0: 192.30.252.131]: errno=Connection timed out
+
+*** syncing torbrowser
+*** failed syncing torbrowser
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync torbrowser
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/netcrave' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/netcrave', named 'netcrave', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/okupy' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/okupy', named 'okupy', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/wavilen' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/wavilen', named 'wavilen', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/vayerx' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/vayerx', named 'vayerx', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/posativ' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/posativ', named 'posativ', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/tristelune' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/tristelune', named 'tristelune', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/wichtounet' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/wichtounet', named 'wichtounet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/palemoon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/palemoon', named 'palemoon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nginx-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nginx-overlay', named 'nginx-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pypy_alice' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pypy_alice', named 'pypy_alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/y2kbadbug' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/y2kbadbug', named 'y2kbadbug', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/torbrowser'...
 *** syncing torbrowser
 *** synced torbrowser
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 torbrowser
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-launcher-0.1.9
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-31.8.0_p453
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-launcher-0.2.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/mat-0.5.3
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-launcher-0.1.9
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/mat-0.5.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/parcimonie_sh-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-31.8.0_p453
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/tor-monitor-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-launcher-0.2.0
  * Cache regenerated successfully

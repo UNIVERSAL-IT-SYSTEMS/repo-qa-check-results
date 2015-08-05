@@ -15,31 +15,48 @@
  u'supported': True}
 $ pmaint sync zoobab
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to access 'https://github.com/zoobab/overlay4gentoo.git/': Unknown SSL protocol error in connection to github.com:443 
+*** syncing zoobab
+*** failed syncing zoobab
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync zoobab
+WARNING:pkgcore:repository at location '/home/mgorny/repos/netcrave' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/netcrave', named 'netcrave', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/petkovich' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/petkovich', named 'petkovich', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/okupy' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/okupy', named 'okupy', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/undesktop' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/undesktop', named 'undesktop', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/posativ' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/posativ', named 'posativ', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/zoobab'...
 *** syncing zoobab
 *** synced zoobab
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 zoobab
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/uwfirmforce-0.0.7
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/sunxitools-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/zjtag-1.8
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/zjtag-1.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/hellozoo-0.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/sunxitools-9999
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-voip/pcapsipdump-0.2
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/avrdude-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/hellozoo-0.1
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-voip/restund-0.4.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-voip/sipsak-0.9.6_p1-r2
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-backup/vzdump-1.2-r1
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-voip/re-0.4.0
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/babeld-1.2.0!!! 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-backup/vzdump-1.2-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-voip/restund-0.4.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-voip/sipsak-0.9.6_p1-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/babeld-1.2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/babeld-1.3.4
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.0.25-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.0.24
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.0.24
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.0.25-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.0.25-r2
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.1.0-r3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.0.26
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/sslh-1.15
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/sslh-1.16
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.0.26
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.1.0-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/sslh-1.15
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.1.0-r3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/sslh-1.16
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/uwfirmforce-0.0.7
  * Cache regenerated successfully
