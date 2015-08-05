@@ -16,6 +16,7 @@
 $ pmaint sync hacking-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 receiving incremental file list
+metadata/md5-cache/
 metadata/md5-cache/app-admin/
 metadata/md5-cache/app-admin/ceph-deploy-1.2.3
 metadata/md5-cache/app-admin/mcollective-client-2.3.2-r1
@@ -177,9 +178,30 @@ metadata/md5-cache/www-apps/redmine-2.4.7
 metadata/md5-cache/www-apps/redmine-2.5.3
 metadata/md5-cache/www-apps/redmine-2.6.0
 metadata/md5-cache/www-apps/redmine-2.6.0.13525
+deleting metadata/md5-cache/virtual/udev-200
+deleting metadata/md5-cache/virtual/libudev-208
+deleting metadata/md5-cache/virtual/
+deleting metadata/md5-cache/sys-fs/udev-204
+deleting metadata/md5-cache/sys-fs/
+deleting metadata/md5-cache/net-analyzer/sysappl-snmp-mib-0.1
+deleting metadata/md5-cache/net-analyzer/snmpd-smartctl-connector-0.4
+deleting metadata/md5-cache/net-analyzer/snmpd-smartctl-connector-0.3
+deleting metadata/md5-cache/net-analyzer/snmpd-smartctl-connector-0.2
+deleting metadata/md5-cache/net-analyzer/snmpd-smartctl-connector-0.1
+deleting metadata/md5-cache/net-analyzer/snmpd-mdraid-connector-0.2
+deleting metadata/md5-cache/net-analyzer/snmpd-mdraid-connector-0.1
+deleting metadata/md5-cache/net-analyzer/smartctl-snmp-mib-0.2
+deleting metadata/md5-cache/net-analyzer/smartctl-snmp-mib-0.1
+deleting metadata/md5-cache/net-analyzer/ntp-snmp-mib-0.1
+deleting metadata/md5-cache/net-analyzer/mdraid-snmp-mib-0.1
+deleting metadata/md5-cache/net-analyzer/hacking-snmp-mib-0.1
+deleting metadata/md5-cache/net-analyzer/
+deleting metadata/md5-cache/app-portage/auto-patch-portage-0.4
+deleting metadata/md5-cache/app-portage/auto-patch-portage-0.3
+deleting metadata/md5-cache/app-portage/
 
 Number of files: 1,853 (reg: 1,558, dir: 295)
-Number of created files: 143 (reg: 143)
+Number of created files: 0
 Number of regular files transferred: 143
 Total file size: 5.13M bytes
 Total transferred file size: 394.94K bytes
@@ -188,10 +210,10 @@ Matched data: 0 bytes
 File list size: 47.43K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 3.15K
+Total bytes sent: 3.16K
 Total bytes received: 196.36K
 
-sent 3.15K bytes  received 196.36K bytes  57.00K bytes/sec
+sent 3.16K bytes  received 196.36K bytes  79.81K bytes/sec
 total size is 5.13M  speedup is 25.73
 *** syncing hacking-gentoo
 *** synced hacking-gentoo

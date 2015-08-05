@@ -11,7 +11,6 @@
  u'sources': [(u'rsync://roverlay.dev.gentoo.org/roverlay', u'Rsync', None)],
  u'status': u'official',
  u'supported': True}
- * Adding new repository
 $ pmaint sync R_Overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 rsync error: timeout waiting for daemon connection (code 35) at socket.c(281) [Receiver=3.1.1]

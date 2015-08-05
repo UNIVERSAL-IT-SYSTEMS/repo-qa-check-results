@@ -22,54 +22,104 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: media-plugins/xmms-kde-3.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '186' 'depend'
 
 !!! ERROR: media-plugins/xmms-outpost-0.15 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '211' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
-!!!            xmms-kde-3.1.ebuild, line   7:  Called inherit 'kde' 'eutils'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
-!!!       xmms-outpost-0.15.ebuild, line   7:  Called inherit 'kde' 'eutils'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/eclass/kde.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/graveyard/eclass/kde.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/eclass/kde.eclass'
-!!!                     kde.eclass, line  18:  Called inherit 'base' 'eutils' 'kde-functions' 'flag-o-matic' 'libtool' 'autotools'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/graveyard/eclass/kde.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde-functions'
-!!!                     kde.eclass, line  18:  Called inherit 'base' 'eutils' 'kde-functions' 'flag-o-matic' 'libtool' 'autotools'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for kde-functions failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde-functions'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for kde-functions failed
-
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!! caught exception inherit requires an unknown eclass, kde-functions cannot be found while processing ebuild src: media-plugins/xmms-kde-3.1
 !!! caught exception inherit requires an unknown eclass, kde-functions cannot be found while processing ebuild src: media-plugins/xmms-outpost-0.15
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/xmms-mad-0.8
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/xmms-sid-0.7.4
-sandbox:stop  caught signal 15 in pid 7772
+Error running an operation:
+ Unhandled exception in regen_cache
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '186' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '211' 'depend'
+sandbox:stop  caught signal 15 in pid 14341
 Sandboxed process killed by signal: Terminated
-sandbox:stop  caught signal 15 in pid 4377
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
+sandbox:stop  caught signal 15 in pid 12829
+!!!       xmms-outpost-0.15.ebuild, line   7:  Called inherit 'kde' 'eutils'
 Sandboxed process killed by signal: Terminated
- * Cache regenerated successfully
+!!!            xmms-kde-3.1.ebuild, line   7:  Called inherit 'kde' 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/eclass/kde.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/graveyard/eclass/kde.eclass'
+!!!                     kde.eclass, line  18:  Called inherit 'base' 'eutils' 'kde-functions' 'flag-o-matic' 'libtool' 'autotools'
+sandbox:stop  caught signal 15 in pid 8405
+Sandboxed process killed by signal: Terminated
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f4e1ebd3e68> ignored
+Traceback (most recent call last):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+    return functor(*args, **kwds)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in sys.exitfunc:
+ERROR pkgcore: 
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+    return functor(*args, **kwds)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+pkgcore.ebuild.processor.TimeoutError
+ * Cache regen failed with 246

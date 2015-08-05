@@ -17,7 +17,29 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/gentoo/gentoo-portage-rsync-mirror
+   ebe18f6..f74c0cc  master     -> origin/master
+Updating ebe18f6..f74c0cc
+Fast-forward
+ app-emulation/qemu/ChangeLog               |  5 ++++-
+ app-emulation/qemu/Manifest                | 30 ++++++++++++++---------------
+ app-emulation/qemu/qemu-9999.ebuild        | 31 ++++++++++++------------------
+ dev-python/utmp/ChangeLog                  |  5 ++++-
+ dev-python/utmp/Manifest                   | 26 ++-----------------------
+ dev-python/utmp/utmp-0.4.ebuild            |  6 ++++--
+ metadata/dtd/timestamp.chk                 |  2 +-
+ metadata/glsa/timestamp.chk                |  2 +-
+ metadata/md5-cache/app-emulation/qemu-9999 |  2 +-
+ metadata/md5-cache/dev-python/utmp-0.4     |  6 +++---
+ metadata/md5-cache/sys-fs/xfsprogs-3.2.4   |  4 ++--
+ metadata/news/timestamp.chk                |  2 +-
+ metadata/timestamp                         |  2 +-
+ metadata/timestamp.chk                     |  2 +-
+ metadata/timestamp.x                       |  2 +-
+ sys-fs/xfsprogs/ChangeLog                  |  5 ++++-
+ sys-fs/xfsprogs/Manifest                   | 14 ++++++--------
+ sys-fs/xfsprogs/xfsprogs-3.2.4.ebuild      |  4 ++--
+ 18 files changed, 65 insertions(+), 85 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
