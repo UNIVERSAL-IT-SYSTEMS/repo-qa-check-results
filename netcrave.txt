@@ -22,36 +22,89 @@ Already up-to-date.
 $ pmaint regen -t 2 netcrave
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/yabause-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/uae-0.8.29-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/libmwaw-0.1.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/darling-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/libmwaw-0.2.0
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/libmwaw-0.3.1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/libmwaw-0.3.3
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/libmwaw-0.3.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/florence-0.6.3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/libpagemaker-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/atduck-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnustep-base/gnustep-base-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnustep-base/gnustep-make-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnustep-base/gnustep-corebase-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/darling-fuse-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/amarok-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/cadence-9999!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libblocksruntime-9999
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/s3fs-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libdispatch-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libkqueue-2.0.1
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libpthread_workqueue-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kpatch-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/riak-2.0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-irc/anope-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-irc/unrealircd-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-electronics/minimodem-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/libreoffice-9999-r2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/s3cmd-9999
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/kgraft-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/mkinitcpio-9999
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnustep-base/libobjc2-9999
- * Cache regenerated successfully
+Error running an operation:
+ Unhandled exception in regen_cache
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fbaef9f4418> ignored
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+    return functor(*args, **kwds)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
+    obj.__finalizer__()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
+    if self.is_alive:
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in sys.exitfunc:
+ERROR pkgcore: 
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
+    obj.__finalizer__()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
+    if self.is_alive:
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+pkgcore.ebuild.processor.TimeoutError
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fbaefa4efc8> ignored
+Sandboxed process killed by signal: Broken pipe
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fbaefa4e680> ignored
+Sandboxed process killed by signal: Broken pipe
+ * Cache regen failed with 246

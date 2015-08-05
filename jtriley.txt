@@ -24,47 +24,190 @@ Already up-to-date.
 $ pmaint regen -t 2 jtriley
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/cmake-2.8.12.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-sdk-6.0.37
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vmware-modules-279.2-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/g15daemon-1.9.5.3-r7
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vagrant-bin-1.6.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/julia-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/phatch-0.2.7.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/g15daemon-1.9.5.3-r8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/gizmod-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/g15daemon-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/key-mon-1.17
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/nixnote-1.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/awesome-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lua/lunatic-python-9999
 
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/dguitar-bin-0.5.8
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-plugins/fullscreenhack-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-benchmarks/autobench-2.1.2
-!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/hal-flash-0.3.0!!! !!! !!! 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/hipchat-2.2.1309
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-chemistry/vmd-1.9.1-r2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/et-sdl-sound-29
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/PyHesiod-0.2.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/ctypeslib-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/iptools-0.6.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/java2python-0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/line_profiler-1.0_beta3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cx_freeze-4.3.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/parsedatetime-0.8.7
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pycuda-2014.1
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/starcluster-0.95.5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/starcluster-0.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/scp-0.7.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/techtv-1.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/synoptic-0.91.5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pymbolic-0.91
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pysmell-0.7.3
+!!! ERROR: dev-lua/lunatic-python-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '203' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pywapi-0.2.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/stopwatch-0.3.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/smtube-1.2.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/smtube-1.8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-fs/openafs-kernel-1.6.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-fs/openafs-1.6.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/perl-LCDd-0.03
- * Cache regenerated successfully
+!!! ERROR: app-misc/g15daemon-1.9.5.3-r8 failed.
+
+!!! ERROR: app-misc/g15daemon-1.9.5.3-r7 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: app-misc/g15daemon-9999 failed.
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/dev-lua/lunatic-python/lunatic-python-9999.ebuild'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/dev-lua/lunatic-python/lunatic-python-9999.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/dev-lua/lunatic-python/lunatic-python-9999.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '206' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '206' 'depend'
+!!!     lunatic-python-9999.ebuild, line   8:  Called inherit 'git' 'multilib' 'toolchain-funcs' 'flag-o-matic' 'eutils'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+
+!!! ERROR: media-sound/dguitar-bin-0.5.8 failed.
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '178' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-9999.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '205' 'depend'
+!!!    g15daemon-1.9.5.3-r8.ebuild, line  10:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base'
+!!!    g15daemon-1.9.5.3-r7.ebuild, line  10:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-9999.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/media-sound/dguitar-bin/dguitar-bin-0.5.8.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-9999.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
+!!!          g15daemon-9999.ebuild, line  12:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base' 'subversion' 'autotools'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/media-sound/dguitar-bin/dguitar-bin-0.5.8.ebuild'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/media-sound/dguitar-bin/dguitar-bin-0.5.8.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!       dguitar-bin-0.5.8.ebuild, line   5:  Called inherit 'eutils' 'versionator'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 191' for eclass eutils
+
+received unknown com: export CATEGORY='dev-python' PR=r0 PVR='0.2' PV='0.2' EBUILD='/home/mgorny/repos/jtriley/dev-python/java2python/java2python-0.2.ebuild' P='java2python-0.2' PF='java2python-0.2' PN=java2pythonpath
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lua/lunatic-python-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-sound/dguitar-bin-0.5.8
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/g15daemon-1.9.5.3-r7
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/g15daemon-1.9.5.3-r8
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/g15daemon-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-python/java2python-0.2
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: net-fs/openafs-1.6.10
+Error running an operation:
+ Unhandled exception in regen_cache
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f47647532b8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f47647abb50> ignored
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+    return functor(*args, **kwds)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
+    obj.__finalizer__()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
+    if self.is_alive:
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in sys.exitfunc:
+ERROR pkgcore: 
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
+    obj.__finalizer__()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
+    if self.is_alive:
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+pkgcore.ebuild.processor.TimeoutError
+ * Cache regen failed with 246

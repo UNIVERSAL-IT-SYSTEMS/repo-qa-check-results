@@ -23,83 +23,126 @@ At revision 474.
 $ pmaint regen -t 2 luke-jr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/liblabjackusb-2.0.1
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/liblabjackusb-1.10
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/plibc-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/plibc-0.1.7
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/plibc-0.1.8_pre147
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/labjackusb-ue9-driver-0.0.2008.08.11
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pdcurses-3.4-r3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pdcurses-3.4-r4
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pdcurses-3.4-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pdcurses-3.4
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pdcurses-3.4-r2
 
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/xc3sprog-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/labjackusb-udev-rules-0.0.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/xf86-video-intel-2.20.19-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pthreads-win32-2.9.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pthreads-win32-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vmbuilder-0.12.4.481-r1
+!!! ERROR: dev-perl/URI-imap-1.01 failed.
+!!! ERROR: dev-perl/AniDB-0.3_pre414 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/labjackusb-u3-driver-0.0.2008.08.11
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vmbuilder-0.12.4.481
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vmbuilder-0.12.4
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/kodakaio-0.2.1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libdingaling-0.1
+!!! ERROR: dev-perl/asterisk-perl-0.10 failed.
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vmbuilder-0.12.4.488
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/stfu-0.0.1.0_rc3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libmicrohttpd-0.9.38_pre33603
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libteletone-0.0.1.0_rc3
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libiaxclient-2.1_beta3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libmicrohttpd-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/adbren-anidb-0.3_pre400
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/adbren-3-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/sofia-sip-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/adbren-4
+!!! ERROR: net-im/psi-conferencelogger-9999 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '192' 'depend'
+!!!                 ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '204' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-perl/URI-imap/URI-imap-1.01.ebuild'
+!!!                 ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '231' 'depend'
+ * 
+ * "/home/mgorny/repos/luke-jr/dev-python/pyparallel/pyparallel-0.2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-perl/AniDB/AniDB-0.3_pre414.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/dev-perl/URI-imap/URI-imap-1.01.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-perl/asterisk-perl/asterisk-perl-0.10.ebuild'
+WARNING: 'use' function invoked by net-misc/freeswitch-1.0.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-biology/gnaural-1.0.20080808
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/prince-6.0_p3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libiax-freeswitch-0.2.3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/adbren-6.0.0.2010.03.13
+!!!                 ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+WARNING: 'use' function invoked by net-misc/freeswitch-1.0.0 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/prince-6.0_p5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/prince-6.0_p6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/qupzilla-1.4.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-qt/linguist-5.1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Text-vCard-2.01
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/AniDB-0.3_pre414
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/asterisk-perl-0.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/code2000-1.17.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/openmrcp-0.0.589
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/openmrcp-0.0.594
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/URI-imap-1.01
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-filter/hashcash-milter-0.1.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gallery-3.0.2_pre0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-android/fastboot-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-android/adb-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/win_backtrace-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/hidapi-0.8.0_pre20130121
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/xmlrpc-c-1.03.14-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/psi-conferencelogger-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/xmlrpc-c-1.14.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/voipcodecs-0.0.1_rc5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/voipcodecs-0.0.1_rc3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/voipcodecs-0.0.1_rc4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pyparallel-0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-block/compcache-tools-0.6
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/glew-1.5.8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/voipcodecs-0.0.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/meliae-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/labjackpython-0.64caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/sqlite-3.3.17
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/labjackpython-0.65
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/dev-perl/URI-imap/URI-imap-1.01.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/dev-perl/AniDB/AniDB-0.3_pre414.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/dev-perl/asterisk-perl/asterisk-perl-0.10.ebuild'
+!!!           URI-imap-1.01.ebuild, line   1:  Called inherit 'perl-module'
+!!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/net-im/psi-conferencelogger/psi-conferencelogger-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/dev-perl/asterisk-perl/asterisk-perl-0.10.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/net-im/psi-conferencelogger/psi-conferencelogger-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/dev-perl/AniDB/AniDB-0.3_pre414.ebuild'
+!!!      asterisk-perl-0.10.ebuild, line   1:  Called inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/net-im/psi-conferencelogger/psi-conferencelogger-9999.ebuild'
+!!!        AniDB-0.3_pre414.ebuild, line   1:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/labjackpython-0.66c
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/gammamoo-1.8.2.4caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/asterisk-e164-vcard-0.1.26
+!!! ERROR: dev-perl/Text-vCard-2.01 failed.
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/meliae-0.4.0
-!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/asterisk-e164-800notes-0.1.27
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/dvd-baker-0.7.43
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/asterisk-e164imap-0.1.21caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/asterisk-1.4.18.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/freeswitch-1.0.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/asterisk-e164imap-0.1.11
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/freeswitch-1.0.0
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   psi-conferencelogger-9999.ebuild, line   7:  Called inherit 'psiplus-plugin'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'psiplus-plugin'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/asterisk-app_rxfax-20070624-r1
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/eclass/psiplus-plugin.eclass'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '189' 'depend'
+!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/eclass/psiplus-plugin.eclass'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!              psiplus-plugin.eclass, line   5:  Called inherit 'qt4' 'subversion'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-perl/Text-vCard/Text-vCard-2.01.ebuild'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!                  ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/dev-perl/Text-vCard/Text-vCard-2.01.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/dev-perl/Text-vCard/Text-vCard-2.01.ebuild'
+!!!         Text-vCard-2.01.ebuild, line   1:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: net-im/psi-conferencelogger-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/URI-imap-1.01
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/asterisk-perl-0.10
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/AniDB-0.3_pre414
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-libs/voipcodecs-0.0.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Text-vCard-2.01
+sandbox:stop  caught signal 15 in pid 7538
+Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

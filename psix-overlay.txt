@@ -21,29 +21,95 @@ Already up-to-date.
 $ pmaint regen -t 2 psix-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/sublime-text-2.0.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/odroidc1-u-boot-tools-2011.03
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/aptana-3.4.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/sublime-text-3047!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-strategy/vcmi-data-0.90
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/sublime-text-2.0.1!!! 
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-strategy/vcmi-0.92!!! 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/plank-0.3.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-strategy/vcmi-0.93
+!!! ERROR: dev-games/mcedit-0.1.8_p654 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '204' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/psix-overlay/dev-games/mcedit/mcedit-0.1.8_p654.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/psix-overlay/dev-games/mcedit/mcedit-0.1.8_p654.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/psix-overlay/dev-games/mcedit/mcedit-0.1.8_p654.ebuild'
+!!!       mcedit-0.1.8_p654.ebuild, line   7:  Called inherit 'eutils' 'versionator' 'distutils-r1'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!               python-r1.eclass, line  47:  Called die
+!!! The die message:
+!!!  Unsupported EAPI=4 (too old, allowed only on restricted set of packages) for python-r1
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-strategy/vcmi-0.91
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/mcedit-0.1.8_p654
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-arcade/fretsonfire-1.3.110
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ml/biniou-1.0.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ml/camlidl-1.05
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ml/easy-format-1.0.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ml/gapi-ocaml-0.2.5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ml/camlpdf-1.7
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ml/gapi-ocaml-0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ml/gdfuse-0.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ml/google-drive-ocamlfuse-0.3.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ml/ocamlfuse-2.7.1
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ml/google-drive-ocamlfuse-0.5.8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ml/yojson-1.1.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/odroidc1-sources-3.10.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-strategy/vcmi-0.90
- * Cache regenerated successfully
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-games/mcedit-0.1.8_p654
+Error running an operation:
+ Unhandled exception in regen_cache
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fd074ab9e10> ignored
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+    return functor(*args, **kwds)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in sys.exitfunc:
+ERROR pkgcore: 
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+    return functor(*args, **kwds)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+pkgcore.ebuild.processor.TimeoutError
+ * Cache regen failed with 246

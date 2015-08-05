@@ -40,62 +40,170 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 -------------------------------------------------------------------------------
 
 receiving incremental file list
+timestamp.chk
 
 Number of files: 1 (reg: 1)
 Number of created files: 0
 Number of deleted files: 0
-Number of regular files transferred: 0
+Number of regular files transferred: 1
 Total file size: 32 bytes
-Total transferred file size: 0 bytes
-Literal data: 0 bytes
+Total transferred file size: 32 bytes
+Literal data: 32 bytes
 Matched data: 0 bytes
-File list size: 46
+File list size: 47
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 62
-Total bytes received: 57
+Total bytes sent: 85
+Total bytes received: 133
 
-sent 62 bytes  received 57 bytes  47.60 bytes/sec
-total size is 32  speedup is 0.27
+sent 85 bytes  received 133 bytes  62.29 bytes/sec
+total size is 32  speedup is 0.15
+-------------------------------------------------------------------------------
+| Welcome to rsync on gentoofan.no-ip.org:873                                 |
+| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
+| Thus this server only has a dynamic IP I cannot stat it here.               |
+-------------------------------------------------------------------------------
+
+  ,-~~-.___.
+ / |  '     \
+(  )        0
+ \_/-, ,----'
+    ====           //
+   /  \-'~;    /~~~(O)
+  /  __/~|   /       |
+=(  _____| (_________|
+
+ server specs:
+    -CPU		Intel Atom-330 (2x 1,6 GHz)
+    -RAM		2048 MB PC2-533
+    -OS			Gentoo GNU/Linux (Kernel 3.x)
+    -BANDWIDTH		ADSL (16000/1024)
+    -LIMIT		3 users (concurrently)
+    -LOCATION		Ludwigshafen / Germany
+    -CONTACT		polynomial-c@gentoo.org
+
+-------------------------------------------------------------------------------
+
+receiving incremental file list
+./
+app-text/
+app-text/liblangtag/
+app-text/liblangtag/Manifest
+app-text/liblangtag/liblangtag-0.5.7_pre.ebuild
+metadata/
+metadata/timestamp.chk
+metadata/md5-cache/
+metadata/md5-cache/app-emulation/
+metadata/md5-cache/app-emulation/fs-uae-launcher-2.3.17
+metadata/md5-cache/app-office/
+metadata/md5-cache/app-office/libreoffice-4.4.5.2_pre
+metadata/md5-cache/app-text/
+metadata/md5-cache/app-text/liblangtag-0.5.7_pre
+metadata/md5-cache/dev-lang/
+metadata/md5-cache/dev-lang/python-2.7.10_pre
+metadata/md5-cache/dev-libs/
+metadata/md5-cache/dev-libs/Ice-3.5.0-r1
+metadata/md5-cache/dev-libs/Ice-3.5.1
+metadata/md5-cache/dev-libs/Ice-3.6.0_pre
+metadata/md5-cache/dev-libs/glib-2.38.2-r1
+metadata/md5-cache/dev-libs/libclc-0.0.1_pre20140101
+metadata/md5-cache/dev-libs/libevdev-1.4.2_pre
+metadata/md5-cache/dev-python/
+metadata/md5-cache/dev-python/google-apputils-0.4.0
+metadata/md5-cache/mail-client/
+metadata/md5-cache/mail-client/claws-mail-3.12.0_pre
+metadata/md5-cache/media-sound/
+metadata/md5-cache/media-sound/ardour-4.0-r1
+metadata/md5-cache/media-sound/ardour-4.0-r2
+metadata/md5-cache/media-sound/ardour-4.1
+metadata/md5-cache/media-sound/exaile-3.4.5_pre
+metadata/md5-cache/net-dns/
+metadata/md5-cache/net-dns/libidn-1.32_pre
+metadata/md5-cache/net-im/
+metadata/md5-cache/net-im/pidgin-2.10.10
+metadata/md5-cache/net-im/pidgin-2.10.11
+metadata/md5-cache/net-libs/
+metadata/md5-cache/net-libs/webkit-gtk-2.4.7
+metadata/md5-cache/net-libs/webkit-gtk-2.4.8
+metadata/md5-cache/net-libs/webkit-gtk-2.4.9
+metadata/md5-cache/net-misc/
+metadata/md5-cache/net-misc/wicd-1.7.2.4-r3
+metadata/md5-cache/net-misc/wicd-1.7.3
+metadata/md5-cache/net-print/
+metadata/md5-cache/net-print/cups-2.0.4_pre
+metadata/md5-cache/net-print/hplip-3.14.10
+metadata/md5-cache/net-print/hplip-3.15.6
+metadata/md5-cache/net-print/hplip-3.15.7
+metadata/md5-cache/sys-apps/
+metadata/md5-cache/sys-apps/kmod-18-r1
+metadata/md5-cache/sys-apps/kmod-18-r2
+metadata/md5-cache/sys-apps/kmod-19
+metadata/md5-cache/sys-apps/kmod-20
+metadata/md5-cache/sys-apps/kmod-21
+metadata/md5-cache/sys-boot/
+metadata/md5-cache/sys-boot/grub-2.02_beta2-r3
+metadata/md5-cache/sys-boot/grub-2.02_beta2-r6
+metadata/md5-cache/sys-boot/grub-2.02_beta2-r7
+metadata/md5-cache/sys-power/
+metadata/md5-cache/sys-power/cpupower-3.10.85
+metadata/md5-cache/sys-power/cpupower-3.12.45
+metadata/md5-cache/sys-power/cpupower-3.14.49
+metadata/md5-cache/www-client/
+metadata/md5-cache/www-client/seamonkey-2.33.1-r1
+metadata/md5-cache/www-client/seamonkey-2.35_alpha0
+net-dns/
+net-dns/libidn/
+net-dns/libidn/Manifest
+net-dns/libidn/libidn-1.32_pre.ebuild
+net-dns/libidn/files/
+net-dns/libidn/files/50libidn-gentoo.el
+net-print/
+net-print/cups/
+net-print/cups/Manifest
+net-print/cups/cups-2.0.4_pre.ebuild
+net-print/cups/files/
+net-print/cups/files/cups-1.4.4-nostrip.patch
+net-print/cups/files/cups-1.6.0-dont-compress-manpages.patch
+net-print/cups/files/cups-1.6.0-fix-install-perms.patch
+net-print/cups/files/cups-2.0.1-xinetd-installation-fix.patch
+net-print/cups/files/cups-2.0.2-rename-systemd-service-files.patch
+net-print/cups/files/cups-2.0.2-systemd-socket.patch
+net-print/cups/files/cupsd.init.d-r1
+sys-power/cpupower/
+sys-power/cpupower/Manifest
+sys-power/cpupower/cpupower-3.10.85.ebuild
+sys-power/cpupower/cpupower-3.12.45.ebuild
+sys-power/cpupower/cpupower-3.14.49.ebuild
+deleting metadata/.tmp.timestamp.chk
+deleting metadata/md5-cache/sys-power/cpupower-3.14.41
+deleting metadata/md5-cache/sys-power/cpupower-3.12.39
+deleting metadata/md5-cache/sys-power/cpupower-3.10.77
+deleting sys-power/cpupower/cpupower-3.14.41.ebuild
+deleting sys-power/cpupower/cpupower-3.12.39.ebuild
+deleting sys-power/cpupower/cpupower-3.10.77.ebuild
+
+Number of files: 1,219 (reg: 920, dir: 299)
+Number of created files: 65 (reg: 58, dir: 7)
+Number of deleted files: 7 (reg: 7)
+Number of regular files transferred: 60
+Total file size: 3.46M bytes
+Total transferred file size: 195.75K bytes
+Literal data: 195.75K bytes
+Matched data: 0 bytes
+File list size: 33.49K
+File list generation time: 0.001 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 1.74K
+Total bytes received: 113.14K
+
+sent 1.74K bytes  received 113.14K bytes  45.95K bytes/sec
+total size is 3.46M  speedup is 30.12
 *** syncing poly-c
 *** synced poly-c
  * Sync succeeded
 $ pmaint regen -t 2 poly-c
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-launcher-2.3.17
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/claws-mail-3.12.0_pre
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/webkit-gtk-2.4.8
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/grub-2.02_beta2-r7
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/webkit-gtk-2.4.7
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/python-2.7.10_pre
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/webkit-gtk-2.4.9
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/grub-2.02_beta2-r6!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/grub-2.02_beta2-r3
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/seamonkey-2.33.1-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/seamonkey-2.35_alpha0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/ardour-4.0-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/ardour-4.0-r2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/ardour-4.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/exaile-3.4.5_pre
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/Ice-3.5.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/Ice-3.6.0_pre
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libclc-0.0.1_pre20140101
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libevdev-1.4.2_pre
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/Ice-3.5.0-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pidgin-2.10.11
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pidgin-2.10.10
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/glib-2.38.2-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmod-18-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmod-18-r2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmod-19
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmod-20
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmod-21
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/google-apputils-0.4.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/libreoffice-4.4.5.2_pre
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/wicd-1.7.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/wicd-1.7.2.4-r3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/hplip-3.14.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/hplip-3.15.7
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/hplip-3.15.6
+sandbox:stop  caught signal 15 in pid 5767
+Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

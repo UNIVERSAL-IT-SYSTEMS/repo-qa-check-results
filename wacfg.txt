@@ -22,7 +22,23 @@ Already up-to-date.
 $ pmaint regen -t 2 wacfg
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/roundcube-0.4
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/wacfg-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/wordpress-3.0.1
+
+!!! ERROR: app-admin/wacfg-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '158' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wacfg/app-admin/wacfg/wacfg-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wacfg/app-admin/wacfg/wacfg-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wacfg/app-admin/wacfg/wacfg-9999.ebuild'
+!!!              wacfg-9999.ebuild, line   8:  Called inherit 'distutils' 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+Sandboxed process killed by signal: Broken pipe
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-admin/wacfg-9999
  * Cache regenerated successfully
