@@ -10,21 +10,7 @@
  'status': 'unofficial'}
 $ pmaint sync lmiphay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/user/lmiphay
-   b07e09c..977c112  master     -> origin/master
-Updating b07e09c..977c112
-Fast-forward
- dev-perl/Log-StdLog/Log-StdLog-0.0.3.ebuild        |  2 +-
- dev-perl/Log-StdLog/Manifest                       |  2 +-
- dev-perl/Net-Bluetooth/Manifest                    |  2 +-
- dev-perl/Net-Bluetooth/Net-Bluetooth-0.41.ebuild   |  2 +-
- dev-perl/Net-UDAP/Manifest                         |  2 +-
- dev-perl/Net-UDAP/Net-UDAP-9999.ebuild             |  2 +-
- media-sound/shairport2_plugin/Manifest             |  3 ++-
- .../files/avahi-daemon.conf.patch                  | 26 ++++++++++++++++++++++
- .../shairport2_plugin-9999.ebuild                  |  6 ++---
- 9 files changed, 37 insertions(+), 10 deletions(-)
- create mode 100644 media-sound/shairport2_plugin/files/avahi-daemon.conf.patch
+Already up-to-date.
 *** syncing lmiphay
 *** synced lmiphay
  * Sync succeeded

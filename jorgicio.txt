@@ -15,48 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/jorgicio/jorgicio-gentoo
-   0fa58d6..938bdf7  master     -> origin/master
-Updating 0fa58d6..938bdf7
-Fast-forward
- README.md                                          |   6 +
- app-office/libreoffice-l10n/Manifest               | 169 ++++++
- app-office/libreoffice-l10n/files/lo_gen_langs.sh  |  65 +++
- .../libreoffice-l10n-5.0.0.5.ebuild                |  88 +++
- app-office/libreoffice/Manifest                    |  15 +
- .../files/libreoffice-4.4-system-pyuno.patch       |  44 ++
- ...ffice-4.4.5.2-fix-KDE4-listbox-regression.patch |  80 +++
- app-office/libreoffice/libreoffice-5.0.0.5.ebuild  | 608 +++++++++++++++++++++
- app-office/libreoffice/metadata.xml                |  20 +
- dev-java/oracle-jdk-bin/Manifest                   |  15 +
- .../oracle-jdk-bin/files/oracle-jdk-bin-1.8.env    |  17 +
- .../oracle-jdk-bin/oracle-jdk-bin-1.8.0.51.ebuild  | 338 ++++++++++++
- dev-java/oracle-jre-bin/Manifest                   |   5 +
- .../oracle-jre-bin/files/oracle-jre-bin-1.8.env    |  17 +
- .../oracle-jre-bin/oracle-jre-bin-1.8.0.51.ebuild  | 230 ++++++++
- dev-python/subunit/Manifest                        |   3 +
- dev-python/subunit/files/1.0.0-tests.patch         |  25 +
- dev-python/subunit/subunit-1.1.0-r1000.ebuild      |  80 +++
- profiles/package.mask/00-gentoo                    |   6 +
- 19 files changed, 1831 insertions(+)
- create mode 100644 app-office/libreoffice-l10n/Manifest
- create mode 100644 app-office/libreoffice-l10n/files/lo_gen_langs.sh
- create mode 100644 app-office/libreoffice-l10n/libreoffice-l10n-5.0.0.5.ebuild
- create mode 100644 app-office/libreoffice/Manifest
- create mode 100644 app-office/libreoffice/files/libreoffice-4.4-system-pyuno.patch
- create mode 100644 app-office/libreoffice/files/libreoffice-4.4.5.2-fix-KDE4-listbox-regression.patch
- create mode 100644 app-office/libreoffice/libreoffice-5.0.0.5.ebuild
- create mode 100644 app-office/libreoffice/metadata.xml
- create mode 100644 dev-java/oracle-jdk-bin/Manifest
- create mode 100644 dev-java/oracle-jdk-bin/files/oracle-jdk-bin-1.8.env
- create mode 100644 dev-java/oracle-jdk-bin/oracle-jdk-bin-1.8.0.51.ebuild
- create mode 100644 dev-java/oracle-jre-bin/Manifest
- create mode 100644 dev-java/oracle-jre-bin/files/oracle-jre-bin-1.8.env
- create mode 100644 dev-java/oracle-jre-bin/oracle-jre-bin-1.8.0.51.ebuild
- create mode 100644 dev-python/subunit/Manifest
- create mode 100644 dev-python/subunit/files/1.0.0-tests.patch
- create mode 100644 dev-python/subunit/subunit-1.1.0-r1000.ebuild
- create mode 100644 profiles/package.mask/00-gentoo
+Already up-to-date.
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
@@ -75,19 +34,19 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully
