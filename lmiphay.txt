@@ -10,7 +10,17 @@
  'status': 'unofficial'}
 $ pmaint sync lmiphay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/lmiphay
+   93ef60f..b07e09c  master     -> origin/master
+Updating 93ef60f..b07e09c
+Fast-forward
+ dev-perl/Net-SDP/Manifest                                  |  2 +-
+ dev-perl/Net-SDP/Net-SDP-0.07-r1.ebuild                    |  2 +-
+ media-sound/shairport2_helper/Manifest                     |  2 +-
+ .../shairport2_helper/shairport2_helper-9999.ebuild        | 14 +++++++++-----
+ media-sound/shairport2_plugin/Manifest                     |  2 +-
+ .../shairport2_plugin/shairport2_plugin-9999.ebuild        |  3 +--
+ 6 files changed, 14 insertions(+), 11 deletions(-)
 *** syncing lmiphay
 *** synced lmiphay
  * Sync succeeded
@@ -22,7 +32,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f69d173a470> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f3b2992b470> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -101,6 +111,7 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f69d173a368> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f69d173a050> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f3b2992b158> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f3b29985e10> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f3b299859f0> ignored
  * Cache regen failed with 246

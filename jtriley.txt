@@ -33,75 +33,75 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/dev-lua/lunatic-python/lunatic-python-9999.ebuild'
 
 !!! ERROR: app-misc/g15daemon-9999 failed.
-
-!!! ERROR: app-misc/g15daemon-1.9.5.3-r8 failed.
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/dev-lua/lunatic-python/lunatic-python-9999.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 
 !!! ERROR: app-misc/g15daemon-1.9.5.3-r7 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/dev-lua/lunatic-python/lunatic-python-9999.ebuild'
+
+!!! ERROR: app-misc/g15daemon-1.9.5.3-r8 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/dev-lua/lunatic-python/lunatic-python-9999.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!     lunatic-python-9999.ebuild, line   8:  Called inherit 'git' 'multilib' 'toolchain-funcs' 'flag-o-matic' 'eutils'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '206' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '206' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '178' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '206' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 
 !!! ERROR: media-sound/dguitar-bin-0.5.8 failed.
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '206' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-9999.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
+!!!          g15daemon-9999.ebuild, line  12:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base' 'subversion' 'autotools'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '205' 'depend'
 !!!    g15daemon-1.9.5.3-r8.ebuild, line  10:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base'
-!!!    g15daemon-1.9.5.3-r7.ebuild, line  10:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base'
-!!!          g15daemon-9999.ebuild, line  12:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base' 'subversion' 'autotools'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!    g15daemon-1.9.5.3-r7.ebuild, line  10:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/media-sound/dguitar-bin/dguitar-bin-0.5.8.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
 
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/media-sound/dguitar-bin/dguitar-bin-0.5.8.ebuild'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
 
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
@@ -113,22 +113,46 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  unknown inherit command from pythonic side, 'gen_metadata 181' for eclass eutils
 
-received unknown com: export CATEGORY='dev-python' PR=r0 PVR='2014.1' PV='2014.1' EBUILD='/home/mgorny/repos/jtriley/dev-python/pycuda/pycuda-2014.1.ebuild' P='pycuda-2014.1' PF='pycuda-2014.1' PN=pycudapath
+received unknown com: export CATEGORY='dev-python' PR=r0 PVR='0.6.1' PV='0.6.1' EBUILD='/home/mgorny/repos/jtriley/dev-python/iptools/iptools-0.6.1.ebuild' P='iptools-0.6.1' PF='iptools-0.6.1' PN=iptoolspath
+Exception in thread Thread-10:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lua/lunatic-python-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-sound/dguitar-bin-0.5.8
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/g15daemon-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-misc/g15daemon-1.9.5.3-r8
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-misc/g15daemon-1.9.5.3-r7
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/g15daemon-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/pycuda-2014.1
+!!! caught exception False while processing ebuild src: dev-python/iptools-0.6.1
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-video/smtube-1.2.1
 Error running an operation:
  Unhandled exception in regen_cache
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f8f50e5c158> ignored
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f8f50eb56d8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fad2da86470> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -168,28 +192,31 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 TimeoutError
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
+    obj.__finalizer__()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
+    if self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 648, in is_alive
+    self.write("alive", disable_runtime_exceptions=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 456, in write
+    self.ebd_write.flush()
+IOError: [Errno 32] Broken pipe
 Error in sys.exitfunc:
 ERROR pkgcore: 
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
     func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
-    return functor(*args, **kwds)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-pkgcore.ebuild.processor.TimeoutError
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
+    obj.__finalizer__()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
+    if self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 648, in is_alive
+    self.write("alive", disable_runtime_exceptions=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 456, in write
+    self.ebd_write.flush()
+IOError: [Errno 32] Broken pipe
  * Cache regen failed with 246

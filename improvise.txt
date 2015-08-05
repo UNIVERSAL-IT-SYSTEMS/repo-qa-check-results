@@ -23,104 +23,104 @@ $ pmaint regen -t 2 improvise
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
-!!! ERROR: kde-misc/nvidiadevicemonitor-0.1.2 failed.
-
 !!! ERROR: kde-misc/kdev-ruby-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 
-!!! ERROR: media-libs/libtvdb-0.3.0 failed.
+!!! ERROR: kde-misc/nvidiadevicemonitor-0.1.2 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!                 ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '183' 'depend'
 
 !!! ERROR: x11-misc/service-discovery-applet-0.4.3-r1 failed.
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '182' 'depend'
+!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '182' 'depend'
+!!!                         ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!                 ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '239' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                         ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/improvise/kde-misc/kdev-ruby/kdev-ruby-9999.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/improvise/media-libs/libtvdb/libtvdb-0.3.0.ebuild'
-!!!                 ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                         ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/improvise/kde-misc/kdev-ruby/kdev-ruby-9999.ebuild'
+!!!                 ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                         ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '275' 'depend'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/improvise/kde-misc/kdev-ruby/kdev-ruby-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/improvise/media-libs/libtvdb/libtvdb-0.3.0.ebuild'
+!!!                         ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/improvise/kde-misc/nvidiadevicemonitor/nvidiadevicemonitor-0.1.2.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/improvise/kde-misc/kdev-ruby/kdev-ruby-9999.ebuild'
-!!!                         ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '275' 'depend'
-!!!                         ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!          kdev-ruby-9999.ebuild, line   8:  Called inherit 'kde4-base'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/improvise/media-libs/libtvdb/libtvdb-0.3.0.ebuild'
-!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/improvise/kde-misc/nvidiadevicemonitor/nvidiadevicemonitor-0.1.2.ebuild'
 !!!                                 ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/improvise/x11-misc/service-discovery-applet/service-discovery-applet-0.4.3-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/improvise/kde-misc/nvidiadevicemonitor/nvidiadevicemonitor-0.1.2.ebuild'
+!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/improvise/kde-misc/nvidiadevicemonitor/nvidiadevicemonitor-0.1.2.ebuild'
+!!!          kdev-ruby-9999.ebuild, line   8:  Called inherit 'kde4-base'
 !!!                                 ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/improvise/x11-misc/service-discovery-applet/service-discovery-applet-0.4.3-r1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!           libtvdb-0.3.0.ebuild, line   7:  Called inherit 'kde4-base'
-!!!   nvidiadevicemonitor-0.1.2.ebuild, line   7:  Called inherit 'kde4-base'
-!!!                     isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/improvise/x11-misc/service-discovery-applet/service-discovery-applet-0.4.3-r1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/improvise/kde-misc/nvidiadevicemonitor/nvidiadevicemonitor-0.1.2.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!                     isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/improvise/x11-misc/service-discovery-applet/service-discovery-applet-0.4.3-r1.ebuild'
+!!!   nvidiadevicemonitor-0.1.2.ebuild, line   7:  Called inherit 'kde4-base'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!   service-discovery-applet-0.4.3-r1.ebuild, line   6:  Called inherit 'gnome2'
-!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!   service-discovery-applet-0.4.3-r1.ebuild, line   6:  Called inherit 'gnome2'
+!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+
+!!! ERROR: media-libs/libtvdb-0.3.0 failed.
 !!!               ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!                          ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                     isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!                   kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!                     isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!          kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!                              gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
 
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '183' 'depend'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/improvise/media-libs/libtvdb/libtvdb-0.3.0.ebuild'
+!!!          kde4-functions.eclass, line  23:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported
+
+!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/improvise/media-libs/libtvdb/libtvdb-0.3.0.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/improvise/media-libs/libtvdb/libtvdb-0.3.0.ebuild'
+!!!              kde4-functions.eclass, line  23:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported
+
+!!!           libtvdb-0.3.0.ebuild, line   7:  Called inherit 'kde4-base'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!          kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported
 
-!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!              kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: kde-misc/kdev-ruby-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-misc/service-discovery-applet-0.4.3-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-libs/libtvdb-0.3.0
+!!! caught exception False while processing ebuild src: kde-misc/kdev-ruby-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-misc/nvidiadevicemonitor-0.1.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-libs/libtvdb-0.3.0
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f5dc988b418> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fd55054c310> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -160,34 +160,19 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 TimeoutError
-Error in atexit._run_exitfuncs:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
-    obj.__finalizer__()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
-    if self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-TimeoutError
 Error in sys.exitfunc:
 ERROR pkgcore: 
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
     func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
-    obj.__finalizer__()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
-    if self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+    return functor(*args, **kwds)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
     if not self.expect("yep!", timeout=0.1):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
@@ -199,10 +184,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f5dc98e7fc8> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f5dc98e7db8> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f5dc98e7aa0> ignored
-Sandboxed process killed by signal: Broken pipe
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f5dc98e7680> ignored
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f5dca17caa0> ignored
  * Cache regen failed with 246

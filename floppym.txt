@@ -10,7 +10,15 @@
  'status': 'unofficial'}
 $ pmaint sync floppym
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://bitbucket.org/floppym/floppym-overlay
+   9ac40ff..3176c1c  master     -> origin/master
+Updating 9ac40ff..3176c1c
+Fast-forward
+ sys-boot/systemd-boot/Manifest                |  1 +
+ sys-boot/systemd-boot/systemd-boot-224.ebuild | 72 +++++++++++++++++++++++++++
+ 2 files changed, 73 insertions(+)
+ create mode 100644 sys-boot/systemd-boot/Manifest
+ create mode 100644 sys-boot/systemd-boot/systemd-boot-224.ebuild
 *** syncing floppym
 *** synced floppym
  * Sync succeeded
@@ -19,7 +27,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f6b317ef8e8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f381670a8e8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
