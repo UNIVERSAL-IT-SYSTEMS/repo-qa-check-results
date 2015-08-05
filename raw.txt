@@ -11,16 +11,7 @@
 $ pmaint sync raw
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/mahatma-kaganovich/raw
-   80d2f84..f08f28c  master     -> origin/master
-Updating 80d2f84..f08f28c
-Fast-forward
- app-portage/ppatch/Manifest                                    | 1 +
- app-portage/ppatch/files/extensions/gcc/configure/flags.bashrc | 8 ++++++++
- profiles/common/minimal/make.defaults                          | 3 +++
- profiles/common/x86_/make.defaults                             | 3 ---
- 4 files changed, 12 insertions(+), 3 deletions(-)
- create mode 100644 app-portage/ppatch/files/extensions/gcc/configure/flags.bashrc
+Already up-to-date.
 *** syncing raw
 *** synced raw
  * Sync succeeded
@@ -36,60 +27,65 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 /home/mgorny/repos/raw/eclass/mozcoreconf-2_.eclass: line 1: /eclass/mozcoreconf-2.eclass: No such file or directory
 QA Notice: sed in global scope: www-client/fennec-1.0_rc2
 /home/mgorny/repos/raw/eclass/mozcoreconf-2_.eclass: line 1: /eclass/mozcoreconf-2.eclass: No such file or directory
-QA Notice: sed in global scope: www-client/aurora-9999-r9999
+QA Notice: sed in global scope: www-client/fennec-1.0_rc3
 QA Notice: sed in global scope: www-client/fennec-1.0_rc2
-QA Notice: sed in global scope: www-client/fennec-1.0_rc3
+QA Notice: sed in global scope: www-client/aurora-9999-r9999
 QA Notice: sed in global scope: www-client/fennec-1.0_rc3
 QA Notice: sed in global scope: www-client/fennec-1.1_beta1
-QA Notice: sed in global scope: www-client/fennec-1.1_beta1
-QA Notice: sed in global scope: www-client/seamonkey-9999-r9999
 QA Notice: sed in global scope: www-client/fennec-9999-r9999
+QA Notice: sed in global scope: www-client/fennec-1.1_beta1
 QA Notice: sed in global scope: www-client/minefield-9999-r9999
+QA Notice: sed in global scope: www-client/seamonkey-9999-r9999
 QA Notice: sed in global scope: www-client/shiretoko-9999-r9999
+/home/mgorny/repos/raw/eclass/kernel-2.eclass: line 4: /eclass/kernel-2.eclass: No such file or directory
 
 !!! ERROR: www-servers/apache-2.4.2 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 /home/mgorny/repos/raw/eclass/kernel-2.eclass: line 4: /eclass/kernel-2.eclass: No such file or directory
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-/home/mgorny/repos/raw/eclass/kernel-2.eclass: line 4: /eclass/kernel-2.eclass: No such file or directory
-WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-2.4.0 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-2.3.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directory
+WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-2.4.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+/home/mgorny/repos/raw/eclass/kernel-2.eclass: line 4: /eclass/kernel-2.eclass: No such file or directory
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directory
 /home/mgorny/repos/raw/eclass/kernel-2.eclass: line 4: /eclass/kernel-2.eclass: No such file or directory
 /home/mgorny/repos/raw/eclass/kernel-2.eclass: line 4: /eclass/kernel-2.eclass: No such file or directory
-WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-3.0.0 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-/home/mgorny/repos/raw/eclass/kernel-2.eclass: line 4: /eclass/kernel-2.eclass: No such file or directory
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
-Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directory
-/home/mgorny/repos/raw/eclass/kernel-2.eclass: line 4: /eclass/kernel-2.eclass: No such file or directory
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-9999-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directory
 WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-2.4.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-2.4.1 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-2.4.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directory
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directory
+/home/mgorny/repos/raw/eclass/kernel-2.eclass: line 4: /eclass/kernel-2.eclass: No such file or directory
 WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-9999-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/raw/www-servers/apache/apache-2.4.2.ebuild'
 Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directory
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/raw/www-servers/apache/apache-2.4.2.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/raw/www-servers/apache/apache-2.4.2.ebuild'
+WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-9999-r1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 /home/mgorny/pkgcore-venv/lib/pkgcore/ebuild-daemon.bash: line 386: /eclass/kernel-2.eclass: No such file or directory
+Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directory
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/raw/www-servers/apache/apache-2.4.2.ebuild'
-!!!            apache-2.4.2.ebuild, line  20:  Called inherit 'apache-2'
+/home/mgorny/repos/raw/eclass/kernel-2.eclass: line 4: /eclass/kernel-2.eclass: No such file or directory
 WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+!!!            apache-2.4.2.ebuild, line  20:  Called inherit 'apache-2'
+Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directory
+WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-3.0.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directory
@@ -100,11 +96,6 @@ Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directo
 !!! The die message:
 !!!  This eclass requires >=EAPI-5
 
-/home/mgorny/repos/raw/eclass/kernel-2.eclass: line 4: /eclass/kernel-2.eclass: No such file or directory
-WARNING: 'use' function invoked by sys-kernel/kerrighed-sources-2.3.0 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directory
 
 !!! ERROR: sys-cluster/kerrighed-9999-r1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -122,13 +113,14 @@ Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directo
 !!! The die message:
 !!!  inherit for git failed
 
-Sandboxed process killed by signal: Broken pipe
+sandbox:stop  caught signal 15 in pid 17328
+Sandboxed process killed by signal: Terminated
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-servers/apache-2.4.2
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-cluster/kerrighed-9999-r1
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fa1cee3e520> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f5b05c46ba8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
