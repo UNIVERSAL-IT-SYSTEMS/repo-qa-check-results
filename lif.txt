@@ -15,13 +15,18 @@
  'status': 'unofficial'}
 $ pmaint sync lif
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/killer2tester/gentoo-overlay-lif
+   bef60fc..4b0b0e6  master     -> origin/master
+Updating bef60fc..4b0b0e6
+Fast-forward
+ sets/dl-core | 1 +
+ 1 file changed, 1 insertion(+)
 *** syncing lif
 *** synced lif
  * Sync succeeded
 $ pmaint regen -t 2 lif
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 17182
+sandbox:stop  caught signal 15 in pid 7557
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

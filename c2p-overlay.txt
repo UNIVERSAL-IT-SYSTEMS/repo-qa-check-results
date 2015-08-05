@@ -13,8 +13,6 @@
              'uri': 'git+ssh://git@github.com:karolgrudzinski/c2p-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync c2p-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/benklop' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/benklop', named 'benklop', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing c2p-overlay
@@ -23,11 +21,9 @@ Already up-to-date.
 $ pmaint regen -t 2 c2p-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 2712
-Sandboxed process killed by signal: Terminated
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f6dbf3af208> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fa5a101caa0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -106,6 +102,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f6dbf40b260> ignored
-Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246
