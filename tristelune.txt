@@ -15,32 +15,19 @@
  u'supported': True}
 $ pmaint sync tristelune
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: unable to access 'https://github.com/tristelune1/tristelune-overlay.git/': Unknown SSL protocol error in connection to github.com:443 
-*** syncing tristelune
-*** failed syncing tristelune
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync tristelune
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/netcrave' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/netcrave', named 'netcrave', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/okupy' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/okupy', named 'okupy', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/posativ' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/posativ', named 'posativ', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/tristelune'...
+Already up-to-date.
 *** syncing tristelune
 *** synced tristelune
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 tristelune
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/wmutils-contrib-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/wmutils-opt-9999
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/upplay-0.10.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libupnpp-0.10.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/wmutils-core-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/mps-youtube-0.2.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pafy-0.3.74
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/wmutils-core-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/wmutils-contrib-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/rofi-pass-9999
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/upplay-0.10.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/wmutils-opt-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/mps-youtube-0.2.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pafy-0.3.74
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libupnpp-0.10.0
  * Cache regenerated successfully

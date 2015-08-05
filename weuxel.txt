@@ -15,46 +15,27 @@
  u'supported': True}
 $ pmaint sync weuxel
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: unable to access 'https://github.com/Weuxel/portage-weuxel.git/': SSL read: error:00000000:lib(0):func(0):reason(0), errno 104
-*** syncing weuxel
-*** failed syncing weuxel
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync weuxel
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/netcrave' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/netcrave', named 'netcrave', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/okupy' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/okupy', named 'okupy', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/petkovich' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/petkovich', named 'petkovich', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/wavilen' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/wavilen', named 'wavilen', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/vayerx' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/vayerx', named 'vayerx', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/posativ' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/posativ', named 'posativ', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/weuxel'...
+Already up-to-date.
 *** syncing weuxel
 *** synced weuxel
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 weuxel
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/litecoin-qt-0.8.6.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-servers/nginx-1.5.11
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/litecoin-qt-0.8.7.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150204
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150126
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150112
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150206
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/b43-firmware-6.30.163.46-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/litecoin-qt-0.8.7.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150320
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150311
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150209
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150320
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150505-r1
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150505
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.0.26
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.0.25-r2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150611
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/b43-firmware-6.30.163.46-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150505
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.0.25-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150611
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.0.26
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150112
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150505-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cjdns-20150204
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/litecoin-qt-0.8.6.1
  * Cache regenerated successfully

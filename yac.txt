@@ -15,34 +15,17 @@
  u'supported': True}
 $ pmaint sync yac
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing yac
-*** failed syncing yac
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync yac
-WARNING:pkgcore:repository at location '/home/mgorny/repos/netcrave' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/netcrave', named 'netcrave', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/petkovich' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/petkovich', named 'petkovich', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/okupy' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/okupy', named 'okupy', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/posativ' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/posativ', named 'posativ', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/netcrave' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/netcrave', named 'netcrave', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/yac'...
+Already up-to-date.
 *** syncing yac
 *** synced yac
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 yac
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/collectd-web-0.4.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/gentwoo-backend-0.1.0
+!!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/ydu-0.1.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/ydu-0.1.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/gentwoo-backend-0.1.0
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/collectd-web-0.4.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/txJSON-RPC-0.3.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/ydu-0.1.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/ydu-0.1.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/yac-workstation-0.1.1
  * Cache regenerated successfully

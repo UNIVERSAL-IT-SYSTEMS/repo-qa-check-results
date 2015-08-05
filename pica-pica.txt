@@ -15,36 +15,15 @@
  u'supported': True}
 $ pmaint sync pica-pica
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: unable to access 'https://github.com/antonsviridenko/pica-pica-gentoo-overlay.git/': Unknown SSL protocol error in connection to github.com:443 
-*** syncing pica-pica
-*** failed syncing pica-pica
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync pica-pica
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/netcrave' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/netcrave', named 'netcrave', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/okupy' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/okupy', named 'okupy', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/petkovich' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/petkovich', named 'petkovich', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/wavilen' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/wavilen', named 'wavilen', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/vayerx' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/vayerx', named 'vayerx', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/vapoursynth' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/vapoursynth', named 'vapoursynth', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/posativ' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/posativ', named 'posativ', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/pica-pica'...
+Already up-to-date.
 *** syncing pica-pica
 *** synced pica-pica
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 pica-pica
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pica-node-0.5.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pica-client-0.5.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pica-pica-0.5.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pica-node-0.5.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pica-client-0.5.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pica-pica-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pica-pica-9999
  * Cache regenerated successfully
