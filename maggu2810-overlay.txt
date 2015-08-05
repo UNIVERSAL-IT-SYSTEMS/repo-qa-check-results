@@ -12,43 +12,7 @@
 $ pmaint sync maggu2810-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/maggu2810/maggu2810-overlay
-   eafaabf..46b0a2c  master     -> origin/master
-Updating eafaabf..46b0a2c
-Fast-forward
- media-libs/opencv/ChangeLog                        | 560 +++++++++++++++
- media-libs/opencv/Manifest                         |  17 +
- .../opencv/files/opencv-2.3.1a-libav-0.7.patch     |  10 +
- .../opencv/files/opencv-2.4.10-pic-x86.patch       |  49 ++
- media-libs/opencv/files/opencv-2.4.2-cflags.patch  |  21 +
- media-libs/opencv/files/opencv-2.4.3-gcc47.patch   |  22 +
- .../opencv/files/opencv-2.4.8-javamagic.patch      |  32 +
- .../files/opencv-2.4.9-cuda-pkg-config.patch       |  12 +
- media-libs/opencv/files/opencv-2.4.9-cuda.patch    |  89 +++
- media-libs/opencv/files/opencv-2.4.9-libav10.patch | 748 +++++++++++++++++++++
- media-libs/opencv/files/opencv-3.0.0-gles.patch    |  14 +
- media-libs/opencv/metadata.xml                     |  30 +
- media-libs/opencv/opencv-2.4.10.ebuild             | 222 ++++++
- media-libs/opencv/opencv-2.4.9.ebuild              | 222 ++++++
- media-libs/opencv/opencv-3.0.0.ebuild              | 222 ++++++
- sets/{mjr_dev-python => mjr-2-dev-python}          |   0
- 16 files changed, 2270 insertions(+)
- create mode 100644 media-libs/opencv/ChangeLog
- create mode 100644 media-libs/opencv/Manifest
- create mode 100644 media-libs/opencv/files/opencv-2.3.1a-libav-0.7.patch
- create mode 100644 media-libs/opencv/files/opencv-2.4.10-pic-x86.patch
- create mode 100644 media-libs/opencv/files/opencv-2.4.2-cflags.patch
- create mode 100644 media-libs/opencv/files/opencv-2.4.3-gcc47.patch
- create mode 100644 media-libs/opencv/files/opencv-2.4.8-javamagic.patch
- create mode 100644 media-libs/opencv/files/opencv-2.4.9-cuda-pkg-config.patch
- create mode 100644 media-libs/opencv/files/opencv-2.4.9-cuda.patch
- create mode 100644 media-libs/opencv/files/opencv-2.4.9-libav10.patch
- create mode 100644 media-libs/opencv/files/opencv-3.0.0-gles.patch
- create mode 100644 media-libs/opencv/metadata.xml
- create mode 100644 media-libs/opencv/opencv-2.4.10.ebuild
- create mode 100644 media-libs/opencv/opencv-2.4.9.ebuild
- create mode 100644 media-libs/opencv/opencv-3.0.0.ebuild
- rename sets/{mjr_dev-python => mjr-2-dev-python} (100%)
+Already up-to-date.
 *** syncing maggu2810-overlay
 *** synced maggu2810-overlay
  * Sync succeeded

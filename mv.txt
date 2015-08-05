@@ -14,13 +14,21 @@
  'status': 'unofficial'}
 $ pmaint sync mv
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/mv
+   41de98c..dc8fc9a  master     -> origin/master
+Updating 41de98c..dc8fc9a
+Fast-forward
+ games-rpg/magus/ChangeLog                          |  3 +++
+ games-rpg/magus/magus-99999999.ebuild              | 28 +++++++++-------------
+ www-plugins/noscript/ChangeLog                     |  7 +++++-
+ www-plugins/noscript/Manifest                      |  2 +-
+ ...pt-2.6.9.33.ebuild => noscript-2.6.9.34.ebuild} |  0
+ 5 files changed, 21 insertions(+), 19 deletions(-)
+ rename www-plugins/noscript/{noscript-2.6.9.33.ebuild => noscript-2.6.9.34.ebuild} (100%)
 *** syncing mv
 *** synced mv
  * Sync succeeded
 $ pmaint regen -t 2 mv
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 6696
-Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully
