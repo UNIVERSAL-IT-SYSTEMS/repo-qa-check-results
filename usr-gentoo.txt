@@ -1,16 +1,13 @@
-{u'description': [u'Auto-generated repository which moves apps to /usr'],
- u'feeds': [u'https://bitbucket.org/mgorny/usr-gentoo/rss'],
- u'homepage': u'http://wiki.gentoo.org/wiki/Usr-gentoo',
- u'irc': None,
- u'name': u'usr-gentoo',
- u'official': False,
- u'owner_email': u'mgorny@gentoo.org',
- u'owner_name': u'Micha\u0142 G\xf3rny',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://bitbucket.org/mgorny/usr-gentoo', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Auto-generated repository which moves apps to /usr'},
+ 'feed': ['https://bitbucket.org/mgorny/usr-gentoo/rss'],
+ 'homepage': 'http://wiki.gentoo.org/wiki/Usr-gentoo',
+ 'name': 'usr-gentoo',
+ 'owner': [{'email': 'mgorny@gentoo.org',
+            'name': u'Micha\u0142 G\xf3rny',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'https://bitbucket.org/mgorny/usr-gentoo'}],
+ 'status': 'unofficial'}
 $ pmaint sync usr-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,7 +19,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f281cf45158> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fadd56caaf8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -101,8 +98,6 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f281cf45050> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f281cf9df18> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f281cf9d7e0> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f281cf9d1b0> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fadd56ca8e8> ignored
+Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

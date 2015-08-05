@@ -1,18 +1,13 @@
-{u'description': [u'Unofficial ebuilds for Gitlab'],
- u'feeds': [],
- u'homepage': u'https://gitlab.awesome-it.de/overlays/gitlab',
- u'irc': None,
- u'name': u'gitlab',
- u'official': False,
- u'owner_email': u'info@awesome-it.de',
- u'owner_name': u'Daniel Morlock',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://gitlab.awesome-it.de/overlays/gitlab.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Unofficial ebuilds for Gitlab'},
+ 'homepage': 'https://gitlab.awesome-it.de/overlays/gitlab',
+ 'name': 'gitlab',
+ 'owner': [{'email': 'info@awesome-it.de',
+            'name': 'Daniel Morlock',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://gitlab.awesome-it.de/overlays/gitlab.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync gitlab
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -25,7 +20,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f4ba7b3dd08> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f436738dd08> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

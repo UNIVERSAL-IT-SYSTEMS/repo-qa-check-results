@@ -1,16 +1,11 @@
-{u'description': [u"Dennis Lan's testing grounds and bleeding edge ebuilds"],
- u'feeds': [u'https://github.com/feeds/dlanx/commits/dlan-overlay/master'],
- u'homepage': u'https://github.com/dlanx/dlan-overlay/',
- u'irc': None,
- u'name': u'dlan',
- u'official': False,
- u'owner_email': u'dlan@gentoo.org',
- u'owner_name': u'Lan Yixun (dlan)',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/dlanx/dlan-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "Dennis Lan's testing grounds and bleeding edge ebuilds"},
+ 'feed': ['https://github.com/feeds/dlanx/commits/dlan-overlay/master'],
+ 'homepage': 'https://github.com/dlanx/dlan-overlay/',
+ 'name': 'dlan',
+ 'owner': [{'email': 'dlan@gentoo.org', 'name': 'Lan Yixun (dlan)'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/dlanx/dlan-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync dlan
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -21,6 +16,6 @@ Already up-to-date.
 $ pmaint regen -t 2 dlan
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 28242
+sandbox:stop  caught signal 15 in pid 30908
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

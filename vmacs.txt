@@ -1,18 +1,17 @@
-{u'description': [u'VMACS Personal Gentoo Overlay'],
- u'feeds': [u'https://cgit.gentoo.org/user/vmacs.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/vmacs.git/',
- u'irc': None,
- u'name': u'vmacs',
- u'official': False,
- u'owner_email': u'vance.m.allen@gmail.com',
- u'owner_name': u'Vance M. Allen',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/vmacs.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/vmacs.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/user/vmacs.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'VMACS Personal Gentoo Overlay'},
+ 'feed': ['https://cgit.gentoo.org/user/vmacs.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/vmacs.git/',
+ 'name': 'vmacs',
+ 'owner': [{'email': 'vance.m.allen@gmail.com',
+            'name': 'Vance M. Allen',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/user/vmacs.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/vmacs.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/vmacs.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync vmacs
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -24,7 +23,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f6b4981a5d0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f8a90c4b5d0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -88,5 +87,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

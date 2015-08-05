@@ -1,18 +1,15 @@
-{u'description': [u'Mart Raudsepp developer overlay'],
- u'feeds': [u'https://cgit.gentoo.org/dev/leio.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/dev/leio.git',
- u'irc': None,
- u'name': u'leio',
- u'official': True,
- u'owner_email': u'leio@gentoo.org',
- u'owner_name': u'Mart Raudsepp',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/dev/leio.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/dev/leio.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/dev/leio.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Mart Raudsepp developer overlay'},
+ 'feed': ['https://cgit.gentoo.org/dev/leio.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/dev/leio.git',
+ 'name': 'leio',
+ 'owner': [{'email': 'leio@gentoo.org', 'name': 'Mart Raudsepp'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/dev/leio.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/dev/leio.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/dev/leio.git'}],
+ 'status': 'official'}
 $ pmaint sync leio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,6 +19,6 @@ Already up-to-date.
 $ pmaint regen -t 2 leio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 19641
+sandbox:stop  caught signal 15 in pid 19344
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

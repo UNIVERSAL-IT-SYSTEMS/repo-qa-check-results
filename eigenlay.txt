@@ -1,18 +1,13 @@
-{u'description': [u'Eigenlab Gentoo overlay'],
- u'feeds': [],
- u'homepage': u'https://gitorious.org/eigennet/eigenlay',
- u'irc': None,
- u'name': u'eigenlay',
- u'official': False,
- u'owner_email': u'gio@eigenlab.org',
- u'owner_name': u'Gioacchino Mazzurco',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://git.gitorious.org/eigennet/eigenlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Eigenlab Gentoo overlay'},
+ 'homepage': 'https://gitorious.org/eigennet/eigenlay',
+ 'name': 'eigenlay',
+ 'owner': [{'email': 'gio@eigenlab.org',
+            'name': 'Gioacchino Mazzurco',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://git.gitorious.org/eigennet/eigenlay.git'}],
+ 'status': 'unofficial'}
  * Adding new repository
 $ pmaint sync eigenlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

@@ -1,17 +1,13 @@
-{u'description': [u'Experimental ebuilds for Gentoo Linux'],
- u'feeds': [],
- u'homepage': u'https://github.com/soehest/gentoo',
- u'irc': None,
- u'name': u'soehest',
- u'official': False,
- u'owner_email': u'drunejensen@gmail.com',
- u'owner_name': u'Daniel Rune Jensen',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/soehest/gentoo.git', u'Git', u''),
-              (u'https://github.com/soehest/gentoo.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Experimental ebuilds for Gentoo Linux'},
+ 'homepage': 'https://github.com/soehest/gentoo',
+ 'name': 'soehest',
+ 'owner': [{'email': 'drunejensen@gmail.com',
+            'name': 'Daniel Rune Jensen',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/soehest/gentoo.git'},
+            {'type': 'git', 'uri': 'https://github.com/soehest/gentoo.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync soehest
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -23,7 +19,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f260db1de68> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fd48c5f6e68> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

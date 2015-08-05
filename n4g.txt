@@ -1,18 +1,11 @@
-{u'description': [u'The goal for this overlay is to reproduce the Open Enterprise server from novell on gentoo'],
- u'feeds': [],
- u'homepage': u'http://n4g.mars.arge.at',
- u'irc': None,
- u'name': u'n4g',
- u'official': False,
- u'owner_email': u'mario.fetka@gmail.com',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://git.disconnected-by-peer.at/novell4gentoo/stable.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'The goal for this overlay is to reproduce the Open Enterprise\n    server from novell on gentoo'},
+ 'homepage': 'http://n4g.mars.arge.at',
+ 'name': 'n4g',
+ 'owner': [{'email': 'mario.fetka@gmail.com'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://git.disconnected-by-peer.at/novell4gentoo/stable.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync n4g
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

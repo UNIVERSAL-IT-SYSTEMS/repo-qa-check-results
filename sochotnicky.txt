@@ -1,22 +1,18 @@
-{u'description': [u'Developer overlay'],
- u'feeds': [u'https://cgit.gentoo.org/dev/sochotnicky.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/dev/sochotnicky.git/',
- u'irc': None,
- u'name': u'sochotnicky',
- u'official': True,
- u'owner_email': u'sochotnicky@gentoo.org',
- u'owner_name': u'Stanislav Ochotnicky',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/dev/sochotnicky.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/dev/sochotnicky.git',
-               u'Git',
-               u''),
-              (u'git+ssh://git@git.gentoo.org/dev/sochotnicky.git',
-               u'Git',
-               u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Developer overlay'},
+ 'feed': ['https://cgit.gentoo.org/dev/sochotnicky.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/dev/sochotnicky.git/',
+ 'name': 'sochotnicky',
+ 'owner': [{'email': 'sochotnicky@gentoo.org',
+            'name': 'Stanislav Ochotnicky',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/dev/sochotnicky.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/dev/sochotnicky.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/dev/sochotnicky.git'}],
+ 'status': 'official'}
 $ pmaint sync sochotnicky
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -28,7 +24,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f12b1ee9c00> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f1c15f2ac00> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -92,4 +88,5 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
+Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

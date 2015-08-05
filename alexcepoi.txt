@@ -1,22 +1,18 @@
-{u'description': [u'Personal User Overlay'],
- u'feeds': [u'https://cgit.gentoo.org/user/alexcepoi.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/alexcepoi.git/',
- u'irc': None,
- u'name': u'alexcepoi',
- u'official': False,
- u'owner_email': u'alex.cepoi@gmail.com',
- u'owner_name': u'Alexandru Cepoi',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/alexcepoi.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/alexcepoi.git',
-               u'Git',
-               u''),
-              (u'git+ssh://git@git.gentoo.org/user/alexcepoi.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Personal User Overlay'},
+ 'feed': ['https://cgit.gentoo.org/user/alexcepoi.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/alexcepoi.git/',
+ 'name': 'alexcepoi',
+ 'owner': [{'email': 'alex.cepoi@gmail.com',
+            'name': 'Alexandru Cepoi',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/user/alexcepoi.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/alexcepoi.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/alexcepoi.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync alexcepoi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -26,5 +22,4 @@ Already up-to-date.
 $ pmaint regen -t 2 alexcepoi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully

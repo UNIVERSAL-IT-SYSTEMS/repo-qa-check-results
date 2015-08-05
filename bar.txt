@@ -1,18 +1,18 @@
-{u'description': [u'Ebuilds that end up in Funtoo ports-2012'],
- u'feeds': [u'https://github.com/tokiclover/bar-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/tokiclover/bar-overlay',
- u'irc': None,
- u'name': u'bar',
- u'official': False,
- u'owner_email': u'tokiclover@gmail.com',
- u'owner_name': u'tokiclover',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/tokiclover/bar-overlay.git', u'Git', u''),
-              (u'https://github.com/tokiclover/bar-overlay.git', u'Git', u''),
-              (u'git@github.com:tokiclover/bar-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Ebuilds that end up in Funtoo ports-2012'},
+ 'feed': ['https://github.com/tokiclover/bar-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/tokiclover/bar-overlay',
+ 'name': 'bar',
+ 'owner': [{'email': 'tokiclover@gmail.com',
+            'name': 'tokiclover',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/tokiclover/bar-overlay.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/tokiclover/bar-overlay.git'},
+            {'type': 'git',
+             'uri': 'git@github.com:tokiclover/bar-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -25,28 +25,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use' function invoked by media-fonts/liberation-fonts-2.00.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-2.60 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-2.80 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by net-print/cnijfilter-2.70 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.40 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.30 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.60 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.20 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.70 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-print/cnijfilter-3.10 during metadata regeneration.
@@ -55,27 +34,48 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by net-print/cnijfilter-3.00 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.50 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-3.20 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.80 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-2.80 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-2.60 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-print/cnijfilter-2.90 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.90 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-3.40 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-4.00 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-3.60 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-3.50 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-3.30 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-print/cnijfilter-4.10 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use' function invoked by net-print/cnijfilter-3.90 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-3.80 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-3.70 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-4.00 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f0dd4a83208> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f1a44053208> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

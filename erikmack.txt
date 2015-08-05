@@ -1,16 +1,14 @@
-{u'description': [u"Erik Mackdanz' overlay"],
- u'feeds': [u'http://github.com/feeds/erikmack/commits/gentoo-overlay/master'],
- u'homepage': u'http://github.com/erikmack/gentoo-overlay',
- u'irc': None,
- u'name': u'erikmack',
- u'official': False,
- u'owner_email': u'erikmack@gmail.com',
- u'owner_name': u'Erik Mackdanz',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/erikmack/gentoo-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "Erik Mackdanz' overlay"},
+ 'feed': ['http://github.com/feeds/erikmack/commits/gentoo-overlay/master'],
+ 'homepage': 'http://github.com/erikmack/gentoo-overlay',
+ 'name': 'erikmack',
+ 'owner': [{'email': 'erikmack@gmail.com',
+            'name': 'Erik Mackdanz',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/erikmack/gentoo-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync erikmack
 WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.

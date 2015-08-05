@@ -1,16 +1,14 @@
-{u'description': [u'Overlay to install the Unity desktop'],
- u'feeds': [u'https://github.com/feeds/shiznix/commits/unity-gentoo/master'],
- u'homepage': u'https://github.com/shiznix/unity-gentoo',
- u'irc': None,
- u'name': u'unity-gentoo',
- u'official': False,
- u'owner_email': u'rickfharris@yahoo.com.au',
- u'owner_name': u'Rick Harris',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/shiznix/unity-gentoo.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Overlay to install the Unity desktop'},
+ 'feed': ['https://github.com/feeds/shiznix/commits/unity-gentoo/master'],
+ 'homepage': 'https://github.com/shiznix/unity-gentoo',
+ 'name': 'unity-gentoo',
+ 'owner': [{'email': 'rickfharris@yahoo.com.au',
+            'name': 'Rick Harris',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/shiznix/unity-gentoo.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync unity-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

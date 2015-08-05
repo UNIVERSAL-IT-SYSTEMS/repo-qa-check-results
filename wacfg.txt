@@ -1,18 +1,12 @@
-{u'description': [u'Overlay for WaCfg - webapp-configs replacement.'],
- u'feeds': [u'http://github.com/nutztherookie/wacfg-overlay/commits/master.atom'],
- u'homepage': u'http://wacfg.noova.de',
- u'irc': None,
- u'name': u'wacfg',
- u'official': True,
- u'owner_email': u'nutz@noova.de',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/nutztherookie/wacfg-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Overlay for WaCfg - webapp-configs replacement.'},
+ 'feed': ['http://github.com/nutztherookie/wacfg-overlay/commits/master.atom'],
+ 'homepage': 'http://wacfg.noova.de',
+ 'name': 'wacfg',
+ 'owner': [{'email': 'nutz@noova.de', 'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/nutztherookie/wacfg-overlay.git'}],
+ 'status': 'official'}
 $ pmaint sync wacfg
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

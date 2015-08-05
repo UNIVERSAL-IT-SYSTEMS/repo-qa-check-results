@@ -1,18 +1,19 @@
-{u'description': [u'User overlay'],
- u'feeds': [u'https://github.com/hamper/hamper-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/hamper/hamper-overlay',
- u'irc': None,
- u'name': u'hamper-overlay',
- u'official': False,
- u'owner_email': u'hamper.nhs@gmail.com',
- u'owner_name': u'Alexander Pilipenko',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/hamper/hamper-overlay.git', u'Git', u''),
-              (u'https://github.com/Hamper/hamper-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'User overlay'},
+ 'feed': ['https://github.com/hamper/hamper-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/hamper/hamper-overlay',
+ 'name': 'hamper-overlay',
+ 'owner': [{'email': 'hamper.nhs@gmail.com',
+            'name': 'Alexander Pilipenko',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/hamper/hamper-overlay.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/Hamper/hamper-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync hamper-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ext-devlibs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing hamper-overlay
@@ -38,7 +39,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f57db8b08e8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fb45ea65af8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -117,6 +118,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

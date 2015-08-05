@@ -1,16 +1,13 @@
-{u'description': [u'Fixed ebuilds for uclibc and other embedded systems'],
- u'feeds': [u'https://github.com/alphallc/crossdev/commits/master.atom'],
- u'homepage': u'https://github.com/alphallc/crossdev/',
- u'irc': None,
- u'name': u'crossdev',
- u'official': False,
- u'owner_email': u'gentoo@mva.name',
- u'owner_name': u'Vadim A. Misbakh-Soloviov',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/alphallc/crossdev', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Fixed ebuilds for uclibc and other embedded systems'},
+ 'feed': ['https://github.com/alphallc/crossdev/commits/master.atom'],
+ 'homepage': 'https://github.com/alphallc/crossdev/',
+ 'name': 'crossdev',
+ 'owner': [{'email': 'gentoo@mva.name',
+            'name': 'Vadim A. Misbakh-Soloviov',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/alphallc/crossdev'}],
+ 'status': 'unofficial'}
 $ pmaint sync crossdev
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -20,6 +17,6 @@ Already up-to-date.
 $ pmaint regen -t 2 crossdev
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 1494
+sandbox:stop  caught signal 15 in pid 29703
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

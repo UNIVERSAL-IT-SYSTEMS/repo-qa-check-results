@@ -1,16 +1,14 @@
-{u'description': [u'My random Gentoo packages'],
- u'feeds': [u'https://bitbucket.org/dwfreed/dwfreed.gentoo/rss'],
- u'homepage': u'https://bitbucket.org/dwfreed/dwfreed.gentoo/',
- u'irc': None,
- u'name': u'dwfreed',
- u'official': False,
- u'owner_email': u'dwfreed@mtu.edu',
- u'owner_name': u'Douglas Freed',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://bitbucket.org/dwfreed/dwfreed.gentoo', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'My random Gentoo packages'},
+ 'feed': ['https://bitbucket.org/dwfreed/dwfreed.gentoo/rss'],
+ 'homepage': 'https://bitbucket.org/dwfreed/dwfreed.gentoo/',
+ 'name': 'dwfreed',
+ 'owner': [{'email': 'dwfreed@mtu.edu',
+            'name': 'Douglas Freed',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://bitbucket.org/dwfreed/dwfreed.gentoo'}],
+ 'status': 'unofficial'}
 $ pmaint sync dwfreed
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -21,6 +19,6 @@ Already up-to-date.
 $ pmaint regen -t 2 dwfreed
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 23064
+sandbox:stop  caught signal 15 in pid 27596
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

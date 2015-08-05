@@ -1,18 +1,16 @@
-{u'description': [u'Ported Open WebOS components and libraries'],
- u'feeds': [u'https://github.com/feniksa/webos-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/feniksa/webos-overlay',
- u'irc': None,
- u'name': u'webos',
- u'official': False,
- u'owner_email': u'feniksa@rambler.ru',
- u'owner_name': u'Maksym Sditanov',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/feniksa/webos-overlay.git', u'Git', u''),
-              (u'git://github.com:feniksa/webos-overlay.git', u'Git', u''),
-              (u'git@github.com:feniksa/webos-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Ported Open WebOS components and libraries'},
+ 'feed': ['https://github.com/feniksa/webos-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/feniksa/webos-overlay',
+ 'name': 'webos',
+ 'owner': [{'email': 'feniksa@rambler.ru', 'name': 'Maksym Sditanov'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/feniksa/webos-overlay.git'},
+            {'type': 'git',
+             'uri': 'git://github.com:feniksa/webos-overlay.git'},
+            {'type': 'git',
+             'uri': 'git@github.com:feniksa/webos-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync webos
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,4 +20,6 @@ Already up-to-date.
 $ pmaint regen -t 2 webos
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+sandbox:stop  caught signal 15 in pid 10834
+Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

@@ -1,17 +1,14 @@
-{u'description': [u'Personal overlay of Wim Muskee'],
- u'feeds': [],
- u'homepage': u'https://github.com/wimmuskee/flavour',
- u'irc': None,
- u'name': u'flavour',
- u'official': False,
- u'owner_email': u'wimmuskee@gmail.com',
- u'owner_name': u'Wim Muskee',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/wimmuskee/flavour.git', u'Git', u''),
-              (u'https://github.com/wimmuskee/flavour.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Personal overlay of Wim Muskee'},
+ 'homepage': 'https://github.com/wimmuskee/flavour',
+ 'name': 'flavour',
+ 'owner': [{'email': 'wimmuskee@gmail.com',
+            'name': 'Wim Muskee',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/wimmuskee/flavour.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/wimmuskee/flavour.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync flavour
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -27,14 +24,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! caught exception inherit requires an unknown eclass, twisted cannot be found while processing ebuild src: net-misc/epoptes-9999
-Error running an operation:
- Unhandled exception in regen_cache
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '168' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/flavour/net-misc/epoptes/epoptes-9999.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/flavour/net-misc/epoptes/epoptes-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/flavour/net-misc/epoptes/epoptes-9999.ebuild'
-sandbox:stop  caught signal 15 in pid 13239
+sandbox:stop  caught signal 15 in pid 10542
 Sandboxed process killed by signal: Terminated
- * Cache regen failed with 246
+!!! caught exception inherit requires an unknown eclass, twisted cannot be found while processing ebuild src: net-misc/epoptes-9999
+ * Cache regenerated successfully

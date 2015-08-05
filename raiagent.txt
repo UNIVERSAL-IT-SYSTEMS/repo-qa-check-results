@@ -1,16 +1,12 @@
-{u'description': [u'Well-documented ebuilds en-route to a bandersnatch near you'],
- u'feeds': [],
- u'homepage': u'https://github.com/leycec/raiagent',
- u'irc': None,
- u'name': u'raiagent',
- u'official': False,
- u'owner_email': u'leycec@gmail.com',
- u'owner_name': u'Cecil Curry',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/leycec/raiagent.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Well-documented ebuilds en-route to a bandersnatch near you'},
+ 'homepage': 'https://github.com/leycec/raiagent',
+ 'name': 'raiagent',
+ 'owner': [{'email': 'leycec@gmail.com',
+            'name': 'Cecil Curry',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/leycec/raiagent.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync raiagent
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -20,55 +16,58 @@ Already up-to-date.
 $ pmaint regen -t 2 raiagent
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-roguelike/cataclysm-dda/cataclysm-dda-0.9.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-roguelike/cataclysm-dda/cataclysm-dda-0.5.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/dev-util/ctags/ctags-9999.ebuild
-          : was hB
-          : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-roguelike/cataclysm-dda/cataclysm-dda-0.9a-r1.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-roguelike/cataclysm-dda/cataclysm-dda-0.4.ebuild
           : was hB
           : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-roguelike/unreal-world/unreal-world-3.16.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-roguelike/tsl/tsl-0.40.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-emulation/dosbox-daum/dosbox-daum-20130725.ebuild
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-roguelike/cataclysm-dda/cataclysm-dda-0.5.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-roguelike/tome4/tome4-1.0.4-r2.ebuild
           : was hB
           : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-roguelike/unreal-world/unreal-world-3.16.ebuild
+          : was hB
+          : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-roguelike/cataclysm-dda/cataclysm-dda-0.9.ebuild
+          : was hB
+          : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/dev-util/ctags/ctags-9999.ebuild
+          : was hB
+          : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-roguelike/tsl/tsl-0.40.ebuild
+          : was hB
+          : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-emulation/vice/vice-2.4.5.ebuild
           : was hB
           : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-ftl/grognaks_mod_manager/grognaks_mod_manager-9999.ebuild
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-misc/powerline/powerline-1.0.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-misc/powerline/powerline-1.1.ebuild
           : was hB
           : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-misc/powerline/powerline-2.1.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-misc/powerline/powerline-1.3.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-misc/powerline/powerline-1.2.ebuild
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-ftl/grognaks_mod_manager/grognaks_mod_manager-9999.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-text/labelnation/labelnation-1.218.ebuild
           : was hB
           : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-misc/powerline/powerline-1.2.ebuild
+          : was hB
+          : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-misc/powerline/powerline-2.1.ebuild
+          : was hB
+          : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/media-fonts/powerline-fonts/powerline-fonts-9999-r2.ebuild
+          : was hB
+          : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-emulation/dosbox-daum/dosbox-daum-20130725.ebuild
+          : was hB
+          : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-misc/powerline/powerline-1.3.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/media-fonts/powerline-symbols/powerline-symbols-9999.ebuild
@@ -77,43 +76,31 @@ QA warning: set modification bled out of invocation source /home/mgorny/repos/ra
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-misc/powerline/powerline-1.3.1.ebuild
           : was hB
           : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-1.3.ebuild
-          : was hB
-          : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-1.2.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/games-engines/ags/ags-9999.ebuild
           : was hB
           : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-misc/powerline/powerline-1.0.ebuild
-          : was hB
-          : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-2.0.ebuild
           : was hB
           : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-2.1.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-1.0.ebuild
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/dev-java/yuicompressor/yuicompressor-2.4.8.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-1.1.ebuild
           : was hB
           : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-2.1.4.ebuild
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-1.0.ebuild
+          : was hB
+          : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-1.3.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-1.3.1.ebuild
           : was hB
           : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/dev-java/jargs/jargs-1.0.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/media-libs/openglide/openglide-9999-r1.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/dev-java/yuicompressor/yuicompressor-2.4.8.ebuild
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-2.1.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/media-libs/mt32emu/mt32emu-1.4.0-r1.ebuild
@@ -122,16 +109,25 @@ QA warning: set modification bled out of invocation source /home/mgorny/repos/ra
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/net-p2p/imule/imule-2.3.2.3-r3.ebuild
           : was hB
           : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/media-libs/mt32emu-alsa/mt32emu-alsa-1.4.0.ebuild
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/media-libs/openglide/openglide-9999-r1.ebuild
+          : was hB
+          : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/app-vim/powerline-vim/powerline-vim-2.1.4.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/media-libs/sdl-sound/sdl-sound-9999-r1.ebuild
           : was hB
           : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/sys-power/phc-k8/phc-k8-0.4.6.ebuild
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/dev-java/jargs/jargs-1.0.ebuild
+          : was hB
+          : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/media-libs/mt32emu-alsa/mt32emu-alsa-1.4.0.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/sys-power/phc-k8/phc-k8-0.4.5.ebuild
+          : was hB
+          : now ehB
+QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/sys-power/phc-k8/phc-k8-0.4.6.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/sys-power/phc-k8/phc-k8-0.4.6_beta1.ebuild
@@ -139,7 +135,7 @@ QA warning: set modification bled out of invocation source /home/mgorny/repos/ra
           : now ehB
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f732267c418> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f99308d4208> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

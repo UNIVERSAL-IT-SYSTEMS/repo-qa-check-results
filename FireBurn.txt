@@ -1,16 +1,13 @@
-{u'description': [u'32bit ebuilds (libdrm, mesa, libx11, mesa-progs, ..)'],
- u'feeds': [u'https://github.com/FireBurn/Overlay/commits/master.atom'],
- u'homepage': u'https://github.com/FireBurn/Overlay',
- u'irc': None,
- u'name': u'FireBurn',
- u'official': False,
- u'owner_email': u'mike@fireburn.co.uk',
- u'owner_name': u'Mike Lothian',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/FireBurn/Overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': '32bit ebuilds (libdrm, mesa, libx11, mesa-progs, ..)'},
+ 'feed': ['https://github.com/FireBurn/Overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/FireBurn/Overlay',
+ 'name': 'FireBurn',
+ 'owner': [{'email': 'mike@fireburn.co.uk',
+            'name': 'Mike Lothian',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/FireBurn/Overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync FireBurn
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -25,7 +22,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f375c7f7730> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f88d9508f70> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

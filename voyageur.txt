@@ -1,16 +1,12 @@
-{u'description': [u"Voyageur's random ebuilds stuff"],
- u'feeds': [u'https://cafarelli.fr/cgi-bin/cgit.cgi/voyageur-overlay/atom'],
- u'homepage': u'https://cafarelli.fr/cgi-bin/cgit.cgi/voyageur-overlay/',
- u'irc': None,
- u'name': u'voyageur',
- u'official': True,
- u'owner_email': u'voyageur@gentoo.org',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://cafarelli.fr/git/voyageur-overlay/', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': "Voyageur's random ebuilds stuff"},
+ 'feed': ['https://cafarelli.fr/cgi-bin/cgit.cgi/voyageur-overlay/atom'],
+ 'homepage': '\n    https://cafarelli.fr/cgi-bin/cgit.cgi/voyageur-overlay/',
+ 'name': 'voyageur',
+ 'owner': [{'email': 'voyageur@gentoo.org'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://cafarelli.fr/git/voyageur-overlay/'}],
+ 'status': 'official'}
 $ pmaint sync voyageur
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -20,4 +16,6 @@ Already up-to-date.
 $ pmaint regen -t 2 voyageur
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+sandbox:stop  caught signal 15 in pid 4791
+Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

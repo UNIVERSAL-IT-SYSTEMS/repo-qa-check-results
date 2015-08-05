@@ -1,19 +1,16 @@
-{u'description': [u'Calculate Overlay'],
- u'feeds': [],
- u'homepage': u'http://www.calculate-linux.org',
- u'irc': None,
- u'name': u'calculate',
- u'official': False,
- u'owner_email': u'at@calculate.ru',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://git.calculate.ru/calculate/overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Calculate Overlay'},
+ 'homepage': 'http://www.calculate-linux.org',
+ 'name': 'calculate',
+ 'owner': [{'email': 'at@calculate.ru'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://git.calculate.ru/calculate/overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing calculate
 *** synced calculate
@@ -21,6 +18,4 @@ Already up-to-date.
 $ pmaint regen -t 2 calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 5995
-Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

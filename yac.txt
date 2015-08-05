@@ -1,18 +1,17 @@
-{u'description': [u'personal overlay of jan mat\u011bjka'],
- u'feeds': [u'https://github.com/yaccz/gentoo-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/yaccz/gentoo-overlay',
- u'irc': None,
- u'name': u'yac',
- u'official': False,
- u'owner_email': u'yac@gentoo.org',
- u'owner_name': u'jan mat\u011bjka',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/yaccz/gentoo-overlay.git', u'Git', u''),
-              (u'https://github.com/yaccz/gentoo-overlay.git', u'Git', u''),
-              (u'git@github.com:yaccz/gentoo-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': u'personal overlay of jan mat\u011bjka'},
+ 'feed': ['https://github.com/yaccz/gentoo-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/yaccz/gentoo-overlay',
+ 'name': 'yac',
+ 'owner': [{'email': 'yac@gentoo.org',
+            'name': u'jan mat\u011bjka',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/yaccz/gentoo-overlay.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/yaccz/gentoo-overlay.git'},
+            {'type': 'git', 'uri': 'git@github.com:yaccz/gentoo-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync yac
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -24,7 +23,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f11d81b2838> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fc2fff61a48> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

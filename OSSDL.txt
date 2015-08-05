@@ -1,17 +1,16 @@
-{u'description': [u'Overlay of W-Mark Kubacki'],
- u'feeds': [u'https://github.com/wmark/ossdl-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/wmark/ossdl-overlay',
- u'irc': None,
- u'name': u'OSSDL',
- u'official': False,
- u'owner_email': u'wmark+overlay@hurrikane.de',
- u'owner_name': u'W-Mark Kubacki',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/wmark/ossdl-overlay.git', u'Git', u''),
-              (u'https://github.com/wmark/ossdl-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Overlay of W-Mark Kubacki'},
+ 'feed': ['https://github.com/wmark/ossdl-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/wmark/ossdl-overlay',
+ 'name': 'OSSDL',
+ 'owner': [{'email': 'wmark+overlay@hurrikane.de',
+            'name': 'W-Mark Kubacki',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/wmark/ossdl-overlay.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/wmark/ossdl-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync OSSDL
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -36,22 +35,22 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
+WARNING: 'use' function invoked by sys-devel/gcc-4.9.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * 
  * "/home/mgorny/repos/OSSDL/dev-python/which/which-1.1.0.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-WARNING: 'use' function invoked by sys-devel/gcc-4.9.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by sys-devel/gcc-5.0_alpha20150208 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.17.2 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.16.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.16.7 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.17.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully

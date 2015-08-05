@@ -1,18 +1,14 @@
-{u'description': [u'Regina packages for Gentoo'],
- u'feeds': [u'https://github.com/WPettersson/regina-gentoo/commits/master.atom'],
- u'homepage': u'http://github.com/WPettersson/regina-gentoo/',
- u'irc': None,
- u'name': u'regina-gentoo',
- u'official': False,
- u'owner_email': u'william@ewpettersson.se',
- u'owner_name': u'William Pettersson',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/WPettersson/regina-gentoo.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Regina packages for Gentoo'},
+ 'feed': ['https://github.com/WPettersson/regina-gentoo/commits/master.atom'],
+ 'homepage': 'http://github.com/WPettersson/regina-gentoo/',
+ 'name': 'regina-gentoo',
+ 'owner': [{'email': 'william@ewpettersson.se',
+            'name': 'William Pettersson',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/WPettersson/regina-gentoo.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync regina-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -24,7 +20,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f479e265aa0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f0d5890faa0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -88,4 +84,5 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
+Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

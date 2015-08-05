@@ -1,18 +1,17 @@
-{u'description': [u'New, staging and experimental ebuilds'],
- u'feeds': [u'https://cgit.gentoo.org/dev/TomWij.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/dev/TomWij.git/',
- u'irc': None,
- u'name': u'TomWij',
- u'official': True,
- u'owner_email': u'tomwij@gentoo.org',
- u'owner_name': u'Tom Wijsman',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/dev/TomWij.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/dev/TomWij.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/dev/TomWij.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'New, staging and experimental ebuilds'},
+ 'feed': ['https://cgit.gentoo.org/dev/TomWij.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/dev/TomWij.git/',
+ 'name': 'TomWij',
+ 'owner': [{'email': 'tomwij@gentoo.org',
+            'name': 'Tom Wijsman',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/dev/TomWij.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/dev/TomWij.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/dev/TomWij.git'}],
+ 'status': 'official'}
 $ pmaint sync TomWij
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -25,7 +24,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f4b0f7c7c58> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f51bae3ec58> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

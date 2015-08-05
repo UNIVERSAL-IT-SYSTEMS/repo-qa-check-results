@@ -1,18 +1,17 @@
-{u'description': [u'Desktop oriented overlay for various ebuilds and the occasional gamer'],
- u'feeds': [u'https://github.com/stefan-gr/abendbrot/commits/master.atom'],
- u'homepage': u'https://github.com/stefan-gr/abendbrot',
- u'irc': None,
- u'name': u'abendbrot',
- u'official': False,
- u'owner_email': u'stefan.gert.r@gmail.com',
- u'owner_name': u'Stefan Reuter',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/stefan-gr/abendbrot.git', u'Git', u''),
-              (u'git://github.com/stefan-gr/abendbrot.git', u'Git', u''),
-              (u'git@github.com:stefan-gr/abendbrot.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Desktop oriented overlay for various ebuilds and the occasional gamer'},
+ 'feed': ['https://github.com/stefan-gr/abendbrot/commits/master.atom'],
+ 'homepage': 'https://github.com/stefan-gr/abendbrot',
+ 'name': 'abendbrot',
+ 'owner': [{'email': 'stefan.gert.r@gmail.com',
+            'name': 'Stefan Reuter',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/stefan-gr/abendbrot.git'},
+            {'type': 'git',
+             'uri': 'git://github.com/stefan-gr/abendbrot.git'},
+            {'type': 'git', 'uri': 'git@github.com:stefan-gr/abendbrot.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync abendbrot
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

@@ -1,18 +1,15 @@
-{u'description': [u'Gentoo Layman portage repository for Jetbrains Products'],
- u'feeds': [u'https://github.com/drdim/layman/commits/master.atom'],
- u'homepage': u'https://github.com/drdim/layman',
- u'irc': None,
- u'name': u'drdim',
- u'official': False,
- u'owner_email': u'dr.dim.pro@gmail.com',
- u'owner_name': u'Dmitriy Bogatkin',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/drdim/layman.git', u'Git', u''),
-              (u'git://github.com/drdim/layman.git', u'Git', u''),
-              (u'git@github.com:drdim/layman.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Gentoo Layman portage repository for Jetbrains Products'},
+ 'feed': ['https://github.com/drdim/layman/commits/master.atom'],
+ 'homepage': 'https://github.com/drdim/layman',
+ 'name': 'drdim',
+ 'owner': [{'email': 'dr.dim.pro@gmail.com',
+            'name': 'Dmitriy Bogatkin',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'https://github.com/drdim/layman.git'},
+            {'type': 'git', 'uri': 'git://github.com/drdim/layman.git'},
+            {'type': 'git', 'uri': 'git@github.com:drdim/layman.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync drdim
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -25,7 +22,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fcb58c5d418> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f13b659b418> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

@@ -1,18 +1,17 @@
-{u'description': [u"neko259's overlay"],
- u'feeds': [u'https://bitbucket.org/neko259/nektoo/atom',
-            u'https://bitbucket.org/neko259/nektoo/rss'],
- u'homepage': u'https://bitbucket.org/neko259/nektoo',
- u'irc': None,
- u'name': u'nektoo',
- u'official': False,
- u'owner_email': u'neko259@gmail.com',
- u'owner_name': u'neko259',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://bitbucket.org/neko259/nektoo', u'Mercurial', u''),
-              (u'ssh://hg@bitbucket.org/neko259/nektoo', u'Mercurial', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "neko259's overlay"},
+ 'feed': ['https://bitbucket.org/neko259/nektoo/atom',
+          'https://bitbucket.org/neko259/nektoo/rss'],
+ 'homepage': 'https://bitbucket.org/neko259/nektoo',
+ 'name': 'nektoo',
+ 'owner': [{'email': 'neko259@gmail.com',
+            'name': 'neko259',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'mercurial',
+             'uri': 'https://bitbucket.org/neko259/nektoo'},
+            {'type': 'mercurial',
+             'uri': 'ssh://hg@bitbucket.org/neko259/nektoo'}],
+ 'status': 'unofficial'}
 $ pmaint sync nektoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 pulling from https://bitbucket.org/neko259/nektoo

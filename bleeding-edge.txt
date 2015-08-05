@@ -1,18 +1,11 @@
-{u'description': [u'Gentoo ebuilds for "bleeding edge" versions of packages - newest, untested - running on ~amd64.'],
- u'feeds': [],
- u'homepage': u'http://gitorious.org/jasiu/bleeding-edge',
- u'irc': None,
- u'name': u'bleeding-edge',
- u'official': False,
- u'owner_email': u'jasiupsota@gmail.com',
- u'owner_name': u'Jan Psota',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://git.gitorious.org/jasiu/bleeding-edge.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Gentoo ebuilds for "bleeding edge" versions of packages - newest, untested - running on ~amd64.'},
+ 'homepage': 'http://gitorious.org/jasiu/bleeding-edge',
+ 'name': 'bleeding-edge',
+ 'owner': [{'email': 'jasiupsota@gmail.com', 'name': 'Jan Psota'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://git.gitorious.org/jasiu/bleeding-edge.git'}],
+ 'status': 'unofficial'}
  * Adding new repository
 $ pmaint sync bleeding-edge
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

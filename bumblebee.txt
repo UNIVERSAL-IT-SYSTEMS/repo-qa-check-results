@@ -1,18 +1,14 @@
-{u'description': [u'Packages related to the bumblebee project'],
- u'feeds': [u'https://github.com/Bumblebee-Project/bumblebee-gentoo/commits/master.atom'],
- u'homepage': u'https://github.com/Bumblebee-Project/bumblebee-gentoo/',
- u'irc': None,
- u'name': u'bumblebee',
- u'official': False,
- u'owner_email': u'gentoo@mva.name',
- u'owner_name': u'Vadim A. Misbakh-Soloviov',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/Bumblebee-Project/bumblebee-gentoo',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Packages related to the bumblebee project'},
+ 'feed': ['https://github.com/Bumblebee-Project/bumblebee-gentoo/commits/master.atom'],
+ 'homepage': 'https://github.com/Bumblebee-Project/bumblebee-gentoo/',
+ 'name': 'bumblebee',
+ 'owner': [{'email': 'gentoo@mva.name',
+            'name': 'Vadim A. Misbakh-Soloviov',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/Bumblebee-Project/bumblebee-gentoo'}],
+ 'status': 'unofficial'}
 $ pmaint sync bumblebee
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,6 +18,6 @@ Already up-to-date.
 $ pmaint regen -t 2 bumblebee
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 11417
+sandbox:stop  caught signal 15 in pid 12827
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

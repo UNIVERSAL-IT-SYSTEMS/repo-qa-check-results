@@ -1,18 +1,11 @@
-{u'description': [u'Gentoo overlay with some packages'],
- u'feeds': [],
- u'homepage': u'https://github.com/pantera31752/open-overlay/',
- u'irc': None,
- u'name': u'open-overlay',
- u'official': False,
- u'owner_email': u'a.xarlanov29@gmail.com',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/pantera31752/open-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Gentoo overlay with some packages'},
+ 'homepage': 'https://github.com/pantera31752/open-overlay/',
+ 'name': 'open-overlay',
+ 'owner': [{'email': 'a.xarlanov29@gmail.com'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/pantera31752/open-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -25,15 +18,15 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use_enable' function invoked by mate-extra/caja-dropbox-1.10.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-9999 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-6.0.0_alpha20150719 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-6.0.0_alpha20150719 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fc0d5c70578> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f82fd9ee680> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

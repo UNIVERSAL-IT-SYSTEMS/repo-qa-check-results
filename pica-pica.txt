@@ -1,18 +1,13 @@
-{u'description': [u'Pica Pica ebuilds'],
- u'feeds': [],
- u'homepage': u'https://github.com/antonsviridenko/pica-pica-gentoo-overlay',
- u'irc': None,
- u'name': u'pica-pica',
- u'official': False,
- u'owner_email': u'anton@picapica.im',
- u'owner_name': u'Anton Sviridenko',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/antonsviridenko/pica-pica-gentoo-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Pica Pica ebuilds'},
+ 'homepage': 'https://github.com/antonsviridenko/pica-pica-gentoo-overlay',
+ 'name': 'pica-pica',
+ 'owner': [{'email': 'anton@picapica.im',
+            'name': 'Anton Sviridenko',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/antonsviridenko/pica-pica-gentoo-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync pica-pica
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -24,7 +19,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f9007c9c1b0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f931e21d1b0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -88,4 +83,5 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
+Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

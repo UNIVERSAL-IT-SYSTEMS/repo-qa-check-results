@@ -1,22 +1,16 @@
-{u'description': [u'Gamers overlay for all various games. Not related with games team.'],
- u'feeds': [u'https://cgit.gentoo.org/proj/gamerlay.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/proj/gamerlay.git',
- u'irc': None,
- u'name': u'gamerlay',
- u'official': False,
- u'owner_email': u'gentoo@mva.name',
- u'owner_name': u'Vadim A. Misbakh-Soloviov',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/proj/gamerlay.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/proj/gamerlay.git',
-               u'Git',
-               u''),
-              (u'git+ssh://git@git.gentoo.org/proj/gamerlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': '\n    Gamers overlay for all various games. Not related with games team.\n  '},
+ 'feed': ['https://cgit.gentoo.org/proj/gamerlay.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/proj/gamerlay.git',
+ 'name': 'gamerlay',
+ 'owner': [{'email': 'gentoo@mva.name', 'name': 'Vadim A. Misbakh-Soloviov'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/proj/gamerlay.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/proj/gamerlay.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/proj/gamerlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync gamerlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -26,6 +20,6 @@ Already up-to-date.
 $ pmaint regen -t 2 gamerlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 6175
+sandbox:stop  caught signal 15 in pid 7353
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

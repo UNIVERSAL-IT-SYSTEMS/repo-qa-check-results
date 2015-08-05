@@ -1,22 +1,17 @@
-{u'description': [u'Overlay of Dustin C. Hatch'],
- u'feeds': [u'https://bitbucket.org/AdmiralNemo/overlay/atom',
-            u'https://bitbucket.org/AdmiralNemo/overlay/rss'],
- u'homepage': u'http://bitbucket.org/AdmiralNemo/overlay',
- u'irc': None,
- u'name': u'dustin',
- u'official': False,
- u'owner_email': u'admiralnemo@gmail.com',
- u'owner_name': u'Dustin C. Hatch',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://bitbucket.org/AdmiralNemo/overlay',
-               u'Mercurial',
-               u''),
-              (u'ssh://hg@bitbucket.org/AdmiralNemo/overlay',
-               u'Mercurial',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Overlay of Dustin C. Hatch'},
+ 'feed': ['https://bitbucket.org/AdmiralNemo/overlay/atom',
+          'https://bitbucket.org/AdmiralNemo/overlay/rss'],
+ 'homepage': 'http://bitbucket.org/AdmiralNemo/overlay',
+ 'name': 'dustin',
+ 'owner': [{'email': 'admiralnemo@gmail.com',
+            'name': 'Dustin C. Hatch',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'mercurial',
+             'uri': 'https://bitbucket.org/AdmiralNemo/overlay'},
+            {'type': 'mercurial',
+             'uri': 'ssh://hg@bitbucket.org/AdmiralNemo/overlay'}],
+ 'status': 'unofficial'}
 $ pmaint sync dustin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 pulling from https://bitbucket.org/AdmiralNemo/overlay
@@ -30,7 +25,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fbae82a73c0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f33f92162b8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

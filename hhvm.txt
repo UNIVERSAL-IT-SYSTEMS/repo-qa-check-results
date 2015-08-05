@@ -1,18 +1,19 @@
-{u'description': [u'hhvm gentoo overlay'],
- u'feeds': [u'https://github.com/reanimus/hhvm-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/reanimus/hhvm-overlay',
- u'irc': None,
- u'name': u'hhvm',
- u'official': False,
- u'owner_email': u'alex@guzman.io',
- u'owner_name': u'Alex Guzman',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/reanimus/hhvm-overlay.git', u'Git', u''),
-              (u'https://github.com/reanimus/hhvm-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'hhvm gentoo overlay'},
+ 'feed': ['https://github.com/reanimus/hhvm-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/reanimus/hhvm-overlay',
+ 'name': 'hhvm',
+ 'owner': [{'email': 'alex@guzman.io',
+            'name': 'Alex Guzman',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/reanimus/hhvm-overlay.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/reanimus/hhvm-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync hhvm
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ext-devlibs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing hhvm
@@ -23,7 +24,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fa52c2643c0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f5b461423c0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

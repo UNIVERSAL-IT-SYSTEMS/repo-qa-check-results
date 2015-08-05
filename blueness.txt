@@ -1,20 +1,15 @@
-{u'description': [u'Developer Overlay'],
- u'feeds': [u'https://cgit.gentoo.org/dev/blueness.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/dev/blueness.git/',
- u'irc': None,
- u'name': u'blueness',
- u'official': True,
- u'owner_email': u'blueness@gentoo.org',
- u'owner_name': u'Anthony G. Basile',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/dev/blueness', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/dev/blueness.git',
-               u'Git',
-               u''),
-              (u'git+ssh://git@git.gentoo.org/dev/blueness.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Developer Overlay'},
+ 'feed': ['https://cgit.gentoo.org/dev/blueness.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/dev/blueness.git/',
+ 'name': 'blueness',
+ 'owner': [{'email': 'blueness@gentoo.org', 'name': 'Anthony G. Basile'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/dev/blueness'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/dev/blueness.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/dev/blueness.git'}],
+ 'status': 'official'}
 $ pmaint sync blueness
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -30,22 +25,16 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use' function invoked by sys-devel/gcc-4.5.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.6.0 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.6.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.6.1-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use' function invoked by sys-devel/gcc-4.6.0 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by sys-devel/gcc-4.5.1-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.6.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.5.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-3.4.6-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.4.7 during metadata regeneration.
@@ -54,34 +43,31 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-devel/gcc-4.5.3-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.2.4-r1 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.0.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.0.4 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-3.4.6-r2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.5.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-3.3.6-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-2.95.3-r10 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by sys-devel/gcc-4.3.6-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.6.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.2.4-r1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-2.95.3-r10 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.1.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.6.4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.7.1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.7.3-r1 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.6.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.7.0 during metadata regeneration.
@@ -90,22 +76,31 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-devel/gcc-4.7.2-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use' function invoked by sys-devel/gcc-4.7.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.7.3-r1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.6.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.8.0 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by sys-devel/gcc-4.7.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.1-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.0 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.9.0 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.8.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.2 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.9.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.9.1 during metadata regeneration.

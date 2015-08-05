@@ -1,21 +1,14 @@
-{u'description': [u"maggu2810's Gentoo portage overlay."],
- u'feeds': [u'http://github.com/feeds/maggu2810/commits/maggu2810-overlay/master'],
- u'homepage': u'http://github.com/maggu2810/maggu2810-overlay',
- u'irc': None,
- u'name': u'maggu2810-overlay',
- u'official': False,
- u'owner_email': u'maggu2810@gmail.com',
- u'owner_name': u'Markus Rathgeb',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/maggu2810/maggu2810-overlay.git',
-               u'Git',
-               u''),
-              (u'http://github.com/maggu2810/maggu2810-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "maggu2810's Gentoo portage overlay."},
+ 'feed': ['http://github.com/feeds/maggu2810/commits/maggu2810-overlay/master'],
+ 'homepage': 'http://github.com/maggu2810/maggu2810-overlay',
+ 'name': 'maggu2810-overlay',
+ 'owner': [{'email': 'maggu2810@gmail.com', 'name': 'Markus Rathgeb'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/maggu2810/maggu2810-overlay.git'},
+            {'type': 'git',
+             'uri': 'http://github.com/maggu2810/maggu2810-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync maggu2810-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -26,6 +19,4 @@ Already up-to-date.
 $ pmaint regen -t 2 maggu2810-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- * Cache regen failed with 246
+ * Cache regenerated successfully

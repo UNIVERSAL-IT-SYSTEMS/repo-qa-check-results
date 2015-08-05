@@ -1,20 +1,18 @@
-{u'description': [u"Keruspe's overlay"],
- u'feeds': [u'https://cgit.gentoo.org/user/keruspe.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/keruspe.git/',
- u'irc': None,
- u'name': u'keruspe',
- u'official': False,
- u'owner_email': u'Marc-Antoine@Perennou.com',
- u'owner_name': u'Marc-Antoine Perennou',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/keruspe.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/keruspe.git',
-               u'Git',
-               u''),
-              (u'git+ssh://git@git.gentoo.org/user/keruspe.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "Keruspe's overlay"},
+ 'feed': ['https://cgit.gentoo.org/user/keruspe.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/keruspe.git/',
+ 'name': 'keruspe',
+ 'owner': [{'email': 'Marc-Antoine@Perennou.com',
+            'name': 'Marc-Antoine Perennou',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/user/keruspe.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/keruspe.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/keruspe.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync keruspe
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -48,7 +46,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f928596a3c0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f9f428860a8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -127,5 +125,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

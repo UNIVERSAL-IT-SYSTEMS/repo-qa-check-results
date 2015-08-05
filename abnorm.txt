@@ -1,16 +1,10 @@
-{u'description': [u'Personal overlay with live ebuilds'],
- u'feeds': [],
- u'homepage': u'https://github.com/faust/portage',
- u'irc': None,
- u'name': u'abnorm',
- u'official': False,
- u'owner_email': u'faust@abnorm.org',
- u'owner_name': u'Faust',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/faust/portage.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Personal overlay with live ebuilds'},
+ 'homepage': 'https://github.com/faust/portage',
+ 'name': 'abnorm',
+ 'owner': [{'email': 'faust@abnorm.org', 'name': 'Faust', 'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/faust/portage.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync abnorm
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,7 +16,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f6d7a483418> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f9a84189418> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -102,11 +96,12 @@ Traceback (most recent call last):
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
 Sandboxed process killed by signal: Broken pipe
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f6d7a4dbba8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f9a841e1cb0> ignored
 Sandboxed process killed by signal: Broken pipe
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f6d7a4dbaa0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f9a841e1788> ignored
 Sandboxed process killed by signal: Broken pipe
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f6d7a4db208> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f9a841e1208> ignored
 Sandboxed process killed by signal: Broken pipe
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f6d7a4db628> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f9a841e1628> ignored
+Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

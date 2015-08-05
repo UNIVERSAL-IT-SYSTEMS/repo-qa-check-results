@@ -1,17 +1,16 @@
-{u'description': [u'Viprea; a distribution based on Gentoo'],
- u'feeds': [u'http://github.com/viprea/viprea-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/viprea/viprea-overlay',
- u'irc': None,
- u'name': u'viprea-overlay',
- u'official': False,
- u'owner_email': u'gentoo@aoibh.in',
- u'owner_name': u'Aoibhinn di Tor\xed',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/viprea/viprea-overlay.git', u'Git', u''),
-              (u'https://github.com/viprea/viprea-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Viprea; a distribution based on Gentoo'},
+ 'feed': ['http://github.com/viprea/viprea-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/viprea/viprea-overlay',
+ 'name': 'viprea-overlay',
+ 'owner': [{'email': 'gentoo@aoibh.in',
+            'name': u'Aoibhinn di Tor\xed',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/viprea/viprea-overlay.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/viprea/viprea-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync viprea-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

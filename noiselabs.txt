@@ -1,16 +1,12 @@
-{u'description': [u'noiselabs.org Gentoo Overlay'],
- u'feeds': [],
- u'homepage': u'http://overlay.noiselabs.org/',
- u'irc': None,
- u'name': u'noiselabs',
- u'official': False,
- u'owner_email': u'noisebleed@noiselabs.org',
- u'owner_name': u'V\xedtor Brand\xe3o (noisebleed)',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/noiselabs/overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'noiselabs.org Gentoo Overlay'},
+ 'homepage': 'http://overlay.noiselabs.org/',
+ 'name': 'noiselabs',
+ 'owner': [{'email': 'noisebleed@noiselabs.org',
+            'name': u'V\xedtor Brand\xe3o (noisebleed)',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/noiselabs/overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync noiselabs
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -23,7 +19,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f4003c923c0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f3d6c05a3c0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

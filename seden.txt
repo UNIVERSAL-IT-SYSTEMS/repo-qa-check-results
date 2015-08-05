@@ -1,18 +1,17 @@
-{u'description': [u'Experimental ebuilds that are still unmaintained'],
- u'feeds': [u'https://cgit.gentoo.org/user/seden.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/seden.git/',
- u'irc': None,
- u'name': u'seden',
- u'official': False,
- u'owner_email': u'yamakuzure@gmx.net',
- u'owner_name': u'Sven Eden',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/seden.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/seden.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/user/seden.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Experimental ebuilds that are still unmaintained'},
+ 'feed': ['https://cgit.gentoo.org/user/seden.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/seden.git/',
+ 'name': 'seden',
+ 'owner': [{'email': 'yamakuzure@gmx.net',
+            'name': 'Sven Eden',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/user/seden.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/seden.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/seden.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync seden
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -31,7 +30,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7faf534b3470> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f0784db1470> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -110,5 +109,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7faf5350b9f0> ignored
  * Cache regen failed with 246

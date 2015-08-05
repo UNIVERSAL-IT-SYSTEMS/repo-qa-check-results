@@ -1,18 +1,13 @@
-{u'description': [u"C\xe9dric's user overlay"],
- u'feeds': [],
- u'homepage': u'https://github.com/tristelune1/tristelune-overlay',
- u'irc': None,
- u'name': u'tristelune',
- u'official': False,
- u'owner_email': u'cmacquat@mykolab.com',
- u'owner_name': u'C\xe9dric',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/tristelune1/tristelune-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': u"C\xe9dric's user overlay"},
+ 'homepage': 'https://github.com/tristelune1/tristelune-overlay',
+ 'name': 'tristelune',
+ 'owner': [{'email': 'cmacquat@mykolab.com',
+            'name': u'C\xe9dric',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/tristelune1/tristelune-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync tristelune
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -24,7 +19,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fd8113a1af8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f494b2cdaf8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

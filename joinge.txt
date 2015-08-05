@@ -1,20 +1,16 @@
-{u'description': [u"joinge's user overlay"],
- u'feeds': [u'https://cgit.gentoo.org/user/joinge.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/joinge.git/',
- u'irc': None,
- u'name': u'joinge',
- u'official': False,
- u'owner_email': u'joinge.dev@gmail.com',
- u'owner_name': u'Jo Inge Buskenes',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/joinge.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/joinge.git',
-               u'Git',
-               u''),
-              (u'git+ssh://git@git.gentoo.org/user/joinge.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "joinge's user overlay"},
+ 'feed': ['https://cgit.gentoo.org/user/joinge.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/joinge.git/',
+ 'name': 'joinge',
+ 'owner': [{'email': 'joinge.dev@gmail.com', 'name': 'Jo Inge Buskenes'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/user/joinge.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/joinge.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/joinge.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync joinge
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

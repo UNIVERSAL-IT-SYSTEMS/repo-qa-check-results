@@ -1,18 +1,11 @@
-{u'description': [u"Evermind's overlay with ebuilds for a lot of pro-audio production software."],
- u'feeds': [],
- u'homepage': u'http://proaudio.tuxfamily.org/wiki',
- u'irc': None,
- u'name': u'proaudio',
- u'official': False,
- u'owner_email': u'evermind@tuxfamily.org',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'svn://svn.tuxfamily.org/svnroot/proaudio/proaudio/trunk/overlays/proaudio',
-               u'Subversion',
-               None)],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "Evermind's overlay with ebuilds for a lot of pro-audio\n    production software."},
+ 'homepage': 'http://proaudio.tuxfamily.org/wiki',
+ 'name': 'proaudio',
+ 'owner': [{'email': 'evermind@tuxfamily.org'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'svn',
+             'uri': 'svn://svn.tuxfamily.org/svnroot/proaudio/proaudio/trunk/overlays/proaudio'}],
+ 'status': 'unofficial'}
 $ pmaint sync proaudio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

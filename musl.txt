@@ -1,18 +1,15 @@
-{u'description': [u'musl development overlay'],
- u'feeds': [u'https://cgit.gentoo.org/proj/musl.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/proj/musl.git/',
- u'irc': None,
- u'name': u'musl',
- u'official': True,
- u'owner_email': u'musl@gentoo.org',
- u'owner_name': u'Gentoo musl team',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/proj/musl.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/proj/musl.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/proj/musl.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'musl development overlay'},
+ 'feed': ['https://cgit.gentoo.org/proj/musl.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/proj/musl.git/',
+ 'name': 'musl',
+ 'owner': [{'email': 'musl@gentoo.org', 'name': 'Gentoo musl team'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/proj/musl.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/proj/musl.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/proj/musl.git'}],
+ 'status': 'official'}
 $ pmaint sync musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,18 +19,18 @@ Already up-to-date.
 $ pmaint regen -t 2 musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.4-r99 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.7.4-r99 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.5-r99 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.7.4-r99 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.8.4-r99 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fb7f88b5418> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f4244a52418> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

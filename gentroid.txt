@@ -1,16 +1,14 @@
-{u'description': [u'Bring Android back home to Linux.'],
- u'feeds': [u'https://code.google.com/feeds/p/gentroid/gitchanges/basic?repo=portage'],
- u'homepage': u'https://code.google.com/p/gentroid/source/browse/?repo=portage',
- u'irc': None,
- u'name': u'gentroid',
- u'official': False,
- u'owner_email': u'gentroid@simon-maurer.ch',
- u'owner_name': u'Simon Maurer',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://code.google.com/p/gentroid.portage/', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Bring Android back home to Linux.'},
+ 'feed': ['https://code.google.com/feeds/p/gentroid/gitchanges/basic?repo=portage'],
+ 'homepage': 'https://code.google.com/p/gentroid/source/browse/?repo=portage',
+ 'name': 'gentroid',
+ 'owner': [{'email': 'gentroid@simon-maurer.ch',
+            'name': 'Simon Maurer',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://code.google.com/p/gentroid.portage/'}],
+ 'status': 'unofficial'}
 $ pmaint sync gentroid
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -21,6 +19,6 @@ Already up-to-date.
 $ pmaint regen -t 2 gentroid
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 24240
+sandbox:stop  caught signal 15 in pid 21663
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

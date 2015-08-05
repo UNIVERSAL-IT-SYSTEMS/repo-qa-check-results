@@ -1,18 +1,17 @@
-{u'description': [u"Peter's own software playground"],
- u'feeds': [u'https://cgit.gentoo.org/user/AzP.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/AzP.git/',
- u'irc': None,
- u'name': u'AzP',
- u'official': False,
- u'owner_email': u'peterasplund@gentoo.se',
- u'owner_name': u'Peter Asplund',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/AzP.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/AzP.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/user/AzP.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "Peter's own software playground"},
+ 'feed': ['https://cgit.gentoo.org/user/AzP.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/AzP.git/',
+ 'name': 'AzP',
+ 'owner': [{'email': 'peterasplund@gentoo.se',
+            'name': 'Peter Asplund',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/user/AzP.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/AzP.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/AzP.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync AzP
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,6 +21,6 @@ Already up-to-date.
 $ pmaint regen -t 2 AzP
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 19973
+sandbox:stop  caught signal 15 in pid 21325
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

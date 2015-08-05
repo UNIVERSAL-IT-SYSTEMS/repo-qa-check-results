@@ -1,17 +1,16 @@
-{u'description': [u'The elementary OS experience for Gentoo Linux.'],
- u'feeds': [u'https://github.com/pimvullers/elementary/commits/master.atom'],
- u'homepage': u'https://github.com/pimvullers/elementary',
- u'irc': None,
- u'name': u'elementary',
- u'official': False,
- u'owner_email': u'gentoo.org@vullersmail.nl',
- u'owner_name': u'Pim Vullers',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/pimvullers/elementary.git', u'Git', u''),
-              (u'https://github.com/pimvullers/elementary.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'The elementary OS experience for Gentoo Linux. '},
+ 'feed': ['https://github.com/pimvullers/elementary/commits/master.atom'],
+ 'homepage': 'https://github.com/pimvullers/elementary',
+ 'name': 'elementary',
+ 'owner': [{'email': 'gentoo.org@vullersmail.nl',
+            'name': 'Pim Vullers',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/pimvullers/elementary.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/pimvullers/elementary.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync elementary
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

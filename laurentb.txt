@@ -1,17 +1,14 @@
-{u'description': [u'Various packages'],
- u'feeds': [u'http://github.com/feeds/laurentb/commits/gentoo-overlay/master'],
- u'homepage': u'http://github.com/laurentb/gentoo-overlay',
- u'irc': None,
- u'name': u'laurentb',
- u'official': False,
- u'owner_email': u'laurent@bachelier.name',
- u'owner_name': u'Laurent Bachelier',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/laurentb/gentoo-overlay.git', u'Git', u''),
-              (u'http://github.com/laurentb/gentoo-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Various packages'},
+ 'feed': ['http://github.com/feeds/laurentb/commits/gentoo-overlay/master'],
+ 'homepage': 'http://github.com/laurentb/gentoo-overlay',
+ 'name': 'laurentb',
+ 'owner': [{'email': 'laurent@bachelier.name', 'name': 'Laurent Bachelier'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/laurentb/gentoo-overlay.git'},
+            {'type': 'git',
+             'uri': 'http://github.com/laurentb/gentoo-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync laurentb
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

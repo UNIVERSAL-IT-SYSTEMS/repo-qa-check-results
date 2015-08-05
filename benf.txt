@@ -1,18 +1,17 @@
-{u'description': [u"ben's overlay"],
- u'feeds': [u'https://cgit.gentoo.org/user/benf.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/benf.git/',
- u'irc': None,
- u'name': u'benf',
- u'official': False,
- u'owner_email': u'benjaminfranzke@gmail.com',
- u'owner_name': u'Benjamin Franzke',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/benf.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/benf.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/user/benf.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "ben's overlay"},
+ 'feed': ['https://cgit.gentoo.org/user/benf.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/benf.git/',
+ 'name': 'benf',
+ 'owner': [{'email': 'benjaminfranzke@gmail.com',
+            'name': 'Benjamin Franzke',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/user/benf.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/benf.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/benf.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync benf
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -24,7 +23,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fadc236a890> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fde30d78ec0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

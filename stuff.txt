@@ -1,16 +1,11 @@
-{u'description': [u'stuff'],
- u'feeds': [u'https://github.com/megabaks/stuff/commits/master.atom'],
- u'homepage': u'https://github.com/megabaks/stuff',
- u'irc': None,
- u'name': u'stuff',
- u'official': False,
- u'owner_email': u'megagreener@gmail.com',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/megabaks/stuff.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'stuff'},
+ 'feed': ['https://github.com/megabaks/stuff/commits/master.atom'],
+ 'homepage': 'https://github.com/megabaks/stuff',
+ 'name': 'stuff',
+ 'owner': [{'email': 'megagreener@gmail.com'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'https://github.com/megabaks/stuff.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync stuff
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -21,6 +16,4 @@ Already up-to-date.
 $ pmaint regen -t 2 stuff
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- * Cache regen failed with 246
+ * Cache regenerated successfully

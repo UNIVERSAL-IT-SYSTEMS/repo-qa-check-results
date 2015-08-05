@@ -1,17 +1,15 @@
-{u'description': [u'Overlay of Sebasti\xe1n Ram\xedrez Magr\xed'],
- u'feeds': [u'https://github.com/sebasmagri/portage/commits/master.atom'],
- u'homepage': u'https://github.com/sebasmagri/portage',
- u'irc': None,
- u'name': u'sebasmagri',
- u'official': False,
- u'owner_email': u'sebasmagri@gmail.com',
- u'owner_name': u'Sebasti\xe1n Ram\xedrez Magr\xed',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/sebasmagri/portage.git', u'Git', u''),
-              (u'https://github.com/sebasmagri/portage.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': u'Overlay of Sebasti\xe1n Ram\xedrez Magr\xed'},
+ 'feed': ['https://github.com/sebasmagri/portage/commits/master.atom'],
+ 'homepage': 'https://github.com/sebasmagri/portage',
+ 'name': 'sebasmagri',
+ 'owner': [{'email': 'sebasmagri@gmail.com',
+            'name': u'Sebasti\xe1n Ram\xedrez Magr\xed',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/sebasmagri/portage.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/sebasmagri/portage.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync sebasmagri
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -23,7 +21,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f8c0d625a48> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fb0a6d8aa48> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

@@ -1,18 +1,13 @@
-{u'description': [u'Gentoo ebuilds for Kolab'],
- u'feeds': [],
- u'homepage': u'https://wiki.awesome-it.de/kolab',
- u'irc': None,
- u'name': u'kolab',
- u'official': False,
- u'owner_email': u'info@awesome-it.de',
- u'owner_name': u'Daniel Morlock',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://gitlab.awesome-it.de/overlays/kolab.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Gentoo ebuilds for Kolab'},
+ 'homepage': 'https://wiki.awesome-it.de/kolab',
+ 'name': 'kolab',
+ 'owner': [{'email': 'info@awesome-it.de',
+            'name': 'Daniel Morlock',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://gitlab.awesome-it.de/overlays/kolab.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync kolab
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -31,10 +26,28 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-apps/kolab-irony-0.2.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.2-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.2-r1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.2-r3 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.2-r3 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.0 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.2-r2 during metadata regeneration.
@@ -46,22 +59,10 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.0 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.0 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.2-r3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.2-r3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.2-r4 during metadata regeneration.
@@ -70,7 +71,10 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.2-r4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-apps/kolab-webadmin-3.1.1 during metadata regeneration.
+WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.1.1-r1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.1.1-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-apps/kolab-syncroton-2.2.3 during metadata regeneration.
@@ -82,22 +86,13 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.1.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.0.1 during metadata regeneration.
+WARNING: 'use' function invoked by www-apps/kolab-webadmin-3.1.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.1.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.1.0 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.1.1-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.1.1-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-apps/kolab-roundcube-1.1.1-r2 during metadata regeneration.

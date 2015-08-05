@@ -1,18 +1,16 @@
-{u'description': [u"Gentoo overlay for Valve's Steam client and Steam-based games"],
- u'feeds': [u'https://github.com/anyc/steam-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/anyc/steam-overlay',
- u'irc': None,
- u'name': u'steam-overlay',
- u'official': False,
- u'owner_email': u'dev@kicherer.org',
- u'owner_name': u'Mario Kicherer',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/anyc/steam-overlay.git', u'Git', u''),
-              (u'https://github.com/anyc/steam-overlay.git', u'Git', u''),
-              (u'git@github.com:anyc/steam-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "Gentoo overlay for Valve's Steam client and Steam-based games"},
+ 'feed': ['https://github.com/anyc/steam-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/anyc/steam-overlay',
+ 'name': 'steam-overlay',
+ 'owner': [{'email': 'dev@kicherer.org',
+            'name': 'Mario Kicherer',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/anyc/steam-overlay.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/anyc/steam-overlay.git'},
+            {'type': 'git', 'uri': 'git@github.com:anyc/steam-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync steam-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -24,7 +22,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fe03f4ff470> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f3dbd288470> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -103,4 +101,7 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f3dbd2e2c00> ignored
+Sandboxed process killed by signal: Broken pipe
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f3dbdb7ba48> ignored
  * Cache regen failed with 246

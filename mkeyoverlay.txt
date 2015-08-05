@@ -1,20 +1,17 @@
-{u'description': [u'Overlay of Markus Knetschke'],
- u'feeds': [u'https://bitbucket.org/mknjc/mkeyoverlay/atom',
-            u'https://bitbucket.org/mknjc/mkeyoverlay/rss'],
- u'homepage': u'https://bitbucket.org/mknjc/mkeyoverlay',
- u'irc': None,
- u'name': u'mkeyoverlay',
- u'official': False,
- u'owner_email': u'markus.knetschke@gmail.com',
- u'owner_name': u'Markus Knetschke',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://bitbucket.org/mknjc/mkeyoverlay', u'Mercurial', u''),
-              (u'ssh://hg@bitbucket.org/mknjc/mkeyoverlay',
-               u'Mercurial',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Overlay of Markus Knetschke'},
+ 'feed': ['https://bitbucket.org/mknjc/mkeyoverlay/atom',
+          'https://bitbucket.org/mknjc/mkeyoverlay/rss'],
+ 'homepage': 'https://bitbucket.org/mknjc/mkeyoverlay',
+ 'name': 'mkeyoverlay',
+ 'owner': [{'email': 'markus.knetschke@gmail.com',
+            'name': 'Markus Knetschke',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'mercurial',
+             'uri': 'https://bitbucket.org/mknjc/mkeyoverlay'},
+            {'type': 'mercurial',
+             'uri': 'ssh://hg@bitbucket.org/mknjc/mkeyoverlay'}],
+ 'status': 'unofficial'}
 $ pmaint sync mkeyoverlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 pulling from https://bitbucket.org/mknjc/mkeyoverlay
@@ -28,7 +25,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fa09b8bf470> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f55f6511368> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -108,6 +105,6 @@ Traceback (most recent call last):
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
 Sandboxed process killed by signal: Broken pipe
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fa09b8bf260> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fa09b919e10> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f55f6511158> ignored
+Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

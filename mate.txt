@@ -1,16 +1,12 @@
-{u'description': [u'Sabayon MATE (GNOME fork) ebuilds that could be upstreamed at some point in future (when GNOME2 will be dropped from the main tree). Bugs to http://bugs.sabayon.org'],
- u'feeds': [u'https://github.com/Sabayon/mate-overlay'],
- u'homepage': u'http://sabayon.org',
- u'irc': None,
- u'name': u'mate',
- u'official': False,
- u'owner_email': u'lxnay@gentoo.org',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/Sabayon/mate-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Sabayon MATE (GNOME fork) ebuilds that could be\n    upstreamed at some point in future (when GNOME2 will be dropped\n    from the main tree).\n    Bugs to http://bugs.sabayon.org'},
+ 'feed': ['https://github.com/Sabayon/mate-overlay'],
+ 'homepage': 'http://sabayon.org',
+ 'name': 'mate',
+ 'owner': [{'email': 'lxnay@gentoo.org'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/Sabayon/mate-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync mate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -21,6 +17,6 @@ Already up-to-date.
 $ pmaint regen -t 2 mate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 28181
+sandbox:stop  caught signal 15 in pid 27127
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

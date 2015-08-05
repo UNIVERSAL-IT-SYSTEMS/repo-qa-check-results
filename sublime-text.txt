@@ -1,20 +1,18 @@
-{u'description': [u'Collection of ebuilds to install Sublime Text 2 or Sublime Text 3'],
- u'feeds': [u'https://github.com/DamnWidget/sublime-text/commits/master.atom'],
- u'homepage': u'https://github.com/DamnWidget/sublime-text',
- u'irc': None,
- u'name': u'sublime-text',
- u'official': False,
- u'owner_email': u'oscar.campos@member.fsf.org',
- u'owner_name': u'Oscar Campos',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/DamnWidget/sublime-text.git', u'Git', u''),
-              (u'https://github.com/DamnWidget/sublime-text.git',
-               u'Git',
-               u''),
-              (u'git@github.com:DamnWidget/sublime-text.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Collection of ebuilds to install Sublime Text 2 or Sublime Text 3'},
+ 'feed': ['https://github.com/DamnWidget/sublime-text/commits/master.atom'],
+ 'homepage': 'https://github.com/DamnWidget/sublime-text',
+ 'name': 'sublime-text',
+ 'owner': [{'email': 'oscar.campos@member.fsf.org',
+            'name': 'Oscar Campos',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/DamnWidget/sublime-text.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/DamnWidget/sublime-text.git'},
+            {'type': 'git',
+             'uri': 'git@github.com:DamnWidget/sublime-text.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync sublime-text
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -26,7 +24,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fc0b1a4bc00> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fd26f4f6c00> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

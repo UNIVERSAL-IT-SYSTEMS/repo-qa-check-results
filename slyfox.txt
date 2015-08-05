@@ -1,16 +1,13 @@
-{u'description': [u"slyfox's ebuild den"],
- u'feeds': [u'http://repo.or.cz/w/slyfox-gentoo.git?a=rss'],
- u'homepage': u'http://repo.or.cz/w/slyfox-gentoo.git',
- u'irc': None,
- u'name': u'slyfox',
- u'official': True,
- u'owner_email': u'slyfox@gentoo.org',
- u'owner_name': u'Sergei Trofimovich',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'http://repo.or.cz/r/slyfox-gentoo.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': "slyfox's ebuild den"},
+ 'feed': ['http://repo.or.cz/w/slyfox-gentoo.git?a=rss'],
+ 'homepage': 'http://repo.or.cz/w/slyfox-gentoo.git',
+ 'name': 'slyfox',
+ 'owner': [{'email': 'slyfox@gentoo.org',
+            'name': 'Sergei Trofimovich',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'http://repo.or.cz/r/slyfox-gentoo.git'}],
+ 'status': 'official'}
 $ pmaint sync slyfox
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -20,6 +17,6 @@ Already up-to-date.
 $ pmaint regen -t 2 slyfox
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 11490
+sandbox:stop  caught signal 15 in pid 6738
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

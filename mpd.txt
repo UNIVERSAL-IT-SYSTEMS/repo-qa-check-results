@@ -1,18 +1,12 @@
-{u'description': [u'The experimental gentoo overlay was designed as a way to keep up-to-date. Most of it are live ebuilds, ebuilds that pull the latest HEAD from whatever repository. It also includes ebuilds for clients that are not yet in portage. It is maintained by avuton, send new ebuilds, corrections or bugs directly to him.'],
- u'feeds': [u'http://git.musicpd.org/cgit/master/mpd-gentoo-overlay.git/atom/'],
- u'homepage': u'http://musicpd.org/mantis/',
- u'irc': None,
- u'name': u'mpd',
- u'official': False,
- u'owner_email': u'kelwert@mtu.edu',
- u'owner_name': u'Kaleb Elwert',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://git.musicpd.org/master/mpd-gentoo-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'The experimental gentoo overlay was designed as a way to keep\n    up-to-date. Most of it are live ebuilds, ebuilds that pull the latest HEAD\n    from whatever repository. It also includes ebuilds for clients that are not\n    yet in portage. It is maintained by avuton, send new ebuilds, corrections\n    or bugs directly to him.'},
+ 'feed': ['http://git.musicpd.org/cgit/master/mpd-gentoo-overlay.git/atom/'],
+ 'homepage': 'http://musicpd.org/mantis/',
+ 'name': 'mpd',
+ 'owner': [{'email': 'kelwert@mtu.edu', 'name': 'Kaleb Elwert'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://git.musicpd.org/master/mpd-gentoo-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync mpd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

@@ -1,20 +1,16 @@
-{u'description': [u'Experimental ebuilds for GNUstep packages in Gentoo. Comments and bugreports are welcome!'],
- u'feeds': [u'https://cgit.gentoo.org/proj/gnustep.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/proj/gnustep.git/',
- u'irc': None,
- u'name': u'gnustep',
- u'official': True,
- u'owner_email': u'gnustep@gentoo.org',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://anongit.gentoo.org/git/proj/gnustep.git',
-               u'Git',
-               u''),
-              (u'git://anongit.gentoo.org/proj/gnustep.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/proj/gnustep.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Experimental ebuilds for GNUstep packages in Gentoo. Comments and bugreports are welcome!'},
+ 'feed': ['https://cgit.gentoo.org/proj/gnustep.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/proj/gnustep.git/',
+ 'name': 'gnustep',
+ 'owner': [{'email': 'gnustep@gentoo.org'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/proj/gnustep.git'},
+            {'type': 'git',
+             'uri': 'git://anongit.gentoo.org/proj/gnustep.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/proj/gnustep.git'}],
+ 'status': 'official'}
 $ pmaint sync gnustep
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -24,6 +20,6 @@ Already up-to-date.
 $ pmaint regen -t 2 gnustep
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 13975
+sandbox:stop  caught signal 15 in pid 10181
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

@@ -1,17 +1,12 @@
-{u'description': [u"Ari Malinen's personal overlay"],
- u'feeds': [u'https://github.com/causes-/causelay/commits/master.atom'],
- u'homepage': u'https://github.com/causes-/causelay',
- u'irc': None,
- u'name': u'causelay',
- u'official': False,
- u'owner_email': u'ari.malinen@gmail.com',
- u'owner_name': u'Ari Malinen',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/causes-/causelay.git', u'Git', u''),
-              (u'git@github.com:causes-/causelay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "Ari Malinen's personal overlay"},
+ 'feed': ['https://github.com/causes-/causelay/commits/master.atom'],
+ 'homepage': 'https://github.com/causes-/causelay',
+ 'name': 'causelay',
+ 'owner': [{'email': 'ari.malinen@gmail.com', 'name': 'Ari Malinen'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'https://github.com/causes-/causelay.git'},
+            {'type': 'git', 'uri': 'git@github.com:causes-/causelay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync causelay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -21,6 +16,6 @@ Already up-to-date.
 $ pmaint regen -t 2 causelay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 6774
+sandbox:stop  caught signal 15 in pid 5881
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

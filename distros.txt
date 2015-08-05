@@ -1,16 +1,11 @@
-{u'description': [u'Calculate Linux Profiles'],
- u'feeds': [],
- u'homepage': u'http://www.calculate-linux.org',
- u'irc': None,
- u'name': u'distros',
- u'official': False,
- u'owner_email': u'at@calculate.ru',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://git.calculate.ru/calculate/distros.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Calculate Linux Profiles'},
+ 'homepage': 'http://www.calculate-linux.org',
+ 'name': 'distros',
+ 'owner': [{'email': 'at@calculate.ru'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://git.calculate.ru/calculate/distros.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync distros
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

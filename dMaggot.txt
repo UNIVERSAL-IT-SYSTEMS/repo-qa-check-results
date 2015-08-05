@@ -1,23 +1,19 @@
-{u'description': [u'Overlay of David E. Narv\xe1ez'],
- u'feeds': [u'https://cgit.gentoo.org/user/dMaggot.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/dMaggot.git/',
- u'irc': None,
- u'name': u'dMaggot',
- u'official': False,
- u'owner_email': u'david.narvaez@computer.org',
- u'owner_name': u'David E. Narv\xe1ez',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/dMaggot.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/dMaggot.git',
-               u'Git',
-               u''),
-              (u'git+ssh://git@git.gentoo.org/user/dMaggot.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': u'Overlay of David E. Narv\xe1ez'},
+ 'feed': ['https://cgit.gentoo.org/user/dMaggot.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/dMaggot.git/',
+ 'name': 'dMaggot',
+ 'owner': [{'email': 'david.narvaez@computer.org',
+            'name': u'David E. Narv\xe1ez',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/user/dMaggot.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/dMaggot.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/dMaggot.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync dMaggot
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing dMaggot
@@ -28,7 +24,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f53fdf84fc8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f499ba19fc8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

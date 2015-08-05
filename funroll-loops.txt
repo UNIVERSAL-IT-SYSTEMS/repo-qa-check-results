@@ -1,16 +1,12 @@
-{u'description': [u'Ebuilds for webserver, osm and other software.'],
- u'feeds': [],
- u'homepage': u'https://redmine.funroll-loops.de/projects/portage-overlay/repository',
- u'irc': None,
- u'name': u'funroll-loops',
- u'official': False,
- u'owner_email': u'portage-overlay@funroll-loops.de',
- u'owner_name': u'Daniel Bahrdt',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://git.funroll-loops.de/portage-overlay', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Ebuilds for webserver, osm and other software.'},
+ 'homepage': 'https://redmine.funroll-loops.de/projects/portage-overlay/repository',
+ 'name': 'funroll-loops',
+ 'owner': [{'email': 'portage-overlay@funroll-loops.de',
+            'name': 'Daniel Bahrdt'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://git.funroll-loops.de/portage-overlay'}],
+ 'status': 'unofficial'}
 $ pmaint sync funroll-loops
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -20,6 +16,6 @@ Already up-to-date.
 $ pmaint regen -t 2 funroll-loops
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 30917
+sandbox:stop  caught signal 15 in pid 29867
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

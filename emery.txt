@@ -1,22 +1,21 @@
-{u'description': [u'Ebuild testing playground of Emery Hemingway'],
- u'feeds': [u'https://cgit.gentoo.org/user/emery.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/emery.git/',
- u'irc': None,
- u'name': u'emery',
- u'official': False,
- u'owner_email': u'emery@vfemail.net',
- u'owner_name': u'Emery Hemingway',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/emery.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/emery.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/user/emery.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Ebuild testing playground of Emery Hemingway'},
+ 'feed': ['https://cgit.gentoo.org/user/emery.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/emery.git/',
+ 'name': 'emery',
+ 'owner': [{'email': 'emery@vfemail.net',
+            'name': 'Emery Hemingway',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/user/emery.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/emery.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/emery.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync emery
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing emery
@@ -27,7 +26,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f287ed86b50> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f0a96ec0a48> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

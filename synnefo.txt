@@ -1,16 +1,11 @@
-{u'description': [u'Synnefo IaaS software ebuilds'],
- u'feeds': [],
- u'homepage': u'https://github.com/psomas/synnefo-overlay',
- u'irc': None,
- u'name': u'synnefo',
- u'official': True,
- u'owner_email': u'psomas@gentoo.org',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/psomas/synnefo-overlay.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Synnefo IaaS software ebuilds'},
+ 'homepage': 'https://github.com/psomas/synnefo-overlay',
+ 'name': 'synnefo',
+ 'owner': [{'email': 'psomas@gentoo.org', 'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/psomas/synnefo-overlay.git'}],
+ 'status': 'official'}
 $ pmaint sync synnefo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,7 +17,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fe1c5dd03c0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f3bb545e3c0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -101,6 +96,6 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fe1c5e26730> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f3bb54b4a48> ignored
 Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

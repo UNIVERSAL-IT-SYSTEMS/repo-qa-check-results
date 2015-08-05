@@ -1,22 +1,17 @@
-{u'description': [u'Jorge Manuel B. S. Vicetto developer overlay'],
- u'feeds': [u'https://cgit.gentoo.org/dev/jmbsvicetto.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/dev/jmbsvicetto.git',
- u'irc': None,
- u'name': u'jmbsvicetto',
- u'official': True,
- u'owner_email': u'jmbsvicetto@gentoo.org',
- u'owner_name': u'Jorge Manuel B. S. Vicetto',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/dev/jmbsvicetto.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/dev/jmbsvicetto.git',
-               u'Git',
-               u''),
-              (u'git+ssh://git@git.gentoo.org/dev/jmbsvicetto.git',
-               u'Git',
-               u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Jorge Manuel B. S. Vicetto developer overlay'},
+ 'feed': ['https://cgit.gentoo.org/dev/jmbsvicetto.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/dev/jmbsvicetto.git',
+ 'name': 'jmbsvicetto',
+ 'owner': [{'email': 'jmbsvicetto@gentoo.org',
+            'name': 'Jorge Manuel B. S. Vicetto'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/dev/jmbsvicetto.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/dev/jmbsvicetto.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/dev/jmbsvicetto.git'}],
+ 'status': 'official'}
 $ pmaint sync jmbsvicetto
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -27,5 +22,6 @@ Already up-to-date.
 $ pmaint regen -t 2 jmbsvicetto
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Sandboxed process killed by signal: Broken pipe
+sandbox:stop  caught signal 15 in pid 27190
+Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

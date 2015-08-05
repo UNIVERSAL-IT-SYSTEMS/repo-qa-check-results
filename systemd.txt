@@ -1,20 +1,18 @@
-{u'description': [u'User collaboration on ebuilds for the systemd init system'],
- u'feeds': [u'https://cgit.gentoo.org/user/systemd.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/systemd.git/',
- u'irc': None,
- u'name': u'systemd',
- u'official': False,
- u'owner_email': u'hsggebhardt@gmail.com',
- u'owner_name': u'Henry Gebhardt',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/systemd.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/systemd.git',
-               u'Git',
-               u''),
-              (u'git+ssh://git@git.gentoo.org/user/systemd.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'User collaboration on ebuilds for the systemd init system'},
+ 'feed': ['https://cgit.gentoo.org/user/systemd.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/systemd.git/',
+ 'name': 'systemd',
+ 'owner': [{'email': 'hsggebhardt@gmail.com',
+            'name': 'Henry Gebhardt',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/user/systemd.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/systemd.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/systemd.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync systemd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -24,6 +22,6 @@ Already up-to-date.
 $ pmaint regen -t 2 systemd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 14004
+sandbox:stop  caught signal 15 in pid 9110
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

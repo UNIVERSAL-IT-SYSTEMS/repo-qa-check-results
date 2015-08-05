@@ -1,16 +1,14 @@
-{u'description': [u"damex's personal overlay"],
- u'feeds': [u'https://github.com/feeds/damex/commits/damex-overlay/master'],
- u'homepage': u'https://github.com/damex/damex-overlay',
- u'irc': None,
- u'name': u'damex-overlay',
- u'official': False,
- u'owner_email': u'damex.pp@gmail.com',
- u'owner_name': u'Roman Kuzmitsky',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/damex/damex-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "damex's personal overlay"},
+ 'feed': ['https://github.com/feeds/damex/commits/damex-overlay/master'],
+ 'homepage': 'https://github.com/damex/damex-overlay',
+ 'name': 'damex-overlay',
+ 'owner': [{'email': 'damex.pp@gmail.com',
+            'name': 'Roman Kuzmitsky',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/damex/damex-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync damex-overlay
 WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.

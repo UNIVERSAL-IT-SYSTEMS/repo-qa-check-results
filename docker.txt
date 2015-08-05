@@ -1,18 +1,16 @@
-{u'description': [u'Overlay for docker by dotCloud'],
- u'feeds': [u'https://github.com/tianon/docker-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/tianon/docker-overlay',
- u'irc': None,
- u'name': u'docker',
- u'official': False,
- u'owner_email': u'admwiggin@gmail.com',
- u'owner_name': u'Tianon Gravi',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/tianon/docker-overlay.git', u'Git', u''),
-              (u'https://github.com/tianon/docker-overlay.git', u'Git', u''),
-              (u'git@github.com:tianon/docker-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Overlay for docker by dotCloud'},
+ 'feed': ['https://github.com/tianon/docker-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/tianon/docker-overlay',
+ 'name': 'docker',
+ 'owner': [{'email': 'admwiggin@gmail.com', 'name': 'Tianon Gravi'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/tianon/docker-overlay.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/tianon/docker-overlay.git'},
+            {'type': 'git',
+             'uri': 'git@github.com:tianon/docker-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync docker
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

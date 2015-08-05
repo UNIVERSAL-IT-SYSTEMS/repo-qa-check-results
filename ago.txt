@@ -1,18 +1,17 @@
-{u'description': [u'Developer overlay'],
- u'feeds': [u'https://cgit.gentoo.org/dev/ago.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/dev/ago.git/',
- u'irc': None,
- u'name': u'ago',
- u'official': True,
- u'owner_email': u'ago@gentoo.org',
- u'owner_name': u'Agostino Sarubbo',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/dev/ago.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/dev/ago.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/dev/ago.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Developer overlay'},
+ 'feed': ['https://cgit.gentoo.org/dev/ago.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/dev/ago.git/',
+ 'name': 'ago',
+ 'owner': [{'email': 'ago@gentoo.org',
+            'name': 'Agostino Sarubbo',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/dev/ago.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/dev/ago.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/dev/ago.git'}],
+ 'status': 'official'}
 $ pmaint sync ago
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,6 +21,6 @@ Already up-to-date.
 $ pmaint regen -t 2 ago
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 22339
+sandbox:stop  caught signal 15 in pid 22090
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

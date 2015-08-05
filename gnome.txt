@@ -1,18 +1,17 @@
-{u'description': [u'experimental gnome ebuilds'],
- u'feeds': [u'https://cgit.gentoo.org/proj/gnome.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/proj/gnome.git/',
- u'irc': None,
- u'name': u'gnome',
- u'official': True,
- u'owner_email': u'gnome@gentoo.org',
- u'owner_name': u'GNOME team',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/proj/gnome.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/proj/gnome.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/proj/gnome.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'experimental gnome ebuilds'},
+ 'feed': ['https://cgit.gentoo.org/proj/gnome.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/proj/gnome.git/',
+ 'name': 'gnome',
+ 'owner': [{'email': 'gnome@gentoo.org',
+            'name': 'GNOME team',
+            'type': 'project'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/proj/gnome.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/proj/gnome.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/proj/gnome.git'}],
+ 'status': 'official'}
 $ pmaint sync gnome
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

@@ -1,18 +1,12 @@
-{u'description': [u'Subversion ebuilds for PureData the dataflow language'],
- u'feeds': [u'http://sourceforge.net/export/rss2_keepsake.php?group_id=180376'],
- u'homepage': u'http://pd-overlay.sourceforge.net/',
- u'irc': None,
- u'name': u'pd-overlay',
- u'official': False,
- u'owner_email': u'mescalinum@gmail.com',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://pd-overlay.svn.sourceforge.net/svnroot/pd-overlay/pd-overlay',
-               u'Subversion',
-               None)],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Subversion ebuilds for PureData the dataflow\n    language'},
+ 'feed': ['http://sourceforge.net/export/rss2_keepsake.php?group_id=180376'],
+ 'homepage': 'http://pd-overlay.sourceforge.net/',
+ 'name': 'pd-overlay',
+ 'owner': [{'email': 'mescalinum@gmail.com'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'svn',
+             'uri': 'https://pd-overlay.svn.sourceforge.net/svnroot/pd-overlay/pd-overlay'}],
+ 'status': 'unofficial'}
 $ pmaint sync pd-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Updating '.':

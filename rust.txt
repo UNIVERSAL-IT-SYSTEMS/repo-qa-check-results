@@ -1,18 +1,17 @@
-{u'description': [u'rust modules and tools'],
- u'feeds': [u'https://github.com/Heather/gentoo-rust/commits/master.atom'],
- u'homepage': u'https://github.com/Heather/gentoo-rust',
- u'irc': None,
- u'name': u'rust',
- u'official': False,
- u'owner_email': u'cynede@gentoo.org',
- u'owner_name': u'Heather',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/Heather/gentoo-rust.git', u'Git', u''),
-              (u'https://github.com/Heather/gentoo-rust.git', u'Git', u''),
-              (u'git@github.com:Heather/gentoo-rust.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'rust modules and tools'},
+ 'feed': ['https://github.com/Heather/gentoo-rust/commits/master.atom'],
+ 'homepage': 'https://github.com/Heather/gentoo-rust',
+ 'name': 'rust',
+ 'owner': [{'email': 'cynede@gentoo.org',
+            'name': 'Heather',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/Heather/gentoo-rust.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/Heather/gentoo-rust.git'},
+            {'type': 'git', 'uri': 'git@github.com:Heather/gentoo-rust.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync rust
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -23,6 +22,6 @@ Already up-to-date.
 $ pmaint regen -t 2 rust
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 29871
+sandbox:stop  caught signal 15 in pid 26793
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

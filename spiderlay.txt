@@ -1,16 +1,11 @@
-{u'description': [u"aranea's overlay"],
- u'feeds': [u'http://git.spheniscida.de/index.cgi/spiderlay.git/atom/?h=master'],
- u'homepage': u'http://git.spheniscida.de/index.cgi/spiderlay.git/',
- u'irc': None,
- u'name': u'spiderlay',
- u'official': False,
- u'owner_email': u'aranea@aixah.de',
- u'owner_name': u'aranea',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://spheniscida.de/spiderlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "aranea's overlay"},
+ 'feed': ['http://git.spheniscida.de/index.cgi/spiderlay.git/atom/?h=master'],
+ 'homepage': 'http://git.spheniscida.de/index.cgi/spiderlay.git/',
+ 'name': 'spiderlay',
+ 'owner': [{'email': 'aranea@aixah.de', 'name': 'aranea', 'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://spheniscida.de/spiderlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync spiderlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -20,6 +15,6 @@ Already up-to-date.
 $ pmaint regen -t 2 spiderlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 12060
+sandbox:stop  caught signal 15 in pid 6887
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

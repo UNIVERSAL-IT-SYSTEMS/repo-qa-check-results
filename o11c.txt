@@ -1,17 +1,14 @@
-{u'description': [u'Personal overlay of Ben Longbons'],
- u'feeds': [u'https://github.com/o11c/ebuilds/commits/master.atom'],
- u'homepage': u'https://github.com/o11c/ebuilds',
- u'irc': None,
- u'name': u'o11c',
- u'official': False,
- u'owner_email': u'b.r.longbons@gmail.com',
- u'owner_name': u'Ben Longbons',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/o11c/ebuilds.git', u'Git', u''),
-              (u'https://github.com/o11c/ebuilds.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Personal overlay of Ben Longbons'},
+ 'feed': ['https://github.com/o11c/ebuilds/commits/master.atom'],
+ 'homepage': 'https://github.com/o11c/ebuilds',
+ 'name': 'o11c',
+ 'owner': [{'email': 'b.r.longbons@gmail.com',
+            'name': 'Ben Longbons',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/o11c/ebuilds.git'},
+            {'type': 'git', 'uri': 'https://github.com/o11c/ebuilds.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync o11c
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

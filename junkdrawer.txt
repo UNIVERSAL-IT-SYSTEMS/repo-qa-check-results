@@ -1,18 +1,13 @@
-{u'description': [u'Various development tools, libraries, and patches not in Gentoo (yet)'],
- u'feeds': [],
- u'homepage': u'https://github.com/doctaweeks/junkdrawer-overlay',
- u'irc': None,
- u'name': u'junkdrawer',
- u'official': False,
- u'owner_email': u'dan@danweeks.net',
- u'owner_name': u'Daniel M. Weeks',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/doctaweeks/junkdrawer-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Various development tools, libraries, and patches not in Gentoo (yet)'},
+ 'homepage': 'https://github.com/doctaweeks/junkdrawer-overlay',
+ 'name': 'junkdrawer',
+ 'owner': [{'email': 'dan@danweeks.net',
+            'name': 'Daniel M. Weeks',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/doctaweeks/junkdrawer-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync junkdrawer
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,6 +17,6 @@ Already up-to-date.
 $ pmaint regen -t 2 junkdrawer
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 3108
+sandbox:stop  caught signal 15 in pid 2994
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

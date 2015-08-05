@@ -1,16 +1,12 @@
-{u'description': [u'This is roslin, my small overlay. Enjoy! (:'],
- u'feeds': [],
- u'homepage': u'https://gitlab.com/roslin-uberlay/roslin',
- u'irc': None,
- u'name': u'roslin',
- u'official': False,
- u'owner_email': u'szarpaj@grubelek.pl',
- u'owner_name': u'Piotr Szymaniak',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://gitlab.com/roslin-uberlay/roslin.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'This is roslin, my small overlay. Enjoy! (:'},
+ 'homepage': 'https://gitlab.com/roslin-uberlay/roslin',
+ 'name': 'roslin',
+ 'owner': [{'email': 'szarpaj@grubelek.pl', 'name': 'Piotr Szymaniak'},
+           {'email': 'mziab@o2.pl', 'name': u'Micha\u0142 Zi\u0105bkowski'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://gitlab.com/roslin-uberlay/roslin.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync roslin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

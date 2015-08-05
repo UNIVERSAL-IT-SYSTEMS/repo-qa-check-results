@@ -1,25 +1,173 @@
-{u'description': [u'Mostly c/c++ and python libraries'],
- u'feeds': [],
- u'homepage': u'http://sidvind.com/wiki/Main_Page',
- u'irc': None,
- u'name': u'ext-devlibs',
- u'official': False,
- u'owner_email': u'ext@sidvind.com',
- u'owner_name': u'David Sveningsson',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'svn://sidvind.com/overlays/ext-devlibs',
-               u'Subversion',
-               None)],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Mostly c/c++ and python libraries'},
+ 'homepage': 'http://sidvind.com/wiki/Main_Page',
+ 'name': 'ext-devlibs',
+ 'owner': [{'email': 'ext@sidvind.com',
+            'name': 'David Sveningsson',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'svn', 'uri': 'svn://sidvind.com/overlays/ext-devlibs '}],
+ 'status': 'unofficial'}
+ * Resetting, sync parameters changed
 $ pmaint sync ext-devlibs
-WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Updating '.':
-At revision 117.
+A    repos/ext-devlibs/app-doc
+A    repos/ext-devlibs/app-doc/opengl-manpages
+A    repos/ext-devlibs/app-doc/opengl-manpages/ChangeLog
+A    repos/ext-devlibs/app-doc/opengl-manpages/opengl-manpages-20001215.ebuild
+A    repos/ext-devlibs/app-doc/opengl-manpages/metadata.xml
+A    repos/ext-devlibs/app-doc/opengl-manpages/Manifest
+A    repos/ext-devlibs/profiles
+A    repos/ext-devlibs/profiles/repo_name
+A    repos/ext-devlibs/dev-libs
+A    repos/ext-devlibs/dev-libs/assimp
+A    repos/ext-devlibs/dev-libs/assimp/assimp-3.0.1270.ebuild
+A    repos/ext-devlibs/dev-libs/assimp/Manifest
+A    repos/ext-devlibs/dev-libs/assimp/ChangeLog
+A    repos/ext-devlibs/dev-libs/assimp/assimp-2.0.863.ebuild
+A    repos/ext-devlibs/dev-libs/assimp/metadata.xml
+A    repos/ext-devlibs/dev-libs/aspartame
+A    repos/ext-devlibs/dev-libs/aspartame/Manifest
+A    repos/ext-devlibs/dev-libs/aspartame/aspartame-0.1.9999.ebuild
+A    repos/ext-devlibs/dev-libs/glm
+A    repos/ext-devlibs/dev-libs/glm/glm-0.9.4.3.ebuild
+A    repos/ext-devlibs/dev-libs/glm/Manifest
+A    repos/ext-devlibs/dev-libs/glm/glm-0.9.4.1.ebuild
+A    repos/ext-devlibs/dev-libs/libportable
+A    repos/ext-devlibs/dev-libs/libportable/Manifest
+A    repos/ext-devlibs/dev-libs/libportable/libportable-0.2.1.ebuild
+A    repos/ext-devlibs/dev-libs/libportable/metadata.xml
+A    repos/ext-devlibs/dev-libs/libportable/libportable-0.2.3.ebuild
+A    repos/ext-devlibs/dev-libs/libportable/libportable-0.9999.ebuild
+A    repos/ext-devlibs/dev-libs/libportable/libportable-0.1.0_alpha1.ebuild
+A    repos/ext-devlibs/dev-libs/libx10
+A    repos/ext-devlibs/dev-libs/libx10/libx10.metadata.xml
+A    repos/ext-devlibs/dev-libs/libx10/libx10-0.9999.ebuild
+A    repos/ext-devlibs/dev-libs/libx10/Manifest
+A    repos/ext-devlibs/dev-libs/awesomium
+A    repos/ext-devlibs/dev-libs/awesomium/awesomium-1.7.2.ebuild
+A    repos/ext-devlibs/dev-libs/awesomium/metadata.xml
+A    repos/ext-devlibs/dev-libs/awesomium/Manifest
+A    repos/ext-devlibs/dev-libs/datapack
+A    repos/ext-devlibs/dev-libs/datapack/ChangeLog
+A    repos/ext-devlibs/dev-libs/datapack/datapack-0.1.ebuild
+A    repos/ext-devlibs/dev-libs/datapack/datapack-0.2.ebuild
+A    repos/ext-devlibs/dev-libs/datapack/datapack-0.3.ebuild
+A    repos/ext-devlibs/dev-libs/datapack/metadata.xml
+A    repos/ext-devlibs/dev-libs/datapack/Manifest
+A    repos/ext-devlibs/dev-libs/leptonlib
+A    repos/ext-devlibs/dev-libs/leptonlib/leptonlib-1.62.ebuild
+A    repos/ext-devlibs/dev-libs/leptonlib/Manifest
+A    repos/ext-devlibs/dev-libs/pedro
+A    repos/ext-devlibs/dev-libs/pedro/files
+A    repos/ext-devlibs/dev-libs/pedro/files/pedro.initd
+A    repos/ext-devlibs/dev-libs/pedro/files/pedro.confd
+A    repos/ext-devlibs/dev-libs/pedro/Manifest
+A    repos/ext-devlibs/dev-libs/pedro/pedro-1.0-r1.ebuild
+A    repos/ext-devlibs/dev-libs/pedro/pedro-1.0.ebuild
+A    repos/ext-devlibs/dev-libs/cml
+A    repos/ext-devlibs/dev-libs/cml/cml-1.0.2.ebuild
+A    repos/ext-devlibs/dev-libs/cml/Manifest
+A    repos/ext-devlibs/app-admin
+A    repos/ext-devlibs/app-admin/reprepro
+A    repos/ext-devlibs/app-admin/reprepro/reprepro-4.16.0.ebuild
+A    repos/ext-devlibs/app-admin/reprepro/Manifest
+A    repos/ext-devlibs/app-admin/reprepro/ChangeLog
+A    repos/ext-devlibs/app-admin/reprepro/metadata.xml
+A    repos/ext-devlibs/media-libs
+A    repos/ext-devlibs/media-libs/freeimage
+A    repos/ext-devlibs/media-libs/freeimage/files
+A    repos/ext-devlibs/media-libs/freeimage/files/freeimage-3.13.1-systemlibs.patch
+A    repos/ext-devlibs/media-libs/freeimage/Manifest
+A    repos/ext-devlibs/media-libs/freeimage/freeimage-3.13.0.ebuild
+A    repos/ext-devlibs/media-libs/freeimage/freeimage-3.13.1.ebuild
+A    repos/ext-devlibs/media-libs/taglib-extras
+A    repos/ext-devlibs/media-libs/taglib-extras/Manifest
+A    repos/ext-devlibs/media-libs/taglib-extras/taglib-extras-9999.ebuild
+A    repos/ext-devlibs/app-misc
+A    repos/ext-devlibs/app-misc/jpegsplit
+A    repos/ext-devlibs/app-misc/jpegsplit/metadata.xml
+A    repos/ext-devlibs/app-misc/jpegsplit/jpegsplit-1.0.ebuild
+A    repos/ext-devlibs/app-misc/jpegsplit/jpegsplit-1.2.ebuild
+A    repos/ext-devlibs/app-misc/jpegsplit/Manifest
+A    repos/ext-devlibs/app-misc/jpegsplit/ChangeLog
+A    repos/ext-devlibs/app-misc/parport_server
+A    repos/ext-devlibs/app-misc/parport_server/parport_server-1.5.ebuild
+A    repos/ext-devlibs/app-misc/parport_server/files
+A    repos/ext-devlibs/app-misc/parport_server/files/parport_server.init
+A    repos/ext-devlibs/app-misc/parport_server/files/parport_server.conf
+A    repos/ext-devlibs/app-misc/parport_server/parport_server-1.6.ebuild
+A    repos/ext-devlibs/app-misc/parport_server/parport_server-1.7.ebuild
+A    repos/ext-devlibs/app-misc/parport_server/parport_server-1.8.ebuild
+A    repos/ext-devlibs/app-misc/parport_server/parport_server-1.9.ebuild
+A    repos/ext-devlibs/app-misc/parport_server/Manifest
+A    repos/ext-devlibs/dev-util
+A    repos/ext-devlibs/dev-util/patchelf
+A    repos/ext-devlibs/dev-util/patchelf/metadata.xml
+A    repos/ext-devlibs/dev-util/patchelf/Manifest
+A    repos/ext-devlibs/dev-util/patchelf/ChangeLog
+A    repos/ext-devlibs/dev-util/patchelf/patchelf-9999.ebuild
+A    repos/ext-devlibs/net-firewall
+A    repos/ext-devlibs/net-firewall/sshdfilter
+A    repos/ext-devlibs/net-firewall/sshdfilter/Manifest
+A    repos/ext-devlibs/net-firewall/sshdfilter/sshdfilter-1.5.5.ebuild
+A    repos/ext-devlibs/net-firewall/sshdfilter/files
+A    repos/ext-devlibs/net-firewall/sshdfilter/files/gentoo.partconf
+A    repos/ext-devlibs/dev-python
+A    repos/ext-devlibs/dev-python/htmlcolor
+A    repos/ext-devlibs/dev-python/htmlcolor/htmlcolor-0.1.ebuild
+A    repos/ext-devlibs/dev-python/htmlcolor/Manifest
+A    repos/ext-devlibs/dev-python/pyglet
+A    repos/ext-devlibs/dev-python/pyglet/Manifest
+A    repos/ext-devlibs/dev-python/pyglet/pyglet-1.1.4.ebuild
+A    repos/ext-devlibs/dev-python/xorg_query
+A    repos/ext-devlibs/dev-python/xorg_query/metadata.xml
+A    repos/ext-devlibs/dev-python/xorg_query/Manifest
+A    repos/ext-devlibs/dev-python/xorg_query/ChangeLog
+A    repos/ext-devlibs/dev-python/xorg_query/xorg_query-0.6-r1.ebuild
+A    repos/ext-devlibs/dev-python/xorg_query/xorg_query-9999.ebuild
+A    repos/ext-devlibs/dev-python/pybonjour
+A    repos/ext-devlibs/dev-python/pybonjour/Manifest
+A    repos/ext-devlibs/dev-python/pybonjour/pybonjour-1.1.1.ebuild
+A    repos/ext-devlibs/dev-python/htmltmpl
+A    repos/ext-devlibs/dev-python/htmltmpl/htmltmpl-1.22.ebuild
+A    repos/ext-devlibs/dev-python/htmltmpl/Manifest
+A    repos/ext-devlibs/dev-python/shout-python
+A    repos/ext-devlibs/dev-python/shout-python/shout-python-0.2.1.ebuild
+A    repos/ext-devlibs/dev-python/shout-python/Manifest
+A    repos/ext-devlibs/net-libs
+A    repos/ext-devlibs/dev-perl
+A    repos/ext-devlibs/dev-perl/Net-PcapWriter
+A    repos/ext-devlibs/dev-perl/Net-PcapWriter/Manifest
+A    repos/ext-devlibs/dev-perl/Net-PcapWriter/ChangeLog
+A    repos/ext-devlibs/dev-perl/Net-PcapWriter/Net-PcapWriter-0.711.ebuild
+A    repos/ext-devlibs/dev-perl/Net-PcapWriter/metadata.xml
+A    repos/ext-devlibs/metadata
+A    repos/ext-devlibs/metadata/herds.xml
+A    repos/ext-devlibs/metadata/layout.conf
+A    repos/ext-devlibs/x11-libs
+A    repos/ext-devlibs/media-gfx
+A    repos/ext-devlibs/media-gfx/slideshow
+A    repos/ext-devlibs/media-gfx/slideshow/slideshow-9999.ebuild
+A    repos/ext-devlibs/media-gfx/slideshow/Manifest
+A    repos/ext-devlibs/media-gfx/slideshow-daemon
+A    repos/ext-devlibs/media-gfx/slideshow-daemon/metadata.xml
+A    repos/ext-devlibs/media-gfx/slideshow-daemon/Manifest
+A    repos/ext-devlibs/media-gfx/slideshow-daemon/slideshow-daemon-9999.ebuild
+A    repos/ext-devlibs/media-gfx/slideshow-daemon/ChangeLog
+A    repos/ext-devlibs/media-gfx/slideshow-frontend
+A    repos/ext-devlibs/media-gfx/slideshow-frontend/slideshow-frontend-9999.ebuild
+A    repos/ext-devlibs/media-gfx/slideshow-frontend/Manifest
+A    repos/ext-devlibs/x11-misc
+A    repos/ext-devlibs/x11-misc/autostartx
+A    repos/ext-devlibs/x11-misc/autostartx/autostartx-1.ebuild
+A    repos/ext-devlibs/x11-misc/autostartx/Manifest
+A    repos/ext-devlibs/x11-misc/synergy-plus
+A    repos/ext-devlibs/x11-misc/synergy-plus/files
+A    repos/ext-devlibs/x11-misc/synergy-plus/files/xrandr.patch
+A    repos/ext-devlibs/x11-misc/synergy-plus/synergy-plus-1.3.4-r1.ebuild
+A    repos/ext-devlibs/x11-misc/synergy-plus/Manifest
+Checked out revision 117.
 *** syncing ext-devlibs
 *** synced ext-devlibs
  * Sync succeeded
@@ -27,11 +175,11 @@ $ pmaint regen -t 2 ext-devlibs
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
-!!! ERROR: dev-python/xorg_query-0.6-r1 failed.
+!!! ERROR: dev-python/xorg_query-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 
-!!! ERROR: dev-python/xorg_query-9999 failed.
+!!! ERROR: dev-python/xorg_query-0.6-r1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
@@ -55,25 +203,25 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
 !!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
-!!!               python-r1.eclass, line  47:  Called die
-!!! The die message:
-!!!  Unsupported EAPI=4 (too old, allowed only on restricted set of packages) for python-r1
-
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!               python-r1.eclass, line  47:  Called die
 !!! The die message:
 !!!  Unsupported EAPI=4 (too old, allowed only on restricted set of packages) for python-r1
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/xorg_query-9999
+!!!               python-r1.eclass, line  47:  Called die
+!!! The die message:
+!!!  Unsupported EAPI=4 (too old, allowed only on restricted set of packages) for python-r1
+
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-python/xorg_query-0.6-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-python/xorg_query-9999
  * Cache regenerated successfully

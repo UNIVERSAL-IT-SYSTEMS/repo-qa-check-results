@@ -1,18 +1,15 @@
-{u'description': [u"Steev Klimaszewski's Overlay"],
- u'feeds': [u'https://cgit.gentoo.org/dev/steev.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/dev/steev.git/',
- u'irc': None,
- u'name': u'steev',
- u'official': True,
- u'owner_email': u'steev@gentoo.org',
- u'owner_name': u'Stephen Klimaszewski',
- u'priority': 50,
- u'quality': u'testing',
- u'sources': [(u'git://anongit.gentoo.org/dev/steev.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/dev/steev.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/dev/steev.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': "Steev Klimaszewski's Overlay"},
+ 'feed': ['https://cgit.gentoo.org/dev/steev.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/dev/steev.git/',
+ 'name': 'steev',
+ 'owner': [{'email': 'steev@gentoo.org', 'name': 'Stephen Klimaszewski'}],
+ 'quality': 'testing',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/dev/steev.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/dev/steev.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/dev/steev.git'}],
+ 'status': 'official'}
 $ pmaint sync steev
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -25,7 +22,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f540e91e6d8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f6c522196d8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

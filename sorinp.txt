@@ -1,18 +1,13 @@
-{u'description': [u'A collection of ebuilds that are missing or outdated or incomplete on the Gentoo portage official repository..'],
- u'feeds': [],
- u'homepage': u'https://github.com/psihozefir/sorinp-gentoo-overlay',
- u'irc': None,
- u'name': u'sorinp',
- u'official': False,
- u'owner_email': u'sorin.panca@gmail.com',
- u'owner_name': u'Sorin Panca',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/psihozefir/sorinp-gentoo-overlay',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'A collection of ebuilds that are missing or outdated or incomplete on the Gentoo portage official repository..'},
+ 'homepage': 'https://github.com/psihozefir/sorinp-gentoo-overlay',
+ 'name': 'sorinp',
+ 'owner': [{'email': 'sorin.panca@gmail.com',
+            'name': 'Sorin Panca',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/psihozefir/sorinp-gentoo-overlay'}],
+ 'status': 'unofficial'}
 $ pmaint sync sorinp
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

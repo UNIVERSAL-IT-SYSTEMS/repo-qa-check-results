@@ -1,18 +1,12 @@
-{u'description': [u"K_F's personal overlay"],
- u'feeds': [u'http://git.sumptuouscapital.com/?p=portage-overlay.git;a=atom'],
- u'homepage': u'http://git.sumptuouscapital.com/?p=portage-overlay.git;a=summary',
- u'irc': None,
- u'name': u'k_f',
- u'official': False,
- u'owner_email': u'k_f@gentoo.org',
- u'owner_name': u'Kristian Fiskerstrand',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://git.sumptuouscapital.com/portage-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "K_F's personal overlay"},
+ 'feed': ['http://git.sumptuouscapital.com/?p=portage-overlay.git;a=atom'],
+ 'homepage': 'http://git.sumptuouscapital.com/?p=portage-overlay.git;a=summary',
+ 'name': 'k_f',
+ 'owner': [{'email': 'k_f@gentoo.org', 'name': 'Kristian Fiskerstrand'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://git.sumptuouscapital.com/portage-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync k_f
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

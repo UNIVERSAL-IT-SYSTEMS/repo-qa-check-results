@@ -1,18 +1,17 @@
-{u'description': [u"sekh's overlay"],
- u'feeds': [u'https://cgit.gentoo.org/user/sekh.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/sekh.git/',
- u'irc': None,
- u'name': u'sekh',
- u'official': False,
- u'owner_email': u'wlallemand@gmail.com',
- u'owner_name': u'William Lallemand',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/sekh.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/sekh.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/user/sekh.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "sekh's overlay"},
+ 'feed': ['https://cgit.gentoo.org/user/sekh.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/sekh.git/',
+ 'name': 'sekh',
+ 'owner': [{'email': 'wlallemand@gmail.com',
+            'name': 'William Lallemand',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/user/sekh.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/sekh.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/sekh.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync sekh
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -27,7 +26,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f708b96b208> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f79621dbb50> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

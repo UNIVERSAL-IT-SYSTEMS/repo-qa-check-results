@@ -1,16 +1,13 @@
-{u'description': [u'Gentoo overlay of R packages'],
- u'feeds': [],
- u'homepage': u'https://cgit.gentoo.org/proj/R_overlay.git/',
- u'irc': None,
- u'name': u'R_Overlay',
- u'official': True,
- u'owner_email': u'calchan@gentoo.org',
- u'owner_name': u'Denis Dupeyron',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'rsync://roverlay.dev.gentoo.org/roverlay', u'Rsync', None)],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Gentoo overlay of R packages'},
+ 'homepage': 'https://cgit.gentoo.org/proj/R_overlay.git/',
+ 'name': 'R_Overlay',
+ 'owner': [{'email': 'calchan@gentoo.org',
+            'name': 'Denis Dupeyron',
+            'type': 'project'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'rsync',
+             'uri': 'rsync://roverlay.dev.gentoo.org/roverlay'}],
+ 'status': 'official'}
  * Adding new repository
 $ pmaint sync R_Overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

@@ -1,18 +1,13 @@
-{u'description': [u'Spike community overlay'],
- u'feeds': [],
- u'homepage': u'http://spike-pentesting.org/',
- u'irc': None,
- u'name': u'spike-community-overlay',
- u'official': False,
- u'owner_email': u'mudler@dark-lab.net',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/Sabayon-Labs/spike-community-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Spike community overlay'},
+ 'homepage': 'http://spike-pentesting.org/',
+ 'name': 'spike-community-overlay',
+ 'owner': [{'email': 'mudler@dark-lab.net', 'type': 'person'},
+           {'email': 'skullbocks@dark-lab.net', 'type': 'person'},
+           {'email': 'mike@michaellawrenceit.com', 'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/Sabayon-Labs/spike-community-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync spike-community-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -26,14 +21,14 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-7.2.641
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-6.12.3, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-6.12.3
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/bulk_extractor-1.5.5, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/bulk_extractor-1.5.5
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.0.0, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-7.0.0
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/bulk_extractor-1.5.5, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/bulk_extractor-1.5.5
 Error running an operation:
  Unhandled exception in regen_cache
  app-forensics/xmount-0.5.0-2
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fee2ab56470> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f25f3b40470> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -112,5 +107,8 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f25f3b40260> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f25f3b8fe10> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f25f3b8f418> ignored
 Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

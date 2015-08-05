@@ -1,18 +1,13 @@
-{u'description': [u'Arax OS overlay'],
- u'feeds': [u'https://github.com/arax-os/overlay/commits/master.atom'],
- u'homepage': u'https://github.com/arax-os/overlay',
- u'irc': None,
- u'name': u'arax-os-overlay',
- u'official': False,
- u'owner_email': u'arax@arnet.am',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/arax-os/overlay.git', u'Git', u''),
-              (u'https://github.com/arax-os/overlay.git', u'Git', u''),
-              (u'git@github.com:arax-os/overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Arax OS overlay'},
+ 'feed': ['https://github.com/arax-os/overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/arax-os/overlay',
+ 'name': 'arax-os-overlay',
+ 'owner': [{'email': 'arax@arnet.am', 'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/arax-os/overlay.git'},
+            {'type': 'git', 'uri': 'https://github.com/arax-os/overlay.git'},
+            {'type': 'git', 'uri': 'git@github.com:arax-os/overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync arax-os-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

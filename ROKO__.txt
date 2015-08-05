@@ -1,17 +1,14 @@
-{u'description': [u'Unofficial ebuilds for gentoo based distributions.'],
- u'feeds': [u'https://github.com/sandikata/ROKO__/commits/master.atom'],
- u'homepage': u'https://github.com/sandikata/ROKO__',
- u'irc': None,
- u'name': u'ROKO__',
- u'official': False,
- u'owner_email': u'sandikata@yandex.ru',
- u'owner_name': u'Alexandrow Rosen',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/sandikata/ROKO__.git', u'Git', u''),
-              (u'https://github.com/sandikata/ROKO__.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Unofficial ebuilds for gentoo based distributions.'},
+ 'feed': ['https://github.com/sandikata/ROKO__/commits/master.atom'],
+ 'homepage': 'https://github.com/sandikata/ROKO__',
+ 'name': 'ROKO__',
+ 'owner': [{'email': 'sandikata@yandex.ru',
+            'name': 'Alexandrow Rosen',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/sandikata/ROKO__.git'},
+            {'type': 'git', 'uri': 'https://github.com/sandikata/ROKO__.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync ROKO__
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

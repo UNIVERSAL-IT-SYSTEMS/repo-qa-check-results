@@ -1,18 +1,16 @@
-{u'description': [u"Tim Boudreau's Overlay"],
- u'feeds': [u'https://github.com/timboudreau/gentoo/commits/master.atom'],
- u'homepage': u'https://github.com/timboudreau/gentoo',
- u'irc': None,
- u'name': u'timboudreau',
- u'official': False,
- u'owner_email': u'tim@timboudreau.com',
- u'owner_name': u'Tim Boudreau',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/timboudreau/gentoo.git', u'Git', u''),
-              (u'git@github.com:timboudreau/gentoo.git', u'Git', u''),
-              (u'https://github.com/timboudreau/gentoo.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "Tim Boudreau's Overlay"},
+ 'feed': ['https://github.com/timboudreau/gentoo/commits/master.atom'],
+ 'homepage': 'https://github.com/timboudreau/gentoo',
+ 'name': 'timboudreau',
+ 'owner': [{'email': 'tim@timboudreau.com',
+            'name': 'Tim Boudreau',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/timboudreau/gentoo.git'},
+            {'type': 'git', 'uri': 'git@github.com:timboudreau/gentoo.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/timboudreau/gentoo.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync timboudreau
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,70 +20,4 @@ Already up-to-date.
 $ pmaint regen -t 2 timboudreau
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f1028bb8368> ignored
-Traceback (most recent call last):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-TimeoutError
-Error in atexit._run_exitfuncs:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
-    return functor(*args, **kwds)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-TimeoutError
-Error in sys.exitfunc:
-ERROR pkgcore: 
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
-    return functor(*args, **kwds)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-pkgcore.ebuild.processor.TimeoutError
- * Cache regen failed with 246
+ * Cache regenerated successfully

@@ -1,24 +1,18 @@
-{u'description': [u'Personal overlay of Stefan Junker'],
- u'feeds': [u'https://github.com/steveeJ/personal-portage-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/steveeJ/personal-portage-overlay',
- u'irc': None,
- u'name': u'steveeJ',
- u'official': False,
- u'owner_email': u'mail@stefanjunker.de',
- u'owner_name': u'Stefan Junker',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/steveeJ/personal-portage-overlay.git',
-               u'Git',
-               u''),
-              (u'git://github.com/steveeJ/personal-portage-overlay.git',
-               u'Git',
-               u''),
-              (u'git@github.com:steveeJ/personal-portage-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Personal overlay of Stefan Junker'},
+ 'feed': ['https://github.com/steveeJ/personal-portage-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/steveeJ/personal-portage-overlay',
+ 'name': 'steveeJ',
+ 'owner': [{'email': 'mail@stefanjunker.de',
+            'name': 'Stefan Junker',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/steveeJ/personal-portage-overlay.git'},
+            {'type': 'git',
+             'uri': 'git://github.com/steveeJ/personal-portage-overlay.git'},
+            {'type': 'git',
+             'uri': 'git@github.com:steveeJ/personal-portage-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync steveeJ
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -29,6 +23,6 @@ Already up-to-date.
 $ pmaint regen -t 2 steveeJ
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 16517
+sandbox:stop  caught signal 15 in pid 10848
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

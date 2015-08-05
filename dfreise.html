@@ -10,41 +10,41 @@
 
         <table class="log">
 
-            <tr class="" id="l1"><td><a href="#l1"><span>1</span></a></td><td><pre>{u'description': [u'ISDN, network and other stuff'],
+            <tr class="" id="l1"><td><a href="#l1"><span>1</span></a></td><td><pre>{'description': {'en': 'ISDN, network and other stuff'},
 </pre></td></tr>
-            <tr class="" id="l2"><td><a href="#l2"><span>2</span></a></td><td><pre> u'feeds': [u'https://cgit.gentoo.org/user/dfreise.git/atom/'],
+            <tr class="" id="l2"><td><a href="#l2"><span>2</span></a></td><td><pre> 'feed': ['https://cgit.gentoo.org/user/dfreise.git/atom/'],
 </pre></td></tr>
-            <tr class="" id="l3"><td><a href="#l3"><span>3</span></a></td><td><pre> u'homepage': u'https://cgit.gentoo.org/user/dfreise.git/',
+            <tr class="" id="l3"><td><a href="#l3"><span>3</span></a></td><td><pre> 'homepage': 'https://cgit.gentoo.org/user/dfreise.git/',
 </pre></td></tr>
-            <tr class="" id="l4"><td><a href="#l4"><span>4</span></a></td><td><pre> u'irc': None,
+            <tr class="" id="l4"><td><a href="#l4"><span>4</span></a></td><td><pre> 'name': 'dfreise',
 </pre></td></tr>
-            <tr class="" id="l5"><td><a href="#l5"><span>5</span></a></td><td><pre> u'name': u'dfreise',
+            <tr class="" id="l5"><td><a href="#l5"><span>5</span></a></td><td><pre> 'owner': [{'email': 'dennis.freise@final-frontier.org',
 </pre></td></tr>
-            <tr class="" id="l6"><td><a href="#l6"><span>6</span></a></td><td><pre> u'official': False,
+            <tr class="" id="l6"><td><a href="#l6"><span>6</span></a></td><td><pre>            'name': 'Dennis Freise',
 </pre></td></tr>
-            <tr class="" id="l7"><td><a href="#l7"><span>7</span></a></td><td><pre> u'owner_email': u'dennis.freise@final-frontier.org',
+            <tr class="" id="l7"><td><a href="#l7"><span>7</span></a></td><td><pre>            'type': 'person'}],
 </pre></td></tr>
-            <tr class="" id="l8"><td><a href="#l8"><span>8</span></a></td><td><pre> u'owner_name': u'Dennis Freise',
+            <tr class="" id="l8"><td><a href="#l8"><span>8</span></a></td><td><pre> 'quality': 'experimental',
 </pre></td></tr>
-            <tr class="" id="l9"><td><a href="#l9"><span>9</span></a></td><td><pre> u'priority': 50,
+            <tr class="" id="l9"><td><a href="#l9"><span>9</span></a></td><td><pre> 'source': [{'type': 'git',
 </pre></td></tr>
-            <tr class="" id="l10"><td><a href="#l10"><span>10</span></a></td><td><pre> u'quality': u'experimental',
+            <tr class="" id="l10"><td><a href="#l10"><span>10</span></a></td><td><pre>             'uri': 'git://anongit.gentoo.org/user/dfreise.git'},
 </pre></td></tr>
-            <tr class="" id="l11"><td><a href="#l11"><span>11</span></a></td><td><pre> u'sources': [(u'git://anongit.gentoo.org/user/dfreise.git', u'Git', u''),
+            <tr class="" id="l11"><td><a href="#l11"><span>11</span></a></td><td><pre>            {'type': 'git',
 </pre></td></tr>
-            <tr class="" id="l12"><td><a href="#l12"><span>12</span></a></td><td><pre>              (u'https://anongit.gentoo.org/git/user/dfreise.git',
+            <tr class="" id="l12"><td><a href="#l12"><span>12</span></a></td><td><pre>             'uri': 'https://anongit.gentoo.org/git/user/dfreise.git'},
 </pre></td></tr>
-            <tr class="" id="l13"><td><a href="#l13"><span>13</span></a></td><td><pre>               u'Git',
+            <tr class="" id="l13"><td><a href="#l13"><span>13</span></a></td><td><pre>            {'type': 'git',
 </pre></td></tr>
-            <tr class="" id="l14"><td><a href="#l14"><span>14</span></a></td><td><pre>               u''),
+            <tr class="" id="l14"><td><a href="#l14"><span>14</span></a></td><td><pre>             'uri': 'git+ssh://git@git.gentoo.org/user/dfreise.git'}],
 </pre></td></tr>
-            <tr class="" id="l15"><td><a href="#l15"><span>15</span></a></td><td><pre>              (u'git+ssh://git@git.gentoo.org/user/dfreise.git', u'Git', u'')],
+            <tr class="" id="l15"><td><a href="#l15"><span>15</span></a></td><td><pre> 'status': 'unofficial'}
 </pre></td></tr>
-            <tr class="" id="l16"><td><a href="#l16"><span>16</span></a></td><td><pre> u'status': u'unofficial',
+            <tr class="" id="l16"><td><a href="#l16"><span>16</span></a></td><td><pre>$ pmaint sync dfreise
 </pre></td></tr>
-            <tr class="" id="l17"><td><a href="#l17"><span>17</span></a></td><td><pre> u'supported': True}
+            <tr class="" id="l17"><td><a href="#l17"><span>17</span></a></td><td><pre>WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
 </pre></td></tr>
-            <tr class="" id="l18"><td><a href="#l18"><span>18</span></a></td><td><pre>$ pmaint sync dfreise
+            <tr class="" id="l18"><td><a href="#l18"><span>18</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 </pre></td></tr>
             <tr class="" id="l19"><td><a href="#l19"><span>19</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 </pre></td></tr>
@@ -66,7 +66,7 @@
 </pre></td></tr>
             <tr class="" id="l28"><td><a href="#l28"><span>28</span></a></td><td><pre> Unhandled exception in regen_cache
 </pre></td></tr>
-            <tr class="" id="l29"><td><a href="#l29"><span>29</span></a></td><td><pre>Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in &lt;functools.partial object at 0x7fe39f79ef70&gt; ignored
+            <tr class="" id="l29"><td><a href="#l29"><span>29</span></a></td><td><pre>Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in &lt;functools.partial object at 0x7f65e5c63f70&gt; ignored
 </pre></td></tr>
             <tr class="" id="l30"><td><a href="#l30"><span>30</span></a></td><td><pre>Traceback (most recent call last):
 </pre></td></tr>
@@ -195,6 +195,8 @@
             <tr class="" id="l92"><td><a href="#l92"><span>92</span></a></td><td><pre>pkgcore.ebuild.processor.TimeoutError
 </pre></td></tr>
             <tr class="" id="l93"><td><a href="#l93"><span>93</span></a></td><td><pre> * Cache regen failed with 246
+</pre></td></tr>
+            <tr class="" id="l94"><td><a href="#l94"><span>94</span></a></td><td><pre>Sandboxed process killed by signal: Broken pipe
 </pre></td></tr>
 
         </table>

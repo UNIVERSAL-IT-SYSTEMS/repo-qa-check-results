@@ -1,16 +1,13 @@
-{u'description': [u'Bleeding edge, experimental overlay for Gentoo'],
- u'feeds': [],
- u'homepage': u'http://github.com/Barthalion/moonrise',
- u'irc': None,
- u'name': u'moonrise',
- u'official': False,
- u'owner_email': u'11mariom@gmail.com',
- u'owner_name': u'Mariusz Kozakowski',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/Barthalion/moonrise.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Bleeding edge, experimental overlay for Gentoo'},
+ 'homepage': 'http://github.com/Barthalion/moonrise',
+ 'name': 'moonrise',
+ 'owner': [{'email': '11mariom@gmail.com',
+            'name': 'Mariusz Kozakowski',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/Barthalion/moonrise.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync moonrise
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -21,75 +18,84 @@ $ pmaint regen -t 2 moonrise
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
-!!! ERROR: app-editors/gvim-7.3.125 failed.
+!!! ERROR: app-editors/gvim-7.3.161 failed.
 
-!!! ERROR: app-editors/vim-core-7.3.125 failed.
+!!! ERROR: app-editors/vim-7.3.125 failed.
 
 !!! ERROR: app-editors/vim-core-7.3.161 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 
-!!! ERROR: app-editors/vim-7.3.125 failed.
+!!! ERROR: app-editors/vim-core-7.3.125 failed.
 
 !!! ERROR: app-editors/vim-7.3.161 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+
+!!! ERROR: app-editors/gvim-7.3.125 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '201' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '201' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
-!!!            gvim-7.3.125.ebuild, line   6:  Called inherit 'vim'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
-!!!        vim-core-7.3.161.ebuild, line   6:  Called inherit 'vim'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
+!!!        vim-core-7.3.125.ebuild, line   6:  Called inherit 'vim'
+!!!             vim-7.3.125.ebuild, line   6:  Called inherit 'vim'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
+!!!            gvim-7.3.125.ebuild, line   6:  Called inherit 'vim'
+!!!        vim-core-7.3.161.ebuild, line   6:  Called inherit 'vim'
+!!!            gvim-7.3.161.ebuild, line   6:  Called inherit 'vim'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vim failed
 
-!!!             vim-7.3.125.ebuild, line   6:  Called inherit 'vim'
 !!!             vim-7.3.161.ebuild, line   6:  Called inherit 'vim'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
-
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vim failed
@@ -99,33 +105,43 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for vim failed
 
-!!!        vim-core-7.3.125.ebuild, line   6:  Called inherit 'vim'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vim failed
 
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/gvim-7.3.125
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3.125
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3.161
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vim failed
+
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vim failed
+
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/gvim-7.3.161
 !!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-7.3.125
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3.161
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3.125
 !!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-7.3.161
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/gvim-7.3.125
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-misc/lightdm-0.3.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-misc/lightdm-0.2.3
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/gvim-7.3.161
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-misc/bashrun-0.16.1
 Error running an operation:
  Unhandled exception in regen_cache
  app-backup/qt4-fsarchiver-0.6.19-1
 
-!!! ERROR: app-editors/gvim-7.3.161 failed.
+!!! ERROR: x11-misc/lightdm-0.3.0 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
-sandbox:stop  caught signal 15 in pid 12170
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '178' 'depend'
+sandbox:stop  caught signal 15 in pid 4424
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: x11-misc/lightdm-0.2.3 failed.
@@ -133,13 +149,9 @@ Sandboxed process killed by signal: Terminated
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-sandbox:stop  caught signal 15 in pid 7132
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '178' 'depend'
+sandbox:stop  caught signal 15 in pid 1142
 Sandboxed process killed by signal: Terminated
-
-!!! ERROR: x11-misc/lightdm-0.3.0 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-sandbox:stop  caught signal 15 in pid 22947
+sandbox:stop  caught signal 15 in pid 30156
 Sandboxed process killed by signal: Terminated
  * Cache regen failed with 246

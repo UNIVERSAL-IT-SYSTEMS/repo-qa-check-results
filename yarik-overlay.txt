@@ -1,16 +1,14 @@
-{u'description': [u'Some new packages plus uncommitted patches and ebuilds for the main tree'],
- u'feeds': [u'https://github.com/yarikmsu/yarik-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/yarikmsu/yarik-overlay',
- u'irc': None,
- u'name': u'yarik-overlay',
- u'official': False,
- u'owner_email': u'ygorbunov@gmail.com',
- u'owner_name': u'Yaroslav Gorbunov',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/yarikmsu/yarik-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Some new packages plus uncommitted patches and ebuilds for the main tree'},
+ 'feed': ['https://github.com/yarikmsu/yarik-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/yarikmsu/yarik-overlay',
+ 'name': 'yarik-overlay',
+ 'owner': [{'email': 'ygorbunov@gmail.com',
+            'name': 'Yaroslav Gorbunov',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/yarikmsu/yarik-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync yarik-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

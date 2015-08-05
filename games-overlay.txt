@@ -1,16 +1,14 @@
-{u'description': [u'gentoo overlay containing games ebuilds only'],
- u'feeds': [u'https://github.com/hasufell/games-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/hasufell/games-overlay',
- u'irc': None,
- u'name': u'games-overlay',
- u'official': False,
- u'owner_email': u'hasufell@gentoo.org',
- u'owner_name': u'Julian Ospald',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/hasufell/games-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'gentoo overlay containing games ebuilds only'},
+ 'feed': ['https://github.com/hasufell/games-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/hasufell/games-overlay',
+ 'name': 'games-overlay',
+ 'owner': [{'email': 'hasufell@gentoo.org',
+            'name': 'Julian Ospald',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/hasufell/games-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync games-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

@@ -1,16 +1,10 @@
-{u'description': [u"Rapha\xebl Barrois' (Xelnor) Gentoo overlay."],
- u'feeds': [],
- u'homepage': u'http://overlay.xelnor.net',
- u'irc': None,
- u'name': u'xelnor',
- u'official': False,
- u'owner_email': u'gentoo@xelnor.net',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://overlay.xelnor.net/overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': u"Rapha\xebl Barrois' (Xelnor) Gentoo overlay."},
+ 'homepage': 'http://overlay.xelnor.net',
+ 'name': 'xelnor',
+ 'owner': [{'email': 'gentoo@xelnor.net'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://overlay.xelnor.net/overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync xelnor
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

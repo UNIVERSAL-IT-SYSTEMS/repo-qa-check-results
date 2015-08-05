@@ -1,16 +1,14 @@
-{u'description': [u'Put more love between systemd, users and openrc'],
- u'feeds': [u'https://github.com/feeds/Sabayon/commits/systemd-love/master'],
- u'homepage': u'https://github.com/Sabayon/systemd-love',
- u'irc': None,
- u'name': u'systemd-love',
- u'official': False,
- u'owner_email': u'lxnay@gentoo.org',
- u'owner_name': u'Fabio Erculiani',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/Sabayon/systemd-love.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Put more love between systemd, users and openrc'},
+ 'feed': ['https://github.com/feeds/Sabayon/commits/systemd-love/master'],
+ 'homepage': 'https://github.com/Sabayon/systemd-love',
+ 'name': 'systemd-love',
+ 'owner': [{'email': 'lxnay@gentoo.org',
+            'name': 'Fabio Erculiani',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/Sabayon/systemd-love.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync systemd-love
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -23,7 +21,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fdf28dc28e8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7feb8b6a08e8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -102,5 +100,7 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7feb8b6a07e0> ignored
+Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

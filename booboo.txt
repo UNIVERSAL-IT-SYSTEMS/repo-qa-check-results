@@ -1,16 +1,13 @@
-{u'description': [u'L29Ah personal overlay'],
- u'feeds': [u'https://github.com/l29ah/booboo/commits/master.atom'],
- u'homepage': u'https://github.com/l29ah/booboo',
- u'irc': None,
- u'name': u'booboo',
- u'official': False,
- u'owner_email': u'zl29ah@gmail.com',
- u'owner_name': u'Sergey Alirzaev',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/l29ah/booboo.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'L29Ah personal overlay'},
+ 'feed': ['https://github.com/l29ah/booboo/commits/master.atom'],
+ 'homepage': 'https://github.com/l29ah/booboo',
+ 'name': 'booboo',
+ 'owner': [{'email': 'zl29ah@gmail.com',
+            'name': 'Sergey Alirzaev',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'https://github.com/l29ah/booboo.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync booboo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

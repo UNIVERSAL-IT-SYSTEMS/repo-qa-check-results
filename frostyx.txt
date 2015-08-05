@@ -1,18 +1,16 @@
-{u'description': [u"FrostyX's personal overlay"],
- u'feeds': [u'https://github.com/FrostyX/gentoo-overlay/commits/master.atom'],
- u'homepage': u'http://frostyx.cz/',
- u'irc': None,
- u'name': u'frostyx',
- u'official': False,
- u'owner_email': u'frostyx@email.cz',
- u'owner_name': u'FrostyX',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/FrostyX/gentoo-overlay.git', u'Git', u''),
-              (u'git://github.com/FrostyX/gentoo-overlay.git', u'Git', u''),
-              (u'git@github.com:FrostyX/gentoo-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "FrostyX's personal overlay"},
+ 'feed': ['https://github.com/FrostyX/gentoo-overlay/commits/master.atom'],
+ 'homepage': 'http://frostyx.cz/',
+ 'name': 'frostyx',
+ 'owner': [{'email': 'frostyx@email.cz', 'name': 'FrostyX', 'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/FrostyX/gentoo-overlay.git'},
+            {'type': 'git',
+             'uri': 'git://github.com/FrostyX/gentoo-overlay.git'},
+            {'type': 'git',
+             'uri': 'git@github.com:FrostyX/gentoo-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync frostyx
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

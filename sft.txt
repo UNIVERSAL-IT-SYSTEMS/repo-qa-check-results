@@ -1,16 +1,14 @@
-{u'description': [u'SFT Technologies gentoo overlay'],
- u'feeds': [u'https://github.com/SFTtech/gentoo-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/SFTtech/gentoo-overlay',
- u'irc': None,
- u'name': u'sft',
- u'official': False,
- u'owner_email': u'jj@stusta.net',
- u'owner_name': u'Jonas Jelten',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/SFTtech/gentoo-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'SFT Technologies gentoo overlay'},
+ 'feed': ['https://github.com/SFTtech/gentoo-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/SFTtech/gentoo-overlay',
+ 'name': 'sft',
+ 'owner': [{'email': 'jj@stusta.net',
+            'name': 'Jonas Jelten',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/SFTtech/gentoo-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync sft
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,7 +20,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f38bd364ba8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f57c0d31cb0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -102,7 +100,5 @@ Traceback (most recent call last):
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
 Sandboxed process killed by signal: Broken pipe
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f38bd364628> ignored
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f57c0d31ba8> ignored
  * Cache regen failed with 246

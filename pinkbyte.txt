@@ -1,21 +1,16 @@
-{u'description': [u"Pinkbyte's developer overlay"],
- u'feeds': [u'https://github.com/Pinkbyte/pinkbyte-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/Pinkbyte/pinkbyte-overlay',
- u'irc': None,
- u'name': u'pinkbyte',
- u'official': True,
- u'owner_email': u'pinkbyte@gentoo.org',
- u'owner_name': u'Sergey Popov',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/Pinkbyte/pinkbyte-overlay.git',
-               u'Git',
-               u''),
-              (u'https://github.com/Pinkbyte/pinkbyte-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': "Pinkbyte's developer overlay"},
+ 'feed': ['https://github.com/Pinkbyte/pinkbyte-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/Pinkbyte/pinkbyte-overlay',
+ 'name': 'pinkbyte',
+ 'owner': [{'email': 'pinkbyte@gentoo.org',
+            'name': 'Sergey Popov',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/Pinkbyte/pinkbyte-overlay.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/Pinkbyte/pinkbyte-overlay.git'}],
+ 'status': 'official'}
 $ pmaint sync pinkbyte
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -38,15 +33,15 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                          ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/pinkbyte/kde-misc/serverstatuswidget/serverstatuswidget-9999-r1.ebuild'
 !!!              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/pinkbyte/kde-misc/serverstatuswidget/serverstatuswidget-9999-r1.ebuild'
 !!!   serverstatuswidget-9999-r1.ebuild, line   7:  Called inherit 'kde4-base' 'git-2'
-/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 37: useq: command not found
 !!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 40: useq: command not found
 !!!                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!                    kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 37: useq: command not found
 !!!              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 40: useq: command not found
 !!!               kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported
@@ -57,7 +52,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-misc/serverstatuswidget-9999-r1
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fac9958e0a8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f387d6331b0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

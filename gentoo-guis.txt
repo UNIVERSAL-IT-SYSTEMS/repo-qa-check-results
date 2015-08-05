@@ -1,22 +1,18 @@
-{u'description': [u'Experimental ebuilds for Gentoo specific guis and guis related projects'],
- u'feeds': [u'https://cgit.gentoo.org/proj/gentoo-guis.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/proj/gentoo-guis.git/',
- u'irc': None,
- u'name': u'gentoo-guis',
- u'official': True,
- u'owner_email': u'gentoo-guis@gentoo.org',
- u'owner_name': u'Gentoo-guis team',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/proj/gentoo-guis.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/proj/gentoo-guis.git',
-               u'Git',
-               u''),
-              (u'git+ssh://git@git.gentoo.org/proj/gentoo-guis.git',
-               u'Git',
-               u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Experimental ebuilds for Gentoo specific guis and guis related projects'},
+ 'feed': ['https://cgit.gentoo.org/proj/gentoo-guis.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/proj/gentoo-guis.git/',
+ 'name': 'gentoo-guis',
+ 'owner': [{'email': 'gentoo-guis@gentoo.org',
+            'name': 'Gentoo-guis team',
+            'type': 'project'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/proj/gentoo-guis.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/proj/gentoo-guis.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/proj/gentoo-guis.git'}],
+ 'status': 'official'}
 $ pmaint sync gentoo-guis
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -33,38 +29,38 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '185' 'depend'
-
-!!! ERROR: app-portage/kdemerge-9999 failed.
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/gentoo-guis/app-portage/c-layman/c-layman-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-guis/app-portage/c-layman/c-layman-9999.ebuild'
 
 !!! ERROR: app-portage/kportagetray-9999 failed.
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/gentoo-guis/app-portage/c-layman/c-layman-9999.ebuild'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-guis/app-portage/c-layman/c-layman-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: app-portage/kdemerge-9999 failed.
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo-guis/app-portage/c-layman/c-layman-9999.ebuild'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '183' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '203' 'depend'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!           c-layman-9999.ebuild, line   9:  Called inherit 'git'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '183' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '203' 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/gentoo-guis/app-portage/kdemerge/kdemerge-9999.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/gentoo-guis/app-portage/kportagetray/kportagetray-9999.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-guis/app-portage/kdemerge/kdemerge-9999.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-guis/app-portage/kportagetray/kportagetray-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo-guis/app-portage/kdemerge/kdemerge-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo-guis/app-portage/kportagetray/kportagetray-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo-guis/app-portage/kdemerge/kdemerge-9999.ebuild'
 !!!           kdemerge-9999.ebuild, line  11:  Called inherit 'kde4-base'
 !!!       kportagetray-9999.ebuild, line  11:  Called inherit 'kde4-base' 'python'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
@@ -76,8 +72,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!          kde4-functions.eclass, line  23:  Called die
@@ -96,7 +92,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-portage/kportagetray-9999
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fed310749f0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f65072e79f0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -175,6 +171,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246
-Sandboxed process killed by signal: Broken pipe

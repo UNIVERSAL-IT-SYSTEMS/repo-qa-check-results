@@ -1,19 +1,14 @@
-{u'description': [u'Unofficial Wine Overlay'],
- u'feeds': [],
- u'homepage': u'https://github.com/NP-Hardass/wine-overlay',
- u'irc': None,
- u'name': u'wine-overlay',
- u'official': False,
- u'owner_email': u'np.hardass@gmail.com',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/NP-Hardass/wine-overlay.git', u'Git', u''),
-              (u'https://github.com/NP-Hardass/wine-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Unofficial Wine Overlay'},
+ 'homepage': 'https://github.com/NP-Hardass/wine-overlay',
+ 'name': 'wine-overlay',
+ 'owner': [{'email': 'np.hardass@gmail.com', 'type': 'person'},
+           {'email': 'gentoo@eroen.eu', 'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/NP-Hardass/wine-overlay.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/NP-Hardass/wine-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync wine-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

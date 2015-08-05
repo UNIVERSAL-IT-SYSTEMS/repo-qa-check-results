@@ -1,18 +1,15 @@
-{u'description': [u"Official testing overlay for Qt and related packages, provided by Gentoo's Qt team. Contains ebuilds for Qt4 and Qt5 prereleases and live ebuilds, plus various (non-KDE) applications and utilities that use Qt."],
- u'feeds': [u'https://cgit.gentoo.org/proj/qt.git/atom/'],
- u'homepage': u'https://github.com/gentoo/qt',
- u'irc': None,
- u'name': u'qt',
- u'official': True,
- u'owner_email': u'qt@gentoo.org',
- u'owner_name': u'Qt Team',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/proj/qt.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/proj/qt.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/proj/qt.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': "Official testing overlay for Qt and related packages, provided\n    by Gentoo's Qt team. Contains ebuilds for Qt4 and Qt5 prereleases and live ebuilds,\n    plus various (non-KDE) applications and utilities that use Qt."},
+ 'feed': ['https://cgit.gentoo.org/proj/qt.git/atom/'],
+ 'homepage': 'https://github.com/gentoo/qt',
+ 'name': 'qt',
+ 'owner': [{'email': 'qt@gentoo.org', 'name': 'Qt Team'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/proj/qt.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/proj/qt.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/proj/qt.git'}],
+ 'status': 'official'}
 $ pmaint sync qt
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

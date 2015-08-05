@@ -1,18 +1,13 @@
-{u'description': [u'A few packages that are not hosted elsewhere.'],
- u'feeds': [],
- u'homepage': u'https://github.com/anders-larsson/gentoo-overlay',
- u'irc': None,
- u'name': u'anders-larsson',
- u'official': False,
- u'owner_email': u'andla@thethundertemplars.com',
- u'owner_name': u'Anders Larsson',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/anders-larsson/gentoo-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'A few packages that are not hosted elsewhere.'},
+ 'homepage': 'https://github.com/anders-larsson/gentoo-overlay',
+ 'name': 'anders-larsson',
+ 'owner': [{'email': 'andla@thethundertemplars.com',
+            'name': 'Anders Larsson',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/anders-larsson/gentoo-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync anders-larsson
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -25,7 +20,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7ff7da8bb7e0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f10e66f57e0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

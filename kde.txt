@@ -1,19 +1,16 @@
-{u'description': [u"Official KDE team's testing overlay."],
- u'feeds': [u'https://cgit.gentoo.org/proj/kde.git/atom/'],
- u'homepage': u'http://kde.gentoo.org',
- u'irc': None,
- u'name': u'kde',
- u'official': True,
- u'owner_email': u'kde@gentoo.org',
- u'owner_name': u'KDE Team',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/proj/kde.git', u'Git', u''),
-              (u'https://github.com/gentoo/kde.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/proj/kde.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/proj/kde.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': "Official KDE team's testing overlay."},
+ 'feed': ['https://cgit.gentoo.org/proj/kde.git/atom/'],
+ 'homepage': 'http://kde.gentoo.org',
+ 'name': 'kde',
+ 'owner': [{'email': 'kde@gentoo.org', 'name': 'KDE Team', 'type': 'project'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/proj/kde.git'},
+            {'type': 'git', 'uri': 'https://github.com/gentoo/kde.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/proj/kde.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/proj/kde.git'}],
+ 'status': 'official'}
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

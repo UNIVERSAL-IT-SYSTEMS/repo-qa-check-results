@@ -1,17 +1,13 @@
-{u'description': [u'Arx Libertatis Overlay'],
- u'feeds': [],
- u'homepage': u'https://github.com/arx/ArxGentoo',
- u'irc': None,
- u'name': u'arx-libertatis',
- u'official': False,
- u'owner_email': u'daniel@constexpr.org',
- u'owner_name': u'Daniel Scharrer',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/arx/ArxGentoo.git', u'Git', u''),
-              (u'https://github.com/arx/ArxGentoo.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Arx Libertatis Overlay'},
+ 'homepage': 'https://github.com/arx/ArxGentoo',
+ 'name': 'arx-libertatis',
+ 'owner': [{'email': 'daniel@constexpr.org',
+            'name': 'Daniel Scharrer',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/arx/ArxGentoo.git'},
+            {'type': 'git', 'uri': 'https://github.com/arx/ArxGentoo.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync arx-libertatis
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -23,7 +19,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f9f4afb5a48> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fae4ee9aa48> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

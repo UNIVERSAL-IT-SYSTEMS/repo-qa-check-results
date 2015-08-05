@@ -1,18 +1,11 @@
-{u'description': [u'This overlay contains some experimental stuff, but mostly stuff I quickly wrote an ebuild for or grabed it from bugzilla and did not have the time to commit it to the official tree or do not consider it ready for it.'],
- u'feeds': [],
- u'homepage': u'http://dev.gentoo.org/~swegener/',
- u'irc': None,
- u'name': u'swegener',
- u'official': True,
- u'owner_email': u'swegener@gentoo.org',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'rsync://rsync.gentoo.stealer.net/swegener-overlay/',
-               u'Rsync',
-               None)],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'This overlay contains some experimental stuff, but mostly\n    stuff I quickly wrote an ebuild for or grabed it from bugzilla and did not\n    have the time to commit it to the official tree or do not consider it ready\n    for it.'},
+ 'homepage': 'http://dev.gentoo.org/~swegener/',
+ 'name': 'swegener',
+ 'owner': [{'email': 'swegener@gentoo.org'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'rsync',
+             'uri': 'rsync://rsync.gentoo.stealer.net/swegener-overlay/'}],
+ 'status': 'official'}
 $ pmaint sync swegener
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Welcome To
@@ -45,11 +38,11 @@ Matched data: 0 bytes
 File list size: 25.37K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 259
+Total bytes sent: 255
 Total bytes received: 26.25K
 
-sent 259 bytes  received 26.25K bytes  17.67K bytes/sec
-total size is 1.22M  speedup is 46.11
+sent 255 bytes  received 26.25K bytes  10.60K bytes/sec
+total size is 1.22M  speedup is 46.12
 *** syncing swegener
 *** synced swegener
  * Sync succeeded

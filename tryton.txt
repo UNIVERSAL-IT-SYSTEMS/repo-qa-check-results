@@ -1,16 +1,11 @@
-{u'description': [u'Tryton'],
- u'feeds': [],
- u'homepage': u'http://www.tryton.org/',
- u'irc': None,
- u'name': u'tryton',
- u'official': False,
- u'owner_email': u'cedk@gentoo.org',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://hg.tryton.org/tryton-overlay', u'Mercurial', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Tryton'},
+ 'homepage': 'http://www.tryton.org/',
+ 'name': 'tryton',
+ 'owner': [{'email': 'cedk@gentoo.org'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'mercurial',
+             'uri': 'https://hg.tryton.org/tryton-overlay'}],
+ 'status': 'unofficial'}
 $ pmaint sync tryton
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

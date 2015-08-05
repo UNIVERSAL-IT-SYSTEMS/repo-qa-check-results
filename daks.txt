@@ -1,16 +1,12 @@
-{u'description': [u'Some useful ebuilds. Includes 1C-Predpriyatie and postgres with patches for work with 1C.'],
- u'feeds': [],
- u'homepage': u'https://github.com/daks-ua/daks-overlay',
- u'irc': None,
- u'name': u'daks',
- u'official': False,
- u'owner_email': u'daks12@gmail.com',
- u'owner_name': u'Dmitry Fomenko',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/daks-ua/daks-overlay', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Some useful ebuilds. Includes 1C-Predpriyatie and postgres with patches for work with 1C.'},
+ 'homepage': 'https://github.com/daks-ua/daks-overlay',
+ 'name': 'daks',
+ 'owner': [{'email': 'daks12@gmail.com',
+            'name': 'Dmitry Fomenko',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'https://github.com/daks-ua/daks-overlay'}],
+ 'status': 'unofficial'}
 $ pmaint sync daks
 WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.

@@ -1,21 +1,15 @@
-{u'description': [u'Latest tarballs from the CenterIM Mob-branch and a live ebuild.'],
- u'feeds': [u'http://github.com/feeds/transacid/commits/CenterIM-overlay/master'],
- u'homepage': u'http://github.com/transacid/CenterIM-overlay',
- u'irc': None,
- u'name': u'centerim',
- u'official': False,
- u'owner_email': u'transacid@centerim.org',
- u'owner_name': u'Boris "transacid" Petersen',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/transacid/CenterIM-overlay.git',
-               u'Git',
-               u''),
-              (u'http://github.com/transacid/CenterIM-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Latest tarballs from the CenterIM Mob-branch and a live ebuild.'},
+ 'feed': ['http://github.com/feeds/transacid/commits/CenterIM-overlay/master'],
+ 'homepage': 'http://github.com/transacid/CenterIM-overlay',
+ 'name': 'centerim',
+ 'owner': [{'email': 'transacid@centerim.org',
+            'name': 'Boris "transacid" Petersen'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/transacid/CenterIM-overlay.git'},
+            {'type': 'git',
+             'uri': 'http://github.com/transacid/CenterIM-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync centerim
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -31,7 +25,17 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-sandbox:stop  caught signal 15 in pid 20264
-Sandboxed process killed by signal: Terminated
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '165' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/centerim/net-im/centerim/centerim-999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/centerim/net-im/centerim/centerim-999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/centerim/net-im/centerim/centerim-999.ebuild'
+!!!            centerim-999.ebuild, line   6:  Called inherit 'eutils' 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-im/centerim-999
  * Cache regenerated successfully

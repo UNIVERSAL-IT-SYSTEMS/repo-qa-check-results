@@ -1,19 +1,20 @@
-{u'description': [u"Provide Emacs and XEmacs related ebuilds which are experimental or work-in-progress. Don't rely on them, but don't hesitate to file bugs or write emails."],
- u'feeds': [u'https://cgit.gentoo.org/proj/emacs.git/atom/'],
- u'homepage': u'http://wiki.gentoo.org/wiki/Project:Emacs/Overlay',
- u'irc': None,
- u'name': u'emacs',
- u'official': True,
- u'owner_email': u'emacs@gentoo.org',
- u'owner_name': u'Gentoo Emacs team',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/proj/emacs.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/proj/emacs.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/proj/emacs.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': "Provide Emacs and XEmacs related ebuilds which are\n    experimental or work-in-progress. Don't rely on them, but don't\n    hesitate to file bugs or write emails."},
+ 'feed': ['https://cgit.gentoo.org/proj/emacs.git/atom/'],
+ 'homepage': 'http://wiki.gentoo.org/wiki/Project:Emacs/Overlay',
+ 'name': 'emacs',
+ 'owner': [{'email': 'emacs@gentoo.org',
+            'name': 'Gentoo Emacs team',
+            'type': 'project'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/proj/emacs.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/proj/emacs.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/proj/emacs.git'}],
+ 'status': 'official'}
 $ pmaint sync emacs
+WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing emacs

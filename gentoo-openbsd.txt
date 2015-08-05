@@ -1,24 +1,18 @@
-{u'description': [u'Gentoo/OpenBSD Project Overlay'],
- u'feeds': [u'https://cgit.gentoo.org/proj/gentoo-openbsd.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/proj/gentoo-openbsd.git/',
- u'irc': None,
- u'name': u'gentoo-openbsd',
- u'official': True,
- u'owner_email': u'blueness@gentoo.org',
- u'owner_name': u'Anthony G. Basile',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/proj/gentoo-openbsd.git',
-               u'Git',
-               u''),
-              (u'https://anongit.gentoo.org/git/proj/gentoo-openbsd.git',
-               u'Git',
-               u''),
-              (u'git+ssh://git@git.gentoo.org/proj/gentoo-openbsd.git',
-               u'Git',
-               u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Gentoo/OpenBSD Project Overlay'},
+ 'feed': ['https://cgit.gentoo.org/proj/gentoo-openbsd.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/proj/gentoo-openbsd.git/',
+ 'name': 'gentoo-openbsd',
+ 'owner': [{'email': 'blueness@gentoo.org',
+            'name': 'Anthony G. Basile',
+            'type': 'project'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/proj/gentoo-openbsd.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/proj/gentoo-openbsd.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/proj/gentoo-openbsd.git'}],
+ 'status': 'official'}
 $ pmaint sync gentoo-openbsd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -34,7 +28,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f19750ac1b0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f17b4c451b0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -98,5 +92,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

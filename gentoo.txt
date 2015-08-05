@@ -1,19 +1,13 @@
-{u'description': [u'Official Gentoo ebuild repository'],
- u'feeds': [],
- u'homepage': u'http://gentoo.org/',
- u'irc': None,
- u'name': u'gentoo',
- u'official': True,
- u'owner_email': u'qa@gentoo.org',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'core',
- u'sources': [(u'rsync://rsync.gentoo.org/gentoo-portage', u'Rsync', None),
-              (u'https://github.com/gentoo/gentoo-portage-rsync-mirror',
-               u'Git',
-               u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Official Gentoo ebuild repository'},
+ 'homepage': 'http://gentoo.org/',
+ 'name': 'gentoo',
+ 'owner': [{'email': 'qa@gentoo.org'}],
+ 'quality': 'core',
+ 'source': [{'type': 'rsync',
+             'uri': 'rsync://rsync.gentoo.org/gentoo-portage'},
+            {'type': 'git',
+             'uri': 'https://github.com/gentoo/gentoo-portage-rsync-mirror'}],
+ 'status': 'official'}
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

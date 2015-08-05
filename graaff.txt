@@ -1,19 +1,18 @@
-{u'description': [u'Developer overlay of Hans de Graaff with mostly ruby and xemacs ebuilds, and a few assorted other goodies.'],
- u'feeds': [u'https://cgit.gentoo.org/dev/graaff.git/atom/'],
- u'homepage': u'http://moving-innovations.com/blog/',
- u'irc': None,
- u'name': u'graaff',
- u'official': True,
- u'owner_email': u'graaff@gentoo.org',
- u'owner_name': u'Hans de Graaff',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/dev/graaff.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/dev/graaff.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/dev/graaff.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Developer overlay of Hans de Graaff with mostly ruby and\n    xemacs ebuilds, and a few assorted other goodies.'},
+ 'feed': ['https://cgit.gentoo.org/dev/graaff.git/atom/'],
+ 'homepage': 'http://moving-innovations.com/blog/',
+ 'name': 'graaff',
+ 'owner': [{'email': 'graaff@gentoo.org', 'name': 'Hans de Graaff'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/dev/graaff.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/dev/graaff.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/dev/graaff.git'}],
+ 'status': 'official'}
 $ pmaint sync graaff
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ext-devlibs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing graaff
@@ -22,70 +21,4 @@ Already up-to-date.
 $ pmaint regen -t 2 graaff
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f2bb60cbec0> ignored
-Traceback (most recent call last):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-TimeoutError
-Error in atexit._run_exitfuncs:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
-    return functor(*args, **kwds)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-TimeoutError
-Error in sys.exitfunc:
-ERROR pkgcore: 
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
-    return functor(*args, **kwds)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-pkgcore.ebuild.processor.TimeoutError
- * Cache regen failed with 246
+ * Cache regenerated successfully

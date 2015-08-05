@@ -1,21 +1,18 @@
-{u'description': [u"Aaron Mavrinac's overlay"],
- u'feeds': [u'https://cgit.gentoo.org/user/ezod.git/atom/'],
- u'homepage': u'https://cgit.gentoo.org/user/ezod.git/',
- u'irc': None,
- u'name': u'ezod',
- u'official': False,
- u'owner_email': u'mavrinac@gmail.com',
- u'owner_name': u'Aaron Mavrinac',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/user/ezod.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/user/ezod.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/user/ezod.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "Aaron Mavrinac's overlay"},
+ 'feed': ['https://cgit.gentoo.org/user/ezod.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/ezod.git/',
+ 'name': 'ezod',
+ 'owner': [{'email': 'mavrinac@gmail.com',
+            'name': 'Aaron Mavrinac',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/user/ezod.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/ezod.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/ezod.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync ezod
-WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing ezod
@@ -26,7 +23,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f587429d788> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fedacc78418> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

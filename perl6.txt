@@ -1,18 +1,17 @@
-{u'description': [u'perl6 modules and tools'],
- u'feeds': [u'https://github.com/Heather/gentoo-perl6/commits/master.atom'],
- u'homepage': u'https://github.com/Heather/gentoo-perl6',
- u'irc': None,
- u'name': u'perl6',
- u'official': False,
- u'owner_email': u'cynede@gentoo.org',
- u'owner_name': u'Heather',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/Heather/gentoo-perl6.git', u'Git', u''),
-              (u'https://github.com/Heather/gentoo-perl6.git', u'Git', u''),
-              (u'git@github.com:Heather/gentoo-perl6.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'perl6 modules and tools'},
+ 'feed': ['https://github.com/Heather/gentoo-perl6/commits/master.atom'],
+ 'homepage': 'https://github.com/Heather/gentoo-perl6',
+ 'name': 'perl6',
+ 'owner': [{'email': 'cynede@gentoo.org',
+            'name': 'Heather',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/Heather/gentoo-perl6.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/Heather/gentoo-perl6.git'},
+            {'type': 'git', 'uri': 'git@github.com:Heather/gentoo-perl6.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync perl6
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,6 +21,6 @@ Already up-to-date.
 $ pmaint regen -t 2 perl6
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 19808
+sandbox:stop  caught signal 15 in pid 18701
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

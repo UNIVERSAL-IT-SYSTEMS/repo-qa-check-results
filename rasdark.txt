@@ -1,16 +1,10 @@
-{u'description': [u'rasdark personal overlay'],
- u'feeds': [],
- u'homepage': u'https://github.com/rasdark/overlay',
- u'irc': None,
- u'name': u'rasdark',
- u'official': False,
- u'owner_email': u'andrew.senik@gmail.com',
- u'owner_name': u'Andrey Senik',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/rasdark/overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'rasdark personal overlay'},
+ 'homepage': 'https://github.com/rasdark/overlay',
+ 'name': 'rasdark',
+ 'owner': [{'email': 'andrew.senik@gmail.com', 'name': 'Andrey Senik'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/rasdark/overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync rasdark
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -20,6 +14,6 @@ Already up-to-date.
 $ pmaint regen -t 2 rasdark
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 3570
+sandbox:stop  caught signal 15 in pid 2808
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

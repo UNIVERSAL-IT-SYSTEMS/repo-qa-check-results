@@ -1,16 +1,11 @@
-{u'description': [u"Christoph's Overlay"],
- u'feeds': [u'https://github.com/junghans/cj-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/junghans/cj-overlay',
- u'irc': None,
- u'name': u'cj-overlay',
- u'official': True,
- u'owner_email': u'ottxor@gentoo.org',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/junghans/cj-overlay', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': "Christoph's Overlay"},
+ 'feed': ['https://github.com/junghans/cj-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/junghans/cj-overlay',
+ 'name': 'cj-overlay',
+ 'owner': [{'email': 'ottxor@gentoo.org'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/junghans/cj-overlay'}],
+ 'status': 'official'}
 $ pmaint sync cj-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -20,6 +15,6 @@ Already up-to-date.
 $ pmaint regen -t 2 cj-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 32349
+sandbox:stop  caught signal 15 in pid 1748
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

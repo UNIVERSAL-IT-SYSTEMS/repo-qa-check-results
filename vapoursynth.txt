@@ -1,18 +1,11 @@
-{u'description': [u'Unofficial repository with all vapoursynth related ebuilds'],
- u'feeds': [],
- u'homepage': u'https://github.com/4re/vapoursynth-portage',
- u'irc': None,
- u'name': u'vapoursynth',
- u'official': False,
- u'owner_email': u'surukko@gmail.com',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/4re/vapoursynth-portage.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Unofficial repository with all vapoursynth related ebuilds'},
+ 'homepage': 'https://github.com/4re/vapoursynth-portage',
+ 'name': 'vapoursynth',
+ 'owner': [{'email': 'surukko@gmail.com', 'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/4re/vapoursynth-portage.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync vapoursynth
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -27,7 +20,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f4ffd2df0a8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f14d1ebb2b8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -106,5 +99,5 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f4ffd335d60> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f14d1ebb1b0> ignored
  * Cache regen failed with 246

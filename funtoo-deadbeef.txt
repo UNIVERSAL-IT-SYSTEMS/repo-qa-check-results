@@ -1,16 +1,14 @@
-{u'description': [u'DeaDBeeF player overlay for Funtoo Linux'],
- u'feeds': [u'https://github.com/damex/funtoo-deadbeef/commits/master.atom'],
- u'homepage': u'https://github.com/damex/funtoo-deadbeef',
- u'irc': None,
- u'name': u'funtoo-deadbeef',
- u'official': False,
- u'owner_email': u'damex.pp@gmail.com',
- u'owner_name': u'Roman Kuzmitsky',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/damex/funtoo-deadbeef.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'DeaDBeeF player overlay for Funtoo Linux'},
+ 'feed': ['https://github.com/damex/funtoo-deadbeef/commits/master.atom'],
+ 'homepage': 'https://github.com/damex/funtoo-deadbeef',
+ 'name': 'funtoo-deadbeef',
+ 'owner': [{'email': 'damex.pp@gmail.com',
+            'name': 'Roman Kuzmitsky',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/damex/funtoo-deadbeef.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync funtoo-deadbeef
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -21,4 +19,6 @@ Already up-to-date.
 $ pmaint regen -t 2 funtoo-deadbeef
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+sandbox:stop  caught signal 15 in pid 31994
+Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

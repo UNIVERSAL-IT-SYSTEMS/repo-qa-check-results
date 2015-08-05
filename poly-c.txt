@@ -1,16 +1,12 @@
-{u'description': [u'Private overlay of Polynomial-C'],
- u'feeds': [],
- u'homepage': u'http://www.gentoofan.org/gentoo/',
- u'irc': None,
- u'name': u'poly-c',
- u'official': True,
- u'owner_email': u'polynomial-c@gentoo.org',
- u'owner_name': u'Lars Wendler',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'rsync://gentoofan.no-ip.org/poly-c', u'Rsync', None)],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Private overlay of Polynomial-C'},
+ 'homepage': 'http://www.gentoofan.org/gentoo/',
+ 'name': 'poly-c',
+ 'owner': [{'email': 'polynomial-c@gentoo.org',
+            'name': 'Lars Wendler',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'rsync', 'uri': 'rsync://gentoofan.no-ip.org/poly-c'}],
+ 'status': 'official'}
 $ pmaint sync poly-c
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 -------------------------------------------------------------------------------
@@ -40,27 +36,115 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 -------------------------------------------------------------------------------
 
 receiving incremental file list
+timestamp.chk
 
 Number of files: 1 (reg: 1)
 Number of created files: 0
 Number of deleted files: 0
-Number of regular files transferred: 0
+Number of regular files transferred: 1
 Total file size: 32 bytes
-Total transferred file size: 0 bytes
-Literal data: 0 bytes
+Total transferred file size: 32 bytes
+Literal data: 32 bytes
 Matched data: 0 bytes
 File list size: 47
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 62
-Total bytes received: 58
+Total bytes sent: 85
+Total bytes received: 133
 
-sent 62 bytes  received 58 bytes  80.00 bytes/sec
-total size is 32  speedup is 0.27
+sent 85 bytes  received 133 bytes  87.20 bytes/sec
+total size is 32  speedup is 0.15
+-------------------------------------------------------------------------------
+| Welcome to rsync on gentoofan.no-ip.org:873                                 |
+| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
+| Thus this server only has a dynamic IP I cannot stat it here.               |
+-------------------------------------------------------------------------------
+
+  ,-~~-.___.
+ / |  '     \
+(  )        0
+ \_/-, ,----'
+    ====           //
+   /  \-'~;    /~~~(O)
+  /  __/~|   /       |
+=(  _____| (_________|
+
+ server specs:
+    -CPU		Intel Atom-330 (2x 1,6 GHz)
+    -RAM		2048 MB PC2-533
+    -OS			Gentoo GNU/Linux (Kernel 3.x)
+    -BANDWIDTH		ADSL (16000/1024)
+    -LIMIT		3 users (concurrently)
+    -LOCATION		Ludwigshafen / Germany
+    -CONTACT		polynomial-c@gentoo.org
+
+-------------------------------------------------------------------------------
+
+receiving incremental file list
+app-office/
+metadata/
+metadata/timestamp.chk
+metadata/md5-cache/app-office/
+metadata/md5-cache/net-dns/
+metadata/md5-cache/net-misc/
+metadata/md5-cache/net-misc/icaclient-13.2.0.322243_pre
+metadata/md5-cache/net-misc/openssh-6.9_p1-r2
+net-dns/
+net-misc/icaclient/
+net-misc/icaclient/Manifest
+net-misc/icaclient/icaclient-13.2.0.322243_pre.ebuild
+net-misc/openssh/
+net-misc/openssh/Manifest
+net-misc/openssh/openssh-6.9_p1-r2.ebuild
+net-misc/openssh/files/
+net-misc/openssh/files/openssh-6.9_p1-winscp_blacklist.patch
+deleting app-office/libreoffice/files/libreoffice-4.4.4.3-improve-KDE4FilePicker.patch
+deleting app-office/libreoffice/files/libreoffice-4.4.4.3-fix-KDE4-FileDialog.patch
+deleting app-office/libreoffice/files/libreoffice-4.4.4.3-cleanup-IsNativeControlSupported.patch
+deleting app-office/libreoffice/files/libreoffice-4.4.1.2-improve-KDE4FilePicker.patch
+deleting app-office/libreoffice/files/libreoffice-4.4.1.2-add-kde4-open-url-script.patch
+deleting app-office/libreoffice/files/libreoffice-4.4.0.3-telepathy-build-fix.patch
+deleting app-office/libreoffice/files/libreoffice-4.4-system-pyuno.patch
+deleting app-office/libreoffice/files/libreoffice-4.3.5.2-remove-bashisms.patch
+deleting app-office/libreoffice/files/
+deleting app-office/libreoffice/libreoffice-4.4.5.2_pre.ebuild
+deleting app-office/libreoffice/Manifest
+deleting app-office/libreoffice/
+deleting app-office/libreoffice-l10n/libreoffice-l10n-4.4.5.2_pre.ebuild
+deleting app-office/libreoffice-l10n/Manifest
+deleting app-office/libreoffice-l10n/
+deleting metadata/.tmp.timestamp.chk
+deleting metadata/md5-cache/app-office/libreoffice-l10n-4.4.5.2_pre
+deleting metadata/md5-cache/app-office/libreoffice-4.4.5.2_pre
+deleting metadata/md5-cache/net-dns/libidn-1.32_pre
+deleting net-dns/libidn/files/50libidn-gentoo.el
+deleting net-dns/libidn/files/
+deleting net-dns/libidn/libidn-1.32_pre.ebuild
+deleting net-dns/libidn/Manifest
+deleting net-dns/libidn/
+
+Number of files: 1,199 (reg: 905, dir: 294)
+Number of created files: 3 (reg: 3)
+Number of deleted files: 24 (reg: 19, dir: 5)
+Number of regular files transferred: 8
+Total file size: 3.30M bytes
+Total transferred file size: 34.35K bytes
+Literal data: 34.35K bytes
+Matched data: 0 bytes
+File list size: 36.62K
+File list generation time: 0.001 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 612
+Total bytes received: 55.28K
+
+sent 612 bytes  received 55.28K bytes  22.36K bytes/sec
+total size is 3.30M  speedup is 58.99
 *** syncing poly-c
 *** synced poly-c
  * Sync succeeded
 $ pmaint regen -t 2 poly-c
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+sandbox:stop  caught signal 15 in pid 4036
+Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

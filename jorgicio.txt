@@ -1,20 +1,18 @@
-{u'description': [u'Gentoo repository made by Jorgicio.'],
- u'feeds': [u'https://github.com/jorgicio/jorgicio-gentoo/commits/master.atom'],
- u'homepage': u'https://github.com/jorgicio/jorgicio-gentoo',
- u'irc': None,
- u'name': u'jorgicio',
- u'official': False,
- u'owner_email': u'jpizarro@inf.utfsm.cl',
- u'owner_name': u'Jorge Pizarro Callejas',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/jorgicio/jorgicio-gentoo.git',
-               u'Git',
-               u''),
-              (u'git://github.com/jorgicio/jorgicio-gentoo.git', u'Git', u''),
-              (u'git@github.com:jorgicio/jorgicio-gentoo.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Gentoo repository made by Jorgicio.'},
+ 'feed': ['https://github.com/jorgicio/jorgicio-gentoo/commits/master.atom'],
+ 'homepage': 'https://github.com/jorgicio/jorgicio-gentoo',
+ 'name': 'jorgicio',
+ 'owner': [{'email': 'jpizarro@inf.utfsm.cl',
+            'name': 'Jorge Pizarro Callejas',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/jorgicio/jorgicio-gentoo.git'},
+            {'type': 'git',
+             'uri': 'git://github.com/jorgicio/jorgicio-gentoo.git'},
+            {'type': 'git',
+             'uri': 'git@github.com:jorgicio/jorgicio-gentoo.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -27,12 +25,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
@@ -40,20 +47,11 @@ WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metada
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f9092fbd158> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fbc2d279d08> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -132,5 +130,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f9092fbd050> ignored
  * Cache regen failed with 246

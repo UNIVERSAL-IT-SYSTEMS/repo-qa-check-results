@@ -1,22 +1,17 @@
-{u'description': [u'Mixed ebuilds from various sources: self-written missing ebuilds, more current ebuilds, ebuilds that just needed a slight update from official portage, ebuilds others posted on Gentoo Bugzilla, ebuilds with added patches, old ebuilds that were removed from official portage etc.',
-                  u'Verschiedene ebuilds aus verschiedenen Quellen: selbsterstellte ebuilds, ebuilds mit geringf\xfcgigen \xc4nderungen, gegen\xfcber dem aktuellen Baum, ebuilds aus Gentoos Bugzilla, ebuilds mit erweiterten patches, alte ebuilds die nicht mehr im offiziellen Baum existieren, etc.'],
- u'feeds': [u'https://rhodecode.megacoffee.net/gentoo-overlay/main/feed/atom'],
- u'homepage': u'http://gentoo-overlay.megacoffee.net',
- u'irc': None,
- u'name': u'megacoffee',
- u'official': False,
- u'owner_email': u'gentoo-overlay@megacoffee.net',
- u'owner_name': u'MegaCoffee',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://rhodecode.megacoffee.net/gentoo-overlay/main',
-               u'Mercurial',
-               u''),
-              (u'http://rhodecode.megacoffee.net/gentoo-overlay/main',
-               u'Mercurial',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'de': u'Verschiedene ebuilds aus verschiedenen Quellen: selbsterstellte ebuilds, ebuilds mit geringf\xfcgigen \xc4nderungen, gegen\xfcber dem aktuellen Baum, ebuilds aus Gentoos Bugzilla, ebuilds mit erweiterten patches, alte ebuilds die nicht mehr im offiziellen Baum existieren, etc.',
+                 'en': 'Mixed ebuilds from various sources: self-written missing ebuilds, more current ebuilds, ebuilds that just needed a slight update from official portage, ebuilds others posted on Gentoo Bugzilla, ebuilds with added patches, old ebuilds that were removed from official portage etc.'},
+ 'feed': ['https://rhodecode.megacoffee.net/gentoo-overlay/main/feed/atom'],
+ 'homepage': 'http://gentoo-overlay.megacoffee.net',
+ 'name': 'megacoffee',
+ 'owner': [{'email': 'gentoo-overlay@megacoffee.net',
+            'name': 'MegaCoffee',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'mercurial',
+             'uri': 'https://rhodecode.megacoffee.net/gentoo-overlay/main'},
+            {'type': 'mercurial',
+             'uri': 'http://rhodecode.megacoffee.net/gentoo-overlay/main'}],
+ 'status': 'unofficial'}
 $ pmaint sync megacoffee
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 pulling from https://rhodecode.megacoffee.net/gentoo-overlay/main
@@ -30,7 +25,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f56b5fca158> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fc0e4dc97e0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

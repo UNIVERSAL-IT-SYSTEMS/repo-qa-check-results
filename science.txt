@@ -1,22 +1,20 @@
-{u'description': [u'The Gentoo Science Overlay is intended as a place to work outside of the main portage tree on experimental ebuilds. Our aim is to increase the rate of development of scientific packages for Gentoo, but ebuilds in this repository are by their very nature more experimental. If you wish to use them you should be willing to help test and report bugs. For contribution read http://wiki.gentoo.org/wiki/Project:Science/Contributing'],
- u'feeds': [u'https://cgit.gentoo.org/proj/sci.git/atom/',
-            u'https://github.com/gentoo-science/sci/commits/master.atom'],
- u'homepage': u'http://wiki.gentoo.org/wiki/Project:Science',
- u'irc': None,
- u'name': u'science',
- u'official': True,
- u'owner_email': u'sci@gentoo.org',
- u'owner_name': u'sci',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://anongit.gentoo.org/proj/sci.git', u'Git', u''),
-              (u'https://anongit.gentoo.org/git/proj/sci.git', u'Git', u''),
-              (u'git+ssh://git@git.gentoo.org/proj/sci.git', u'Git', u''),
-              (u'https://github.com/gentoo-science/sci.git', u'Git', u''),
-              (u'git://github.com/gentoo-science/sci.git', u'Git', u''),
-              (u'git@github.com:gentoo-science/sci.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'The Gentoo Science Overlay is intended as a place to work\n    outside of the main portage tree on experimental ebuilds. Our aim is to\n    increase the rate of development of scientific packages for Gentoo, but\n    ebuilds in this repository are by their very nature more experimental. If\n    you wish to use them you should be willing to help test and report\n    bugs. For contribution read http://wiki.gentoo.org/wiki/Project:Science/Contributing\n    '},
+ 'feed': ['https://cgit.gentoo.org/proj/sci.git/atom/',
+          'https://github.com/gentoo-science/sci/commits/master.atom'],
+ 'homepage': 'http://wiki.gentoo.org/wiki/Project:Science',
+ 'name': 'science',
+ 'owner': [{'email': 'sci@gentoo.org', 'name': 'sci', 'type': 'project'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://anongit.gentoo.org/proj/sci.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/proj/sci.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/proj/sci.git'},
+            {'type': 'git',
+             'uri': 'https://github.com/gentoo-science/sci.git'},
+            {'type': 'git', 'uri': 'git://github.com/gentoo-science/sci.git'},
+            {'type': 'git', 'uri': 'git@github.com:gentoo-science/sci.git'}],
+ 'status': 'official'}
 $ pmaint sync science
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -26,5 +24,4 @@ Already up-to-date.
 $ pmaint regen -t 2 science
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully

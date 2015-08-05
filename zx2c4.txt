@@ -1,18 +1,15 @@
-{u'description': [u"zx2c4's repository of additional ebuilds"],
- u'feeds': [u'http://git.zx2c4.com/portage/atom/?h=master'],
- u'homepage': u'http://git.zx2c4.com/portage/',
- u'irc': None,
- u'name': u'zx2c4',
- u'official': True,
- u'owner_email': u'zx2c4@gentoo.org',
- u'owner_name': u'Jason A. Donenfeld',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://git.zx2c4.com/portage', u'Git', u''),
-              (u'http://git.zx2c4.com/portage', u'Git', u''),
-              (u'ssh://git@git.zx2c4.com/portage', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': "zx2c4's repository of additional ebuilds"},
+ 'feed': ['http://git.zx2c4.com/portage/atom/?h=master'],
+ 'homepage': 'http://git.zx2c4.com/portage/',
+ 'name': 'zx2c4',
+ 'owner': [{'email': 'zx2c4@gentoo.org',
+            'name': 'Jason A. Donenfeld',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://git.zx2c4.com/portage'},
+            {'type': 'git', 'uri': 'http://git.zx2c4.com/portage'},
+            {'type': 'git', 'uri': 'ssh://git@git.zx2c4.com/portage'}],
+ 'status': 'official'}
 $ pmaint sync zx2c4
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -24,7 +21,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f69e2736208> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f1cf8875940> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

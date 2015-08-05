@@ -1,24 +1,18 @@
-{u'description': [u'Third-party gentoo overlay from Agent Smith.'],
- u'feeds': [u'https://github.com/killer2tester/gentoo-overlay-lif/commits/master.atom'],
- u'homepage': u'https://github.com/killer2tester/gentoo-overlay-lif',
- u'irc': None,
- u'name': u'lif',
- u'official': False,
- u'owner_email': u'agentsmith.hengsha.city@gmail.com',
- u'owner_name': u'Igor Savlook',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/killer2tester/gentoo-overlay-lif.git',
-               u'Git',
-               u''),
-              (u'git://github.com/killer2tester/gentoo-overlay-lif.git',
-               u'Git',
-               u''),
-              (u'git@github.com:killer2tester/gentoo-overlay-lif.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Third-party gentoo overlay from Agent Smith.'},
+ 'feed': ['https://github.com/killer2tester/gentoo-overlay-lif/commits/master.atom'],
+ 'homepage': 'https://github.com/killer2tester/gentoo-overlay-lif',
+ 'name': 'lif',
+ 'owner': [{'email': 'agentsmith.hengsha.city@gmail.com',
+            'name': 'Igor Savlook',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/killer2tester/gentoo-overlay-lif.git'},
+            {'type': 'git',
+             'uri': 'git://github.com/killer2tester/gentoo-overlay-lif.git'},
+            {'type': 'git',
+             'uri': 'git@github.com:killer2tester/gentoo-overlay-lif.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync lif
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -28,6 +22,6 @@ Already up-to-date.
 $ pmaint regen -t 2 lif
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 1317
+sandbox:stop  caught signal 15 in pid 29731
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

@@ -1,18 +1,18 @@
-{u'description': [u'Personal overlay of Benjamin Henrion'],
- u'feeds': [u'https://github.com/zoobab/overlay4gentoo/commits/master.atom'],
- u'homepage': u'https://github.com/zoobab/overlay4gentoo/',
- u'irc': None,
- u'name': u'zoobab',
- u'official': False,
- u'owner_email': u'zoobab@gmail.com',
- u'owner_name': u'Benjamin Henrion',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/zoobab/overlay4gentoo.git', u'Git', u''),
-              (u'git://github.com/zoobab/overlay4gentoo.git', u'Git', u''),
-              (u'git@github.com:zoobab/overlay4gentoo.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Personal overlay of Benjamin Henrion'},
+ 'feed': ['https://github.com/zoobab/overlay4gentoo/commits/master.atom'],
+ 'homepage': 'https://github.com/zoobab/overlay4gentoo/',
+ 'name': 'zoobab',
+ 'owner': [{'email': 'zoobab@gmail.com',
+            'name': 'Benjamin Henrion',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/zoobab/overlay4gentoo.git'},
+            {'type': 'git',
+             'uri': 'git://github.com/zoobab/overlay4gentoo.git'},
+            {'type': 'git',
+             'uri': 'git@github.com:zoobab/overlay4gentoo.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync zoobab
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

@@ -1,18 +1,12 @@
-{u'description': [u'Russian overlay with a some patched and specific software'],
- u'feeds': [u'https://github.com/rion-overlay/rion-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/rion-overlay',
- u'irc': None,
- u'name': u'rion',
- u'official': False,
- u'owner_email': u'rion4ik@gmail.com',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/rion-overlay/rion-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Russian overlay with a some patched and specific\n    software'},
+ 'feed': ['https://github.com/rion-overlay/rion-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/rion-overlay',
+ 'name': 'rion',
+ 'owner': [{'email': 'rion4ik@gmail.com'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/rion-overlay/rion-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync rion
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -22,6 +16,6 @@ Already up-to-date.
 $ pmaint regen -t 2 rion
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 13724
+sandbox:stop  caught signal 15 in pid 12405
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

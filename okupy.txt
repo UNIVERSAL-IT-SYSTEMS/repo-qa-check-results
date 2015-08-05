@@ -1,16 +1,12 @@
-{u'description': [u'Overlay for okupy project'],
- u'feeds': [u'https://github.com/tampakrap/okupy-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/tampakrap/okupy-overlay',
- u'irc': None,
- u'name': u'okupy',
- u'official': False,
- u'owner_email': u'okupy@gentoo.org',
- u'owner_name': u'Okupy development team',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/tampakrap/okupy-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Overlay for okupy project'},
+ 'feed': ['https://github.com/tampakrap/okupy-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/tampakrap/okupy-overlay',
+ 'name': 'okupy',
+ 'owner': [{'email': 'okupy@gentoo.org', 'name': 'Okupy development team'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/tampakrap/okupy-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync okupy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -20,6 +16,6 @@ Already up-to-date.
 $ pmaint regen -t 2 okupy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 23784
+sandbox:stop  caught signal 15 in pid 22443
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

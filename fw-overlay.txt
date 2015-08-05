@@ -1,19 +1,18 @@
-{u'description': [u'fw-overlay experimental overlay'],
- u'feeds': [],
- u'homepage': u'https://github.com/no-hope/fw-overlay',
- u'irc': None,
- u'name': u'fw-overlay',
- u'official': False,
- u'owner_email': u'ketoth.xupack@gmail.com',
- u'owner_name': u'Ketoth Xupack',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/no-hope/fw-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'fw-overlay experimental overlay'},
+ 'homepage': 'https://github.com/no-hope/fw-overlay',
+ 'name': 'fw-overlay',
+ 'owner': [{'email': 'ketoth.xupack@gmail.com',
+            'name': 'Ketoth Xupack',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/no-hope/fw-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync fw-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ext-devlibs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing fw-overlay
 *** synced fw-overlay
@@ -21,6 +20,4 @@ Already up-to-date.
 $ pmaint regen -t 2 fw-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 2049
-Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

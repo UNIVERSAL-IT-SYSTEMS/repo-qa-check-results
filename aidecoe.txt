@@ -1,16 +1,13 @@
-{u'description': [u"aidecoe's experimental overlay"],
- u'feeds': [u'http://github.com/feeds/aidecoe/commits/aidecoe-overlay/master'],
- u'homepage': u'http://github.com/aidecoe/aidecoe-overlay/tree/master',
- u'irc': None,
- u'name': u'aidecoe',
- u'official': True,
- u'owner_email': u'aidecoe@gentoo.org',
- u'owner_name': u'Amadeusz \u017bo\u0142nowski',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/aidecoe/aidecoe-overlay.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': "aidecoe's experimental overlay"},
+ 'feed': ['http://github.com/feeds/aidecoe/commits/aidecoe-overlay/master'],
+ 'homepage': 'http://github.com/aidecoe/aidecoe-overlay/tree/master',
+ 'name': 'aidecoe',
+ 'owner': [{'email': 'aidecoe@gentoo.org',
+            'name': u'Amadeusz \u017bo\u0142nowski'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/aidecoe/aidecoe-overlay.git'}],
+ 'status': 'official'}
 $ pmaint sync aidecoe
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -28,9 +25,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '192' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-kernel/genkernel-999999
-Error running an operation:
- Unhandled exception in regen_cache
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/aidecoe/sys-kernel/genkernel/genkernel-999999.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/aidecoe/sys-kernel/genkernel/genkernel-999999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/aidecoe/sys-kernel/genkernel/genkernel-999999.ebuild'
@@ -40,9 +34,10 @@ Error running an operation:
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 14896
-Sandboxed process killed by signal: Terminated
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f78d9a8ca48> ignored
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-kernel/genkernel-999999
+Error running an operation:
+ Unhandled exception in regen_cache
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fc28946bd60> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

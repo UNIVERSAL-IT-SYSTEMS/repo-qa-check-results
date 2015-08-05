@@ -1,18 +1,17 @@
-{u'description': [u'Netcrave Communications Gentoo Overlay'],
- u'feeds': [u'https://github.com/cloudkitsch/netcrave/commits/master.atom'],
- u'homepage': u'https://github.com/cloudkitsch/netcrave',
- u'irc': None,
- u'name': u'netcrave',
- u'official': False,
- u'owner_email': u'paigeadele@gmail.com',
- u'owner_name': u'Paige Thompson',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/cloudkitsch/netcrave.git', u'Git', u''),
-              (u'git://github.com/cloudkitsch/netcrave.git', u'Git', u''),
-              (u'git@github.com:cloudkitsch/netcrave.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Netcrave Communications Gentoo Overlay'},
+ 'feed': ['https://github.com/cloudkitsch/netcrave/commits/master.atom'],
+ 'homepage': 'https://github.com/cloudkitsch/netcrave',
+ 'name': 'netcrave',
+ 'owner': [{'email': 'paigeadele@gmail.com',
+            'name': 'Paige Thompson',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/cloudkitsch/netcrave.git'},
+            {'type': 'git',
+             'uri': 'git://github.com/cloudkitsch/netcrave.git'},
+            {'type': 'git', 'uri': 'git@github.com:cloudkitsch/netcrave.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync netcrave
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -24,7 +23,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f6cb4204470> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f5011b93470> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

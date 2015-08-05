@@ -1,16 +1,10 @@
-{u'description': [u'Overlay of tante'],
- u'feeds': [],
- u'homepage': u'https://github.com/tante/overlay',
- u'irc': None,
- u'name': u'tante',
- u'official': False,
- u'owner_email': u'tante@tante.cc',
- u'owner_name': None,
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/tante/overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': 'Overlay of tante'},
+ 'homepage': 'https://github.com/tante/overlay',
+ 'name': 'tante',
+ 'owner': [{'email': 'tante@tante.cc'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'https://github.com/tante/overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync tante
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -37,5 +31,18 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
+
+!!! ERROR: media-video/devede-3.16.9 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lang/nodejs-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-video/devede-3.16.9
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '181' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/tante/media-video/devede/devede-3.16.9.ebuild'
+sandbox:stop  caught signal 15 in pid 18710
+Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

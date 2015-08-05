@@ -1,24 +1,18 @@
-{u'description': [u'Software needed to render the Blender-based gentoo Logo of 2003'],
- u'feeds': [u'https://github.com/gentoo/blender-gentoo-logo-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/gentoo/blender-gentoo-logo-overlay',
- u'irc': None,
- u'name': u'blender-gentoo-logo',
- u'official': True,
- u'owner_email': u'sping@gentoo.org',
- u'owner_name': u'Sebastian Pipping',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/gentoo/blender-gentoo-logo-overlay.git',
-               u'Git',
-               u''),
-              (u'git://github.com/gentoo/blender-gentoo-logo-overlay.git',
-               u'Git',
-               u''),
-              (u'git@github.com:gentoo/blender-gentoo-logo-overlay.git',
-               u'Git',
-               u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'Software needed to render the Blender-based gentoo Logo of 2003'},
+ 'feed': ['https://github.com/gentoo/blender-gentoo-logo-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/gentoo/blender-gentoo-logo-overlay',
+ 'name': 'blender-gentoo-logo',
+ 'owner': [{'email': 'sping@gentoo.org',
+            'name': 'Sebastian Pipping',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/gentoo/blender-gentoo-logo-overlay.git'},
+            {'type': 'git',
+             'uri': 'git://github.com/gentoo/blender-gentoo-logo-overlay.git'},
+            {'type': 'git',
+             'uri': 'git@github.com:gentoo/blender-gentoo-logo-overlay.git'}],
+ 'status': 'official'}
 $ pmaint sync blender-gentoo-logo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -31,7 +25,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f2c23706aa0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f8cae56baa0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

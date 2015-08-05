@@ -1,17 +1,14 @@
-{u'description': [u'A gentoo portage overlay with a set of too exotic, or unusal ebuilds for the sunrise overlay or the main tree.'],
- u'feeds': [u'https://github.com/ercpe/lh-overlay/commits/master.atom'],
- u'homepage': u'https://ercpe.de/projects/last-hope-gentoo-portage-overlay',
- u'irc': None,
- u'name': u'last-hope',
- u'official': True,
- u'owner_email': u'ercpe@gentoo.org',
- u'owner_name': u'Johann Schmitz',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/ercpe/lh-overlay.git', u'Git', u''),
-              (u'https://github.com/ercpe/lh-overlay.git', u'Git', u'')],
- u'status': u'official',
- u'supported': True}
+{'description': {'en': 'A gentoo portage overlay with a set of too exotic, or unusal ebuilds for the sunrise overlay or the main tree.'},
+ 'feed': ['https://github.com/ercpe/lh-overlay/commits/master.atom'],
+ 'homepage': 'https://ercpe.de/projects/last-hope-gentoo-portage-overlay',
+ 'name': 'last-hope',
+ 'owner': [{'email': 'ercpe@gentoo.org',
+            'name': 'Johann Schmitz',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'git://github.com/ercpe/lh-overlay.git'},
+            {'type': 'git', 'uri': 'https://github.com/ercpe/lh-overlay.git'}],
+ 'status': 'official'}
 $ pmaint sync last-hope
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -22,6 +19,6 @@ Already up-to-date.
 $ pmaint regen -t 2 last-hope
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 21863
+sandbox:stop  caught signal 15 in pid 18546
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

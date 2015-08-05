@@ -1,19 +1,16 @@
-{u'description': [u"An overlay for gentoo for things Flammie's worked on: Apertium, HFST, computational linguistics, spell-checking, obscure languages..."],
- u'feeds': [u'https://github.com/flammie/flammie-overlay/commits/master.atom'],
- u'homepage': u'https://github.com/flammie/flammie-overlay',
- u'irc': None,
- u'name': u'flammie',
- u'official': False,
- u'owner_email': u'flammie@gentoo.org',
- u'owner_name': u'Flammie Pirinen',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'https://github.com/flammie/flammie-overlay.git',
-               u'Git',
-               u''),
-              (u'git://github.com/flammie/flammie-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "An overlay for gentoo for things Flammie's worked on: Apertium, HFST, computational linguistics, spell-checking, obscure languages..."},
+ 'feed': ['https://github.com/flammie/flammie-overlay/commits/master.atom'],
+ 'homepage': 'https://github.com/flammie/flammie-overlay',
+ 'name': 'flammie',
+ 'owner': [{'email': 'flammie@gentoo.org',
+            'name': 'Flammie Pirinen',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/flammie/flammie-overlay.git'},
+            {'type': 'git',
+             'uri': 'git://github.com/flammie/flammie-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync flammie
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -23,4 +20,5 @@ Already up-to-date.
 $ pmaint regen -t 2 flammie
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully

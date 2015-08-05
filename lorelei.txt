@@ -1,17 +1,16 @@
-{u'description': [u"Pre-release ebuilds for lorelei's projects"],
- u'feeds': [u'http://github.com/feeds/bignaux/commits/lorelei-overlay/master'],
- u'homepage': u'http://github.com/bignaux/lorelei-overlay',
- u'irc': None,
- u'name': u'lorelei',
- u'official': False,
- u'owner_email': u'ronan@aimao.org',
- u'owner_name': u'Ronan Bignaux',
- u'priority': 50,
- u'quality': u'experimental',
- u'sources': [(u'git://github.com/bignaux/lorelei-overlay.git', u'Git', u''),
-              (u'http://github.com/bignaux/lorelei-overlay.git', u'Git', u'')],
- u'status': u'unofficial',
- u'supported': True}
+{'description': {'en': "Pre-release ebuilds for lorelei's projects"},
+ 'feed': ['http://github.com/feeds/bignaux/commits/lorelei-overlay/master'],
+ 'homepage': 'http://github.com/bignaux/lorelei-overlay',
+ 'name': 'lorelei',
+ 'owner': [{'email': 'ronan@aimao.org',
+            'name': 'Ronan Bignaux',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://github.com/bignaux/lorelei-overlay.git'},
+            {'type': 'git',
+             'uri': 'http://github.com/bignaux/lorelei-overlay.git'}],
+ 'status': 'unofficial'}
 $ pmaint sync lorelei
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -23,7 +22,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fc5d7f0f418> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fd766114cb0> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -63,34 +62,19 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 TimeoutError
-Error in atexit._run_exitfuncs:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
-    obj.__finalizer__()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
-    if self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-TimeoutError
 Error in sys.exitfunc:
 ERROR pkgcore: 
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
     func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
-    obj.__finalizer__()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
-    if self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+    return functor(*args, **kwds)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
     if not self.expect("yep!", timeout=0.1):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
@@ -102,7 +86,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fc5d7f67db8> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fc5d7f67ba8> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fc5d7f67998> ignored
  * Cache regen failed with 246
