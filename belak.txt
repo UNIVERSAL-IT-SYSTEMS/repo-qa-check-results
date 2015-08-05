@@ -25,21 +25,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! Call stack:
 
 !!! ERROR: app-editors/scribes-9999 failed.
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '188' 'depend'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '188' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '172' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/belak/app-editors/scribes/scribes-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/belak/app-editors/scribes/scribes-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/belak/app-editors/scribes/scribes-9999.ebuild'
 !!!        scribes-0.4-r954.ebuild, line  10:  Called inherit 'autotools' 'eutils' 'gnome2' 'python'
 !!!            scribes-9999.ebuild, line  10:  Called inherit 'autotools' 'eutils' 'gnome2' 'python' 'bzr'
@@ -48,22 +48,22 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
-
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=3 is not supported
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-editors/scribes-0.4-r954
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=3 is not supported
+
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-editors/scribes-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-editors/scribes-0.4-r954
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f74f4e42fc8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f5d0e6ca050> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

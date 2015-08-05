@@ -18,21 +18,21 @@ Already up-to-date.
 $ pmaint regen -t 2 dlang
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by sys-devel/gcc-4.8.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.8.1-r1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.1-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f7d85c3eec0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f65c7171158> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

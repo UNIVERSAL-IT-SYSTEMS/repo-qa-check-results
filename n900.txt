@@ -10,131 +10,15 @@
  'status': 'unofficial'}
 $ pmaint sync n900
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to access 'https://gitlab.com/n900-gentoo/overlay.git/': The requested URL returned error: 502
 *** syncing n900
-*** synced n900
- * Sync succeeded
-$ pmaint regen -t 2 n900
+*** failed syncing n900
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync n900
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-
-!!! ERROR: net-misc/ofono-0.27_pre201008102034 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                  ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                  ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '239' 'depend'
-!!!                  ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                          ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/n900/net-misc/ofono/ofono-0.27_pre201008102034.ebuild'
-!!!                          ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/n900/net-misc/ofono/ofono-0.27_pre201008102034.ebuild'
-!!!              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/n900/net-misc/ofono/ofono-0.27_pre201008102034.ebuild'
-!!!   ofono-0.27_pre201008102034.ebuild, line   7:  Called inherit 'git' 'multilib'
-!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                   ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ofono-0.27_pre201008102034
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-kernel/fremantle-sources-2.6.28.0.20101501.0.5-r5
-Error running an operation:
- Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f0cc4957158> ignored
-Traceback (most recent call last):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-TimeoutError
-Error in atexit._run_exitfuncs:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
-    return functor(*args, **kwds)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-TimeoutError
-Error in atexit._run_exitfuncs:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
-    obj.__finalizer__()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
-    if self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-TimeoutError
-Error in sys.exitfunc:
-ERROR pkgcore: 
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
-    obj.__finalizer__()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
-    if self.is_alive:
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
-    if not self.expect("yep!", timeout=0.1):
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
-    return self._consume_async_expects()
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
-    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
-    mydata.append(self.ebd_read.readline())
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
-    raise TimeoutError()
-pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f0cc49b1af8> ignored
-
-!!! ERROR: sys-kernel/fremantle-sources-2.6.28.0.20101501.0.5-r5 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                                  ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                                  ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '319' 'depend'
-!!!                                  ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                                          ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/n900/sys-kernel/fremantle-sources/fremantle-sources-2.6.28.0.20101501.0.5-r5.ebuild'
-!!!                                          ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/n900/sys-kernel/fremantle-sources/fremantle-sources-2.6.28.0.20101501.0.5-r5.ebuild'
-!!!                              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/n900/sys-kernel/fremantle-sources/fremantle-sources-2.6.28.0.20101501.0.5-r5.ebuild'
-!!!   fremantle-sources-2.6.28.0.20101501.0.5-r5.ebuild, line  10:  Called inherit 'eutils' 'versionator'
-!!!                        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!                                   ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass eutils
-
-Sandboxed process killed by signal: Broken pipe
- * Cache regen failed with 246
+Cloning into '/home/mgorny/repos/n900'...
+fatal: unable to access 'https://gitlab.com/n900-gentoo/overlay.git/': The requested URL returned error: 502
+*** syncing n900
+*** failed syncing n900
+ * Sync failed again with 1, removing

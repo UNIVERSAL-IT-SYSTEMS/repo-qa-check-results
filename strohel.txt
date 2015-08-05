@@ -49,7 +49,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-sound/amarok-9999-r1
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fa2b2a9f100> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f267c8e7f18> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -128,5 +128,5 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fa2b2af9fc8> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f267c8e7af8> ignored
  * Cache regen failed with 246
