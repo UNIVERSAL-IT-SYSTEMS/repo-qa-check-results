@@ -20,7 +20,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f9ca3f10aa0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fcb0a7b8100> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -99,8 +99,10 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f9ca3f10998> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f9ca3f10890> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f9ca3f10788> ignored
-Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f9ca3f10578> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fcb0a811cb0> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fcb0a811ba8> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fcb0a811aa0> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fcb0a811998> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fcb0a811890> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7fcb0a811788> ignored
  * Cache regen failed with 246

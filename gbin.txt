@@ -40,6 +40,12 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/gbin/media-tv/xmltv/xmltv-0.5.61.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gbin/media-tv/xmltv/xmltv-0.5.61.ebuild'
 !!!            xmltv-0.5.61.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
+ * 
+ * "/home/mgorny/repos/gbin/dev-python/django-paging/django-paging-0.2.2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
@@ -48,13 +54,19 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!!  EAPI= is not supported by perl-module.eclass
 
  * 
- * "/home/mgorny/repos/gbin/dev-python/django-sentry/django-sentry-1.3.14.ebuild":
+ * "/home/mgorny/repos/gbin/dev-python/soaplib/soaplib-0.8.1.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
  * 
- * "/home/mgorny/repos/gbin/dev-python/soaplib/soaplib-0.8.1.ebuild":
+ * "/home/mgorny/repos/gbin/dev-python/django-indexer/django-indexer-0.2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+ * 
+ * "/home/mgorny/repos/gbin/dev-python/django-sentry/django-sentry-1.3.14.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
@@ -63,18 +75,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!! ERROR: games-board/gogui-1.4.6 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
- * 
- * "/home/mgorny/repos/gbin/dev-python/django-indexer/django-indexer-0.2.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
- * 
- * "/home/mgorny/repos/gbin/dev-python/django-paging/django-paging-0.2.2.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '170' 'depend'
@@ -96,4 +96,70 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-tv/xmltv-0.5.61
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-board/gogui-1.4.6
- * Cache regenerated successfully
+Error running an operation:
+ Unhandled exception in regen_cache
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fcb15860310> ignored
+Traceback (most recent call last):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+    return functor(*args, **kwds)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
+Error in sys.exitfunc:
+ERROR pkgcore: 
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+    return functor(*args, **kwds)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+    ignore_keyboard_interrupt=True)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+    elif self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+pkgcore.ebuild.processor.TimeoutError
+ * Cache regen failed with 246

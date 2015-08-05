@@ -8,8 +8,6 @@
              'uri': 'rsync://fidonet.overlay.junc.org/fidonet/'}],
  'status': 'unofficial'}
 $ pmaint sync fidonet
-WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 This is overlay.junc.org.
 
@@ -59,13 +57,13 @@ Total file size: 157.49K bytes
 Total transferred file size: 20.81K bytes
 Literal data: 20.81K bytes
 Matched data: 0 bytes
-File list size: 4.36K
+File list size: 4.35K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 739
-Total bytes received: 19.61K
+Total bytes sent: 735
+Total bytes received: 19.60K
 
-sent 739 bytes  received 19.61K bytes  8.14K bytes/sec
+sent 735 bytes  received 19.60K bytes  13.56K bytes/sec
 total size is 157.49K  speedup is 7.74
 *** syncing fidonet
 *** synced fidonet
@@ -75,7 +73,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f8a5b3c3ba8> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fe79fb9eba8> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

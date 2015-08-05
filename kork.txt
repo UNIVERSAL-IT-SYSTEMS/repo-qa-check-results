@@ -28,9 +28,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '163' 'depend'
-sandbox:stop  caught signal 15 in pid 3826
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/kork/app-office/ekee/ekee-2.0.2.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/kork/app-office/ekee/ekee-2.0.2.ebuild'
+sandbox:stop  caught signal 15 in pid 4152
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, ruby cannot be found while processing ebuild src: app-office/ekee-2.0.2
-sandbox:stop  caught signal 15 in pid 11722
+sandbox:stop  caught signal 15 in pid 7937
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully

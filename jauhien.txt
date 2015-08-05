@@ -22,11 +22,9 @@ Already up-to-date.
 $ pmaint regen -t 2 jauhien
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 2332
-Sandboxed process killed by signal: Terminated
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fbb28f5cf18> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fce1de08050> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -90,4 +88,5 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
+Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

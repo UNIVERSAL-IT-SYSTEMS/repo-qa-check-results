@@ -15,7 +15,11 @@
  'status': 'official'}
 $ pmaint sync bircoph
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/benklop' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/benklop', named 'benklop', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing bircoph
 *** synced bircoph
@@ -23,6 +27,6 @@ Already up-to-date.
 $ pmaint regen -t 2 bircoph
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-sandbox:stop  caught signal 15 in pid 7086
+sandbox:stop  caught signal 15 in pid 469
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully
