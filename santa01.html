@@ -52,7 +52,7 @@
 </pre></td></tr>
             <tr class="" id="l21"><td><a href="#l21"><span>21</span></a></td><td><pre> Unhandled exception in regen_cache
 </pre></td></tr>
-            <tr class="" id="l22"><td><a href="#l22"><span>22</span></a></td><td><pre>Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in &lt;functools.partial object at 0x7f3bc4bcae68&gt; ignored
+            <tr class="" id="l22"><td><a href="#l22"><span>22</span></a></td><td><pre>Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in &lt;functools.partial object at 0x7f8d296afe68&gt; ignored
 </pre></td></tr>
             <tr class="" id="l23"><td><a href="#l23"><span>23</span></a></td><td><pre>Traceback (most recent call last):
 </pre></td></tr>
@@ -132,55 +132,87 @@
 </pre></td></tr>
             <tr class="" id="l61"><td><a href="#l61"><span>61</span></a></td><td><pre>TimeoutError
 </pre></td></tr>
-            <tr class="" id="l62"><td><a href="#l62"><span>62</span></a></td><td><pre>Error in sys.exitfunc:
+            <tr class="" id="l62"><td><a href="#l62"><span>62</span></a></td><td><pre>Error in atexit._run_exitfuncs:
 </pre></td></tr>
-            <tr class="" id="l63"><td><a href="#l63"><span>63</span></a></td><td><pre>ERROR pkgcore: 
+            <tr class="" id="l63"><td><a href="#l63"><span>63</span></a></td><td><pre>Traceback (most recent call last):
 </pre></td></tr>
-            <tr class="" id="l64"><td><a href="#l64"><span>64</span></a></td><td><pre>Traceback (most recent call last):
+            <tr class="" id="l64"><td><a href="#l64"><span>64</span></a></td><td><pre>  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
 </pre></td></tr>
-            <tr class="" id="l65"><td><a href="#l65"><span>65</span></a></td><td><pre>  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+            <tr class="" id="l65"><td><a href="#l65"><span>65</span></a></td><td><pre>    func(*targs, **kargs)
 </pre></td></tr>
-            <tr class="" id="l66"><td><a href="#l66"><span>66</span></a></td><td><pre>    func(*targs, **kargs)
+            <tr class="" id="l66"><td><a href="#l66"><span>66</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
 </pre></td></tr>
-            <tr class="" id="l67"><td><a href="#l67"><span>67</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
+            <tr class="" id="l67"><td><a href="#l67"><span>67</span></a></td><td><pre>    obj.__finalizer__()
 </pre></td></tr>
-            <tr class="" id="l68"><td><a href="#l68"><span>68</span></a></td><td><pre>    func(*targs, **kargs)
+            <tr class="" id="l68"><td><a href="#l68"><span>68</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
 </pre></td></tr>
-            <tr class="" id="l69"><td><a href="#l69"><span>69</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
+            <tr class="" id="l69"><td><a href="#l69"><span>69</span></a></td><td><pre>    if self.is_alive:
 </pre></td></tr>
-            <tr class="" id="l70"><td><a href="#l70"><span>70</span></a></td><td><pre>    return functor(*args, **kwds)
+            <tr class="" id="l70"><td><a href="#l70"><span>70</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
 </pre></td></tr>
-            <tr class="" id="l71"><td><a href="#l71"><span>71</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
+            <tr class="" id="l71"><td><a href="#l71"><span>71</span></a></td><td><pre>    if not self.expect("yep!", timeout=0.1):
 </pre></td></tr>
-            <tr class="" id="l72"><td><a href="#l72"><span>72</span></a></td><td><pre>    ignore_keyboard_interrupt=True)
+            <tr class="" id="l72"><td><a href="#l72"><span>72</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
 </pre></td></tr>
-            <tr class="" id="l73"><td><a href="#l73"><span>73</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
+            <tr class="" id="l73"><td><a href="#l73"><span>73</span></a></td><td><pre>    return self._consume_async_expects()
 </pre></td></tr>
-            <tr class="" id="l74"><td><a href="#l74"><span>74</span></a></td><td><pre>    elif self.is_alive:
+            <tr class="" id="l74"><td><a href="#l74"><span>74</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
 </pre></td></tr>
-            <tr class="" id="l75"><td><a href="#l75"><span>75</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+            <tr class="" id="l75"><td><a href="#l75"><span>75</span></a></td><td><pre>    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
 </pre></td></tr>
-            <tr class="" id="l76"><td><a href="#l76"><span>76</span></a></td><td><pre>    if not self.expect("yep!", timeout=0.1):
+            <tr class="" id="l76"><td><a href="#l76"><span>76</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
 </pre></td></tr>
-            <tr class="" id="l77"><td><a href="#l77"><span>77</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+            <tr class="" id="l77"><td><a href="#l77"><span>77</span></a></td><td><pre>    mydata.append(self.ebd_read.readline())
 </pre></td></tr>
-            <tr class="" id="l78"><td><a href="#l78"><span>78</span></a></td><td><pre>    return self._consume_async_expects()
+            <tr class="" id="l78"><td><a href="#l78"><span>78</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
 </pre></td></tr>
-            <tr class="" id="l79"><td><a href="#l79"><span>79</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+            <tr class="" id="l79"><td><a href="#l79"><span>79</span></a></td><td><pre>    raise TimeoutError()
 </pre></td></tr>
-            <tr class="" id="l80"><td><a href="#l80"><span>80</span></a></td><td><pre>    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+            <tr class="" id="l80"><td><a href="#l80"><span>80</span></a></td><td><pre>TimeoutError
 </pre></td></tr>
-            <tr class="" id="l81"><td><a href="#l81"><span>81</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+            <tr class="" id="l81"><td><a href="#l81"><span>81</span></a></td><td><pre>Error in sys.exitfunc:
 </pre></td></tr>
-            <tr class="" id="l82"><td><a href="#l82"><span>82</span></a></td><td><pre>    mydata.append(self.ebd_read.readline())
+            <tr class="" id="l82"><td><a href="#l82"><span>82</span></a></td><td><pre>ERROR pkgcore: 
 </pre></td></tr>
-            <tr class="" id="l83"><td><a href="#l83"><span>83</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+            <tr class="" id="l83"><td><a href="#l83"><span>83</span></a></td><td><pre>Traceback (most recent call last):
 </pre></td></tr>
-            <tr class="" id="l84"><td><a href="#l84"><span>84</span></a></td><td><pre>    raise TimeoutError()
+            <tr class="" id="l84"><td><a href="#l84"><span>84</span></a></td><td><pre>  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
 </pre></td></tr>
-            <tr class="" id="l85"><td><a href="#l85"><span>85</span></a></td><td><pre>pkgcore.ebuild.processor.TimeoutError
+            <tr class="" id="l85"><td><a href="#l85"><span>85</span></a></td><td><pre>    func(*targs, **kargs)
 </pre></td></tr>
-            <tr class="" id="l86"><td><a href="#l86"><span>86</span></a></td><td><pre> * Cache regen failed with 246
+            <tr class="" id="l86"><td><a href="#l86"><span>86</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
+</pre></td></tr>
+            <tr class="" id="l87"><td><a href="#l87"><span>87</span></a></td><td><pre>    obj.__finalizer__()
+</pre></td></tr>
+            <tr class="" id="l88"><td><a href="#l88"><span>88</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
+</pre></td></tr>
+            <tr class="" id="l89"><td><a href="#l89"><span>89</span></a></td><td><pre>    if self.is_alive:
+</pre></td></tr>
+            <tr class="" id="l90"><td><a href="#l90"><span>90</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+</pre></td></tr>
+            <tr class="" id="l91"><td><a href="#l91"><span>91</span></a></td><td><pre>    if not self.expect("yep!", timeout=0.1):
+</pre></td></tr>
+            <tr class="" id="l92"><td><a href="#l92"><span>92</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+</pre></td></tr>
+            <tr class="" id="l93"><td><a href="#l93"><span>93</span></a></td><td><pre>    return self._consume_async_expects()
+</pre></td></tr>
+            <tr class="" id="l94"><td><a href="#l94"><span>94</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+</pre></td></tr>
+            <tr class="" id="l95"><td><a href="#l95"><span>95</span></a></td><td><pre>    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+</pre></td></tr>
+            <tr class="" id="l96"><td><a href="#l96"><span>96</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+</pre></td></tr>
+            <tr class="" id="l97"><td><a href="#l97"><span>97</span></a></td><td><pre>    mydata.append(self.ebd_read.readline())
+</pre></td></tr>
+            <tr class="" id="l98"><td><a href="#l98"><span>98</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+</pre></td></tr>
+            <tr class="" id="l99"><td><a href="#l99"><span>99</span></a></td><td><pre>    raise TimeoutError()
+</pre></td></tr>
+            <tr class="" id="l100"><td><a href="#l100"><span>100</span></a></td><td><pre>pkgcore.ebuild.processor.TimeoutError
+</pre></td></tr>
+            <tr class="" id="l101"><td><a href="#l101"><span>101</span></a></td><td><pre>Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in &lt;functools.partial object at 0x7f8d296afb50&gt; ignored
+</pre></td></tr>
+            <tr class="" id="l102"><td><a href="#l102"><span>102</span></a></td><td><pre> * Cache regen failed with 246
 </pre></td></tr>
 
         </table>

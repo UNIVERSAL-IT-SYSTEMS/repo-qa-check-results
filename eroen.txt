@@ -52,37 +52,37 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '169' 'depend'
-
-!!! ERROR: app-cdr/k3b-2.0.2-r4 failed.
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/eroen/dev-python/pyffi/pyffi-2.2.2.ebuild'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/eroen/dev-python/pyffi/pyffi-2.2.2.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/eroen/dev-python/pyffi/pyffi-2.2.2.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: app-cdr/k3b-2.0.2-r4 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!             pyffi-2.2.2.ebuild, line  13:  Called inherit 'eutils' 'distutils-r1'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '162' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/eroen/app-cdr/k3b/k3b-2.0.2-r4.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '162' 'depend'
 !!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/eroen/app-cdr/k3b/k3b-2.0.2-r4.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/eroen/app-cdr/k3b/k3b-2.0.2-r4.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/eroen/app-cdr/k3b/k3b-2.0.2-r4.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/eroen/app-cdr/k3b/k3b-2.0.2-r4.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
-!!!            k3b-2.0.2-r4.ebuild, line  25:  Called inherit 'kde4-base'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/eroen/app-cdr/k3b/k3b-2.0.2-r4.ebuild'
 !!!               python-r1.eclass, line 232:  Called _python_set_globals
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!               python-r1.eclass, line 199:  Called die
 !!! The die message:
 !!!  No supported implementation in PYTHON_COMPAT.
 
+!!!            k3b-2.0.2-r4.ebuild, line  25:  Called inherit 'kde4-base'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'

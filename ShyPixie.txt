@@ -10,17 +10,24 @@
             {'type': 'git', 'uri': 'git@github.com:ShyPixie/Overlays.git'}],
  'status': 'unofficial'}
 $ pmaint sync ShyPixie
+ERROR:pkgcore:Cannot write cache for /home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/plugins/plugincache: [Errno 2] No such file or directory. Try running pplugincache.
+Exception OSError: (2, 'No such file or directory', '/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/plugins/.update.plugincache') in <functools.partial object at 0x7f55882af578> ignored
+Unhandled exception occurred:
+ [Errno 2] No such file or directory: '/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/plugins/.update.plugincache'
+ * Sync failed with 246
+ * Will try to re-create
+$ pmaint sync ShyPixie
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+Cloning into '/home/mgorny/repos/ShyPixie'...
 *** syncing ShyPixie
 *** synced ShyPixie
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 ShyPixie
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f4989d435d0> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f14c3321f70> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -60,19 +67,34 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 TimeoutError
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
+    obj.__finalizer__()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
+    if self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
+    if not self.expect("yep!", timeout=0.1):
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
+    return self._consume_async_expects()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 465, in _consume_async_expects
+    got = [x.rstrip('\n') for x in self.readlines(len(self._outstanding_expects))]
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 505, in readlines
+    mydata.append(self.ebd_read.readline())
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
+    raise TimeoutError()
+TimeoutError
 Error in sys.exitfunc:
 ERROR pkgcore: 
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/atexit.py", line 24, in _run_exitfuncs
     func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/spawn.py", line 89, in run_exitfuncs
-    func(*targs, **kargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 70, in _inner
-    return functor(*args, **kwds)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
-    ignore_keyboard_interrupt=True)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 670, in shutdown_processor
-    elif self.is_alive:
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/snakeoil/weakrefs.py", line 176, in _atexit_cleanup
+    obj.__finalizer__()
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 745, in __del__
+    if self.is_alive:
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 649, in is_alive
     if not self.expect("yep!", timeout=0.1):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 500, in expect
@@ -84,4 +106,7 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f14c3321e68> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f14c3321d60> ignored
+Exception TypeError: TypeError('signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object',) in <functools.partial object at 0x7f14c3321a48> ignored
  * Cache regen failed with 246
