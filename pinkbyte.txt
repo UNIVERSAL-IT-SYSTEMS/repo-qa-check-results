@@ -21,13 +21,13 @@ Already up-to-date.
 $ pmaint regen -t 2 pinkbyte
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 37: useq: command not found
+/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 40: useq: command not found
 
 !!! ERROR: kde-misc/serverstatuswidget-9999-r1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!                  ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 37: useq: command not found
-/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 40: useq: command not found
 !!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                  ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '235' 'depend'
 !!!                  ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'

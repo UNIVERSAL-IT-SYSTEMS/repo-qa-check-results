@@ -30,9 +30,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/flameeyes-overlay/dev-ruby/ruby-hunspell/ruby-hunspell-9999-r1.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/flameeyes-overlay/dev-ruby/ruby-hunspell/ruby-hunspell-9999-r1.ebuild'
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-ruby/ruby-hunspell-9999-r1
-Error running an operation:
- Unhandled exception in regen_cache
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/flameeyes-overlay/dev-ruby/ruby-hunspell/ruby-hunspell-9999-r1.ebuild'
 !!!   ruby-hunspell-9999-r1.ebuild, line  12:  Called inherit 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
@@ -40,8 +37,24 @@ Error running an operation:
 !!! The die message:
 !!!  inherit for git failed
 
-Sandboxed process killed by signal: Broken pipe
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7f238aa2e730> ignored
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-ruby/ruby-hunspell-9999-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-dotnet/zlib-net-1.04-r1
+Error running an operation:
+ Unhandled exception in regen_cache
+
+!!! ERROR: dev-dotnet/zlib-net-1.04-r1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '202' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/flameeyes-overlay/dev-dotnet/zlib-net/zlib-net-1.04-r1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/flameeyes-overlay/dev-dotnet/zlib-net/zlib-net-1.04-r1.ebuild'
+sandbox:stop  caught signal 15 in pid 8859
+Sandboxed process killed by signal: Terminated
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7ff25449c260> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)

@@ -29,9 +29,9 @@ File list size: 47
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 85
-Total bytes received: 133
+Total bytes received: 131
 
-sent 85 bytes  received 133 bytes  145.33 bytes/sec
+sent 85 bytes  received 131 bytes  144.00 bytes/sec
 total size is 32  speedup is 0.15
 This is xwing.info / coruscant.xwing.info
 
@@ -61,7 +61,7 @@ Total bytes sent: 150
 Total bytes received: 4.36K
 
 sent 150 bytes  received 4.36K bytes  1.80K bytes/sec
-total size is 155.16K  speedup is 34.41
+total size is 155.16K  speedup is 34.43
 *** syncing xwing
 *** synced xwing
  * Sync succeeded
@@ -70,7 +70,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
-Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fe8b6752838> ignored
+Exception pkgcore.ebuild.processor.TimeoutError: TimeoutError() in <functools.partial object at 0x7fad2cd86520> ignored
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 91, in shutdown_all_processors
     ignore_keyboard_interrupt=True)
@@ -134,5 +134,4 @@ Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 472, in _timeout_ebp
     raise TimeoutError()
 pkgcore.ebuild.processor.TimeoutError
-Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246
