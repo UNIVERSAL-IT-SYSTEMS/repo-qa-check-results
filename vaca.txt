@@ -10,7 +10,25 @@
 $ pmaint sync vaca
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hashashin/gentoo-vaca-overlay
+   1703c2d..c570cde  master     -> origin/master
+Updating 1703c2d..c570cde
+Fast-forward
+ app-accessibility/festival/ChangeLog               |   6 +
+ app-accessibility/festival/Manifest                |  30 +++++
+ app-accessibility/festival/festival-2.4.ebuild     | 125 +++++++++++++++++++++
+ .../files/festival-2.4-gentoo-system.patch         | 124 ++++++++++++++++++++
+ .../festival/files/festival-2.4-init-scm.patch     |  24 ++++
+ .../festival/files/festival-2.4-ldflags.patch      |  12 ++
+ app-accessibility/festival/metadata.xml            |   8 ++
+ 7 files changed, 329 insertions(+)
+ create mode 100644 app-accessibility/festival/ChangeLog
+ create mode 100644 app-accessibility/festival/Manifest
+ create mode 100644 app-accessibility/festival/festival-2.4.ebuild
+ create mode 100644 app-accessibility/festival/files/festival-2.4-gentoo-system.patch
+ create mode 100644 app-accessibility/festival/files/festival-2.4-init-scm.patch
+ create mode 100644 app-accessibility/festival/files/festival-2.4-ldflags.patch
+ create mode 100644 app-accessibility/festival/metadata.xml
 *** syncing vaca
 *** synced vaca
  * Sync succeeded
