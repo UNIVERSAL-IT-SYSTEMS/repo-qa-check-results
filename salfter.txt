@@ -9,7 +9,27 @@
  'status': 'unofficial'}
 $ pmaint sync salfter
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/salfter/portage
+   c530677..6a92a05  master     -> origin/master
+Updating c530677..6a92a05
+Fast-forward
+ media-gfx/zbar/Manifest                            |   2 +
+ .../{zbar-0.10-r6.ebuild => zbar-0.10-r5.ebuild}   |   0
+ media-gfx/zbar/zbar-0.10_p20121015.ebuild          |  80 ++++
+ net-fs/greyhole/Manifest                           |   4 +-
+ ...eyhole-0.9.61.ebuild => greyhole-0.9.63.ebuild} |   0
+ net-misc/cgminer/ChangeLog                         | 466 +++++++++++++++++++++
+ net-misc/cgminer/Manifest                          |   4 +
+ net-misc/cgminer/cgminer-4.9.2.ebuild              |  86 ++++
+ net-misc/cgminer/metadata.xml                      |  42 ++
+ 9 files changed, 682 insertions(+), 2 deletions(-)
+ rename media-gfx/zbar/{zbar-0.10-r6.ebuild => zbar-0.10-r5.ebuild} (100%)
+ create mode 100644 media-gfx/zbar/zbar-0.10_p20121015.ebuild
+ rename net-fs/greyhole/{greyhole-0.9.61.ebuild => greyhole-0.9.63.ebuild} (100%)
+ create mode 100644 net-misc/cgminer/ChangeLog
+ create mode 100644 net-misc/cgminer/Manifest
+ create mode 100644 net-misc/cgminer/cgminer-4.9.2.ebuild
+ create mode 100644 net-misc/cgminer/metadata.xml
 *** syncing salfter
 *** synced salfter
  * Sync succeeded
@@ -17,108 +37,110 @@ $ pmaint regen -t 2 salfter
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
-!!! ERROR: perl-gcpan/CSS-1.08 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-
 !!! ERROR: perl-gcpan/HTML-CalendarMonthSimple-1.25 failed.
 
 !!! ERROR: perl-gcpan/Math-Round-0.06 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+
+!!! ERROR: perl-gcpan/CSS-1.08 failed.
 
 !!! ERROR: perl-gcpan/HTML-WikiConverter-0.68 failed.
+QA Notice: sed in global scope: net-fs/greyhole-0.9.63
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!               ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53 failed.
+!!!                     ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!                        ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '156' 'depend'
-!!!                     ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '263' 'depend'
-!!!               ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '233' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '193' 'depend'
+!!!               ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '263' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '156' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '193' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!               ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                        ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '278' 'depend'
-!!!                             ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
+!!!                     ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
-!!!                       ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
-!!!                             ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
+!!!               ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '233' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                             ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
 !!!                        ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
-!!!                       ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
-!!!                 isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
 !!!                                ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
+!!!                             ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
+!!!               ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
-!!!           isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
+!!!                 isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
+!!!                       ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
 !!!                                ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
-!!!   HTML-CalendarMonthSimple-1.25.ebuild, line   5:  Called inherit 'perl-module'
-!!!         Math-Round-0.06.ebuild, line   5:  Called inherit 'perl-module'
-!!!                    isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
 !!!                CSS-1.08.ebuild, line   5:  Called inherit 'perl-module'
-!!!   HTML-WikiConverter-0.68.ebuild, line   5:  Called inherit 'perl-module'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                       ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
+!!!   HTML-CalendarMonthSimple-1.25.ebuild, line   5:  Called inherit 'perl-module'
+!!!                    isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!           isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
 !!!   HTML-WikiConverter-DokuWiki-0.53.ebuild, line   5:  Called inherit 'perl-module'
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         Math-Round-0.06.ebuild, line   5:  Called inherit 'perl-module'
+!!!   HTML-WikiConverter-0.68.ebuild, line   5:  Called inherit 'perl-module'
+!!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                         ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
 !!!                 isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                         ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                    isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                     perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
+!!!                ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!           isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!                    isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!               perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
 !!!                        perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-gcpan/Math-Round-0.06
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-gcpan/HTML-CalendarMonthSimple-1.25
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!           isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!               perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+QA Notice: sed in global scope: net-fs/greyhole-0.9.63
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/CSS-1.08
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-gcpan/HTML-WikiConverter-0.68
+!!! caught exception False while processing ebuild src: perl-gcpan/HTML-CalendarMonthSimple-1.25
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-gcpan/Math-Round-0.06
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-gcpan/HTML-WikiConverter-0.68
  * Cache regenerated successfully

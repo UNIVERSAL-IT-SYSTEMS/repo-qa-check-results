@@ -13,11 +13,22 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/emery.git'}],
  'status': 'unofficial'}
 $ pmaint sync emery
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/emery
+   121660d..07f3dab  master     -> origin/master
+Updating 121660d..07f3dab
+Fast-forward
+ net-fs/u9fs/files/u9fs.socket    |  6 ++++++
+ net-fs/u9fs/files/u9fs.xinetd    | 11 -----------
+ net-fs/u9fs/files/u9fs@.service  |  8 ++++++++
+ net-fs/u9fs/u9fs-20150318.ebuild |  5 +++--
+ 4 files changed, 17 insertions(+), 13 deletions(-)
+ create mode 100644 net-fs/u9fs/files/u9fs.socket
+ delete mode 100644 net-fs/u9fs/files/u9fs.xinetd
+ create mode 100644 net-fs/u9fs/files/u9fs@.service
 *** syncing emery
 *** synced emery
  * Sync succeeded
