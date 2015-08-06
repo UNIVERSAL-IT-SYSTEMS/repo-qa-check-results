@@ -13,19 +13,7 @@
  'status': 'unofficial'}
 $ pmaint sync bliss-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/fearedbliss/bliss-overlay
-   d18d5f7..bea9800  master     -> origin/master
-Updating d18d5f7..bea9800
-Fast-forward
- net-p2p/syncthing/Manifest                         |  4 +-
- net-p2p/syncthing/syncthing-0.11.17.ebuild         | 63 ------------------
- net-p2p/syncthing/syncthing-0.11.18.ebuild         |  2 +-
- sys-kernel/bliss-kernel/Manifest                   |  4 +-
- .../bliss-kernel/bliss-kernel-3.14.48-r1.ebuild    | 76 ----------------------
- .../bliss-kernel/bliss-kernel-3.14.49.ebuild       |  2 +-
- 6 files changed, 4 insertions(+), 147 deletions(-)
- delete mode 100644 net-p2p/syncthing/syncthing-0.11.17.ebuild
- delete mode 100644 sys-kernel/bliss-kernel/bliss-kernel-3.14.48-r1.ebuild
+Already up-to-date.
 *** syncing bliss-overlay
 *** synced bliss-overlay
  * Sync succeeded

@@ -17,107 +17,107 @@ $ pmaint regen -t 2 luke-jr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
-!!! ERROR: dev-perl/AniDB-0.3_pre414 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!! ERROR: dev-perl/Text-vCard-2.01 failed.
 
 !!! ERROR: dev-perl/asterisk-perl-0.10 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-
-!!! ERROR: dev-perl/Text-vCard-2.01 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: dev-perl/AniDB-0.3_pre414 failed.
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: dev-perl/URI-imap-1.01 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '204' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '192' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '189' 'depend'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '189' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-perl/asterisk-perl/asterisk-perl-0.10.ebuild'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-perl/AniDB/AniDB-0.3_pre414.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 
 !!! ERROR: net-im/psi-conferencelogger-9999 failed.
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/dev-perl/asterisk-perl/asterisk-perl-0.10.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-perl/asterisk-perl/asterisk-perl-0.10.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '192' 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-perl/Text-vCard/Text-vCard-2.01.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-perl/URI-imap/URI-imap-1.01.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/dev-perl/AniDB/AniDB-0.3_pre414.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/dev-perl/asterisk-perl/asterisk-perl-0.10.ebuild'
+!!!                 ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/dev-perl/asterisk-perl/asterisk-perl-0.10.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/dev-perl/Text-vCard/Text-vCard-2.01.ebuild'
-!!!                 ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/dev-perl/Text-vCard/Text-vCard-2.01.ebuild'
+!!!                 ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '231' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-perl/URI-imap/URI-imap-1.01.ebuild'
+!!!      asterisk-perl-0.10.ebuild, line   1:  Called inherit 'perl-module'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-perl/AniDB/AniDB-0.3_pre414.ebuild'
 WARNING: 'use' function invoked by net-misc/freeswitch-1.0.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/dev-perl/AniDB/AniDB-0.3_pre414.ebuild'
-!!!      asterisk-perl-0.10.ebuild, line   1:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+WARNING: 'use' function invoked by net-misc/freeswitch-1.0.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+!!!                 ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/dev-perl/AniDB/AniDB-0.3_pre414.ebuild'
+!!!         Text-vCard-2.01.ebuild, line   1:  Called inherit 'perl-module'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/dev-perl/URI-imap/URI-imap-1.01.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/dev-perl/Text-vCard/Text-vCard-2.01.ebuild'
  * 
  * "/home/mgorny/repos/luke-jr/dev-python/pyparallel/pyparallel-0.2.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/dev-perl/AniDB/AniDB-0.3_pre414.ebuild'
+!!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/net-im/psi-conferencelogger/psi-conferencelogger-9999.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!        AniDB-0.3_pre414.ebuild, line   1:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/net-im/psi-conferencelogger/psi-conferencelogger-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/dev-perl/URI-imap/URI-imap-1.01.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!        AniDB-0.3_pre414.ebuild, line   1:  Called inherit 'perl-module'
-!!!         Text-vCard-2.01.ebuild, line   1:  Called inherit 'perl-module'
-!!!           URI-imap-1.01.ebuild, line   1:  Called inherit 'perl-module'
-!!!                 ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '231' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-WARNING: 'use' function invoked by net-misc/freeswitch-1.0.1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-!!!                 ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-!!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/net-im/psi-conferencelogger/psi-conferencelogger-9999.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/net-im/psi-conferencelogger/psi-conferencelogger-9999.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/net-im/psi-conferencelogger/psi-conferencelogger-9999.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!           URI-imap-1.01.ebuild, line   1:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
 !!!   psi-conferencelogger-9999.ebuild, line   7:  Called inherit 'psiplus-plugin'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'psiplus-plugin'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/eclass/psiplus-plugin.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
 !!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/eclass/psiplus-plugin.eclass'
 !!!              psiplus-plugin.eclass, line   5:  Called inherit 'qt4' 'subversion'
 !!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
@@ -125,33 +125,17 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!! The die message:
 !!!  inherit for qt4 failed
 
-
-!!! ERROR: dev-python/labjackpython-0.65 failed.
 !!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: net-im/psi-conferencelogger-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/AniDB-0.3_pre414
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/asterisk-perl-0.10
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/AniDB-0.3_pre414
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Text-vCard-2.01
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/URI-imap-1.01
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/labjackpython-0.65
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '206' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/luke-jr/dev-python/labjackpython/labjackpython-0.65.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/luke-jr/dev-python/labjackpython/labjackpython-0.65.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/luke-jr/dev-python/labjackpython/labjackpython-0.65.ebuild'
-!!!      labjackpython-0.65.ebuild, line   3:  Called inherit 'multilib' 'python'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass python
-
-Sandboxed process killed by signal: Broken pipe
+!!! caught exception False while processing ebuild src: media-libs/glew-1.5.8
+sandbox:stop  caught signal 15 in pid 22332
+Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully
