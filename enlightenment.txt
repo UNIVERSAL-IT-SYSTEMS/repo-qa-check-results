@@ -11,8 +11,40 @@ $ pmaint sync enlightenment
 WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/enlightenment
+   b7c977b..8f214b4  master     -> origin/master
+Updating b7c977b..8f214b4
+Fast-forward
+ media-plugins/emotion_generic_players/Manifest     |  1 -
+ .../emotion_generic_players-1.8.0_beta2.ebuild     | 25 --------------
+ media-plugins/evas_generic_loaders/ChangeLog       | 16 ---------
+ media-plugins/evas_generic_loaders/Manifest        |  2 --
+ .../evas_generic_loaders-1.8.0_beta2.ebuild        | 40 ----------------------
+ .../evas_generic_loaders-1.8.1.ebuild              | 40 ----------------------
+ .../evas_generic_loaders-9999.ebuild               | 36 -------------------
+ media-plugins/evas_generic_loaders/metadata.xml    |  8 -----
+ x11-terms/terminology/ChangeLog                    | 22 ------------
+ x11-terms/terminology/Manifest                     | 13 -------
+ x11-terms/terminology/metadata.xml                 | 10 ------
+ x11-terms/terminology/terminology-0.4.0.ebuild     | 20 -----------
+ x11-terms/terminology/terminology-9999.ebuild      | 25 --------------
+ 13 files changed, 258 deletions(-)
+ delete mode 100644 media-plugins/emotion_generic_players/Manifest
+ delete mode 100644 media-plugins/emotion_generic_players/emotion_generic_players-1.8.0_beta2.ebuild
+ delete mode 100644 media-plugins/evas_generic_loaders/ChangeLog
+ delete mode 100644 media-plugins/evas_generic_loaders/Manifest
+ delete mode 100644 media-plugins/evas_generic_loaders/evas_generic_loaders-1.8.0_beta2.ebuild
+ delete mode 100644 media-plugins/evas_generic_loaders/evas_generic_loaders-1.8.1.ebuild
+ delete mode 100644 media-plugins/evas_generic_loaders/evas_generic_loaders-9999.ebuild
+ delete mode 100644 media-plugins/evas_generic_loaders/metadata.xml
+ delete mode 100644 x11-terms/terminology/ChangeLog
+ delete mode 100644 x11-terms/terminology/Manifest
+ delete mode 100644 x11-terms/terminology/metadata.xml
+ delete mode 100644 x11-terms/terminology/terminology-0.4.0.ebuild
+ delete mode 100644 x11-terms/terminology/terminology-9999.ebuild
 *** syncing enlightenment
 *** synced enlightenment
  * Sync succeeded

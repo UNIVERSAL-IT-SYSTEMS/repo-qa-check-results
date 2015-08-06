@@ -9,7 +9,11 @@
 $ pmaint sync xwing
 WARNING:pkgcore:repository at location '/home/mgorny/repos/interactive-fiction' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/slyfox' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/slyfox' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 This is xwing.info / coruscant.xwing.info
 
 Server Address : 62.212.103.27 / 2001:7a8:2b1b::254
@@ -27,13 +31,13 @@ Total file size: 32 bytes
 Total transferred file size: 32 bytes
 Literal data: 32 bytes
 Matched data: 0 bytes
-File list size: 46
+File list size: 47
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 85
-Total bytes received: 130
+Total bytes received: 131
 
-sent 85 bytes  received 130 bytes  86.00 bytes/sec
+sent 85 bytes  received 131 bytes  144.00 bytes/sec
 total size is 32  speedup is 0.15
 This is xwing.info / coruscant.xwing.info
 
@@ -62,7 +66,7 @@ File list transfer time: 0.000 seconds
 Total bytes sent: 150
 Total bytes received: 4.36K
 
-sent 150 bytes  received 4.36K bytes  1.80K bytes/sec
+sent 150 bytes  received 4.36K bytes  3.00K bytes/sec
 total size is 155.16K  speedup is 34.43
 *** syncing xwing
 *** synced xwing

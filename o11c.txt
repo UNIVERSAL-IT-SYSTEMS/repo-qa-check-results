@@ -36,13 +36,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/o11c/dev-python/attoconf/attoconf-9999.ebuild'
 !!!           attoconf-9999.ebuild, line   5:  Called inherit 'distutils-r1' 'git-2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_distutils-r1'
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_distutils-r1
+!!!             ebuild-daemon.bash, line 467:  Called inherit 'multiprocessing' 'python-r1'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
-!!!               python-r1.eclass, line  47:  Called die
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_python-r1'
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_python-r1
+!!!             ebuild-daemon.bash, line 429:  Called die
 !!! The die message:
 !!!  Unsupported EAPI=4 (too old, allowed only on restricted set of packages) for python-r1
 
