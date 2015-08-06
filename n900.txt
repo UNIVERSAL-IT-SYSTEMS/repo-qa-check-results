@@ -9,6 +9,8 @@
              'uri': 'https://gitlab.com/n900-gentoo/overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync n900
+WARNING:pkgcore:repository at location '/home/mgorny/repos/interactive-fiction' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing n900
@@ -47,11 +49,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/n900/sys-kernel/fremantle-sources/fremantle-sources-2.6.28.0.20103103.0.5-r1.ebuild'
 !!!   fremantle-sources-2.6.28.0.20103103.0.5-r1.ebuild, line  10:  Called inherit 'eutils' 'versionator'
 !!!                        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ofono-0.27_pre201008102034
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-kernel/fremantle-sources-2.6.28.0.20103103.0.5-r1
 !!!                                   ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
 !!!  unknown inherit command from pythonic side, 'alive' for eclass eutils
 
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ofono-0.27_pre201008102034
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-kernel/fremantle-sources-2.6.28.0.20103103.0.5-r1
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully

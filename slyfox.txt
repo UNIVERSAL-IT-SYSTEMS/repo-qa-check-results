@@ -9,12 +9,18 @@
  'source': [{'type': 'git', 'uri': 'http://repo.or.cz/r/slyfox-gentoo.git'}],
  'status': 'official'}
 $ pmaint sync slyfox
+WARNING:pkgcore:repository at location '/home/mgorny/repos/interactive-fiction' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to access 'http://repo.or.cz/r/slyfox-gentoo.git/': Recv failure: Connection reset by peer
 *** syncing slyfox
-*** synced slyfox
- * Sync succeeded
-$ pmaint regen -t 2 slyfox
+*** failed syncing slyfox
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync slyfox
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+Cloning into '/home/mgorny/repos/slyfox'...
+fatal: unable to access 'http://repo.or.cz/r/slyfox-gentoo.git/': Recv failure: Connection reset by peer
+*** syncing slyfox
+*** failed syncing slyfox
+ * Sync failed again with 1, removing

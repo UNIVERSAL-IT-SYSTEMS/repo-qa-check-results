@@ -10,7 +10,23 @@
  'status': 'unofficial'}
 $ pmaint sync go-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/Dr-Terrible/go-overlay
+   05ff8a9..6b8e41a  master     -> origin/master
+Updating 05ff8a9..6b8e41a
+Fast-forward
+ .../md5-cache/www-apps/{hugo-0.14 => hugo-0.14-r1}     |  5 +++--
+ .../{hugo-0.15_pre20150803 => hugo-0.15_pre20150806}   |  7 ++++---
+ metadata/pkg_desc_index                                |  5 ++++-
+ profiles/use.local.desc                                |  1 +
+ www-apps/hugo/Manifest                                 |  2 +-
+ .../hugo/{hugo-0.14.ebuild => hugo-0.14-r1.ebuild}     |  3 +++
+ ...pre20150803.ebuild => hugo-0.15_pre20150806.ebuild} |  5 ++++-
+ www-apps/hugo/metadata.xml                             | 18 ++++++++++++++++++
+ 8 files changed, 38 insertions(+), 8 deletions(-)
+ rename metadata/md5-cache/www-apps/{hugo-0.14 => hugo-0.14-r1} (97%)
+ rename metadata/md5-cache/www-apps/{hugo-0.15_pre20150803 => hugo-0.15_pre20150806} (95%)
+ rename www-apps/hugo/{hugo-0.14.ebuild => hugo-0.14-r1.ebuild} (96%)
+ rename www-apps/hugo/{hugo-0.15_pre20150803.ebuild => hugo-0.15_pre20150806.ebuild} (96%)
 *** syncing go-overlay
 *** synced go-overlay
  * Sync succeeded
