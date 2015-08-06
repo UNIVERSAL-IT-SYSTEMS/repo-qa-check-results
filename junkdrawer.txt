@@ -10,7 +10,16 @@
  'status': 'unofficial'}
 $ pmaint sync junkdrawer
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/doctaweeks/junkdrawer-overlay
+   19f10ad..85505d5  master     -> origin/master
+Updating 19f10ad..85505d5
+Fast-forward
+ dev-cpp/folly/Manifest            |  2 ++
+ dev-cpp/folly/folly-0.35.0.ebuild | 39 +++++++++++++++++++++++++++++++++++++++
+ dev-cpp/folly/folly-0.52.0.ebuild | 39 +++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 80 insertions(+)
+ create mode 100644 dev-cpp/folly/folly-0.35.0.ebuild
+ create mode 100644 dev-cpp/folly/folly-0.52.0.ebuild
 *** syncing junkdrawer
 *** synced junkdrawer
  * Sync succeeded

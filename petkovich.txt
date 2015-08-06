@@ -35,23 +35,23 @@ QA warning: set modification bled out of invocation source /home/mgorny/repos/pe
 !!! ERROR: gnome-base/gnome-panel-2.28.0 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/app-misc/powerline/powerline-9999-r14.ebuild
-          : was hB
-          : now ehB
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '210' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 
 !!! ERROR: dev-lisp/gsd-999 failed.
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/app-misc/powerline/powerline-9999-r14.ebuild
+          : was hB
+          : now ehB
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '145' 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!      gnome-panel-2.28.0.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/petkovich/dev-lisp/gsd/gsd-999.ebuild'
