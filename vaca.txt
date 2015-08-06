@@ -11,24 +11,14 @@ $ pmaint sync vaca
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/hashashin/gentoo-vaca-overlay
-   1703c2d..c570cde  master     -> origin/master
-Updating 1703c2d..c570cde
+   c570cde..90e9370  master     -> origin/master
+Updating c570cde..90e9370
 Fast-forward
- app-accessibility/festival/ChangeLog               |   6 +
- app-accessibility/festival/Manifest                |  30 +++++
- app-accessibility/festival/festival-2.4.ebuild     | 125 +++++++++++++++++++++
- .../files/festival-2.4-gentoo-system.patch         | 124 ++++++++++++++++++++
- .../festival/files/festival-2.4-init-scm.patch     |  24 ++++
- .../festival/files/festival-2.4-ldflags.patch      |  12 ++
- app-accessibility/festival/metadata.xml            |   8 ++
- 7 files changed, 329 insertions(+)
- create mode 100644 app-accessibility/festival/ChangeLog
- create mode 100644 app-accessibility/festival/Manifest
- create mode 100644 app-accessibility/festival/festival-2.4.ebuild
- create mode 100644 app-accessibility/festival/files/festival-2.4-gentoo-system.patch
- create mode 100644 app-accessibility/festival/files/festival-2.4-init-scm.patch
- create mode 100644 app-accessibility/festival/files/festival-2.4-ldflags.patch
- create mode 100644 app-accessibility/festival/metadata.xml
+ media-sound/mumble/ChangeLog                       |  7 +++++-
+ media-sound/mumble/Manifest                        | 28 +++++++++++-----------
+ .../{mumble-1.2.8.ebuild => mumble-1.2.10.ebuild}  |  2 +-
+ 3 files changed, 21 insertions(+), 16 deletions(-)
+ rename media-sound/mumble/{mumble-1.2.8.ebuild => mumble-1.2.10.ebuild} (98%)
 *** syncing vaca
 *** synced vaca
  * Sync succeeded
