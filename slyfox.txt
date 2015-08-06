@@ -14,7 +14,7 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/interactive-fiction' 
 WARNING:pkgcore:repository at '/home/mgorny/repos/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Cloning into '/home/mgorny/repos/slyfox'...
-fatal: unable to access 'http://repo.or.cz/r/slyfox-gentoo.git/': Failed to connect to repo.or.cz port 80: Connection timed out
+fatal: unable to access 'http://repo.or.cz/r/slyfox-gentoo.git/': Recv failure: Connection reset by peer
 *** syncing slyfox
 *** failed syncing slyfox
  * Sync failed with 1
