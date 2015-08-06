@@ -16,7 +16,17 @@
 $ pmaint sync displacer
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/displacer
+   9312d93..1ad84a3  master     -> origin/master
+Updating 9312d93..1ad84a3
+Fast-forward
+ x11-libs/libdrm/Manifest           |  3 --
+ x11-libs/libdrm/libdrm-9999.ebuild | 59 --------------------------------------
+ x11-libs/libdrm/metadata.xml       |  8 ------
+ 3 files changed, 70 deletions(-)
+ delete mode 100644 x11-libs/libdrm/Manifest
+ delete mode 100644 x11-libs/libdrm/libdrm-9999.ebuild
+ delete mode 100644 x11-libs/libdrm/metadata.xml
 *** syncing displacer
 *** synced displacer
  * Sync succeeded

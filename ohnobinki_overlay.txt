@@ -21,125 +21,144 @@ $ pmaint regen -t 2 ohnobinki_overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
+!!! ERROR: sys-libs/tdb-1.2.9 failed.
+
 !!! ERROR: sys-libs/talloc-2.0.5 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-
-!!! ERROR: sys-libs/tdb-1.2.9 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '182' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '167' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/sys-libs/talloc/talloc-2.0.5.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '182' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/sys-libs/tdb/tdb-1.2.9.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/sys-libs/talloc/talloc-2.0.5.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/sys-libs/tdb/tdb-1.2.9.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/sys-libs/talloc/talloc-2.0.5.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ohnobinki_overlay/sys-libs/talloc/talloc-2.0.5.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/sys-libs/tdb/tdb-1.2.9.ebuild'
-!!!            talloc-2.0.5.ebuild, line   7:  Called inherit 'eutils' 'waf-utils' 'python'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ohnobinki_overlay/sys-libs/tdb/tdb-1.2.9.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
 !!!               tdb-1.2.9.ebuild, line   8:  Called inherit 'eutils' 'waf-utils' 'python'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!!            talloc-2.0.5.ebuild, line   7:  Called inherit 'eutils' 'waf-utils' 'python'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
-!!!               waf-utils.eclass, line  22:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
-
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 !!!               waf-utils.eclass, line  22:  Called die
 !!! The die message:
 !!!  EAPI=3 is not supported
 
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!!               waf-utils.eclass, line  22:  Called die
+!!! The die message:
+!!!  EAPI=3 is not supported
 
-!!! ERROR: sci-calculators/gfm-1.02 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 
 !!! ERROR: app-doc/doxygen-1.5.8-r1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+
+!!! ERROR: sci-calculators/gfm-1.02 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '194' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '176' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '194' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/sci-calculators/gfm/gfm-1.02.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/sci-calculators/gfm/gfm-1.02.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ohnobinki_overlay/sci-calculators/gfm/gfm-1.02.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/app-doc/doxygen/doxygen-1.5.8-r1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/sci-calculators/gfm/gfm-1.02.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/app-doc/doxygen/doxygen-1.5.8-r1.ebuild'
-!!!                gfm-1.02.ebuild, line   6:  Called inherit 'qt3'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ohnobinki_overlay/sci-calculators/gfm/gfm-1.02.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ohnobinki_overlay/app-doc/doxygen/doxygen-1.5.8-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
+!!!                gfm-1.02.ebuild, line   6:  Called inherit 'qt3'
 !!!        doxygen-1.5.8-r1.ebuild, line   7:  Called inherit 'eutils' 'flag-o-matic' 'toolchain-funcs' 'qt4' 'fdo-mime'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for qt3 failed
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-
-!!! ERROR: dev-libs/libxml2-2.7.8-r5 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for qt4 failed
 
+
+!!! ERROR: dev-games/supertux-editor-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+
+!!! ERROR: media-libs/libao-0.8.8-r1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '196' 'depend'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '222' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '190' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/dev-games/supertux-editor/supertux-editor-9999.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/dev-games/supertux-editor/supertux-editor-9999.ebuild'
 
 !!! ERROR: www-servers/apache-2.2.21-r1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/dev-libs/libxml2/libxml2-2.7.8-r5.ebuild'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/media-libs/libao/libao-0.8.8-r1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ohnobinki_overlay/dev-games/supertux-editor/supertux-editor-9999.ebuild'
 
 !!! ERROR: www-servers/apache-2.2.21-r2 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/dev-libs/libxml2/libxml2-2.7.8-r5.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/media-libs/libao/libao-0.8.8-r1.ebuild'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ohnobinki_overlay/dev-libs/libxml2/libxml2-2.7.8-r5.ebuild'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '202' 'depend'
-!!!        libxml2-2.7.8-r5.ebuild, line  12:  Called inherit 'libtool' 'flag-o-matic' 'eutils' 'python' 'autotools' 'prefix'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!    supertux-editor-9999.ebuild, line   7:  Called inherit 'eutils' 'mono' 'multilib' 'subversion'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ohnobinki_overlay/media-libs/libao/libao-0.8.8-r1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mono'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '202' 'depend'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 174' for eclass python
+!!!  unknown inherit command from pythonic side, 'gen_metadata 183' for eclass mono
 
-received unknown com: export CATEGORY='dev-tcltk' PR=r0 PVR='2.4' PV='2.4' EBUILD='/home/mgorny/repos/ohnobinki_overlay/dev-tcltk/tclxml/tclxml-2.4.ebuild' P='tclxml-2.4' PF='tclxml-2.4' PN=tclxmlpath
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/www-servers/apache/apache-2.2.21-r1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/www-servers/apache/apache-2.2.21-r1.ebuild'
+received unknown com: export CATEGORY='dev-tcltk' PR=r1 PVR='3.0-r1' PV='3.0' EBUILD='/home/mgorny/repos/ohnobinki_overlay/dev-tcltk/tclxml/tclxml-3.0-r1.ebuild' P='tclxml-3.0' PF='tclxml-3.0-r1' PN=tclxmlpath
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '202' 'depend'
+!!!          libao-0.8.8-r1.ebuild, line   6:  Called inherit 'eutils' 'libtool'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ohnobinki_overlay/www-servers/apache/apache-2.2.21-r1.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/www-servers/apache/apache-2.2.21-r2.ebuild'
-!!!        apache-2.2.21-r1.ebuild, line  83:  Called inherit 'apache-2'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/www-servers/apache/apache-2.2.21-r2.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'apache-2'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/www-servers/apache/apache-2.2.21-r1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'libtool'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/www-servers/apache/apache-2.2.21-r1.ebuild'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 236' for eclass apache-2
+!!!  unknown inherit command from pythonic side, 'gen_metadata 197' for eclass libtool
 
-received unknown com: export CATEGORY='net-print' PR=r0 PVR='1.02' PV='1.02' EBUILD='/home/mgorny/repos/ohnobinki_overlay/net-print/dell-1130n-driver/dell-1130n-driver-1.02.ebuild' P='dell-1130n-driver-1.02' PF='dell-1130n-driver-1.02' PN='dell-1130n-driver'path
+received unknown com: export CATEGORY='sys-apps' PR=r0 PVR='1.14.4' PV='1.14.4' EBUILD='/home/mgorny/repos/ohnobinki_overlay/sys-apps/fakeroot/fakeroot-1.14.4.ebuild' P='fakeroot-1.14.4' PF='fakeroot-1.14.4' PN=fakerootpath
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/www-servers/apache/apache-2.2.21-r2.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ohnobinki_overlay/www-servers/apache/apache-2.2.21-r1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/www-servers/apache/apache-2.2.21-r2.ebuild'
+!!!        apache-2.2.21-r1.ebuild, line  83:  Called inherit 'apache-2'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ohnobinki_overlay/www-servers/apache/apache-2.2.21-r2.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'apache-2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/apache-2.eclass'
 !!!        apache-2.2.21-r2.ebuild, line  83:  Called inherit 'apache-2'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/apache-2.eclass'
+!!!                apache-2.eclass, line  20:  Called die
+!!! The die message:
+!!!  This eclass requires >=EAPI-5
+
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'apache-2'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/apache-2.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/apache-2.eclass'
@@ -148,28 +167,28 @@ received unknown com: export CATEGORY='net-print' PR=r0 PVR='1.02' PV='1.02' EBU
 !!!  This eclass requires >=EAPI-5
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-libs/talloc-2.0.5
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-libs/tdb-1.2.9
-!!! caught exception inherit requires an unknown eclass, qt3 cannot be found while processing ebuild src: sci-calculators/gfm-1.02
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-libs/talloc-2.0.5
 !!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: app-doc/doxygen-1.5.8-r1
+!!! caught exception inherit requires an unknown eclass, qt3 cannot be found while processing ebuild src: sci-calculators/gfm-1.02
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-libs/libxml2-2.7.8-r5
+!!! caught exception False while processing ebuild src: sys-fs/e2fsprogs-1.41.4
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-libs/iniparser-3.0b-r1
-!!! caught exception Metadata Exception: pkg ebuild src: app-eselect/eselect-mesa-0.0.10, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-eselect/eselect-mesa-0.0.10
-!!! caught exception Metadata Exception: pkg ebuild src: www-servers/apache-2.2.21-r1, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: www-servers/apache-2.2.21-r1
+!!! caught exception False while processing ebuild src: dev-games/supertux-editor-9999
+!!! caught exception Metadata Exception: pkg ebuild src: media-libs/libao-0.8.8-r1, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-libs/libao-0.8.8-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-tcltk/tclxml-2.4
+!!! caught exception False while processing ebuild src: dev-tcltk/tclxml-3.0-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-print/dell-1130n-driver-1.02
+!!! caught exception False while processing ebuild src: sys-apps/fakeroot-1.14.4
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: www-servers/apache-2.2.21-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-servers/apache-2.2.21-r2
 Error running an operation:
  Unhandled exception in regen_cache
  [Errno 32] Broken pipe
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f5900f16e10> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f5900f16d08> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f2179420050> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f21794788e8> ignored
  * Cache regen failed with 246

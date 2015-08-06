@@ -14,7 +14,21 @@
 $ pmaint sync vortex
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/nE0sIghT/vortex-overlay
+   00f965d..1f1fcde  master     -> origin/master
+Updating 00f965d..1f1fcde
+Fast-forward
+ games-emulation/pcsx2/files/bindir-1.2.2.patch     |  62 --------
+ games-emulation/pcsx2/files/cg-multilib.patch      |  19 ---
+ .../pcsx2/files/pcsx2-9999-mesa-10.patch           |  28 ----
+ net-news/liferea/Manifest                          |   1 +
+ net-news/liferea/liferea-1.10.16.ebuild            |  75 +++++++++
+ x11-libs/wxGTK/wxGTK-3.0.2.0-r100.ebuild           | 175 ++++++++++-----------
+ 6 files changed, 160 insertions(+), 200 deletions(-)
+ delete mode 100644 games-emulation/pcsx2/files/bindir-1.2.2.patch
+ delete mode 100644 games-emulation/pcsx2/files/cg-multilib.patch
+ delete mode 100644 games-emulation/pcsx2/files/pcsx2-9999-mesa-10.patch
+ create mode 100644 net-news/liferea/liferea-1.10.16.ebuild
 *** syncing vortex
 *** synced vortex
  * Sync succeeded
