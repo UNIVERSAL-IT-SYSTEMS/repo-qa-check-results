@@ -15,7 +15,15 @@
 $ pmaint sync jmbsvicetto
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/jmbsvicetto
+   6f4838a..5771371  master     -> origin/master
+Updating 6f4838a..5771371
+Fast-forward
+ ..._perl-2.0.8.ebuild => mod_perl-2.0.8-r1.ebuild} |  54 +++---
+ www-apache/mod_perl/mod_perl-2.0.9.ebuild          | 194 +++++++++++++++++++++
+ 2 files changed, 218 insertions(+), 30 deletions(-)
+ rename www-apache/mod_perl/{mod_perl-2.0.8.ebuild => mod_perl-2.0.8-r1.ebuild} (86%)
+ create mode 100644 www-apache/mod_perl/mod_perl-2.0.9.ebuild
 *** syncing jmbsvicetto
 *** synced jmbsvicetto
  * Sync succeeded
