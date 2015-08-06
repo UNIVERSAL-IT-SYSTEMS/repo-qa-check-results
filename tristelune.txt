@@ -9,18 +9,16 @@
              'uri': 'https://github.com/tristelune1/tristelune-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync tristelune
-WARNING:pkgcore:repository at location '/home/mgorny/repos/slyfox' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/slyfox' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/tristelune1/tristelune-overlay
-   42e7020..ca6a405  master     -> origin/master
-Updating 42e7020..ca6a405
+   ca6a405..e86cf65  master     -> origin/master
+Updating ca6a405..e86cf65
 Fast-forward
- app-admin/rofi-pass/Manifest              | 2 +-
- app-admin/rofi-pass/rofi-pass-9999.ebuild | 2 ++
- 2 files changed, 3 insertions(+), 1 deletion(-)
+ dev-python/pafy/Manifest                      | 2 +-
+ dev-python/pafy/pafy-0.3.74.ebuild            | 4 ++--
+ net-misc/mps-youtube/Manifest                 | 2 +-
+ net-misc/mps-youtube/mps-youtube-0.2.5.ebuild | 6 +++---
+ 4 files changed, 7 insertions(+), 7 deletions(-)
 *** syncing tristelune
 *** synced tristelune
  * Sync succeeded
