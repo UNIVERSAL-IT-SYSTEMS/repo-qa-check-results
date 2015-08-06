@@ -13,11 +13,47 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   30c7aca..e1f8b57  master     -> origin/master
+Updating 30c7aca..e1f8b57
+Fast-forward
+ dev-haskell/fsnotify/Manifest                      |  1 +
+ dev-haskell/fsnotify/fsnotify-0.2.1.ebuild         | 32 +++++++++++
+ dev-haskell/hakyll/Manifest                        |  1 +
+ dev-haskell/hakyll/hakyll-4.7.2.2.ebuild           | 64 ++++++++++++++++++++++
+ dev-lang/idris/idris-0.9.18.1.ebuild               |  2 +-
+ eclass/ghc-package.eclass                          | 24 +++++++-
+ eclass/haskell-cabal.eclass                        |  7 +--
+ ...fybar-0.4.5.ebuild => taffybar-0.4.5-r1.ebuild} |  2 +-
+ 8 files changed, 123 insertions(+), 10 deletions(-)
+ create mode 100644 dev-haskell/fsnotify/fsnotify-0.2.1.ebuild
+ create mode 100644 dev-haskell/hakyll/hakyll-4.7.2.2.ebuild
+ rename x11-misc/taffybar/{taffybar-0.4.5.ebuild => taffybar-0.4.5-r1.ebuild} (96%)
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
 $ pmaint regen -t 2 haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by dev-lang/ghc-7.8.4-r3 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-lang/ghc-7.10.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-lang/ghc-7.6.3-r1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-lang/ghc-7.8.4-r4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-lang/ghc-7.8.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-lang/ghc-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-lang/ghc-7.4.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully

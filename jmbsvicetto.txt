@@ -15,32 +15,11 @@
 $ pmaint sync jmbsvicetto
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing jmbsvicetto
-*** failed syncing jmbsvicetto
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync jmbsvicetto
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/jmbsvicetto'...
+Already up-to-date.
 *** syncing jmbsvicetto
 *** synced jmbsvicetto
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 jmbsvicetto
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-/home/mgorny/repos/jmbsvicetto/dev-php/adodb/adodb-5.17.ebuild: line 24: need_php5: command not found
-WARNING: 'use' function invoked by sys-kernel/infra-kernel-3.13.6-r3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-kernel/infra-kernel-3.13.6-r3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-kernel/infra-kernel-sources-3.13.6-r3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-kernel/infra-kernel-sources-3.13.6-r3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully

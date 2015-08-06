@@ -15,21 +15,10 @@
  'status': 'unofficial'}
 $ pmaint sync jranvier
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing jranvier
-*** failed syncing jranvier
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync jranvier
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/joinge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/joinge', named 'joinge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jamesbroadhead' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jamesbroadhead', named 'jamesbroadhead', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/jranvier'...
+Already up-to-date.
 *** syncing jranvier
 *** synced jranvier
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 jranvier
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
