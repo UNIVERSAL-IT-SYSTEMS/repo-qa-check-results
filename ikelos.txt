@@ -28,218 +28,215 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '162' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-util/libbls/libbls-9999.ebuild'
 
 !!! ERROR: gnome-extra/alarm-clock-0.2.5 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-util/libbls/libbls-9999.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-util/libbls/libbls-9999.ebuild'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/dev-util/libbls/libbls-9999.ebuild'
-
-!!! ERROR: gnome-extra/gimmie-0.2.99999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             libbls-9999.ebuild, line   7:  Called inherit 'eutils' 'waf-utils' 'bzr'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '204' 'depend'
 
-!!! ERROR: gnome-extra/evolution-mapi-0.30.3 failed.
-
-!!! ERROR: gnome-extra/gnome-main-menu-0.9.11 failed.
+!!! ERROR: gnome-extra/gimmie-0.2.99999 failed.
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/alarm-clock/alarm-clock-0.2.5.ebuild'
 
 !!! ERROR: gnome-extra/gimmie-0.2.8 failed.
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '204' 'depend'
-!!! ERROR: gnome-extra/gnome-shell-extensions-system-monitor-9999 failed.
+!!! ERROR: gnome-extra/gnome-main-menu-0.9.11 failed.
+
+!!! ERROR: gnome-extra/evolution-mapi-0.30.3 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
-
-!!! ERROR: gnome-extra/gtkparasite-9999 failed.
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                                  ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
-
-!!! ERROR: gnome-extra/timer-applet-2.0.1 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '197' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!               waf-utils.eclass, line  22:  Called die
 !!! The die message:
 !!!  EAPI=3 is not supported
 
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/alarm-clock/alarm-clock-0.2.5.ebuild'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/alarm-clock/alarm-clock-0.2.5.ebuild'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '224' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '177' 'depend'
-!!!              ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '229' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                                  ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '325' 'depend'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.99999.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/alarm-clock/alarm-clock-0.2.5.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '193' 'depend'
-!!!                                  ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/evolution-mapi/evolution-mapi-0.30.3.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.8.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.99999.ebuild'
-!!!       alarm-clock-0.2.5.ebuild, line   5:  Called inherit 'gnome2'
-!!!                      ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gnome-main-menu/gnome-main-menu-0.9.11.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                                          ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gnome-shell-extensions-system-monitor/gnome-shell-extensions-system-monitor-9999.ebuild'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '209' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/evolution-mapi/evolution-mapi-0.30.3.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.8.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.99999.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!                      ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gnome-main-menu/gnome-main-menu-0.9.11.ebuild'
-!!!                                          ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gnome-shell-extensions-system-monitor/gnome-shell-extensions-system-monitor-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/evolution-mapi/evolution-mapi-0.30.3.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gtkparasite/gtkparasite-9999.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   evolution-mapi-0.30.3.ebuild, line   7:  Called inherit 'autotools' 'eutils' 'gnome2'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.8.ebuild'
-!!!        gimmie-0.2.99999.ebuild, line   5:  Called inherit 'gnome2' 'autotools' 'subversion'
-!!!                              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gnome-shell-extensions-system-monitor/gnome-shell-extensions-system-monitor-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gtkparasite/gtkparasite-9999.ebuild'
-!!!          isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gnome-main-menu/gnome-main-menu-0.9.11.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/timer-applet/timer-applet-2.0.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!            gimmie-0.2.8.ebuild, line   5:  Called inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 
-!!! ERROR: games-rpg/mangos-9999 failed.
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gtkparasite/gtkparasite-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/timer-applet/timer-applet-2.0.1.ebuild'
+!!! ERROR: gnome-extra/gnome-shell-extensions-system-monitor-9999 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/alarm-clock/alarm-clock-0.2.5.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!   gnome-shell-extensions-system-monitor-9999.ebuild, line  11:  Called inherit 'gnome2-utils' 'gnome2' 'python' 'git-2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/alarm-clock/alarm-clock-0.2.5.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '197' 'depend'
+!!!              ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                                  ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: gnome-extra/timer-applet-2.0.1 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!       alarm-clock-0.2.5.ebuild, line   5:  Called inherit 'gnome2'
+!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: gnome-extra/gtkparasite-9999 failed.
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '177' 'depend'
+!!!                                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   gnome-main-menu-0.9.11.ebuild, line   5:  Called inherit 'eutils' 'gnome2'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '224' 'depend'
+!!!              ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '229' 'depend'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                                  ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '325' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.99999.ebuild'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                                  ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.99999.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.8.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/evolution-mapi/evolution-mapi-0.30.3.ebuild'
+!!!                      ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gnome-main-menu/gnome-main-menu-0.9.11.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '209' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '193' 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.99999.ebuild'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI= is not supported
 
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!        gtkparasite-9999.ebuild, line   5:  Called inherit 'autotools' 'gnome2' 'git-2'
-!!!                        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                                          ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gnome-shell-extensions-system-monitor/gnome-shell-extensions-system-monitor-9999.ebuild'
+!!!                      ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gnome-main-menu/gnome-main-menu-0.9.11.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.8.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/evolution-mapi/evolution-mapi-0.30.3.ebuild'
+!!!        gimmie-0.2.99999.ebuild, line   5:  Called inherit 'gnome2' 'autotools' 'subversion'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gtkparasite/gtkparasite-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.8.ebuild'
+!!!                                          ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gnome-shell-extensions-system-monitor/gnome-shell-extensions-system-monitor-9999.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/timer-applet/timer-applet-2.0.1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!          isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gnome-main-menu/gnome-main-menu-0.9.11.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/evolution-mapi/evolution-mapi-0.30.3.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gtkparasite/gtkparasite-9999.ebuild'
+!!!            gimmie-0.2.8.ebuild, line   5:  Called inherit 'gnome2'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gnome-shell-extensions-system-monitor/gnome-shell-extensions-system-monitor-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/timer-applet/timer-applet-2.0.1.ebuild'
+!!!   gnome-main-menu-0.9.11.ebuild, line   5:  Called inherit 'eutils' 'gnome2'
+!!!   evolution-mapi-0.30.3.ebuild, line   7:  Called inherit 'autotools' 'eutils' 'gnome2'
+!!!   gnome-shell-extensions-system-monitor-9999.ebuild, line  11:  Called inherit 'gnome2-utils' 'gnome2' 'python' 'git-2'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gtkparasite/gtkparasite-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/timer-applet/timer-applet-2.0.1.ebuild'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI= is not supported
 
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
-
-!!!                                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!               ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!      timer-applet-2.0.1.ebuild, line   5:  Called inherit 'gnome2' 'flag-o-matic'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
 
-!!!          isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '164' 'depend'
+!!! ERROR: games-rpg/mangos-9999 failed.
+!!!        gtkparasite-9999.ebuild, line   5:  Called inherit 'autotools' 'gnome2' 'git-2'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!               ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!                              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                   gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!                                       gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
-
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!          isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/games-rpg/mangos/mangos-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/games-rpg/mangos/mangos-9999.ebuild'
  * 
  * "/home/mgorny/repos/ikelos/x11-terms/hotwire/hotwire-0.721.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                                       gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=3 is not supported
+
+!!!                   gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '164' 'depend'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/games-rpg/mangos/mangos-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/games-rpg/mangos/mangos-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/games-rpg/mangos/mangos-9999.ebuild'
-
-!!! ERROR: dev-python/git-python-9999 failed.
-
-!!! ERROR: dev-python/gitty-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             mangos-9999.ebuild, line   9:  Called inherit 'eutils' 'autotools' 'git'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '188' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '161' 'depend'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 
-!!! ERROR: www-servers/woof-2009.12.27 failed.
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!! ERROR: dev-python/git-python-9999 failed.
+
+!!! ERROR: dev-libs/libdwarf-20100930 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-python/gitty/gitty-9999.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+
+!!! ERROR: dev-python/gitty-9999 failed.
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-python/git-python/git-python-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-python/gitty/gitty-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-python/git-python/git-python-9999.ebuild'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '192' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '188' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '161' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
  * 
  * "/home/mgorny/repos/ikelos/net-misc/facebook-notify/facebook-notify-9999.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
@@ -248,162 +245,150 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
  * 
 
 !!! ERROR: net-misc/facebook-notify-9999 failed.
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '192' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/dev-python/gitty/gitty-9999.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-python/git-python/git-python-9999.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-libs/libdwarf/libdwarf-20100930.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-python/gitty/gitty-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-python/git-python/git-python-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-libs/libdwarf/libdwarf-20100930.ebuild'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-python/gitty/gitty-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/dev-libs/libdwarf/libdwarf-20100930.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/dev-python/git-python/git-python-9999.ebuild'
-!!!              gitty-9999.ebuild, line   5:  Called inherit 'python' 'git'
-!!!         git-python-9999.ebuild, line   7:  Called inherit 'distutils' 'git'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/dev-python/gitty/gitty-9999.ebuild'
+!!!         git-python-9999.ebuild, line   7:  Called inherit 'distutils' 'git'
+!!!       libdwarf-20100930.ebuild, line   7:  Called inherit 'flag-o-matic'
+!!!              gitty-9999.ebuild, line   5:  Called inherit 'python' 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'flag-o-matic'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 155' for eclass flag-o-matic
+
+received unknown com: export CATEGORY='dev-python' PR=r0 PVR='1.9' PV='1.9' EBUILD='/home/mgorny/repos/ikelos/dev-python/pypy/pypy-1.9.ebuild' P='pypy-1.9' PF='pypy-1.9' PN=pypypath
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '209' 'depend'
 
 !!! ERROR: app-backup/gibak-9999 failed.
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/www-servers/woof/woof-2009.12.27.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/net-misc/facebook-notify/facebook-notify-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/www-servers/woof/woof-2009.12.27.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/net-misc/facebook-notify/facebook-notify-9999.ebuild'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '161' 'depend'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/net-misc/facebook-notify/facebook-notify-9999.ebuild'
-!!!    facebook-notify-9999.ebuild, line   7:  Called inherit 'distutils' 'git' 'eutils'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/www-servers/woof/woof-2009.12.27.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/app-backup/gibak/gibak-9999.ebuild'
-!!!         woof-2009.12.27.ebuild, line   7:  Called inherit 'versionator' 'eutils'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/app-backup/gibak/gibak-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/app-backup/gibak/gibak-9999.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'versionator'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 170' for eclass versionator
-
-received unknown com: export CATEGORY='games-action' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/ikelos/games-action/lugaru/lugaru-9999.ebuild' P='lugaru-9999' PF='lugaru-9999' PN=lugarupath
-!!!              gibak-9999.ebuild, line   5:  Called inherit 'git'
+!!!    facebook-notify-9999.ebuild, line   7:  Called inherit 'distutils' 'git' 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
 
-!!! ERROR: dev-python/pyfacebook-9999 failed.
+!!! ERROR: dev-python/uncompyle-9999 failed.
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/app-backup/gibak/gibak-9999.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 
-!!! ERROR: dev-python/pynfc-0.0.4 failed.
+!!! ERROR: dev-python/pynfc-9999 failed.
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/app-backup/gibak/gibak-9999.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              gibak-9999.ebuild, line   5:  Called inherit 'git'
 !!! caught exception Metadata Exception: pkg ebuild src: app-emulation/qemu-softmmu-0.10.1, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-emulation/qemu-softmmu-0.10.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-util/libbls-9999
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/vol-plugins-moyix-1.0, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/vol-plugins-moyix-1.0
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/vol-plugins-crypto-1.0, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/vol-plugins-crypto-1.0
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: games-rpg/mangos-9999
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/vol-plugins-moyix-1.0, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/vol-plugins-moyix-1.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/alarm-clock-0.2.5
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/gimmie-0.2.99999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/evolution-mapi-0.30.3
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/gimmie-0.2.8
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/gnome-main-menu-0.9.11
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: games-rpg/mangos-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/gnome-shell-extensions-system-monitor-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/gtkparasite-9999
+!!! caught exception False while processing ebuild src: gnome-extra/gnome-main-menu-0.9.11
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: gnome-extra/gimmie-0.2.8
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: gnome-extra/evolution-mapi-0.30.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/timer-applet-2.0.1
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/vol-plugins-reg-0.6, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/vol-plugins-reg-0.6
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: gnome-extra/gtkparasite-9999
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/vol-plugins-malware-1.0, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/vol-plugins-malware-1.0
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/gitty-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/git-python-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: www-servers/woof-2009.12.27
+!!! caught exception False while processing ebuild src: dev-libs/libdwarf-20100930
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/vol-plugins-reg-0.6, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/vol-plugins-reg-0.6
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/gitty-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/facebook-notify-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-python/pypy-1.9
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-backup/gibak-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/pyfacebook-9999
+!!! caught exception False while processing ebuild src: dev-python/pynfc-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/pynfc-0.0.4
+!!! caught exception False while processing ebuild src: dev-python/uncompyle-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-analyzer/inetsim-1.2.4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-action/lugaru-9999
+!!! caught exception False while processing ebuild src: media-video/get_iplayer-2.90
 Error running an operation:
  Unhandled exception in regen_cache
  [Errno 32] Broken pipe
-
-!!! ERROR: net-analyzer/inetsim-1.2.4 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '170' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '186' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '184' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-python/pyfacebook/pyfacebook-9999.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-python/pynfc/pynfc-0.0.4.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-python/pynfc/pynfc-0.0.4.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/net-analyzer/inetsim/inetsim-1.2.4.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-python/pyfacebook/pyfacebook-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/dev-python/pynfc/pynfc-0.0.4.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/dev-python/pyfacebook/pyfacebook-9999.ebuild'
-!!!             pynfc-0.0.4.ebuild, line   7:  Called inherit 'distutils'
-!!!         pyfacebook-9999.ebuild, line   9:  Called inherit 'distutils' 'eutils' 'versionator' 'git-2'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/net-analyzer/inetsim/inetsim-1.2.4.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass distutils
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass distutils
-
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/net-analyzer/inetsim/inetsim-1.2.4.ebuild'
-!!!           inetsim-1.2.4.ebuild, line   7:  Called inherit 'user'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'user'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass user
-
-sandbox:stop  caught signal 15 in pid 962
+sandbox:stop  caught signal 15 in pid 4167
 Sandboxed process killed by signal: Terminated
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f0bf0d53f70> ignored
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '181' 'depend'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+Sandboxed process killed by signal: Broken pipe
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f26d17f6b50> ignored
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '161' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-python/uncompyle/uncompyle-9999.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-python/uncompyle/uncompyle-9999.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-python/pynfc/pynfc-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/dev-python/uncompyle/uncompyle-9999.ebuild'
+!!!          uncompyle-9999.ebuild, line   7:  Called inherit 'git-2' 'distutils'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-python/pynfc/pynfc-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/dev-python/pynfc/pynfc-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git-2'
+!!!              pynfc-9999.ebuild, line   7:  Called inherit 'subversion' 'distutils'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'alive' for eclass git-2
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'subversion'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'alive' for eclass subversion
+
+Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

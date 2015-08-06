@@ -10,23 +10,29 @@
  'status': 'unofficial'}
 $ pmaint sync spike-community-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/Sabayon-Labs/spike-community-overlay
+   60548b6..f21d33a  master     -> origin/master
+Updating 60548b6..f21d33a
+Fast-forward
+ .../qt4-fsarchiver/qt4-fsarchiver-0.6.19-14.ebuild | 65 ++++++++++++++++++++++
+ .../qt4-fsarchiver/qt4-fsarchiver-0.6.19-15.ebuild | 65 ++++++++++++++++++++++
+ 2 files changed, 130 insertions(+)
+ create mode 100644 app-backup/qt4-fsarchiver/qt4-fsarchiver-0.6.19-14.ebuild
+ create mode 100644 app-backup/qt4-fsarchiver/qt4-fsarchiver-0.6.19-15.ebuild
 *** syncing spike-community-overlay
 *** synced spike-community-overlay
  * Sync succeeded
 $ pmaint regen -t 2 spike-community-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-6.12.3, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-6.12.3
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.2.641, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-7.2.641
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/bulk_extractor-1.5.5, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/bulk_extractor-1.5.5
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-6.12.3, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-6.12.3
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.0.0, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-7.0.0
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/ssdeep-2.11.1, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/ssdeep-2.11.1
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/bulk_extractor-1.5.5, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/bulk_extractor-1.5.5
 Error running an operation:
  Unhandled exception in regen_cache
  app-forensics/xmount-0.5.0-2
