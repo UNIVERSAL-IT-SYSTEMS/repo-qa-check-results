@@ -11,7 +11,10 @@ $ pmaint sync interactive-fiction
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Cloning into '/home/mgorny/repos/interactive-fiction'...
-fatal: read error: Connection reset by peer
 *** syncing interactive-fiction
-*** failed syncing interactive-fiction
- * Sync failed with 1
+*** synced interactive-fiction
+ * Sync succeeded
+$ pmaint regen -t 2 interactive-fiction
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

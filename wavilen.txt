@@ -9,13 +9,7 @@
              'uri': 'https://github.com/wavilen/wavilen-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync wavilen
-WARNING:pkgcore:repository at location '/home/mgorny/repos/interactive-fiction' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/slyfox' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/slyfox' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing wavilen
 *** synced wavilen
@@ -23,6 +17,12 @@ Already up-to-date.
 $ pmaint regen -t 2 wavilen
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * 
+ * "/home/mgorny/repos/wavilen/x11-misc/pytyle/pytyle-0.7.5.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 
 !!! ERROR: x11-misc/notify-osd-0.9.29-r1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -38,27 +38,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
 
  * 
- * "/home/mgorny/repos/wavilen/x11-misc/pytyle/pytyle-0.7.5.ebuild":
+ * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.8.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * 
  * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.9.7.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
- * 
- * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.8.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.

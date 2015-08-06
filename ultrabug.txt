@@ -14,15 +14,28 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/ultrabug.git'}],
  'status': 'official'}
 $ pmaint sync ultrabug
-WARNING:pkgcore:repository at location '/home/mgorny/repos/interactive-fiction' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/slyfox' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/slyfox' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/ultrabug
+   b4d38ad..a348c2a  master     -> origin/master
+Updating b4d38ad..a348c2a
+Fast-forward
+ app-admin/aerospike-amc-community/Manifest         |  4 +-
+ ...ebuild => aerospike-amc-community-3.6.1.ebuild} |  0
+ dev-db/aerospike-server-community/Manifest         |  4 +-
+ ...ld => aerospike-server-community-3.5.15.ebuild} |  0
+ .../aerospike-server-community-3.5.8.ebuild        | 72 ----------------------
+ dev-libs/libaerospike/Manifest                     |  2 +-
+ ...ke-3.1.11.ebuild => libaerospike-3.1.20.ebuild} | 10 ++-
+ 7 files changed, 13 insertions(+), 79 deletions(-)
+ rename app-admin/aerospike-amc-community/{aerospike-amc-community-3.5.4.ebuild => aerospike-amc-community-3.6.1.ebuild} (100%)
+ rename dev-db/aerospike-server-community/{aerospike-server-community-3.5.8-r1.ebuild => aerospike-server-community-3.5.15.ebuild} (100%)
+ delete mode 100644 dev-db/aerospike-server-community/aerospike-server-community-3.5.8.ebuild
+ rename dev-libs/libaerospike/{libaerospike-3.1.11.ebuild => libaerospike-3.1.20.ebuild} (76%)
 *** syncing ultrabug
 *** synced ultrabug
  * Sync succeeded
