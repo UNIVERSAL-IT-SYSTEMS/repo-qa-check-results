@@ -10,23 +10,7 @@
  'status': 'unofficial'}
 $ pmaint sync lmiphay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/user/lmiphay
-   977c112..f07465a  master     -> origin/master
-Updating 977c112..f07465a
-Fast-forward
- media-sound/squeezelite/Manifest                   |   5 +
- .../files/squeezelite-1.8-gentoo-makefile.patch    |  21 ++++
- .../squeezelite-1.8-gentoo-optional-codecs.patch   | 126 +++++++++++++++++++++
- media-sound/squeezelite/files/squeezelite.conf.d   |  22 ++++
- media-sound/squeezelite/files/squeezelite.init.d   |  32 ++++++
- media-sound/squeezelite/squeezelite-1.8.ebuild     | 112 ++++++++++++++++++
- 6 files changed, 318 insertions(+)
- create mode 100644 media-sound/squeezelite/Manifest
- create mode 100644 media-sound/squeezelite/files/squeezelite-1.8-gentoo-makefile.patch
- create mode 100644 media-sound/squeezelite/files/squeezelite-1.8-gentoo-optional-codecs.patch
- create mode 100644 media-sound/squeezelite/files/squeezelite.conf.d
- create mode 100755 media-sound/squeezelite/files/squeezelite.init.d
- create mode 100644 media-sound/squeezelite/squeezelite-1.8.ebuild
+Already up-to-date.
 *** syncing lmiphay
 *** synced lmiphay
  * Sync succeeded
