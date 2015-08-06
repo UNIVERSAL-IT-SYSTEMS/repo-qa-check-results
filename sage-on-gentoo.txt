@@ -11,21 +11,7 @@
  'status': 'unofficial'}
 $ pmaint sync sage-on-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/cschwan/sage-on-gentoo
-   63bd786..1f88400  master     -> origin/master
-Updating 63bd786..1f88400
-Fast-forward
- package.keywords/sage-6.6                          |  1 -
- package.keywords/sage-6.7                          |  1 -
- package.keywords/sage-6.8                          |  1 -
- package.keywords/sage-9999                         |  3 +--
- sci-mathematics/sage-data-graphs/ChangeLog         |  6 +++++
- sci-mathematics/sage-data-graphs/Manifest          |  1 +
- .../sage-data-graphs-20150724.ebuild               | 29 ++++++++++++++++++++++
- sci-mathematics/sage/ChangeLog                     |  4 +++
- sci-mathematics/sage/sage-9999.ebuild              |  2 +-
- 9 files changed, 42 insertions(+), 6 deletions(-)
- create mode 100644 sci-mathematics/sage-data-graphs/sage-data-graphs-20150724.ebuild
+Already up-to-date.
 *** syncing sage-on-gentoo
 *** synced sage-on-gentoo
  * Sync succeeded
