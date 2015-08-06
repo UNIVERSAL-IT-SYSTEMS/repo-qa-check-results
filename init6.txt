@@ -12,56 +12,11 @@
  'status': 'unofficial'}
 $ pmaint sync init6
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/init6/init_6
-   b90f672..c1fb4da  master     -> origin/master
-Updating b90f672..c1fb4da
-Fast-forward
- sys-kernel/geek-sources/Manifest                             |  6 ++++--
- .../{4.1.3 => 4.1.4}/brand/font-8x16-iso-latin-1-v3.patch    |  0
- .../files/{4.1.3 => 4.1.4}/brand/gentoo-larry-logo-v5.patch  |  0
- .../{4.1.3 => 4.1.4}/brand/linux-3.16-colored-printk.patch   |  0
- .../geek-sources/files/{4.1.3 => 4.1.4}/brand/patch_list     |  0
- .../fix/0001-Bluetooth-allocate-static-minor-for-vhci.patch  |  0
- ...odule-allow-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch |  0
- .../fix/0003-module-remove-MODULE_GENERIC_TABLE.patch        |  0
- .../fix/0004-fs-Don-t-return-0-from-get_anon_bdev.patch      |  0
- ...evert-Bluetooth-Enable-autosuspend-for-Intel-Blueto.patch |  0
- .../fix/0006-genksyms-fix-typeof-handling.patch              |  0
- ...7-x86-efi-Correct-EFI-boot-stub-use-of-code32_start.patch |  0
- ...wlwifi-mvm-delay-enabling-smart-FIFO-until-after-be.patch |  0
- ...rm-i915-Disallow-pin-ioctl-completely-for-kms-drive.patch |  0
- .../fix/change-default-console-loglevel.patch                |  0
- .../files/{4.1.3 => 4.1.4}/fix/compal-laptop-hwmon-fix.patch |  0
- .../geek-sources/files/{4.1.3 => 4.1.4}/fix/patch_list       |  0
- .../files/{4.1.3 => 4.1.4}/fix/unfuck_intel_video.patch      |  0
- .../{geek-sources-4.1.3.ebuild => geek-sources-4.1.4.ebuild} | 12 ++++++------
- 19 files changed, 10 insertions(+), 8 deletions(-)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/brand/font-8x16-iso-latin-1-v3.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/brand/gentoo-larry-logo-v5.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/brand/linux-3.16-colored-printk.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/brand/patch_list (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/0001-Bluetooth-allocate-static-minor-for-vhci.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/0002-module-allow-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/0003-module-remove-MODULE_GENERIC_TABLE.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/0004-fs-Don-t-return-0-from-get_anon_bdev.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/0005-Revert-Bluetooth-Enable-autosuspend-for-Intel-Blueto.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/0006-genksyms-fix-typeof-handling.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/0007-x86-efi-Correct-EFI-boot-stub-use-of-code32_start.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/0010-iwlwifi-mvm-delay-enabling-smart-FIFO-until-after-be.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/0011-drm-i915-Disallow-pin-ioctl-completely-for-kms-drive.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/change-default-console-loglevel.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/compal-laptop-hwmon-fix.patch (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/patch_list (100%)
- rename sys-kernel/geek-sources/files/{4.1.3 => 4.1.4}/fix/unfuck_intel_video.patch (100%)
- rename sys-kernel/geek-sources/{geek-sources-4.1.3.ebuild => geek-sources-4.1.4.ebuild} (81%)
+Already up-to-date.
 *** syncing init6
 *** synced init6
  * Sync succeeded
 $ pmaint regen -t 2 init6
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 30134, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+ * Cache regenerated successfully
