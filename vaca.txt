@@ -10,7 +10,85 @@
 $ pmaint sync vaca
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hashashin/gentoo-vaca-overlay
+   90e9370..60c0443  master     -> origin/master
+Updating 90e9370..60c0443
+Fast-forward
+ app-emulation/spice-protocol/ChangeLog             |   6 +
+ app-emulation/spice-protocol/Manifest              |  22 +-
+ ...-0.12.8.ebuild => spice-protocol-0.12.9.ebuild} |   0
+ app-emulation/wine/ChangeLog                       |  31 -
+ app-emulation/wine/Manifest                        |  26 -
+ .../wine/files/wine-1.4_rc2-multilib-portage.patch |  40 --
+ .../wine/files/wine-1.5.17-osmesa-check.patch      |  38 -
+ app-emulation/wine/files/wine-1.5.26-winegcc.patch |  59 --
+ app-emulation/wine/files/wine-1.6-memset-O3.patch  |  21 -
+ .../wine/files/wine-1.7.12-osmesa-check.patch      |  38 -
+ .../wine/files/wine-1.7.2-osmesa-check.patch       |  38 -
+ .../wine/files/wine-1.7.28-gstreamer-v4.patch      | 629 -----------------
+ app-emulation/wine/metadata.xml                    |  34 -
+ app-emulation/wine/wine-1.7.30.ebuild              | 496 -------------
+ app-text/iso-codes/ChangeLog                       |   8 +-
+ app-text/iso-codes/Manifest                        |  28 +-
+ app-text/iso-codes/iso-codes-3.56.ebuild           |  46 --
+ app-text/iso-codes/iso-codes-3.60.ebuild           |  69 ++
+ app-text/po4a/ChangeLog                            |   7 +-
+ app-text/po4a/Manifest                             |  30 +-
+ app-text/po4a/po4a-0.45.ebuild                     |  33 -
+ app-text/po4a/po4a-0.46.ebuild                     |  64 ++
+ dev-java/tomcat-servlet-api/ChangeLog              | 764 ---------------------
+ dev-java/tomcat-servlet-api/Manifest               |  21 -
+ dev-java/tomcat-servlet-api/files/3.0-build.xml    |  92 ---
+ dev-java/tomcat-servlet-api/metadata.xml           |  11 -
+ .../tomcat-servlet-api-7.0.57.ebuild               |  36 -
+ dev-libs/libpwquality/ChangeLog                    |   8 +-
+ dev-libs/libpwquality/Manifest                     |  30 +-
+ ...lity-1.2.3.ebuild => libpwquality-1.3.0.ebuild} |   2 +-
+ media-plugins/live/ChangeLog                       |   6 +
+ media-plugins/live/Manifest                        |  22 +-
+ ...ve-2015.07.19.ebuild => live-2015.07.31.ebuild} |   0
+ media-video/smtube/ChangeLog                       |   5 +
+ media-video/smtube/Manifest                        |  30 +-
+ .../{smtube-1.8.ebuild => smtube-15.5.17.ebuild}   |   7 +-
+ net-analyzer/kippo/Manifest                        |  20 +
+ net-misc/spice-gtk/ChangeLog                       |   8 +-
+ net-misc/spice-gtk/Manifest                        |  29 +-
+ net-misc/spice-gtk/metadata.xml                    |  14 +-
+ net-misc/spice-gtk/spice-gtk-0.26.ebuild           | 170 -----
+ ...spice-gtk-0.21.ebuild => spice-gtk-0.29.ebuild} | 127 ++--
+ net-wireless/iw/ChangeLog                          |   8 +-
+ net-wireless/iw/Manifest                           |  28 +-
+ net-wireless/iw/files/iw-3.2_libnl-3x-compile.diff |  69 --
+ net-wireless/iw/{iw-3.15.ebuild => iw-4.1.ebuild}  |   6 +-
+ 46 files changed, 407 insertions(+), 2869 deletions(-)
+ rename app-emulation/spice-protocol/{spice-protocol-0.12.8.ebuild => spice-protocol-0.12.9.ebuild} (100%)
+ delete mode 100644 app-emulation/wine/ChangeLog
+ delete mode 100644 app-emulation/wine/Manifest
+ delete mode 100644 app-emulation/wine/files/wine-1.4_rc2-multilib-portage.patch
+ delete mode 100644 app-emulation/wine/files/wine-1.5.17-osmesa-check.patch
+ delete mode 100644 app-emulation/wine/files/wine-1.5.26-winegcc.patch
+ delete mode 100644 app-emulation/wine/files/wine-1.6-memset-O3.patch
+ delete mode 100644 app-emulation/wine/files/wine-1.7.12-osmesa-check.patch
+ delete mode 100644 app-emulation/wine/files/wine-1.7.2-osmesa-check.patch
+ delete mode 100644 app-emulation/wine/files/wine-1.7.28-gstreamer-v4.patch
+ delete mode 100644 app-emulation/wine/metadata.xml
+ delete mode 100644 app-emulation/wine/wine-1.7.30.ebuild
+ delete mode 100644 app-text/iso-codes/iso-codes-3.56.ebuild
+ create mode 100644 app-text/iso-codes/iso-codes-3.60.ebuild
+ delete mode 100644 app-text/po4a/po4a-0.45.ebuild
+ create mode 100644 app-text/po4a/po4a-0.46.ebuild
+ delete mode 100644 dev-java/tomcat-servlet-api/ChangeLog
+ delete mode 100644 dev-java/tomcat-servlet-api/Manifest
+ delete mode 100644 dev-java/tomcat-servlet-api/files/3.0-build.xml
+ delete mode 100644 dev-java/tomcat-servlet-api/metadata.xml
+ delete mode 100644 dev-java/tomcat-servlet-api/tomcat-servlet-api-7.0.57.ebuild
+ rename dev-libs/libpwquality/{libpwquality-1.2.3.ebuild => libpwquality-1.3.0.ebuild} (97%)
+ rename media-plugins/live/{live-2015.07.19.ebuild => live-2015.07.31.ebuild} (100%)
+ rename media-video/smtube/{smtube-1.8.ebuild => smtube-15.5.17.ebuild} (85%)
+ delete mode 100644 net-misc/spice-gtk/spice-gtk-0.26.ebuild
+ rename net-misc/spice-gtk/{spice-gtk-0.21.ebuild => spice-gtk-0.29.ebuild} (58%)
+ delete mode 100644 net-wireless/iw/files/iw-3.2_libnl-3x-compile.diff
+ rename net-wireless/iw/{iw-3.15.ebuild => iw-4.1.ebuild} (74%)
 *** syncing vaca
 *** synced vaca
  * Sync succeeded
