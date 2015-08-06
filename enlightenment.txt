@@ -8,29 +8,11 @@
              'uri': 'git://anongit.gentoo.org/proj/enlightenment.git'}],
  'status': 'official'}
 $ pmaint sync enlightenment
-WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/enlightenment
-   8f214b4..275a703  master     -> origin/master
-Updating 8f214b4..275a703
-Fast-forward
- media-libs/imlib2_loaders/Manifest                 |  1 -
- .../imlib2_loaders/imlib2_loaders-1.4.0.003.ebuild | 29 --------------
- .../imlib2_loaders/imlib2_loaders-9999.ebuild      | 30 ---------------
- media-libs/imlib2_loaders/metadata.xml             | 11 ------
- scripts/package.keywords.livecvs                   | 26 +------------
- scripts/package.keywords.snapshots                 | 26 +------------
- scripts/svn-status                                 | 45 ----------------------
- 7 files changed, 2 insertions(+), 166 deletions(-)
- delete mode 100644 media-libs/imlib2_loaders/Manifest
- delete mode 100644 media-libs/imlib2_loaders/imlib2_loaders-1.4.0.003.ebuild
- delete mode 100644 media-libs/imlib2_loaders/imlib2_loaders-9999.ebuild
- delete mode 100644 media-libs/imlib2_loaders/metadata.xml
- delete mode 100755 scripts/svn-status
+Already up-to-date.
 *** syncing enlightenment
 *** synced enlightenment
  * Sync succeeded
