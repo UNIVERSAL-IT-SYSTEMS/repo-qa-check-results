@@ -11,24 +11,16 @@
 $ pmaint sync go-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/Dr-Terrible/go-overlay
-   6b8e41a..85f2cec  master     -> origin/master
-Updating 6b8e41a..85f2cec
+   85f2cec..ebcd9dc  master     -> origin/master
+Updating 85f2cec..ebcd9dc
 Fast-forward
- dev-go/grind/Manifest                              |  2 ++
- dev-go/grind/grind-0.1.0_pre20150302.ebuild        | 23 ++++++++++++++++++++++
- dev-go/grind/metadata.xml                          | 10 ++++++++++
- dev-util/go-tools/Manifest                         |  2 +-
- ...ls-20150724.ebuild => go-tools-20150606.ebuild} |  2 +-
- metadata/md5-cache/dev-go/grind-0.1.0_pre20150302  | 13 ++++++++++++
- .../{go-tools-20150724 => go-tools-20150606}       |  4 ++--
- metadata/pkg_desc_index                            |  3 ++-
- 8 files changed, 54 insertions(+), 5 deletions(-)
- create mode 100644 dev-go/grind/Manifest
- create mode 100644 dev-go/grind/grind-0.1.0_pre20150302.ebuild
- create mode 100644 dev-go/grind/metadata.xml
- rename dev-util/go-tools/{go-tools-20150724.ebuild => go-tools-20150606.ebuild} (90%)
- create mode 100644 metadata/md5-cache/dev-go/grind-0.1.0_pre20150302
- rename metadata/md5-cache/dev-util/{go-tools-20150724 => go-tools-20150606} (78%)
+ dev-util/go-tools/Manifest                                              | 2 +-
+ .../go-tools/{go-tools-20150606.ebuild => go-tools-20150806.ebuild}     | 0
+ metadata/md5-cache/dev-util/{go-tools-20150606 => go-tools-20150806}    | 2 +-
+ metadata/pkg_desc_index                                                 | 2 +-
+ 4 files changed, 3 insertions(+), 3 deletions(-)
+ rename dev-util/go-tools/{go-tools-20150606.ebuild => go-tools-20150806.ebuild} (100%)
+ rename metadata/md5-cache/dev-util/{go-tools-20150606 => go-tools-20150806} (91%)
 *** syncing go-overlay
 *** synced go-overlay
  * Sync succeeded

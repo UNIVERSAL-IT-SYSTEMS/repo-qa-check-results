@@ -22,20 +22,24 @@ $ pmaint regen -t 2 dberkholz
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
-!!! ERROR: app-pda/ipheth-pair-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-
 !!! ERROR: sci-biology/TMalign-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '190' 'depend'
+ * 
+ * "/home/mgorny/repos/dberkholz/sci-biology/biskit/biskit-2.3.1.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '176' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+ * 
+ * "/home/mgorny/repos/dberkholz/sci-mathematics/pyquante/pyquante-1.6.3.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
  * 
  * "/home/mgorny/repos/dberkholz/sci-mathematics/elefant/elefant-0.4.0.ebuild":
@@ -44,330 +48,291 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-biology/TMalign/TMalign-9999.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/app-pda/ipheth-pair/ipheth-pair-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/app-pda/ipheth-pair/ipheth-pair-9999.ebuild'
- * 
- * "/home/mgorny/repos/dberkholz/sci-biology/biskit/biskit-2.3.1.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-biology/TMalign/TMalign-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/app-pda/ipheth-pair/ipheth-pair-9999.ebuild'
-!!!        ipheth-pair-9999.ebuild, line   5:  Called inherit 'git' 'autotools'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-biology/TMalign/TMalign-9999.ebuild'
 
 !!! ERROR: x11-drivers/nvidia-drivers-280.11 failed.
-!!!            TMalign-9999.ebuild, line   7:  Called inherit 'fortran'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-biology/TMalign/TMalign-9999.ebuild'
 !!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-
-!!! ERROR: sci-biology/biskit-9999 failed.
+!!!            TMalign-9999.ebuild, line   7:  Called inherit 'fortran'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for fortran failed
 
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
-!!! ERROR: sci-biology/ce-20040716 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '227' 'depend'
+!!! ERROR: sci-biology/biskit-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '171' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '227' 'depend'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
-!!! ERROR: sci-biology/mmult-1.0 failed.
+!!! ERROR: sci-physics/exciting-0.9.74 failed.
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/x11-drivers/nvidia-drivers/nvidia-drivers-280.11.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '171' 'depend'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/x11-drivers/nvidia-drivers/nvidia-drivers-280.11.ebuild'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '171' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+
+!!! ERROR: app-emulation/vmware-modules-1.0.0.15-r3 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
  * 
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-biology/biskit/biskit-9999.ebuild'
  * "/home/mgorny/repos/dberkholz/sci-physics/campos-gridpaw/campos-gridpaw-0.4.2734.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/x11-drivers/nvidia-drivers/nvidia-drivers-280.11.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-
-!!! ERROR: app-emulation/vmware-modules-1.0.0.15-r3 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!   nvidia-drivers-280.11.ebuild, line   7:  Called inherit 'eutils' 'multilib' 'versionator' 'linux-mod' 'flag-o-matic' 'nvidia-driver'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/x11-drivers/nvidia-drivers/nvidia-drivers-280.11.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '195' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-biology/biskit/biskit-9999.ebuild'
+
+!!! ERROR: sci-biology/mmult-1.0 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-biology/biskit/biskit-9999.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-biology/ce/ce-20040716.ebuild'
-!!!                  ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'nvidia-driver'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-biology/biskit/biskit-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-biology/ce/ce-20040716.ebuild'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '165' 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/nvidia-driver.eclass'
 
 !!! ERROR: sci-physics/abinit-5.7.3 failed.
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                  ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-biology/ce/ce-20040716.ebuild'
- * 
- * "/home/mgorny/repos/dberkholz/sci-mathematics/pyquante/pyquante-1.6.3.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/nvidia-driver.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-biology/biskit/biskit-9999.ebuild'
 !!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ce-20040716.ebuild, line   7:  Called inherit 'toolchain-funcs'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             biskit-9999.ebuild, line   5:  Called inherit 'eutils' 'python' 'portability' 'subversion'
+!!!   nvidia-drivers-280.11.ebuild, line   7:  Called inherit 'eutils' 'multilib' 'versionator' 'linux-mod' 'flag-o-matic' 'nvidia-driver'
 
-!!! ERROR: dev-util/oprofile-0.9.3-r1 failed.
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-biology/mmult/mmult-1.0.ebuild'
-!!!           nvidia-driver.eclass, line  16:  Called inherit 'readme.gentoo' 'versionator'
+!!! ERROR: app-pda/ipheth-pair-9999 failed.
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-physics/exciting/exciting-0.9.74.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!                  ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '250' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-biology/mmult/mmult-1.0.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'toolchain-funcs'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'readme.gentoo'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-physics/exciting/exciting-0.9.74.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'nvidia-driver'
+!!!             biskit-9999.ebuild, line   5:  Called inherit 'eutils' 'python' 'portability' 'subversion'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-biology/mmult/mmult-1.0.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!                  ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 222' for eclass toolchain-funcs
-
-received unknown com: export CATEGORY='sci-physics' PR=r0 PVR='3.0.0.657' PV='3.0.0.657' EBUILD='/home/mgorny/repos/dberkholz/sci-physics/campos-ase/campos-ase-3.0.0.657.ebuild' P='campos-ase-3.0.0.657' PF='campos-ase-3.0.0.657' PN='campos-ase'path
-Exception in thread Thread-11:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 202' for eclass eutils
-
-received unknown com: export CATEGORY='sci-physics' PR=r0 PVR='2.14' PV='2.14' EBUILD='/home/mgorny/repos/dberkholz/sci-physics/campos-asap/campos-asap-2.14.ebuild' P='campos-asap-2.14' PF='campos-asap-2.14' PN='campos-asap'path
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/readme.gentoo.eclass'
-Exception in thread Thread-3:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                          ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/app-emulation/vmware-modules/vmware-modules-1.0.0.15-r3.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/nvidia-driver.eclass'
+!!!                  ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-physics/exciting/exciting-0.9.74.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '180' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/readme.gentoo.eclass'
-!!!               mmult-1.0.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'fortran'
-
-!!! ERROR: sci-physics/exciting-0.9.74 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
- * 
-!!! Call stack:
- * "/home/mgorny/repos/dberkholz/sci-physics/campos-dacapo/campos-dacapo-2.7.7.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!                          ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/app-emulation/vmware-modules/vmware-modules-1.0.0.15-r3.ebuild'
-
-!!! ERROR: sci-physics/campos-dacapo-2.7.7 failed.
-!!!           readme.gentoo.eclass, line  25:  Called die
+!!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  Unsupported EAPI=2 (too old) for readme.gentoo
+!!!  unknown inherit command from pythonic side, 'gen_metadata 217' for eclass eutils
 
+received unknown com: export CATEGORY='sci-physics' PR=r0 PVR='2.7.7' PV='2.7.7' EBUILD='/home/mgorny/repos/dberkholz/sci-physics/campos-dacapo/campos-dacapo-2.7.7.ebuild' P='campos-dacapo-2.7.7' PF='campos-dacapo-2.7.7' PN='campos-dacapo'path
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '165' 'depend'
+Exception in thread Thread-12:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!                          ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/app-emulation/vmware-modules/vmware-modules-1.0.0.15-r3.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '190' 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/nvidia-driver.eclass'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '193' 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!         exciting-0.9.74.ebuild, line   5:  Called inherit 'fortran'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-physics/abinit/abinit-5.7.3.ebuild'
+!!!           nvidia-driver.eclass, line  16:  Called inherit 'readme.gentoo' 'versionator'
+!!!                          ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/app-emulation/vmware-modules/vmware-modules-1.0.0.15-r3.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/app-emulation/vmware-modules/vmware-modules-1.0.0.15-r3.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'readme.gentoo'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-biology/mmult/mmult-1.0.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-physics/abinit/abinit-5.7.3.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/app-pda/ipheth-pair/ipheth-pair-9999.ebuild'
+!!!   vmware-modules-1.0.0.15-r3.ebuild, line   9:  Called inherit 'vmware-mod'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for fortran failed
 
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-biology/mmult/mmult-1.0.ebuild'
 
-!!! ERROR: app-emulation/docker-0.7.6 failed.
+!!! ERROR: sci-physics/octopus-3.0.0 failed.
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-physics/abinit/abinit-5.7.3.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/app-emulation/vmware-modules/vmware-modules-1.0.0.15-r3.ebuild'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!   vmware-modules-1.0.0.15-r3.ebuild, line   9:  Called inherit 'vmware-mod'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-physics/abinit/abinit-5.7.3.ebuild'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/dev-util/oprofile/oprofile-0.9.3-r1.ebuild'
+ * 
+ * "/home/mgorny/repos/dberkholz/sci-physics/campos-ase/campos-ase-3.0.0.657.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/readme.gentoo.eclass'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/app-pda/ipheth-pair/ipheth-pair-9999.ebuild'
 !!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vmware-mod'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '195' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-physics/abinit/abinit-5.7.3.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/dev-util/oprofile/oprofile-0.9.3-r1.ebuild'
 !!!                   ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vmware-mod failed
 
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '217' 'depend'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!            abinit-5.7.3.ebuild, line   6:  Called inherit 'fortran' 'multilib' 'toolchain-funcs'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/readme.gentoo.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/app-pda/ipheth-pair/ipheth-pair-9999.ebuild'
 
 !!! ERROR: app-emulation/xen-3.2.1 failed.
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/dev-util/oprofile/oprofile-0.9.3-r1.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-
-!!! ERROR: sci-physics/octopus-3.0.0 failed.
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-physics/abinit/abinit-5.7.3.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-physics/exciting/exciting-0.9.74.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '184' 'depend'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-physics/campos-dacapo/campos-dacapo-2.7.7.ebuild'
-!!!       oprofile-0.9.3-r1.ebuild, line   5:  Called inherit 'eutils' 'qt3' 'linux-info'
-!!!            abinit-5.7.3.ebuild, line   6:  Called inherit 'fortran' 'multilib' 'toolchain-funcs'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-physics/exciting/exciting-0.9.74.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-physics/campos-dacapo/campos-dacapo-2.7.7.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-biology/mmult/mmult-1.0.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!           readme.gentoo.eclass, line  25:  Called die
+!!! The die message:
+!!!  Unsupported EAPI=2 (too old) for readme.gentoo
+
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for fortran failed
 
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-physics/exciting/exciting-0.9.74.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt3 failed
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '185' 'depend'
+!!!        ipheth-pair-9999.ebuild, line   5:  Called inherit 'git' 'autotools'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!               mmult-1.0.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'fortran'
 
-
-!!! ERROR: dev-util/rstudio-bin-0.96.316 failed.
+!!! ERROR: dev-util/oprofile-0.9.3-r1 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-physics/campos-dacapo/campos-dacapo-2.7.7.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/app-emulation/docker/docker-0.7.6.ebuild'
-!!!         exciting-0.9.74.ebuild, line   5:  Called inherit 'fortran'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '169' 'depend'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!     campos-dacapo-2.7.7.ebuild, line   5:  Called inherit 'distutils' 'fortran' 'multilib'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/app-emulation/docker/docker-0.7.6.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
-
-!!! ERROR: sci-libs/cctbx-2005.12.29.2029 failed.
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/app-emulation/xen/xen-3.2.1.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: app-misc/labyrinth-9999 failed.
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/app-emulation/docker/docker-0.7.6.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
-!!!  inherit for fortran failed
+!!!  inherit for git failed
 
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-physics/octopus/octopus-3.0.0.ebuild'
+
+!!! ERROR: media-gfx/fly-2.0.0 failed.
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '169' 'depend'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for fortran failed
 
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/app-emulation/xen/xen-3.2.1.ebuild'
-
-!!! ERROR: sci-libs/bigdft-1.2.0 failed.
-!!!            docker-0.7.6.ebuild, line  24:  Called inherit 'bash-completion-r1' 'linux-info' 'systemd' 'udev' 'user'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '216' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-physics/octopus/octopus-3.0.0.ebuild'
 
-!!! ERROR: sci-libs/libxc-0.9 failed.
+!!! ERROR: dev-util/latrace-0.5 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: app-admin/system-config-boot-0.2.12 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-
-!!! ERROR: sci-libs/fox-4.0.3 failed.
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: sci-libs/pgd-utils-0.4.2 failed.
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-physics/octopus/octopus-3.0.0.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'bash-completion-r1'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/app-emulation/xen/xen-3.2.1.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-physics/octopus/octopus-3.0.0.ebuild'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '193' 'depend'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: net-wireless/iw-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-physics/octopus/octopus-3.0.0.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!           octopus-3.0.0.ebuild, line   7:  Called inherit 'fortran'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/app-emulation/xen/xen-3.2.1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/dev-util/oprofile/oprofile-0.9.3-r1.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '180' 'depend'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 189' for eclass bash-completion-r1
+!!!  unknown inherit command from pythonic side, 'gen_metadata 258' for eclass fortran
+
+received unknown com: export CATEGORY='app-admin' PR=r0 PVR='0.1.41' PV='0.1.41' EBUILD='/home/mgorny/repos/dberkholz/app-admin/system-config-netboot/system-config-netboot-0.1.41.ebuild' P='system-config-netboot-0.1.41' PF='system-config-netboot-0.1.41' PN='system-config-netboot'failed
+Exception in thread Thread-13:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '161' 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/app-emulation/xen/xen-3.2.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/dev-util/oprofile/oprofile-0.9.3-r1.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '153' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/app-emulation/xen/xen-3.2.1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/dev-util/oprofile/oprofile-0.9.3-r1.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '169' 'depend'
+
+!!! ERROR: sci-libs/libxc-0.9 failed.
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/media-gfx/fly/fly-2.0.0.ebuild'
+!!!               xen-3.2.1.ebuild, line   5:  Called inherit 'mount-boot' 'flag-o-matic' 'eutils'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+
+!!! ERROR: sci-libs/bigdft-1.2.0 failed.
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/app-misc/labyrinth/labyrinth-9999.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/media-gfx/fly/fly-2.0.0.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/net-wireless/iw/iw-9999.ebuild'
+!!!       oprofile-0.9.3-r1.ebuild, line   5:  Called inherit 'eutils' 'qt3' 'linux-info'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/app-misc/labyrinth/labyrinth-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mount-boot'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 189' for eclass mount-boot
 
 received unknown com: export CATEGORY='app-misc' PR=r0 PVR='0.4.1' PV='0.4.1' EBUILD='/home/mgorny/repos/dberkholz/app-misc/labyrinth/labyrinth-0.4.1.ebuild' P='labyrinth-0.4.1' PF='labyrinth-0.4.1' PN=labyrinthpath
 Exception in thread Thread-6:
@@ -395,27 +360,17 @@ Traceback (most recent call last):
 RuntimeError: [Errno 32] Broken pipe
 
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!               xen-3.2.1.ebuild, line   5:  Called inherit 'mount-boot' 'flag-o-matic' 'eutils'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-physics/octopus/octopus-3.0.0.ebuild'
-!!!                 ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/dev-util/rstudio-bin/rstudio-bin-0.96.316.ebuild'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '219' 'depend'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '180' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mount-boot'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/app-misc/labyrinth/labyrinth-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/net-wireless/iw/iw-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/media-gfx/fly/fly-2.0.0.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 153' for eclass mount-boot
+!!!  unknown inherit command from pythonic side, 'gen_metadata 174' for eclass eutils
 
-!!!           octopus-3.0.0.ebuild, line   7:  Called inherit 'fortran'
-received unknown com: export CATEGORY='net-wireless' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/dberkholz/net-wireless/iw/iw-9999.ebuild' P='iw-9999' PF='iw-9999' PN=iwpath
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+received unknown com: export CATEGORY='app-text' PR=r0 PVR='0.5' PV='0.5' EBUILD='/home/mgorny/repos/dberkholz/app-text/pastebin/pastebin-0.5.ebuild' P='pastebin-0.5' PF='pastebin-0.5' PN=pastebinpath
 Exception in thread Thread-8:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -440,399 +395,22 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/dev-util/rstudio-bin/rstudio-bin-0.96.316.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '159' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for fortran failed
-
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-pda/ipheth-pair-9999
-!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-biology/TMalign-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-biology/biskit-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-biology/ce-20040716
-!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-biology/mmult-1.0
-!!! caught exception inherit requires an unknown eclass, vmware-mod cannot be found while processing ebuild src: app-emulation/vmware-modules-1.0.0.15-r3
-!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-physics/abinit-5.7.3
-!!! caught exception inherit requires an unknown eclass, qt3 cannot be found while processing ebuild src: dev-util/oprofile-0.9.3-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-physics/campos-ase-3.0.0.657
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-lang/python-2.5.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-physics/campos-asap-2.14
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-admin/anaconda-11.2
-!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-physics/exciting-0.9.74
-!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-physics/campos-dacapo-2.7.7
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-drivers/nvidia-drivers-280.11
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-emulation/docker-0.7.6
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-emulation/xen-3.2.1
-!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-physics/octopus-3.0.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-util/rstudio-bin-0.96.316
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-gfx/fly-2.0.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-admin/system-config-boot-0.2.12
-!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-libs/bigdft-1.2.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/gcalcli-1.2
-!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-libs/libxc-0.9
-!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-libs/fox-4.0.3
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/labyrinth-0.4.1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sci-libs/starparse-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-wireless/iw-9999
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sci-libs/vcg-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-scheme/gui!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/dev-util/rstudio-bin/rstudio-bin-0.96.316.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/app-misc/labyrinth/labyrinth-9999.ebuild'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                 ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '243' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-libs/cctbx/cctbx-2005.12.29.2029.ebuild'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '191' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '159' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-libs/libxc/libxc-0.9.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/app-misc/labyrinth/labyrinth-9999.ebuild'
-!!!    rstudio-bin-0.96.316.ebuild, line   7:  Called inherit 'eutils' 'rpm'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-libs/cctbx/cctbx-2005.12.29.2029.ebuild'
-!!!                 ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'rpm'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/app-misc/labyrinth/labyrinth-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-libs/libxc/libxc-0.9.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-libs/cctbx/cctbx-2005.12.29.2029.ebuild'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 159' for eclass rpm
-
-received unknown com: export CATEGORY='sci-libs' PR=r0 PVR='1.1.1' PV='1.1.1' EBUILD='/home/mgorny/repos/dberkholz/sci-libs/ann/ann-1.1.1.ebuild' P='ann-1.1.1' PF='ann-1.1.1' PN=annpath
-Exception in thread Thread-9:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/app-admin/system-config-boot/system-config-boot-0.2.12.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-libs/bigdft/bigdft-1.2.0.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-libs/pgd-utils/pgd-utils-0.4.2.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-libs/fox/fox-4.0.3.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/net-wireless/iw/iw-9999.ebuild'
 !!!          labyrinth-9999.ebuild, line   8:  Called inherit 'gnome2' 'autotools' 'subversion'
-
-!!! ERROR: dev-java/fop-0.92_beta failed.
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-libs/bigdft/bigdft-1.2.0.ebuild'
-!!!   cctbx-2005.12.29.2029.ebuild, line   5:  Called inherit 'toolchain-funcs' 'python'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-libs/pgd-utils/pgd-utils-0.4.2.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-libs/libxc/libxc-0.9.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/app-admin/system-config-boot/system-config-boot-0.2.12.ebuild'
+!!!               fly-2.0.0.ebuild, line   5:  Called inherit 'toolchain-funcs'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/dev-util/latrace/latrace-0.5.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/dev-util/latrace/latrace-0.5.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '159' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-libs/bigdft/bigdft-1.2.0.ebuild'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                 iw-9999.ebuild, line   7:  Called inherit 'git' 'toolchain-funcs' 'linux-info'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'toolchain-funcs'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 181' for eclass python
+!!!  unknown inherit command from pythonic side, 'gen_metadata 188' for eclass toolchain-funcs
 
-received unknown com: export CATEGORY='sci-libs' PR=r0 PVR='1.0.2' PV='1.0.2' EBUILD='/home/mgorny/repos/dberkholz/sci-libs/etsf_io/etsf_io-1.0.2.ebuild' P='etsf_io-1.0.2' PF='etsf_io-1.0.2' PN='etsf_io'path
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-libs/pgd-utils/pgd-utils-0.4.2.ebuild'
-!!!               libxc-0.9.ebuild, line   6:  Called inherit 'fortran' 'multilib'
-Exception in thread Thread-7:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-libs/fox/fox-4.0.3.ebuild'
-
-!!! ERROR: www-apps/trac-git-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!            bigdft-1.2.0.ebuild, line   6:  Called inherit 'eutils' 'fortran' 'multilib'
-!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/app-admin/system-config-boot/system-config-boot-0.2.12.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
-!!!         pgd-utils-0.4.2.ebuild, line   5:  Called inherit 'distutils'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for fortran failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-libs/fox/fox-4.0.3.ebuild'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
-!!!   system-config-boot-0.2.12.ebuild, line   5:  Called inherit 'python' 'eutils' 'rpm'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for fortran failed
-
- * 
- * "/home/mgorny/repos/dberkholz/sci-libs/pymc/pymc-2.0.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 179' for eclass distutils
-
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-received unknown com: export CATEGORY='sci-libs' PR=r0 PVR='1.2.0' PV='1.2.0' EBUILD='/home/mgorny/repos/dberkholz/sci-libs/pymmlib/pymmlib-1.2.0.ebuild' P='pymmlib-1.2.0' PF='pymmlib-1.2.0' PN=pymmlibpath
-Exception in thread Thread-15:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!               fox-4.0.3.ebuild, line   6:  Called inherit 'eutils' 'fortran'
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'rpm'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/dev-java/fop/fop-0.92_beta.ebuild'
- * 
- * "/home/mgorny/repos/dberkholz/sci-libs/mmtk/mmtk-2.5.23.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '177' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
-!!!                  ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 174' for eclass rpm
-
-received unknown com: export CATEGORY='sci-libs' PR=r0 PVR='1.0.8.3' PV='1.0.8.3' EBUILD='/home/mgorny/repos/dberkholz/sci-libs/mmdb/mmdb-1.0.8.3.ebuild' P='mmdb-1.0.8.3' PF='mmdb-1.0.8.3' PN=mmdbpath
-Exception in thread Thread-12:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for fortran failed
-
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/dev-java/fop/fop-0.92_beta.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-
-!!! ERROR: sci-chemistry/ccp4mg-0.12.1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/dev-java/fop/fop-0.92_beta.ebuild'
- * 
- * "/home/mgorny/repos/dberkholz/sci-chemistry/gridzilla/gridzilla-0.5_beta.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: sci-chemistry/king-1.53.060628 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/www-apps/trac-git/trac-git-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!           fop-0.92_beta.ebuild, line   5:  Called inherit 'eutils' 'java-pkg-2' 'java-ant-2'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '189' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/www-apps/trac-git/trac-git-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/www-apps/trac-git/trac-git-9999.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'java-pkg-2'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '204' 'depend'
-
-!!! ERROR: sci-chemistry/open3dqsar-1.2 failed.
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 167' for eclass java-pkg-2
-
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-received unknown com: export CATEGORY='app-doc' PR=r0 PVR='1.0' PV='1.0' EBUILD='/home/mgorny/repos/dberkholz/app-doc/bashdoc/bashdoc-1.0.ebuild' P='bashdoc-1.0' PF='bashdoc-1.0' PN=bashdocpath
-Exception in thread Thread-2:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!           trac-git-9999.ebuild, line   5:  Called inherit 'git' 'distutils'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-chemistry/ccp4mg/ccp4mg-0.12.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-chemistry/king/king-1.53.060628.ebuild'
- * 
- * "/home/mgorny/repos/dberkholz/sci-chemistry/pyrx/pyrx-0.6.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-chemistry/king/king-1.53.060628.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-chemistry/ccp4mg/ccp4mg-0.12.1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-chemistry/ccp4mg/ccp4mg-0.12.1.ebuild'
-
-!!! ERROR: sci-chemistry/qutemol-0.4 failed.
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-chemistry/king/king-1.53.060628.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '194' 'depend'
-!!!           ccp4mg-0.12.1.ebuild, line   5:  Called inherit 'eutils' 'flag-o-matic'
-!!!        king-1.53.060628.ebuild, line   5:  Called inherit 'java-pkg-2' 'java-ant-2'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'flag-o-matic'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'java-pkg-2'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 234' for eclass flag-o-matic
-
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-chemistry/open3dqsar/open3dqsar-1.2.ebuild'
-received unknown com: export CATEGORY='sci-chemistry' PR=r0 PVR='1.12.030213' PV='1.12.030213' EBUILD='/home/mgorny/repos/dberkholz/sci-chemistry/kincontour/kincontour-1.12.030213.ebuild' P='kincontour-1.12.030213' PF='kincontour-1.12.030213' PN=kincontourpath
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 186' for eclass java-pkg-2
-
-Exception in thread Thread-10:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-received unknown com: export CATEGORY='sci-chemistry' PR=r0 PVR='1.2' PV='1.2' EBUILD='/home/mgorny/repos/dberkholz/sci-chemistry/mole-bin/mole-bin-1.2.ebuild' P='mole-bin-1.2' PF='mole-bin-1.2' PN='mole-bin'path
+received unknown com: export CATEGORY='sci-visualization' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/dberkholz/sci-visualization/gnuplot/gnuplot-9999.ebuild' P='gnuplot-9999' PF='gnuplot-9999' PN=gnuplotpath
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/dev-util/latrace/latrace-0.5.ebuild'
 Exception in thread Thread-16:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -857,32 +435,84 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-chemistry/open3dqsar/open3dqsar-1.2.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-chemistry/open3dqsar/open3dqsar-1.2.ebuild'
-!!!          open3dqsar-1.2.ebuild, line   7:  Called inherit 'autotools'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
  * 
- * "/home/mgorny/repos/dberkholz/sci-chemistry/vasco/vasco-1.0.2.ebuild":
+ * "/home/mgorny/repos/dberkholz/sci-libs/pgd-utils/pgd-utils-0.4.2.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * 
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * "/home/mgorny/repos/dberkholz/sci-chemistry/shakerr/shakerr-0.2.17.ebuild":
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * 
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             latrace-0.5.ebuild, line   5:  Called inherit 'autotools'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
+
+!!! ERROR: dev-java/diffmk-2.0_beta2 failed.
+
+!!! ERROR: www-apps/trac-git-9999 failed.
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 204' for eclass autotools
+!!!  unknown inherit command from pythonic side, 'gen_metadata 195' for eclass autotools
 
-received unknown com: export CATEGORY='sci-chemistry' PR=r0 PVR='1.304' PV='1.304' EBUILD='/home/mgorny/repos/dberkholz/sci-chemistry/open3dqsar/open3dqsar-1.304.ebuild' P='open3dqsar-1.304' PF='open3dqsar-1.304' PN=open3dqsarpath
-
-!!! ERROR: sci-chemistry/zodiac-0.5 failed.
-Exception in thread Thread-14:
+received unknown com: export CATEGORY='dev-scheme' PR=r0 PVR='0.1.6' PV='0.1.6' EBUILD='/home/mgorny/repos/dberkholz/dev-scheme/guile-lib/guile-lib-0.1.6.ebuild' P='guile-lib-0.1.6' PF='guile-lib-0.1.6' PN='guile-lib'path
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-libs/libxc/libxc-0.9.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-libs/bigdft/bigdft-1.2.0.ebuild'
+!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-biology/TMalign-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-biology/biskit-9999
+!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-physics/exciting-0.9.74
+!!! caught exception inherit requires an unknown eclass, vmware-mod cannot be found while processing ebuild src: app-emulation/vmware-modules-1.0.0.15-r3
+!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-biology/mmult-1.0
+!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-physics/abinit-5.7.3
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-pda/ipheth-pair-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-physics/campos-dacapo-2.7.7
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-physics/octopus-3.0.0
+!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: app-admin/system-config-netboot-0.1.41
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-emulation/xen-3.2.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-drivers/nvidia-drivers-280.11
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-util/oprofile-0.9.3-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-gfx/fly-2.0.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-util/latrace-0.5
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-wireless/iw-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/gcalcli-1.2
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sci-libs/etsf_io-1.0.2
+!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-libs/libxc-0.9
+!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-libs/bigdft-1.2.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/labyrinth-0.4.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-text/pastebin-0.5
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sci-libs/starparse-0.9
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-visualization/gnuplot-9999
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: net-misc/ntp-4.2.2_p2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-libs/ann-1.1.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/labyrinth-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: www-apps/trac-git-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-scheme/guile-lib-0.1.6
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: www-plugins/mozplugger-1.1Exception in thread Thread-10:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -908,36 +538,86 @@ RuntimeError: [Errno 32] Broken pipe
 
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-chemistry/qutemol/qutemol-0.4.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-libs/libxc/libxc-0.9.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-libs/bigdft/bigdft-1.2.0.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-libs/libxc/libxc-0.9.ebuild'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-chemistry/qutemol/qutemol-0.4.ebuild'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-libs/bigdft/bigdft-1.2.0.ebuild'
+!!!               libxc-0.9.ebuild, line   6:  Called inherit 'fortran' 'multilib'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '177' 'depend'
+
+!!! ERROR: sci-libs/wannier90-1.1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!            bigdft-1.2.0.ebuild, line   6:  Called inherit 'eutils' 'fortran' 'multilib'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '194' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for fortran failed
+
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for fortran failed
+
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/dev-java/diffmk/diffmk-2.0_beta2.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/www-apps/trac-git/trac-git-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/dev-java/diffmk/diffmk-2.0_beta2.ebuild'
  * 
- * "/home/mgorny/repos/dberkholz/dev-python/aggdraw/aggdraw-1.2_alpha3.ebuild":
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
+ * "/home/mgorny/repos/dberkholz/sci-chemistry/cclib/cclib-0.91.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-chemistry/qutemol/qutemol-0.4.ebuild'
+ * 
+ * "/home/mgorny/repos/dberkholz/sci-chemistry/ccp1gui/ccp1gui-0.7.1.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/www-apps/trac-git/trac-git-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/dev-java/diffmk/diffmk-2.0_beta2.ebuild'
+ * 
+ * "/home/mgorny/repos/dberkholz/sci-libs/mmtk/mmtk-2.5.23.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/www-apps/trac-git/trac-git-9999.ebuild'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             qutemol-0.4.ebuild, line   8:  Called inherit 'eutils' 'portability' 'wxwidgets'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'portability'
- * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
 
-!!! ERROR: dev-python/pycallgraph-0.4.1 failed.
- * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
-
-!!! ERROR: dev-python/multitask-0.2.0 failed.
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 194' for eclass portability
-
+!!! ERROR: sci-chemistry/espresso-4.0_pre2 failed.
+!!!        diffmk-2.0_beta2.ebuild, line   5:  Called inherit 'java-pkg-2'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-received unknown com: export CATEGORY='sci-chemistry' PR=r0 PVR='2.7.4.2' PV='2.7.4.2' EBUILD='/home/mgorny/repos/dberkholz/sci-chemistry/rasmol/rasmol-2.7.4.2.ebuild' P='rasmol-2.7.4.2' PF='rasmol-2.7.4.2' PN=rasmolpath
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-chemistry/zodiac/zodiac-0.5.ebuild'
+!!!           trac-git-9999.ebuild, line   5:  Called inherit 'git' 'distutils'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-libs/wannier90/wannier90-1.1.ebuild'
+
+!!! ERROR: sci-chemistry/ccp4mg-0.12.1 failed.
+
+!!! ERROR: sci-chemistry/gridzilla-0.5_beta failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'java-pkg-2'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 184' for eclass java-pkg-2
+
+received unknown com: export CATEGORY='dev-libs' PR=r0 PVR='1.1.0' PV='1.1.0' EBUILD='/home/mgorny/repos/dberkholz/dev-libs/DirectFB/DirectFB-1.1.0.ebuild' P='DirectFB-1.1.0' PF='DirectFB-1.1.0' PN=DirectFBpath
 Exception in thread Thread-4:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -962,215 +642,67 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-chemistry/zodiac/zodiac-0.5.ebuild'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-chemistry/zodiac/zodiac-0.5.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '203' 'depend'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '193' 'depend'
-!!!              zodiac-0.5.ebuild, line   5:  Called inherit 'versionator' 'qt4'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/dev-python/multitask/multitask-0.2.0.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/dev-python/multitask/multitask-0.2.0.ebuild'
- * 
- * "/home/mgorny/repos/dberkholz/dev-python/greenlet/greenlet-0.2.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/dev-python/pycallgraph/pycallgraph-0.4.1.ebuild'
-le-lib-0.1.6
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-libs/ann-1.1.1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-libs/DirectFB-1.1.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-libs/etsf_io-1.0.2
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: www-plugins/mozplugger-1.14.0
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: www-apps/trac-git-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-libs/pymc-2.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/labyrinth-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-libs/mmtk-2.5.23
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-libs/pymmlib-1.2.0
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sci-chemistry/cclib-0.91
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-libs/mmdb-1.0.8.3
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-libs/starparse-0.9
-!!! caught exception Metadata Exception: pkg ebuild src: sci-chemistry/imosflm-1.0.5, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: sci-chemistry/imosflm-1.0.5
-!!! caught exception Metadata Exception: pkg ebuild src: sci-chemistry/mopac2007-bin-8.032, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: sci-chemistry/mopac2007-bin-8.032
-!!! caught exception Metadata Exception: pkg ebuild src: sci-chemistry/open3dqsar-1.2, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: sci-chemistry/open3dqsar-1.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-doc/bashdoc-1.0
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sci-chemistry/pyitc-1.0.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-libs/libv4l-0.5.8
-!!! caught exception Metadata Exception: pkg ebuild src: sci-chemistry/qutemol-0.4, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: sci-chemistry/qutemol-0.4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-chemistry/kincontour-1.12.030213
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-chemistry/mole-bin-1.2
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sci-chemistry/usf-rave-bin-0.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-chemistry/open3dqsar-1.304
-!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: sci-chemistry/zodiac-0.5
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-python/cocos2d-0.3.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-chemistry/rasmol-2.7.4.2
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-python/pycogent-1.5.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/greenlet-0.2
-!!! caught ex!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/dev-python/multitask/multitask-0.2.0.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/dev-python/pycallgraph/pycallgraph-0.4.1.ebuild'
-!!!         multitask-0.2.0.ebuild, line   8:  Called inherit 'distutils'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/dev-python/pycallgraph/pycallgraph-0.4.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
-!!!       pycallgraph-0.4.1.ebuild, line   7:  Called inherit 'distutils' 'eutils'
-!!!               distutils.eclass, line  15:  Called inherit 'python'
- * 
- * "/home/mgorny/repos/dberkholz/dev-python/python-biggles/python-biggles-1.6.5.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
-
-!!! ERROR: dev-python/python-twitter-1.1.6 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_distutils'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_distutils
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '220' 'depend'
-!!!                  python.eclass, line 277:  Called die
-!!! The die message:
-!!!  NEED_PYTHON variable is banned
-
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 397:  Called inherit 'python'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/dev-python/python-twitter/python-twitter-1.1.6.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/dev-python/python-twitter/python-twitter-1.1.6.ebuild'
-!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_python'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/dev-python/python-twitter/python-twitter-1.1.6.ebuild'
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_python
-!!!    python-twitter-1.1.6.ebuild, line   8:  Called inherit 'distutils-r1'
-!!!             ebuild-daemon.bash, line 659:  Called die
-!!! The die message:
-!!!  NEED_PYTHON variable is banned
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 211' for eclass distutils-r1
-
-received unknown com: export CATEGORY='dev-python' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/dberkholz/dev-python/python-twitter/python-twitter-9999.ebuild' P='python-twitter-9999' PF='python-twitter-9999' PN='python-twitter'path
-Exception in thread Thread-5:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
- * 
- * "/home/mgorny/repos/dberkholz/dev-python/rdfalchemy/rdfalchemy-0.2_beta2.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
- * 
- * "/home/mgorny/repos/dberkholz/dev-python/scientificpython/scientificpython-2.7.8.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
- * 
- * "/home/mgorny/repos/dberkholz/dev-python/suds/suds-0.4.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-
-!!! ERROR: sys-power/powertop-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '177' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sys-power/powertop/powertop-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sys-power/powertop/powertop-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sys-power/powertop/powertop-9999.ebuild'
-!!!           powertop-9999.ebuild, line   7:  Called inherit 'git' 'toolchain-funcs' 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-libs/wannier90/wannier90-1.1.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-libs/wannier90/wannier90-1.1.ebuild'
+
+!!! ERROR: sci-chemistry/mustang-3.2 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!           wannier90-1.1.ebuild, line   6:  Called inherit 'eutils' 'multilib' 'fortran'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '189' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '209' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for fortran failed
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '214' 'depend'
+
+!!! ERROR: sys-apps/asmutils-0.18 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-chemistry/espresso/espresso-4.0_pre2.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-chemistry/ccp4mg/ccp4mg-0.12.1.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
  * 
- * "/home/mgorny/repos/dberkholz/app-office/rescuetime-linux-uploader/rescuetime-linux-uploader-99.ebuild":
+ * "/home/mgorny/repos/dberkholz/sci-chemistry/pyrx/pyrx-0.6.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-
-!!! ERROR: app-office/rescuetime-linux-uploader-99 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                    ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                    ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '256' 'depend'
-!!!                    ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                            ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/app-office/rescuetime-linux-uploader/rescuetime-linux-uploader-99.ebuild'
-!!!                            ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/app-office/rescuetime-linux-uploader/rescuetime-linux-uploader-99.ebuild'
-!!!                isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/app-office/rescuetime-linux-uploader/rescuetime-linux-uploader-99.ebuild'
-!!!   rescuetime-linux-uploader-99.ebuild, line   5:  Called inherit 'eutils' 'distutils' 'mozextension'
-!!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mozextension'
-!!!                     ebuild-daemon.lib, line  37:  Called die
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-chemistry/ccp4mg/ccp4mg-0.12.1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-chemistry/gridzilla/gridzilla-0.5_beta.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-chemistry/espresso/espresso-4.0_pre2.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-chemistry/ccp4mg/ccp4mg-0.12.1.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-chemistry/mustang/mustang-3.2.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-chemistry/mustang/mustang-3.2.ebuild'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '179' 'depend'
+!!!           ccp4mg-0.12.1.ebuild, line   5:  Called inherit 'eutils' 'flag-o-matic'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-chemistry/espresso/espresso-4.0_pre2.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'flag-o-matic'
+!!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 176' for eclass mozextension
+!!!  unknown inherit command from pythonic side, 'gen_metadata 204' for eclass flag-o-matic
 
-received unknown com: export CATEGORY='media-video' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/dberkholz/media-video/v4l2ucp/v4l2ucp-9999.ebuild' P='v4l2ucp-9999' PF='v4l2ucp-9999' PN=v4l2ucppath
+received unknown com: export CATEGORY='sci-chemistry' PR=r0 PVR='1.53.060628' PV='1.53.060628' EBUILD='/home/mgorny/repos/dberkholz/sci-chemistry/king/king-1.53.060628.ebuild' P='king-1.53.060628' PF='king-1.53.060628' PN=kingpath
 Exception in thread Thread-1:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -1195,39 +727,359 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-ception Metadata Exception: pkg ebuild src: dev-python/pystache-0.3.1, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-python/pystache-0.3.1
-!!! caught exception Metadata Exception: pkg ebuild src: dev-python/python-biggles-1.6.5, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-python/python-biggles-1.6.5
-!!! caught exception Metadata Exception: pkg ebuild src: dev-python/python-twitter-1.1.6, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-python/python-twitter-1.1.6
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-chemistry/mustang/mustang-3.2.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-chemistry/gridzilla/gridzilla-0.5_beta.ebuild'
+ * 
+ * "/home/mgorny/repos/dberkholz/sci-chemistry/shakerr/shakerr-0.2.17.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!       espresso-4.0_pre2.ebuild, line   7:  Called inherit 'autotools' 'eutils' 'fortran' 'toolchain-funcs'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fortran'
+!!!             mustang-3.2.ebuild, line   5:  Called inherit 'base' 'toolchain-funcs'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for fortran failed
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'base'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-chemistry/gridzilla/gridzilla-0.5_beta.ebuild'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 204' for eclass base
+
+received unknown com: export CATEGORY='sci-chemistry' PR=r0 PVR='1.304' PV='1.304' EBUILD='/home/mgorny/repos/dberkholz/sci-chemistry/open3dqsar/open3dqsar-1.304.ebuild' P='open3dqsar-1.304' PF='open3dqsar-1.304' PN=open3dqsarpath
+Exception in thread Thread-7:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+
+!!! ERROR: sci-chemistry/zodiac-0.5 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sys-apps/asmutils/asmutils-0.18.ebuild'
+!!!      gridzilla-0.5_beta.ebuild, line   7:  Called inherit 'distutils'
+ * 
+ * "/home/mgorny/repos/dberkholz/sci-chemistry/mole-bin/mole-bin-1.2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sys-apps/asmutils/asmutils-0.18.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sys-apps/asmutils/asmutils-0.18.ebuild'
+ * 
+ * "/home/mgorny/repos/dberkholz/sci-chemistry/vasco/vasco-1.0.2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!           asmutils-0.18.ebuild, line   5:  Called inherit 'savedconfig' 'toolchain-funcs' 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+ * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
+
+!!! ERROR: dev-python/multitask-0.2.0 failed.
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 221' for eclass distutils
+
+received unknown com: export CATEGORY='sci-chemistry' PR=r0 PVR='8.032' PV='8.032' EBUILD='/home/mgorny/repos/dberkholz/sci-chemistry/mopac2007-bin/mopac2007-bin-8.032.ebuild' P='mopac2007-bin-8.032' PF='mopac2007-bin-8.032' PN='mopac2007-bin'path
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'savedconfig'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 179' for eclass savedconfig
+
+received unknown com: export CATEGORY='sci-chemistry' PR=r0 PVR='0.8.4' PV='0.8.4' EBUILD='/home/mgorny/repos/dberkholz/sci-chemistry/pymss/pymss-0.8.4.ebuild' P='pymss-0.8.4' PF='pymss-0.8.4' PN=pymsspath
+ * 
+ * "/home/mgorny/repos/dberkholz/dev-python/aggdraw/aggdraw-1.2_alpha3.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+Exception in thread Thread-9:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+
+!!! ERROR: dev-python/aggdraw-1.2_alpha3 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
+ * 
+ * "/home/mgorny/repos/dberkholz/dev-python/pymedia/pymedia-1.3.7.3.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '193' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sci-chemistry/zodiac/zodiac-0.5.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '208' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sci-chemistry/zodiac/zodiac-0.5.ebuild'
+ * 
+ * "/home/mgorny/repos/dberkholz/dev-python/rdfalchemy/rdfalchemy-0.2_beta2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/dev-python/multitask/multitask-0.2.0.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/dev-python/aggdraw/aggdraw-1.2_alpha3.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sci-chemistry/zodiac/zodiac-0.5.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/dev-python/multitask/multitask-0.2.0.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/dev-python/aggdraw/aggdraw-1.2_alpha3.ebuild'
+!!!              zodiac-0.5.ebuild, line   5:  Called inherit 'versionator' 'qt4'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/dev-python/multitask/multitask-0.2.0.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/dev-python/aggdraw/aggdraw-1.2_alpha3.ebuild'
+!!!         multitask-0.2.0.ebuild, line   8:  Called inherit 'distutils'
+!!!      aggdraw-1.2_alpha3.ebuild, line   8:  Called inherit 'eutils' 'distutils' 'subversion'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+ * 
+ * "/home/mgorny/repos/dberkholz/dev-python/spasmoidal/spasmoidal-0.1.1.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'subversion'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 203' for eclass subversion
+
+received unknown com: export CATEGORY='dev-python' PR=r0 PVR='0.4.1' PV='0.4.1' EBUILD='/home/mgorny/repos/dberkholz/dev-python/pycallgraph/pycallgraph-0.4.1.ebuild' P='pycallgraph-0.4.1' PF='pycallgraph-0.4.1' PN=pycallgraphpath
+Exception in thread Thread-5:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 494, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 836, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 769, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 459, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
+ * 
+ * "/home/mgorny/repos/dberkholz/dev-python/suds/suds-0.4.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+ * 
+ * "/home/mgorny/repos/dberkholz/dev-python/jpype/jpype-0.5.4.1.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_distutils'
+
+!!! ERROR: sys-power/powertop-9999 failed.
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_distutils
+!!!             ebuild-daemon.bash, line 397:  Called inherit 'python'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+ * 
+ * "/home/mgorny/repos/dberkholz/dev-python/statlib/statlib-1.1.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_python'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '177' 'depend'
+
+!!! ERROR: media-video/gxine-0.5.901 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+ * 
+ * "/home/mgorny/repos/dberkholz/dev-python/scientificpython/scientificpython-2.7.8.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_python
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 659:  Called die
+!!! The die message:
+!!!  NEED_PYTHON variable is banned
+
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '185' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/sys-power/powertop/powertop-9999.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/sys-power/powertop/powertop-9999.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/dberkholz/media-video/gxine/gxine-0.5.901.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/dberkholz/media-video/gxine/gxine-0.5.901.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/media-video/gxine/gxine-0.5.901.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/dberkholz/sys-power/powertop/powertop-9999.ebuild'
+!!!           gxine-0.5.901.ebuild, line   5:  Called inherit 'eutils' 'nsplugins' 'fdo-mime' 'libtool'
+!!!           powertop-9999.ebuild, line   7:  Called inherit 'git' 'toolchain-funcs' 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'nsplugins'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 176' for eclass nsplugins
+
+received unknown com: export CATEGORY='media-video' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/dberkholz/media-video/v4l2ucp/v4l2ucp-9999.ebuild' P='v4l2ucp-9999' PF='v4l2ucp-9999' PN=v4l2ucppath
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+4.0
+!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-libs/wannier90-1.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-libs/mmdb-1.0.8.3
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-libs/mmdb-1.0.10
+!!! caught exception inherit requires an unknown eclass, fortran cannot be found while processing ebuild src: sci-chemistry/espresso-4.0_pre2
+!!! caught exception Metadata Exception: pkg ebuild src: sci-chemistry/gridzilla-0.5_beta, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: sci-chemistry/gridzilla-0.5_beta
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-libs/DirectFB-1.1.0
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sci-chemistry/mopro-bin-1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-shells/heirloom-sh-050706
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-apps/asmutils-0.18
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-chemistry/king-1.53.060628
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-chemistry/mole-bin-1.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-chemistry/open3dqsar-1.304
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-python/cocos2d-0.3.0
+!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: sci-chemistry/zodiac-0.5
+!!! caught exception Metadata Exception: pkg ebuild src: dev-python/aggdraw-1.2_alpha3, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-python/aggdraw-1.2_alpha3
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-chemistry/mopac2007-bin-8.032
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-chemistry/pymss-0.8.4
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-python/python-biggles-1.6.5
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-python/jpype-0.5.4.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-python/pycallgraph-0.4.1
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-power/powertop-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-python/multitask-0.2.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/pycallgraph-0.4.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/python-twitter-9999
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-python/spasmoidal-0.1.1
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-power/powertop-9999
+!!! caught exception False while processing ebuild src: media-video/v4l2ucp-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-office/rescuetime-linux-uploader-99
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-video/v4l2ucp-9999
 Error running an operation:
  Unhandled exception in regen_cache
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fda229f0> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fda228e8> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fda227e0> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fda225d0> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fda224c8> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fda223c0> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fda222b8> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fda221b0> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fda220a8> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fd9f6f70> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fd9f6e68> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fd9f6d60> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fd9f6c58> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fd9f6b50> ignored
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f45fd9f6890> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe69189f0> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe69188e8> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe69186d8> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe69185d0> ignored
+ * 
+ * "/home/mgorny/repos/dberkholz/app-office/rescuetime-linux-uploader/rescuetime-linux-uploader-99.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+sandbox:stop  caught signal 15 in pid 28456
+Sandboxed process killed by signal: Terminated
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe69183c0> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe69182b8> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe69181b0> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe69180a8> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe68ecf70> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe68ece68> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe68ecd60> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe68ecc58> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f4fe68ec890> ignored
  * Cache regen failed with 246

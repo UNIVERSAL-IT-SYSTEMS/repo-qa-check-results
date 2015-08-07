@@ -14,66 +14,7 @@
  'status': 'official'}
 $ pmaint sync java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/java
-   86856d7..f3a0eb2  master     -> origin/master
-Updating 86856d7..f3a0eb2
-Fast-forward
- dev-java/burlap/Manifest                           |   1 -
- dev-java/burlap/burlap-2.1.12-r1.ebuild            |  45 -------
- dev-java/burlap/files/build-2.1.12.xml             |  54 --------
- dev-java/burlap/metadata.xml                       |   6 -
- dev-java/dnsjava/Manifest                          |   1 -
- dev-java/dnsjava/dnsjava-1.3.2.ebuild              |  24 ----
- dev-java/dnsjava/metadata.xml                      |   5 -
- dev-java/dom4j/Manifest                            |   1 -
- dev-java/dom4j/dom4j-1.4-r1.ebuild                 |  61 ---------
- dev-java/dom4j/files/AbstractNode.java.diff        |  11 --
- dev-java/dom4j/files/DefaultXPath.java.diff        |  26 ----
- dev-java/dom4j/files/DocumentFactory.java.diff     |  37 ------
- dev-java/dom4j/files/DocumentHelper.java.diff      |  11 --
- .../dom4j/files/ProxyDocumentFactory.java.diff     |  11 --
- dev-java/dom4j/files/ProxyXmlStartTag.java.diff    |  22 ---
- dev-java/dom4j/files/XPathPattern.java.diff        |  22 ---
- dev-java/dom4j/files/fop.patch                     |  19 ---
- dev-java/dom4j/files/makethingscompile.diff        | 147 ---------------------
- dev-java/opensaml/Manifest                         |   1 -
- .../files/opensaml-1.0.1-ioexception.patch         |  13 --
- dev-java/opensaml/metadata.xml                     |   5 -
- dev-java/opensaml/opensaml-1.0.1-r1.ebuild         |  65 ---------
- dev-java/xerces/Manifest                           |   2 -
- dev-java/xerces/files/xerces-2.6.2-gentoo.patch    |  21 ---
- dev-java/xerces/files/xerces-2.6.2-javadoc.patch   |  17 ---
- dev-java/xerces/metadata.xml                       |   6 -
- dev-java/xerces/xerces-1.4.4.ebuild                |  37 ------
- dev-java/xerces/xerces-2.6.2-r4.ebuild             |  54 --------
- 28 files changed, 725 deletions(-)
- delete mode 100644 dev-java/burlap/Manifest
- delete mode 100644 dev-java/burlap/burlap-2.1.12-r1.ebuild
- delete mode 100644 dev-java/burlap/files/build-2.1.12.xml
- delete mode 100644 dev-java/burlap/metadata.xml
- delete mode 100644 dev-java/dnsjava/Manifest
- delete mode 100644 dev-java/dnsjava/dnsjava-1.3.2.ebuild
- delete mode 100644 dev-java/dnsjava/metadata.xml
- delete mode 100644 dev-java/dom4j/dom4j-1.4-r1.ebuild
- delete mode 100644 dev-java/dom4j/files/AbstractNode.java.diff
- delete mode 100644 dev-java/dom4j/files/DefaultXPath.java.diff
- delete mode 100644 dev-java/dom4j/files/DocumentFactory.java.diff
- delete mode 100644 dev-java/dom4j/files/DocumentHelper.java.diff
- delete mode 100644 dev-java/dom4j/files/ProxyDocumentFactory.java.diff
- delete mode 100644 dev-java/dom4j/files/ProxyXmlStartTag.java.diff
- delete mode 100644 dev-java/dom4j/files/XPathPattern.java.diff
- delete mode 100644 dev-java/dom4j/files/fop.patch
- delete mode 100644 dev-java/dom4j/files/makethingscompile.diff
- delete mode 100644 dev-java/opensaml/Manifest
- delete mode 100644 dev-java/opensaml/files/opensaml-1.0.1-ioexception.patch
- delete mode 100644 dev-java/opensaml/metadata.xml
- delete mode 100644 dev-java/opensaml/opensaml-1.0.1-r1.ebuild
- delete mode 100644 dev-java/xerces/Manifest
- delete mode 100644 dev-java/xerces/files/xerces-2.6.2-gentoo.patch
- delete mode 100644 dev-java/xerces/files/xerces-2.6.2-javadoc.patch
- delete mode 100644 dev-java/xerces/metadata.xml
- delete mode 100644 dev-java/xerces/xerces-1.4.4.ebuild
- delete mode 100644 dev-java/xerces/xerces-2.6.2-r4.ebuild
+Already up-to-date.
 *** syncing java
 *** synced java
  * Sync succeeded

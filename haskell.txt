@@ -13,50 +13,7 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/gentoo-haskell/gentoo-haskell
-   62bf996..08bf518  master     -> origin/master
-Updating 62bf996..08bf518
-Fast-forward
- dev-haskell/conduit-combinators/Manifest           |  2 +-
- ...1.1.ebuild => conduit-combinators-1.0.2.ebuild} |  0
- dev-haskell/gtksourceview2/Manifest                |  2 +-
- ...3.1.1.ebuild => gtksourceview2-0.13.1.3.ebuild} | 10 ++++----
- dev-haskell/hlist/Manifest                         |  2 +-
- .../{hlist-0.4.0.0.ebuild => hlist-0.4.1.0.ebuild} |  0
- dev-haskell/logfloat/Manifest                      |  2 +-
- ...at-0.13.3.1.ebuild => logfloat-0.13.3.2.ebuild} |  0
- dev-haskell/shake/Manifest                         |  2 +-
- .../{shake-0.15.4.ebuild => shake-0.15.5.ebuild}   |  0
- dev-haskell/statevar/Manifest                      |  2 +-
- ...evar-1.1.0.0.ebuild => statevar-1.1.0.1.ebuild} |  2 +-
- .../files/synthesizer-core-0.7.1-ghc-7.10.patch    | 29 ++++++++++++++++++++++
- .../synthesizer-core-0.7.1-haddock-utf-8.patch     | 22 ++++++++++++++++
- .../synthesizer-core/synthesizer-core-0.7.1.ebuild |  5 ++++
- dev-haskell/threepenny-gui/Manifest                |  2 +-
- ...0.2-r1.ebuild => threepenny-gui-0.6.0.3.ebuild} |  0
- dev-haskell/turtle/Manifest                        |  2 +-
- .../{turtle-1.2.0.ebuild => turtle-1.2.1.ebuild}   |  0
- dev-haskell/webkit-javascriptcore/Manifest         |  2 +-
- .../webkit-javascriptcore-0.13.0.3-ghc-7.10.patch  | 11 --------
- ...build => webkit-javascriptcore-0.13.0.4.ebuild} | 16 +++++-------
- dev-haskell/webkitgtk3-javascriptcore/Manifest     |  2 +-
- ...bkitgtk3-javascriptcore-0.13.0.3-ghc-7.10.patch | 11 --------
- ...d => webkitgtk3-javascriptcore-0.13.0.4.ebuild} | 10 +++-----
- 25 files changed, 82 insertions(+), 54 deletions(-)
- rename dev-haskell/conduit-combinators/{conduit-combinators-1.0.1.1.ebuild => conduit-combinators-1.0.2.ebuild} (100%)
- rename dev-haskell/gtksourceview2/{gtksourceview2-0.13.1.1.ebuild => gtksourceview2-0.13.1.3.ebuild} (71%)
- rename dev-haskell/hlist/{hlist-0.4.0.0.ebuild => hlist-0.4.1.0.ebuild} (100%)
- rename dev-haskell/logfloat/{logfloat-0.13.3.1.ebuild => logfloat-0.13.3.2.ebuild} (100%)
- rename dev-haskell/shake/{shake-0.15.4.ebuild => shake-0.15.5.ebuild} (100%)
- rename dev-haskell/statevar/{statevar-1.1.0.0.ebuild => statevar-1.1.0.1.ebuild} (94%)
- create mode 100644 dev-haskell/synthesizer-core/files/synthesizer-core-0.7.1-ghc-7.10.patch
- create mode 100644 dev-haskell/synthesizer-core/files/synthesizer-core-0.7.1-haddock-utf-8.patch
- rename dev-haskell/threepenny-gui/{threepenny-gui-0.6.0.2-r1.ebuild => threepenny-gui-0.6.0.3.ebuild} (100%)
- rename dev-haskell/turtle/{turtle-1.2.0.ebuild => turtle-1.2.1.ebuild} (100%)
- delete mode 100644 dev-haskell/webkit-javascriptcore/files/webkit-javascriptcore-0.13.0.3-ghc-7.10.patch
- rename dev-haskell/webkit-javascriptcore/{webkit-javascriptcore-0.13.0.3.ebuild => webkit-javascriptcore-0.13.0.4.ebuild} (63%)
- delete mode 100644 dev-haskell/webkitgtk3-javascriptcore/files/webkitgtk3-javascriptcore-0.13.0.3-ghc-7.10.patch
- rename dev-haskell/webkitgtk3-javascriptcore/{webkitgtk3-javascriptcore-0.13.0.3.ebuild => webkitgtk3-javascriptcore-0.13.0.4.ebuild} (82%)
+Already up-to-date.
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
