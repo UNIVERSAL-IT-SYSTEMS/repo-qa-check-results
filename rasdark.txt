@@ -7,7 +7,14 @@
  'status': 'unofficial'}
 $ pmaint sync rasdark
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/rasdark/overlay
+   f7f2a2d..4018882  master     -> origin/master
+Updating f7f2a2d..4018882
+Fast-forward
+ www-client/yandex-browser-beta/Manifest                                 | 2 +-
+ ...2357.2271_p1.ebuild => yandex-browser-beta-15.9.2403.2150_p1.ebuild} | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename www-client/yandex-browser-beta/{yandex-browser-beta-15.7.2357.2271_p1.ebuild => yandex-browser-beta-15.9.2403.2150_p1.ebuild} (100%)
 *** syncing rasdark
 *** synced rasdark
  * Sync succeeded
