@@ -9,7 +9,6 @@
              'uri': 'git://github.com/aidecoe/aidecoe-overlay.git'}],
  'status': 'official'}
 $ pmaint sync aidecoe
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing aidecoe
@@ -35,5 +34,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
+Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-kernel/genkernel-999999
  * Cache regenerated successfully

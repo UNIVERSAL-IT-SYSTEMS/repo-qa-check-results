@@ -14,13 +14,18 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/klondike.git'}],
  'status': 'unofficial'}
 $ pmaint sync klondike
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-Already up-to-date.
+fatal: read error: Connection reset by peer
+*** syncing klondike
+*** failed syncing klondike
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync klondike
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/klondike'...
 *** syncing klondike
 *** synced klondike
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 klondike
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

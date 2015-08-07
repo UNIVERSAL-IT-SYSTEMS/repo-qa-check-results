@@ -14,9 +14,7 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/srcshelton.git'}],
  'status': 'unofficial'}
 $ pmaint sync srcshelton
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing srcshelton
 *** synced srcshelton
@@ -24,19 +22,19 @@ Already up-to-date.
 $ pmaint regen -t 2 srcshelton
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by www-apps/rpi-monitor-2.6 during metadata regeneration.
+WARNING: 'use' function invoked by www-apps/rpi-monitor-2.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-apps/rpi-monitor-2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use' function invoked by www-apps/rpi-monitor-2.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by www-apps/rpi-monitor-2.5.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-apps/rpi-monitor-2.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-apps/rpi-monitor-2.5 during metadata regeneration.
+WARNING: 'use' function invoked by www-apps/rpi-monitor-2.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 mkdir: cannot create directory '/tmpfs-1.0': Permission denied
