@@ -15,18 +15,13 @@
  'status': 'unofficial'}
 $ pmaint sync anaximander
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing anaximander
-*** failed syncing anaximander
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync anaximander
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/anaximander'...
+Already up-to-date.
 *** syncing anaximander
 *** synced anaximander
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 anaximander
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

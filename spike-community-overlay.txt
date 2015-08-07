@@ -15,7 +15,9 @@ Already up-to-date.
 *** synced spike-community-overlay
  * Sync succeeded
 $ pmaint regen -t 2 spike-community-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-6.12.3, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-6.12.3

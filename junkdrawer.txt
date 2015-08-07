@@ -11,36 +11,22 @@
 $ pmaint sync junkdrawer
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/doctaweeks/junkdrawer-overlay
-   85505d5..a64aaf4  master     -> origin/master
-Updating 85505d5..a64aaf4
+   a64aaf4..b4ebdd3  master     -> origin/master
+Updating a64aaf4..b4ebdd3
 Fast-forward
- dev-cpp/folly/Manifest                             |  6 ++--
- .../files/folly-0.52.0-checksum-no-sse4_2.diff     | 16 +++++++++
- .../files/folly-0.52.0-fix-checksum-build.diff     | 10 ++++++
- dev-cpp/folly/folly-0.34.0.ebuild                  |  4 +--
- dev-cpp/folly/folly-0.35.0.ebuild                  |  4 +--
- dev-cpp/folly/folly-0.52.0-r1.ebuild               | 41 ++++++++++++++++++++++
- dev-cpp/folly/folly-0.52.0.ebuild                  |  4 +--
- dev-cpp/gflags/Manifest                            |  1 +
- dev-cpp/gflags/gflags-2.1.2.ebuild                 | 31 ++++++++++++++++
- dev-cpp/gflags/metadata.xml                        | 10 ++++++
- dev-cpp/wangle/Manifest                            |  1 +
- dev-cpp/wangle/metadata.xml                        | 10 ++++++
- dev-cpp/wangle/wangle-0.9.0.ebuild                 | 30 ++++++++++++++++
- 13 files changed, 159 insertions(+), 9 deletions(-)
- create mode 100644 dev-cpp/folly/files/folly-0.52.0-checksum-no-sse4_2.diff
- create mode 100644 dev-cpp/folly/files/folly-0.52.0-fix-checksum-build.diff
- create mode 100644 dev-cpp/folly/folly-0.52.0-r1.ebuild
- create mode 100644 dev-cpp/gflags/Manifest
- create mode 100644 dev-cpp/gflags/gflags-2.1.2.ebuild
- create mode 100644 dev-cpp/gflags/metadata.xml
- create mode 100644 dev-cpp/wangle/Manifest
- create mode 100644 dev-cpp/wangle/metadata.xml
- create mode 100644 dev-cpp/wangle/wangle-0.9.0.ebuild
+ net-misc/wdt/files/wdt-9999-use-shared-folly.diff | 107 ++++++++++++++++++++++
+ net-misc/wdt/metadata.xml                         |  10 ++
+ net-misc/wdt/wdt-9999.ebuild                      |  40 ++++++++
+ 3 files changed, 157 insertions(+)
+ create mode 100644 net-misc/wdt/files/wdt-9999-use-shared-folly.diff
+ create mode 100644 net-misc/wdt/metadata.xml
+ create mode 100644 net-misc/wdt/wdt-9999.ebuild
 *** syncing junkdrawer
 *** synced junkdrawer
  * Sync succeeded
 $ pmaint regen -t 2 junkdrawer
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

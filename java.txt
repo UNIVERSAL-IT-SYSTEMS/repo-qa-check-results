@@ -14,103 +14,14 @@
  'status': 'official'}
 $ pmaint sync java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/java
-   f6fd9e1..bd70dd5  master     -> origin/master
-Updating f6fd9e1..bd70dd5
-Fast-forward
- dev-java/ant-pretty/ChangeLog                      |  19 --
- dev-java/ant-pretty/Manifest                       |   1 -
- dev-java/ant-pretty/ant-pretty-2.9.19-r1.ebuild    |  54 -----
- dev-java/ant-pretty/metadata.xml                   |   5 -
- dev-java/fb-contrib/ChangeLog                      |  23 --
- dev-java/fb-contrib/Manifest                       |   1 -
- dev-java/fb-contrib/fb-contrib-4.6.1.ebuild        |  62 -----
- dev-java/fb-contrib/metadata.xml                   |  12 -
- dev-java/java-kernel-support/ChangeLog             |   7 -
- dev-java/java-kernel-support/Manifest              |   1 -
- .../java-kernel-support-1.01.ebuild                |  38 ---
- dev-java/java-kernel-support/metadata.xml          |   6 -
- dev-java/java-service-wrapper/ChangeLog            |  14 --
- dev-java/java-service-wrapper/Manifest             |   1 -
- .../java-service-wrapper-3.1.2-buildxml.patch      |  64 -----
- .../files/java-service-wrapper-3.1.2-gentoo.patch  |  27 ---
- .../java-service-wrapper-3.1.2-r2.ebuild           |  71 ------
- dev-java/java-service-wrapper/metadata.xml         |   6 -
- dev-java/jrefactory/ChangeLog                      |  18 --
- dev-java/jrefactory/Manifest                       |   1 -
- dev-java/jrefactory/files/FindBugsFrame.java.diff  |  32 ---
- dev-java/jrefactory/files/ant.patch                |  53 ----
- dev-java/jrefactory/jrefactory-2.9.19-r1.ebuild    |  54 -----
- dev-java/jrefactory/metadata.xml                   |   5 -
- dev-java/saxon/Manifest                            |   2 +-
- .../{saxon-8.8.ebuild => saxon-8.8-r1.ebuild}      |  43 ++--
- dev-util/findbugs/ChangeLog                        |  50 ----
- dev-util/findbugs/Manifest                         |   1 -
- dev-util/findbugs/files/findbugs                   |  10 -
- dev-util/findbugs/findbugs-0.8.4.ebuild            |  57 -----
- dev-util/findbugs/metadata.xml                     |   5 -
- dev-util/svnclientadapter/ChangeLog                |  15 --
- dev-util/svnclientadapter/Manifest                 |   1 -
- .../files/svnclientadapter-1.2.4-build.xml.patch   |  10 -
- dev-util/svnclientadapter/metadata.xml             |   8 -
- .../svnclientadapter/svnclientadapter-1.2.4.ebuild |  52 ----
- dev-util/svnkit/ChangeLog                          |  31 ---
- dev-util/svnkit/Manifest                           |   2 -
- dev-util/svnkit/files/svnkit-1.1.7-build.xml.patch | 267 ---------------------
- .../files/svnkit-1.2.0_beta2-build.xml.patch       | 253 -------------------
- dev-util/svnkit/metadata.xml                       |   8 -
- dev-util/svnkit/svnkit-1.1.7.ebuild                |  59 -----
- dev-util/svnkit/svnkit-1.2.0_beta2.ebuild          |  60 -----
- www-servers/jboss-bin/ChangeLog                    |   9 +-
- www-servers/jboss-bin/jboss-bin-4.0.5.ebuild       |   9 +-
- 45 files changed, 31 insertions(+), 1496 deletions(-)
- delete mode 100644 dev-java/ant-pretty/ChangeLog
- delete mode 100644 dev-java/ant-pretty/Manifest
- delete mode 100644 dev-java/ant-pretty/ant-pretty-2.9.19-r1.ebuild
- delete mode 100644 dev-java/ant-pretty/metadata.xml
- delete mode 100644 dev-java/fb-contrib/ChangeLog
- delete mode 100644 dev-java/fb-contrib/Manifest
- delete mode 100644 dev-java/fb-contrib/fb-contrib-4.6.1.ebuild
- delete mode 100644 dev-java/fb-contrib/metadata.xml
- delete mode 100644 dev-java/java-kernel-support/ChangeLog
- delete mode 100644 dev-java/java-kernel-support/Manifest
- delete mode 100644 dev-java/java-kernel-support/java-kernel-support-1.01.ebuild
- delete mode 100644 dev-java/java-kernel-support/metadata.xml
- delete mode 100644 dev-java/java-service-wrapper/ChangeLog
- delete mode 100644 dev-java/java-service-wrapper/Manifest
- delete mode 100644 dev-java/java-service-wrapper/files/java-service-wrapper-3.1.2-buildxml.patch
- delete mode 100644 dev-java/java-service-wrapper/files/java-service-wrapper-3.1.2-gentoo.patch
- delete mode 100644 dev-java/java-service-wrapper/java-service-wrapper-3.1.2-r2.ebuild
- delete mode 100644 dev-java/java-service-wrapper/metadata.xml
- delete mode 100644 dev-java/jrefactory/ChangeLog
- delete mode 100644 dev-java/jrefactory/Manifest
- delete mode 100644 dev-java/jrefactory/files/FindBugsFrame.java.diff
- delete mode 100644 dev-java/jrefactory/files/ant.patch
- delete mode 100644 dev-java/jrefactory/jrefactory-2.9.19-r1.ebuild
- delete mode 100644 dev-java/jrefactory/metadata.xml
- rename dev-java/saxon/{saxon-8.8.ebuild => saxon-8.8-r1.ebuild} (60%)
- delete mode 100644 dev-util/findbugs/ChangeLog
- delete mode 100644 dev-util/findbugs/Manifest
- delete mode 100644 dev-util/findbugs/files/findbugs
- delete mode 100644 dev-util/findbugs/findbugs-0.8.4.ebuild
- delete mode 100644 dev-util/findbugs/metadata.xml
- delete mode 100644 dev-util/svnclientadapter/ChangeLog
- delete mode 100644 dev-util/svnclientadapter/Manifest
- delete mode 100644 dev-util/svnclientadapter/files/svnclientadapter-1.2.4-build.xml.patch
- delete mode 100644 dev-util/svnclientadapter/metadata.xml
- delete mode 100644 dev-util/svnclientadapter/svnclientadapter-1.2.4.ebuild
- delete mode 100644 dev-util/svnkit/ChangeLog
- delete mode 100644 dev-util/svnkit/Manifest
- delete mode 100644 dev-util/svnkit/files/svnkit-1.1.7-build.xml.patch
- delete mode 100644 dev-util/svnkit/files/svnkit-1.2.0_beta2-build.xml.patch
- delete mode 100644 dev-util/svnkit/metadata.xml
- delete mode 100644 dev-util/svnkit/svnkit-1.1.7.ebuild
- delete mode 100644 dev-util/svnkit/svnkit-1.2.0_beta2.ebuild
+Already up-to-date.
 *** syncing java
 *** synced java
  * Sync succeeded
 $ pmaint regen -t 2 java
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by dev-java/ibm-jdk-bin-1.4.2.13-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.

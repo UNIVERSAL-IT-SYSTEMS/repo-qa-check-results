@@ -202,7 +202,7 @@ Total file size: 5.13M bytes
 Total transferred file size: 394.94K bytes
 Literal data: 394.94K bytes
 Matched data: 0 bytes
-File list size: 48.88K
+File list size: 48.19K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 3.16K
@@ -214,7 +214,9 @@ total size is 5.13M  speedup is 25.73
 *** synced hacking-gentoo
  * Sync succeeded
 $ pmaint regen -t 2 hacking-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by sys-kernel/raspberrypi-notro-sources-3.16.7-r20141111 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
