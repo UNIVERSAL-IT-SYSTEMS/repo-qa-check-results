@@ -10,20 +10,10 @@
             {'type': 'git', 'uri': 'https://github.com/fkmclane/overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync fkmclane
+WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/fkmclane/overlay
-   6d5bdbe..b6bee56  master     -> origin/master
-Updating 6d5bdbe..b6bee56
-Fast-forward
- media-tv/plex-media-server/Manifest                |  5 +-
- .../plex-media-server-0.9.12.4.ebuild              | 81 ----------------------
- .../plex-media-server-0.9.12.8.ebuild              |  2 +-
- net-mail/syncmaildir/Manifest                      |  3 +-
- net-mail/syncmaildir/files/vala-unowned.patch      | 14 ----
- net-mail/syncmaildir/syncmaildir-1.2.6.1.ebuild    |  6 +-
- 6 files changed, 6 insertions(+), 105 deletions(-)
- delete mode 100644 media-tv/plex-media-server/plex-media-server-0.9.12.4.ebuild
- delete mode 100644 net-mail/syncmaildir/files/vala-unowned.patch
+Already up-to-date.
 *** syncing fkmclane
 *** synced fkmclane
  * Sync succeeded

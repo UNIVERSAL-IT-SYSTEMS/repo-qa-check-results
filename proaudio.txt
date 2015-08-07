@@ -10,32 +10,17 @@ $ pmaint sync proaudio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Updating '.':
-At revision 2965.
+svn: E170013: Unable to connect to a repository at URL 'svn://svn.tuxfamily.org/svnroot/proaudio/proaudio/trunk/overlays/proaudio'
+svn: E000113: Can't connect to host 'svn.tuxfamily.org': No route to host
 *** syncing proaudio
-*** synced proaudio
- * Sync succeeded
-$ pmaint regen -t 2 proaudio
+*** failed syncing proaudio
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync proaudio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-
-!!! ERROR: media-sound/abraca-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '170' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/proaudio/media-sound/abraca/abraca-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/proaudio/media-sound/abraca/abraca-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/proaudio/media-sound/abraca/abraca-9999.ebuild'
-!!!             abraca-9999.ebuild, line   6:  Called inherit 'exteutils' 'multilib' 'git-2' 'waf-utils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
-!!!               waf-utils.eclass, line  22:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
-
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-sound/abraca-9999
- * Cache regenerated successfully
+svn: E170013: Unable to connect to a repository at URL 'svn://svn.tuxfamily.org/svnroot/proaudio/proaudio/trunk/overlays/proaudio'
+svn: E000113: Can't connect to host 'svn.tuxfamily.org': No route to host
+*** syncing proaudio
+*** failed syncing proaudio
+ * Sync failed again with 1, removing

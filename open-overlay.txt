@@ -7,7 +7,11 @@
              'uri': 'git://github.com/pantera31752/open-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync open-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/luke-jr' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/luke-jr', named 'luke-jr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/luke-jr' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/luke-jr', named 'luke-jr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing open-overlay
 *** synced open-overlay
@@ -18,10 +22,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use_enable' function invoked by mate-extra/caja-dropbox-1.10.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-6.0.0_alpha20150719 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-9999 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-6.0.0_alpha20150719 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully

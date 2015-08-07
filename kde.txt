@@ -13,7 +13,13 @@
  'status': 'official'}
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   2b3a34f..9f1fdc0  master     -> origin/master
+Updating 2b3a34f..9f1fdc0
+Fast-forward
+ kde-frameworks/kwallet/kwallet-5.13.0.ebuild | 14 +++++++++++++-
+ profiles/package.use.mask                    |  2 ++
+ 2 files changed, 15 insertions(+), 1 deletion(-)
 *** syncing kde
 *** synced kde
  * Sync succeeded
