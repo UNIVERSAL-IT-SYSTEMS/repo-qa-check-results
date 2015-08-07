@@ -7,15 +7,14 @@
  'source': [{'type': 'git', 'uri': 'git://github.com/Sabayon/for-gentoo.git'}],
  'status': 'unofficial'}
 $ pmaint sync sabayon
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing sabayon
 *** synced sabayon
  * Sync succeeded
 $ pmaint regen -t 2 sabayon
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by net-mail/davmail-bin-4.1.0.2042 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.

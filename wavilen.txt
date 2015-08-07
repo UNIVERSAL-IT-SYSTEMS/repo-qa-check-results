@@ -9,42 +9,27 @@
              'uri': 'https://github.com/wavilen/wavilen-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync wavilen
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing wavilen
 *** synced wavilen
  * Sync succeeded
 $ pmaint regen -t 2 wavilen
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+
+!!! ERROR: x11-misc/notify-osd-0.9.29-r1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
  * 
  * "/home/mgorny/repos/wavilen/x11-misc/pytyle/pytyle-0.7.5.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
- * 
- * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.9.7.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
- * 
- * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.8.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-
-!!! ERROR: x11-misc/notify-osd-0.9.29-r1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '208' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
@@ -53,11 +38,26 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
 !!!    notify-osd-0.9.29-r1.ebuild, line   7:  Called inherit 'gnome2' 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+ * 
+ * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.8.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+ * 
+ * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.9.7.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
+
+WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-misc/notify-osd-0.9.29-r1

@@ -15,28 +15,14 @@
              'uri': 'https://github.com/mrueg/mrueg-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync mrueg
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/dev/mrueg
-   d2a601c..6aa8b90  master     -> origin/master
-Updating d2a601c..6aa8b90
-Fast-forward
- dev-python/pyspotify/Manifest                                        | 2 +-
- .../pyspotify/{pyspotify-2.0.1.ebuild => pyspotify-2.0.2.ebuild}     | 0
- media-plugins/mopidy-spotify/Manifest                                | 2 +-
- ....0_pre20150602.ebuild => mopidy-spotify-2.0.0_pre20150806.ebuild} | 4 ++--
- media-plugins/mopidy-youtube/Manifest                                | 2 +-
- ...-youtube-2.0.0_pre20150401.ebuild => mopidy-youtube-2.0.0.ebuild} | 5 ++---
- 6 files changed, 7 insertions(+), 8 deletions(-)
- rename dev-python/pyspotify/{pyspotify-2.0.1.ebuild => pyspotify-2.0.2.ebuild} (100%)
- rename media-plugins/mopidy-spotify/{mopidy-spotify-2.0.0_pre20150602.ebuild => mopidy-spotify-2.0.0_pre20150806.ebuild} (88%)
- rename media-plugins/mopidy-youtube/{mopidy-youtube-2.0.0_pre20150401.ebuild => mopidy-youtube-2.0.0.ebuild} (81%)
+Already up-to-date.
 *** syncing mrueg
 *** synced mrueg
  * Sync succeeded
 $ pmaint regen -t 2 mrueg
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by dev-libs/libspotify-12.1.51 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.

@@ -14,14 +14,32 @@
              'uri': 'git@github.com:bobwya/miscellaneous_ebuilds.git'}],
  'status': 'unofficial'}
 $ pmaint sync bobwya
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+From https://github.com/bobwya/miscellaneous_ebuilds
+   7a2c637..e66cf83  master     -> origin/master
+Updating 7a2c637..e66cf83
+Fast-forward
+ net-p2p/eiskaltdcpp/ChangeLog                | 291 +++++++++++++++++++++++++++
+ net-p2p/eiskaltdcpp/Manifest                 |   7 +
+ net-p2p/eiskaltdcpp/eiskaltdcpp-2.2.9.ebuild | 150 ++++++++++++++
+ net-p2p/eiskaltdcpp/eiskaltdcpp-9999.ebuild  | 150 ++++++++++++++
+ net-p2p/eiskaltdcpp/files/moc_fix.sh         |  24 +++
+ net-p2p/eiskaltdcpp/metadata.xml             |  24 +++
+ net-p2p/eiskaltdcpp/xclip                    | 112 +++++++++++
+ 7 files changed, 758 insertions(+)
+ create mode 100644 net-p2p/eiskaltdcpp/ChangeLog
+ create mode 100644 net-p2p/eiskaltdcpp/Manifest
+ create mode 100644 net-p2p/eiskaltdcpp/eiskaltdcpp-2.2.9.ebuild
+ create mode 100644 net-p2p/eiskaltdcpp/eiskaltdcpp-9999.ebuild
+ create mode 100755 net-p2p/eiskaltdcpp/files/moc_fix.sh
+ create mode 100644 net-p2p/eiskaltdcpp/metadata.xml
+ create mode 100644 net-p2p/eiskaltdcpp/xclip
 *** syncing bobwya
 *** synced bobwya
  * Sync succeeded
 $ pmaint regen -t 2 bobwya
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

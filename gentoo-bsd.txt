@@ -12,27 +12,21 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/gentoo-bsd.git'}],
  'status': 'official'}
 $ pmaint sync gentoo-bsd
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing gentoo-bsd
 *** synced gentoo-bsd
  * Sync succeeded
 $ pmaint regen -t 2 gentoo-bsd
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by sys-freebsd/freebsd-cddl-10.2_beta1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-freebsd/freebsd-sbin-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-usbin-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-usbin-10.2_beta1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-freebsd/freebsd-lib-10.2_beta1 during metadata regeneration.
@@ -48,6 +42,12 @@ WARNING: 'use' function invoked by sys-freebsd/freebsd-share-10.2_beta1 during m
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-freebsd/freebsd-sources-10.2_beta1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-freebsd/freebsd-usbin-10.2_beta1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-freebsd/freebsd-usbin-10.2_beta1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-freebsd/freebsd-ubin-10.2_beta1 during metadata regeneration.

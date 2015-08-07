@@ -9,24 +9,13 @@
              'uri': 'https://github.com/doctaweeks/junkdrawer-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync junkdrawer
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/doctaweeks/junkdrawer-overlay
-   a64aaf4..b4ebdd3  master     -> origin/master
-Updating a64aaf4..b4ebdd3
-Fast-forward
- net-misc/wdt/files/wdt-9999-use-shared-folly.diff | 107 ++++++++++++++++++++++
- net-misc/wdt/metadata.xml                         |  10 ++
- net-misc/wdt/wdt-9999.ebuild                      |  40 ++++++++
- 3 files changed, 157 insertions(+)
- create mode 100644 net-misc/wdt/files/wdt-9999-use-shared-folly.diff
- create mode 100644 net-misc/wdt/metadata.xml
- create mode 100644 net-misc/wdt/wdt-9999.ebuild
+Already up-to-date.
 *** syncing junkdrawer
 *** synced junkdrawer
  * Sync succeeded
 $ pmaint regen -t 2 junkdrawer
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

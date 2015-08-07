@@ -12,15 +12,14 @@
              'uri': 'https://github.com/Hamper/hamper-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync hamper-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing hamper-overlay
 *** synced hamper-overlay
  * Sync succeeded
 $ pmaint regen -t 2 hamper-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by net-im/qutim-9999-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.

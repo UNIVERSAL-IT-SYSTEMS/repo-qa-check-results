@@ -14,15 +14,15 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/mistafunk.git'}],
  'status': 'unofficial'}
 $ pmaint sync mistafunk
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing mistafunk
 *** synced mistafunk
  * Sync succeeded
 $ pmaint regen -t 2 mistafunk
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 !!! caught exception Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-gfx/blender-cycles-9999
