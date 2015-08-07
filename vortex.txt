@@ -14,30 +14,7 @@
 $ pmaint sync vortex
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/nE0sIghT/vortex-overlay
-   1f1fcde..61d4881  master     -> origin/master
-Updating 1f1fcde..61d4881
-Fast-forward
- media-plugins/audacious-plugins/Manifest           |   2 +
- .../audacious-plugins-3.6.2-r1.ebuild              | 134 +++++++++++++++++++++
- media-sound/audacious/ChangeLog                    |  30 -----
- media-sound/audacious/Manifest                     |   3 -
- media-sound/audacious/audacious-3.6.1.ebuild       |  56 ---------
- media-sound/audacious/audacious-3.6.ebuild         |  56 ---------
- .../files/audacious-3.2.2-fix-build-gmodule.patch  |  51 --------
- .../files/audacious-3.2.3-fix-mutex.patch          |  89 --------------
- .../audacious/files/audacious_ldflags.patch        |  11 --
- media-sound/audacious/metadata.xml                 |  13 --
- 10 files changed, 136 insertions(+), 309 deletions(-)
- create mode 100644 media-plugins/audacious-plugins/audacious-plugins-3.6.2-r1.ebuild
- delete mode 100644 media-sound/audacious/ChangeLog
- delete mode 100644 media-sound/audacious/Manifest
- delete mode 100644 media-sound/audacious/audacious-3.6.1.ebuild
- delete mode 100644 media-sound/audacious/audacious-3.6.ebuild
- delete mode 100644 media-sound/audacious/files/audacious-3.2.2-fix-build-gmodule.patch
- delete mode 100644 media-sound/audacious/files/audacious-3.2.3-fix-mutex.patch
- delete mode 100644 media-sound/audacious/files/audacious_ldflags.patch
- delete mode 100644 media-sound/audacious/metadata.xml
+Already up-to-date.
 *** syncing vortex
 *** synced vortex
  * Sync succeeded

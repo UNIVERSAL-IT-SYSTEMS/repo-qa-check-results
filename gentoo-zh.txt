@@ -8,7 +8,13 @@
  'status': 'unofficial'}
 $ pmaint sync gentoo-zh
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/microcai/gentoo-zh
+   7e3f7ee..4d88e1e  master     -> origin/master
+Updating 7e3f7ee..4d88e1e
+Fast-forward
+ eclass/npm.eclass | 110 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 110 insertions(+)
+ create mode 100644 eclass/npm.eclass
 *** syncing gentoo-zh
 *** synced gentoo-zh
  * Sync succeeded

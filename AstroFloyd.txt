@@ -15,7 +15,31 @@
  'status': 'unofficial'}
 $ pmaint sync AstroFloyd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/AstroFloyd
+   32a1f5f..45e881a  master     -> origin/master
+Updating 32a1f5f..45e881a
+Fast-forward
+ sci-libs/plplot/ChangeLog                          | 306 +++++++++++++++++++++
+ sci-libs/plplot/Manifest                           |  10 +
+ sci-libs/plplot/files/plplot-5.10.0-cmake.patch    |  18 ++
+ .../plplot/files/plplot-5.10.0-have-config-h.patch | 117 ++++++++
+ .../plplot/files/plplot-5.9.11-multiarch.patch     |  50 ++++
+ sci-libs/plplot/files/plplot-5.9.11-ocaml.patch    |  34 +++
+ sci-libs/plplot/files/plplot-5.9.11-octave.patch   |  12 +
+ sci-libs/plplot/files/plplot-5.9.6-python.patch    |  13 +
+ sci-libs/plplot/metadata.xml                       |  30 ++
+ sci-libs/plplot/plplot-5.10.0-r1.ebuild            | 245 +++++++++++++++++
+ 10 files changed, 835 insertions(+)
+ create mode 100644 sci-libs/plplot/ChangeLog
+ create mode 100644 sci-libs/plplot/Manifest
+ create mode 100644 sci-libs/plplot/files/plplot-5.10.0-cmake.patch
+ create mode 100644 sci-libs/plplot/files/plplot-5.10.0-have-config-h.patch
+ create mode 100644 sci-libs/plplot/files/plplot-5.9.11-multiarch.patch
+ create mode 100644 sci-libs/plplot/files/plplot-5.9.11-ocaml.patch
+ create mode 100644 sci-libs/plplot/files/plplot-5.9.11-octave.patch
+ create mode 100644 sci-libs/plplot/files/plplot-5.9.6-python.patch
+ create mode 100644 sci-libs/plplot/metadata.xml
+ create mode 100644 sci-libs/plplot/plplot-5.10.0-r1.ebuild
 *** syncing AstroFloyd
 *** synced AstroFloyd
  * Sync succeeded
@@ -34,10 +58,10 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.0.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.16.5 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.18.9 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.18.9 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.16.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully

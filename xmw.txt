@@ -12,7 +12,19 @@
  'status': 'unofficial'}
 $ pmaint sync xmw
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/xmw
+   eeadc2a..b5912c4  master     -> origin/master
+Updating eeadc2a..b5912c4
+Fast-forward
+ dev-tex/tikzuml/ChangeLog                     |  5 +++++
+ dev-tex/tikzuml/Manifest                      | 11 ++++++++++
+ dev-tex/tikzuml/metadata.xml                  | 11 ++++++++++
+ dev-tex/tikzuml/tikzuml-1.0b_p20130201.ebuild | 31 +++++++++++++++++++++++++++
+ 4 files changed, 58 insertions(+)
+ create mode 100644 dev-tex/tikzuml/ChangeLog
+ create mode 100644 dev-tex/tikzuml/Manifest
+ create mode 100644 dev-tex/tikzuml/metadata.xml
+ create mode 100644 dev-tex/tikzuml/tikzuml-1.0b_p20130201.ebuild
 *** syncing xmw
 *** synced xmw
  * Sync succeeded
