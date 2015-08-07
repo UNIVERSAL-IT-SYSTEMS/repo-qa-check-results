@@ -14,15 +14,22 @@
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/kde
-   d8f1e95..83cadfe  master     -> origin/master
-Updating d8f1e95..83cadfe
+   83cadfe..f26fa95  master     -> origin/master
+Updating 83cadfe..f26fa95
 Fast-forward
- kde-frameworks/extra-cmake-modules/extra-cmake-modules-5.13.0.ebuild | 3 +++
- kde-frameworks/extra-cmake-modules/extra-cmake-modules-9999.ebuild   | 3 +++
- kde-plasma/plasma-workspace/plasma-workspace-5.3.95.ebuild           | 1 +
- kde-plasma/plasma-workspace/plasma-workspace-5.4.49.9999.ebuild      | 1 +
- kde-plasma/plasma-workspace/plasma-workspace-9999.ebuild             | 1 +
- 5 files changed, 9 insertions(+)
+ kde-plasma/bluedevil/bluedevil-5.3.95.ebuild                    | 2 +-
+ kde-plasma/bluedevil/bluedevil-5.4.49.9999.ebuild               | 2 +-
+ kde-plasma/bluedevil/bluedevil-9999.ebuild                      | 2 +-
+ kde-plasma/breeze/breeze-5.3.95.ebuild                          | 1 +
+ kde-plasma/breeze/breeze-5.4.49.9999.ebuild                     | 1 +
+ kde-plasma/breeze/breeze-9999.ebuild                            | 1 +
+ kde-plasma/kdeplasma-addons/kdeplasma-addons-5.3.95.ebuild      | 2 +-
+ kde-plasma/kdeplasma-addons/kdeplasma-addons-5.4.49.9999.ebuild | 2 +-
+ kde-plasma/kdeplasma-addons/kdeplasma-addons-9999.ebuild        | 2 +-
+ kde-plasma/kinfocenter/kinfocenter-5.3.95.ebuild                | 4 ++++
+ kde-plasma/kinfocenter/kinfocenter-5.4.49.9999.ebuild           | 4 ++++
+ kde-plasma/kinfocenter/kinfocenter-9999.ebuild                  | 4 ++++
+ 12 files changed, 21 insertions(+), 6 deletions(-)
 *** syncing kde
 *** synced kde
  * Sync succeeded

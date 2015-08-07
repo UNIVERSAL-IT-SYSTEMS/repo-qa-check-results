@@ -15,20 +15,37 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/jorgicio/jorgicio-gentoo
+   e6ff623..56e3fb9  master     -> origin/master
+Updating e6ff623..56e3fb9
+Fast-forward
+ README.md                                          |   1 +
+ dev-java/oracle-jdk-bin/Manifest                   |  15 -
+ .../oracle-jdk-bin/files/oracle-jdk-bin-1.8.env    |  17 --
+ .../oracle-jdk-bin/oracle-jdk-bin-1.8.0.51.ebuild  | 338 ---------------------
+ dev-java/oracle-jre-bin/Manifest                   |   5 -
+ .../oracle-jre-bin/files/oracle-jre-bin-1.8.env    |  17 --
+ .../oracle-jre-bin/oracle-jre-bin-1.8.0.51.ebuild  | 230 --------------
+ 7 files changed, 1 insertion(+), 622 deletions(-)
+ delete mode 100644 dev-java/oracle-jdk-bin/Manifest
+ delete mode 100644 dev-java/oracle-jdk-bin/files/oracle-jdk-bin-1.8.env
+ delete mode 100644 dev-java/oracle-jdk-bin/oracle-jdk-bin-1.8.0.51.ebuild
+ delete mode 100644 dev-java/oracle-jre-bin/Manifest
+ delete mode 100644 dev-java/oracle-jre-bin/files/oracle-jre-bin-1.8.env
+ delete mode 100644 dev-java/oracle-jre-bin/oracle-jre-bin-1.8.0.51.ebuild
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
 $ pmaint regen -t 2 jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
@@ -40,13 +57,13 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully
