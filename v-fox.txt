@@ -12,7 +12,11 @@
              'uri': 'http://github.com/v-fox/gentoo_overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync v-fox
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing v-fox
@@ -21,30 +25,30 @@ Already up-to-date.
 $ pmaint regen -t 2 v-fox
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 QA warning: set modification bled out of invocation source /home/mgorny/repos/v-fox/net-libs/lacewing/lacewing-9999.ebuild
           : was hB
           : now ehB
-WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 QA warning: set modification bled out of invocation source /home/mgorny/repos/v-fox/sys-kernel/nouveau-sources/nouveau-sources-9999.ebuild
           : was hB
           : now ehB
