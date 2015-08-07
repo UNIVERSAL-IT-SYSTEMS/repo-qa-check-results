@@ -12,17 +12,10 @@
  'status': 'official'}
 $ pmaint sync alexxy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing alexxy
-*** failed syncing alexxy
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync alexxy
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/alexxy'...
+Already up-to-date.
 *** syncing alexxy
 *** synced alexxy
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 alexxy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

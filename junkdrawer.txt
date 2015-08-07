@@ -11,18 +11,12 @@
 $ pmaint sync junkdrawer
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/doctaweeks/junkdrawer-overlay
-   b4ebdd3..73323e5  master     -> origin/master
-Updating b4ebdd3..73323e5
+   73323e5..5dccb10  master     -> origin/master
+Updating 73323e5..5dccb10
 Fast-forward
- dev-cpp/proxygen/Manifest                          |  1 +
- .../files/proxygen-0.29.0-optional-tests.diff      | 37 ++++++++++++++++++++++
- dev-cpp/proxygen/metadata.xml                      | 10 ++++++
- dev-cpp/proxygen/proxygen-0.29.0.ebuild            | 31 ++++++++++++++++++
- 4 files changed, 79 insertions(+)
- create mode 100644 dev-cpp/proxygen/Manifest
- create mode 100644 dev-cpp/proxygen/files/proxygen-0.29.0-optional-tests.diff
- create mode 100644 dev-cpp/proxygen/metadata.xml
- create mode 100644 dev-cpp/proxygen/proxygen-0.29.0.ebuild
+ net-misc/wdt/files/wdt-9999-use-shared-folly.diff | 4 ++--
+ net-misc/wdt/wdt-9999.ebuild                      | 4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
 *** syncing junkdrawer
 *** synced junkdrawer
  * Sync succeeded

@@ -15,26 +15,22 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/jorgicio/jorgicio-gentoo
-   5ae1aae..e6ff623  master     -> origin/master
-Updating 5ae1aae..e6ff623
-Fast-forward
- net-im/telegram-dev-bin/Manifest                   |   3 +
- .../telegram-dev-bin-0.8.47.ebuild                 |  37 ++++++
- net-misc/dropbox/Manifest                          |   3 +
- net-misc/dropbox/dropbox-3.8.6.ebuild              | 128 +++++++++++++++++++++
- net-misc/megasync/Manifest                         |   3 +
- net-misc/megasync/megasync-2.1.1.ebuild            |  53 +++++++++
- 6 files changed, 227 insertions(+)
- create mode 100644 net-im/telegram-dev-bin/telegram-dev-bin-0.8.47.ebuild
- create mode 100644 net-misc/dropbox/dropbox-3.8.6.ebuild
- create mode 100644 net-misc/megasync/megasync-2.1.1.ebuild
+Already up-to-date.
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
 $ pmaint regen -t 2 jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
@@ -51,15 +47,6 @@ WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully

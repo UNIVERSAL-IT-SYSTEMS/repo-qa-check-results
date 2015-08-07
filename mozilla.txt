@@ -9,10 +9,17 @@
  'status': 'official'}
 $ pmaint sync mozilla
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/luke-jr' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/luke-jr', named 'luke-jr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/mozilla
+   3870776..8f86afc  master     -> origin/master
+Updating 3870776..8f86afc
+Fast-forward
+ www-client/firefox/Manifest                        | 320 ++++++++++-----------
+ ...firefox-38.1.0.ebuild => firefox-38.1.1.ebuild} |   0
+ .../{firefox-39.0.ebuild => firefox-39.0.3.ebuild} |   0
+ 3 files changed, 160 insertions(+), 160 deletions(-)
+ rename www-client/firefox/{firefox-38.1.0.ebuild => firefox-38.1.1.ebuild} (100%)
+ rename www-client/firefox/{firefox-39.0.ebuild => firefox-39.0.3.ebuild} (100%)
 *** syncing mozilla
 *** synced mozilla
  * Sync succeeded

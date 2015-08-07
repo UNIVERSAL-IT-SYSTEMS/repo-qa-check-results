@@ -14,7 +14,19 @@
  'status': 'unofficial'}
 $ pmaint sync mv
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/mv
+   dc8fc9a..3327936  master     -> origin/master
+Updating dc8fc9a..3327936
+Fast-forward
+ sys-apps/schedule/ChangeLog                                          | 5 +++++
+ sys-apps/schedule/Manifest                                           | 2 +-
+ sys-apps/schedule/{schedule-7.0.5.ebuild => schedule-7.1.0.ebuild}   | 0
+ sys-fs/squashmount/ChangeLog                                         | 5 +++++
+ sys-fs/squashmount/Manifest                                          | 2 +-
+ .../{squashmount-12.1.0.ebuild => squashmount-12.1.1.ebuild}         | 0
+ 6 files changed, 12 insertions(+), 2 deletions(-)
+ rename sys-apps/schedule/{schedule-7.0.5.ebuild => schedule-7.1.0.ebuild} (100%)
+ rename sys-fs/squashmount/{squashmount-12.1.0.ebuild => squashmount-12.1.1.ebuild} (100%)
 *** syncing mv
 *** synced mv
  * Sync succeeded

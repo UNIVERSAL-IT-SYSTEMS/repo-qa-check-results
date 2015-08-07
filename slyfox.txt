@@ -9,6 +9,8 @@
  'source': [{'type': 'git', 'uri': 'http://repo.or.cz/r/slyfox-gentoo.git'}],
  'status': 'official'}
 $ pmaint sync slyfox
+WARNING:pkgcore:repository at location '/home/mgorny/repos/proaudio' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/proaudio', named 'proaudio', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing slyfox

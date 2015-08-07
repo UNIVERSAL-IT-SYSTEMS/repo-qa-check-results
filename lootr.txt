@@ -14,10 +14,17 @@
  'status': 'unofficial'}
 $ pmaint sync lootr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: read error: Connection reset by peer
+*** syncing lootr
+*** failed syncing lootr
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync lootr
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/lootr'...
 *** syncing lootr
 *** synced lootr
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 lootr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

@@ -14,23 +14,9 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/displacer.git'}],
  'status': 'unofficial'}
 $ pmaint sync displacer
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://anongit.gentoo.org/user/displacer
-   1ad84a3..11ad7fb  master     -> origin/master
-Updating 1ad84a3..11ad7fb
-Fast-forward
- x11-libs/libdrm/Manifest           |  3 ++
- x11-libs/libdrm/libdrm-9999.ebuild | 59 ++++++++++++++++++++++++++++++++++++++
- x11-libs/libdrm/metadata.xml       |  8 ++++++
- 3 files changed, 70 insertions(+)
- create mode 100644 x11-libs/libdrm/Manifest
- create mode 100644 x11-libs/libdrm/libdrm-9999.ebuild
- create mode 100644 x11-libs/libdrm/metadata.xml
+Already up-to-date.
 *** syncing displacer
 *** synced displacer
  * Sync succeeded
