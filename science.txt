@@ -17,7 +17,14 @@
  'status': 'official'}
 $ pmaint sync science
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/sci
+   dc8702a..4f21f57  master     -> origin/master
+Updating dc8702a..4f21f57
+Fast-forward
+ sci-biology/staden/ChangeLog                 | 4 ++++
+ sci-biology/staden/staden-2.0.0_beta9.ebuild | 2 +-
+ sci-biology/staden/staden-9999.ebuild        | 2 +-
+ 3 files changed, 6 insertions(+), 2 deletions(-)
 *** syncing science
 *** synced science
  * Sync succeeded
