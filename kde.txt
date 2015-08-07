@@ -14,91 +14,21 @@
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/kde
-   f26fa95..8e317f0  master     -> origin/master
-Updating f26fa95..8e317f0
+   8e317f0..d6c277c  master     -> origin/master
+Updating 8e317f0..d6c277c
 Fast-forward
- app-text/presage/Manifest                          |   1 -
- .../presage/files/presage-0.8.8-automagic.patch    | 126 ---------------------
- app-text/presage/metadata.xml                      |   8 --
- app-text/presage/presage-0.8.8.ebuild              |  49 --------
- kde-plasma/kwin/kwin-5.3.95.ebuild                 |   1 +
- kde-plasma/kwin/kwin-5.4.49.9999.ebuild            |   1 +
- kde-plasma/kwin/kwin-9999.ebuild                   |   1 +
- kde-plasma/kwrited/kwrited-5.3.95.ebuild           |   1 +
- kde-plasma/kwrited/kwrited-5.4.49.9999.ebuild      |   1 +
- kde-plasma/kwrited/kwrited-9999.ebuild             |   1 +
- kde-plasma/oxygen/oxygen-5.3.95.ebuild             |   1 +
- kde-plasma/oxygen/oxygen-5.4.49.9999.ebuild        |   1 +
- kde-plasma/oxygen/oxygen-9999.ebuild               |   1 +
- plasma-active/bodega-client/Manifest               |   1 -
- .../bodega-client/bodega-client-0.2.ebuild         |  30 -----
- plasma-active/bodega-client/metadata.xml           |   8 --
- plasma-active/declarative-plasmoids/Manifest       |   1 -
- .../declarative-plasmoids-4.10.ebuild              |  20 ----
- .../declarative-plasmoids-9999.ebuild              |  19 ----
- plasma-active/declarative-plasmoids/metadata.xml   |   5 -
- plasma-active/kde-artwork-active/Manifest          |   1 -
- .../kde-artwork-active-0.4.ebuild                  |  28 -----
- plasma-active/kde-artwork-active/metadata.xml      |   8 --
- plasma-active/plasma-active-maliit/Manifest        |   1 -
- plasma-active/plasma-active-maliit/metadata.xml    |   9 --
- .../plasma-active-maliit-0.2.ebuild                |  29 -----
- plasma-active/plasma-mobile-config/Manifest        |   1 -
- plasma-active/plasma-mobile-config/metadata.xml    |   5 -
- .../plasma-mobile-config-0.4.ebuild                |  18 ---
- plasma-active/plasma-mobile/Manifest               |   1 -
- .../files/plasma-mobile-0.5-solidinherit.patch     |  13 ---
- plasma-active/plasma-mobile/metadata.xml           |   8 --
- .../plasma-mobile-0.5_p20131003.ebuild             |  38 -------
- .../plasma-mobile/plasma-mobile-9999.ebuild        |  33 ------
- plasma-active/share-like-connect/Manifest          |   1 -
- plasma-active/share-like-connect/metadata.xml      |   5 -
- .../share-like-connect-0.4.ebuild                  |  24 ----
- plasma-active/startactive/Manifest                 |   1 -
- plasma-active/startactive/metadata.xml             |   5 -
- plasma-active/startactive/startactive-0.4.ebuild   |  18 ---
- profiles/package.mask/plasma-active                |  13 ---
- x11-misc/maliit-framework/Manifest                 |   1 -
- .../maliit-framework-0.94.0-removeldconfig.patch   |  27 -----
- .../maliit-framework-0.94.0.ebuild                 |  59 ----------
- x11-misc/maliit-framework/metadata.xml             |   8 --
- 45 files changed, 9 insertions(+), 623 deletions(-)
- delete mode 100644 app-text/presage/Manifest
- delete mode 100644 app-text/presage/files/presage-0.8.8-automagic.patch
- delete mode 100644 app-text/presage/metadata.xml
- delete mode 100644 app-text/presage/presage-0.8.8.ebuild
- delete mode 100644 plasma-active/bodega-client/Manifest
- delete mode 100644 plasma-active/bodega-client/bodega-client-0.2.ebuild
- delete mode 100644 plasma-active/bodega-client/metadata.xml
- delete mode 100644 plasma-active/declarative-plasmoids/Manifest
- delete mode 100644 plasma-active/declarative-plasmoids/declarative-plasmoids-4.10.ebuild
- delete mode 100644 plasma-active/declarative-plasmoids/declarative-plasmoids-9999.ebuild
- delete mode 100644 plasma-active/declarative-plasmoids/metadata.xml
- delete mode 100644 plasma-active/kde-artwork-active/Manifest
- delete mode 100644 plasma-active/kde-artwork-active/kde-artwork-active-0.4.ebuild
- delete mode 100644 plasma-active/kde-artwork-active/metadata.xml
- delete mode 100644 plasma-active/plasma-active-maliit/Manifest
- delete mode 100644 plasma-active/plasma-active-maliit/metadata.xml
- delete mode 100644 plasma-active/plasma-active-maliit/plasma-active-maliit-0.2.ebuild
- delete mode 100644 plasma-active/plasma-mobile-config/Manifest
- delete mode 100644 plasma-active/plasma-mobile-config/metadata.xml
- delete mode 100644 plasma-active/plasma-mobile-config/plasma-mobile-config-0.4.ebuild
- delete mode 100644 plasma-active/plasma-mobile/Manifest
- delete mode 100644 plasma-active/plasma-mobile/files/plasma-mobile-0.5-solidinherit.patch
- delete mode 100644 plasma-active/plasma-mobile/metadata.xml
- delete mode 100644 plasma-active/plasma-mobile/plasma-mobile-0.5_p20131003.ebuild
- delete mode 100644 plasma-active/plasma-mobile/plasma-mobile-9999.ebuild
- delete mode 100644 plasma-active/share-like-connect/Manifest
- delete mode 100644 plasma-active/share-like-connect/metadata.xml
- delete mode 100644 plasma-active/share-like-connect/share-like-connect-0.4.ebuild
- delete mode 100644 plasma-active/startactive/Manifest
- delete mode 100644 plasma-active/startactive/metadata.xml
- delete mode 100644 plasma-active/startactive/startactive-0.4.ebuild
- delete mode 100644 profiles/package.mask/plasma-active
- delete mode 100644 x11-misc/maliit-framework/Manifest
- delete mode 100644 x11-misc/maliit-framework/files/maliit-framework-0.94.0-removeldconfig.patch
- delete mode 100644 x11-misc/maliit-framework/maliit-framework-0.94.0.ebuild
- delete mode 100644 x11-misc/maliit-framework/metadata.xml
+ kde-apps/kdepim/Manifest                |   1 +
+ kde-apps/kdepim/kdepim-15.07.90.ebuild  | 157 ++++++++++++++++++++++++++++++++
+ kde-apps/kget/kget-15.04.3.ebuild       |  16 +---
+ kde-apps/kget/kget-15.07.90.ebuild      |  14 +--
+ kde-apps/kget/kget-15.08.49.9999.ebuild |  14 +--
+ kde-apps/kget/kget-9999.ebuild          |  14 +--
+ kde-apps/kget/metadata.xml              |   1 -
+ profiles/categories                     |   6 +-
+ profiles/package.mask/kde-apps-15.07.90 |   1 +
+ 9 files changed, 179 insertions(+), 45 deletions(-)
+ create mode 100644 kde-apps/kdepim/Manifest
+ create mode 100644 kde-apps/kdepim/kdepim-15.07.90.ebuild
 *** syncing kde
 *** synced kde
  * Sync succeeded
