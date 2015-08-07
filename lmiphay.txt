@@ -10,7 +10,15 @@
  'status': 'unofficial'}
 $ pmaint sync lmiphay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/lmiphay
+   6f00e5f..2e870c4  master     -> origin/master
+Updating 6f00e5f..2e870c4
+Fast-forward
+ dev-util/pstack/Manifest           |  1 +
+ dev-util/pstack/pstack-9999.ebuild | 16 ++++++++++++++++
+ 2 files changed, 17 insertions(+)
+ create mode 100644 dev-util/pstack/Manifest
+ create mode 100644 dev-util/pstack/pstack-9999.ebuild
 *** syncing lmiphay
 *** synced lmiphay
  * Sync succeeded

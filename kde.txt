@@ -14,21 +14,57 @@
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/kde
-   8e317f0..d6c277c  master     -> origin/master
-Updating 8e317f0..d6c277c
+   d6c277c..1b68dc6  master     -> origin/master
+Updating d6c277c..1b68dc6
 Fast-forward
- kde-apps/kdepim/Manifest                |   1 +
- kde-apps/kdepim/kdepim-15.07.90.ebuild  | 157 ++++++++++++++++++++++++++++++++
- kde-apps/kget/kget-15.04.3.ebuild       |  16 +---
- kde-apps/kget/kget-15.07.90.ebuild      |  14 +--
- kde-apps/kget/kget-15.08.49.9999.ebuild |  14 +--
- kde-apps/kget/kget-9999.ebuild          |  14 +--
- kde-apps/kget/metadata.xml              |   1 -
- profiles/categories                     |   6 +-
- profiles/package.mask/kde-apps-15.07.90 |   1 +
- 9 files changed, 179 insertions(+), 45 deletions(-)
- create mode 100644 kde-apps/kdepim/Manifest
- create mode 100644 kde-apps/kdepim/kdepim-15.07.90.ebuild
+ .../.kde-4.14.49.9999/kdebase-runtime-4.14         |   1 -
+ .../.kde-4.14.49.9999/kdelibs-4.14                 |   2 -
+ .../.kde-4.14.49.9999/more-deps                    |   5 -
+ .../package.accept_keywords/.kde-4.14/more-deps    |   5 -
+ .../.kde-applications-15.04:4/more-deps            |   5 -
+ .../kde-4.14.49.9999.keywords                      |   8 -
+ .../package.accept_keywords/kde-4.14.keywords      |   8 -
+ Documentation/package.mask/kde-4.14                |   3 -
+ .../package.mask/kde-applications-15.04:4          |   3 -
+ Documentation/package.unmask/kde-4.14              |   3 -
+ .../package.unmask/kde-applications-15.04:4        |   3 -
+ .../kdebase-runtime-meta-15.04.3.ebuild            |   3 +-
+ .../kdebase-runtime-meta-15.07.90.ebuild           |   3 +-
+ .../kdebase-runtime-meta-15.08.49.9999.ebuild      |   3 +-
+ .../kdebase-runtime-meta-9999.ebuild               |   3 +-
+ kde-apps/kdebase-runtime-meta/metadata.xml         |   1 -
+ kde-apps/nepomuk/Manifest                          |   2 -
+ kde-apps/nepomuk/metadata.xml                      |   5 -
+ kde-apps/nepomuk/nepomuk-15.04.3.ebuild            |  38 ---
+ kde-apps/nepomuk/nepomuk-15.07.90.ebuild           |  38 ---
+ kde-apps/nepomuk/nepomuk-15.08.49.9999.ebuild      |  38 ---
+ kde-apps/nepomuk/nepomuk-9999.ebuild               |  38 ---
+ kde-base/plasma-workspace/metadata.xml             |   1 -
+ .../plasma-workspace-4.11.49.9999.ebuild           |  14 +-
+ kde-base/pykde4/metadata.xml                       |   1 -
+ kde-base/pykde4/pykde4-9999.ebuild                 |  15 +-
+ kde-base/systemsettings/metadata.xml               |   1 -
+ .../systemsettings-4.11.49.9999.ebuild             |   3 +-
+ media-sound/amarok/amarok-9999.ebuild              |   9 +-
+ media-sound/amarok/metadata.xml                    |   1 -
+ profiles/package.mask/kde-apps-15.04.3             |   1 -
+ profiles/package.mask/kde-apps-15.07.80            | 262 ---------------------
+ profiles/package.mask/kde-apps-15.07.90            |   1 -
+ profiles/package.use.mask                          |   3 +-
+ sets/kdebase-runtime                               |   1 -
+ sets/kdebase-runtime-15.04:4                       |   1 -
+ sets/kdebase-runtime-4.14                          |   1 -
+ sets/kdelibs                                       |   2 -
+ sets/kdelibs-15.04:4                               |   2 -
+ sets/kdelibs-4.14                                  |   2 -
+ 40 files changed, 23 insertions(+), 516 deletions(-)
+ delete mode 100644 kde-apps/nepomuk/Manifest
+ delete mode 100644 kde-apps/nepomuk/metadata.xml
+ delete mode 100644 kde-apps/nepomuk/nepomuk-15.04.3.ebuild
+ delete mode 100644 kde-apps/nepomuk/nepomuk-15.07.90.ebuild
+ delete mode 100644 kde-apps/nepomuk/nepomuk-15.08.49.9999.ebuild
+ delete mode 100644 kde-apps/nepomuk/nepomuk-9999.ebuild
+ delete mode 100644 profiles/package.mask/kde-apps-15.07.80
 *** syncing kde
 *** synced kde
  * Sync succeeded
