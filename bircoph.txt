@@ -16,7 +16,32 @@
 $ pmaint sync bircoph
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/bircoph
+   6a005d7..2cb11db  master     -> origin/master
+Updating 6a005d7..2cb11db
+Fast-forward
+ dev-cpp/gtkglextmm/ChangeLog                       | 108 ++++++++++++++++
+ dev-cpp/gtkglextmm/Manifest                        |   5 +
+ .../files/gtkglextmm-1.2.0-aclocal.patch           |  11 ++
+ dev-cpp/gtkglextmm/gtkglextmm-1.2.0-r2.ebuild      |  46 +++++++
+ dev-cpp/gtkglextmm/metadata.xml                    |   8 ++
+ profiles/categories                                |   2 +-
+ sys-power/suspend/ChangeLog                        | 137 ---------------------
+ sys-power/suspend/Manifest                         |   6 -
+ sys-power/suspend/metadata.xml                     |  15 ---
+ sys-power/suspend/suspend-1.0_p20150622.ebuild     |  57 ---------
+ sys-power/suspend/suspend-9999.ebuild              |  59 ---------
+ 11 files changed, 179 insertions(+), 275 deletions(-)
+ create mode 100644 dev-cpp/gtkglextmm/ChangeLog
+ create mode 100644 dev-cpp/gtkglextmm/Manifest
+ create mode 100644 dev-cpp/gtkglextmm/files/gtkglextmm-1.2.0-aclocal.patch
+ create mode 100644 dev-cpp/gtkglextmm/gtkglextmm-1.2.0-r2.ebuild
+ create mode 100644 dev-cpp/gtkglextmm/metadata.xml
+ delete mode 100644 sys-power/suspend/ChangeLog
+ delete mode 100644 sys-power/suspend/Manifest
+ delete mode 100644 sys-power/suspend/metadata.xml
+ delete mode 100644 sys-power/suspend/suspend-1.0_p20150622.ebuild
+ delete mode 100644 sys-power/suspend/suspend-9999.ebuild
 *** syncing bircoph
 *** synced bircoph
  * Sync succeeded
