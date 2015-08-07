@@ -6,19 +6,11 @@
  'source': [{'type': 'svn',
              'uri': 'svn://svn.dashjr.org/luke-portage-overlay/trunk'}],
  'status': 'unofficial'}
+ * Adding new repository
 $ pmaint sync luke-jr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Updating '.':
 svn: E170013: Unable to connect to a repository at URL 'svn://svn.dashjr.org/luke-portage-overlay/trunk'
 svn: E000101: Can't connect to host 'svn.dashjr.org': Network is unreachable
 *** syncing luke-jr
 *** failed syncing luke-jr
  * Sync failed with 1
- * Will try to re-create
-$ pmaint sync luke-jr
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-svn: E170013: Unable to connect to a repository at URL 'svn://svn.dashjr.org/luke-portage-overlay/trunk'
-svn: E000101: Can't connect to host 'svn.dashjr.org': Network is unreachable
-*** syncing luke-jr
-*** failed syncing luke-jr
- * Sync failed again with 1, removing
