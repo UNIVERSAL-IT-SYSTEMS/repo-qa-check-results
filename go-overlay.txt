@@ -10,17 +10,7 @@
  'status': 'unofficial'}
 $ pmaint sync go-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/Dr-Terrible/go-overlay
-   85f2cec..ebcd9dc  master     -> origin/master
-Updating 85f2cec..ebcd9dc
-Fast-forward
- dev-util/go-tools/Manifest                                              | 2 +-
- .../go-tools/{go-tools-20150606.ebuild => go-tools-20150806.ebuild}     | 0
- metadata/md5-cache/dev-util/{go-tools-20150606 => go-tools-20150806}    | 2 +-
- metadata/pkg_desc_index                                                 | 2 +-
- 4 files changed, 3 insertions(+), 3 deletions(-)
- rename dev-util/go-tools/{go-tools-20150606.ebuild => go-tools-20150806.ebuild} (100%)
- rename metadata/md5-cache/dev-util/{go-tools-20150606 => go-tools-20150806} (91%)
+Already up-to-date.
 *** syncing go-overlay
 *** synced go-overlay
  * Sync succeeded
