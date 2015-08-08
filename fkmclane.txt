@@ -13,14 +13,7 @@ $ pmaint sync fkmclane
 WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/fkmclane/overlay
-   7a3a0dc..9c9aa56  master     -> origin/master
-Updating 7a3a0dc..9c9aa56
-Fast-forward
- media-tv/plex-media-server/Manifest                |  3 +
- .../plex-media-server-0.9.12.10.ebuild             | 81 ++++++++++++++++++++++
- 2 files changed, 84 insertions(+)
- create mode 100644 media-tv/plex-media-server/plex-media-server-0.9.12.10.ebuild
+Already up-to-date.
 *** syncing fkmclane
 *** synced fkmclane
  * Sync succeeded
