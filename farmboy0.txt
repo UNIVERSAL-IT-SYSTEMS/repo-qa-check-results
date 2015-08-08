@@ -17,7 +17,19 @@ $ pmaint sync farmboy0
 WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/farmboy0/portage-overlay
+   52b2e50..e3ed477  master     -> origin/master
+Updating 52b2e50..e3ed477
+Fast-forward
+ media-sound/teamspeak-client-bin/Manifest          |  5 ++
+ media-sound/teamspeak-client-bin/files/teamspeak3  | 10 +++
+ media-sound/teamspeak-client-bin/metadata.xml      | 11 ++++
+ .../teamspeak-client-bin-3.0.17.ebuild             | 76 ++++++++++++++++++++++
+ 4 files changed, 102 insertions(+)
+ create mode 100644 media-sound/teamspeak-client-bin/Manifest
+ create mode 100644 media-sound/teamspeak-client-bin/files/teamspeak3
+ create mode 100644 media-sound/teamspeak-client-bin/metadata.xml
+ create mode 100644 media-sound/teamspeak-client-bin/teamspeak-client-bin-3.0.17.ebuild
 *** syncing farmboy0
 *** synced farmboy0
  * Sync succeeded

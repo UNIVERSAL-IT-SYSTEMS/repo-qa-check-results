@@ -15,22 +15,16 @@
 $ pmaint sync java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/java
-   cb7d77a..62ab0c8  master     -> origin/master
-Updating cb7d77a..62ab0c8
+   62ab0c8..67175f5  master     -> origin/master
+Updating 62ab0c8..67175f5
 Fast-forward
- dev-java/ant-jalopy/Manifest              |  1 -
- dev-java/ant-jalopy/ant-jalopy-0.1.ebuild | 48 -----------------------------
- dev-java/ant-jalopy/metadata.xml          |  5 ----
- dev-java/jalopy/Manifest                  |  1 -
- dev-java/jalopy/jalopy-1.5_rc3.ebuild     | 50 -------------------------------
- dev-java/jalopy/metadata.xml              |  5 ----
- 6 files changed, 110 deletions(-)
- delete mode 100644 dev-java/ant-jalopy/Manifest
- delete mode 100644 dev-java/ant-jalopy/ant-jalopy-0.1.ebuild
- delete mode 100644 dev-java/ant-jalopy/metadata.xml
- delete mode 100644 dev-java/jalopy/Manifest
- delete mode 100644 dev-java/jalopy/jalopy-1.5_rc3.ebuild
- delete mode 100644 dev-java/jalopy/metadata.xml
+ dev-java/tablelayout/Manifest               |  1 -
+ dev-java/tablelayout/metadata.xml           |  5 -----
+ dev-java/tablelayout/tablelayout-4.2.ebuild | 17 -----------------
+ 3 files changed, 23 deletions(-)
+ delete mode 100644 dev-java/tablelayout/Manifest
+ delete mode 100644 dev-java/tablelayout/metadata.xml
+ delete mode 100644 dev-java/tablelayout/tablelayout-4.2.ebuild
 *** syncing java
 *** synced java
  * Sync succeeded
