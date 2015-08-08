@@ -16,28 +16,7 @@
 $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/alunduil/alunduil-overlay
-   0ccf46a..1ccbb60  master     -> origin/master
-Updating 0ccf46a..1ccbb60
-Fast-forward
- app-admin/supernova/Manifest                       |  3 ++
- app-admin/supernova/metadata.xml                   | 10 ++++
- app-admin/supernova/supernova-2.0.7.ebuild         | 53 ++++++++++++++++++++++
- dev-python/aiohttp/Manifest                        |  4 +-
- ...aiohttp-0.16.6.ebuild => aiohttp-0.17.0.ebuild} |  1 +
- dev-python/botocore/Manifest                       |  3 ++
- dev-python/botocore/botocore-1.1.7.ebuild          | 53 ++++++++++++++++++++++
- dev-python/botocore/metadata.xml                   | 10 ++++
- dev-python/os-client-config/Manifest               |  2 +-
- .../files/test_get_all_clouds.patch                |  4 +-
- 10 files changed, 138 insertions(+), 5 deletions(-)
- create mode 100644 app-admin/supernova/Manifest
- create mode 100644 app-admin/supernova/metadata.xml
- create mode 100644 app-admin/supernova/supernova-2.0.7.ebuild
- rename dev-python/aiohttp/{aiohttp-0.16.6.ebuild => aiohttp-0.17.0.ebuild} (94%)
- create mode 100644 dev-python/botocore/Manifest
- create mode 100644 dev-python/botocore/botocore-1.1.7.ebuild
- create mode 100644 dev-python/botocore/metadata.xml
+Already up-to-date.
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded

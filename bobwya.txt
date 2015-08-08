@@ -15,42 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync bobwya
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/bobwya/miscellaneous_ebuilds
-   e66cf83..0697053  master     -> origin/master
-Updating e66cf83..0697053
-Fast-forward
- README.md                                          |    5 +-
- mail-client/thunderbird-kde-opensuse/ChangeLog     | 2938 ++++++++++++++++++++
- mail-client/thunderbird-kde-opensuse/Manifest      |  195 ++
- .../files/enigmail-1.6.0-parallel-fix.patch        |   38 +
- .../files/icon/thunderbird-unbranded.desktop       |    9 +
- .../files/icon/thunderbird.desktop                 |    9 +
- .../files/thunderbird-gentoo-default-prefs-1.js-1  |    9 +
- .../thunderbird-kde-opensuse-31.7.0-gcc5-1.patch   |  242 ++
- .../thunderbird-kde-opensuse-force-qt-dialog.patch |   12 +
- .../files/thunderbird-kde-opensuse-kde-debug.patch |  216 ++
- .../thunderbird-kde-opensuse-rhbz-966424.patch     |   23 +
- mail-client/thunderbird-kde-opensuse/metadata.xml  |   30 +
- .../thunderbird-kde-opensuse-24.8.0.ebuild         |  431 +++
- .../thunderbird-kde-opensuse-31.8.0.ebuild         |  438 +++
- .../thunderbird-kde-opensuse-38.1.0.ebuild         |  410 +++
- .../tools/thunderbird-kde-patch.sh                 |  247 ++
- 16 files changed, 5250 insertions(+), 2 deletions(-)
- create mode 100644 mail-client/thunderbird-kde-opensuse/ChangeLog
- create mode 100644 mail-client/thunderbird-kde-opensuse/Manifest
- create mode 100644 mail-client/thunderbird-kde-opensuse/files/enigmail-1.6.0-parallel-fix.patch
- create mode 100644 mail-client/thunderbird-kde-opensuse/files/icon/thunderbird-unbranded.desktop
- create mode 100644 mail-client/thunderbird-kde-opensuse/files/icon/thunderbird.desktop
- create mode 100644 mail-client/thunderbird-kde-opensuse/files/thunderbird-gentoo-default-prefs-1.js-1
- create mode 100644 mail-client/thunderbird-kde-opensuse/files/thunderbird-kde-opensuse-31.7.0-gcc5-1.patch
- create mode 100644 mail-client/thunderbird-kde-opensuse/files/thunderbird-kde-opensuse-force-qt-dialog.patch
- create mode 100644 mail-client/thunderbird-kde-opensuse/files/thunderbird-kde-opensuse-kde-debug.patch
- create mode 100644 mail-client/thunderbird-kde-opensuse/files/thunderbird-kde-opensuse-rhbz-966424.patch
- create mode 100644 mail-client/thunderbird-kde-opensuse/metadata.xml
- create mode 100644 mail-client/thunderbird-kde-opensuse/thunderbird-kde-opensuse-24.8.0.ebuild
- create mode 100644 mail-client/thunderbird-kde-opensuse/thunderbird-kde-opensuse-31.8.0.ebuild
- create mode 100644 mail-client/thunderbird-kde-opensuse/thunderbird-kde-opensuse-38.1.0.ebuild
- create mode 100755 mail-client/thunderbird-kde-opensuse/tools/thunderbird-kde-patch.sh
+Already up-to-date.
 *** syncing bobwya
 *** synced bobwya
  * Sync succeeded
