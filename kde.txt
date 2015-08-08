@@ -13,7 +13,21 @@
  'status': 'official'}
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   62fbf14..008e6ab  master     -> origin/master
+Updating 62fbf14..008e6ab
+Fast-forward
+ kde-misc/bekwinfx/bekwinfx-0_p20140110.ebuild                      | 2 --
+ kde-misc/bekwinfx/bekwinfx-9999.ebuild                             | 2 --
+ kde-misc/homerun/homerun-9999.ebuild                               | 1 -
+ media-gfx/digikam/digikam-4.12.0.ebuild                            | 4 ----
+ media-libs/libkface/libkface-4.12.0.ebuild                         | 2 --
+ media-libs/libkgeomap/libkgeomap-4.12.0.ebuild                     | 2 --
+ media-plugins/kipi-plugins/kipi-plugins-4.12.0.ebuild              | 7 +------
+ media-plugins/kipi-plugins/kipi-plugins-5.9999.ebuild              | 4 ----
+ net-libs/libmediawiki/libmediawiki-4.12.0.ebuild                   | 1 -
+ .../oxygen-transparent/oxygen-transparent-0_p20130624.ebuild       | 2 --
+ 10 files changed, 1 insertion(+), 26 deletions(-)
 *** syncing kde
 *** synced kde
  * Sync succeeded
