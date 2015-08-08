@@ -11,26 +11,7 @@
  'status': 'official'}
 $ pmaint sync libressl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/gentoo/libressl
-   8c60ec2..82f5230  master     -> origin/master
-Updating 8c60ec2..82f5230
-Fast-forward
- dev-libs/libressl/Manifest                         |   1 +
- dev-libs/libressl/libressl-2.2.2.ebuild            |  49 ++++++++
- dev-python/cryptography/ChangeLog                  |  34 +++++-
- dev-python/cryptography/Manifest                   |   1 +
- dev-python/cryptography/cryptography-0.9.3.ebuild  |  44 +++++++
- .../files/cryptography-libressl-2.2.2.patch        |  12 ++
- www-client/links/ChangeLog                         |   7 +-
- www-client/links/Manifest                          |   2 -
- www-client/links/links-2.9-r1.ebuild               | 135 ---------------------
- www-client/links/links-2.9.ebuild                  | 135 ---------------------
- 10 files changed, 146 insertions(+), 274 deletions(-)
- create mode 100644 dev-libs/libressl/libressl-2.2.2.ebuild
- create mode 100644 dev-python/cryptography/cryptography-0.9.3.ebuild
- create mode 100644 dev-python/cryptography/files/cryptography-libressl-2.2.2.patch
- delete mode 100644 www-client/links/links-2.9-r1.ebuild
- delete mode 100644 www-client/links/links-2.9.ebuild
+Already up-to-date.
 *** syncing libressl
 *** synced libressl
  * Sync succeeded

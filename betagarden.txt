@@ -15,10 +15,17 @@
  'status': 'official'}
 $ pmaint sync betagarden
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: read error: Connection reset by peer
+*** syncing betagarden
+*** failed syncing betagarden
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync betagarden
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/betagarden'...
 *** syncing betagarden
 *** synced betagarden
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 betagarden
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
