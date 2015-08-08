@@ -13,18 +13,7 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/gentoo-haskell/gentoo-haskell
-   0675a72..2625be3  master     -> origin/master
-Updating 0675a72..2625be3
-Fast-forward
- dev-haskell/ircbot/Manifest                        |  1 +
- dev-haskell/ircbot/ircbot-0.6.4.ebuild             | 32 ++++++++++++++++++++++
- dev-haskell/proc/files/proc-0.0.9-ghc-7.10.patch   |  8 ++++++
- dev-haskell/proc/proc-0.0.9.ebuild                 | 32 +++++++++++++---------
- x11-wm/xmonad-contrib/xmonad-contrib-0.11.4.ebuild |  2 ++
- 5 files changed, 62 insertions(+), 13 deletions(-)
- create mode 100644 dev-haskell/ircbot/ircbot-0.6.4.ebuild
- create mode 100644 dev-haskell/proc/files/proc-0.0.9-ghc-7.10.patch
+Already up-to-date.
 *** syncing haskell
 *** synced haskell
  * Sync succeeded

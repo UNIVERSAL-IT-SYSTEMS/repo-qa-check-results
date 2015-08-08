@@ -16,7 +16,17 @@
 $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/alunduil/alunduil-overlay
+   6ac6ddb..a31a200  master     -> origin/master
+Updating 6ac6ddb..a31a200
+Fast-forward
+ dev-python/debtcollector/Manifest                     |  4 ++--
+ ...lector-0.6.0.ebuild => debtcollector-0.7.0.ebuild} |  5 +----
+ dev-python/oslo-serialization/Manifest                |  4 ++--
+ ...n-1.7.0.ebuild => oslo-serialization-1.8.0.ebuild} | 19 ++++++++++---------
+ 4 files changed, 15 insertions(+), 17 deletions(-)
+ rename dev-python/debtcollector/{debtcollector-0.6.0.ebuild => debtcollector-0.7.0.ebuild} (89%)
+ rename dev-python/oslo-serialization/{oslo-serialization-1.7.0.ebuild => oslo-serialization-1.8.0.ebuild} (85%)
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded

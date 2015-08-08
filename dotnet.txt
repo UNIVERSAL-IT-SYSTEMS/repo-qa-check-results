@@ -13,67 +13,7 @@
  'status': 'official'}
 $ pmaint sync dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/dotnet
-   1ac9d1e..89202ce  master     -> origin/master
-Updating 1ac9d1e..89202ce
-Fast-forward
- dev-dotnet/dbus-sharp-glib/ChangeLog               | 34 +++++++++++
- dev-dotnet/dbus-sharp-glib/Manifest                |  1 +
- .../dbus-sharp-glib/dbus-sharp-glib-0.6.ebuild     | 32 ++++++++++
- dev-dotnet/dbus-sharp-glib/metadata.xml            | 12 ++++
- dev-dotnet/dbus-sharp/ChangeLog                    | 51 ++++++++++++++++
- dev-dotnet/dbus-sharp/Manifest                     |  2 +
- dev-dotnet/dbus-sharp/dbus-sharp-0.7.0-r2.ebuild   | 32 ++++++++++
- dev-dotnet/dbus-sharp/dbus-sharp-0.8.1.ebuild      | 35 +++++++++++
- .../files/dbus-sharp-0.7.0-fix-signals.patch       | 28 +++++++++
- .../files/dbus-sharp-0.7.0-fix-signals2.patch      | 26 ++++++++
- dev-dotnet/dbus-sharp/metadata.xml                 | 12 ++++
- dev-dotnet/log4net/log4net-1.2.11-r1.ebuild        | 45 ++++++++++++++
- dev-dotnet/nini/ChangeLog                          | 53 +++++++++++++++++
- dev-dotnet/nini/Manifest                           |  1 +
- dev-dotnet/nini/files/Nini.snk.uue                 | 17 ++++++
- dev-dotnet/nini/files/nini.pc.in                   |  9 +++
- dev-dotnet/nini/metadata.xml                       | 11 ++++
- dev-dotnet/nini/nini-1.1.0-r3.ebuild               | 64 ++++++++++++++++++++
- dev-dotnet/notify-sharp/Manifest                   |  2 +
- dev-dotnet/notify-sharp/notify-sharp-0.4.1.ebuild  | 39 ++++++++++++
- dev-dotnet/notify-sharp/notify-sharp-3.0.3.ebuild  | 39 ++++++++++++
- dev-dotnet/smartirc4net/Manifest                   |  1 +
- dev-dotnet/smartirc4net/metadata.xml               |  5 ++
- dev-dotnet/smartirc4net/smartirc4net-1.0.ebuild    | 25 ++++++++
- media-gfx/pinta/Manifest                           |  1 +
- media-gfx/pinta/metadata.xml                       | 20 +++++++
- media-gfx/pinta/pinta-1.6.ebuild                   | 69 ++++++++++++++++++++++
- net-irc/smuxi/Manifest                             |  1 +
- net-irc/smuxi/smuxi-1.0.ebuild                     | 51 ++++++++++++++++
- 29 files changed, 718 insertions(+)
- create mode 100644 dev-dotnet/dbus-sharp-glib/ChangeLog
- create mode 100644 dev-dotnet/dbus-sharp-glib/Manifest
- create mode 100644 dev-dotnet/dbus-sharp-glib/dbus-sharp-glib-0.6.ebuild
- create mode 100644 dev-dotnet/dbus-sharp-glib/metadata.xml
- create mode 100644 dev-dotnet/dbus-sharp/ChangeLog
- create mode 100644 dev-dotnet/dbus-sharp/Manifest
- create mode 100644 dev-dotnet/dbus-sharp/dbus-sharp-0.7.0-r2.ebuild
- create mode 100644 dev-dotnet/dbus-sharp/dbus-sharp-0.8.1.ebuild
- create mode 100644 dev-dotnet/dbus-sharp/files/dbus-sharp-0.7.0-fix-signals.patch
- create mode 100644 dev-dotnet/dbus-sharp/files/dbus-sharp-0.7.0-fix-signals2.patch
- create mode 100644 dev-dotnet/dbus-sharp/metadata.xml
- create mode 100644 dev-dotnet/log4net/log4net-1.2.11-r1.ebuild
- create mode 100644 dev-dotnet/nini/ChangeLog
- create mode 100644 dev-dotnet/nini/Manifest
- create mode 100644 dev-dotnet/nini/files/Nini.snk.uue
- create mode 100644 dev-dotnet/nini/files/nini.pc.in
- create mode 100644 dev-dotnet/nini/metadata.xml
- create mode 100644 dev-dotnet/nini/nini-1.1.0-r3.ebuild
- create mode 100644 dev-dotnet/notify-sharp/notify-sharp-0.4.1.ebuild
- create mode 100644 dev-dotnet/notify-sharp/notify-sharp-3.0.3.ebuild
- create mode 100644 dev-dotnet/smartirc4net/Manifest
- create mode 100644 dev-dotnet/smartirc4net/metadata.xml
- create mode 100644 dev-dotnet/smartirc4net/smartirc4net-1.0.ebuild
- create mode 100644 media-gfx/pinta/Manifest
- create mode 100644 media-gfx/pinta/metadata.xml
- create mode 100644 media-gfx/pinta/pinta-1.6.ebuild
- create mode 100644 net-irc/smuxi/smuxi-1.0.ebuild
+Already up-to-date.
 *** syncing dotnet
 *** synced dotnet
  * Sync succeeded
