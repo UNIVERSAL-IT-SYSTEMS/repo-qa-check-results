@@ -47,72 +47,72 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '184' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-python/carbon/carbon-0.9.9-r1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-python/carbon/carbon-0.9.9-r1.ebuild'
 
 !!! ERROR: dev-db/maatkit-7540 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-python/carbon/carbon-0.9.9-r1.ebuild'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '163' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-python/carbon/carbon-0.9.9-r1.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/kormoc/dev-python/carbon/carbon-0.9.9-r1.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
-!!!         carbon-0.9.9-r1.ebuild, line  11:  Called inherit 'python'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 214' for eclass python
-
-received unknown com: export CATEGORY='dev-db' PR=r0 PVR='2.2.5' PV='2.2.5' EBUILD='/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild' P='percona-toolkit-2.2.5' PF='percona-toolkit-2.2.5' PN='percona-toolkit'path
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
-!!!            maatkit-7540.ebuild, line   5:  Called inherit 'perl-app'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-
-!!! ERROR: dev-db/percona-toolkit-2.2.6 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
 
 !!! ERROR: dev-db/mysql-5.1.47 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/kormoc/dev-python/carbon/carbon-0.9.9-r1.ebuild'
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '214' 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         carbon-0.9.9-r1.ebuild, line  11:  Called inherit 'python'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '167' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 214' for eclass python
+
+received unknown com: export CATEGORY='dev-db' PR=r0 PVR='2.2.6' PV='2.2.6' EBUILD='/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild' P='percona-toolkit-2.2.6' PF='percona-toolkit-2.2.6' PN='percona-toolkit'path
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '163' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
-!!!   percona-toolkit-2.2.6.ebuild, line   5:  Called inherit 'perl-app'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
+
+!!! ERROR: dev-db/percona-toolkit-2.2.5 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
 !!!            mysql-5.1.47.ebuild, line  13:  Called inherit 'toolchain-funcs' 'mysql'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!            maatkit-7540.ebuild, line   5:  Called inherit 'perl-app'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '214' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for mysql failed
 
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   percona-toolkit-2.2.5.ebuild, line   5:  Called inherit 'perl-app'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
 !!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
@@ -126,15 +126,15 @@ received unknown com: export CATEGORY='dev-db' PR=r0 PVR='2.2.5' PV='2.2.5' EBUI
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-tv/miro-2.5.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-python/carbon-0.9.9-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.5
 !!! caught exception inherit requires an unknown eclass, mysql cannot be found while processing ebuild src: dev-db/mysql-5.1.47
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.6
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-db/maatkit-7540
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.6
+!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.5
 Error running an operation:
  Unhandled exception in regen_cache
  [Errno 32] Broken pipe
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f76b716cb50> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f178545cc58> ignored
  * Cache regen failed with 246

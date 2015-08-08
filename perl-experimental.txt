@@ -15,18 +15,7 @@
  'status': 'official'}
 $ pmaint sync perl-experimental
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/perl-overlay
-   7d3b0c6..72006ec  master     -> origin/master
-Updating 7d3b0c6..72006ec
-Fast-forward
- dev-perl/KinoSearch/KinoSearch-0.315.0-r1.ebuild | 57 ------------------------
- dev-perl/KinoSearch/Manifest                     |  1 -
- dev-perl/KinoSearch/metadata.xml                 | 26 -----------
- profiles/package.mask                            | 12 -----
- 4 files changed, 96 deletions(-)
- delete mode 100644 dev-perl/KinoSearch/KinoSearch-0.315.0-r1.ebuild
- delete mode 100644 dev-perl/KinoSearch/Manifest
- delete mode 100644 dev-perl/KinoSearch/metadata.xml
+Already up-to-date.
 *** syncing perl-experimental
 *** synced perl-experimental
  * Sync succeeded
