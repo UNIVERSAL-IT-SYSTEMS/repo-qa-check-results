@@ -13,7 +13,14 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   2625be3..d8fde48  master     -> origin/master
+Updating 2625be3..d8fde48
+Fast-forward
+ dev-haskell/language-javascript/Manifest                                | 2 +-
+ ...e-javascript-0.5.14.1.ebuild => language-javascript-0.5.14.2.ebuild} | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename dev-haskell/language-javascript/{language-javascript-0.5.14.1.ebuild => language-javascript-0.5.14.2.ebuild} (100%)
 *** syncing haskell
 *** synced haskell
  * Sync succeeded

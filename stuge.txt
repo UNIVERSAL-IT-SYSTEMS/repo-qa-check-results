@@ -28,56 +28,60 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/stuge/sci-misc/qcad/qcad-2.0.5.0.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/sci-misc/qcad/qcad-2.0.5.0.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/stuge/sci-misc/qcad/qcad-2.0.5.0.ebuild'
- * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
-
-!!! ERROR: games-puzzle/gnome-sudoku-0.7.1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 !!!            qcad-2.0.5.0.ebuild, line   5:  Called inherit 'kde-functions' 'eutils'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde-functions'
+ * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for kde-functions failed
 
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: games-puzzle/gnome-sudoku-0.7.1 failed.
 
 !!! ERROR: app-misc/unlinkd-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '210' 'depend'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '210' 'depend'
 !!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '166' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/stuge/app-misc/unlinkd/unlinkd-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
+
+!!! ERROR: dev-perl/Device-Gsm-1.60 failed.
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/app-misc/unlinkd/unlinkd-9999.ebuild'
-!!!      gnome-sudoku-0.7.1.ebuild, line   6:  Called inherit 'python'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
  * 
  * "/home/mgorny/repos/stuge/www-apps/trac-authopenid/trac-authopenid-0.2.2.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-
-!!! ERROR: dev-perl/Device-Gsm-1.60 failed.
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/stuge/app-misc/unlinkd/unlinkd-9999.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!!      gnome-sudoku-0.7.1.ebuild, line   6:  Called inherit 'python'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!            unlinkd-9999.ebuild, line   6:  Called inherit 'eutils' 'git-2'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '187' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 205' for eclass eutils
+!!!  unknown inherit command from pythonic side, 'gen_metadata 155' for eclass eutils
 
-received unknown com: export CATEGORY='dev-java' PR=r0 PVR='2.4.6' PV='2.4.6' EBUILD='/home/mgorny/repos/stuge/dev-java/yuicompressor/yuicompressor-2.4.6.ebuild' P='yuicompressor-2.4.6' PF='yuicompressor-2.4.6' PN=yuicompressorpath
-Exception in thread Thread-8:
+received unknown com: export CATEGORY='dev-java' PR=r0 PVR='1.2.1' PV='1.2.1' EBUILD='/home/mgorny/repos/stuge/dev-java/xom/xom-1.2.1.ebuild' P='xom-1.2.1' PF='xom-1.2.1' PN=xompath
+Exception in thread Thread-10:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -101,35 +105,13 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
 !!!                  python.eclass, line 277:  Called die
 !!! The die message:
 !!!  NEED_PYTHON variable is banned
 
- * 
- * "/home/mgorny/repos/stuge/www-apps/trac-spamfilter/trac-spamfilter-0.12.9999.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '187' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
- * 
- * "/home/mgorny/repos/stuge/www-apps/trac-ticketguidelines/trac-ticketguidelines-9999.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
- * 
- * "/home/mgorny/repos/stuge/www-apps/trac-downloads/trac-downloads-0.11.9999.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
  * 
  * "/home/mgorny/repos/stuge/www-apps/trac-mastertickets/trac-mastertickets-0.11.9999.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
@@ -137,44 +119,51 @@ RuntimeError: [Errno 32] Broken pipe
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
+ * 
+ * "/home/mgorny/repos/stuge/www-apps/trac-downloads/trac-downloads-0.11.9999.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 !!!         Device-Gsm-1.60.ebuild, line   7:  Called inherit 'perl-module'
+ * 
+ * "/home/mgorny/repos/stuge/www-apps/trac-ticketguidelines/trac-ticketguidelines-9999.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+ * 
+ * "/home/mgorny/repos/stuge/www-apps/trac-spamfilter/trac-spamfilter-0.12.9999.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
+
+!!! ERROR: net-misc/openbsc-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '166' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
  * 
  * "/home/mgorny/repos/stuge/dev-python/xsv/xsv-3.1.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-
-!!! ERROR: net-misc/openbsc-9999 failed.
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '166' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
-
-!!! ERROR: net-misc/openggsn-9999 failed.
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '171' 'depend'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!            openbsc-9999.ebuild, line   3:  Called inherit 'git' 'autotools'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
@@ -184,49 +173,39 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-misc/unlinkd-9999
 !!! caught exception Metadata Exception: pkg ebuild src: dev-java/etherpad-1.1, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/etherpad-1.1
-!!! caught exception Metadata Exception: pkg ebuild src: dev-java/ezmorph-1.0.6, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/ezmorph-1.0.6
-!!! caught exception Metadata Exception: pkg ebuild src: dev-java/xom-1.2.1, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/xom-1.2.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-java/yuicompressor-2.4.6
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-sound/xmms2-0.4.2
+!!! caught exception False while processing ebuild src: dev-java/xom-1.2.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-puzzle/gnome-sudoku-0.7.1
+!!! caught exception Metadata Exception: pkg ebuild src: dev-java/ezmorph-1.0.6, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/ezmorph-1.0.6
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Device-Gsm-1.60
 !!! caught exception Metadata Exception: pkg ebuild src: dev-java/json-lib-2.3, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/json-lib-2.3
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/openbsc-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Device-Gsm-1.60
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/openggsn-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-misc/waitlink-1-r1
+!!! caught exception False while processing ebuild src: net-misc/openggsn-9999
 Error running an operation:
  Unhandled exception in regen_cache
-!!!           openggsn-9999.ebuild, line   4:  Called inherit 'git' 'autotools'
 
-!!! ERROR: net-misc/waitlink-1-r1 failed.
+!!! ERROR: net-misc/openggsn-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
 !!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '167' 'depend'
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '171' 'depend'
 !!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/stuge/net-misc/waitlink/waitlink-1-r1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/net-misc/waitlink/waitlink-1-r1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/stuge/net-misc/waitlink/waitlink-1-r1.ebuild'
-!!!           waitlink-1-r1.ebuild, line   6:  Called inherit 'eutils' 'flag-o-matic'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'flag-o-matic'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
+!!!           openggsn-9999.ebuild, line   4:  Called inherit 'git' 'autotools'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass flag-o-matic
+!!!  unknown inherit command from pythonic side, 'alive' for eclass git
 
-sandbox:stop  caught signal 15 in pid 24900
+sandbox:stop  caught signal 15 in pid 21989
 Sandboxed process killed by signal: Terminated
-Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7fd9554c4d08> ignored
+Exception IOError: IOError(32, 'Broken pipe') in <functools.partial object at 0x7f254b9f1f18> ignored
  * Cache regen failed with 246

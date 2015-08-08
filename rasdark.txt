@@ -7,7 +7,13 @@
  'status': 'unofficial'}
 $ pmaint sync rasdark
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/rasdark/overlay
+   4018882..12c70d4  master     -> origin/master
+Updating 4018882..12c70d4
+Fast-forward
+ profiles/DesktopM/package.keywords | 1 +
+ profiles/DesktopM/package.use      | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
 *** syncing rasdark
 *** synced rasdark
  * Sync succeeded

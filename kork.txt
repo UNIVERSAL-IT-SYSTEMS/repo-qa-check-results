@@ -14,10 +14,28 @@
  'status': 'unofficial'}
 $ pmaint sync kork
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+*** syncing kork
+*** failed syncing kork
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync kork
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/lua' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/lua', named 'lua', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/lootr' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/lootr', named 'lootr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/lordvan' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/lordvan', named 'lordvan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/levenkov' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/levenkov', named 'levenkov', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/kork'...
 *** syncing kork
 *** synced kork
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 kork
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -38,6 +56,25 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for ruby failed
 
-Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: sci-astronomy/ftools-6.10 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '174' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/kork/sci-astronomy/ftools/ftools-6.10.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/kork/sci-astronomy/ftools/ftools-6.10.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/kork/sci-astronomy/ftools/ftools-6.10.ebuild'
 !!! caught exception inherit requires an unknown eclass, ruby cannot be found while processing ebuild src: app-office/ekee-2.0.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-astronomy/ftools-6.10
+!!!             ftools-6.10.ebuild, line   7:  Called inherit 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'alive' for eclass eutils
+
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully

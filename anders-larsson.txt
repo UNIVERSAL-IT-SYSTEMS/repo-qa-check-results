@@ -11,11 +11,27 @@
 $ pmaint sync anders-larsson
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/anders-larsson/gentoo-overlay
+   9e7b051..a5948ce  master     -> origin/master
+ * [new branch]      keepassx   -> origin/keepassx
+Updating 9e7b051..a5948ce
+Fast-forward
+ .travis.yml                             |  4 +--
+ README.md                               |  2 +-
+ app-admin/keepassx/Manifest             |  1 +
+ app-admin/keepassx/keepassx-9999.ebuild | 54 +++++++++++++++++++++++++++++++++
+ app-admin/keepassx/metadata.xml         |  6 ++++
+ 5 files changed, 64 insertions(+), 3 deletions(-)
+ create mode 100644 app-admin/keepassx/Manifest
+ create mode 100644 app-admin/keepassx/keepassx-9999.ebuild
+ create mode 100644 app-admin/keepassx/metadata.xml
 *** syncing anders-larsson
 *** synced anders-larsson
  * Sync succeeded
 $ pmaint regen -t 2 anders-larsson
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by app-admin/keepassx-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully
