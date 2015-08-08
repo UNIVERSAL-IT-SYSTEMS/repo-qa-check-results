@@ -14,7 +14,25 @@
  'status': 'official'}
 $ pmaint sync java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/java
+   f3a0eb2..cb7d77a  master     -> origin/master
+Updating f3a0eb2..cb7d77a
+Fast-forward
+ dev-java/echopointng/Manifest                      |  1 -
+ .../echopointng/echopointng-2.1.0_rc5-r1.ebuild    | 61 ----------------------
+ .../echopointng-2.1.0_rc5-disabletestcompile.patch | 13 -----
+ dev-java/echopointng/metadata.xml                  |  9 ----
+ dev-java/xmlenc/Manifest                           |  1 -
+ dev-java/xmlenc/metadata.xml                       |  6 ---
+ dev-java/xmlenc/xmlenc-0.52-r1.ebuild              | 34 ------------
+ 7 files changed, 125 deletions(-)
+ delete mode 100644 dev-java/echopointng/Manifest
+ delete mode 100644 dev-java/echopointng/echopointng-2.1.0_rc5-r1.ebuild
+ delete mode 100644 dev-java/echopointng/files/echopointng-2.1.0_rc5-disabletestcompile.patch
+ delete mode 100644 dev-java/echopointng/metadata.xml
+ delete mode 100644 dev-java/xmlenc/Manifest
+ delete mode 100644 dev-java/xmlenc/metadata.xml
+ delete mode 100644 dev-java/xmlenc/xmlenc-0.52-r1.ebuild
 *** syncing java
 *** synced java
  * Sync succeeded
