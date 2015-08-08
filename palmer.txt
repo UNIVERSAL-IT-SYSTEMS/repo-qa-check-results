@@ -15,7 +15,15 @@
  'status': 'unofficial'}
 $ pmaint sync palmer
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/palmer
+   bb25ebe..5c7c4aa  master     -> origin/master
+Updating bb25ebe..5c7c4aa
+Fast-forward
+ net-irc/smuxi/Manifest            |  2 --
+ net-irc/smuxi/smuxi-0.11.1.ebuild | 56 ---------------------------------------
+ 2 files changed, 58 deletions(-)
+ delete mode 100644 net-irc/smuxi/Manifest
+ delete mode 100644 net-irc/smuxi/smuxi-0.11.1.ebuild
 *** syncing palmer
 *** synced palmer
  * Sync succeeded
