@@ -7,18 +7,7 @@
  'status': 'unofficial'}
 $ pmaint sync rasdark
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/rasdark/overlay
-   12c70d4..59a1b3f  master     -> origin/master
-Updating 12c70d4..59a1b3f
-Fast-forward
- ...roups-kconfig-build-bits-for-BFQ-v7r8-4.0.patch |  105 -
- ...-introduce-the-BFQ-v7r8-I-O-sched-for-4.0.patch | 6953 --------------------
- ...rly-Queue-Merge-EQM-to-BFQ-v7r8-for-4.0.0.patch | 1221 ----
- .../4.0/10-config-asus-laptop-i686                 | 3646 +++-------
- 4 files changed, 747 insertions(+), 11178 deletions(-)
- delete mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/0001-block-cgroups-kconfig-build-bits-for-BFQ-v7r8-4.0.patch
- delete mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/0002-block-introduce-the-BFQ-v7r8-I-O-sched-for-4.0.patch
- delete mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-v7r8-for-4.0.0.patch
+Already up-to-date.
 *** syncing rasdark
 *** synced rasdark
  * Sync succeeded
