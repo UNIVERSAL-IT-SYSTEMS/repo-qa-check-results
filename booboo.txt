@@ -10,17 +10,24 @@
  'status': 'unofficial'}
 $ pmaint sync booboo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/l29ah/booboo
+   d1c04e7..2120b0d  master     -> origin/master
+Updating d1c04e7..2120b0d
+Fast-forward
+ app-admin/firejail/Manifest               |  1 +
+ app-admin/firejail/firejail-0.9.28.ebuild | 19 +++++++++++++++++++
+ 2 files changed, 20 insertions(+)
+ create mode 100644 app-admin/firejail/firejail-0.9.28.ebuild
 *** syncing booboo
 *** synced booboo
  * Sync succeeded
 $ pmaint regen -t 2 booboo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by dev-lang/psyclpc-20090321 during metadata regeneration.
+WARNING: 'use' function invoked by net-libs/loudmouth-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-libs/loudmouth-9999 during metadata regeneration.
+WARNING: 'use' function invoked by dev-lang/psyclpc-20090321 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-client/uzbl-9999-r1 during metadata regeneration.
