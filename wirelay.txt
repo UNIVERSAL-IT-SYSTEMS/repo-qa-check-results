@@ -32,5 +32,25 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
+
+!!! ERROR: net-misc/ocpy-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-libs/wicked-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-misc/ocpy-9999
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '153' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wirelay/net-misc/ocpy/ocpy-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wirelay/net-misc/ocpy/ocpy-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wirelay/net-misc/ocpy/ocpy-9999.ebuild'
+!!!               ocpy-9999.ebuild, line   7:  Called inherit 'git-2' 'python'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git-2'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'alive' for eclass git-2
+
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully
