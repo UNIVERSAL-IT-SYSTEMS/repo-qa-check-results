@@ -15,21 +15,7 @@
  'status': 'official'}
 $ pmaint sync virtualization
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/virtualization
-   d7172b4..a9b549a  master     -> origin/master
-Updating d7172b4..a9b549a
-Fast-forward
- app-emulation/firejail/Manifest                   |  1 +
- app-emulation/firejail/firejail-0.9.28.ebuild     | 42 +++++++++++++++++++++++
- app-emulation/firetools/Manifest                  |  1 +
- app-emulation/firetools/firetools-0.9.26.1.ebuild | 30 ++++++++++++++++
- app-emulation/fjinit/fjinit-9999.ebuild           | 28 +++++++++++++++
- 5 files changed, 102 insertions(+)
- create mode 100644 app-emulation/firejail/Manifest
- create mode 100644 app-emulation/firejail/firejail-0.9.28.ebuild
- create mode 100644 app-emulation/firetools/Manifest
- create mode 100644 app-emulation/firetools/firetools-0.9.26.1.ebuild
- create mode 100644 app-emulation/fjinit/fjinit-9999.ebuild
+Already up-to-date.
 *** syncing virtualization
 *** synced virtualization
  * Sync succeeded
