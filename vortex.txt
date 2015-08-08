@@ -14,24 +14,7 @@
 $ pmaint sync vortex
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/nE0sIghT/vortex-overlay
-   61d4881..a209751  master     -> origin/master
-Updating 61d4881..a209751
-Fast-forward
- .../pcsx2/files/pcsx2-1.3.1-cflags.patch           | 782 +++++++++++++++++++++
- .../pcsx2/files/pcsx2-1.3.1-custom-cflags.patch    | 347 ---------
- .../pcsx2/files/pcsx2-1.3.1-mesa-10.patch          |  27 -
- .../pcsx2/files/pcsx2-9999-cmake-options.patch     | 415 +++++++++++
- .../pcsx2/files/pcsx2-9999-custom-cflags.patch     | 244 -------
- games-emulation/pcsx2/metadata.xml                 |   1 -
- games-emulation/pcsx2/pcsx2-1.3.1-r2.ebuild        |  29 +-
- games-emulation/pcsx2/pcsx2-9999-r2.ebuild         |  42 +-
- 8 files changed, 1223 insertions(+), 664 deletions(-)
- create mode 100644 games-emulation/pcsx2/files/pcsx2-1.3.1-cflags.patch
- delete mode 100644 games-emulation/pcsx2/files/pcsx2-1.3.1-custom-cflags.patch
- delete mode 100644 games-emulation/pcsx2/files/pcsx2-1.3.1-mesa-10.patch
- create mode 100644 games-emulation/pcsx2/files/pcsx2-9999-cmake-options.patch
- delete mode 100644 games-emulation/pcsx2/files/pcsx2-9999-custom-cflags.patch
+Already up-to-date.
 *** syncing vortex
 *** synced vortex
  * Sync succeeded

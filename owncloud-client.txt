@@ -11,7 +11,14 @@
  'status': 'unofficial'}
 $ pmaint sync owncloud-client
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Weuxel/portage-owncloud-client
+   936db13..b4ff7d6  master     -> origin/master
+Updating 936db13..b4ff7d6
+Fast-forward
+ net-misc/owncloud-client/Manifest                  |  2 +
+ .../owncloud-client-2.0.0_beta1.ebuild             | 75 ++++++++++++++++++++++
+ 2 files changed, 77 insertions(+)
+ create mode 100644 net-misc/owncloud-client/owncloud-client-2.0.0_beta1.ebuild
 *** syncing owncloud-client
 *** synced owncloud-client
  * Sync succeeded

@@ -17,42 +17,27 @@ $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/alunduil/alunduil-overlay
-   f2946c6..0ccf46a  master     -> origin/master
-Updating f2946c6..0ccf46a
+   0ccf46a..1ccbb60  master     -> origin/master
+Updating 0ccf46a..1ccbb60
 Fast-forward
- app-emulation/lxd/ChangeLog                        |  16 +++
- app-emulation/lxd/Manifest                         |   8 ++
- .../lxd/files/lxd-0.14-nc-binary-name.patch        |  11 ++
- app-emulation/lxd/files/lxd.confd                  |  26 ++++
- app-emulation/lxd/files/lxd.initd                  |  35 ++++++
- app-emulation/lxd/files/lxd.service                |  12 ++
- app-emulation/lxd/lxd-0.14.ebuild                  | 137 +++++++++++++++++++++
- app-emulation/lxd/metadata.xml                     |  26 ++++
- dev-python/os-client-config/Manifest               |   3 +-
- .../files/test_get_all_clouds.patch                |  13 ++
- .../os-client-config/os-client-config-1.6.1.ebuild |   8 ++
- dev-python/oslo-config/Manifest                    |   4 +-
- ...onfig-2.1.0.ebuild => oslo-config-2.2.0.ebuild} |  14 ++-
- dev-python/oslo-i18n/Manifest                      |   4 +-
- ...lo-i18n-2.2.0.ebuild => oslo-i18n-2.3.0.ebuild} |  12 +-
- dev-python/oslo-utils/Manifest                     |   4 +-
- ...-utils-2.1.0.ebuild => oslo-utils-2.2.0.ebuild} |   5 +-
- dev-python/oslotest/Manifest                       |   4 +-
- ...slotest-1.9.0.ebuild => oslotest-1.10.0.ebuild} |   4 +-
- 19 files changed, 321 insertions(+), 25 deletions(-)
- create mode 100644 app-emulation/lxd/ChangeLog
- create mode 100644 app-emulation/lxd/Manifest
- create mode 100644 app-emulation/lxd/files/lxd-0.14-nc-binary-name.patch
- create mode 100644 app-emulation/lxd/files/lxd.confd
- create mode 100644 app-emulation/lxd/files/lxd.initd
- create mode 100644 app-emulation/lxd/files/lxd.service
- create mode 100644 app-emulation/lxd/lxd-0.14.ebuild
- create mode 100644 app-emulation/lxd/metadata.xml
- create mode 100644 dev-python/os-client-config/files/test_get_all_clouds.patch
- rename dev-python/oslo-config/{oslo-config-2.1.0.ebuild => oslo-config-2.2.0.ebuild} (86%)
- rename dev-python/oslo-i18n/{oslo-i18n-2.2.0.ebuild => oslo-i18n-2.3.0.ebuild} (91%)
- rename dev-python/oslo-utils/{oslo-utils-2.1.0.ebuild => oslo-utils-2.2.0.ebuild} (92%)
- rename dev-python/oslotest/{oslotest-1.9.0.ebuild => oslotest-1.10.0.ebuild} (94%)
+ app-admin/supernova/Manifest                       |  3 ++
+ app-admin/supernova/metadata.xml                   | 10 ++++
+ app-admin/supernova/supernova-2.0.7.ebuild         | 53 ++++++++++++++++++++++
+ dev-python/aiohttp/Manifest                        |  4 +-
+ ...aiohttp-0.16.6.ebuild => aiohttp-0.17.0.ebuild} |  1 +
+ dev-python/botocore/Manifest                       |  3 ++
+ dev-python/botocore/botocore-1.1.7.ebuild          | 53 ++++++++++++++++++++++
+ dev-python/botocore/metadata.xml                   | 10 ++++
+ dev-python/os-client-config/Manifest               |  2 +-
+ .../files/test_get_all_clouds.patch                |  4 +-
+ 10 files changed, 138 insertions(+), 5 deletions(-)
+ create mode 100644 app-admin/supernova/Manifest
+ create mode 100644 app-admin/supernova/metadata.xml
+ create mode 100644 app-admin/supernova/supernova-2.0.7.ebuild
+ rename dev-python/aiohttp/{aiohttp-0.16.6.ebuild => aiohttp-0.17.0.ebuild} (94%)
+ create mode 100644 dev-python/botocore/Manifest
+ create mode 100644 dev-python/botocore/botocore-1.1.7.ebuild
+ create mode 100644 dev-python/botocore/metadata.xml
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded
