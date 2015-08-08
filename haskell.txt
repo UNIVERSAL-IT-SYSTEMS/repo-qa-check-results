@@ -13,7 +13,15 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   d855539..b4e167c  master     -> origin/master
+Updating d855539..b4e167c
+Fast-forward
+ ...3.0.2.ebuild => diagrams-lib-1.3.0.2-r1.ebuild} |  8 +++--
+ .../files/diagrams-lib-1.3.0.2-filepath-0.2.patch  | 35 ++++++++++++++++++++++
+ 2 files changed, 41 insertions(+), 2 deletions(-)
+ rename dev-haskell/diagrams-lib/{diagrams-lib-1.3.0.2.ebuild => diagrams-lib-1.3.0.2-r1.ebuild} (94%)
+ create mode 100644 dev-haskell/diagrams-lib/files/diagrams-lib-1.3.0.2-filepath-0.2.patch
 *** syncing haskell
 *** synced haskell
  * Sync succeeded

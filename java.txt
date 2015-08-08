@@ -15,24 +15,22 @@
 $ pmaint sync java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/java
-   f3a0eb2..cb7d77a  master     -> origin/master
-Updating f3a0eb2..cb7d77a
+   cb7d77a..62ab0c8  master     -> origin/master
+Updating cb7d77a..62ab0c8
 Fast-forward
- dev-java/echopointng/Manifest                      |  1 -
- .../echopointng/echopointng-2.1.0_rc5-r1.ebuild    | 61 ----------------------
- .../echopointng-2.1.0_rc5-disabletestcompile.patch | 13 -----
- dev-java/echopointng/metadata.xml                  |  9 ----
- dev-java/xmlenc/Manifest                           |  1 -
- dev-java/xmlenc/metadata.xml                       |  6 ---
- dev-java/xmlenc/xmlenc-0.52-r1.ebuild              | 34 ------------
- 7 files changed, 125 deletions(-)
- delete mode 100644 dev-java/echopointng/Manifest
- delete mode 100644 dev-java/echopointng/echopointng-2.1.0_rc5-r1.ebuild
- delete mode 100644 dev-java/echopointng/files/echopointng-2.1.0_rc5-disabletestcompile.patch
- delete mode 100644 dev-java/echopointng/metadata.xml
- delete mode 100644 dev-java/xmlenc/Manifest
- delete mode 100644 dev-java/xmlenc/metadata.xml
- delete mode 100644 dev-java/xmlenc/xmlenc-0.52-r1.ebuild
+ dev-java/ant-jalopy/Manifest              |  1 -
+ dev-java/ant-jalopy/ant-jalopy-0.1.ebuild | 48 -----------------------------
+ dev-java/ant-jalopy/metadata.xml          |  5 ----
+ dev-java/jalopy/Manifest                  |  1 -
+ dev-java/jalopy/jalopy-1.5_rc3.ebuild     | 50 -------------------------------
+ dev-java/jalopy/metadata.xml              |  5 ----
+ 6 files changed, 110 deletions(-)
+ delete mode 100644 dev-java/ant-jalopy/Manifest
+ delete mode 100644 dev-java/ant-jalopy/ant-jalopy-0.1.ebuild
+ delete mode 100644 dev-java/ant-jalopy/metadata.xml
+ delete mode 100644 dev-java/jalopy/Manifest
+ delete mode 100644 dev-java/jalopy/jalopy-1.5_rc3.ebuild
+ delete mode 100644 dev-java/jalopy/metadata.xml
 *** syncing java
 *** synced java
  * Sync succeeded
