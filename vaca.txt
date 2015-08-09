@@ -10,7 +10,14 @@
 $ pmaint sync vaca
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hashashin/gentoo-vaca-overlay
+   60c0443..69799f2  master     -> origin/master
+Updating 60c0443..69799f2
+Fast-forward
+ games-server/dmp/Manifest                          | 22 +++++++++++++++++++++-
+ .../dmp/{dmp-0.2.2.0.ebuild => dmp-0.2.2.2.ebuild} |  0
+ 2 files changed, 21 insertions(+), 1 deletion(-)
+ rename games-server/dmp/{dmp-0.2.2.0.ebuild => dmp-0.2.2.2.ebuild} (100%)
 *** syncing vaca
 *** synced vaca
  * Sync succeeded

@@ -14,17 +14,10 @@
  'status': 'unofficial'}
 $ pmaint sync luman
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing luman
-*** failed syncing luman
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync luman
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/luman'...
+Already up-to-date.
 *** syncing luman
 *** synced luman
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 luman
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
