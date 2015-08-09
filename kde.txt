@@ -13,7 +13,15 @@
  'status': 'official'}
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo', named 'gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+From git://anongit.gentoo.org/proj/kde
+   990abe5..d8c4d10  master     -> origin/master
+Updating 990abe5..d8c4d10
+Fast-forward
+ Documentation/maintainers/bump_new_revision.sh | 39 +++++----------
+ Documentation/maintainers/copy-keywords        | 68 ++++++++++----------------
+ 2 files changed, 38 insertions(+), 69 deletions(-)
 *** syncing kde
 *** synced kde
  * Sync succeeded

@@ -1,0 +1,28 @@
+{'description': {'en': 'Python project repository'},
+ 'feed': ['https://cgit.gentoo.org/proj/python.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/proj/python.git/',
+ 'name': 'python',
+ 'owner': [{'email': 'python@gentoo.org',
+            'name': 'Gentoo Python project',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/proj/python.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/proj/python.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/proj/python.git'}],
+ 'status': 'official'}
+ * Adding new repository
+$ pmaint sync python
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo', named 'gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/python'...
+*** syncing python
+*** synced python
+ * Sync succeeded
+$ pmaint regen -t 2 python
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

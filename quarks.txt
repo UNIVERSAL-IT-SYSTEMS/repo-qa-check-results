@@ -9,6 +9,8 @@
  'status': 'unofficial'}
 $ pmaint sync quarks
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo', named 'gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing quarks
 *** synced quarks
@@ -21,8 +23,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 
 !!! ERROR: app-admin/ocsinventory-agent-2.0.5 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!                ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
 !!!                ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
@@ -33,13 +35,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
 !!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
-!!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
+!!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
+!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
 !!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 http://launchpad.net/cairo-dock-core/2.4/2.4.0/+download/cairo-dock-2.4.0~2.tar.gz
-!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
-!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!   ocsinventory-agent-2.0.5.ebuild, line   7:  Called inherit 'perl-module'
+!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!   Parse-Win32Registry-0.60.ebuild, line   9:  Called inherit 'perl-module'
 !!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'

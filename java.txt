@@ -14,11 +14,216 @@
  'status': 'official'}
 $ pmaint sync java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo', named 'gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+From git://anongit.gentoo.org/proj/java
+   d4293ec..93dcdc4  master     -> origin/master
+Updating d4293ec..93dcdc4
+Fast-forward
+ .../eselect-gradle/eselect-gradle-0.1.ebuild       |  2 +-
+ app-eselect/eselect-java/eselect-java-9999.ebuild  |  2 +-
+ dev-java/abbot/abbot-0.13.1-r1.ebuild              |  2 +-
+ dev-java/asm/asm-4.0_rc1.ebuild                    |  2 +-
+ dev-java/asterisk-java/asterisk-java-0.3.1.ebuild  |  2 +-
+ dev-java/axiom/axiom-1.2.2.ebuild                  |  2 +-
+ .../bare-bones-browser-launch-20090526.ebuild      |  2 +-
+ .../buildmagic-tasks-2.0-r1.ebuild                 |  2 +-
+ .../buildmagic-tasks/buildmagic-tasks-2.0.4.ebuild |  2 +-
+ dev-java/cacao/cacao-1.6.0-r2.ebuild               |  2 +-
+ dev-java/cacao/files/cacao.env                     |  2 +-
+ .../caucho-services-2.1.12-r1.ebuild               |  2 +-
+ dev-java/cewolf/cewolf-1.2.4.ebuild                |  2 +-
+ dev-java/classworlds/classworlds-1.1.ebuild        |  2 +-
+ dev-java/commons-email/commons-email-1.1.ebuild    |  2 +-
+ dev-java/dom4j/dom4j-1.6.1-r4.ebuild               |  2 +-
+ dev-java/easymock/easymock-2.3.ebuild              |  2 +-
+ dev-java/ebean/ebean-2.7.7.ebuild                  |  2 +-
+ dev-java/echo2extras/echo2extras-2.1.0.ebuild      |  2 +-
+ .../eclipse-javax-persistence-2.1.0.ebuild         |  2 +-
+ dev-java/eventbus/eventbus-1.3.ebuild              |  2 +-
+ dev-java/explicitlayout/explicitlayout-3.0.ebuild  |  2 +-
+ dev-java/fast-md5/fast-md5-2.6.1.ebuild            |  2 +-
+ dev-java/filters/filters-1.0.ebuild                |  2 +-
+ dev-java/filters/filters-2.1.2.ebuild              |  2 +-
+ dev-java/flip/flip-1.1.1.ebuild                    |  2 +-
+ dev-java/fuse/fuse-0.3.ebuild                      |  2 +-
+ dev-java/gcj-jdk/files/gcj-jdk.env                 |  2 +-
+ dev-java/gcj-jdk/gcj-jdk-5.1.0-r1.ebuild           |  2 +-
+ dev-java/gdata/gdata-1.46.0.ebuild                 |  2 +-
+ dev-java/gef/gef-0.12.3.ebuild                     |  2 +-
+ .../gentoo-void-jar/gentoo-void-jar-1.0.ebuild     |  2 +-
+ .../gjt-jpl-pattern/gjt-jpl-pattern-0.2-r1.ebuild  |  2 +-
+ dev-java/gjt-jpl-util/gjt-jpl-util-0.6-r2.ebuild   |  2 +-
+ dev-java/gluegen/gluegen-1_p20080421.ebuild        |  2 +-
+ dev-java/gluegen/gluegen-2.0_rc8.ebuild            |  2 +-
+ .../gnu-classpath/gnu-classpath-0.99-r1.ebuild     |  2 +-
+ dev-java/gnu-classpath/gnu-classpath-9999.ebuild   |  2 +-
+ dev-java/gradle-bin/gradle-bin-1.10.ebuild         |  2 +-
+ dev-java/gradle-bin/gradle-bin-1.12.ebuild         |  2 +-
+ dev-java/gradle-bin/gradle-bin-2.2.1.ebuild        |  2 +-
+ dev-java/gradle-bin/gradle-bin-2.3.ebuild          |  2 +-
+ dev-java/gradle-bin/gradle-bin-2.4.ebuild          |  2 +-
+ dev-java/gradle/gradle-2.3.ebuild                  |  2 +-
+ dev-java/guava/guava-10.0.1.ebuild                 |  2 +-
+ dev-java/guava/guava-12.0.ebuild                   |  2 +-
+ dev-java/h2/h2-1.3.161.ebuild                      |  2 +-
+ .../high-scale-lib/high-scale-lib-1.1.2.ebuild     |  2 +-
+ dev-java/howl-logger/howl-logger-0.1.9-r1.ebuild   |  2 +-
+ dev-java/htmlcleaner/htmlcleaner-2.2.ebuild        |  2 +-
+ dev-java/icedtea-web/icedtea-web-1.5.1-r1.ebuild   |  2 +-
+ dev-java/icedtea/files/icedtea.env                 |  2 +-
+ dev-java/icedtea/icedtea-3.0.0_pre04-r1.ebuild     |  2 +-
+ dev-java/icedtea/icedtea-6.1.13.8.ebuild           |  2 +-
+ dev-java/icedtea/icedtea-6.9999.ebuild             |  2 +-
+ dev-java/icedtea/icedtea-7.2.5.6.ebuild            |  2 +-
+ dev-java/icedtea/icedtea-7.2.6.1.ebuild            |  2 +-
+ dev-java/icedtea/icedtea-7.2.7.0_pre00.ebuild      |  2 +-
+ dev-java/ini4j/ini4j-0.2.6-r1.ebuild               |  2 +-
+ dev-java/irmi/irmi-1.0.0-r1.ebuild                 |  2 +-
+ dev-java/itext/itext-1.4.ebuild                    |  2 +-
+ dev-java/izpack/izpack-3.10.2.ebuild               |  2 +-
+ dev-java/j3d-core/j3d-core-1.5.1.ebuild            |  2 +-
+ dev-java/jai-imageio/jai-imageio-1.1-r1.ebuild     |  2 +-
+ dev-java/jama/jama-1.0.2.ebuild                    |  2 +-
+ dev-java/jaminid/jaminid-0.99-r3.ebuild            |  2 +-
+ dev-java/jamvm/files/jamvm.env                     |  2 +-
+ dev-java/jamvm/jamvm-2.0.0-r1.ebuild               |  2 +-
+ dev-java/janino/janino-2.5.15.ebuild               |  2 +-
+ dev-java/java-config/java-config-2.2.9999.ebuild   |  2 +-
+ dev-java/java-config/java-config-2.9999.ebuild     |  2 +-
+ dev-java/java3dsloader/java3dsloader-1.2.ebuild    |  2 +-
+ dev-java/javacsv/javacsv-2.0.ebuild                |  2 +-
+ dev-java/javapp/javapp-0.4_p1.ebuild               |  2 +-
+ dev-java/jdbc2-stdext/jdbc2-stdext-2.0-r3.ebuild   |  2 +-
+ dev-java/jdbm/jdbm-1.0.ebuild                      |  2 +-
+ dev-java/jdic/jdic-0.9.1.ebuild                    |  2 +-
+ dev-java/jersey-atom/jersey-atom-1.1.0-r1.ebuild   |  2 +-
+ dev-java/jersey-atom/jersey-atom-1.1.0.ebuild      |  2 +-
+ .../jersey-client/jersey-client-1.1.0-r1.ebuild    |  2 +-
+ dev-java/jersey-client/jersey-client-1.1.0.ebuild  |  2 +-
+ dev-java/jersey-core/jersey-core-1.1.0-r1.ebuild   |  2 +-
+ dev-java/jersey-core/jersey-core-1.1.0.ebuild      |  2 +-
+ .../jersey-fastinfoset-1.1.0-r1.ebuild             |  2 +-
+ .../jersey-fastinfoset-1.1.0.ebuild                |  2 +-
+ dev-java/jhighlight/jhighlight-1.0.ebuild          |  2 +-
+ dev-java/jmbus/jmbus-1.0.7-r1.ebuild               |  2 +-
+ dev-java/joal/joal-1.1.2.ebuild                    |  2 +-
+ dev-java/joesnmp/joesnmp-0.3.3-r1.ebuild           |  2 +-
+ dev-java/joesnmp/joesnmp-0.3.4.ebuild              |  2 +-
+ dev-java/jogl/jogl-1.1.1.ebuild                    |  2 +-
+ dev-java/jogl/jogl-2.0_rc8-r1.ebuild               |  2 +-
+ .../joone-engine/joone-engine-2.0.0_rc1.ebuild     |  2 +-
+ dev-java/jopt-simple/jopt-simple-4.5.ebuild        |  2 +-
+ dev-java/jorbis/jorbis-0.0.17-r1.ebuild            |  2 +-
+ dev-java/joscar/joscar-0.9.3-r1.ebuild             |  2 +-
+ dev-java/jpcap/jpcap-0.7.ebuild                    |  2 +-
+ dev-java/jrosetta/jrosetta-1.0.2.ebuild            |  2 +-
+ dev-java/jsap/jsap-1.03a.ebuild                    |  2 +-
+ dev-java/jsfapi/jsfapi-1.1.4.ebuild                |  2 +-
+ dev-java/json/json-20110825.ebuild                 |  2 +-
+ dev-java/jwordsplitter/jwordsplitter-2.2.ebuild    |  2 +-
+ dev-java/libhttpd/libhttpd-1.0.3.ebuild            |  2 +-
+ dev-java/liquidlnf/liquidlnf-0.2.9.ebuild          |  2 +-
+ dev-java/log4j-api/log4j-api-2.2.ebuild            |  2 +-
+ dev-java/log4j-core/log4j-core-2.2.ebuild          |  2 +-
+ dev-java/lwjgl/lwjgl-2.9.0.ebuild                  |  2 +-
+ .../morfologik-stemming-1.1.4.ebuild               |  2 +-
+ dev-java/neethi/neethi-1.0.1.ebuild                |  2 +-
+ dev-java/neethi/neethi-2.0.ebuild                  |  2 +-
+ .../netty-transport-native-epoll-4.0.21.ebuild     |  2 +-
+ dev-java/nimrodlf/nimrodlf-1.0g.ebuild             |  2 +-
+ dev-java/objenesis/objenesis-1.1.ebuild            |  2 +-
+ .../paulscode-codecjorbis-20101123.ebuild          |  2 +-
+ .../paulscode-codecwav-20101023.ebuild             |  2 +-
+ .../paulscode-libraryjavasound-20120107.ebuild     |  2 +-
+ .../paulscode-librarylwjglopenal-20130417.ebuild   |  2 +-
+ .../paulscode-soundsystem-20120107.ebuild          |  2 +-
+ dev-java/pircbot/pircbot-1.4.6.ebuild              |  2 +-
+ dev-java/ptplot/ptplot-5.5.ebuild                  |  2 +-
+ .../rife-continuations-0.1_pre20060304-r1.ebuild   |  2 +-
+ dev-java/saxon/saxon-8.8-r1.ebuild                 |  2 +-
+ dev-java/seda/seda-3.0-r1.ebuild                   |  2 +-
+ dev-java/sequence/sequence-1.1.7.ebuild            |  2 +-
+ dev-java/sequence/sequence-1.2.0.ebuild            |  2 +-
+ .../sevenzipjbinding-4.65.1.04_rc.ebuild           |  2 +-
+ dev-java/smoothmetal/smoothmetal-1.1.ebuild        |  2 +-
+ dev-java/sqlite-jdbc/sqlite-jdbc-3.7.2.ebuild      |  2 +-
+ dev-java/stempel/stempel-1.0.ebuild                |  2 +-
+ dev-java/stripes/stripes-1.4.2.ebuild              |  2 +-
+ dev-java/sun-jce-bin/sun-jce-bin-1.5.0.ebuild      |  2 +-
+ dev-java/swt/swt-3.4.1.ebuild                      |  2 +-
+ dev-java/swtcalendar/swtcalendar-0.5.ebuild        |  2 +-
+ dev-java/taglibrarydoc/taglibrarydoc-1.3.ebuild    |  2 +-
+ dev-java/trilead-ssh2/trilead-ssh2-213.ebuild      |  2 +-
+ dev-java/uuid/uuid-3.1.ebuild                      |  2 +-
+ dev-java/vecmath/vecmath-1.5.1.ebuild              |  2 +-
+ dev-java/vldocking/vldocking-2.1.5.ebuild          |  2 +-
+ dev-java/webwork/webwork-2.2.6.ebuild              |  2 +-
+ dev-java/ws-policy/ws-policy-1.0.1.ebuild          |  2 +-
+ dev-java/xbeans/xbeans-2.00.ebuild                 |  2 +-
+ dev-java/xml-security/xml-security-1.3.0.ebuild    |  2 +-
+ dev-java/zonelayout/zonelayout-1.0.ebuild          |  2 +-
+ .../clojure-contrib/clojure-contrib-1.0.0.ebuild   |  2 +-
+ .../clojure-contrib/clojure-contrib-1.1.0.ebuild   |  2 +-
+ dev-lang/clojure/clojure-1.0.0-r1.ebuild           |  2 +-
+ dev-lang/clojure/clojure-1.0.0-r2.ebuild           |  2 +-
+ dev-lang/clojure/clojure-1.1.0.ebuild              |  2 +-
+ .../antlr-python/antlr-python-3.1.3-r2.ebuild      |  2 +-
+ .../eclipse-sdk-bin/eclipse-sdk-bin-4.2.0.ebuild   |  2 +-
+ .../eclipse-sdk-bin-4.2.1-r1.ebuild                |  2 +-
+ .../eclipse-sdk-bin/eclipse-sdk-bin-4.2.1.ebuild   |  2 +-
+ dev-util/lint4j-bin/lint4j-bin-0.9.1.ebuild        |  2 +-
+ dev-util/mtp/mtp-0.2.1.ebuild                      |  2 +-
+ dev-util/mtp/mtp-0.3.1.ebuild                      |  2 +-
+ eclass/clojure.eclass                              |  2 +-
+ eclass/excalibur-multi.eclass                      |  2 +-
+ eclass/excalibur.eclass                            |  2 +-
+ eclass/java-maven-2.eclass                         |  2 +-
+ eclass/java-maven-plugin-2.eclass                  |  2 +-
+ eclass/openoffice-ext.eclass                       |  2 +-
+ games-action/minecraft/files/minecraft-gentoo      |  2 +-
+ games-action/minecraft/minecraft-1.2.1-r4.ebuild   |  2 +-
+ games-board/jin/jin-2.14.1.ebuild                  |  2 +-
+ games-puzzle/jmemorize/jmemorize-1.3.0-r1.ebuild   |  2 +-
+ games-puzzle/lemmini/lemmini-0.84.ebuild           |  2 +-
+ games-server/bukkit/bukkit-1679.ebuild             |  2 +-
+ games-server/minecraft-common/files/init.sh        |  2 +-
+ .../minecraft-common-20130203.ebuild               |  2 +-
+ .../minecraft-server-1.4.7-r1.ebuild               |  2 +-
+ java-virtuals/jaxb-api/jaxb-api-1.ebuild           |  2 +-
+ java-virtuals/jaxb-api/jaxb-api-2-r1.ebuild        |  2 +-
+ media-gfx/sunflow/sunflow-0.07.2.ebuild            |  2 +-
+ media-gfx/sunflow/sunflow-0.7.3.ebuild             |  2 +-
+ media-gfx/sweethome3d/sweethome3d-3.3-r1.ebuild    |  2 +-
+ media-libs/proxymusic/proxymusic-2.0.ebuild        |  2 +-
+ .../tuxguitar-plugins-alsa-0.8.1-r1.ebuild         |  2 +-
+ media-sound/jripper/jripper-1.02.1.ebuild          |  2 +-
+ media-sound/jsynthlib/jsynthlib-0.20.0.ebuild      |  2 +-
+ media-sound/tuxguitar/tuxguitar-1.1-r1.ebuild      |  2 +-
+ media-sound/xenoplay/xenoplay-0.4.1.ebuild         |  2 +-
+ net-mail/davmail/davmail-3.9.1.ebuild              |  2 +-
+ profiles/package.mask                              |  2 +-
+ profiles/use.local.desc                            |  2 +-
+ skel.ChangeLog                                     | 67 ----------------------
+ skel.ebuild.java                                   |  4 +-
+ .../baselayout-java/baselayout-java-9999.ebuild    |  2 +-
+ virtual/gradle/gradle-0.ebuild                     |  2 +-
+ virtual/jdk/jdk-1.8.0.ebuild                       |  2 +-
+ www-servers/geronimo/files/1.1/geronimo.init       |  2 +-
+ www-servers/geronimo/geronimo-1.1.ebuild           |  2 +-
+ .../files/4.0.5/normal/init.d/jboss-bin-4          |  2 +-
+ .../files/4.0.5/srvdir/init.d/jboss-bin-4          |  2 +-
+ www-servers/jboss-bin/jboss-bin-4.0.5.ebuild       |  2 +-
+ www-servers/jigsaw/jigsaw-2.2.6.ebuild             |  2 +-
+ 195 files changed, 195 insertions(+), 262 deletions(-)
+ delete mode 100644 skel.ChangeLog
 *** syncing java
 *** synced java
  * Sync succeeded
 $ pmaint regen -t 2 java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by www-servers/jboss-bin-4.0.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully
