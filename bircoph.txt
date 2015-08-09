@@ -16,7 +16,22 @@
 $ pmaint sync bircoph
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/bircoph
+   2cb11db..204969a  master     -> origin/master
+Updating 2cb11db..204969a
+Fast-forward
+ profiles/categories                            |   1 +
+ sys-power/suspend/ChangeLog                    | 140 +++++++++++++++++++++++++
+ sys-power/suspend/Manifest                     |   6 ++
+ sys-power/suspend/metadata.xml                 |  15 +++
+ sys-power/suspend/suspend-1.0_p20150622.ebuild |  58 ++++++++++
+ sys-power/suspend/suspend-9999.ebuild          |  54 ++++++++++
+ 6 files changed, 274 insertions(+)
+ create mode 100644 sys-power/suspend/ChangeLog
+ create mode 100644 sys-power/suspend/Manifest
+ create mode 100644 sys-power/suspend/metadata.xml
+ create mode 100644 sys-power/suspend/suspend-1.0_p20150622.ebuild
+ create mode 100644 sys-power/suspend/suspend-9999.ebuild
 *** syncing bircoph
 *** synced bircoph
  * Sync succeeded
