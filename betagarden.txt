@@ -15,7 +15,19 @@
  'status': 'official'}
 $ pmaint sync betagarden
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/betagarden
+   8532377..07444af  master     -> origin/master
+Updating 8532377..07444af
+Fast-forward
+ dev-python/gunicorn/ChangeLog              | 10 ----------
+ dev-python/gunicorn/Manifest               |  1 -
+ dev-python/gunicorn/gunicorn-0.11.0.ebuild | 21 ---------------------
+ dev-python/gunicorn/metadata.xml           | 10 ----------
+ 4 files changed, 42 deletions(-)
+ delete mode 100644 dev-python/gunicorn/ChangeLog
+ delete mode 100644 dev-python/gunicorn/Manifest
+ delete mode 100644 dev-python/gunicorn/gunicorn-0.11.0.ebuild
+ delete mode 100644 dev-python/gunicorn/metadata.xml
 *** syncing betagarden
 *** synced betagarden
  * Sync succeeded

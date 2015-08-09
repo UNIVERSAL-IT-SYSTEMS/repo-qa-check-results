@@ -8,8 +8,6 @@
  'status': 'unofficial'}
 $ pmaint sync xwing
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo', named 'gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 This is xwing.info / coruscant.xwing.info
 
 Server Address : 62.212.103.27 / 2001:7a8:2b1b::254
@@ -27,13 +25,13 @@ Total file size: 32 bytes
 Total transferred file size: 32 bytes
 Literal data: 32 bytes
 Matched data: 0 bytes
-File list size: 46
+File list size: 47
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 85
-Total bytes received: 130
+Total bytes received: 131
 
-sent 85 bytes  received 130 bytes  86.00 bytes/sec
+sent 85 bytes  received 131 bytes  86.40 bytes/sec
 total size is 32  speedup is 0.15
 This is xwing.info / coruscant.xwing.info
 
@@ -44,24 +42,38 @@ Hardware       : Intel Atom D510 @ 1.66GHz, 2048MB RAM
 receiving incremental file list
 metadata/
 metadata/timestamp.chk
+metadata/md5-cache/app-office/
+metadata/md5-cache/app-office/grisbi-0.8.9999
+metadata/md5-cache/app-office/grisbi-1.0.9999
+metadata/md5-cache/app-office/grisbi-9999
+metadata/md5-cache/media-gfx/
+metadata/md5-cache/media-gfx/AfterShotPro-1.2.0.7
+metadata/md5-cache/media-gfx/AfterShotPro-2.1.2.10
+metadata/md5-cache/media-gfx/bibble5-5.2.3_p20111213
+metadata/md5-cache/media-plugins/
+metadata/md5-cache/media-plugins/asp-plugins-nostalgia-1.0.7
+metadata/md5-cache/media-plugins/asp-plugins-nuance-1.0.10
+metadata/md5-cache/media-plugins/bibble5-plugins-brenda-1.0.1
+metadata/md5-cache/net-print/
+metadata/md5-cache/net-print/turboprint-1.96-r3
 deleting metadata/.tmp.timestamp.chk
 
 Number of files: 107 (reg: 68, dir: 37, link: 2)
 Number of created files: 0
 Number of deleted files: 1 (reg: 1)
-Number of regular files transferred: 1
+Number of regular files transferred: 11
 Total file size: 155.12K bytes
-Total transferred file size: 32 bytes
-Literal data: 32 bytes
+Total transferred file size: 11.48K bytes
+Literal data: 11.48K bytes
 Matched data: 0 bytes
 File list size: 3.41K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 128
-Total bytes received: 3.53K
+Total bytes sent: 342
+Total bytes received: 9.99K
 
-sent 128 bytes  received 3.53K bytes  1.46K bytes/sec
-total size is 155.12K  speedup is 42.37
+sent 342 bytes  received 9.99K bytes  4.13K bytes/sec
+total size is 155.12K  speedup is 15.02
 *** syncing xwing
 *** synced xwing
  * Sync succeeded

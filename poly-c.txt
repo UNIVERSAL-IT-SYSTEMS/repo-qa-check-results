@@ -9,8 +9,6 @@
  'status': 'official'}
 $ pmaint sync poly-c
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo', named 'gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 -------------------------------------------------------------------------------
 | Welcome to rsync on gentoofan.no-ip.org:873                                 |
 | This is a mirror of gentoo's portage-tree and host of my portage overlay    |
@@ -61,13 +59,4 @@ total size is 32  speedup is 0.27
 $ pmaint regen -t 2 poly-c
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use_enable' function invoked by gnome-extra/gtkhtml-2.6.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-misc/icaclient-13.2.0.322243_pre during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-misc/icaclient-13.1.0.285639_pre during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
