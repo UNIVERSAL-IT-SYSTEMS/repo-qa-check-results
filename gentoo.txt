@@ -17,20 +17,18 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   1dccbff..a5a402e  master     -> origin/master
-Updating 1dccbff..a5a402e
+   59895b3..2229995  master     -> origin/master
+Updating 59895b3..2229995
 Fast-forward
- dev-java/mckoi/Manifest                      |  1 -
- dev-java/mckoi/files/build.xml               | 55 ------------------------
- dev-java/mckoi/files/mckoi-1.0.3-jikes.patch | 48 ---------------------
- dev-java/mckoi/mckoi-1.0.3-r2.ebuild         | 63 ----------------------------
- dev-java/mckoi/metadata.xml                  | 18 --------
- 5 files changed, 185 deletions(-)
- delete mode 100644 dev-java/mckoi/Manifest
- delete mode 100644 dev-java/mckoi/files/build.xml
- delete mode 100644 dev-java/mckoi/files/mckoi-1.0.3-jikes.patch
- delete mode 100644 dev-java/mckoi/mckoi-1.0.3-r2.ebuild
- delete mode 100644 dev-java/mckoi/metadata.xml
+ dev-vcs/mr/Manifest                |  1 +
+ dev-vcs/mr/mr-1.20150503.ebuild    | 32 ++++++++++++++++++++++++++++++++
+ sci-mathematics/gmm/Manifest       |  1 +
+ sci-mathematics/gmm/gmm-4.2.ebuild |  2 +-
+ sci-mathematics/gmm/gmm-5.0.ebuild | 16 ++++++++++++++++
+ sci-mathematics/gmm/metadata.xml   |  2 +-
+ 6 files changed, 52 insertions(+), 2 deletions(-)
+ create mode 100644 dev-vcs/mr/mr-1.20150503.ebuild
+ create mode 100644 sci-mathematics/gmm/gmm-5.0.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
