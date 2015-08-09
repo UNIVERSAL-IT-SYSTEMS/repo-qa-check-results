@@ -13,13 +13,18 @@ $ pmaint sync games-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/hasufell/games-overlay
-   75c746f..4bff883  master     -> origin/master
-Updating 75c746f..4bff883
+   4bff883..a86b0a1  master     -> origin/master
+Updating 4bff883..a86b0a1
 Fast-forward
- games-engines/openmw/Manifest             |  1 +
- games-engines/openmw/openmw-0.36.1.ebuild | 94 +++++++++++++++++++++++++++++++
- 2 files changed, 95 insertions(+)
- create mode 100644 games-engines/openmw/openmw-0.36.1.ebuild
+ games-engines/openmw/Manifest                |  3 -
+ games-engines/openmw/openmw-0.35.0-r1.ebuild | 96 ----------------------------
+ games-engines/openmw/openmw-0.35.1.ebuild    | 94 ---------------------------
+ games-engines/openmw/openmw-0.36.0.ebuild    | 94 ---------------------------
+ games-engines/openmw/openmw-0.36.1.ebuild    |  2 +-
+ 5 files changed, 1 insertion(+), 288 deletions(-)
+ delete mode 100644 games-engines/openmw/openmw-0.35.0-r1.ebuild
+ delete mode 100644 games-engines/openmw/openmw-0.35.1.ebuild
+ delete mode 100644 games-engines/openmw/openmw-0.36.0.ebuild
 *** syncing games-overlay
 *** synced games-overlay
  * Sync succeeded
