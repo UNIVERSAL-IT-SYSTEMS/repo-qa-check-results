@@ -15,7 +15,16 @@
 $ pmaint sync jmbsvicetto
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/jmbsvicetto
+   21268dc..6ce5ced  master     -> origin/master
+Updating 21268dc..6ce5ced
+Fast-forward
+ dev-db/phpmyadmin/Manifest                         |  3 +-
+ ...in-4.4.12.ebuild => phpmyadmin-4.4.13.1.ebuild} |  0
+ dev-db/phpmyadmin/phpmyadmin-4.4.8.ebuild          | 61 ----------------------
+ 3 files changed, 1 insertion(+), 63 deletions(-)
+ rename dev-db/phpmyadmin/{phpmyadmin-4.4.12.ebuild => phpmyadmin-4.4.13.1.ebuild} (100%)
+ delete mode 100644 dev-db/phpmyadmin/phpmyadmin-4.4.8.ebuild
 *** syncing jmbsvicetto
 *** synced jmbsvicetto
  * Sync succeeded
