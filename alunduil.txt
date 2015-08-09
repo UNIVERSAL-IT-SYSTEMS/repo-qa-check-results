@@ -16,7 +16,21 @@
 $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/alunduil/alunduil-overlay
+   1787bec..bc7f035  master     -> origin/master
+Updating 1787bec..bc7f035
+Fast-forward
+ dev-python/os-client-config/Manifest               |  4 --
+ .../files/test_get_all_clouds.patch                | 13 ----
+ dev-python/os-client-config/metadata.xml           | 10 ---
+ .../os-client-config/os-client-config-1.6.1.ebuild | 74 ----------------------
+ dev-python/sphinxcontrib-spelling/Manifest         |  2 +-
+ .../sphinxcontrib-spelling-2.1.2.ebuild            |  8 +--
+ 6 files changed, 3 insertions(+), 108 deletions(-)
+ delete mode 100644 dev-python/os-client-config/Manifest
+ delete mode 100644 dev-python/os-client-config/files/test_get_all_clouds.patch
+ delete mode 100644 dev-python/os-client-config/metadata.xml
+ delete mode 100644 dev-python/os-client-config/os-client-config-1.6.1.ebuild
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded
