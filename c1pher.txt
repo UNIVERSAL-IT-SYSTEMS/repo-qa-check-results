@@ -14,10 +14,17 @@
  'status': 'official'}
 $ pmaint sync c1pher
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: read error: Connection reset by peer
+*** syncing c1pher
+*** failed syncing c1pher
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync c1pher
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/c1pher'...
 *** syncing c1pher
 *** synced c1pher
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 c1pher
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
