@@ -17,16 +17,14 @@ $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/alunduil/alunduil-overlay
-   1ccbb60..a4cf563  master     -> origin/master
-Updating 1ccbb60..a4cf563
+   a4cf563..f4bf7ac  master     -> origin/master
+Updating a4cf563..f4bf7ac
 Fast-forward
- dev-python/sphinxcontrib-spelling/Manifest         |  3 ++
- dev-python/sphinxcontrib-spelling/metadata.xml     | 10 +++++
- .../sphinxcontrib-spelling-2.1.2.ebuild            | 46 ++++++++++++++++++++++
- 3 files changed, 59 insertions(+)
- create mode 100644 dev-python/sphinxcontrib-spelling/Manifest
- create mode 100644 dev-python/sphinxcontrib-spelling/metadata.xml
- create mode 100644 dev-python/sphinxcontrib-spelling/sphinxcontrib-spelling-2.1.2.ebuild
+ dev-python/aiohttp/Manifest                                        | 2 +-
+ dev-python/aiohttp/aiohttp-0.17.0.ebuild                           | 7 +++----
+ dev-python/sphinxcontrib-spelling/Manifest                         | 2 +-
+ .../sphinxcontrib-spelling/sphinxcontrib-spelling-2.1.2.ebuild     | 3 ++-
+ 4 files changed, 7 insertions(+), 7 deletions(-)
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded
