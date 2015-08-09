@@ -22,8 +22,23 @@ Already up-to-date.
 $ pmaint regen -t 2 quantumsummers
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 20174, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+
+!!! ERROR: dev-python/starcluster-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '199' 'depend'
+!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/quantumsummers/dev-python/starcluster/starcluster-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/quantumsummers/dev-python/starcluster/starcluster-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/quantumsummers/dev-python/starcluster/starcluster-9999.ebuild'
+!!!        starcluster-9999.ebuild, line   9:  Called inherit 'distutils' 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+Sandboxed process killed by signal: Broken pipe
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/starcluster-9999
+ * Cache regenerated successfully

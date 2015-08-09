@@ -17,21 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   11630ac..7265992  master     -> origin/master
-Updating 11630ac..7265992
+   eaf89b7..661734f  master     -> origin/master
+Updating eaf89b7..661734f
 Fast-forward
- app-text/paps/paps-0.6.8-r1.ebuild    |  2 +-
- dev-cpp/eigen/Manifest                |  2 -
- dev-cpp/eigen/eigen-3.0.6.ebuild      | 70 -----------------------------------
- dev-cpp/eigen/eigen-3.2.4.ebuild      | 65 --------------------------------
- header.txt                            |  2 +-
- net-print/cups/cups-2.0.3.ebuild      |  2 +-
- skel.ChangeLog                        |  2 +-
- skel.ebuild                           |  2 +-
- sys-fs/xfsprogs/xfsprogs-3.2.4.ebuild |  2 +-
- 9 files changed, 6 insertions(+), 143 deletions(-)
- delete mode 100644 dev-cpp/eigen/eigen-3.0.6.ebuild
- delete mode 100644 dev-cpp/eigen/eigen-3.2.4.ebuild
+ .../vim-qt/{vim-qt-20140827-r2.ebuild => vim-qt-20140827-r3.ebuild}     | 2 +-
+ .../vim-qt/{vim-qt-20150102.ebuild => vim-qt-20150102-r1.ebuild}        | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ rename app-editors/vim-qt/{vim-qt-20140827-r2.ebuild => vim-qt-20140827-r3.ebuild} (99%)
+ rename app-editors/vim-qt/{vim-qt-20150102.ebuild => vim-qt-20150102-r1.ebuild} (99%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
