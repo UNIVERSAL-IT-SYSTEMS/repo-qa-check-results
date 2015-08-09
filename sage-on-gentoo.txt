@@ -10,8 +10,42 @@
              'uri': 'http://github.com/cschwan/sage-on-gentoo.git'}],
  'status': 'unofficial'}
 $ pmaint sync sage-on-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/fordfrog' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/fordfrog', named 'fordfrog', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/calculate' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/calculate', named 'calculate', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/TomWij' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/TomWij', named 'TomWij', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bobwya' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bobwya', named 'bobwya', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bliss-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bliss-overlay', named 'bliss-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/FireBurn' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/FireBurn', named 'FireBurn', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abnorm' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bar' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bar', named 'bar', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dev-zero' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dev-zero', named 'dev-zero', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ROKO__' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/elementary' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/elementary', named 'elementary', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/cschwan/sage-on-gentoo
+   1f88400..bf9d4c9  master     -> origin/master
+Updating 1f88400..bf9d4c9
+Fast-forward
+ sci-mathematics/sage-notebook/ChangeLog            |  7 ++++++
+ .../sage-notebook/files/pexpect-3.3.patch          | 28 ++++++++++++++++++++++
+ ....4-r3.ebuild => sage-notebook-0.11.4-r4.ebuild} |  3 +++
+ sci-mathematics/sage/ChangeLog                     |  4 ++++
+ sci-mathematics/sage/sage-6.8-r1.ebuild            |  2 +-
+ sci-mathematics/sage/sage-9999.ebuild              |  2 +-
+ 6 files changed, 44 insertions(+), 2 deletions(-)
+ create mode 100644 sci-mathematics/sage-notebook/files/pexpect-3.3.patch
+ rename sci-mathematics/sage-notebook/{sage-notebook-0.11.4-r3.ebuild => sage-notebook-0.11.4-r4.ebuild} (95%)
 *** syncing sage-on-gentoo
 *** synced sage-on-gentoo
  * Sync succeeded
