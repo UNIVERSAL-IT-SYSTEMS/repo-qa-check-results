@@ -16,7 +16,19 @@
 $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/alunduil/alunduil-overlay
+   f4bf7ac..a780c7f  master     -> origin/master
+Updating f4bf7ac..a780c7f
+Fast-forward
+ dev-python/sphinxcontrib-newsfeed/Manifest         |  3 +++
+ dev-python/sphinxcontrib-newsfeed/metadata.xml     | 10 +++++++++
+ .../sphinxcontrib-newsfeed-0.1.4.ebuild            | 26 ++++++++++++++++++++++
+ dev-python/sphinxcontrib-spelling/Manifest         |  2 +-
+ .../sphinxcontrib-spelling-2.1.2.ebuild            |  2 +-
+ 5 files changed, 41 insertions(+), 2 deletions(-)
+ create mode 100644 dev-python/sphinxcontrib-newsfeed/Manifest
+ create mode 100644 dev-python/sphinxcontrib-newsfeed/metadata.xml
+ create mode 100644 dev-python/sphinxcontrib-newsfeed/sphinxcontrib-newsfeed-0.1.4.ebuild
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded
