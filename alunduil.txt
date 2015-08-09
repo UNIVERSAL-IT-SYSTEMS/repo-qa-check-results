@@ -17,20 +17,38 @@ $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/alunduil/alunduil-overlay
-   1787bec..bc7f035  master     -> origin/master
-Updating 1787bec..bc7f035
+   bc7f035..fda4c70  master     -> origin/master
+Updating bc7f035..fda4c70
 Fast-forward
- dev-python/os-client-config/Manifest               |  4 --
- .../files/test_get_all_clouds.patch                | 13 ----
- dev-python/os-client-config/metadata.xml           | 10 ---
- .../os-client-config/os-client-config-1.6.1.ebuild | 74 ----------------------
- dev-python/sphinxcontrib-spelling/Manifest         |  2 +-
- .../sphinxcontrib-spelling-2.1.2.ebuild            |  8 +--
- 6 files changed, 3 insertions(+), 108 deletions(-)
- delete mode 100644 dev-python/os-client-config/Manifest
- delete mode 100644 dev-python/os-client-config/files/test_get_all_clouds.patch
- delete mode 100644 dev-python/os-client-config/metadata.xml
- delete mode 100644 dev-python/os-client-config/os-client-config-1.6.1.ebuild
+ app-emulation/lxd/ChangeLog                        |  16 ---
+ app-emulation/lxd/Manifest                         |   8 --
+ .../lxd/files/lxd-0.14-nc-binary-name.patch        |  11 --
+ app-emulation/lxd/files/lxd.confd                  |  26 ----
+ app-emulation/lxd/files/lxd.initd                  |  35 ------
+ app-emulation/lxd/files/lxd.service                |  12 --
+ app-emulation/lxd/lxd-0.14.ebuild                  | 137 ---------------------
+ app-emulation/lxd/metadata.xml                     |  26 ----
+ dev-python/botocore/Manifest                       |   3 -
+ dev-python/botocore/botocore-1.1.7.ebuild          |  53 --------
+ dev-python/botocore/metadata.xml                   |  10 --
+ dev-python/sphinxcontrib-spelling/Manifest         |   3 -
+ dev-python/sphinxcontrib-spelling/metadata.xml     |  10 --
+ .../sphinxcontrib-spelling-2.1.2.ebuild            |  47 -------
+ 14 files changed, 397 deletions(-)
+ delete mode 100644 app-emulation/lxd/ChangeLog
+ delete mode 100644 app-emulation/lxd/Manifest
+ delete mode 100644 app-emulation/lxd/files/lxd-0.14-nc-binary-name.patch
+ delete mode 100644 app-emulation/lxd/files/lxd.confd
+ delete mode 100644 app-emulation/lxd/files/lxd.initd
+ delete mode 100644 app-emulation/lxd/files/lxd.service
+ delete mode 100644 app-emulation/lxd/lxd-0.14.ebuild
+ delete mode 100644 app-emulation/lxd/metadata.xml
+ delete mode 100644 dev-python/botocore/Manifest
+ delete mode 100644 dev-python/botocore/botocore-1.1.7.ebuild
+ delete mode 100644 dev-python/botocore/metadata.xml
+ delete mode 100644 dev-python/sphinxcontrib-spelling/Manifest
+ delete mode 100644 dev-python/sphinxcontrib-spelling/metadata.xml
+ delete mode 100644 dev-python/sphinxcontrib-spelling/sphinxcontrib-spelling-2.1.2.ebuild
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded

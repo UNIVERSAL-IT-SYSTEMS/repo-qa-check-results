@@ -1,0 +1,26 @@
+{'description': {'en': 'For learning purposes.'},
+ 'feed': ['https://cgit.gentoo.org/user/mklich.git/atom/'],
+ 'homepage': 'https://cgit.gentoo.org/user/mklich.git/',
+ 'name': 'mklich',
+ 'owner': [{'email': 'michal@michalklich.com',
+            'name': u'Micha\u0142 Klich',
+            'type': 'person'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git',
+             'uri': 'git://anongit.gentoo.org/user/mklich.git'},
+            {'type': 'git',
+             'uri': 'https://anongit.gentoo.org/git/user/mklich.git'},
+            {'type': 'git',
+             'uri': 'git+ssh://git@git.gentoo.org/user/mklich.git'}],
+ 'status': 'unofficial'}
+ * Adding new repository
+$ pmaint sync mklich
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/mklich'...
+*** syncing mklich
+*** synced mklich
+ * Sync succeeded
+$ pmaint regen -t 2 mklich
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully
