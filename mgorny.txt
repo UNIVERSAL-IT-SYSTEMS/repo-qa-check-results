@@ -11,6 +11,8 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/mgorny.git'}],
  'status': 'official'}
 $ pmaint sync mgorny
+WARNING:pkgcore:repository at location '/home/mgorny/repos/loongson' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/loongson', named 'loongson', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing mgorny
