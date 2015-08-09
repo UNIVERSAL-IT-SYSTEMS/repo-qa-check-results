@@ -15,7 +15,13 @@
  'status': 'unofficial'}
 $ pmaint sync benklop
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/benklop
+   d16b1af..851db9e  master     -> origin/master
+Updating d16b1af..851db9e
+Fast-forward
+ sys-apps/libcec-daemon/Manifest                  | 2 +-
+ sys-apps/libcec-daemon/libcec-daemon-9999.ebuild | 9 +++++----
+ 2 files changed, 6 insertions(+), 5 deletions(-)
 *** syncing benklop
 *** synced benklop
  * Sync succeeded

@@ -9,7 +9,22 @@
 $ pmaint sync stuff
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/megabaks/stuff
+   7eedf2a..9e2bda9  master     -> origin/master
+Updating 7eedf2a..9e2bda9
+Fast-forward
+ media-libs/openimageio/Manifest                    |   1 +
+ media-libs/openimageio/files/missing_math.h.patch  |  13 ---
+ .../files/openimageio-1.1.1-x86-build.patch        |  15 ---
+ media-libs/openimageio/files/pugixml.patch         |  39 --------
+ ...eio-1.5.15.ebuild => openimageio-1.5.18.ebuild} |   2 +-
+ media-libs/openimageio/openimageio-1.5.5.ebuild    | 111 ---------------------
+ 6 files changed, 2 insertions(+), 179 deletions(-)
+ delete mode 100644 media-libs/openimageio/files/missing_math.h.patch
+ delete mode 100644 media-libs/openimageio/files/openimageio-1.1.1-x86-build.patch
+ delete mode 100644 media-libs/openimageio/files/pugixml.patch
+ rename media-libs/openimageio/{openimageio-1.5.15.ebuild => openimageio-1.5.18.ebuild} (97%)
+ delete mode 100644 media-libs/openimageio/openimageio-1.5.5.ebuild
 *** syncing stuff
 *** synced stuff
  * Sync succeeded
