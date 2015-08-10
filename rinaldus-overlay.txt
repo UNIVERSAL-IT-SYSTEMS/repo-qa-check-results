@@ -1,19 +1,20 @@
-{'description': {'en': "Dennis Lan's testing grounds and bleeding edge ebuilds"},
- 'feed': ['https://github.com/feeds/dlanx/commits/dlan-overlay/master'],
- 'homepage': 'https://github.com/dlanx/dlan-overlay/',
- 'name': 'dlan',
- 'owner': [{'email': 'dlan@gentoo.org', 'name': 'Lan Yixun (dlan)'}],
+{'description': {'en': 'Rinaldus overlay'},
+ 'homepage': 'https://github.com/rinaldus/rinaldus-overlay',
+ 'name': 'rinaldus-overlay',
+ 'owner': [{'email': 'forreg@rinaldus.ru', 'name': 'Rinaldus'}],
  'quality': 'experimental',
- 'source': [{'type': 'git', 'uri': 'git://github.com/dlanx/dlan-overlay.git'}],
+ 'source': [{'type': 'git',
+             'uri': 'https://github.com/rinaldus/rinaldus-overlay.git'}],
  'status': 'unofficial'}
-$ pmaint sync dlan
+ * Adding new repository
+$ pmaint sync rinaldus-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
-*** syncing dlan
-*** synced dlan
+Cloning into '/home/mgorny/repos/rinaldus-overlay'...
+*** syncing rinaldus-overlay
+*** synced rinaldus-overlay
  * Sync succeeded
-$ pmaint regen -t 2 dlan
+$ pmaint regen -t 2 rinaldus-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

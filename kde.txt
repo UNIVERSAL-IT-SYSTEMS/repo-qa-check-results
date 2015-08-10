@@ -13,7 +13,15 @@
  'status': 'official'}
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   096f840..8f5b9dd  master     -> origin/master
+Updating 096f840..8f5b9dd
+Fast-forward
+ kde-apps/kdepim/kdepim-15.07.90.ebuild       | 1 +
+ kde-apps/kdepim/kdepim-15.08.49.9999.ebuild  | 8 +-------
+ kde-apps/kdepim/kdepim-9999.ebuild           | 5 +----
+ kde-misc/systemd-kcm/systemd-kcm-9999.ebuild | 1 +
+ 4 files changed, 4 insertions(+), 11 deletions(-)
 *** syncing kde
 *** synced kde
  * Sync succeeded

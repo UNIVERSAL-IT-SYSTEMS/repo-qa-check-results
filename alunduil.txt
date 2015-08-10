@@ -17,12 +17,14 @@ $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/alunduil/alunduil-overlay
-   1c68366..7776ab5  master     -> origin/master
-Updating 1c68366..7776ab5
+   7776ab5..a0bd8fd  master     -> origin/master
+Updating 7776ab5..a0bd8fd
 Fast-forward
- dev-python/stormpath/Manifest               | 4 ++--
- dev-python/stormpath/stormpath-2.0.8.ebuild | 5 +++--
- 2 files changed, 5 insertions(+), 4 deletions(-)
+ dev-python/stormpath/Manifest                     |  3 ++-
+ dev-python/stormpath/files/drop-test-module.patch | 13 +++++++++++++
+ dev-python/stormpath/stormpath-2.0.8.ebuild       |  8 ++++++++
+ 3 files changed, 23 insertions(+), 1 deletion(-)
+ create mode 100644 dev-python/stormpath/files/drop-test-module.patch
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded

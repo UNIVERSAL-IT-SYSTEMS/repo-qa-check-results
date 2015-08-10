@@ -14,7 +14,38 @@
  'status': 'official'}
 $ pmaint sync java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/java
+   93dcdc4..66b2ecb  master     -> origin/master
+Updating 93dcdc4..66b2ecb
+Fast-forward
+ dev-java/cacao/ChangeLog                           |  115 ++
+ ...cacao-1.6.0-r2.ebuild => cacao-1.6.0-r3.ebuild} |    0
+ dev-java/cacao/files/javac.in                      |    4 +-
+ dev-java/gcj-jdk/ChangeLog                         |  146 ++
+ dev-java/gnu-classpath/ChangeLog                   |  529 +++++
+ dev-java/icedtea/ChangeLog                         | 2185 ++++++++++++++++++++
+ dev-java/jamvm/ChangeLog                           |  238 +++
+ dev-java/xml-xmlbeans/ChangeLog                    |  152 ++
+ dev-java/xml-xmlbeans/Manifest                     |    1 +
+ .../files/xml-xmlbeans-2.6.0-jam.patch             |   64 +
+ .../files/xml-xmlbeans-2.6.0-piccolo.patch         |   14 +
+ .../xml-xmlbeans-2.6.0-remove-jamsupport.patch     |   37 +
+ dev-java/xml-xmlbeans/metadata.xml                 |   23 +
+ dev-java/xml-xmlbeans/xml-xmlbeans-2.6.0.ebuild    |   93 +
+ 14 files changed, 3599 insertions(+), 2 deletions(-)
+ create mode 100644 dev-java/cacao/ChangeLog
+ rename dev-java/cacao/{cacao-1.6.0-r2.ebuild => cacao-1.6.0-r3.ebuild} (100%)
+ create mode 100644 dev-java/gcj-jdk/ChangeLog
+ create mode 100644 dev-java/gnu-classpath/ChangeLog
+ create mode 100644 dev-java/icedtea/ChangeLog
+ create mode 100644 dev-java/jamvm/ChangeLog
+ create mode 100644 dev-java/xml-xmlbeans/ChangeLog
+ create mode 100644 dev-java/xml-xmlbeans/Manifest
+ create mode 100644 dev-java/xml-xmlbeans/files/xml-xmlbeans-2.6.0-jam.patch
+ create mode 100644 dev-java/xml-xmlbeans/files/xml-xmlbeans-2.6.0-piccolo.patch
+ create mode 100644 dev-java/xml-xmlbeans/files/xml-xmlbeans-2.6.0-remove-jamsupport.patch
+ create mode 100644 dev-java/xml-xmlbeans/metadata.xml
+ create mode 100644 dev-java/xml-xmlbeans/xml-xmlbeans-2.6.0.ebuild
 *** syncing java
 *** synced java
  * Sync succeeded
