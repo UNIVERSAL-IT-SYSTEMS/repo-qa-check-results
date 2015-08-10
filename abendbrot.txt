@@ -14,7 +14,23 @@
  'status': 'unofficial'}
 $ pmaint sync abendbrot
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/stefan-gr/abendbrot
+   57955f6..281b3dc  master     -> origin/master
+Updating 57955f6..281b3dc
+Fast-forward
+ games-emulation/retroarch/Manifest                 |  2 +-
+ games-emulation/retroarch/retroarch-9999.ebuild    |  1 -
+ media-sound/yarock/Manifest                        |  2 +-
+ media-sound/yarock/yarock-1.1.2.ebuild             | 18 ++++++-------
+ x11-themes/gtk-themes-arc/Manifest                 |  2 +-
+ .../gtk-themes-arc/gtk-themes-arc-9999.ebuild      | 16 ++++++------
+ x11-themes/gtk-themes-ceti2/Manifest               |  2 +-
+ .../gtk-themes-ceti2/gtk-themes-ceti2-9999.ebuild  | 12 ++++-----
+ x11-themes/gtk-themes-vertex/Manifest              |  2 +-
+ .../gtk-themes-vertex-9999.ebuild                  | 30 +++++++++++-----------
+ x11-themes/papirus-icon-theme/Manifest             |  2 +-
+ .../papirus-icon-theme-9999.ebuild                 |  8 +++---
+ 12 files changed, 47 insertions(+), 50 deletions(-)
 *** syncing abendbrot
 *** synced abendbrot
  * Sync succeeded
