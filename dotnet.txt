@@ -13,7 +13,17 @@
  'status': 'official'}
 $ pmaint sync dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/dotnet
+   89202ce..cca942f  master     -> origin/master
+Updating 89202ce..cca942f
+Fast-forward
+ .../dbus-sharp-glib/dbus-sharp-glib-0.6.ebuild     |   2 +-
+ dev-lang/mono/Manifest                             |   2 -
+ dev-lang/mono/mono-4.0.3.13.ebuild                 | 107 ---------------------
+ dev-lang/mono/mono-4.0.3.19.ebuild                 | 107 ---------------------
+ 4 files changed, 1 insertion(+), 217 deletions(-)
+ delete mode 100644 dev-lang/mono/mono-4.0.3.13.ebuild
+ delete mode 100644 dev-lang/mono/mono-4.0.3.19.ebuild
 *** syncing dotnet
 *** synced dotnet
  * Sync succeeded

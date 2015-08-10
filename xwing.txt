@@ -10,8 +10,6 @@ $ pmaint sync xwing
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named 'xelnor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named 'xelnor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 This is xwing.info / coruscant.xwing.info
 
 Server Address : 62.212.103.27 / 2001:7a8:2b1b::254
@@ -33,9 +31,9 @@ File list size: 46
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 85
-Total bytes received: 129
+Total bytes received: 132
 
-sent 85 bytes  received 129 bytes  85.60 bytes/sec
+sent 85 bytes  received 132 bytes  144.67 bytes/sec
 total size is 32  speedup is 0.15
 This is xwing.info / coruscant.xwing.info
 
@@ -74,9 +72,9 @@ File list size: 3.41K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 342
-Total bytes received: 9.98K
+Total bytes received: 9.99K
 
-sent 342 bytes  received 9.98K bytes  4.13K bytes/sec
+sent 342 bytes  received 9.99K bytes  4.13K bytes/sec
 total size is 155.12K  speedup is 15.02
 *** syncing xwing
 *** synced xwing
