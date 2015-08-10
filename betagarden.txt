@@ -15,7 +15,14 @@
  'status': 'official'}
 $ pmaint sync betagarden
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/betagarden
+   07444af..474788c  master     -> origin/master
+Updating 07444af..474788c
+Fast-forward
+ media-sound/cava/Manifest                    |  1 +
+ media-sound/cava/cava-0.3.2_p20150810.ebuild | 45 ++++++++++++++++++++++++++++
+ 2 files changed, 46 insertions(+)
+ create mode 100644 media-sound/cava/cava-0.3.2_p20150810.ebuild
 *** syncing betagarden
 *** synced betagarden
  * Sync succeeded
