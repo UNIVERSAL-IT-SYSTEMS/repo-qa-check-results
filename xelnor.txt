@@ -9,9 +9,7 @@
 $ pmaint sync xelnor
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Cloning into '/home/mgorny/repos/xelnor'...
-fatal: unable to connect to overlay.xelnor.net:
-overlay.xelnor.net[0: 62.210.107.214]: errno=Connection refused
-
+fatal: remote error: access denied or repository not exported: /overlay.git
 *** syncing xelnor
 *** failed syncing xelnor
  * Sync failed with 1

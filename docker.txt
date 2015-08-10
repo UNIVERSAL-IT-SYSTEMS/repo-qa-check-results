@@ -13,7 +13,19 @@
  'status': 'unofficial'}
 $ pmaint sync docker
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/tianon/docker-overlay
+   2efaf2f..bcd8175  master     -> origin/master
+Updating 2efaf2f..bcd8175
+Fast-forward
+ app-emulation/docker/Manifest              |  2 +-
+ app-emulation/docker/docker-1.7.1.ebuild   | 17 +++++++++++------
+ app-emulation/docker/files/docker-r2.initd |  0
+ app-emulation/docker/files/docker-r3.initd |  0
+ app-emulation/docker/files/docker.initd    |  0
+ 5 files changed, 12 insertions(+), 7 deletions(-)
+ mode change 100755 => 100644 app-emulation/docker/files/docker-r2.initd
+ mode change 100755 => 100644 app-emulation/docker/files/docker-r3.initd
+ mode change 100755 => 100644 app-emulation/docker/files/docker.initd
 *** syncing docker
 *** synced docker
  * Sync succeeded
