@@ -11,26 +11,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://git.calculate.ru/calculate/overlay
-   fbbe4c4..7896acf  master     -> origin/master
-   39e8081..7896acf  develop    -> origin/develop
-   3b0af98..7896acf  update     -> origin/update
-Updating fbbe4c4..7896acf
-Fast-forward
- profiles/base/package.keywords/desktop             |  2 +-
- profiles/base/package.use/default                  |  3 ++
- .../x11-drivers/ati-drivers/.calculate_directory   |  1 +
- .../ati-drivers/kernel3.18.20_15.7.patch           | 45 ++++++++++++++++++++++
- sys-kernel/calculate-sources/Manifest              |  5 +--
- ....45.ebuild => calculate-sources-3.12.46.ebuild} |  0
- .../calculate-sources-3.18.14-r1.ebuild            | 34 ----------------
- ....19.ebuild => calculate-sources-3.18.20.ebuild} |  2 +-
- 8 files changed, 53 insertions(+), 39 deletions(-)
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/x11-drivers/ati-drivers/.calculate_directory
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/x11-drivers/ati-drivers/kernel3.18.20_15.7.patch
- rename sys-kernel/calculate-sources/{calculate-sources-3.12.45.ebuild => calculate-sources-3.12.46.ebuild} (100%)
- delete mode 100644 sys-kernel/calculate-sources/calculate-sources-3.18.14-r1.ebuild
- rename sys-kernel/calculate-sources/{calculate-sources-3.18.19.ebuild => calculate-sources-3.18.20.ebuild} (96%)
+Already up-to-date.
 *** syncing calculate
 *** synced calculate
  * Sync succeeded

@@ -10,9 +10,52 @@
              'uri': 'git://github.com/hasufell/prism-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync prism-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/jkolo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/jkolo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hasufell/prism-overlay
+   adeb95e..5b489ef  master     -> origin/master
+Updating adeb95e..5b489ef
+Fast-forward
+ app-crypt/zuluCrypt/zuluCrypt-4.7.4-r1.ebuild        | 2 +-
+ app-crypt/zuluCrypt/zuluCrypt-4.7.5-r1.ebuild        | 2 +-
+ app-crypt/zuluCrypt/zuluCrypt-4.7.6.ebuild           | 2 +-
+ dev-libs/libntru/libntru-0.3.ebuild                  | 2 +-
+ dev-libs/libntru/libntru-0.4.1-r1.ebuild             | 2 +-
+ media-libs/mediastreamer/mediastreamer-2.10.0.ebuild | 2 +-
+ media-libs/mediastreamer/mediastreamer-2.11.0.ebuild | 2 +-
+ media-libs/mediastreamer/mediastreamer-2.11.1.ebuild | 2 +-
+ media-sound/umurmur/umurmur-0.2.16.ebuild            | 2 +-
+ net-fs/tahoe-lafs/tahoe-lafs-1.10.0-r2.ebuild        | 2 +-
+ net-im/dianara/dianara-1.2.5.ebuild                  | 2 +-
+ net-im/dianara/dianara-1.3.0.ebuild                  | 2 +-
+ net-im/dianara/dianara-1.3.1.ebuild                  | 2 +-
+ net-im/mu-conference/mu-conference-0.8-r1.ebuild     | 2 +-
+ net-im/mu-conference/mu-conference-0.8.81.ebuild     | 2 +-
+ net-libs/belle-sip/belle-sip-1.3.0.ebuild            | 2 +-
+ net-libs/belle-sip/belle-sip-1.4.0.ebuild            | 2 +-
+ net-libs/libeXosip/libeXosip-4.0.0.ebuild            | 2 +-
+ net-libs/libeXosip/libeXosip-4.1.0.ebuild            | 2 +-
+ net-libs/libosip/libosip-4.0.0.ebuild                | 2 +-
+ net-libs/libosip/libosip-4.1.0.ebuild                | 2 +-
+ net-libs/mbedtls/mbedtls-1.3.10.ebuild               | 2 +-
+ net-libs/mbedtls/mbedtls-1.3.11.ebuild               | 2 +-
+ net-libs/ortp/ortp-0.24.0.ebuild                     | 2 +-
+ net-libs/ortp/ortp-0.24.1.ebuild                     | 2 +-
+ net-libs/polarssl/polarssl-1.3.9-r1.ebuild           | 2 +-
+ net-misc/onioncat/onioncat-0.2.2_p566.ebuild         | 2 +-
+ net-p2p/pybitmessage/pybitmessage-0.4.3.ebuild       | 2 +-
+ net-p2p/pybitmessage/pybitmessage-9999.ebuild        | 2 +-
+ net-p2p/retroshare/retroshare-0.5.5c.ebuild          | 2 +-
+ net-voip/linphone/linphone-3.6.1.ebuild              | 2 +-
+ net-voip/linphone/linphone-3.7.0.ebuild              | 2 +-
+ net-voip/linphone/linphone-3.8.0.ebuild              | 2 +-
+ net-voip/linphone/linphone-3.8.1.ebuild              | 2 +-
+ www-client/inox/inox-43.0.2357.130.ebuild            | 2 +-
+ 35 files changed, 35 insertions(+), 35 deletions(-)
 *** syncing prism-overlay
 *** synced prism-overlay
  * Sync succeeded

@@ -8,15 +8,10 @@
  'source': [{'type': 'git', 'uri': 'https://gitlab.com/r3lgar/nightmare.git'}],
  'status': 'unofficial'}
 $ pmaint sync nightmare
+WARNING:pkgcore:repository at location '/home/mgorny/repos/jkolo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://gitlab.com/r3lgar/nightmare
-   16adc8a..3237829  master     -> origin/master
-Updating 16adc8a..3237829
-Fast-forward
- media-fonts/fontawesome/Manifest                 |  1 +
- media-fonts/fontawesome/fontawesome-4.4.0.ebuild | 24 ++++++++++++++++++++++++
- 2 files changed, 25 insertions(+)
- create mode 100644 media-fonts/fontawesome/fontawesome-4.4.0.ebuild
+Already up-to-date.
 *** syncing nightmare
 *** synced nightmare
  * Sync succeeded

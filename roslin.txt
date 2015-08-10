@@ -8,8 +8,20 @@
              'uri': 'https://gitlab.com/roslin-uberlay/roslin.git'}],
  'status': 'unofficial'}
 $ pmaint sync roslin
+WARNING:pkgcore:repository at location '/home/mgorny/repos/jkolo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/jkolo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+From https://gitlab.com/roslin-uberlay/roslin
+   a71795d..ac25a00  master     -> origin/master
+Updating a71795d..ac25a00
+Fast-forward
+ app-text/wxmedit/ChangeLog          |  5 +++++
+ app-text/wxmedit/Manifest           |  1 +
+ app-text/wxmedit/wxmedit-3.0.ebuild | 28 ++++++++++++++++++++++++++++
+ 3 files changed, 34 insertions(+)
+ create mode 100644 app-text/wxmedit/wxmedit-3.0.ebuild
 *** syncing roslin
 *** synced roslin
  * Sync succeeded
