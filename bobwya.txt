@@ -15,20 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync bobwya
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/bobwya/miscellaneous_ebuilds
-   0697053..16d453c  master     -> origin/master
-Updating 0697053..16d453c
-Fast-forward
- www-client/firefox-kde-opensuse/ChangeLog          |  18 +-
- www-client/firefox-kde-opensuse/Manifest           | 249 ++++++++----
- .../firefox-kde-opensuse-31.8.0.ebuild             |  14 +-
- .../firefox-kde-opensuse-38.1.0.ebuild             |   6 +-
- .../firefox-kde-opensuse-38.1.1.ebuild             | 449 +++++++++++++++++++++
- ...0.ebuild => firefox-kde-opensuse-39.0.3.ebuild} |   7 +-
- .../tools/firefox-kde-patch.sh                     |  91 +++--
- 7 files changed, 709 insertions(+), 125 deletions(-)
- create mode 100644 www-client/firefox-kde-opensuse/firefox-kde-opensuse-38.1.1.ebuild
- rename www-client/firefox-kde-opensuse/{firefox-kde-opensuse-39.0.ebuild => firefox-kde-opensuse-39.0.3.ebuild} (98%)
+Already up-to-date.
 *** syncing bobwya
 *** synced bobwya
  * Sync succeeded
