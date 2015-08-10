@@ -10,29 +10,27 @@
  'status': 'unofficial'}
 $ pmaint sync abadonna-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo', named 'gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/aidecoe' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/aidecoe', named 'aidecoe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ROKO__' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/DuPol' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/DuPol', named 'DuPol', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/OSSDL' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/OSSDL', named 'OSSDL', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/FireBurn' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/FireBurn', named 'FireBurn', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ShyPixie' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ShyPixie', named 'ShyPixie', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/Armageddon' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/Armageddon', named 'Armageddon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/abadonna-overlay'...
+From https://gitlab.com/Abadonna/abadonna-overlay
+   4d4dfbb..5d626a8  master     -> origin/master
+   07b1a56..f4b4441  Fix        -> origin/Fix
+   c967640..09b1805  MEGA       -> origin/MEGA
+ * [new branch]      Tor        -> origin/Tor
+ * [new branch]      VeraCrypt  -> origin/VeraCrypt
+Updating 4d4dfbb..5d626a8
+Fast-forward
+ README.md                                          | 24 ++++----
+ {net-misc => app-backup}/megasync/Manifest         |  0
+ .../megasync/megasync-2.1.0.ebuild                 |  0
+ app-crypt/veracrypt/Manifest                       |  2 +
+ app-crypt/veracrypt/veracrypt-1.13.ebuild          | 72 ++++++++++++++++++++++
+ 5 files changed, 86 insertions(+), 12 deletions(-)
+ rename {net-misc => app-backup}/megasync/Manifest (100%)
+ rename {net-misc => app-backup}/megasync/megasync-2.1.0.ebuild (100%)
+ create mode 100644 app-crypt/veracrypt/veracrypt-1.13.ebuild
 *** syncing abadonna-overlay
 *** synced abadonna-overlay
  * Sync succeeded
 $ pmaint regen -t 2 abadonna-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by media-gfx/AfterShotPro-2.1.2.10 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully

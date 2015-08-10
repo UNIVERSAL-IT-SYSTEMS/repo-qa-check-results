@@ -7,41 +7,7 @@
  'source': [{'type': 'git', 'uri': 'git://github.com/wired/wirelay.git'}],
  'status': 'unofficial'}
 $ pmaint sync wirelay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/fordfrog' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/fordfrog', named 'fordfrog', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/calculate' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/calculate', named 'calculate', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/TomWij' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/TomWij', named 'TomWij', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bobwya' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bobwya', named 'bobwya', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bliss-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bliss-overlay', named 'bliss-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/FireBurn' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/FireBurn', named 'FireBurn', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/abnorm' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bar' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bar', named 'bar', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dev-zero' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dev-zero', named 'dev-zero', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ROKO__' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/elementary' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/elementary', named 'elementary', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bar' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bar', named 'bar', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dev-zero' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dev-zero', named 'dev-zero', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/abnorm' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/elementary' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/elementary', named 'elementary', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ROKO__' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/FireBurn' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/FireBurn', named 'FireBurn', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing wirelay
 *** synced wirelay
@@ -53,10 +19,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! ERROR: dev-libs/wicked-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 457:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 440:  Called __ebd_process_metadata '163' 'depend'
-!!!             ebuild-daemon.bash, line 373:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '163' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wirelay/dev-libs/wicked/wicked-9999.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wirelay/dev-libs/wicked/wicked-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wirelay/dev-libs/wicked/wicked-9999.ebuild'
@@ -66,5 +32,25 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
+
+!!! ERROR: media-video/nvidia-settings-260.19.04 failed.
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-libs/wicked-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-video/nvidia-settings-260.19.04
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                 ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                 ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                 ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '245' 'depend'
+!!!                 ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wirelay/media-video/nvidia-settings/nvidia-settings-260.19.04.ebuild'
+!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wirelay/media-video/nvidia-settings/nvidia-settings-260.19.04.ebuild'
+!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wirelay/media-video/nvidia-settings/nvidia-settings-260.19.04.ebuild'
+!!!   nvidia-settings-260.19.04.ebuild, line   7:  Called inherit 'eutils' 'toolchain-funcs' 'multilib' 'flag-o-matic'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!                  ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'alive' for eclass eutils
+
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully
