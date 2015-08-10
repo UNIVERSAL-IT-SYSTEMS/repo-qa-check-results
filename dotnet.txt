@@ -14,43 +14,25 @@
 $ pmaint sync dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/dotnet
-   cca942f..86ecfd3  master     -> origin/master
-Updating cca942f..86ecfd3
+   86ecfd3..b4c6d6d  master     -> origin/master
+Updating 86ecfd3..b4c6d6d
 Fast-forward
- .../dbus-sharp-glib/dbus-sharp-glib-0.6.ebuild     |  2 +-
  dev-dotnet/dbus-sharp/dbus-sharp-0.7.0-r2.ebuild   |  2 +-
  dev-dotnet/dbus-sharp/dbus-sharp-0.8.1.ebuild      |  2 +-
- .../gkeyfile-sharp/gkeyfile-sharp-0.1-r1.ebuild    |  2 +-
- ...ebuild => gnome-desktop-sharp-2.26.0-r3.ebuild} | 10 ++--
- dev-dotnet/gnome-desktop-sharp/metadata.xml        |  2 -
- ...-r1.ebuild => gtk-sharp-beans-2.14.0-r2.ebuild} |  8 +--
- ...-sharp-3.0.ebuild => gudev-sharp-3.0-r1.ebuild} |  8 +--
- dev-dotnet/nini/nini-1.1.0-r3.ebuild               |  2 +-
- dev-dotnet/notify-sharp/Manifest                   |  1 -
- .../notify-sharp-0.4.0_pre20090305.ebuild          | 36 --------------
- dev-dotnet/notify-sharp/notify-sharp-0.4.1.ebuild  |  2 +-
- dev-dotnet/notify-sharp/notify-sharp-3.0.3.ebuild  |  2 +-
- dev-dotnet/nuget/nuget-2.8.1.ebuild                |  2 +-
- dev-dotnet/nuget/nuget-2.8.3.ebuild                |  2 +-
- dev-dotnet/smartirc4net/smartirc4net-1.0.ebuild    |  2 +-
- games-board/fchess/fchess-9999.ebuild              | 30 -----------
- games-board/fchess/metadata.xml                    | 10 ----
- net-irc/smuxi/Manifest                             |  3 --
- net-irc/smuxi/smuxi-0.10.ebuild                    | 58 ----------------------
- net-irc/smuxi/smuxi-0.8.11-r1.ebuild               | 50 -------------------
- net-irc/smuxi/smuxi-0.9.ebuild                     | 58 ----------------------
- net-irc/smuxi/smuxi-1.0.ebuild                     |  2 +-
- net-irc/smuxi/smuxi-9999.ebuild                    |  6 +--
- 24 files changed, 27 insertions(+), 275 deletions(-)
- rename dev-dotnet/gnome-desktop-sharp/{gnome-desktop-sharp-2.26.0-r2.ebuild => gnome-desktop-sharp-2.26.0-r3.ebuild} (83%)
- rename dev-dotnet/gtk-sharp-beans/{gtk-sharp-beans-2.14.0-r1.ebuild => gtk-sharp-beans-2.14.0-r2.ebuild} (85%)
- rename dev-dotnet/gudev-sharp/{gudev-sharp-3.0.ebuild => gudev-sharp-3.0-r1.ebuild} (77%)
- delete mode 100644 dev-dotnet/notify-sharp/notify-sharp-0.4.0_pre20090305.ebuild
- delete mode 100644 games-board/fchess/fchess-9999.ebuild
- delete mode 100644 games-board/fchess/metadata.xml
- delete mode 100644 net-irc/smuxi/smuxi-0.10.ebuild
- delete mode 100644 net-irc/smuxi/smuxi-0.8.11-r1.ebuild
- delete mode 100644 net-irc/smuxi/smuxi-0.9.ebuild
+ dev-dotnet/gio-sharp/gio-sharp-0.3-r1.ebuild       |  6 +--
+ .../gkeyfile-sharp/gkeyfile-sharp-0.1-r1.ebuild    |  6 +--
+ dev-dotnet/hyena/hyena-0.5.ebuild                  |  6 +--
+ dev-dotnet/mono-addins/mono-addins-0.6.2-r1.ebuild | 10 ++---
+ dev-dotnet/mono-addins/mono-addins-1.0-r1.ebuild   |  4 +-
+ dev-dotnet/mono-addins/mono-addins-1.0.ebuild      | 43 ----------------------
+ dev-lang/mono/metadata.xml                         |  1 -
+ dev-lang/mono/mono-4.0.2.5.ebuild                  |  1 -
+ dev-lang/mono/mono-4.0.3.20.ebuild                 |  1 -
+ dev-util/mono-debugger/mono-debugger-9999.ebuild   |  6 +--
+ .../mono-docbrowser-2.20130821-r1.ebuild           |  7 ++--
+ .../mono-docbrowser/mono-docbrowser-9999.ebuild    |  7 ++--
+ 14 files changed, 29 insertions(+), 73 deletions(-)
+ delete mode 100644 dev-dotnet/mono-addins/mono-addins-1.0.ebuild
 *** syncing dotnet
 *** synced dotnet
  * Sync succeeded
