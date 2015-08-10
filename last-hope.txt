@@ -12,7 +12,19 @@
 $ pmaint sync last-hope
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/ercpe/lh-overlay
+   b7affb2..3504357  master     -> origin/master
+Updating b7affb2..3504357
+Fast-forward
+ dev-vcs/git-flow/ChangeLog             |  9 ++++++++
+ dev-vcs/git-flow/Manifest              |  2 ++
+ dev-vcs/git-flow/git-flow-1.8.0.ebuild | 42 ++++++++++++++++++++++++++++++++++
+ dev-vcs/git-flow/metadata.xml          | 11 +++++++++
+ 4 files changed, 64 insertions(+)
+ create mode 100644 dev-vcs/git-flow/ChangeLog
+ create mode 100644 dev-vcs/git-flow/Manifest
+ create mode 100644 dev-vcs/git-flow/git-flow-1.8.0.ebuild
+ create mode 100644 dev-vcs/git-flow/metadata.xml
 *** syncing last-hope
 *** synced last-hope
  * Sync succeeded

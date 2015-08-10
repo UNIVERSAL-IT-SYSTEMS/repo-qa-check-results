@@ -11,8 +11,6 @@
  'status': 'unofficial'}
 $ pmaint sync wtk
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named 'xelnor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing wtk
 *** synced wtk
@@ -31,37 +29,37 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wtk/perl-gcpan/Crypt-X509/Crypt-X509-0.51.ebuild'
 
 !!! ERROR: perl-gcpan/MathML-Entities-0.17 failed.
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wtk/perl-gcpan/Crypt-X509/Crypt-X509-0.51.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wtk/perl-gcpan/Crypt-X509/Crypt-X509-0.51.ebuild'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wtk/perl-gcpan/Crypt-X509/Crypt-X509-0.51.ebuild'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wtk/perl-gcpan/Crypt-X509/Crypt-X509-0.51.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '214' 'depend'
 !!!         Crypt-X509-0.51.ebuild, line   9:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wtk/perl-gcpan/MathML-Entities/MathML-Entities-0.17.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wtk/perl-gcpan/MathML-Entities/MathML-Entities-0.17.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wtk/perl-gcpan/MathML-Entities/MathML-Entities-0.17.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '214' 'depend'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wtk/perl-gcpan/MathML-Entities/MathML-Entities-0.17.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wtk/perl-gcpan/MathML-Entities/MathML-Entities-0.17.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wtk/perl-gcpan/MathML-Entities/MathML-Entities-0.17.ebuild'
 !!!    MathML-Entities-0.17.ebuild, line   9:  Called inherit 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
 
 !!! ERROR: app-crypt/msva-perl-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '178' 'depend'
