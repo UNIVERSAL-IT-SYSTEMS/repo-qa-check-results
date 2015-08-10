@@ -13,22 +13,11 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at location '/home/mgorny/repos/jkolo' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/megabaks/stuff
-   9e2bda9..eec2e3a  master     -> origin/master
-Updating 9e2bda9..eec2e3a
-Fast-forward
- media-libs/luxrays/files/without-samples.patch | 16 ----------------
- media-libs/luxrays/luxrays-9999.ebuild         | 13 ++++++++-----
- 2 files changed, 8 insertions(+), 21 deletions(-)
- delete mode 100644 media-libs/luxrays/files/without-samples.patch
+Already up-to-date.
 *** syncing stuff
 *** synced stuff
  * Sync succeeded
 $ pmaint regen -t 2 stuff
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 31212, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+ * Cache regenerated successfully
