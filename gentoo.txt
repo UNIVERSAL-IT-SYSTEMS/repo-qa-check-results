@@ -16,7 +16,17 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   01252a0..ba833b8  master     -> origin/master
+Updating 01252a0..ba833b8
+Fast-forward
+ sys-process/anacron/anacron-2.3-r3.ebuild          | 64 ++++++++++++++++++++++
+ .../anacron/files/anacron-2.3-headers.patch        | 40 ++++++++++++++
+ sys-process/anacron/files/anacron.rc6              |  7 +--
+ 3 files changed, 107 insertions(+), 4 deletions(-)
+ create mode 100644 sys-process/anacron/anacron-2.3-r3.ebuild
+ create mode 100644 sys-process/anacron/files/anacron-2.3-headers.patch
+ mode change 100644 => 100755 sys-process/anacron/files/anacron.rc6
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

@@ -15,13 +15,8 @@ Already up-to-date.
 $ pmaint regen -t 2 sabayon
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by net-mail/davmail-bin-4.1.0.2042 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-mail/davmail-bin-4.1.0.2042 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by media-libs/portmidi-217 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
- * Cache regenerated successfully
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 10070, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246
