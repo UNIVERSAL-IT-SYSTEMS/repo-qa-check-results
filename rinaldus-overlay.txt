@@ -6,11 +6,15 @@
  'source': [{'type': 'git',
              'uri': 'https://github.com/rinaldus/rinaldus-overlay.git'}],
  'status': 'unofficial'}
- * Adding new repository
 $ pmaint sync rinaldus-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/rinaldus-overlay'...
+From https://github.com/rinaldus/rinaldus-overlay
+   9b5b6b5..1b4138b  master     -> origin/master
+Updating 9b5b6b5..1b4138b
+Fast-forward
+ README.md | 7 +++++++
+ 1 file changed, 7 insertions(+)
 *** syncing rinaldus-overlay
 *** synced rinaldus-overlay
  * Sync succeeded

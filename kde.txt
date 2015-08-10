@@ -14,14 +14,28 @@
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/kde
-   096f840..8f5b9dd  master     -> origin/master
-Updating 096f840..8f5b9dd
+   8f5b9dd..7b0af8f  master     -> origin/master
+Updating 8f5b9dd..7b0af8f
 Fast-forward
- kde-apps/kdepim/kdepim-15.07.90.ebuild       | 1 +
- kde-apps/kdepim/kdepim-15.08.49.9999.ebuild  | 8 +-------
- kde-apps/kdepim/kdepim-9999.ebuild           | 5 +----
- kde-misc/systemd-kcm/systemd-kcm-9999.ebuild | 1 +
- 4 files changed, 4 insertions(+), 11 deletions(-)
+ .../.kde-applications-live/kdepim-live             |  1 +
+ .../kde-applications-live.keywords                 |  1 +
+ Documentation/package.mask/kde-applications-live   |  1 +
+ Documentation/package.unmask/kde-applications-live |  1 +
+ .../kde-apps-meta/kde-apps-meta-15.07.90.ebuild    |  3 +-
+ .../kde-apps-meta-15.08.49.9999.ebuild             |  3 +-
+ kde-apps/kde-apps-meta/kde-apps-meta-9999.ebuild   |  3 +-
+ kde-apps/kde-apps-meta/metadata.xml                |  1 +
+ kde-apps/kdepim-meta/kdepim-meta-15.07.90.ebuild   | 38 ++++++++++++++++++++++
+ .../kdepim-meta/kdepim-meta-15.08.49.9999.ebuild   | 38 ++++++++++++++++++++++
+ kde-apps/kdepim-meta/kdepim-meta-9999.ebuild       | 38 ++++++++++++++++++++++
+ kde-apps/kdepim-meta/metadata.xml                  |  5 +++
+ profiles/package.mask/kde-apps-15.07.90            |  1 +
+ sets/kdepim-live                                   |  1 +
+ 14 files changed, 132 insertions(+), 3 deletions(-)
+ create mode 100644 kde-apps/kdepim-meta/kdepim-meta-15.07.90.ebuild
+ create mode 100644 kde-apps/kdepim-meta/kdepim-meta-15.08.49.9999.ebuild
+ create mode 100644 kde-apps/kdepim-meta/kdepim-meta-9999.ebuild
+ create mode 100644 kde-apps/kdepim-meta/metadata.xml
 *** syncing kde
 *** synced kde
  * Sync succeeded
