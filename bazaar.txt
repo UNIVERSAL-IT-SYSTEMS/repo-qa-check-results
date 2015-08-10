@@ -7,12 +7,6 @@
  'source': [{'type': 'bzr', 'uri': 'lp:bzr-gentoo-overlay'}],
  'status': 'unofficial'}
 $ pmaint sync bazaar
-WARNING:pkgcore:repository at location '/home/mgorny/repos/TomWij' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/TomWij', named 'TomWij', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/aluco' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/aluco', named 'aluco', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/anaximander' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/anaximander', named 'anaximander', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 You have not informed bzr of your Launchpad ID, and you must do this to
 write to Launchpad or access private data.  See "bzr help launchpad-login".
