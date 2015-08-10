@@ -13,26 +13,7 @@
  'status': 'official'}
 $ pmaint sync dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/dotnet
-   86ecfd3..b4c6d6d  master     -> origin/master
-Updating 86ecfd3..b4c6d6d
-Fast-forward
- dev-dotnet/dbus-sharp/dbus-sharp-0.7.0-r2.ebuild   |  2 +-
- dev-dotnet/dbus-sharp/dbus-sharp-0.8.1.ebuild      |  2 +-
- dev-dotnet/gio-sharp/gio-sharp-0.3-r1.ebuild       |  6 +--
- .../gkeyfile-sharp/gkeyfile-sharp-0.1-r1.ebuild    |  6 +--
- dev-dotnet/hyena/hyena-0.5.ebuild                  |  6 +--
- dev-dotnet/mono-addins/mono-addins-0.6.2-r1.ebuild | 10 ++---
- dev-dotnet/mono-addins/mono-addins-1.0-r1.ebuild   |  4 +-
- dev-dotnet/mono-addins/mono-addins-1.0.ebuild      | 43 ----------------------
- dev-lang/mono/metadata.xml                         |  1 -
- dev-lang/mono/mono-4.0.2.5.ebuild                  |  1 -
- dev-lang/mono/mono-4.0.3.20.ebuild                 |  1 -
- dev-util/mono-debugger/mono-debugger-9999.ebuild   |  6 +--
- .../mono-docbrowser-2.20130821-r1.ebuild           |  7 ++--
- .../mono-docbrowser/mono-docbrowser-9999.ebuild    |  7 ++--
- 14 files changed, 29 insertions(+), 73 deletions(-)
- delete mode 100644 dev-dotnet/mono-addins/mono-addins-1.0.ebuild
+Already up-to-date.
 *** syncing dotnet
 *** synced dotnet
  * Sync succeeded

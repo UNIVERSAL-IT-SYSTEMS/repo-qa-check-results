@@ -9,8 +9,16 @@
 $ pmaint sync distros
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/distros
-   4273d7b..883a020  develop    -> origin/develop
-Already up-to-date.
+   4273d7b..883a020  master     -> origin/master
+   4273d7b..883a020  update     -> origin/update
+Updating 4273d7b..883a020
+Fast-forward
+ profiles/templates/3.2/6_ac_update_sync/world/0-ini                  | 2 +-
+ profiles/templates/3.2/6_ac_update_sync/world/create/science         | 5 +++++
+ .../templates/3.2/6_ac_update_sync/world/update/100-199/{123 => 124} | 5 +++--
+ 3 files changed, 9 insertions(+), 3 deletions(-)
+ create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/create/science
+ rename profiles/templates/3.2/6_ac_update_sync/world/update/100-199/{123 => 124} (89%)
 *** syncing distros
 *** synced distros
  * Sync succeeded
