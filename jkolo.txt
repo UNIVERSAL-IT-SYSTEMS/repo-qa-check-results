@@ -8,10 +8,9 @@
  'source': [{'type': 'git',
              'uri': 'https://git.kolosowscy.pl/jurek/gentoo-overlay.git'}],
  'status': 'unofficial'}
- * Adding new repository
 $ pmaint sync jkolo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/jkolo'...
+Already up-to-date.
 *** syncing jkolo
 *** synced jkolo
  * Sync succeeded
@@ -25,26 +24,26 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '175' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 
 !!! ERROR: dev-python/g-pypi-0.4 failed.
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '166' 'depend'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '166' 'depend'
 !!!           ioncube-3.3.7.ebuild, line  10:  Called inherit 'php-ext-base-r1' 'versionator'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-base-r1'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for php-ext-base-r1 failed
 
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
 !!!              g-pypi-0.4.ebuild, line  13:  Called inherit 'distutils-r1'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
@@ -60,25 +59,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 
 !!! caught exception inherit requires an unknown eclass, php-ext-base-r1 cannot be found while processing ebuild src: dev-php5/ioncube-3.3.7
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-fs/samba-4.1.19
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-python/g-pypi-0.4
-
-!!! ERROR: net-fs/samba-4.1.19 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '166' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jkolo/net-fs/samba/samba-4.1.19.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/net-fs/samba/samba-4.1.19.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jkolo/net-fs/samba/samba-4.1.19.ebuild'
-!!!            samba-4.1.19.ebuild, line   8:  Called inherit 'python-single-r1' 'waf-utils' 'multilib' 'linux-info' 'systemd' 'base'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-single-r1'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass python-single-r1
-
-Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully

@@ -16,24 +16,8 @@
             {'type': 'git', 'uri': 'git@github.com:gentoo-science/sci.git'}],
  'status': 'official'}
 $ pmaint sync science
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jkolo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/sci
-   6098750..c2efa30  master     -> origin/master
-Updating 6098750..c2efa30
-Fast-forward
- dev-java/jeuclid-core/ChangeLog                    |  4 ++
- dev-java/jeuclid-core/jeuclid-core-3.1.9-r1.ebuild |  4 +-
- sci-astronomy/casapy-bin/ChangeLog                 |  7 ++-
- sci-astronomy/casapy-bin/Manifest                  |  1 +
- sci-astronomy/casapy-bin/casapy-bin-4.4.0.ebuild   | 69 ++++++++++++++++++++++
- sci-libs/asl/ChangeLog                             |  5 ++
- sci-libs/asl/Manifest                              |  1 +
- sci-libs/asl/asl-0.1.5.ebuild                      | 43 ++++++++++++++
- 8 files changed, 131 insertions(+), 3 deletions(-)
- create mode 100644 sci-astronomy/casapy-bin/casapy-bin-4.4.0.ebuild
- create mode 100644 sci-libs/asl/asl-0.1.5.ebuild
+Already up-to-date.
 *** syncing science
 *** synced science
  * Sync succeeded

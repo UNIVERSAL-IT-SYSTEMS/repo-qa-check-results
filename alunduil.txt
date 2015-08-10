@@ -16,7 +16,23 @@
 $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/alunduil/alunduil-overlay
+   929676c..1c68366  master     -> origin/master
+Updating 929676c..1c68366
+Fast-forward
+ dev-python/pydispatcher/Manifest                   |  3 ++
+ dev-python/pydispatcher/metadata.xml               | 10 +++++
+ .../pydispatcher/pydispatcher-2.0.5-r1.ebuild      | 40 ++++++++++++++++++
+ dev-python/stormpath/Manifest                      |  3 ++
+ dev-python/stormpath/metadata.xml                  | 10 +++++
+ dev-python/stormpath/stormpath-2.0.8.ebuild        | 47 ++++++++++++++++++++++
+ 6 files changed, 113 insertions(+)
+ create mode 100644 dev-python/pydispatcher/Manifest
+ create mode 100644 dev-python/pydispatcher/metadata.xml
+ create mode 100644 dev-python/pydispatcher/pydispatcher-2.0.5-r1.ebuild
+ create mode 100644 dev-python/stormpath/Manifest
+ create mode 100644 dev-python/stormpath/metadata.xml
+ create mode 100644 dev-python/stormpath/stormpath-2.0.8.ebuild
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded
