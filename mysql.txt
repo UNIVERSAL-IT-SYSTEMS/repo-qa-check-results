@@ -14,15 +14,7 @@
  'status': 'official'}
 $ pmaint sync mysql
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/mysql
-   1f75e05..5929f97  master     -> origin/master
-Updating 1f75e05..5929f97
-Fast-forward
- dev-db/myodbc/ChangeLog                   |  4 ++++
- dev-db/myodbc/files/5.2.7-my_malloc.patch | 18 ++++++++++++++++++
- dev-db/myodbc/myodbc-5.2.7-r2.ebuild      |  5 +++--
- 3 files changed, 25 insertions(+), 2 deletions(-)
- create mode 100644 dev-db/myodbc/files/5.2.7-my_malloc.patch
+Already up-to-date.
 *** syncing mysql
 *** synced mysql
  * Sync succeeded
@@ -32,54 +24,54 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 /home/mgorny/pkgcore-venv/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
 
 !!! ERROR: dev-db/mariadb-connector-c-2.1.0 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                 ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 /home/mgorny/pkgcore-venv/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
 
 !!! ERROR: dev-db/mariadb-connector-c-2.0.0-r1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 /home/mgorny/pkgcore-venv/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
-!!!                    ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                 ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 
 !!! ERROR: dev-java/mariadb-java-client-1.1.7 failed.
+!!!                    ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                    ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!                 ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                    ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '242' 'depend'
-!!!                 ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                    ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                 ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                 ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '233' 'depend'
-!!!                            ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
 !!!                 ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!                 ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '237' 'depend'
+!!!                 ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '233' 'depend'
 !!!                 ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!                 ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
-!!!                            ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
 !!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
-!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
+!!!                    ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
+!!!                    ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '242' 'depend'
+!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
-!!!   mariadb-java-client-1.1.7.ebuild, line  23:  Called inherit 'java-pkg-2' 'java-ant-2' ''
 !!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
 !!!   mariadb-connector-c-2.1.0.ebuild, line  23:  Called inherit 'cmake-multilib' 'eutils' ''
+!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
+!!!                    ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
+!!!   mariadb-java-client-1.1.7.ebuild, line  23:  Called inherit 'java-pkg-2' 'java-ant-2' ''
+!!!                            ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
 !!!                  ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for  failed
 
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
+!!!                  ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for  failed
+
+!!!                            ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
 !!!                isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
 !!!   mariadb-connector-c-2.0.0-r1.ebuild, line  23:  Called inherit 'cmake-multilib' 'eutils' ''
 !!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
 !!!                     ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for  failed
-
-!!!                  ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for  failed
 

@@ -38,9 +38,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! ERROR: sys-kernel/meego-sources-2.6.35.0.0.2010.08.09.09.10 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ofono-0.27_pre201008102034
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-kernel/meego-sources-2.6.35.0.0.2010.08.09.09.10
 !!!                                 ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!                                 ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!                                 ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '320' 'depend'
@@ -48,6 +45,9 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!!                                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/n900/sys-kernel/meego-sources/meego-sources-2.6.35.0.0.2010.08.09.09.10.ebuild'
 !!!                                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/n900/sys-kernel/meego-sources/meego-sources-2.6.35.0.0.2010.08.09.09.10.ebuild'
 !!!                             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/n900/sys-kernel/meego-sources/meego-sources-2.6.35.0.0.2010.08.09.09.10.ebuild'
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ofono-0.27_pre201008102034
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-kernel/meego-sources-2.6.35.0.0.2010.08.09.09.10
 !!!   meego-sources-2.6.35.0.0.2010.08.09.09.10.ebuild, line   9:  Called inherit 'eutils' 'versionator'
 !!!                       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
 !!!                                  ebuild-daemon.lib, line  37:  Called die
