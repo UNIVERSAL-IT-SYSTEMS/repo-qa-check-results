@@ -39,7 +39,7 @@ receiving incremental file list
 timestamp.chk
 
 Number of files: 1 (reg: 1)
-Number of created files: 0
+Number of created files: 1 (reg: 1)
 Number of deleted files: 0
 Number of regular files transferred: 1
 Total file size: 32 bytes
@@ -54,66 +54,6 @@ Total bytes received: 133
 
 sent 85 bytes  received 133 bytes  87.20 bytes/sec
 total size is 32  speedup is 0.15
--------------------------------------------------------------------------------
-| Welcome to rsync on gentoofan.no-ip.org:873                                 |
-| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
-| Thus this server only has a dynamic IP I cannot stat it here.               |
--------------------------------------------------------------------------------
-
-  ,-~~-.___.
- / |  '     \
-(  )        0
- \_/-, ,----'
-    ====           //
-   /  \-'~;    /~~~(O)
-  /  __/~|   /       |
-=(  _____| (_________|
-
- server specs:
-    -CPU		Intel Atom-330 (2x 1,6 GHz)
-    -RAM		2048 MB PC2-533
-    -OS			Gentoo GNU/Linux (Kernel 3.x)
-    -BANDWIDTH		ADSL (16000/1024)
-    -LIMIT		3 users (concurrently)
-    -LOCATION		Ludwigshafen / Germany
-    -CONTACT		polynomial-c@gentoo.org
-
--------------------------------------------------------------------------------
-
-receiving incremental file list
-./
-metadata/
-metadata/timestamp.chk
-metadata/md5-cache/sys-libs/
-metadata/md5-cache/sys-libs/ncurses-6.0_pre
-sys-libs/
-sys-libs/ncurses/
-sys-libs/ncurses/Manifest
-sys-libs/ncurses/ncurses-6.0_pre.ebuild
-sys-libs/ncurses/files/
-sys-libs/ncurses/files/ncurses-5.7-nongnu.patch
-sys-libs/ncurses/files/ncurses-5.9-gcc-5.patch
-sys-libs/ncurses/files/ncurses-6.0-gfbsd.patch
-sys-libs/ncurses/files/ncurses-6.0-pkg-config.patch
-sys-libs/ncurses/files/ncurses-6.0-rxvt-unicode-9.15.patch
-deleting metadata/.tmp.timestamp.chk
-
-Number of files: 1,132 (reg: 853, dir: 279)
-Number of created files: 10 (reg: 8, dir: 2)
-Number of deleted files: 1 (reg: 1)
-Number of regular files transferred: 9
-Total file size: 3.15M bytes
-Total transferred file size: 17.67K bytes
-Literal data: 17.67K bytes
-Matched data: 0 bytes
-File list size: 31.24K
-File list generation time: 0.001 seconds
-File list transfer time: 0.000 seconds
-Total bytes sent: 603
-Total bytes received: 44.55K
-
-sent 603 bytes  received 44.55K bytes  12.90K bytes/sec
-total size is 3.15M  speedup is 69.83
 *** syncing poly-c
 *** synced poly-c
  * Sync succeeded
