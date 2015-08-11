@@ -14,13 +14,16 @@
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/gentoo-haskell/gentoo-haskell
-   4f88c29..2feec76  master     -> origin/master
-Updating 4f88c29..2feec76
+   2feec76..3e7254c  master     -> origin/master
+Updating 2feec76..3e7254c
 Fast-forward
- dev-haskell/pandoc-citeproc/Manifest                                    | 2 +-
- .../{pandoc-citeproc-0.7.2.ebuild => pandoc-citeproc-0.7.3.ebuild}      | 2 +-
- 2 files changed, 2 insertions(+), 2 deletions(-)
- rename dev-haskell/pandoc-citeproc/{pandoc-citeproc-0.7.2.ebuild => pandoc-citeproc-0.7.3.ebuild} (96%)
+ dev-haskell/mongodb/Manifest                                          | 2 +-
+ dev-haskell/mongodb/{mongodb-2.0.5.ebuild => mongodb-2.0.6.ebuild}    | 0
+ dev-haskell/vector-instances/Manifest                                 | 2 +-
+ ...{vector-instances-3.3.0.1.ebuild => vector-instances-3.3.1.ebuild} | 4 ++--
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+ rename dev-haskell/mongodb/{mongodb-2.0.5.ebuild => mongodb-2.0.6.ebuild} (100%)
+ rename dev-haskell/vector-instances/{vector-instances-3.3.0.1.ebuild => vector-instances-3.3.1.ebuild} (87%)
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
