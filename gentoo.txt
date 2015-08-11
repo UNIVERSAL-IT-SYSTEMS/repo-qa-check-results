@@ -16,39 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   e9e1f71..029323a  master     -> origin/master
-Updating e9e1f71..029323a
-Fast-forward
- media-gfx/freecad/freecad-0.12.5284-r4.ebuild      |   2 +-
- media-gfx/freecad/freecad-0.13.1830-r1.ebuild      |   2 +-
- media-gfx/freecad/freecad-0.14.3702-r1.ebuild      |   2 +-
- media-gfx/freecad/freecad-0.15.4671.ebuild         |   2 +-
- media-gfx/freecad/freecad-9999.ebuild              |   2 +-
- sci-libs/opencascade/Manifest                      |   3 -
- .../files/opencascade-6.5-fixed-DESTDIR.patch      | 174 -------------------
- .../opencascade/files/opencascade-6.5-ftgl.patch   |  77 ---------
- .../opencascade/files/opencascade-6.5-tcl8.6.patch |  46 -----
- .../files/opencascade-6.5.4-fixed-DESTDIR.patch    |  46 -----
- .../files/opencascade-6.5.4-tcl8.6.patch           |  38 -----
- .../opencascade-6.5.5-deprecated-glx-api.patch     |  30 ----
- .../opencascade-6.6.0-deprecated-glx-api.patch     |  50 ------
- .../files/opencascade-6.6.0-fixed-DESTDIR.patch    |  45 -----
- sci-libs/opencascade/opencascade-6.5.5.ebuild      | 171 -------------------
- sci-libs/opencascade/opencascade-6.5.ebuild        | 187 ---------------------
- sci-libs/opencascade/opencascade-6.6.0.ebuild      | 169 -------------------
- 17 files changed, 5 insertions(+), 1041 deletions(-)
- delete mode 100644 sci-libs/opencascade/files/opencascade-6.5-fixed-DESTDIR.patch
- delete mode 100644 sci-libs/opencascade/files/opencascade-6.5-ftgl.patch
- delete mode 100644 sci-libs/opencascade/files/opencascade-6.5-tcl8.6.patch
- delete mode 100644 sci-libs/opencascade/files/opencascade-6.5.4-fixed-DESTDIR.patch
- delete mode 100644 sci-libs/opencascade/files/opencascade-6.5.4-tcl8.6.patch
- delete mode 100644 sci-libs/opencascade/files/opencascade-6.5.5-deprecated-glx-api.patch
- delete mode 100644 sci-libs/opencascade/files/opencascade-6.6.0-deprecated-glx-api.patch
- delete mode 100644 sci-libs/opencascade/files/opencascade-6.6.0-fixed-DESTDIR.patch
- delete mode 100644 sci-libs/opencascade/opencascade-6.5.5.ebuild
- delete mode 100644 sci-libs/opencascade/opencascade-6.5.ebuild
- delete mode 100644 sci-libs/opencascade/opencascade-6.6.0.ebuild
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

@@ -15,7 +15,31 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named 'xelnor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/xmw
+   b5912c4..81b7157  master     -> origin/master
+Updating b5912c4..81b7157
+Fast-forward
+ sys-cluster/ceph/ChangeLog                      |  30 -----
+ sys-cluster/ceph/Manifest                       |  11 --
+ sys-cluster/ceph/ceph-0.93.ebuild               | 154 ------------------------
+ sys-cluster/ceph/files/README.gentoo            |  18 ---
+ sys-cluster/ceph/files/ceph-0.79-libzfs.patch   |  13 --
+ sys-cluster/ceph/files/ceph-0.87.1-stdint.patch |  40 ------
+ sys-cluster/ceph/files/ceph.confd-r1            |   4 -
+ sys-cluster/ceph/files/ceph.initd-r1            |  48 --------
+ sys-cluster/ceph/files/ceph.logrotate           |  22 ----
+ sys-cluster/ceph/metadata.xml                   |  27 -----
+ 10 files changed, 367 deletions(-)
+ delete mode 100644 sys-cluster/ceph/ChangeLog
+ delete mode 100644 sys-cluster/ceph/Manifest
+ delete mode 100644 sys-cluster/ceph/ceph-0.93.ebuild
+ delete mode 100644 sys-cluster/ceph/files/README.gentoo
+ delete mode 100644 sys-cluster/ceph/files/ceph-0.79-libzfs.patch
+ delete mode 100644 sys-cluster/ceph/files/ceph-0.87.1-stdint.patch
+ delete mode 100644 sys-cluster/ceph/files/ceph.confd-r1
+ delete mode 100644 sys-cluster/ceph/files/ceph.initd-r1
+ delete mode 100644 sys-cluster/ceph/files/ceph.logrotate
+ delete mode 100644 sys-cluster/ceph/metadata.xml
 *** syncing xmw
 *** synced xmw
  * Sync succeeded
