@@ -13,16 +13,7 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/gentoo-haskell/gentoo-haskell
-   0e547ab..35da90c  master     -> origin/master
-Updating 0e547ab..35da90c
-Fast-forward
- dev-haskell/vty/Manifest                           |  2 +-
- .../files/vty-5.2.9-disable-mock-input-tests.patch | 38 ----------------------
- .../vty/{vty-5.2.10.ebuild => vty-5.2.11.ebuild}   |  5 ---
- 3 files changed, 1 insertion(+), 44 deletions(-)
- delete mode 100644 dev-haskell/vty/files/vty-5.2.9-disable-mock-input-tests.patch
- rename dev-haskell/vty/{vty-5.2.10.ebuild => vty-5.2.11.ebuild} (93%)
+Already up-to-date.
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
