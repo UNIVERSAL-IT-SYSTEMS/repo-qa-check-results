@@ -11,17 +11,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://git.calculate.ru/calculate/overlay
-   34a0b60..7e6f2d6  master     -> origin/master
-Updating 34a0b60..7e6f2d6
-Fast-forward
- games-util/steam-launcher/Manifest                 |  1 +
- .../files/steam-fix-joystick-detection.patch       | 30 ++++++++++++++++++++++
- ...49-r3.ebuild => steam-launcher-1.0.0.50.ebuild} | 18 +++++--------
- profiles/base/package.keywords/desktop             |  4 +--
- 4 files changed, 40 insertions(+), 13 deletions(-)
- create mode 100644 games-util/steam-launcher/files/steam-fix-joystick-detection.patch
- rename games-util/steam-launcher/{steam-launcher-1.0.0.49-r3.ebuild => steam-launcher-1.0.0.50.ebuild} (92%)
+Already up-to-date.
 *** syncing calculate
 *** synced calculate
  * Sync succeeded
