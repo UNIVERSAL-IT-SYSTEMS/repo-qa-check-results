@@ -17,7 +17,16 @@ $ pmaint sync lif
 WARNING:pkgcore:repository at location '/home/mgorny/repos/jkolo' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/killer2tester/gentoo-overlay-lif
+   4b0b0e6..6d009ad  master     -> origin/master
+Updating 4b0b0e6..6d009ad
+Fast-forward
+ sets/dl-core                        |   1 +
+ sys-kernel/linux/linux-4.1.4.ebuild | 206 ++++++++++++++++++++++++++++++++++++
+ sys-kernel/linux/linux-4.1.5.ebuild | 206 ++++++++++++++++++++++++++++++++++++
+ 3 files changed, 413 insertions(+)
+ create mode 100644 sys-kernel/linux/linux-4.1.4.ebuild
+ create mode 100644 sys-kernel/linux/linux-4.1.5.ebuild
 *** syncing lif
 *** synced lif
  * Sync succeeded
