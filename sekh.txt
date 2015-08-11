@@ -13,7 +13,11 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/sekh.git'}],
  'status': 'unofficial'}
 $ pmaint sync sekh
+WARNING:pkgcore:repository at location '/home/mgorny/repos/jkolo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/jkolo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing sekh
 *** synced sekh
@@ -21,7 +25,8 @@ Already up-to-date.
 $ pmaint regen -t 2 sekh
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sys-devel/gcc-4.7_p201304 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
- * Cache regenerated successfully
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 31129, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246
