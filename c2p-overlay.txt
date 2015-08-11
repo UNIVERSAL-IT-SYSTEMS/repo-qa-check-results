@@ -14,7 +14,14 @@
  'status': 'unofficial'}
 $ pmaint sync c2p-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/karolgrudzinski/c2p-overlay
+   a8d81ce..65f051b  master     -> origin/master
+Updating a8d81ce..65f051b
+Fast-forward
+ www-client/firefox/Manifest            |  89 ++++++++
+ www-client/firefox/firefox-40.0.ebuild | 403 +++++++++++++++++++++++++++++++++
+ 2 files changed, 492 insertions(+)
+ create mode 100644 www-client/firefox/firefox-40.0.ebuild
 *** syncing c2p-overlay
 *** synced c2p-overlay
  * Sync succeeded
