@@ -20,8 +20,37 @@ Already up-to-date.
 $ pmaint regen -t 2 lordvan
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 30883, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+
+!!! ERROR: app-misc/labyrinth-0.4.0 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '187' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+ * 
+ * "/home/mgorny/repos/lordvan/media-video/openshot/openshot-1.2.2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lordvan/app-misc/labyrinth/labyrinth-0.4.0.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lordvan/app-misc/labyrinth/labyrinth-0.4.0.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lordvan/app-misc/labyrinth/labyrinth-0.4.0.ebuild'
+!!!         labyrinth-0.4.0.ebuild, line   5:  Called inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+ * 
+ * "/home/mgorny/repos/lordvan/media-video/openshot/openshot-1.4.1.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/labyrinth-0.4.0
+ * Cache regenerated successfully
