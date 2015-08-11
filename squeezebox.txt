@@ -14,33 +14,13 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/squeezebox.git'}],
  'status': 'unofficial'}
 $ pmaint sync squeezebox
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/user/squeezebox
-   cf79539..f9e5d1a  master     -> origin/master
-Updating cf79539..f9e5d1a
-Fast-forward
- .gitignore                                         |   3 +-
- media-sound/squeezelite/Manifest                   |   7 +-
- .../files/squeezelite-1.8-gentoo-makefile.patch    |  21 ++++
- .../squeezelite-1.8-gentoo-optional-codecs.patch   | 126 +++++++++++++++++++++
- media-sound/squeezelite/files/squeezelite.conf.d   |   3 +-
- media-sound/squeezelite/files/squeezelite.init.d   |   8 +-
- media-sound/squeezelite/squeezelite-1.8.ebuild     | 112 ++++++++++++++++++
- 7 files changed, 271 insertions(+), 9 deletions(-)
- create mode 100644 media-sound/squeezelite/files/squeezelite-1.8-gentoo-makefile.patch
- create mode 100644 media-sound/squeezelite/files/squeezelite-1.8-gentoo-optional-codecs.patch
- create mode 100644 media-sound/squeezelite/squeezelite-1.8.ebuild
+Already up-to-date.
 *** syncing squeezebox
 *** synced squeezebox
  * Sync succeeded
 $ pmaint regen -t 2 squeezebox
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 12680, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+ * Cache regenerated successfully

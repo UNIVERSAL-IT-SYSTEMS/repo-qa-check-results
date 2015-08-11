@@ -15,9 +15,15 @@
              'uri': 'https://github.com/mrueg/mrueg-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync mrueg
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/mrueg
+   1d3f827..403b02b  master     -> origin/master
+Updating 1d3f827..403b02b
+Fast-forward
+ media-plugins/mopidy-mpris/Manifest                                     | 2 +-
+ .../{mopidy-mpris-1.2.0.ebuild => mopidy-mpris-1.3.0.ebuild}            | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename media-plugins/mopidy-mpris/{mopidy-mpris-1.2.0.ebuild => mopidy-mpris-1.3.0.ebuild} (100%)
 *** syncing mrueg
 *** synced mrueg
  * Sync succeeded

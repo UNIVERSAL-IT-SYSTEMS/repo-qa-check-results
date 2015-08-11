@@ -12,9 +12,7 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/flameeyes.git'}],
  'status': 'unofficial'}
 $ pmaint sync flameeyes-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing flameeyes-overlay
 *** synced flameeyes-overlay
@@ -39,6 +37,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
-Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-ruby/ruby-hunspell-9999-r1
  * Cache regenerated successfully

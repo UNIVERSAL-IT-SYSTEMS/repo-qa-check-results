@@ -8,11 +8,25 @@
              'uri': 'git://github.com/Sabayon/sabayon-distro.git'}],
  'status': 'unofficial'}
 $ pmaint sync sabayon-distro
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Sabayon/sabayon-distro
+   a0b3ad8..521ca00  master     -> origin/master
+Updating a0b3ad8..521ca00
+Fast-forward
+ sys-kernel/ec2-sources/Manifest                    |  1 +
+ sys-kernel/ec2-sources/ec2-sources-3.14.50.ebuild  | 21 +++++++++++++++++++++
+ sys-kernel/linux-ec2/Manifest                      |  1 +
+ sys-kernel/linux-ec2/linux-ec2-3.14.50.ebuild      | 16 ++++++++++++++++
+ sys-kernel/linux-sabayon/Manifest                  |  1 +
+ .../linux-sabayon/linux-sabayon-3.14.50.ebuild     | 21 +++++++++++++++++++++
+ sys-kernel/sabayon-sources/Manifest                |  1 +
+ .../sabayon-sources/sabayon-sources-3.14.50.ebuild | 22 ++++++++++++++++++++++
+ 8 files changed, 84 insertions(+)
+ create mode 100644 sys-kernel/ec2-sources/ec2-sources-3.14.50.ebuild
+ create mode 100644 sys-kernel/linux-ec2/linux-ec2-3.14.50.ebuild
+ create mode 100644 sys-kernel/linux-sabayon/linux-sabayon-3.14.50.ebuild
+ create mode 100644 sys-kernel/sabayon-sources/sabayon-sources-3.14.50.ebuild
 *** syncing sabayon-distro
 *** synced sabayon-distro
  * Sync succeeded
@@ -40,37 +54,37 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-devel/base-gcc-4.7.3-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/base-gcc-4.7.4 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/base-gcc-4.8.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.7.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/base-gcc-4.8.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/base-gcc-4.7.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/base-gcc-4.8.4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by sys-devel/base-gcc-4.9.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.9.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.7.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.7.3-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.7.4 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.7.3-r1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/base-gcc-4.7.3 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/base-gcc-4.7.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.9.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.8.3 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.7.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-kernel/linux-sabayon-3.11.10 during metadata regeneration.
