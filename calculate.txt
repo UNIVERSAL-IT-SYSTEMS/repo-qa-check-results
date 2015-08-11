@@ -12,8 +12,17 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://git.calculate.ru/calculate/overlay
-   de2d629..34a0b60  develop    -> origin/develop
-Already up-to-date.
+   d0b98f6..34a0b60  master     -> origin/master
+   d0b98f6..34a0b60  update     -> origin/update
+Updating d0b98f6..34a0b60
+Fast-forward
+ .../x11-drivers/ati-drivers/kernel3.18.20_15.7.patch  | 19 +++++++++++++++++++
+ sys-kernel/calculate-sources/Manifest                 |  4 ++--
+ ....14.49.ebuild => calculate-sources-3.14.50.ebuild} |  0
+ ...es-4.1.4.ebuild => calculate-sources-4.1.5.ebuild} |  0
+ 4 files changed, 21 insertions(+), 2 deletions(-)
+ rename sys-kernel/calculate-sources/{calculate-sources-3.14.49.ebuild => calculate-sources-3.14.50.ebuild} (100%)
+ rename sys-kernel/calculate-sources/{calculate-sources-4.1.4.ebuild => calculate-sources-4.1.5.ebuild} (100%)
 *** syncing calculate
 *** synced calculate
  * Sync succeeded

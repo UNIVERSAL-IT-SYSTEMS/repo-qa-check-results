@@ -16,7 +16,20 @@
 $ pmaint sync heather
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Heather/gentoo-heather
+   b54f763..4ccf4a0  master     -> origin/master
+Updating b54f763..4ccf4a0
+Fast-forward
+ app-editors/atom/atom-1.0.2.ebuild                 | 92 ----------------------
+ app-editors/atom/atom-9999.ebuild                  | 91 ---------------------
+ app-editors/atom/files/atom-python.patch           | 10 ---
+ app-editors/visual-studio-code/metadata.xml        |  7 ++
+ .../visual-studio-code-0.3.0.ebuild                |  6 +-
+ 5 files changed, 10 insertions(+), 196 deletions(-)
+ delete mode 100644 app-editors/atom/atom-1.0.2.ebuild
+ delete mode 100644 app-editors/atom/atom-9999.ebuild
+ delete mode 100644 app-editors/atom/files/atom-python.patch
+ create mode 100644 app-editors/visual-studio-code/metadata.xml
 *** syncing heather
 *** synced heather
  * Sync succeeded
