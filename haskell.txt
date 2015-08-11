@@ -13,7 +13,14 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   a671214..0e547ab  master     -> origin/master
+Updating a671214..0e547ab
+Fast-forward
+ dev-haskell/unixutils/Manifest                                          | 2 +-
+ .../unixutils/{unixutils-1.53.ebuild => unixutils-1.54.1.ebuild}        | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ rename dev-haskell/unixutils/{unixutils-1.53.ebuild => unixutils-1.54.1.ebuild} (94%)
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
