@@ -10,15 +10,24 @@
              'uri': 'git://github.com/hasufell/games-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync games-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hasufell/games-overlay
+   6ebb8be..5d8314d  master     -> origin/master
+Updating 6ebb8be..5d8314d
+Fast-forward
+ games-strategy/openra/Manifest                  |  1 -
+ games-strategy/openra/metadata.xml              |  4 --
+ games-strategy/openra/openra-20141029.ebuild    | 85 -------------------------
+ games-strategy/openra/openra-20150424-r1.ebuild |  6 +-
+ 4 files changed, 3 insertions(+), 93 deletions(-)
+ delete mode 100644 games-strategy/openra/openra-20141029.ebuild
 *** syncing games-overlay
 *** synced games-overlay
  * Sync succeeded
 $ pmaint regen -t 2 games-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

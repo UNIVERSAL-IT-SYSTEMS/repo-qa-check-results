@@ -7,7 +7,9 @@
              'uri': 'rsync://rsync.gentoo.stealer.net/swegener-overlay/'}],
  'status': 'official'}
 $ pmaint sync swegener
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Welcome To
         ____ _____ _____    _    _     _____ ____               _
@@ -36,21 +38,19 @@ Total file size: 1.22M bytes
 Total transferred file size: 1.05K bytes
 Literal data: 1.05K bytes
 Matched data: 0 bytes
-File list size: 25.38K
+File list size: 25.43K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 255
+Total bytes sent: 267
 Total bytes received: 26.27K
 
-sent 255 bytes  received 26.27K bytes  10.61K bytes/sec
-total size is 1.22M  speedup is 46.10
+sent 267 bytes  received 26.27K bytes  5.90K bytes/sec
+total size is 1.22M  speedup is 46.07
 *** syncing swegener
 *** synced swegener
  * Sync succeeded
 $ pmaint regen -t 2 swegener
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: gnome-extra/brightside-1.4.0 failed.

@@ -14,15 +14,15 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/write2David.git'}],
  'status': 'unofficial'}
 $ pmaint sync write2David
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing write2David
 *** synced write2David
  * Sync succeeded
 $ pmaint regen -t 2 write2David
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by app-editors/komodo-edit-bin-6.1.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.

@@ -13,74 +13,319 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/mysql.git'}],
  'status': 'official'}
 $ pmaint sync mysql
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+From git://anongit.gentoo.org/proj/mysql
+   4c64013..1f75e05  master     -> origin/master
+Updating 4c64013..1f75e05
+Fast-forward
+ dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild        | 2 +-
+ dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild           | 2 +-
+ dev-db/mariadb-connector-c/mariadb-connector-c-9999.ebuild            | 2 +-
+ dev-db/mariadb-galera/files/my.cnf-5.5                                | 2 +-
+ dev-db/mariadb-galera/files/my.cnf-5.6                                | 2 +-
+ dev-db/mariadb-galera/mariadb-galera-10.0.20-r1.ebuild                | 2 +-
+ dev-db/mariadb-galera/mariadb-galera-10.0.20.ebuild                   | 2 +-
+ dev-db/mariadb/ChangeLog                                              | 2 +-
+ dev-db/mariadb/files/my.cnf-5.1                                       | 2 +-
+ dev-db/mariadb/files/my.cnf-5.5                                       | 2 +-
+ dev-db/mariadb/files/my.cnf-5.6                                       | 2 +-
+ dev-db/mariadb/mariadb-10.0.19.ebuild                                 | 2 +-
+ dev-db/mariadb/mariadb-10.0.21-r1.ebuild                              | 2 +-
+ dev-db/mariadb/mariadb-10.0.21.ebuild                                 | 2 +-
+ dev-db/mariadb/mariadb-10.1.5_beta.ebuild                             | 2 +-
+ dev-db/mariadb/mariadb-10.1.6_beta.ebuild                             | 2 +-
+ dev-db/mariadb/mariadb-5.1.67.ebuild                                  | 2 +-
+ dev-db/mariadb/mariadb-5.2.14.ebuild                                  | 2 +-
+ dev-db/mariadb/mariadb-5.3.12.ebuild                                  | 2 +-
+ dev-db/mariadb/mariadb-5.5.45.ebuild                                  | 2 +-
+ dev-db/mariadb/mariadb-9999.ebuild                                    | 2 +-
+ dev-db/myodbc/ChangeLog                                               | 2 +-
+ dev-db/myodbc/files/odbc.ini.m4                                       | 2 +-
+ dev-db/myodbc/files/odbcinst.ini.m4                                   | 2 +-
+ dev-db/myodbc/myodbc-5.2.7-r1.ebuild                                  | 2 +-
+ dev-db/myodbc/myodbc-5.2.7-r2.ebuild                                  | 2 +-
+ dev-db/myodbc/myodbc-5.3.4.ebuild                                     | 2 +-
+ dev-db/mysql-cluster/ChangeLog                                        | 2 +-
+ dev-db/mysql-cluster/files/my.cnf-5.5                                 | 2 +-
+ dev-db/mysql-cluster/files/my.cnf-5.6                                 | 2 +-
+ dev-db/mysql-cluster/mysql-cluster-7.2.20.ebuild                      | 2 +-
+ dev-db/mysql-cluster/mysql-cluster-7.3.9.ebuild                       | 2 +-
+ dev-db/mysql-connector-c/mysql-connector-c-6.1.5.ebuild               | 2 +-
+ dev-db/mysql-connector-c/mysql-connector-c-6.1.6.ebuild               | 2 +-
+ dev-db/mysql-init-scripts/ChangeLog                                   | 2 +-
+ dev-db/mysql-init-scripts/files/conf.d-2.0                            | 2 +-
+ dev-db/mysql-init-scripts/files/init.d-2.0                            | 2 +-
+ dev-db/mysql-init-scripts/files/init.d-s6                             | 2 +-
+ dev-db/mysql-init-scripts/files/log-s6                                | 2 +-
+ dev-db/mysql-init-scripts/files/logrotate.mysql                       | 2 +-
+ dev-db/mysql-init-scripts/files/mysql-5.1.53-conf.d                   | 2 +-
+ dev-db/mysql-init-scripts/files/mysql-5.1.53-init.d                   | 2 +-
+ dev-db/mysql-init-scripts/files/mysql-5.1.67-init.d                   | 2 +-
+ dev-db/mysql-init-scripts/files/mysql.rc6                             | 2 +-
+ dev-db/mysql-init-scripts/files/mysqlmanager.rc6                      | 2 +-
+ dev-db/mysql-init-scripts/files/run-s6                                | 2 +-
+ dev-db/mysql-init-scripts/mysql-init-scripts-1.2.ebuild               | 2 +-
+ dev-db/mysql-init-scripts/mysql-init-scripts-2.0.ebuild               | 2 +-
+ dev-db/mysql-init-scripts/mysql-init-scripts-2.0_pre1.ebuild          | 2 +-
+ dev-db/mysql-init-scripts/mysql-init-scripts-2.1_alpha4.ebuild        | 2 +-
+ dev-db/mysql-utilities/mysql-utilities-1.5.4.ebuild                   | 2 +-
+ dev-db/mysql/ChangeLog                                                | 2 +-
+ dev-db/mysql/files/my.cnf                                             | 2 +-
+ dev-db/mysql/files/my.cnf-4.0                                         | 2 +-
+ dev-db/mysql/files/my.cnf-4.1                                         | 2 +-
+ dev-db/mysql/files/my.cnf-5.1                                         | 2 +-
+ dev-db/mysql/files/my.cnf-5.5                                         | 2 +-
+ dev-db/mysql/files/my.cnf-5.6                                         | 2 +-
+ dev-db/mysql/files/mysql.init                                         | 2 +-
+ dev-db/mysql/mysql-4.0.27-r1.ebuild                                   | 2 +-
+ dev-db/mysql/mysql-4.1.22-r1.ebuild                                   | 2 +-
+ dev-db/mysql/mysql-5.0.96.ebuild                                      | 2 +-
+ dev-db/mysql/mysql-5.1.73-r1.ebuild                                   | 2 +-
+ dev-db/mysql/mysql-5.5.44.ebuild                                      | 2 +-
+ dev-db/mysql/mysql-5.5.45.ebuild                                      | 2 +-
+ dev-db/mysql/mysql-5.6.24.ebuild                                      | 2 +-
+ dev-db/mysql/mysql-5.6.25.ebuild                                      | 2 +-
+ dev-db/mysql/mysql-5.6.26-r1.ebuild                                   | 2 +-
+ dev-db/mysql/mysql-5.6.26.ebuild                                      | 2 +-
+ dev-db/mysql/mysql-5.7.6_alpha_pre16.ebuild                           | 2 +-
+ dev-db/mysql/mysql-5.7.7_rc.ebuild                                    | 2 +-
+ dev-db/percona-server/files/my.cnf-5.6                                | 2 +-
+ dev-db/percona-server/percona-server-5.6.25.73.0-r1.ebuild            | 2 +-
+ dev-db/percona-server/percona-server-5.6.25.73.0.ebuild               | 2 +-
+ dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild         | 2 +-
+ dev-java/mariadb-java-client/mariadb-java-client-9999.ebuild          | 2 +-
+ dev-python/mysql-connector-python/mysql-connector-python-2.0.2.ebuild | 2 +-
+ eclass/mysql-autotools.eclass                                         | 2 +-
+ eclass/mysql-cmake.eclass                                             | 2 +-
+ eclass/mysql-multilib.eclass                                          | 2 +-
+ eclass/mysql-v2.eclass                                                | 2 +-
+ eclass/mysql.eclass                                                   | 2 +-
+ eclass/mysql_fx.eclass                                                | 2 +-
+ metadata/news/ChangeLog                                               | 2 +-
+ profiles/package.use.mask                                             | 2 +-
+ sys-cluster/galera/galera-23.2.7.ebuild                               | 2 +-
+ sys-cluster/galera/galera-25.3.5.ebuild                               | 2 +-
+ sys-cluster/galera/galera-25.3.7.ebuild                               | 2 +-
+ virtual/libmysqlclient/libmysqlclient-18.ebuild                       | 2 +-
+ virtual/libmysqlclient/libmysqlclient-20.ebuild                       | 2 +-
+ virtual/mysql/ChangeLog                                               | 2 +-
+ virtual/mysql/mysql-4.0.ebuild                                        | 2 +-
+ virtual/mysql/mysql-4.1.ebuild                                        | 2 +-
+ virtual/mysql/mysql-5.0.ebuild                                        | 2 +-
+ virtual/mysql/mysql-5.1.ebuild                                        | 2 +-
+ virtual/mysql/mysql-5.2.ebuild                                        | 2 +-
+ virtual/mysql/mysql-5.3.ebuild                                        | 2 +-
+ virtual/mysql/mysql-5.5-r1.ebuild                                     | 2 +-
+ virtual/mysql/mysql-5.6-r2.ebuild                                     | 2 +-
+ virtual/mysql/mysql-5.6-r3.ebuild                                     | 2 +-
+ virtual/mysql/mysql-5.6-r4.ebuild                                     | 2 +-
+ virtual/mysql/mysql-5.7-r1.ebuild                                     | 2 +-
+ virtual/mysql/mysql-9999.ebuild                                       | 2 +-
+ 103 files changed, 103 insertions(+), 103 deletions(-)
 *** syncing mysql
 *** synced mysql
  * Sync succeeded
 $ pmaint regen -t 2 mysql
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 /home/mgorny/pkgcore-venv/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
 
 !!! ERROR: dev-db/mariadb-connector-c-2.0.0-r1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                    ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                    ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                    ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '242' 'depend'
 /home/mgorny/pkgcore-venv/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
-!!!                    ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-
-!!! ERROR: dev-java/mariadb-java-client-1.1.7 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 /home/mgorny/pkgcore-venv/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
-!!!                 ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                            ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
 
 !!! ERROR: dev-db/mariadb-connector-c-2.1.0 failed.
-!!!                 ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+
+!!! ERROR: dev-java/mariadb-java-client-1.1.7 failed.
+!!!                    ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                            ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                    ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                    ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '242' 'depend'
 !!!                 ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                 ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '237' 'depend'
-!!!                 ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                 ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                    ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!                 ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
+!!!                 ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                            ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
 !!!                 ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '233' 'depend'
-!!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
-!!!                 ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                            ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
+!!!                 ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '237' 'depend'
+!!!                isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
 !!!   mariadb-connector-c-2.0.0-r1.ebuild, line  23:  Called inherit 'cmake-multilib' 'eutils' ''
-!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
-!!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
+!!!                 ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                 ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
-!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
+!!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
+!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!                     ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for  failed
 
+
+!!! ERROR: dev-db/mariadb-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
-Sandboxed process killed by signal: Broken pipe
+!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!   mariadb-java-client-1.1.7.ebuild, line  23:  Called inherit 'java-pkg-2' 'java-ant-2' ''
 !!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '162' 'depend'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
+!!!                  ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for  failed
+
+
+!!! ERROR: dev-db/myodbc-5.2.7-r2 failed.
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb/mariadb-9999.ebuild'
 !!!   mariadb-connector-c-2.1.0.ebuild, line  23:  Called inherit 'cmake-multilib' 'eutils' ''
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb/mariadb-9999.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb/mariadb-9999.ebuild'
 !!!                  ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for  failed
 
-Sandboxed process killed by signal: Broken pipe
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
-!!!                  ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for  failed
 
-Sandboxed process killed by signal: Broken pipe
+!!! ERROR: dev-db/myodbc-5.2.7-r1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!            mariadb-9999.ebuild, line  10:  Called inherit 'toolchain-funcs' 'mysql-multilib' 'git-r3'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '175' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'toolchain-funcs'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/myodbc/myodbc-5.2.7-r2.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/myodbc/myodbc-5.2.7-r2.ebuild'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 203' for eclass toolchain-funcs
+
+received unknown com: export CATEGORY='dev-db' PR=r0 PVR='7.3.9' PV='7.3.9' EBUILD='/home/mgorny/repos/mysql/dev-db/mysql-cluster/mysql-cluster-7.3.9.ebuild' P='mysql-cluster-7.3.9' PF='mysql-cluster-7.3.9' PN='mysql-cluster'path
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '175' 'depend'
+Exception in thread Thread-4:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-db/myodbc/myodbc-5.2.7-r2.ebuild'
+!!!         myodbc-5.2.7-r2.ebuild, line   6:  Called inherit 'cmake-multilib' 'eutils' 'flag-o-matic' 'versionator'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-multilib'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 223' for eclass cmake-multilib
+
+received unknown com: export CATEGORY='dev-db' PR=r0 PVR='6.1.5' PV='6.1.5' EBUILD='/home/mgorny/repos/mysql/dev-db/mysql-connector-c/mysql-connector-c-6.1.5.ebuild' P='mysql-connector-c-6.1.5' PF='mysql-connector-c-6.1.5' PN='mysql-connector-c'path
+Exception in thread Thread-16:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/myodbc/myodbc-5.2.7-r1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/myodbc/myodbc-5.2.7-r1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-db/myodbc/myodbc-5.2.7-r1.ebuild'
+!!!         myodbc-5.2.7-r1.ebuild, line   6:  Called inherit 'cmake-multilib' 'eutils' 'flag-o-matic' 'versionator'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-multilib'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 218' for eclass cmake-multilib
+
+received unknown com: export CATEGORY='dev-db' PR=r0 PVR='2.0' PV='2.0' EBUILD='/home/mgorny/repos/mysql/dev-db/mysql-init-scripts/mysql-init-scripts-2.0.ebuild' P='mysql-init-scripts-2.0' PF='mysql-init-scripts-2.0' PN='mysql-init-scripts'path
+Exception in thread Thread-8:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
 !!! caught exception inherit requires an eclass specified, none specified while processing ebuild src: dev-db/mariadb-connector-c-2.0.0-r1
-!!! caught exception inherit requires an eclass specified, none specified while processing ebuild src: dev-java/mariadb-java-client-1.1.7
 !!! caught exception inherit requires an eclass specified, none specified while processing ebuild src: dev-db/mariadb-connector-c-2.1.0
- * Cache regenerated successfully
+!!! caught exception inherit requires an eclass specified, none specified while processing ebuild src: dev-java/mariadb-java-client-1.1.7
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-db/mariadb-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-db/myodbc-5.2.7-r2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-db/myodbc-5.2.7-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-db/mysql-cluster-7.3.9
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-db/mysql-5.1.73-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-db/mysql-connector-c-6.1.5
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-db/mysql-init-scripts-2.0
+Error running an operation:
+ Unhandled exception in regen_cache
+ * Cache regen failed with 246

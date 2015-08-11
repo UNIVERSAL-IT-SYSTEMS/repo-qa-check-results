@@ -7,11 +7,14 @@
              'uri': 'rsync://gentoo.zugaina.org/zugaina-portage'}],
  'status': 'unofficial'}
 $ pmaint sync zugaina
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named 'xelnor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 
 receiving incremental file list
+metadata/md5-cache/
 metadata/md5-cache/app-admin/
 metadata/md5-cache/app-admin/blockhosts-2.5.1
 metadata/md5-cache/app-crypt/
@@ -716,149 +719,149 @@ metadata/md5-cache/x11-misc/
 metadata/md5-cache/x11-misc/darimasen-svn-0.1
 metadata/md5-cache/x11-misc/grsync-1.0.0
 profiles/
+profiles/repo_name
+deleting metadata/md5-cache/net-www/awstats-6.8
+deleting metadata/md5-cache/net-www/
 deleting metadata/md5-cache/sys-apps/mindi-2.1.7
 deleting metadata/md5-cache/sys-apps/mindi-2.0.7.5
 deleting metadata/md5-cache/sys-apps/mindi-2.0.7
 deleting metadata/md5-cache/sys-apps/mindi-2.0.6
 deleting metadata/md5-cache/sys-apps/mindi-2.0.5
-deleting profiles/repo_name
 
-Number of files: 3,428 (reg: 2,829, dir: 599)
-Number of created files: 90 (reg: 90)
-Number of regular files transferred: 641
+Number of files: 3,429 (reg: 2,830, dir: 599)
+Number of created files: 86 (reg: 86)
+Number of regular files transferred: 642
 Total file size: 8.75M bytes
-Total transferred file size: 661.84K bytes
-Literal data: 661.84K bytes
+Total transferred file size: 661.85K bytes
+Literal data: 661.85K bytes
 Matched data: 0 bytes
-File list size: 69.01K
+File list size: 79.13K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 13.05K
-Total bytes received: 474.24K
+Total bytes sent: 13.07K
+Total bytes received: 474.36K
 
-sent 13.05K bytes  received 474.24K bytes  108.28K bytes/sec
-total size is 8.75M  speedup is 17.97
+sent 13.07K bytes  received 474.36K bytes  64.99K bytes/sec
+total size is 8.75M  speedup is 17.96
 *** syncing zugaina
 *** synced zugaina
  * Sync succeeded
 $ pmaint regen -t 2 zugaina
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
-!!! ERROR: x11-libs/goffice-0.7.17 failed.
+!!! ERROR: x11-libs/goffice-0.7.2 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: x11-libs/goffice-0.7.17 failed.
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 
 !!! ERROR: x11-libs/goffice-0.7.8 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-
-!!! ERROR: x11-libs/goffice-0.7.2 failed.
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '182' 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.17.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '182' 'depend'
+
+!!! ERROR: x11-libs/libchroma-0.1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.2.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.8.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: x11-libs/goffice-0.8.0 failed.
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.8.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.17.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.8.ebuild'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.8.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.2.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.2.ebuild'
+!!!           goffice-0.7.2.ebuild, line   5:  Called inherit 'eutils' 'gnome2' 'flag-o-matic'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: x11-libs/goffice-0.8.8 failed.
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.17.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.8.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.2.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.17.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.17.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!           goffice-0.7.8.ebuild, line   5:  Called inherit 'eutils' 'gnome2' 'flag-o-matic'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.17.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-libs/libchroma/libchroma-0.1.ebuild'
 !!!          goffice-0.7.17.ebuild, line   5:  Called inherit 'eutils' 'gnome2' 'flag-o-matic'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.2.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.7.2.ebuild'
-
-!!! ERROR: x11-libs/libchroma-0.1 failed.
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!           goffice-0.7.2.ebuild, line   5:  Called inherit 'eutils' 'gnome2' 'flag-o-matic'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.8.0.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!                  gnome2.eclass, line  19:  Called die
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.8.0.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.8.8.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-libs/libchroma/libchroma-0.1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.8.0.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/x11-libs/libchroma/libchroma-0.1.ebuild'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.8.0.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!           libchroma-0.1.ebuild, line   6:  Called inherit 'gnome2' 'autotools'
+!!!           goffice-0.8.0.ebuild, line   5:  Called inherit 'eutils' 'gnome2' 'flag-o-matic'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.8.8.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.8.8.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!           goffice-0.8.0.ebuild, line   5:  Called inherit 'eutils' 'gnome2' 'flag-o-matic'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-libs/libchroma/libchroma-0.1.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/x11-libs/goffice/goffice-0.8.8.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-libs/libchroma/libchroma-0.1.ebuild'
-!!!           goffice-0.8.8.ebuild, line   8:  Called inherit 'eutils' 'gnome2' 'flag-o-matic'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/x11-libs/libchroma/libchroma-0.1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!           libchroma-0.1.ebuild, line   6:  Called inherit 'gnome2' 'autotools'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI= is not supported
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!           goffice-0.8.8.ebuild, line   8:  Called inherit 'eutils' 'gnome2' 'flag-o-matic'
+!!!  EAPI= is not supported
+
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
-
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
 
 
 !!! ERROR: x11-misc/grsync-1.0.0 failed.
@@ -870,288 +873,257 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/x11-misc/grsync/grsync-1.0.0.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/x11-misc/grsync/grsync-1.0.0.ebuild'
-
-!!! ERROR: media-gfx/f-spot-0.0.12 failed.
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/x11-misc/grsync/grsync-1.0.0.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+
+!!! ERROR: media-gfx/f-spot-0.0.13 failed.
 !!!            grsync-1.0.0.ebuild, line   5:  Called inherit 'gnome2'
 
-!!! ERROR: media-gfx/f-spot-0.0.13-r1 failed.
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!! ERROR: media-gfx/f-spot-0.0.12 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+
+!!! ERROR: media-gfx/f-spot-0.1.0 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: media-gfx/f-spot-0.0.13-r1 failed.
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '181' 'depend'
+!!!  EAPI= is not supported
+
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '181' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '176' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '190' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.12.ebuild'
 
 !!! ERROR: media-gfx/f-spot-0.1.0-r1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '181' 'depend'
-
-!!! ERROR: media-gfx/f-spot-0.1.0 failed.
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '190' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.12.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.13-r1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.12.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '176' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.13-r1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.12.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.0-r1.ebuild'
-!!!           f-spot-0.0.12.ebuild, line   6:  Called inherit 'eutils' 'mono' 'gnome2'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.13-r1.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.0.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.0-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!        f-spot-0.0.13-r1.ebuild, line   6:  Called inherit 'eutils' 'mono' 'gnome2'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.0.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.0-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.0.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         f-spot-0.1.0-r1.ebuild, line   6:  Called inherit 'eutils' 'mono' 'gnome2'
-
-!!! ERROR: media-gfx/f-spot-0.1.1 failed.
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!            f-spot-0.1.0.ebuild, line   6:  Called inherit 'eutils' 'mono' 'gnome2'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-
-!!! ERROR: media-gfx/f-spot-0.0.13 failed.
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-
-!!! ERROR: media-gfx/f-spot-0.1.11 failed.
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '176' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '181' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.1.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '181' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.1.ebuild'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.13.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.12.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.13-r1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.0.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: media-gfx/f-spot-0.1.1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.13.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.11.ebuild'
-!!!            f-spot-0.1.1.ebuild, line   6:  Called inherit 'eutils' 'mono' 'gnome2'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.11.ebuild'
+!!! Call stack:
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.12.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.0.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.13-r1.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.13.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.11.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: media-gfx/f-spot-0.1.11 failed.
+!!!           f-spot-0.0.12.ebuild, line   6:  Called inherit 'eutils' 'mono' 'gnome2'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.0.13-r1.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
+!!!            f-spot-0.1.0.ebuild, line   6:  Called inherit 'eutils' 'mono' 'gnome2'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!           f-spot-0.0.13.ebuild, line   6:  Called inherit 'eutils' 'mono' 'gnome2'
-!!!           f-spot-0.1.11.ebuild, line   7:  Called inherit 'gnome2' 'mono' 'eutils'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-
-!!! ERROR: net-news/feed2imap-0.9.3 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '187' 'depend'
+!!!        f-spot-0.0.13-r1.ebuild, line   6:  Called inherit 'eutils' 'mono' 'gnome2'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.9.3.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.9.3.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.9.3.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '176' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.0-r1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '181' 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.0-r1.ebuild'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
 
-!!! ERROR: net-news/feed2imap-0.9.4 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.1.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.0-r1.ebuild'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.1.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.11.ebuild'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!         f-spot-0.1.0-r1.ebuild, line   6:  Called inherit 'eutils' 'mono' 'gnome2'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.11.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!            f-spot-0.1.1.ebuild, line   6:  Called inherit 'eutils' 'mono' 'gnome2'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-gfx/f-spot/f-spot-0.1.11.ebuild'
+!!!           f-spot-0.1.11.ebuild, line   7:  Called inherit 'gnome2' 'mono' 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
 
 !!! ERROR: net-news/feed2imap-0.7 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         feed2imap-0.9.3.ebuild, line  11:  Called inherit 'ruby'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.7.ebuild'
+
+!!! ERROR: net-news/feed2imap-9999 failed.
+
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! ERROR: net-news/feed2imap-0.9.3 failed.
+!!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.7.ebuild'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.7.ebuild'
+
+!!! ERROR: net-news/feed2imap-0.9.4 failed.
+!!!           feed2imap-0.7.ebuild, line  10:  Called inherit 'ruby'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'ruby'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '178' 'depend'
 !!!              ebuild-daemon.lib, line  35:  Called die
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!! The die message:
 !!!  inherit for ruby failed
 
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '187' 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-9999.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '187' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.9.3.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-9999.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.9.3.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.9.4.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-9999.ebuild'
 
-!!! ERROR: net-news/feed2imap-9999 failed.
+!!! ERROR: games-strategy/bos-2.0 failed.
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.9.3.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.9.4.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.7.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.9.4.ebuild'
+!!!          feed2imap-9999.ebuild, line  12:  Called inherit 'git' 'ruby'
+!!!         feed2imap-0.9.3.ebuild, line  11:  Called inherit 'ruby'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.9.4.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'ruby'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!         feed2imap-0.9.4.ebuild, line  11:  Called inherit 'ruby'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for ruby failed
+
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '159' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'ruby'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for ruby failed
+
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-strategy/bos/bos-2.0.ebuild'
+
+!!! ERROR: app-misc/domogik-0.2.0_alpha1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-strategy/bos/bos-2.0.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: media-tv/xmltv-0.5.54 failed.
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.7.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.9.4.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '178' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-0.7.ebuild'
-!!!         feed2imap-0.9.4.ebuild, line  11:  Called inherit 'ruby'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!           feed2imap-0.7.ebuild, line  10:  Called inherit 'ruby'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'ruby'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-9999.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for ruby failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'ruby'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for ruby failed
-
-
-!!! ERROR: app-misc/domogik-0.2.0 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-9999.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '172' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-news/feed2imap/feed2imap-9999.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!          feed2imap-9999.ebuild, line  12:  Called inherit 'git' 'ruby'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-tv/xmltv/xmltv-0.5.54.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-tv/xmltv/xmltv-0.5.54.ebuild'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 177' for eclass git
-
 
 !!! ERROR: media-tv/xmltv-0.5.56 failed.
-received unknown com: export CATEGORY='app-misc' PR=r0 PVR='0.2.1' PV='0.2.1' EBUILD='/home/mgorny/repos/zugaina/app-misc/domoweb/domoweb-0.2.1.ebuild' P='domoweb-0.2.1' PF='domoweb-0.2.1' PN=domowebfailed
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-strategy/bos/bos-2.0.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-tv/xmltv/xmltv-0.5.54.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-Exception in thread Thread-8:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!            xmltv-0.5.54.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/app-misc/domogik/domogik-0.2.0.ebuild'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/app-misc/domogik/domogik-0.2.0.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '172' 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/app-misc/domogik/domogik-0.2.0.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                 bos-2.0.ebuild, line   6:  Called inherit 'eutils' 'games'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '212' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'games'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!           domogik-0.2.0.ebuild, line  11:  Called inherit 'distutils-r1' 'python-r1' 'eutils'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-tv/xmltv/xmltv-0.5.56.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 162' for eclass distutils-r1
+!!!  unknown inherit command from pythonic side, 'gen_metadata 168' for eclass games
 
-received unknown com: export CATEGORY='app-misc' PR=r0 PVR='0.3' PV='0.3' EBUILD='/home/mgorny/repos/zugaina/app-misc/gcstar/gcstar-0.3.ebuild' P='gcstar-0.3' PF='gcstar-0.3' PN=gcstarpath
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-tv/xmltv/xmltv-0.5.56.ebuild'
+received unknown com: export CATEGORY='app-misc' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/zugaina/app-misc/domogik/domogik-9999.ebuild' P='domogik-9999' PF='domogik-9999' PN=domogikpath
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '172' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/app-misc/domogik/domogik-0.2.0_alpha1.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '172' 'depend'
 Exception in thread Thread-14:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -1176,15 +1148,86 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/app-misc/domogik/domogik-0.2.0_alpha1.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-tv/xmltv/xmltv-0.5.54.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/app-misc/domogik/domogik-0.2.0_alpha1.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-tv/xmltv/xmltv-0.5.56.ebuild'
+!!!    domogik-0.2.0_alpha1.ebuild, line  11:  Called inherit 'distutils-r1' 'python-r1' 'eutils'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-tv/xmltv/xmltv-0.5.54.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-tv/xmltv/xmltv-0.5.56.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-tv/xmltv/xmltv-0.5.54.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-tv/xmltv/xmltv-0.5.56.ebuild'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 172' for eclass distutils-r1
+
+!!!            xmltv-0.5.54.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
+received unknown com: export CATEGORY='app-misc' PR=r0 PVR='0.5.0' PV='0.5.0' EBUILD='/home/mgorny/repos/zugaina/app-misc/gcstar/gcstar-0.5.0.ebuild' P='gcstar-0.5.0' PF='gcstar-0.5.0' PN=gcstarpath
 !!!            xmltv-0.5.56.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+Exception in thread Thread-5:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 162' for eclass perl-module
+
+received unknown com: export CATEGORY='app-misc' PR=r0 PVR='0.2' PV='0.2' EBUILD='/home/mgorny/repos/zugaina/app-misc/gcstar/gcstar-0.2.ebuild' P='gcstar-0.2' PF='gcstar-0.2' PN=gcstarpath
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 172' for eclass perl-module
+!!!  unknown inherit command from pythonic side, 'gen_metadata 162' for eclass perl-module
 
-received unknown com: export CATEGORY='app-misc' PR=r0 PVR='0.4.1' PV='0.4.1' EBUILD='/home/mgorny/repos/zugaina/app-misc/gcstar/gcstar-0.4.1.ebuild' P='gcstar-0.4.1' PF='gcstar-0.4.1' PN=gcstarpath
-Exception in thread Thread-13:
+Exception in thread Thread-10:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+received unknown com: export CATEGORY='app-misc' PR=r0 PVR='0.3' PV='0.3' EBUILD='/home/mgorny/repos/zugaina/app-misc/gcstar/gcstar-0.3.ebuild' P='gcstar-0.3' PF='gcstar-0.3' PN=gcstarpath
+Exception in thread Thread-2:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -1228,188 +1271,169 @@ RuntimeError: [Errno 32] Broken pipe
 !!!  EAPI= is not supported by perl-module.eclass
 
 
+!!! ERROR: games-simulation/secondlife-1.21.4_rc failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+
 !!! ERROR: games-simulation/secondlife-1.21.5_rc failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: games-simulation/secondlife-1.21.4_rc failed.
 
 !!! ERROR: games-simulation/secondlife-1.21.6 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-
-!!! ERROR: games-simulation/secondlife-1.21.3_rc failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!! ERROR: games-simulation/secondlife-1.22.0_rc failed.
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '213' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.5_rc.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 
 !!! ERROR: games-simulation/secondlife-1.22.10_rc failed.
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.5_rc.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.4_rc.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-
-!!! ERROR: games-simulation/secondlife-1.22.1_rc failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.6.ebuild'
-!!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.5_rc.ebuild'
-
-!!! ERROR: games-simulation/secondlife-1.22.4_rc failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
 !!! Call stack:
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.3_rc.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.4_rc.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
-!!! ERROR: games-simulation/secondlife-1.22.7_rc failed.
+!!! ERROR: games-simulation/secondlife-1.21.3_rc failed.
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: games-simulation/secondlife-1.22.11 failed.
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.6.ebuild'
-!!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!    secondlife-1.21.5_rc.ebuild, line   7:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!! Call stack:
-
-!!! ERROR: games-simulation/secondlife-1.22.3_rc failed.
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.3_rc.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.4_rc.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '213' 'depend'
+
+!!! ERROR: games-simulation/secondlife-1.22.1_rc failed.
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.4_rc.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '233' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.5_rc.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.4_rc.ebuild'
 
 !!! ERROR: games-simulation/secondlife-1.22.2_rc failed.
-
-!!! ERROR: games-simulation/secondlife-1.22.5_rc failed.
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '233' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.6.ebuild'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.6.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.0_rc.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.3_rc.ebuild'
-!!!    secondlife-1.21.4_rc.ebuild, line   7:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
-!!!       secondlife-1.21.6.ebuild, line   7:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.5_rc.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.4_rc.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.6.ebuild'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!    secondlife-1.21.3_rc.ebuild, line   7:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '218' 'depend'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.0_rc.ebuild'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.5_rc.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.10_rc.ebuild'
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.3_rc.ebuild'
+!!!    secondlife-1.21.4_rc.ebuild, line   7:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.6.ebuild'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '218' 'depend'
-!!!             ebuild-daemon.bash, line 511:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.0_rc.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.1_rc.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+
+!!! ERROR: games-simulation/secondlife-1.22.3_rc failed.
+!!!    secondlife-1.21.5_rc.ebuild, line   7:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.10_rc.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.4_rc.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!    secondlife-1.22.0_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.1_rc.ebuild'
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.10_rc.ebuild'
-!!!             ebuild-daemon.bash, line 511:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.3_rc.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.11.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.7_rc.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.1_rc.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.4_rc.ebuild'
-!!!             ebuild-daemon.bash, line 511:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.3_rc.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!       secondlife-1.21.6.ebuild, line   7:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!    secondlife-1.22.0_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.11.ebuild'
+
+!!! ERROR: games-simulation/secondlife-1.22.4_rc failed.
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.1_rc.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+
+!!! ERROR: games-simulation/secondlife-1.22.5_rc failed.
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.21.3_rc.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.10_rc.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.11.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.1_rc.ebuild'
+!!!    secondlife-1.21.3_rc.ebuild, line   7:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!   secondlife-1.22.10_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.2_rc.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
 
-!!!   secondlife-1.22.10_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.2_rc.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.5_rc.ebuild'
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-libs/goffice-0.7.17
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-libs/goffice-0.7.8
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.11.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.1_rc.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.2_rc.ebuild'
+!!!             ebuild-daemon.bash, line 511:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!      secondlife-1.22.11.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-libs/goffice-0.7.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-libs/goffice-0.7.8
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-libs/goffice-0.7.17
+ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-libs/goffice-0.8.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-libs/goffice-0.8.8
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-libs/libchroma-0.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-libs/goffice-0.8.8
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-misc/grsync-1.0.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-gfx/f-spot-0.0.12
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-gfx/f-spot-0.0.13
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-gfx/f-spot-0.0.13-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
@@ -1418,264 +1442,282 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-gfx/f-spot-0.1.0-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-gfx/f-spot-0.1.1
-!!! caught exception inherit requires an unknown eclass, ruby cannot be found while processing ebuild src: net-news/feed2imap-0.9.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-gfx/f-spot-0.1.11
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-gfx/f-spot-0.0.13
 !!! caught exception inherit requires an unknown eclass, ruby cannot be found while processing ebuild src: net-news/feed2imap-0.7
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-news/feed2imap-9999
+!!! caught exception inherit requires an unknown eclass, ruby cannot be found while processing ebuild src: net-news/feed2imap-0.9.3
 !!! caught exception inherit requires an unknown eclass, ruby cannot be found while processing ebuild src: net-news/feed2imap-0.9.4
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-news/feed2imap-9999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-misc/domoweb-0.2.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/domogik-0.2.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-tv/xmltv-0.5.56
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/domoweb-9999
+!!! caught exception False while processing ebuild src: games-strategy/bos-2.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-tv/xmltv-0.5.54
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/gcstar-0.3
+!!! caught exception False while processing ebuild src: media-tv/xmltv-0.5.56
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/gcstar-0.4.1
+!!! caught exception False while processing ebuild src: app-misc/domogik-0.2.0_alpha1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/domogik-9999
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-misc/gcstar-1.3.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/gcstar-0.5.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/gcstar-0.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-misc/gcstar-0.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-core/MIME-Base32-1.02a
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.21.5_rc
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-simulation/secondlife-1.21.4_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.21.6
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while proces!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.3_rc.ebuild'
+!!! caught exception False while processing ebuild src: games-simulatio!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
 !!!    secondlife-1.22.1_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.7_rc.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.4_rc.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.11.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.2_rc.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.5_rc.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.3_rc.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.7_rc.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.11.ebuild'
-!!!    secondlife-1.22.4_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
 !!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.2_rc.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.5_rc.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
+!!!    secondlife-1.22.2_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!             ebuild-daemon.bash, line 511:  Called die
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.3_rc.ebuild'
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.4_rc.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.5_rc.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.3_rc.ebuild'
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.4_rc.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.5_rc.ebuild'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             ebuild-daemon.bash, line 511:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.3_rc.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.4_rc.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.5_rc.ebuild'
 !!!    secondlife-1.22.3_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
 !!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
 
-!!!    secondlife-1.22.7_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!      secondlife-1.22.11.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
-!!!    secondlife-1.22.2_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
+!!!    secondlife-1.22.4_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
 !!!    secondlife-1.22.5_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!             ebuild-daemon.bash, line 511:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!! ERROR: games-simulation/secondlife-1.23.0.114533 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!             ebuild-daemon.bash, line 511:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!! Call stack:
 
 !!! ERROR: games-simulation/secondlife-1.22.8_rc failed.
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!             cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
 
+!!! ERROR: games-simulation/secondlife-1.22.7_rc failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 
 !!! ERROR: games-simulation/secondlife-1.22.9_rc failed.
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
 
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!             cmake-utils.eclass, line 128:  Called die
+!!!             ebuild-daemon.bash, line 511:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
+!!!                ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!! The die message:
-!!!  EAPI=0 is not supported
-
-!!!             cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             cmake-utils.eclass, line 128:  Called die
+!!!             ebuild-daemon.bash, line 511:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
 
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-
-!!! ERROR: games-simulation/secondlife-1.23.0.114533 failed.
-!!!             cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!! Call stack:
-
-!!! ERROR: games-simulation/secondlife-1.23.1_rc failed.
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.8_rc.ebuild'
 
 !!! ERROR: games-simulation/secondlife-1.23.2_rc failed.
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+
+!!! ERROR: games-simulation/secondlife-1.23.1_rc failed.
+!!!                ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '248' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 
 !!! ERROR: games-simulation/secondlife-1.23.4 failed.
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.8_rc.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '248' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.9_rc.ebuild'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 
 !!! ERROR: games-simulation/secondlife-1.23.3_rc failed.
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.8_rc.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.0.114533.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.8_rc.ebuild'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.9_rc.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!    secondlife-1.22.8_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.9_rc.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.1_rc.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 
 !!! ERROR: games-simulation/secondlife-1.23.4_rc failed.
-!!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.0.114533.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '213' 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.1_rc.ebuild'
-!!!    secondlife-1.22.9_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.0.114533.ebuild'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!! Call stack:
+!!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.0.114533.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.7_rc.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.8_rc.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.9_rc.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '213' 'depend'
+!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.0.114533.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.7_rc.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.8_rc.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.9_rc.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.2_rc.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!   secondlife-1.23.0.114533.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.7_rc.ebuild'
+!!!    secondlife-1.22.8_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.22.9_rc.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.1_rc.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.2_rc.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.4.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!    secondlife-1.22.7_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!    secondlife-1.22.9_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.1_rc.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.2_rc.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.4.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.3_rc.ebuild'
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.1_rc.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.2_rc.ebuild'
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.4.ebuild'
-!!!             ebuild-daemon.bash, line 511:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
-!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.0.114533.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.2_rc.ebuild'
-!!!    secondlife-1.23.1_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.3_rc.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.4.ebuild'
-!!!   secondlife-1.23.0.114533.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.3_rc.ebuild'
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.2_rc.ebuild'
-!!!             ebuild-daemon.bash, line 511:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.4.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.3_rc.ebuild'
 !!!    secondlife-1.23.2_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!       secondlife-1.23.4.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.4.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.3_rc.ebuild'
+!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.4_rc.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                 ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
-!!!    secondlife-1.23.3_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!             cmake-utils.eclass, line 128:  Called die
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
 
+!!!    secondlife-1.23.1_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!             ebuild-daemon.bash, line 511:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!       secondlife-1.23.4.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.3_rc.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.4_rc.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!            isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
-!!!                ebuild-daemon.bash, line 511:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.4_rc.ebuild'
-!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
 !!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
 
-!!!    secondlife-1.23.4_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
-!!!             ebuild-daemon.bash, line 511:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
-!!!             ebuild-daemon.bash, line 511:  Called die
+!!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
 
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/games-simulation/secondlife/secondlife-1.23.4_rc.ebuild'
+!!!    secondlife-1.23.3_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_cmake-utils'
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
+!!!    secondlife-1.23.4_rc.ebuild, line   6:  Called inherit 'cmake-utils' 'games' 'toolchain-funcs'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!             ebuild-daemon.bash, line 511:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_cmake-utils
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             ebuild-daemon.bash, line 511:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
@@ -1718,24 +1760,24 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!!  inherit for git failed
 
 
-!!! ERROR: net-p2p/gnunet-qt-0.8.1 failed.
+!!! ERROR: net-p2p/i2p-0.8.7 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '187' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '155' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-p2p/gnunet-qt/gnunet-qt-0.8.1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-p2p/gnunet-qt/gnunet-qt-0.8.1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-p2p/gnunet-qt/gnunet-qt-0.8.1.ebuild'
-!!!         gnunet-qt-0.8.1.ebuild, line   7:  Called inherit 'eutils' 'multilib' 'qt4-r2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4-r2'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-p2p/i2p/i2p-0.8.7.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-p2p/i2p/i2p-0.8.7.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-p2p/i2p/i2p-0.8.7.ebuild'
+!!!               i2p-0.8.7.ebuild, line   7:  Called inherit 'eutils' 'java-pkg-2' 'java-ant-2' 'pax-utils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'java-pkg-2'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 170' for eclass qt4-r2
+!!!  unknown inherit command from pythonic side, 'gen_metadata 177' for eclass java-pkg-2
 
-received unknown com: export CATEGORY='net-p2p' PR=r0 PVR='0.8.0' PV='0.8.0' EBUILD='/home/mgorny/repos/zugaina/net-p2p/gnunet/gnunet-0.8.0.ebuild' P='gnunet-0.8.0' PF='gnunet-0.8.0' PN=gnunetpath
-Exception in thread Thread-15:
+received unknown com: export CATEGORY='net-p2p' PR=r0 PVR='0.2' PV='0.2' EBUILD='/home/mgorny/repos/zugaina/net-p2p/irate-cvs/irate-cvs-0.2.ebuild' P='irate-cvs-0.2' PF='irate-cvs-0.2' PN='irate-cvs'path
+Exception in thread Thread-1:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -1781,248 +1823,444 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!! The die message:
 !!!  EAPI= is not supported
 
-
-!!! ERROR: net-firewall/psad-2.1.2 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-
-!!! ERROR: net-firewall/psad-2.1.5 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '170' 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.2.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '170' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.2.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.2.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.5.ebuild'
-
-!!! ERROR: media-sound/gxmms2-git-0.2 failed.
-!!!              psad-2.1.2.ebuild, line   5:  Called inherit 'eutils' 'perl-app'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.5.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: media-sound/gxmms2-git-0.1 failed.
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.5.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!              psad-2.1.5.ebuild, line   5:  Called inherit 'eutils' 'perl-app'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '190' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-
-!!! ERROR: media-sound/gxmms2-git-0.3 failed.
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-
-!!! ERROR: media-sound/gxmms2-git-0.6.1 failed.
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.2.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '190' 'depend'
-!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_perl-module'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.2.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.2.ebuild'
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_perl-module
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '190' 'depend'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 423:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '200' 'depend'
-!!!          gxmms2-git-0.2.ebuild, line   9:  Called inherit 'eutils' 'git'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.3.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.1.ebuild'
-sing ebuild src: games-simulation/secondlife-1.21.3_rc
+n/secondlife-1.21.5_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.0_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.1_rc
+!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.21.6
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.21.3_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.10_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.4_rc
+!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.11
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.1_rc
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.2_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.3_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! !!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.11!!! !!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.7_rc
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.2_rc
-
+!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.4_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.5_rc
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.23.0.114533
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.8_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.9_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.23.1_rc
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.23.0.114533
+!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.22.7_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-simulation/secondlife-1.23.2_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
-ERROR!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.23.3_rc pkgcore: returned val from gen_metadata was 'False'
-caught exception False while processing ebuild src: games-simulation/secondlife-1.23.4
-
+!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.23.1_rc
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.23.4
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: games-simulation/secondlife-1.23.3_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-simulation/secondlife-1.23.4_rc
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Data-Serializer-0.570
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-p2p/freenet-0.7_p1218
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-p2p/gnunet-qt-0.8.1
+!!! caught exception False while processing ebuild src: net-p2p/gnunet-gtk-0.9.0_pre1
+!!! caught exception Metadata Exception: pkg ebuild src: net-p2p/gnunet-0.9.0_pre0, attr eapi
+error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: net-p2p/gnunet-0.9.0_pre0
+!!! caught exception Metadata Exception: pkg ebuild src: net-p2p/i2p-0.7.10, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: net-p2p/i2p-0.7.10
+!!! caught exception Metadata Exception: pkg ebuild src: net-p2p/i2p-0.8.7, attr eapi
+error: parsed eapi '4' doesn't match sourced eapi '0' while processing ebuild src: net-p2p/i2p-0.8.7
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-p2p/gnunet-0.8.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-im/empathy-0.23.1
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/gxmms2-git-0.2
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/gxmms2-git-0.1
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/gxmms2-git-0.3
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/gxmms2-git-0.6.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-firewall/psad-2.1.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while proc!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_perl-module'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.3.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.1.ebuild'
+!!! caught exception False while processing ebuild src: net-p2p/irate-cvs-0.2
+ERROR pkgcore: returned val from gen_metadata was 'F
+!!! ERROR: net-firewall/psad-2.1.2 failed.
+
+!!! ERROR: net-firewall/psad-2.1.5 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '170' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '170' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.2.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.5.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.2.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.5.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.2.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-firewall/psad/psad-2.1.5.ebuild'
+!!!              psad-2.1.2.ebuild, line   5:  Called inherit 'eutils' 'perl-app'
+!!!              psad-2.1.5.ebuild, line   5:  Called inherit 'eutils' 'perl-app'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
+
+!!! ERROR: media-sound/gxmms2-git-0.1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+
+!!! ERROR: media-sound/gxmms2-git-0.3 failed.
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+
+!!! ERROR: media-sound/gxmms2-git-0.2 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+
+!!! ERROR: media-sound/gxmms2-git-0.6.0 failed.
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '190' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '190' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '190' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '200' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.1.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.3.ebuild'
 !!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_perl-module
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.3.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.1.ebuild'
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_perl-module'
 !!!             ebuild-daemon.bash, line 423:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-!!!          gxmms2-git-0.1.ebuild, line   9:  Called inherit 'eutils' 'git'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.2.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.3.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.0.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_perl-module
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.2.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.3.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.0.ebuild'
+!!!             ebuild-daemon.bash, line 423:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.1.ebuild'
 !!!          gxmms2-git-0.3.ebuild, line   9:  Called inherit 'eutils' 'git'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.1.ebuild'
-
-!!! ERROR: media-sound/gxmms2-git-0.6.0 failed.
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.2.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.0.ebuild'
+!!!          gxmms2-git-0.1.ebuild, line   9:  Called inherit 'eutils' 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!!          gxmms2-git-0.2.ebuild, line   9:  Called inherit 'eutils' 'git'
+!!!        gxmms2-git-0.6.0.ebuild, line   9:  Called inherit 'eutils' 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 
 !!! ERROR: media-sound/xmms2-git-0.1 failed.
-!!!        gxmms2-git-0.6.1.ebuild, line   9:  Called inherit 'eutils' 'git'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!! Call stack:
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: media-sound/xmms2-git-0.2 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+
+!!! ERROR: media-sound/gxmms2-git-0.6.1 failed.
 !!! ERROR: media-sound/xmms2-git-0.3 failed.
+
+!!! ERROR: media-sound/xmms2-git-0.5 failed.
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.1.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.1.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.2.ebuild'
+
+!!! ERROR: media-sound/xmms2-git-0.4 failed.
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.1.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '200' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.2.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!           xmms2-git-0.1.ebuild, line   9:  Called inherit 'eutils' 'git'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.2.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.5.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: media-sound/xmms2-git-0.5 failed.
-
-!!! ERROR: media-sound/xmms2-git-0.4 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '200' 'depend'
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.0.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.0.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.1.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.1.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.3.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.2.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.0.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.4.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.2.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.3.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.1.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.5.ebuild'
-!!!        gxmms2-git-0.6.0.ebuild, line   9:  Called inherit 'eutils' 'git'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.4.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.3.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.2.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.5.ebuild'
-!!!           xmms2-git-0.1.ebuild, line   9:  Called inherit 'eutils' 'git'
+!!!           xmms2-git-0.2.ebuild, line   9:  Called inherit 'eutils' 'git'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.3.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.6.1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.5.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.3.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+
+!!! ERROR: net-misc/stunnel-4.31 failed.
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.4.ebuild'
+!!!        gxmms2-git-0.6.1.ebuild, line   9:  Called inherit 'eutils' 'git'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!           xmms2-git-0.5.ebuild, line  10:  Called inherit 'eutils' 'git'
+
+!!! ERROR: net-misc/stunnel-4.30 failed.
+!!!           xmms2-git-0.3.ebuild, line  10:  Called inherit 'eutils' 'git'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.4.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+
+!!! ERROR: media-sound/xmms2-git-0.6 failed.
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 168' for eclass git
+!!!  unknown inherit command from pythonic side, 'gen_metadata 163' for eclass git
 
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.lib, line  35:  Called die
+received unknown com: export CATEGORY='media-sound' PR=r0 PVR='0.4' PV='0.4' EBUILD='/home/mgorny/repos/zugaina/media-sound/xmms2/xmms2-0.4.ebuild' P='xmms2-0.4' PF='xmms2-0.4' PN=xmms2failed
+!!! The die message:
+!!!  inherit for git failed
+
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.4.ebuild'
-!!!           xmms2-git-0.3.ebuild, line  10:  Called inherit 'eutils' 'git'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.5.ebuild'
-!!!           xmms2-git-0.2.ebuild, line   9:  Called inherit 'eutils' 'git'
-received unknown com: export CATEGORY='media-sound' PR=r0 PVR='0.81' PV='0.81' EBUILD='/home/mgorny/repos/zugaina/media-sound/skale/skale-0.81.ebuild' P='skale-0.81' PF='skale-0.81' PN=skalefailed
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+Exception in thread Thread-6:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '172' 'depend'
+!!!           xmms2-git-0.4.ebuild, line  10:  Called inherit 'eutils' 'git'
+
+!!! ERROR: net-misc/r1000-1.04 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '172' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 192' for eclass git
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.31.ebuild'
+
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
+received unknown com: export CATEGORY='net-misc' PR=r0 PVR='4.2.3' PV='4.2.3' EBUILD='/home/mgorny/repos/zugaina/net-misc/strongswan/strongswan-4.2.3.ebuild' P='strongswan-4.2.3' PF='strongswan-4.2.3' PN=strongswanfailed
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.30.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.31.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '162' 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.30.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.31.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.6.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.30.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-misc/r1000/r1000-1.04.ebuild'
+!!!            stunnel-4.31.ebuild, line   5:  Called inherit 'autotools' 'ssl-cert' 'eutils'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.6.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-misc/r1000/r1000-1.04.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'ssl-cert'
+!!!            stunnel-4.30.ebuild, line   5:  Called inherit 'autotools' 'ssl-cert' 'eutils'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/xmms2-git/xmms2-git-0.6.ebuild'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 187' for eclass ssl-cert
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-misc/r1000/r1000-1.04.ebuild'
+received unknown com: export CATEGORY='net-misc' PR=r0 PVR='0.1.1.19_rc' PV='0.1.1.19_rc' EBUILD='/home/mgorny/repos/zugaina/net-misc/tor/tor-0.1.1.19_rc.ebuild' P='tor-0.1.1.19_rc' PF='tor-0.1.1.19_rc' PN=torpath
+!!!           xmms2-git-0.6.ebuild, line  10:  Called inherit 'eutils' 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'ssl-cert'
+!!!              r1000-1.04.ebuild, line   6:  Called inherit 'linux-info' 'toolchain-funcs' 'eutils'
+Exception in thread Thread-15:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 172' for eclass ssl-cert
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+received unknown com: export CATEGORY='net-misc' PR=r0 PVR='0.1.1.20' PV='0.1.1.20' EBUILD='/home/mgorny/repos/zugaina/net-misc/tor/tor-0.1.1.20.ebuild' P='tor-0.1.1.20' PF='tor-0.1.1.20' PN=torpath
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 172' for eclass git
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'linux-info'
+received unknown com: export CATEGORY='net-misc' PR=r0 PVR='0.1.1.21' PV='0.1.1.21' EBUILD='/home/mgorny/repos/zugaina/net-misc/tor/tor-0.1.1.21.ebuild' P='tor-0.1.1.21' PF='tor-0.1.1.21' PN=torfailed
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 187' for eclass linux-info
+
+Exception in thread Thread-7:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+received unknown com: export CATEGORY='net-misc' PR=r0 PVR='0.2.0.21_rc' PV='0.2.0.21_rc' EBUILD='/home/mgorny/repos/zugaina/net-misc/tor/tor-0.2.0.21_rc.ebuild' P='tor-0.2.0.21_rc' PF='tor-0.2.0.21_rc' PN=torpath
 Exception in thread Thread-16:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -2047,114 +2285,97 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
+Exception in thread Thread-4:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
 
-!!!           xmms2-git-0.4.ebuild, line  10:  Called inherit 'eutils' 'git'
-!!!           xmms2-git-0.5.ebuild, line  10:  Called inherit 'eutils' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-!!! The die message:
-
-!!!  inherit for git failed
-
-
-!!! ERROR: net-misc/stunnel-4.30 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: net-misc/stunnel-4.31 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '172' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '172' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.30.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.31.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.30.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.31.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.30.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-misc/stunnel/stunnel-4.31.ebuild'
-!!!            stunnel-4.30.ebuild, line   5:  Called inherit 'autotools' 'ssl-cert' 'eutils'
-!!!            stunnel-4.31.ebuild, line   5:  Called inherit 'autotools' 'ssl-cert' 'eutils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'ssl-cert'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'ssl-cert'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 172' for eclass ssl-cert
-
-received unknown com: export CATEGORY='net-misc' PR=r0 PVR='0.1.1.21' PV='0.1.1.21' EBUILD='/home/mgorny/repos/zugaina/net-misc/tor/tor-0.1.1.21.ebuild' P='tor-0.1.1.21' PF='tor-0.1.1.21' PN=torpath
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 197' for eclass ssl-cert
-
-received unknown com: export CATEGORY='net-misc' PR=r0 PVR='0.1.2.3_alpha' PV='0.1.2.3_alpha' EBUILD='/home/mgorny/repos/zugaina/net-misc/tor/tor-0.1.2.3_alpha.ebuild' P='tor-0.1.2.3_alpha' PF='tor-0.1.2.3_alpha' PN=torpath
-essing ebuild src: media-sound/gxmms2-git-0.6.0
+alse'
+!!! caught exception False while processing ebuild src: net-im/empathy-0.23.1
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/gxmms2-git-0.1
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/gxmms2-git-0.3
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/gxmms2-git-0.2
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/gxmms2-git-0.6.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-firewall/psad-2.1.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-firewall/psad-2.1.5
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/skale-0.81
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/xmms2-git-0.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-sound/gxmms2-0.4.2-r1
+ERROR pkgcore: !!! returned val from gen_metadata was 'False'
+!!! !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/xmms2-git-0.1!!! caught exception False while processing ebuild src: media-sound/gxmms2-git-0.6.1
+
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-sound/gxmms2-0.6.0
+!!! ERROR caught exception False while processing ebuild src: media-sound/gxmms2-0.6.0
+pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-sound/gxmms2-0.6.1
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/xmms2-git-0.2
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/xmms2-git-0.3
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/xmms2-git-0.5
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/xmms2-git-0.4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-sound/gxmms2-0.6.2
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/ntp-4.2.6_p1, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: net-misc/ntp-4.2.6_p1
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/onioncat-0.2.2, attr eapi
-error: parsed eapi '4' doesn't match sourced eapi '0' while processing ebuild src: net-misc/onioncat-0.2.2
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/xmms2-0.4
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/strongswan-4.2.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-sound/xmms2-git-0.6
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-misc/miredo-1.2.2
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/stunnel-4.30, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: net-misc/stunnel-4.30
+!!! caught exception False while processing ebuild src: net-misc/onioncat-0.2.2
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/tor-0.1.1.21
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-misc/pglinux-1.5_beta
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-misc/packETH-1.6
-ERROR!!! caught exception Metadata Exception: pkg ebuild src: net-misc/stunnel-4.31, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '4' while processing ebuild src: net-misc/stunnel-4.31
- pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-misc/ssltunnel-1.15
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-misc/r1000-1.04
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.2.10_alpha, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: net-misc/tor-0.2.2.10_alpha
 ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-misc/pglinux-1.5_beta
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-misc/tor-0.1.1.16_rc
+!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.1.1.22, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '4' while processing ebuild src: net-misc/tor-0.1.1.22
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-misc/tor-0.1.1.19_rc
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-misc/tor-0.1.1.20
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! ERROR caught exception False while processing ebuild src: net-misc/tor-0.1.2.1_alphapkgcore: returned val from gen_metadata was 'False'
+
+!!! caught exception False while processing ebuild src: net-misc/tor-0.2.0.21_rc
 !!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.2.12_alpha, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: net-misc/tor-0.2.2.12_alphaERROR!!! 
- !!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.2.13_alpha, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: net-misc/tor-0.2.2.13_alpha
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.2.11_alpha, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: net-misc/tor-0.2.2.11_alphacaught exception False while processing ebuild src: net-misc/tor-0.1.2.3_alpha
+error: parsed eapi '2' doesn't match sou
+!!! ERROR: media-video/kdenlive-0.9.6 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '188' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-video/kdenlive/kdenlive-0.9.6.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-video/kdenlive/kdenlive-0.9.6.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-video/kdenlive/kdenlive-0.9.6.ebuild'
+!!!          kdenlive-0.9.6.ebuild, line  10:  Called inherit 'kde4-base'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 173' for eclass kde4-base
 
-pkgcore: returned val from gen_metadata was 'False'!!! caught exception Metadata Exception: pkg ebuild src: net-misc/toException in thread Thread-12:
+received unknown com: export CATEGORY='media-video' PR=r0 PVR='1.0.0' PV='1.0.0' EBUILD='/home/mgorny/repos/zugaina/media-video/lives/lives-1.0.0.ebuild' P='lives-1.0.0' PF='lives-1.0.0' PN=livespath
+Exception in thread Thread-8:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -2178,7 +2399,25 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-Exception in thread Thread-5:
+
+!!! ERROR: net-print/bjfilter-2.50-r8 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '188' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-print/bjfilter/bjfilter-2.50-r8.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-print/bjfilter/bjfilter-2.50-r8.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-print/bjfilter/bjfilter-2.50-r8.ebuild'
+!!!        bjfilter-2.50-r8.ebuild, line  17:  Called inherit 'eutils' 'rpm' 'flag-o-matic' 'multilib'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'rpm'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 199' for eclass rpm
+
+received unknown com: export CATEGORY='net-print' PR=r0 PVR='3.00.2' PV='3.00.2' EBUILD='/home/mgorny/repos/zugaina/net-print/cnijfilter/cnijfilter-3.00.2.ebuild' P='cnijfilter-3.00.2' PF='cnijfilter-3.00.2' PN=cnijfilterpath
+Exception in thread Thread-3:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -2202,140 +2441,23 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-r-0.2.2.14_alpha, attr eapi
+rced eapi '0' while processing ebuild src: net-misc/tor-0.2.2.12_alpha
+!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.2.14_alpha, attr eapi
 error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: net-misc/tor-0.2.2.14_alpha
-
-!!! caught exception False while processing ebuild src: net-misc/tor-0.1.1.21
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.2.15_alpha, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: net-misc/tor-0.2.2.15_alpha
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.2.24_alpha, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '2' while processing ebuild src: net-misc/tor-0.2.2.24_alpha
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.2.29_beta, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '2' while processing ebuild src: net-misc/tor-0.2.2.29_beta
 !!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.3.10_alpha, attr eapi
 error: parsed eapi '4' doesn't match sourced eapi '2' while processing ebuild src: net-misc/tor-0.2.3.10_alpha
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.3.11_alpha, attr eapi
-error: parsed eapi '4' doesn't match sourced eapi '2' while processing ebuild src: net-misc/tor-0.2.3.11_alpha
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.3.15_alpha, attr eapi
-error: parsed eapi '4' doesn't match sourced eapi '2' while processing ebuild src: net-misc/tor-0.2.3.15_alpha
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.3.16_alpha, attr eapi
-error: parsed eapi '4' doesn't match sourced eapi '2' while processing ebuild src: net-misc/tor-0.2.3.16_alpha
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.3.13_alpha, attr eapi
-error: parsed eapi '4' doesn't match sourced eapi '3' while processing ebuild src: net-misc/tor-0.2.3.13_alpha
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.3.14_alpha, attr eapi
-error: parsed eapi '4' doesn't match sourced eapi '3' while processing ebuild src: net-misc/tor-0.2.3.14_alpha
-!!! caught exception Metadata Exception: pkg ebuild src: net-misc/yacy-1.01.20111207.9000, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '4' while processing ebuild src: net-misc/yacy-1.01.20111207.9000
-!!! caught exception Metadata Exception: pkg ebuild src: media-video/dirac-9999999, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '4' while processing ebuild src: media-video/dirac-9999999
-!!! caught exception Metadata Exception: pkg ebuild src: media-video/lives-0.9.9.5, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '4' while processing ebuild src: media-video/lives-0.9.9.5
+!!! caught exception Metadata Exception: pkg ebuild src: net-misc/tor-0.2.3.12_alpha, attr eapi
+error: parsed eapi '4' doesn't match sourced eapi '2' while processing ebuild src: net-misc/tor-0.2.3.12_alpha
+!!! caught exception Metadata Exception: pkg ebuild src: media-video/kdenlive-0.9.6, attr eapi
+error: parsed eapi '5' doesn't match sourced eapi '4' while processing ebuild src: media-video/kdenlive-0.9.6
 !!! caught exception Metadata Exception: pkg ebuild src: media-video/lives-0.9.8.11, attr eapi
 error: parsed eapi '0' doesn't match sourced eapi '4' while processing ebuild src: media-video/lives-0.9.8.11
-!!! caught exception Metadata Exception: pkg ebuild src: media-video/lives-1.0.0, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '4' while processing ebuild src: media-video/lives-1.0.0
-!!! caught exception Metadata Exception: pkg ebuild src: media-video/lives-0.9.9.8, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '4' while processing ebuild src: media-video/lives-0.9.9.8
-!!! caught exception Metadata Exception: pkg ebuild src: media-video/lives-1.4.9, attr eapi
-error: parsed eapi '4' doesn't match sourced eapi '0' while processing ebuild src: media-video/lives-1.4.9
-!!! caught exception Metadata Exception: pkg ebuild src: media-video/motion-3.2.12, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: media-video/motion-3.2.12
-!!! caught exception Metadata Exception: pkg ebuild src: media-video/mplayer-1.0_rc4_p20100107, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: media-video/mplayer-1.0_rc4_p20100107
-!!! caught exception Metadata Exception: pkg ebuild src: net-print/bjfilter-2.50, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '4' while proces
-!!! ERROR: media-video/ogmrip-0.12.0 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: net-print/bjfilter-2.50 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-
-!!! ERROR: net-print/cnijfilter-2.80-r1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '183' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-
-!!! ERROR: net-ftp/filezilla-3.0.10 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '179' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/media-video/ogmrip/ogmrip-0.12.0.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-video/ogmrip/ogmrip-0.12.0.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '198' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-print/bjfilter/bjfilter-2.50.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-video/ogmrip/ogmrip-0.12.0.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-print/bjfilter/bjfilter-2.50.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '190' 'depend'
-!!!           ogmrip-0.12.0.ebuild, line   7:  Called inherit 'gnome2' 'eutils'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-print/cnijfilter/cnijfilter-2.80-r1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-print/bjfilter/bjfilter-2.50.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 170' for eclass gnome2
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-print/cnijfilter/cnijfilter-2.80-r1.ebuild'
-
-received unknown com: export CATEGORY='net-analyzer' PR=r0 PVR='3.3.9' PV='3.3.9' EBUILD='/home/mgorny/repos/zugaina/net-analyzer/ntop/ntop-3.3.9.ebuild' P='ntop-3.3.9' PF='ntop-3.3.9' PN=ntoppath
-!!!           bjfilter-2.50.ebuild, line  19:  Called inherit 'eutils' 'rpm' 'flag-o-matic' 'multilib'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/zugaina/net-ftp/filezilla/filezilla-3.0.10.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-print/cnijfilter/cnijfilter-2.80-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'rpm'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/net-ftp/filezilla/filezilla-3.0.10.ebuild'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 160' for eclass rpm
-
-received unknown com: export CATEGORY='net-analyzer' PR=r0 PVR='1.1' PV='1.1' EBUILD='/home/mgorny/repos/zugaina/net-analyzer/sing/sing-1.1.ebuild' P='sing-1.1' PF='sing-1.1' PN=singpath
-!!!      cnijfilter-2.80-r1.ebuild, line  11:  Called inherit 'eutils' 'rpm' 'flag-o-matic' 'multilib'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/net-ftp/filezilla/filezilla-3.0.10.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'rpm'
-!!!        filezilla-3.0.10.ebuild, line   9:  Called inherit 'eutils' 'multilib' 'autotools' 'wxwidgets'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 175' for eclass rpm
-
-received unknown com: export CATEGORY='net-analyzer' PR=r0 PVR='2.8.1' PV='2.8.1' EBUILD='/home/mgorny/repos/zugaina/net-analyzer/snort/snort-2.8.1.ebuild' P='snort-2.8.1' PF='snort-2.8.1' PN=snortpath
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'wxwidgets'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 185' for eclass wxwidgets
-
-received unknown com: export CATEGORY='net-analyzer' PR=r0 PVR='2.8.2.2' PV='2.8.2.2' EBUILD='/home/mgorny/repos/zugaina/net-analyzer/snort/snort-2.8.2.2.ebuild' P='snort-2.8.2.2' PF='snort-2.8.2.2' PN=snortpath
-sing ebuild src: net-print/bjfilter-2.50
-!!! caught exception Metadata Exception: pkg ebuild src: net-print/cnijfilter-2.80-r1, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: net-print/cnijfilter-2.80-r1
-!!! caught exception Metadata Exception: pkg ebuild src: net-analyzer/halberd-0.2.4, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '0' while processing ebuild src: net-analyzer/halberd-0.2.4
-!!! caught exception Metadata Exception: pkg ebuild src: net-print/cnijfilter-3.00.2, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: net-print/cnijfilter-3.00.2
-!!! caught exception Metadata Exception: pkg ebuild src: net-analyzer/snort-2.8.3_rc1, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '3' while processing ebuild src: net-analyzer/snort-2.8.3_rc1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-analyzer/ntop-3.3.9
+!!! caught exception False while processing ebuild src: media-video/lives-1.0.0
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-video/nvidia-settings-180.18
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-analyzer/sing-1.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-analyzer/snort-2.8.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-analyzer/snort-2.8.2.2
+!!! caught exception False while processing ebuild src: net-print/cnijfilter-3.00.2
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: net-analyzer/snort-2.8.3_rc1
 Error running an operation:
  Unhandled exception in regen_cache
-sandbox:stop  caught signal 15 in pid 20651
-Sandboxed process killed by signal: Terminated
-sandbox:stop  caught signal 15 in pid 19348
-Sandboxed process killed by signal: Terminated
  * Cache regen failed with 246

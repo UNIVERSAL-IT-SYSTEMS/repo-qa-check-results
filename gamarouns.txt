@@ -9,7 +9,9 @@
              'uri': 'https://bitbucket.org/amaroun/gamarouns'}],
  'status': 'official'}
 $ pmaint sync gamarouns
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 pulling from https://bitbucket.org/amaroun/gamarouns
 searching for changes
 no changes found
@@ -17,8 +19,6 @@ no changes found
 *** synced gamarouns
  * Sync succeeded
 $ pmaint regen -t 2 gamarouns
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

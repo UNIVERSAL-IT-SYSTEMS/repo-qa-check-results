@@ -9,14 +9,34 @@
              'uri': 'https://github.com/moaxcp/moaxcp-gentoo-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync moaxcp
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+From https://github.com/moaxcp/moaxcp-gentoo-overlay
+   7aa5e2a..af2ebfd  master     -> origin/master
+Updating 7aa5e2a..af2ebfd
+Fast-forward
+ x11-wm/metadata.xml                       | 35 -------------
+ x11-wm/notion/Manifest                    |  8 ---
+ x11-wm/notion/files/notion                |  2 -
+ x11-wm/notion/files/notion.desktop        |  8 ---
+ x11-wm/notion/metadata.xml                | 15 ------
+ x11-wm/notion/notion-3_p2014052800.ebuild | 81 -------------------------------
+ x11-wm/notion/notion-3_p2015061300.ebuild | 81 -------------------------------
+ x11-wm/notion/notion-9999.ebuild          | 81 -------------------------------
+ 8 files changed, 311 deletions(-)
+ delete mode 100644 x11-wm/metadata.xml
+ delete mode 100644 x11-wm/notion/Manifest
+ delete mode 100644 x11-wm/notion/files/notion
+ delete mode 100644 x11-wm/notion/files/notion.desktop
+ delete mode 100644 x11-wm/notion/metadata.xml
+ delete mode 100644 x11-wm/notion/notion-3_p2014052800.ebuild
+ delete mode 100644 x11-wm/notion/notion-3_p2015061300.ebuild
+ delete mode 100644 x11-wm/notion/notion-9999.ebuild
 *** syncing moaxcp
 *** synced moaxcp
  * Sync succeeded
 $ pmaint regen -t 2 moaxcp
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

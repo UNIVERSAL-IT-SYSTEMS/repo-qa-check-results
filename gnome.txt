@@ -13,16 +13,16 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/gnome.git'}],
  'status': 'official'}
 $ pmaint sync gnome
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing gnome
 *** synced gnome
  * Sync succeeded
 $ pmaint regen -t 2 gnome
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 /home/mgorny/repos/gnome/gnome-extra/evolution-mapi/evolution-mapi-3.16.3.ebuild: line 23: ~#~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86: command not found
  * Cache regenerated successfully

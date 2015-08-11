@@ -7,7 +7,9 @@
              'uri': 'rsync://gentoo.xwing.info/xwing-overlay'}],
  'status': 'unofficial'}
 $ pmaint sync xwing
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named 'xelnor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 This is xwing.info / coruscant.xwing.info
@@ -31,9 +33,9 @@ File list size: 47
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 85
-Total bytes received: 130
+Total bytes received: 133
 
-sent 85 bytes  received 130 bytes  143.33 bytes/sec
+sent 85 bytes  received 133 bytes  87.20 bytes/sec
 total size is 32  speedup is 0.15
 This is xwing.info / coruscant.xwing.info
 
@@ -58,16 +60,14 @@ File list size: 3.41K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 128
-Total bytes received: 3.53K
+Total bytes received: 3.54K
 
-sent 128 bytes  received 3.53K bytes  1.05K bytes/sec
-total size is 155.12K  speedup is 42.37
+sent 128 bytes  received 3.54K bytes  1.47K bytes/sec
+total size is 155.12K  speedup is 42.34
 *** syncing xwing
 *** synced xwing
  * Sync succeeded
 $ pmaint regen -t 2 xwing
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully
