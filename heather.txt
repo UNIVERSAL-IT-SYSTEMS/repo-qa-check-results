@@ -17,14 +17,17 @@ $ pmaint sync heather
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/Heather/gentoo-heather
-   4ccf4a0..ec90e92  master     -> origin/master
-Updating 4ccf4a0..ec90e92
+   ec90e92..4054543  master     -> origin/master
+Updating ec90e92..4054543
 Fast-forward
- README.md                                          | 1 -
- app-emulation/playonlinux/playonlinux-4.2.8.ebuild | 3 +--
- app-misc/sync/sync-9999.ebuild                     | 4 ++--
- app-misc/todo/todo-9999.ebuild                     | 7 +++----
- 4 files changed, 6 insertions(+), 9 deletions(-)
+ app-shells/fish/fish-9999.ebuild      | 10 ++++------
+ dev-lang/opa/files/site_lib_fix.patch | 12 ------------
+ dev-lang/opa/metadata.xml             | 10 ----------
+ dev-lang/opa/opa-9999.ebuild          | 35 -----------------------------------
+ 4 files changed, 4 insertions(+), 63 deletions(-)
+ delete mode 100644 dev-lang/opa/files/site_lib_fix.patch
+ delete mode 100644 dev-lang/opa/metadata.xml
+ delete mode 100644 dev-lang/opa/opa-9999.ebuild
 *** syncing heather
 *** synced heather
  * Sync succeeded
