@@ -12,21 +12,7 @@
 $ pmaint sync prism-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/hasufell/prism-overlay
-   c000afb..07607e1  master     -> origin/master
-Updating c000afb..07607e1
-Fast-forward
- net-fs/tahoe-lafs/Manifest                         |  1 -
- .../files/tahoe-lafs-1.10.0-ifconfig.patch         | 20 --------
- .../tahoe-lafs/files/tahoe-lafs-1.10.0-setup.patch | 17 ------
- net-fs/tahoe-lafs/metadata.xml                     | 24 ---------
- net-fs/tahoe-lafs/tahoe-lafs-1.10.0-r2.ebuild      | 60 ----------------------
- 5 files changed, 122 deletions(-)
- delete mode 100644 net-fs/tahoe-lafs/Manifest
- delete mode 100644 net-fs/tahoe-lafs/files/tahoe-lafs-1.10.0-ifconfig.patch
- delete mode 100644 net-fs/tahoe-lafs/files/tahoe-lafs-1.10.0-setup.patch
- delete mode 100644 net-fs/tahoe-lafs/metadata.xml
- delete mode 100644 net-fs/tahoe-lafs/tahoe-lafs-1.10.0-r2.ebuild
+Already up-to-date.
 *** syncing prism-overlay
 *** synced prism-overlay
  * Sync succeeded
