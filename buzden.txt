@@ -15,7 +15,16 @@
  'status': 'unofficial'}
 $ pmaint sync buzden
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/buzden/buzden-overlay
+   6568cc4..11b84d0  master     -> origin/master
+Updating 6568cc4..11b84d0
+Fast-forward
+ sci-mathematics/cvc4/Manifest                   |  5 ++--
+ sci-mathematics/cvc4/cvc4-1.4.ebuild            | 34 +++++++++++++------------
+ sci-mathematics/cvc4/cvc4-9999.ebuild           | 33 +++++++++++++-----------
+ sci-mathematics/cvc4/files/cvc4-1.4-gcc-5.patch | 29 +++++++++++++++++++++
+ 4 files changed, 68 insertions(+), 33 deletions(-)
+ create mode 100644 sci-mathematics/cvc4/files/cvc4-1.4-gcc-5.patch
 *** syncing buzden
 *** synced buzden
  * Sync succeeded
