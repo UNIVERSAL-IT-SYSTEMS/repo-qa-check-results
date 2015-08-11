@@ -20,15 +20,17 @@ Already up-to-date.
 *** synced AstroFloyd
  * Sync succeeded
 $ pmaint regen -t 2 AstroFloyd
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by app-text/epubcheck-1.0.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sci-libs/fgsl-0.9 during metadata regeneration.
+WARNING: 'use' function invoked by sci-libs/fgsl-0.9.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sci-libs/fgsl-0.9.1 during metadata regeneration.
+WARNING: 'use' function invoked by sci-libs/fgsl-0.9 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.16.5 during metadata regeneration.

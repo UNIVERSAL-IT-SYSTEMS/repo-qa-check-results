@@ -11,12 +11,27 @@
  'status': 'unofficial'}
 $ pmaint sync sage-on-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/cschwan/sage-on-gentoo
+   bf9d4c9..fc71c57  master     -> origin/master
+Updating bf9d4c9..fc71c57
+Fast-forward
+ dev-python/cython/ChangeLog                |  4 ++
+ dev-python/cython/Manifest                 |  1 -
+ dev-python/cython/cython-0.23_beta2.ebuild | 65 ------------------------------
+ package.keywords/sage-6.8                  |  2 +-
+ package.keywords/sage-9999                 |  2 +-
+ sci-mathematics/sage/ChangeLog             |  4 ++
+ sci-mathematics/sage/sage-6.8-r1.ebuild    |  2 +-
+ sci-mathematics/sage/sage-9999.ebuild      |  4 +-
+ 8 files changed, 13 insertions(+), 71 deletions(-)
+ delete mode 100644 dev-python/cython/cython-0.23_beta2.ebuild
 *** syncing sage-on-gentoo
 *** synced sage-on-gentoo
  * Sync succeeded
 $ pmaint regen -t 2 sage-on-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by sci-mathematics/maxima-5.35.1-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
