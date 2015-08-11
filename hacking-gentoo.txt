@@ -353,13 +353,13 @@ Total file size: 5.13M bytes
 Total transferred file size: 592.65K bytes
 Literal data: 592.65K bytes
 Matched data: 0 bytes
-File list size: 51.77K
+File list size: 47.59K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 5.87K
 Total bytes received: 299.90K
 
-sent 5.87K bytes  received 299.90K bytes  87.36K bytes/sec
+sent 5.87K bytes  received 299.90K bytes  122.30K bytes/sec
 total size is 5.13M  speedup is 16.79
 *** syncing hacking-gentoo
 *** synced hacking-gentoo
@@ -367,6 +367,9 @@ total size is 5.13M  speedup is 16.79
 $ pmaint regen -t 2 hacking-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by sys-devel/binutils-2.25-r1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by sys-devel/binutils-2.24-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
@@ -374,9 +377,6 @@ WARNING: 'use' function invoked by sys-devel/binutils-2.24-r3 during metadata re
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/binutils-2.25 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/binutils-2.25-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-kernel/raspberrypi-notro-sources-3.16.7-r20141111 during metadata regeneration.
