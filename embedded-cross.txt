@@ -15,8 +15,6 @@
  'status': 'official'}
 $ pmaint sync embedded-cross
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing embedded-cross
 *** synced embedded-cross
@@ -24,760 +22,287 @@ Already up-to-date.
 $ pmaint regen -t 2 embedded-cross
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use_enable' function invoked by x11-libs/e_dbus-0.5.0.061 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use_enable' function invoked by x11-libs/e_dbus-0.5.0.062 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by x11-libs/e_dbus-0.5.0.063 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use_enable' function invoked by x11-libs/e_dbus-0.5.0.061 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 
 !!! ERROR: app-editors/vim-core-7.2.303 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: app-editors/vim-core-7.3 failed.
-
-!!! ERROR: app-editors/vim-7.3 failed.
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
-WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-
-!!! ERROR: app-editors/vim-core-7.0.235 failed.
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '160' 'depend'
 
 !!! ERROR: x11-libs/gtk+-2.14.5 failed.
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.303.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
+WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
+WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.303.ebuild'
 WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+WARNING: 'use_enable' function invoked by x11-libs/ewl-20090729 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '187' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.303.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim/vim-7.3.ebuild'
-!!!        vim-core-7.2.303.ebuild, line   6:  Called inherit 'vim'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim/vim-7.3.ebuild'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.3.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim/vim-7.3.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.0.235.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '176' 'depend'
-!!!                 vim-7.3.ebuild, line   7:  Called inherit 'vim'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.3.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.0.235.ebuild'
 
-!!! ERROR: app-editors/vim-core-7.1.330 failed.
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
-
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.3.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-
-!!! ERROR: app-editors/vim-core-7.1.123 failed.
-
-!!! ERROR: app-editors/vim-core-7.2.442 failed.
+!!! ERROR: app-editors/vim-core-7.0.235 failed.
 
 !!! ERROR: app-editors/vim-core-7.0.243 failed.
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.0.235.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!            vim-core-7.3.ebuild, line   7:  Called inherit 'vim'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
+WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
 
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '176' 'depend'
+WARNING: 'use_enable' function invoked by x11-libs/ewl-20090614 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.303.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.3.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.3.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.303.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.303.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.3.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-libs/gtk+/gtk+-2.14.5.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
+
+!!! ERROR: app-editors/vim-core-7.1.123 failed.
+!!!        vim-core-7.2.303.ebuild, line   6:  Called inherit 'vim'
+!!!            vim-core-7.3.ebuild, line   7:  Called inherit 'vim'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-libs/gtk+/gtk+-2.14.5.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+
+!!! ERROR: app-editors/vim-core-7.1.330 failed.
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: x11-drivers/xf86-video-glamo-20100626 failed.
-!!!        vim-core-7.0.235.ebuild, line   5:  Called inherit 'vim'
 
 !!! ERROR: x11-drivers/xf86-video-glamo-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-libs/gtk+/gtk+-2.14.5.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.0.243.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
-
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                 ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-libs/gtk+/gtk+-2.14.5.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.0.235.ebuild'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
-
-!!! ERROR: x11-drivers/xf86-input-tslib-0.0.5 failed.
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vim failed
 
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vim failed
+
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: app-editors/vim-7.3 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+
+!!! ERROR: app-editors/vim-core-7.2.442 failed.
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                 ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             gtk+-2.14.5.ebuild, line   7:  Called inherit 'gnome.org' 'flag-o-matic' 'eutils' 'libtool' 'virtualx'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-
-!!! ERROR: x11-misc/xvkbd-3.0 failed.
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.0.235.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.0.243.ebuild'
+!!!                 ebuild-daemon.bash, line 210:  Called __ebd_main_loop
  * 
  * "/home/mgorny/repos/embedded-cross/sci-geosciences/gpsd/gpsd-2.37.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             gtk+-2.14.5.ebuild, line   7:  Called inherit 'gnome.org' 'flag-o-matic' 'eutils' 'libtool' 'virtualx'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                 ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.442.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'virtualx'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.0.243.ebuild'
-!!!                 ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '248' 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.1.330.ebuild'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.442.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/virtualx.eclass'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                 ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.0.243.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.1.330.ebuild'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-
-!!! ERROR: dev-lang/vala-0.8.1.1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-video-glamo/xf86-video-glamo-20100626.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.442.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.1.330.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/virtualx.eclass'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-video-glamo/xf86-video-glamo-9999.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '164' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'virtualx'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.0.235.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.0.243.ebuild'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '237' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
+!!!                 ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '248' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!        vim-core-7.0.235.ebuild, line   5:  Called inherit 'vim'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/virtualx.eclass'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '228' 'depend'
+!!!        vim-core-7.0.243.ebuild, line   5:  Called inherit 'vim'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.1.123.ebuild'
-!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-video-glamo/xf86-video-glamo-20100626.ebuild'
-!!!        vim-core-7.1.330.ebuild, line   5:  Called inherit 'vim'
+!!!                 ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/virtualx.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-video-glamo/xf86-video-glamo-20100626.ebuild'
 !!!                virtualx.eclass, line  38:  Called die
 !!! The die message:
 !!!  virtualx eclass require EAPI=2 or newer.
 
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '160' 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.1.123.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vim failed
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+
+!!! ERROR: app-misc/mdbus-9999 failed.
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.1.330.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-video-glamo/xf86-video-glamo-9999.ebuild'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!        vim-core-7.2.442.ebuild, line   6:  Called inherit 'vim'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-video-glamo/xf86-video-glamo-9999.ebuild'
-!!!        vim-core-7.0.243.ebuild, line   5:  Called inherit 'vim'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vim failed
+
+!!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-video-glamo/xf86-video-glamo-20100626.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.1.330.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.1.123.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim/vim-7.3.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-video-glamo/xf86-video-glamo-20100626.ebuild'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.1.123.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!              ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-video-glamo/xf86-video-glamo-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.1.330.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim/vim-7.3.ebuild'
 
-!!! ERROR: x11-terms/vala-terminal-1.1.1 failed.
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-misc/xvkbd/xvkbd-3.0.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
-
-!!!   xf86-video-glamo-20100626.ebuild, line  16:  Called inherit 'x-modular'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-video-glamo/xf86-video-glamo-9999.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '179' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.1.123.ebuild'
-!!!                      ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-input-tslib/xf86-input-tslib-0.0.5.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 184' for eclass vim
-
-received unknown com: export CATEGORY='dev-util' PR=r0 PVR='4.5.18' PV='4.5.18' EBUILD='/home/mgorny/repos/embedded-cross/dev-util/strace/strace-4.5.18.ebuild' P='strace-4.5.18' PF='strace-4.5.18' PN=stracefailed
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-Exception in thread Thread-14:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-misc/xvkbd/xvkbd-3.0.ebuild'
-!!!   xf86-video-glamo-9999.ebuild, line  10:  Called inherit 'x-modular'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
-
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'x-modular'
-!!!                      ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-input-tslib/xf86-input-tslib-0.0.5.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!! ERROR: dev-lang/vala-0.8.1.1 failed.
 !!!        vim-core-7.1.123.ebuild, line   5:  Called inherit 'vim'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-misc/xvkbd/xvkbd-3.0.ebuild'
-!!!                  ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 178' for eclass x-modular
-
-received unknown com: export CATEGORY='dev-lang' PR=r8 PVR='5.8.8-r8' PV='5.8.8' EBUILD='/home/mgorny/repos/embedded-cross/dev-lang/perl/perl-5.8.8-r8.ebuild' P='perl-5.8.8' PF='perl-5.8.8-r8' PN=perlpath
-Exception in thread Thread-13:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'x-modular'
-
-!!! ERROR: dev-lang/perl-5.10.1 failed.
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.442.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!          isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-input-tslib/xf86-input-tslib-0.0.5.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '165' 'depend'
 
-!!! ERROR: sys-mobilephone/apm2-2.0.0 failed.
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '218' 'depend'
-!!!               xvkbd-3.0.ebuild, line   7:  Called inherit 'autotools' 'eutils'
+!!! ERROR: x11-apps/exalt-20090706 failed.
+!!!        vim-core-7.1.330.ebuild, line   5:  Called inherit 'vim'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-drivers/xf86-video-glamo/xf86-video-glamo-9999.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!   xf86-video-glamo-20100626.ebuild, line  16:  Called inherit 'x-modular'
+
+!!! ERROR: x11-apps/xdm-1.1.8 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.442.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim/vim-7.3.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!   xf86-video-glamo-9999.ebuild, line  10:  Called inherit 'x-modular'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vim failed
 
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/dev-lang/vala/vala-0.8.1.1.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_x-modular'
-!!!   xf86-input-tslib-0.0.5.ebuild, line   7:  Called inherit 'toolchain-funcs' 'eutils' 'linux-info' 'x-modular'
-
-!!! ERROR: x11-base/xglamo-20081205-r2 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/dev-lang/vala/vala-0.8.1.1.ebuild'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 165' for eclass autotools
-
-received unknown com: export CATEGORY='app-misc' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/embedded-cross/app-misc/mdbus/mdbus-9999.ebuild' P='mdbus-9999' PF='mdbus-9999' PN=mdbuspath
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'linux-info'
-
-!!! ERROR: dev-lang/lua-5.1.4-r5 failed.
-Exception in thread Thread-16:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_x-modular
-!!!               ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 179' for eclass linux-info
-
-received unknown com: export CATEGORY='dev-lang' PR=r0 PVR='2.6.4' PV='2.6.4' EBUILD='/home/mgorny/repos/embedded-cross/dev-lang/python/python-2.6.4.ebuild' P='python-2.6.4' PF='python-2.6.4' PN=pythonpath
-Exception in thread Thread-3:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/dev-lang/vala/vala-0.8.1.1.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: sys-mobilephone/fso-specs-2010.05.11.2 failed.
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '174' 'depend'
-!!!             ebuild-daemon.bash, line 427:  Called inherit 'eutils' 'libtool' 'multilib' 'toolchain-funcs' 'flag-o-matic' 'autotools' 'git'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.1.1.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!            vala-0.8.1.1.ebuild, line   7:  Called inherit 'gnome2'
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.2.303
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-7.3
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.0.235
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.1.330
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-editors/vim-core-7.2.442
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: dev-util/strace-4.5.18
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.1.123
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.0.243
-!!! caught exception Metadata Exception: pkg ebuild src: sci-geosciences/fso-gpsd-0.8, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: sci-geosciences/fso-gpsd-0.8
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-drivers/xf86-video-glamo-20100626
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-drivers/xf86-video-glamo-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-drivers/xf86-input-tslib-0.0.5
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-misc/xvkbd-3.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-libs/gtk+-2.14.5
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-terms/vala-terminal-1.1.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-util/strace-4.5.15
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-libs/webkit-efl-0.1_p20090703
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/freesmartphone-framework-0.5.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lang/perl-5.10.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lang/perl-5.8.8-r8
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/freesmartphone-framework-20091021
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/apm2-2.0.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lang/lua-5.1.4-r5
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/fso-abyss-0.9.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/mdbus-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lang/python-2.6.4
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/fsomusicd-0.0.0
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/fso-specs-2010.05.11.2
-!!! caught e!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-
-!!! ERROR: sys-mobilephone/fsoinitd-0.1.0 failed.
-!!!              ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.1.1.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '201' 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '183' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-
-!!! ERROR: sys-mobilephone/fsogsmd-0.5.0 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/dev-lang/perl/perl-5.10.1.ebuild'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'x-modular'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
-!!!  inherit for git failed
+!!!  inherit for vim failed
 
-!!!              ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+
+!!! ERROR: dev-util/vala-dbus-binding-tool-0.1.6 failed.
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.1.1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/dev-lang/perl/perl-5.10.1.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '173' 'depend'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-
-!!! ERROR: sys-mobilephone/fsousaged-0.9.4 failed.
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '245' 'depend'
- * 
- * "/home/mgorny/repos/embedded-cross/sys-mobilephone/freesmartphone-framework/freesmartphone-framework-0.5.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-base/xglamo/xglamo-20081205-r2.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/apm2/apm2-2.0.0.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'x-modular'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-editors/vim-core/vim-core-7.2.442.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/app-misc/mdbus/mdbus-9999.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-
-!!! ERROR: sys-mobilephone/freesmartphone-framework-0.5 failed.
+!!!                 vim-7.3.ebuild, line   7:  Called inherit 'vim'
+!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/x-modular.eclass'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/dev-lang/perl/perl-5.10.1.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '203' 'depend'
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '198' 'depend'
-!!!              ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!     vala-terminal-1.1.1.ebuild, line   5:  Called inherit 'git' 'autotools'
-!!!             perl-5.10.1.ebuild, line   7:  Called inherit 'eutils' 'alternatives' 'flag-o-matic' 'toolchain-funcs' 'multilib'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-base/xglamo/xglamo-20081205-r2.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-
-!!! ERROR: dev-lang/python-2.5.4-r3 failed.
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/apm2/apm2-2.0.0.ebuild'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                      ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-specs/fso-specs-2010.05.11.2.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/app-misc/mdbus/mdbus-9999.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!        vim-core-7.2.442.ebuild, line   6:  Called inherit 'vim'
 !!!                    ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'alternatives'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/dev-lang/lua/lua-5.1.4-r5.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-base/xglamo/xglamo-20081205-r2.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '179' 'depend'
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_x-modular'
+!!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/x-modular.eclass'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '164' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
+!!!                   x-modular.eclass, line  44:  Called inherit 'eutils' 'libtool' 'multilib' 'toolchain-funcs' 'flag-o-matic' 'autotools' 'git'
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_x-modular
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 296' for eclass alternatives
+!!!  unknown inherit command from pythonic side, 'gen_metadata 174' for eclass vim
 
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR=20090704 PV=20090704 EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/freesmartphone-framework/freesmartphone-framework-20090704.ebuild' P='freesmartphone-framework-20090704' PF='freesmartphone-framework-20090704' PN='freesmartphone-framework'path
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-Exception in thread Thread-5:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/apm2/apm2-2.0.0.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsoinitd/fsoinitd-0.1.0.ebuild'
-
-!!! ERROR: x11-terms/vala-terminal-1.2 failed.
-!!!                    ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                      ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-specs/fso-specs-2010.05.11.2.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/dev-lang/lua/lua-5.1.4-r5.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsogsmd/fsogsmd-0.5.0.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '208' 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsoinitd/fsoinitd-0.1.0.ebuild'
-
-!!! ERROR: sys-mobilephone/libframeworkd-phonegui-efl-20090506 failed.
-!!!      xglamo-20081205-r2.ebuild, line   5:  Called inherit 'autotools' 'git' 'toolchain-funcs'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsoinitd/fsoinitd-0.1.0.ebuild'
-!!!                    ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '275' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsogsmd/fsogsmd-0.5.0.ebuild'
-!!!              apm2-2.0.0.ebuild, line   6:  Called inherit 'base' 'git' 'autotools'
-!!!          isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-specs/fso-specs-2010.05.11.2.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/dev-lang/lua/lua-5.1.4-r5.ebuild'
-!!!          fsoinitd-0.1.0.ebuild, line   6:  Called inherit 'cornucopia_git'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '188' 'depend'
-!!!                           ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                    ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!   fso-specs-2010.05.11.2.ebuild, line   6:  Called inherit 'base' 'autotools' 'git'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsogsmd/fsogsmd-0.5.0.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cornucopia_git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-
-!!! ERROR: sys-mobilephone/fso-alsa-1.0.0 failed.
-!!!            lua-5.1.4-r5.ebuild, line   7:  Called inherit 'autotools' 'eutils' 'multilib' 'portability' 'toolchain-funcs' 'versionator'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 210' for eclass git
-
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='0.9.1' PV='0.9.1' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-abyss/fso-abyss-0.9.1.ebuild' P='fso-abyss-0.9.1' PF='fso-abyss-0.9.1' PN='fso-abyss'failed
-Exception in thread Thread-9:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!           fsogsmd-0.5.0.ebuild, line   6:  Called inherit 'cornucopia_git'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsousaged/fsousaged-0.9.4.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                           ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
-!!!                            ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/freesmartphone-framework/freesmartphone-framework-0.5.ebuild'
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cornucopia_git'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
-!!!               ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'portability'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/dev-lang/python/python-2.5.4-r3.ebuild'
-
-!!! ERROR: sys-mobilephone/fsotdld-0.3.0 failed.
-!!!                            ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/freesmartphone-framework/freesmartphone-framework-0.5.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsousaged/fsousaged-0.9.4.ebuild'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 200' for eclass portability
-
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='1.0.0' PV='1.0.0' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-raw/fso-raw-1.0.0.ebuild' P='fso-raw-1.0.0' PF='fso-raw-1.0.0' PN='fso-raw'path
-Exception in thread Thread-6:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!                           ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '306' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/dev-lang/python/python-2.5.4-r3.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '208' 'depend'
-!!!          cornucopia_git.eclass, line   6:  Called inherit 'base' 'git' 'autotools'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '205' 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/freesmartphone-framework/freesmartphone-framework-0.5.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsousaged/fsousaged-0.9.4.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/dev-lang/python/python-2.5.4-r3.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                           ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!   freesmartphone-framework-0.5.ebuild, line   6:  Called inherit 'git'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!         fsousaged-0.9.4.ebuild, line   6:  Called inherit 'cornucopia_git'
-!!!         python-2.5.4-r3.ebuild, line  12:  Called inherit 'autotools' 'eutils' 'flag-o-matic' 'libtool' 'multilib' 'pax-utils' 'python' 'toolchain-funcs' 'versionator'
-!!!                                   ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090506.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-
-!!! ERROR: sys-mobilephone/libfsotransport-0.9.6 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.2.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-alsa/fso-alsa-1.0.0.ebuild'
-!!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '198' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'pax-utils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cornucopia_git'
-!!!          cornucopia_git.eclass, line   6:  Called inherit 'base' 'git' 'autotools'
-!!!                                   ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090506.ebuild'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 266' for eclass pax-utils
-
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR=20090227 PV=20090227 EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-glib/libframeworkd-glib-20090227.ebuild' P='libframeworkd-glib-20090227' PF='libframeworkd-glib-20090227' PN='libframeworkd-glib'path
+received unknown com: export CATEGORY='dev-lang' PR=r0 PVR='5.10.1' PV='5.10.1' EBUILD='/home/mgorny/repos/embedded-cross/dev-lang/perl/perl-5.10.1.ebuild' P='perl-5.10.1' PF='perl-5.10.1' PN=perlfailed
 Exception in thread Thread-1:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -802,44 +327,23 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!                     ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-alsa/fso-alsa-1.0.0.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.2.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!! ERROR: x11-terms/vala-terminal-1.2 failed.
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/app-misc/mdbus/mdbus-9999.ebuild'
+!!!                    ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-alsa/fso-alsa-1.0.0.ebuild'
-
-!!! ERROR: sys-mobilephone/libframeworkd-glib-99999999 failed.
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
-!!!                       isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090506.ebuild'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!          fso-alsa-1.0.0.ebuild, line   6:  Called inherit 'base' 'git' 'autotools'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.2.ebuild'
-!!!          cornucopia_git.eclass, line   6:  Called inherit 'base' 'git' 'autotools'
-
-!!! ERROR: sys-mobilephone/libframeworkd-glib-0.1 failed.
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'base'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!              mdbus-9999.ebuild, line   5:  Called inherit 'git'
+!!!                    ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '261' 'depend'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 286' for eclass base
+!!!  unknown inherit command from pythonic side, 'gen_metadata 173' for eclass vim
 
-!!!       vala-terminal-1.2.ebuild, line   5:  Called inherit 'git' 'autotools'
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR=99999999 PV=99999999 EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui/libframeworkd-phonegui-99999999.ebuild' P='libframeworkd-phonegui-99999999' PF='libframeworkd-phonegui-99999999' PN='libframeworkd-phonegui'path
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsotdld/fsotdld-0.3.0.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+received unknown com: export CATEGORY='dev-lang' PR=r5 PVR='5.1.4-r5' PV='5.1.4' EBUILD='/home/mgorny/repos/embedded-cross/dev-lang/lua/lua-5.1.4-r5.ebuild' P='lua-5.1.4' PF='lua-5.1.4-r5' PN=luafailed
 Exception in thread Thread-2:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -864,162 +368,115 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!   libframeworkd-phonegui-efl-20090506.ebuild, line  24:  Called inherit 'shr'
+!!!             ebuild-daemon.bash, line 427:  Called inherit 'eutils' 'libtool' 'multilib' 'toolchain-funcs' 'flag-o-matic' 'autotools' 'git'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-apps/xdm/xdm-1.1.8.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/dev-lang/vala/vala-0.8.1.1.ebuild'
+
+!!! ERROR: x11-terms/vala-terminal-1.1.1 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!              ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsotdld/fsotdld-0.3.0.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-xception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/fsoinitd-0.1.0
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/fsogsmd-0.5.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lang/python-2.5.4-r3
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/fsousaged-0.9.4
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/freesmartphone-framework-0.5
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lang/vala-0.8.1.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-terms/vala-terminal-1.2
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/libframeworkd-phonegui-efl-20090614
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/freesmartphone-framework-20090704
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/libframeworkd-phonegui-20090506
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/libframeworkd-phonegui-efl-20090506
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/fso-alsa-1.0.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/fsodatad-0.1.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/fsotdld-0.3.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/fso-raw-1.0.0
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/libfsoframework-0.8.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/gsm0710muxd-0.9.3.1
-!!! caught exception Metadata Exception: pkg ebuild src: sys-mobilephone/libfsotransport-0.9.6, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: sys-mobilephone/libfsotransport-0.9.6
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/libframeworkd-glib-20090227
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/libgsm0710mux-0.9.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/libframeworkd-glib-99999999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/libphone-ui-99999999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/libframeworkd-glib-0.1
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/libphone-utils-99999999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/libframeworkd-phonegui-99999999
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/mioctl-0.1.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/libframeworkd-glib-20090614
-!!! caught exception inherit requires an !!!                   ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: sys-mobilephone/libframeworkd-glib-20090614 failed.
-!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'shr'
-!!!              ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 306' for eclass git
-
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR=20090614 PV=20090614 EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090614.ebuild' P='libframeworkd-phonegui-efl-20090614' PF='libframeworkd-phonegui-efl-20090614' PN='libframeworkd-phonegui-efl'failed
-Exception in thread Thread-15:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!                            ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/eclass/shr.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsotdld/fsotdld-0.3.0.ebuild'
-!!!              ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '245' 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '238' 'depend'
-!!!                   ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                   ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                       isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/eclass/shr.eclass'
-!!!           fsotdld-0.3.0.ebuild, line   6:  Called inherit 'cornucopia_git'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                   ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '266' 'depend'
-!!!                                   shr.eclass, line   5:  Called inherit 'autotools' 'eutils' 'git'
-!!!                   ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cornucopia_git'
-!!!                   ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libfsotransport/libfsotransport-0.9.6.ebuild'
-!!!              ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 223' for eclass cornucopia_git
-
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='0.9.9' PV='0.9.9' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/libfsobasics/libfsobasics-0.9.9.ebuild' P='libfsobasics-0.9.9' PF='libfsobasics-0.9.9' PN=libfsobasicspath
-Exception in thread Thread-8:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                            ebuild-daemon.lib, line  35:  Called die
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libfsotransport/libfsotransport-0.9.6.ebuild'
-!!!                      ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-glib/libframeworkd-glib-0.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-apps/xdm/xdm-1.1.8.ebuild'
+!!!                    ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-apps/exalt/exalt-20090706.ebuild'
+!!!                  ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
 
-!!! ERROR: sys-mobilephone/libframeworkd-phonegui-20090724 failed.
+
+!!! ERROR: net-wireless/wmiconfig-9999 failed.
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/dev-lang/vala/vala-0.8.1.1.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                           ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-glib/libframeworkd-glib-99999999.ebuild'
-!!!                   ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '266' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libfsotransport/libfsotransport-0.9.6.ebuild'
-!!!                      ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-glib/libframeworkd-glib-0.1.ebuild'
-!!!   libfsotransport-0.9.6.ebuild, line   6:  Called inherit 'cornucopia_git'
-!!!                       ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cornucopia_git'
-!!!          isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-glib/libframeworkd-glib-0.1.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                            ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/dev-util/vala-dbus-binding-tool/vala-dbus-binding-tool-0.1.6.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '208' 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-apps/xdm/xdm-1.1.8.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/dev-lang/vala/vala-0.8.1.1.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.2.303
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.0.235
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.0.243
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.1.123
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.1.330
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-drivers/xf86-video-glamo-20100626
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-drivers/xf86-video-glamo-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-editors/vim-core-7.2.442
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-editors/vim-7.3
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: dev-lang/lua-5.1.4-r5
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: dev-lang/perl-5.10.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-libs/gtk+-2.14.5
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-misc/mdbus-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-misc/xvkbd-3.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-geosciences/fso-gpsd-0.8
+!!! caught exception Metadata Exception: pkg ebuild src: x11-apps/exalt-20090706, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: x11-apps/exalt-20090706
+!!! caught exception Metadata Exception: pkg ebuild src: x11-apps/xdm-1.1.8, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: x11-apps/xdm-1.1.8
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-util/strace-4.5.18
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-util/vala-dbus-binding-tool-0.1.6
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/freesmartphone-framework-0.5.5
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-lang/perl-5.8.8-r9
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/freesmartphone-framework-20090704
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-lang/perl-5.8.8-r8
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-terms/vala-terminal-1.1.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-libs/webkit-efl-0.1_p20090703
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-wireless/wmiconfig-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-libs/gnutls-2.8.6
+!!! caught exception Metadata Exception: pkg ebuild src: sys-mobilephone/fso-specs-2010.05.11.2, attr eapi
+error: p!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-apps/exalt/exalt-20090706.ebuild'
+!!!                            ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/dev-util/vala-dbus-binding-tool/vala-dbus-binding-tool-0.1.6.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: sys-mobilephone/fso-specs-2010.05.11.2 failed.
+
+!!! ERROR: sys-mobilephone/fso-alsa-1.0.0 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!               xdm-1.1.8.ebuild, line   8:  Called inherit 'multilib' 'x-modular' 'pam'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'x-modular'
+
+!!! ERROR: sys-mobilephone/fsodatad-0.1.0 failed.
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '218' 'depend'
+!!!            vala-0.8.1.1.ebuild, line   7:  Called inherit 'gnome2'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-apps/exalt/exalt-20090706.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 213' for eclass cornucopia_git
+!!!  unknown inherit command from pythonic side, 'gen_metadata 245' for eclass x-modular
 
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='1.2.1' PV='1.2.1' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/libgsm0710/libgsm0710-1.2.1.ebuild' P='libgsm0710-1.2.1' PF='libgsm0710-1.2.1' PN=libgsm0710path
-Exception in thread Thread-7:
+received unknown com: export CATEGORY='x11-wm' PR=r0 PVR='0.16.999.062' PV='0.16.999.062' EBUILD='/home/mgorny/repos/embedded-cross/x11-wm/enlightenment/enlightenment-0.16.999.062.ebuild' P='enlightenment-0.16.999.062' PF='enlightenment-0.16.999.062' PN=enlightenmentpath
+Exception in thread Thread-5:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -1043,24 +500,34 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!                           ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-glib/libframeworkd-glib-99999999.ebuild'
-!!!                       ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                   ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!   libframeworkd-glib-0.1.ebuild, line   5:  Called inherit 'git' 'autotools'
-!!!               isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-glib/libframeworkd-glib-99999999.ebuild'
-!!!                           ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-glib/libframeworkd-glib-20090614.ebuild'
-!!!                       ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '286' 'depend'
-!!!                           ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-glib/libframeworkd-glib-20090614.ebuild'
-!!!               isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-glib/libframeworkd-glib-20090614.ebuild'
-!!!   libframeworkd-glib-99999999.ebuild, line   6:  Called inherit 'base' 'git' 'autotools'
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!         ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                    ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 231' for eclass git
+!!!                isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/dev-util/vala-dbus-binding-tool/vala-dbus-binding-tool-0.1.6.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!          exalt-20090706.ebuild, line   7:  Called inherit 'enlightenment_svn'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.2.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '193' 'depend'
+!!!   vala-dbus-binding-tool-0.1.6.ebuild, line   6:  Called inherit 'base'
+!!!              ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.2.ebuild'
 
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR=99999999 PV=99999999 EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/libphone-ui/libphone-ui-99999999.ebuild' P='libphone-ui-99999999' PF='libphone-ui-99999999' PN='libphone-ui'failed
-Exception in thread Thread-10:
+!!! ERROR: sys-mobilephone/apm2-2.0.0 failed.
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'enlightenment_svn'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit 'base'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 254' for eclass enlightenment_svn
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.2.ebuild'
+received unknown com: export CATEGORY='x11-wm' PR=r1 PVR='0.16.999.061-r1' PV='0.16.999.061' EBUILD='/home/mgorny/repos/embedded-cross/x11-wm/enlightenment/enlightenment-0.16.999.061-r1.ebuild' P='enlightenment-0.16.999.061' PF='enlightenment-0.16.999.061-r1' PN=enlightenmentpath
+Exception in thread Thread-3:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -1084,13 +551,14 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!                       ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!               ebuild-daemon.lib, line  37:  Called die
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.1.1.ebuild'
+!!!                     ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 246' for eclass git
+!!!  unknown inherit command from pythonic side, 'gen_metadata 201' for eclass base
 
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR=99999999 PV=99999999 EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/libphone-utils/libphone-utils-99999999.ebuild' P='libphone-utils-99999999' PF='libphone-utils-99999999' PN='libphone-utils'failed
-Exception in thread Thread-11:
+received unknown com: export CATEGORY='x11-base' PR=r2 PVR='20081205-r2' PV=20081205 EBUILD='/home/mgorny/repos/embedded-cross/x11-base/xglamo/xglamo-20081205-r2.ebuild' P='xglamo-20081205' PF='xglamo-20081205-r2' PN=xglamopath
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+Exception in thread Thread-6:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -1114,14 +582,51 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!   libframeworkd-glib-20090614.ebuild, line   5:  Called inherit 'git' 'autotools'
-!!!                               ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui/libframeworkd-phonegui-20090724.ebuild'
-!!!         ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                    ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 193' for eclass git
+!!!              ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '245' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='1.9.0' PV='1.9.0' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/mterm2/mterm2-1.9.0.ebuild' P='mterm2-1.9.0' PF='mterm2-1.9.0' PN=mterm2failed
+!!! ERROR: sys-mobilephone/fsotdld-0.3.0 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!       vala-terminal-1.2.ebuild, line   5:  Called inherit 'git' 'autotools'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '205' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/net-wireless/wmiconfig/wmiconfig-9999.ebuild'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '203' 'depend'
+ * 
+ * "/home/mgorny/repos/embedded-cross/sys-mobilephone/freesmartphone-framework/freesmartphone-framework-0.5.1.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.1.1.ebuild'
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!              ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+
+!!! ERROR: sys-mobilephone/freesmartphone-framework-0.5.1 failed.
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '183' 'depend'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/x11-terms/vala-terminal/vala-terminal-1.1.1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+
+!!! ERROR: sys-mobilephone/fsousaged-0.9.4 failed.
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 285' for eclass git
+
+received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='0.5.5' PV='0.5.5' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/freesmartphone-framework/freesmartphone-framework-0.5.5.ebuild' P='freesmartphone-framework-0.5.5' PF='freesmartphone-framework-0.5.5' PN='freesmartphone-framework'failed
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!     vala-terminal-1.1.1.ebuild, line   5:  Called inherit 'git' 'autotools'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/net-wireless/wmiconfig/wmiconfig-9999.ebuild'
 Exception in thread Thread-4:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -1146,16 +651,48 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!                               ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui/libframeworkd-phonegui-20090724.ebuild'
-!!!                   isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui/libframeworkd-phonegui-20090724.ebuild'
-!!!   libframeworkd-phonegui-20090724.ebuild, line   5:  Called inherit 'shr'
-!!!             ebuild-default-functions.lib, line 230:  Called __internal_inherit 'shr'
-!!!                        ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 219' for eclass shr
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                      ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-alsa/fso-alsa-1.0.0.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsodatad/fsodatad-0.1.0.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/net-wireless/wmiconfig/wmiconfig-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 
-received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR=99999999 PV=99999999 EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/phonefsod/phonefsod-99999999.ebuild' P='phonefsod-99999999' PF='phonefsod-99999999' PN=phonefsodpath
-Exception in thread Thread-12:
+!!! ERROR: sys-mobilephone/libframeworkd-phonegui-efl-20090614 failed.
+!!!                      ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-specs/fso-specs-2010.05.11.2.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '198' 'depend'
+!!!          wmiconfig-9999.ebuild, line   5:  Called inherit 'subversion' 'toolchain-funcs'
+
+!!! ERROR: sys-mobilephone/fso-abyss-0.9.1 failed.
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-alsa/fso-alsa-1.0.0.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsodatad/fsodatad-0.1.0.ebuild'
+!!!                      ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-specs/fso-specs-2010.05.11.2.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!          isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-specs/fso-specs-2010.05.11.2.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/apm2/apm2-2.0.0.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'subversion'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '208' 'depend'
+!!!                      ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                           ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-alsa/fso-alsa-1.0.0.ebuild'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 200' for eclass subversion
+
+received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='1.0.0' PV='1.0.0' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-raw/fso-raw-1.0.0.ebuild' P='fso-raw-1.0.0' PF='fso-raw-1.0.0' PN='fso-raw'path
+Exception in thread Thread-9:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -1179,27 +716,495 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/mterm2-1.9.0
+!!!   fso-specs-2010.05.11.2.ebuild, line   6:  Called inherit 'base' 'autotools' 'git'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsodatad/fsodatad-0.1.0.ebuild'
+!!!                      ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '285' 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/apm2/apm2-2.0.0.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                           ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                      ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsotdld/fsotdld-0.3.0.ebuild'
+!!!          fsodatad-0.1.0.ebuild, line   6:  Called inherit 'cornucopia_git'
+!!!          fso-alsa-1.0.0.ebuild, line   6:  Called inherit 'base' 'git' 'autotools'
+!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'base'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsousaged/fsousaged-0.9.4.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/apm2/apm2-2.0.0.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '210' 'depend'
+!!!                           ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '306' 'depend'
+!!!               ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 198' for eclass base
+
+received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='0.5.0' PV='0.5.0' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/fsogsmd/fsogsmd-0.5.0.ebuild' P='fsogsmd-0.5.0' PF='fsogsmd-0.5.0' PN=fsogsmdpath
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'base'
+!!!                              ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/freesmartphone-framework/freesmartphone-framework-0.5.1.ebuild'
+Exception in thread Thread-13:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cornucopia_git'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsotdld/fsotdld-0.3.0.ebuild'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 213' for eclass base
+
+received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='0.9.4' PV='0.9.4' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/fsodeviced/fsodeviced-0.9.4.ebuild' P='fsodeviced-0.9.4' PF='fsodeviced-0.9.4' PN=fsodevicedpath
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!              apm2-2.0.0.ebuild, line   6:  Called inherit 'base' 'git' 'autotools'
+!!!                           ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsousaged/fsousaged-0.9.4.ebuild'
+!!!                              ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/freesmartphone-framework/freesmartphone-framework-0.5.1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsotdld/fsotdld-0.3.0.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsousaged/fsousaged-0.9.4.ebuild'
+!!!                                   ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090614.ebuild'
+!!!                  isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/freesmartphone-framework/freesmartphone-framework-0.5.1.ebuild'
+!!!           fsotdld-0.3.0.ebuild, line   6:  Called inherit 'cornucopia_git'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-abyss/fso-abyss-0.9.1.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!                                   ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090614.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cornucopia_git'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-abyss/fso-abyss-0.9.1.ebuild'
+!!!         fsousaged-0.9.4.ebuild, line   6:  Called inherit 'cornucopia_git'
+!!!   freesmartphone-framework-0.5.1.ebuild, line   6:  Called inherit 'git'
+
+!!! ERROR: sys-mobilephone/libphone-ui-shr-99999999 failed.
+!!!          cornucopia_git.eclass, line   6:  Called inherit 'base' 'git' 'autotools'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
+!!!                       isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090614.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cornucopia_git'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fso-abyss/fso-abyss-0.9.1.ebuild'
+!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                       ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
+!!!         fso-abyss-0.9.1.ebuild, line   6:  Called inherit 'base' 'git' 'autotools'
+!!!                ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
+
+!!! ERROR: sys-mobilephone/libframeworkd-phonegui-efl-20090724 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!   libframeworkd-phonegui-efl-20090614.ebuild, line   8:  Called inherit 'shr'
+
+!!! ERROR: sys-mobilephone/fsoinitd-0.1.0 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/eclass/cornucopia_git.eclass'
+!!!          cornucopia_git.eclass, line   6:  Called inherit 'base' 'git' 'autotools'
+!!!                ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                           ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'base'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!          cornucopia_git.eclass, line   6:  Called inherit 'base' 'git' 'autotools'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 255' for eclass base
+
+received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='2010.05.11.2' PV='2010.05.11.2' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/libfso-glib/libfso-glib-2010.05.11.2.ebuild' P='libfso-glib-2010.05.11.2' PF='libfso-glib-2010.05.11.2' PN='libfso-glib'path
+arsed eapi '2' doesn't match sourced eapi '3' while processing ebuild src: sys-mobilephone/fso-specs-2010.05.11.2
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/fsodatad-0.1.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-wm/enlightenment-0.16.999.062
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/fsomusicd-0.0.0
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/apm2-2.0.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-wm/enlightenment-0.16.999.061-r1
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/libframeworkd-glib-0.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-base/xglamo-20081205-r2
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/libframeworkd-glib-20090614
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/fsotdld-0.3.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-lang/vala-0.8.1.1
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/freesmartphone-framework-0.5.1
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/fsousaged-0.9.4
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/freesmartphone-framework-0.5
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/libframeworkd-phonegui-20090614
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/libframeworkd-phonegui-efl-20090614
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/fso-abyss-0.9.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/fso-raw-1.0.0
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/libfsobasics-0.9.9
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/fsogsmd-0.5.0
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/libfsoresource-0.1.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/fsodeviced-0.9.4
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/libgsm0710-1.2.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/gsm0710muxd-0.9.3.1
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-mobilephone/libphone-ui-99999999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-mobilephone/libframeworkd-phonegui-efl-20090724
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/libfsobasics-0.9.9
+!!! caught exception False while processing ebuild src: sys-mobilephone/fsoinitd-0.1.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/libfso-glib-2010.05.11.2
+!!! caught exception ("Expected command; Exception in thread Thread-12:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!                ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '251' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                           ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'shr'
+
+!!! ERROR: sys-mobilephone/libframeworkd-phonegui-efl-20090506 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!                ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+
+!!! ERROR: sys-mobilephone/libframeworkd-phonegui-20090506 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                           ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '306' 'depend'
+!!!                            ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/eclass/shr.eclass'
+!!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libphone-ui-shr/libphone-ui-shr-99999999.ebuild'
+!!!                           ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                       isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/eclass/shr.eclass'
+!!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libphone-ui-shr/libphone-ui-shr-99999999.ebuild'
+!!!                                   shr.eclass, line   5:  Called inherit 'autotools' 'eutils' 'git'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '203' 'depend'
+!!!                           ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                       ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                           ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                                   ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090724.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libphone-ui-shr/libphone-ui-shr-99999999.ebuild'
+!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                       ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                            ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!                           ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '306' 'depend'
+!!!                                   ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090724.ebuild'
+
+!!! ERROR: sys-mobilephone/libframeworkd-phonegui-99999999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsoinitd/fsoinitd-0.1.0.ebuild'
+!!!                           ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                       isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090724.ebuild'
+!!!   libphone-ui-shr-99999999.ebuild, line   5:  Called inherit 'git' 'autotools'
+!!!                       ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '286' 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsoinitd/fsoinitd-0.1.0.ebuild'
+!!!   libframeworkd-phonegui-efl-20090724.ebuild, line   5:  Called inherit 'shr'
+!!!                       ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                                   ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090506.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/fsoinitd/fsoinitd-0.1.0.ebuild'
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'shr'
+!!!                            ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 246' for eclass shr
+
+received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR=99999999 PV=99999999 EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/libphone-utils/libphone-utils-99999999.ebuild' P='libphone-utils-99999999' PF='libphone-utils-99999999' PN='libphone-utils'path
+Exception in thread Thread-8:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!                 ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 231' for eclass git
+
+received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR=99999999 PV=99999999 EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/libphone-ui/libphone-ui-99999999.ebuild' P='libphone-ui-99999999' PF='libphone-ui-99999999' PN='libphone-ui'failed
+!!!          fsoinitd-0.1.0.ebuild, line   6:  Called inherit 'cornucopia_git'
+Exception in thread Thread-10:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!                       ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                       ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                                   ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090506.ebuild'
+!!!                       ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '286' 'depend'
+!!!                       isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui-efl/libframeworkd-phonegui-efl-20090506.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cornucopia_git'
+!!!   libframeworkd-phonegui-efl-20090506.ebuild, line  24:  Called inherit 'shr'
+!!!                       ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                               ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui/libframeworkd-phonegui-20090506.ebuild'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 193' for eclass cornucopia_git
+
+received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='2.0.1' PV='2.0.1' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/mdbus2/mdbus2-2.0.1.ebuild' P='mdbus2-2.0.1' PF='mdbus2-2.0.1' PN=mdbus2path
+Exception in thread Thread-16:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!                               ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui/libframeworkd-phonegui-99999999.ebuild'
+!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'shr'
+!!!                            ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 193' for eclass shr
+
+received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR='1.9.0' PV='1.9.0' EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/mterm2/mterm2-1.9.0.ebuild' P='mterm2-1.9.0' PF='mterm2-1.9.0' PN=mterm2path
+!!!                               ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui/libframeworkd-phonegui-99999999.ebuild'
+Exception in thread Thread-15:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!                   isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui/libframeworkd-phonegui-99999999.ebuild'
+!!!                               ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui/libframeworkd-phonegui-20090506.ebuild'
+!!!   libframeworkd-phonegui-99999999.ebuild, line  20:  Called inherit 'shr'
+!!!             ebuild-default-functions.lib, line 230:  Called __internal_inherit 'shr'
+!!!                        ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 224' for eclass shr
+
+received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR=20090614 PV=20090614 EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/ophonekitd/ophonekitd-20090614.ebuild' P='ophonekitd-20090614' PF='ophonekitd-20090614' PN=ophonekitdpath
+!!!                   isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/embedded-cross/sys-mobilephone/libframeworkd-phonegui/libframeworkd-phonegui-20090506.ebuild'
+Exception in thread Thread-7:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!   libframeworkd-phonegui-20090506.ebuild, line  21:  Called inherit 'shr'
+!!!             ebuild-default-functions.lib, line 230:  Called __internal_inherit 'shr'
+!!!                        ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 224' for eclass shr
+
+received unknown com: export CATEGORY='sys-mobilephone' PR=r0 PVR=20090506 PV=20090506 EBUILD='/home/mgorny/repos/embedded-cross/sys-mobilephone/ophonekitd/ophonekitd-20090506.ebuild' P='ophonekitd-20090506' PF='ophonekitd-20090506' PN=ophonekitdpath
+Exception in thread Thread-14:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/mioctl-0.1.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/libframeworkd-phonegui-efl-20090506
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/libframeworkd-phonegui-20090506
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/libframeworkd-phonegui-99999999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/libphone-utils-99999999
 !!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/ophonekitd-20090724
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/libframeworkd-phonegui-20090724
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/libgsm0710-1.2.1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/phoneui-apps-99999999
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-mobilephone/libphone-utils-20090724
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/pyphonelog-20090901
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/phonefsod-99999999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-mobilephone/mdbus2-2.0.1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/serial_forward-1.2
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/phoneuid-99999999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/mterm2-1.9.0
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/pyphonelog-99999999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-mobilephone/ophonekitd-20090614
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/shr-contacts-20090506
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-mobilephone/ophonekitd-20090506
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-mobilephone/phonefsod-99999999
 !!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-mobilephone/shr-contacts-20090724
 Error running an operation:
  Unhandled exception in regen_cache

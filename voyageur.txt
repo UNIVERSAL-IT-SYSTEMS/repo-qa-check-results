@@ -9,7 +9,18 @@
  'status': 'official'}
 $ pmaint sync voyageur
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://cafarelli.fr/git/voyageur-overlay
+   a8fc4aa..c8fe239  master     -> origin/master
+Updating a8fc4aa..c8fe239
+Fast-forward
+ dev-python/robobrowser/Manifest                     |  5 ++---
+ .../robobrowser/files/robobrowser-0.5.1-pip_6.patch | 21 ---------------------
+ ...rowser-0.5.1.ebuild => robobrowser-0.5.3.ebuild} | 11 ++---------
+ .../{robobrowser-0.5.1 => robobrowser-0.5.3}        |  6 +++---
+ 4 files changed, 7 insertions(+), 36 deletions(-)
+ delete mode 100644 dev-python/robobrowser/files/robobrowser-0.5.1-pip_6.patch
+ rename dev-python/robobrowser/{robobrowser-0.5.1.ebuild => robobrowser-0.5.3.ebuild} (74%)
+ rename metadata/md5-cache/dev-python/{robobrowser-0.5.1 => robobrowser-0.5.3} (78%)
 *** syncing voyageur
 *** synced voyageur
  * Sync succeeded
