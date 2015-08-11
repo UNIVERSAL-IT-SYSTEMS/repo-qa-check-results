@@ -16,20 +16,8 @@
             {'type': 'git', 'uri': 'git@github.com:gentoo-science/sci.git'}],
  'status': 'official'}
 $ pmaint sync science
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jkolo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/sci
-   c2efa30..444c8b6  master     -> origin/master
-Updating c2efa30..444c8b6
-Fast-forward
- sci-libs/asl/ChangeLog                             |  8 ++++
- sci-libs/asl/Manifest                              |  1 -
- sci-libs/asl/asl-0.1.5.ebuild                      | 44 +---------------------
- sci-libs/asl/{asl-0.1.4.ebuild => asl-9999.ebuild} | 39 ++++++-------------
- 4 files changed, 20 insertions(+), 72 deletions(-)
- mode change 100644 => 120000 sci-libs/asl/asl-0.1.5.ebuild
- rename sci-libs/asl/{asl-0.1.4.ebuild => asl-9999.ebuild} (50%)
+Already up-to-date.
 *** syncing science
 *** synced science
  * Sync succeeded
