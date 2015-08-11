@@ -14,13 +14,15 @@
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/gentoo-haskell/gentoo-haskell
-   a671214..0e547ab  master     -> origin/master
-Updating a671214..0e547ab
+   0e547ab..35da90c  master     -> origin/master
+Updating 0e547ab..35da90c
 Fast-forward
- dev-haskell/unixutils/Manifest                                          | 2 +-
- .../unixutils/{unixutils-1.53.ebuild => unixutils-1.54.1.ebuild}        | 2 +-
- 2 files changed, 2 insertions(+), 2 deletions(-)
- rename dev-haskell/unixutils/{unixutils-1.53.ebuild => unixutils-1.54.1.ebuild} (94%)
+ dev-haskell/vty/Manifest                           |  2 +-
+ .../files/vty-5.2.9-disable-mock-input-tests.patch | 38 ----------------------
+ .../vty/{vty-5.2.10.ebuild => vty-5.2.11.ebuild}   |  5 ---
+ 3 files changed, 1 insertion(+), 44 deletions(-)
+ delete mode 100644 dev-haskell/vty/files/vty-5.2.9-disable-mock-input-tests.patch
+ rename dev-haskell/vty/{vty-5.2.10.ebuild => vty-5.2.11.ebuild} (93%)
 *** syncing haskell
 *** synced haskell
  * Sync succeeded

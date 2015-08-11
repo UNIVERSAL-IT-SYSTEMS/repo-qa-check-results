@@ -12,8 +12,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://git.calculate.ru/calculate/overlay
-   7e6f2d6..09c954d  update     -> origin/update
-Already up-to-date.
+   7e6f2d6..09c954d  master     -> origin/master
+Updating 7e6f2d6..09c954d
+Fast-forward
+ .../ati-drivers/{kernel3.18.20_15.7.patch => kernel3.18.20_15.1.patch}  | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ rename profiles/templates/3.3/6_ac_install_patch/x11-drivers/ati-drivers/{kernel3.18.20_15.7.patch => kernel3.18.20_15.1.patch} (97%)
 *** syncing calculate
 *** synced calculate
  * Sync succeeded
