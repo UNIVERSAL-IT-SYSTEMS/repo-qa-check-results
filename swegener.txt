@@ -7,7 +7,11 @@
              'uri': 'rsync://rsync.gentoo.stealer.net/swegener-overlay/'}],
  'status': 'official'}
 $ pmaint sync swegener
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Welcome To
         ____ _____ _____    _    _     _____ ____               _
@@ -43,7 +47,7 @@ Total bytes sent: 259
 Total bytes received: 26.27K
 
 sent 259 bytes  received 26.27K bytes  10.61K bytes/sec
-total size is 1.22M  speedup is 46.09
+total size is 1.22M  speedup is 46.08
 *** syncing swegener
 *** synced swegener
  * Sync succeeded
