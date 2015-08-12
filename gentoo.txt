@@ -16,7 +16,15 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   a07c143..4ed878b  master     -> origin/master
+Updating a07c143..4ed878b
+Fast-forward
+ sys-kernel/dracut/dracut-043-r1.ebuild             | 276 +++++++++++++++++++++
+ ...01-Revert-lvm-Don-t-activate-LVs-with-act.patch |  33 +++
+ 2 files changed, 309 insertions(+)
+ create mode 100644 sys-kernel/dracut/dracut-043-r1.ebuild
+ create mode 100644 sys-kernel/dracut/files/043-0001-Revert-lvm-Don-t-activate-LVs-with-act.patch
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
