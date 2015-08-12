@@ -16,7 +16,14 @@
 $ pmaint sync heather
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Heather/gentoo-heather
+   ab77d21..e2b5c26  master     -> origin/master
+Updating ab77d21..e2b5c26
+Fast-forward
+ sys-kernel/dkms/dkms-2.2.0.0.ebuild    | 6 +++---
+ sys-kernel/gentoo-sources/metadata.xml | 4 ++++
+ x11-libs/rep-gtk/rep-gtk-9999.ebuild   | 6 +++---
+ 3 files changed, 10 insertions(+), 6 deletions(-)
 *** syncing heather
 *** synced heather
  * Sync succeeded
