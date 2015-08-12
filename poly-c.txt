@@ -39,7 +39,7 @@ receiving incremental file list
 timestamp.chk
 
 Number of files: 1 (reg: 1)
-Number of created files: 0
+Number of created files: 1 (reg: 1)
 Number of deleted files: 0
 Number of regular files transferred: 1
 Total file size: 32 bytes
@@ -52,113 +52,8 @@ File list transfer time: 0.000 seconds
 Total bytes sent: 85
 Total bytes received: 133
 
-sent 85 bytes  received 133 bytes  87.20 bytes/sec
+sent 85 bytes  received 133 bytes  48.44 bytes/sec
 total size is 32  speedup is 0.15
--------------------------------------------------------------------------------
-| Welcome to rsync on gentoofan.no-ip.org:873                                 |
-| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
-| Thus this server only has a dynamic IP I cannot stat it here.               |
--------------------------------------------------------------------------------
-
-  ,-~~-.___.
- / |  '     \
-(  )        0
- \_/-, ,----'
-    ====           //
-   /  \-'~;    /~~~(O)
-  /  __/~|   /       |
-=(  _____| (_________|
-
- server specs:
-    -CPU		Intel Atom-330 (2x 1,6 GHz)
-    -RAM		2048 MB PC2-533
-    -OS			Gentoo GNU/Linux (Kernel 3.x)
-    -BANDWIDTH		ADSL (16000/1024)
-    -LIMIT		3 users (concurrently)
-    -LOCATION		Ludwigshafen / Germany
-    -CONTACT		polynomial-c@gentoo.org
-
--------------------------------------------------------------------------------
-
-receiving incremental file list
-dev-util/kdevplatform/
-dev-util/kdevplatform/Manifest
-dev-util/kdevplatform/kdevplatform-1.7.1.ebuild
-media-sound/clementine/
-media-sound/clementine/Manifest
-media-sound/clementine/clementine-1.2.3.ebuild
-metadata/
-metadata/timestamp.chk
-metadata/md5-cache/app-admin/
-metadata/md5-cache/app-admin/winetools-0.9_pre
-metadata/md5-cache/app-misc/
-metadata/md5-cache/app-misc/kenny-0.1
-metadata/md5-cache/dev-util/
-metadata/md5-cache/dev-util/kdevplatform-1.7.1
-metadata/md5-cache/media-sound/
-metadata/md5-cache/media-sound/alsa-driver-1.0.24.47_pre
-metadata/md5-cache/media-sound/alsa-driver-1.0.24_pre
-metadata/md5-cache/media-sound/alsa-driver-1.0.25_pre
-metadata/md5-cache/media-sound/ameter-0.44_pre
-metadata/md5-cache/media-sound/clementine-1.2.3
-metadata/md5-cache/media-sound/idjc-0.8.14_pre
-metadata/md5-cache/media-sound/qamix-0.0.7e_pre
-metadata/md5-cache/media-video/
-metadata/md5-cache/media-video/tragtor-0.8.45
-metadata/md5-cache/net-analyzer/
-metadata/md5-cache/net-analyzer/arpalert-1.0.3_pre
-metadata/md5-cache/net-analyzer/arpalert-1.1.3_pre
-metadata/md5-cache/net-analyzer/arpalert-2.0.11_pre
-metadata/md5-cache/net-dialup/
-metadata/md5-cache/net-dialup/mingetty-1.08
-metadata/md5-cache/net-dns/
-metadata/md5-cache/net-dns/noip-updater-1.6
-metadata/md5-cache/net-irc/
-metadata/md5-cache/net-irc/sbnc-1.1_pre
-metadata/md5-cache/net-irc/sbnc-1.2_pre
-metadata/md5-cache/net-misc/
-metadata/md5-cache/net-misc/openssh-6.9_p1-r2
-metadata/md5-cache/net-print/
-metadata/md5-cache/net-print/hplip-3.15.6
-metadata/md5-cache/net-print/hplip-3.15.7
-metadata/md5-cache/sys-devel/
-metadata/md5-cache/sys-devel/binutils-config-3-r3
-metadata/md5-cache/sys-libs/
-metadata/md5-cache/sys-libs/glibc-2.17
-metadata/md5-cache/sys-libs/glibc-2.18-r1
-metadata/md5-cache/sys-libs/glibc-2.19
-metadata/md5-cache/sys-libs/glibc-2.19-r1
-metadata/md5-cache/www-client/
-metadata/md5-cache/www-client/seamonkey-2.33.1-r1
-net-misc/openssh/
-net-misc/openssh/Manifest
-net-misc/openssh/openssh-6.9_p1-r2.ebuild
-net-misc/wicd/
-net-print/hplip/
-net-print/hplip/Manifest
-net-print/hplip/hplip-3.15.6.ebuild
-net-print/hplip/hplip-3.15.7.ebuild
-www-client/seamonkey/
-www-client/seamonkey/Manifest
-www-client/seamonkey/seamonkey-2.33.1-r1.ebuild
-deleting metadata/.tmp.timestamp.chk
-
-Number of files: 1,134 (reg: 855, dir: 279)
-Number of created files: 0
-Number of deleted files: 1 (reg: 1)
-Number of regular files transferred: 39
-Total file size: 3.17M bytes
-Total transferred file size: 136.34K bytes
-Literal data: 136.34K bytes
-Matched data: 0 bytes
-File list size: 33.06K
-File list generation time: 0.001 seconds
-File list transfer time: 0.000 seconds
-Total bytes sent: 1.26K
-Total bytes received: 98.31K
-
-sent 1.26K bytes  received 98.31K bytes  28.45K bytes/sec
-total size is 3.17M  speedup is 31.79
 *** syncing poly-c
 *** synced poly-c
  * Sync succeeded
