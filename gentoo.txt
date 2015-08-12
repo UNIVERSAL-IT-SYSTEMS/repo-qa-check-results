@@ -16,7 +16,34 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   b8c6db7..f0a2781  master     -> origin/master
+Updating b8c6db7..f0a2781
+Fast-forward
+ .../kdeplasma-addons-4.14.3.ebuild                 |   9 +-
+ kde-base/kdeplasma-addons/metadata.xml             |   1 -
+ kde-base/perlkde/metadata.xml                      |   1 -
+ kde-base/perlkde/perlkde-4.14.3.ebuild             |   9 +-
+ kde-base/plasma-workspace/metadata.xml             |   1 -
+ .../plasma-workspace-4.11.14.ebuild                |  14 +--
+ .../plasma-workspace-4.11.19.ebuild                |  13 +--
+ .../plasma-workspace-4.11.21.ebuild                |  13 +--
+ kde-base/pykde4/metadata.xml                       |   1 -
+ kde-base/pykde4/pykde4-4.14.3.ebuild               |  13 ++-
+ kde-base/smokekde/metadata.xml                     |   1 -
+ kde-base/smokekde/smokekde-4.14.3.ebuild           |   7 +-
+ x11-plugins/wmcliphist/Manifest                    |   2 -
+ .../wmcliphist/files/wmcliphist-0.6-Makefile.patch |  47 ---------
+ .../files/wmcliphist-0.6-fix-docking.patch         | 107 ---------------------
+ x11-plugins/wmcliphist/wmcliphist-0.6-r1.ebuild    |  36 -------
+ x11-plugins/wmcliphist/wmcliphist-1.0.ebuild       |  32 ------
+ x11-plugins/wmcliphist/wmcliphist-2.1-r1.ebuild    |  35 +++++++
+ 18 files changed, 65 insertions(+), 277 deletions(-)
+ delete mode 100644 x11-plugins/wmcliphist/files/wmcliphist-0.6-Makefile.patch
+ delete mode 100644 x11-plugins/wmcliphist/files/wmcliphist-0.6-fix-docking.patch
+ delete mode 100644 x11-plugins/wmcliphist/wmcliphist-0.6-r1.ebuild
+ delete mode 100644 x11-plugins/wmcliphist/wmcliphist-1.0.ebuild
+ create mode 100644 x11-plugins/wmcliphist/wmcliphist-2.1-r1.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
