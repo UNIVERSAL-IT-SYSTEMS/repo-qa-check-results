@@ -13,7 +13,15 @@
  'status': 'unofficial'}
 $ pmaint sync elementary
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/pimvullers/elementary
+   d893268..7550ea2  master     -> origin/master
+Updating d893268..7550ea2
+Fast-forward
+ pantheon-base/pantheon-files/Manifest                               | 6 +++---
+ .../{pantheon-files-0.2.2.ebuild => pantheon-files-0.2.2.1.ebuild}  | 1 +
+ pantheon-base/pantheon-files/pantheon-files-9999.ebuild             | 1 +
+ 3 files changed, 5 insertions(+), 3 deletions(-)
+ rename pantheon-base/pantheon-files/{pantheon-files-0.2.2.ebuild => pantheon-files-0.2.2.1.ebuild} (98%)
 *** syncing elementary
 *** synced elementary
  * Sync succeeded
