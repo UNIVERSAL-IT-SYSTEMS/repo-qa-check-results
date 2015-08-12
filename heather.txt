@@ -17,13 +17,73 @@ $ pmaint sync heather
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/Heather/gentoo-heather
-   ab77d21..e2b5c26  master     -> origin/master
-Updating ab77d21..e2b5c26
+   e2b5c26..1c2a154  master     -> origin/master
+Updating e2b5c26..1c2a154
 Fast-forward
- sys-kernel/dkms/dkms-2.2.0.0.ebuild    | 6 +++---
- sys-kernel/gentoo-sources/metadata.xml | 4 ++++
- x11-libs/rep-gtk/rep-gtk-9999.ebuild   | 6 +++---
- 3 files changed, 10 insertions(+), 6 deletions(-)
+ dev-util/cmake/Manifest                            |   1 -
+ dev-util/cmake/cmake-3.2.0.ebuild                  | 186 ---------------------
+ dev-util/cmake/files/50cmake-gentoo.el             |   4 -
+ .../files/cmake-2.6.3-fix_broken_lfs_on_aix.patch  |  39 -----
+ .../files/cmake-2.6.3-no-duplicates-in-rpath.patch |  19 ---
+ .../cmake/files/cmake-2.8.10-darwin-bundle.patch   |  23 ---
+ .../cmake/files/cmake-2.8.10-darwin-isysroot.patch |  50 ------
+ dev-util/cmake/files/cmake-2.8.10-desktop.patch    |  13 --
+ dev-util/cmake/files/cmake-2.8.10-libform.patch    |  51 ------
+ .../files/cmake-2.8.10.2-FindPythonInterp.patch    |  22 ---
+ .../files/cmake-2.8.10.2-FindPythonLibs.patch      |  24 ---
+ dev-util/cmake/files/cmake-2.8.11-FindBLAS.patch   |  48 ------
+ .../files/cmake-2.8.11-FindBoost-python.patch      |  73 --------
+ .../files/cmake-2.8.11-more-no_host_paths.patch    | 130 --------------
+ .../cmake/files/cmake-2.8.12.1-FindFreetype.patch  |  43 -----
+ .../files/cmake-2.8.12.1-FindImageMagick.patch     |  23 ---
+ .../files/cmake-2.8.12.2-FindBoost-python.patch    |  77 ---------
+ .../cmake/files/cmake-2.8.12.2-FindCurses.patch    |  42 -----
+ dev-util/cmake/files/cmake-2.8.12.2-fbsd.patch     |  38 -----
+ .../files/cmake-2.8.12.2-hppa-bootstrap.patch      |  27 ---
+ dev-util/cmake/files/cmake-2.8.12.2-python34.patch |  34 ----
+ dev-util/cmake/files/cmake-2.8.7-FindLAPACK.patch  |  44 -----
+ .../cmake/files/cmake-2.8.8-FindPkgConfig.patch    |  18 --
+ dev-util/cmake/files/cmake-3.0.0-FindBLAS.patch    |  43 -----
+ .../cmake/files/cmake-3.0.0-FindBoost-python.patch |  93 -----------
+ dev-util/cmake/files/cmake-3.0.0-prefix-dirs.patch | 142 ----------------
+ dev-util/cmake/files/cmake-3.0.2-FindLAPACK.patch  |  43 -----
+ .../cmake/files/cmake-3.1.0-FindPythonInterp.patch |  29 ----
+ .../cmake/files/cmake-3.1.0-darwin-isysroot.patch  |  48 ------
+ dev-util/cmake/files/cmake.vim                     |   3 -
+ dev-util/cmake/metadata.xml                        |   5 -
+ sci-biology/MITK/metadata.xml                      |   5 +-
+ 32 files changed, 4 insertions(+), 1436 deletions(-)
+ delete mode 100644 dev-util/cmake/Manifest
+ delete mode 100644 dev-util/cmake/cmake-3.2.0.ebuild
+ delete mode 100644 dev-util/cmake/files/50cmake-gentoo.el
+ delete mode 100644 dev-util/cmake/files/cmake-2.6.3-fix_broken_lfs_on_aix.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.6.3-no-duplicates-in-rpath.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.10-darwin-bundle.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.10-darwin-isysroot.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.10-desktop.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.10-libform.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.10.2-FindPythonInterp.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.10.2-FindPythonLibs.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.11-FindBLAS.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.11-FindBoost-python.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.11-more-no_host_paths.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.12.1-FindFreetype.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.12.1-FindImageMagick.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.12.2-FindBoost-python.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.12.2-FindCurses.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.12.2-fbsd.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.12.2-hppa-bootstrap.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.12.2-python34.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.7-FindLAPACK.patch
+ delete mode 100644 dev-util/cmake/files/cmake-2.8.8-FindPkgConfig.patch
+ delete mode 100644 dev-util/cmake/files/cmake-3.0.0-FindBLAS.patch
+ delete mode 100644 dev-util/cmake/files/cmake-3.0.0-FindBoost-python.patch
+ delete mode 100644 dev-util/cmake/files/cmake-3.0.0-prefix-dirs.patch
+ delete mode 100644 dev-util/cmake/files/cmake-3.0.2-FindLAPACK.patch
+ delete mode 100644 dev-util/cmake/files/cmake-3.1.0-FindPythonInterp.patch
+ delete mode 100644 dev-util/cmake/files/cmake-3.1.0-darwin-isysroot.patch
+ delete mode 100644 dev-util/cmake/files/cmake.vim
+ delete mode 100644 dev-util/cmake/metadata.xml
 *** syncing heather
 *** synced heather
  * Sync succeeded

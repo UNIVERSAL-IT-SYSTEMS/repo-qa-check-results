@@ -13,23 +13,7 @@
  'status': 'unofficial'}
 $ pmaint sync gamerlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/gamerlay
-   ae77458..bd5c72c  master     -> origin/master
-Updating ae77458..bd5c72c
-Fast-forward
- games-fps/rtcw/files/Makefile.local  | 40 +++++++++++++++++
- games-fps/rtcw/files/rtcw-zlib.patch | 16 +++++++
- games-fps/rtcw/files/wolf-ded.rc     | 25 +++++++++++
- games-fps/rtcw/metadata.xml          |  8 ++++
- games-fps/rtcw/rtcw-9999.ebuild      | 85 ++++++++++++++++++++++++++++++++++++
- profiles/package.unmask              |  1 +
- 6 files changed, 175 insertions(+)
- create mode 100644 games-fps/rtcw/files/Makefile.local
- create mode 100644 games-fps/rtcw/files/rtcw-zlib.patch
- create mode 100644 games-fps/rtcw/files/wolf-ded.rc
- create mode 100644 games-fps/rtcw/metadata.xml
- create mode 100644 games-fps/rtcw/rtcw-9999.ebuild
- create mode 100644 profiles/package.unmask
+Already up-to-date.
 *** syncing gamerlay
 *** synced gamerlay
  * Sync succeeded

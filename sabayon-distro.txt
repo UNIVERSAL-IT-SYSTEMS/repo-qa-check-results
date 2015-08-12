@@ -10,41 +10,7 @@
 $ pmaint sync sabayon-distro
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/Sabayon/sabayon-distro
-   521ca00..5ef9ab4  master     -> origin/master
-Updating 521ca00..5ef9ab4
-Fast-forward
- media-video/amdcccle/Manifest                      |    1 +
- media-video/amdcccle/amdcccle-15.1.ebuild          |   72 +
- sys-apps/systemd/Manifest                          |    3 +-
- ...systemd-218-r3.ebuild => systemd-222-r1.ebuild} |  127 +-
- sys-apps/sysvinit/sysvinit-1000.ebuild             |   19 -
- sys-devel/base-gcc/Manifest                        |    4 +
- sys-devel/base-gcc/base-gcc-4.9.3.ebuild           |  211 +
- sys-devel/gcc/Manifest                             |    4 +
- sys-devel/gcc/gcc-4.9.3.ebuild                     |  129 +
- sys-kernel/beaglebone-sources/Manifest             |    2 +
- .../beaglebone-sources-4.1.ebuild                  |   30 +
- .../beaglebone-sources/beaglebone-sources.skel     |   30 +
- sys-kernel/beaglebone-sources/files/kernel.config  | 6363 ++++++++++++++++++++
- sys-kernel/linux-beaglebone/Manifest               |    7 +
- sys-kernel/linux-beaglebone/files/kernel.config    | 6363 ++++++++++++++++++++
- .../linux-beaglebone/linux-beaglebone-4.1.ebuild   |   37 +
- sys-kernel/linux-beaglebone/linux-beaglebone.skel  |   25 +
- 17 files changed, 13354 insertions(+), 73 deletions(-)
- create mode 100644 media-video/amdcccle/amdcccle-15.1.ebuild
- rename sys-apps/systemd/{systemd-218-r3.ebuild => systemd-222-r1.ebuild} (86%)
- delete mode 100644 sys-apps/sysvinit/sysvinit-1000.ebuild
- create mode 100644 sys-devel/base-gcc/base-gcc-4.9.3.ebuild
- create mode 100644 sys-devel/gcc/gcc-4.9.3.ebuild
- create mode 100644 sys-kernel/beaglebone-sources/Manifest
- create mode 100644 sys-kernel/beaglebone-sources/beaglebone-sources-4.1.ebuild
- create mode 100644 sys-kernel/beaglebone-sources/beaglebone-sources.skel
- create mode 100644 sys-kernel/beaglebone-sources/files/kernel.config
- create mode 100644 sys-kernel/linux-beaglebone/Manifest
- create mode 100644 sys-kernel/linux-beaglebone/files/kernel.config
- create mode 100644 sys-kernel/linux-beaglebone/linux-beaglebone-4.1.ebuild
- create mode 100644 sys-kernel/linux-beaglebone/linux-beaglebone.skel
+Already up-to-date.
 *** syncing sabayon-distro
 *** synced sabayon-distro
  * Sync succeeded
@@ -69,43 +35,43 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by x11-drivers/nvidia-userspace-173.14.39 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/base-gcc-4.8.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/base-gcc-4.7.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.7.4 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/base-gcc-4.7.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/base-gcc-4.7.3-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/base-gcc-4.8.4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/base-gcc-4.7.4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.7.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/base-gcc-4.9.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/base-gcc-4.9.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.7.3-r1 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.7.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.9.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/base-gcc-4.8.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/base-gcc-4.7.3 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.7.3-r1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.7.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/base-gcc-4.9.2 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.9.3 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/base-gcc-4.8.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.9.2 during metadata regeneration.
