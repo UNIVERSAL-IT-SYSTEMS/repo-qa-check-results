@@ -8,8 +8,6 @@
              'uri': 'rsync://fidonet.overlay.junc.org/fidonet/'}],
  'status': 'unofficial'}
 $ pmaint sync fidonet
-WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 This is overlay.junc.org.
 
@@ -59,7 +57,7 @@ Total file size: 157.49K bytes
 Total transferred file size: 20.81K bytes
 Literal data: 20.81K bytes
 Matched data: 0 bytes
-File list size: 4.35K
+File list size: 4.36K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 739
