@@ -12,18 +12,11 @@
             {'type': 'mercurial',
              'uri': 'ssh://hg@bitbucket.org/danysk/nirvana-overlay'}],
  'status': 'unofficial'}
- * Adding new repository
 $ pmaint sync nirvana
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-requesting all changes
-adding changesets
-adding manifests
-adding file changes
-added 32 changesets with 66 changes to 42 files
-updating to branch default
-34 files updated, 0 files merged, 0 files removed, 0 files unresolved
+pulling from https://bitbucket.org/danysk/nirvana-overlay
+searching for changes
+no changes found
 *** syncing nirvana
 *** synced nirvana
  * Sync succeeded

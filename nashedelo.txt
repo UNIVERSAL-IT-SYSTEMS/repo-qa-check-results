@@ -9,19 +9,12 @@
  'source': [{'type': 'mercurial',
              'uri': 'https://bitbucket.org/angry_elf/nashedelo'}],
  'status': 'unofficial'}
- * Adding new repository
 $ pmaint sync nashedelo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-requesting all changes
-adding changesets
-adding manifests
-adding file changes
-added 92 changesets with 187 changes to 106 files
-updating to branch default
-85 files updated, 0 files merged, 0 files removed, 0 files unresolved
+pulling from https://bitbucket.org/angry_elf/nashedelo
+searching for changes
+no changes found
 *** syncing nashedelo
 *** synced nashedelo
  * Sync succeeded

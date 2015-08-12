@@ -9,23 +9,7 @@
              'uri': 'rsync://rsync.mad-hacking.net/hacking-gentoo-overlay/'}],
  'status': 'unofficial'}
 $ pmaint sync hacking-gentoo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dwfreed' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dwfreed', named 'dwfreed', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/floppym' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/floppym', named 'floppym', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dustin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dustin', named 'dustin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/belak' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/belak', named 'belak', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dustin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dustin', named 'dustin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dwfreed' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dwfreed', named 'dwfreed', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/floppym' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/floppym', named 'floppym', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 receiving incremental file list
 metadata/md5-cache/
 metadata/md5-cache/app-admin/
@@ -369,7 +353,7 @@ Total file size: 5.13M bytes
 Total transferred file size: 592.65K bytes
 Literal data: 592.65K bytes
 Matched data: 0 bytes
-File list size: 48.16K
+File list size: 46.74K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 5.87K

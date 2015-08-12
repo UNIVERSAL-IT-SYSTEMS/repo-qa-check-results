@@ -7,18 +7,8 @@
              'uri': 'https://pentoo.googlecode.com/svn/portage/trunk/'}],
  'status': 'unofficial'}
 $ pmaint sync pentoo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/nashedelo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/nashedelo', named 'nashedelo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/nirvana' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/nirvana', named 'nirvana', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-WARNING:pkgcore:repository at location '/home/mgorny/repos/nirvana' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/nirvana', named 'nirvana', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/nashedelo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/nashedelo', named 'nashedelo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Updating '.':
 At revision 6733.
 *** syncing pentoo
@@ -27,16 +17,16 @@ At revision 6733.
 $ pmaint regen -t 2 pentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by dev-util/nvidia-cuda-sdk-6.5.19 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-util/nvidia-cuda-sdk-6.5.19 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by dev-util/nvidia-cuda-sdk-6.5.14 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by dev-util/nvidia-cuda-sdk-6.5.14 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-util/nvidia-cuda-sdk-6.5.19 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-util/nvidia-cuda-sdk-6.5.19 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-wireless/prism54-20050724 during metadata regeneration.
@@ -51,13 +41,13 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/proxy_selector-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/web_developer-1.2.5-r1 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/firebug-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/web_developer-1.2.5-r1 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/firebug-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/web_developer-1.2.5-r1 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/firebug-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/proxy_selector-0.80.7-r2 during metadata regeneration.
@@ -69,40 +59,13 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/proxy_selector-0.80.7-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/firebug-1.12.8b_p1 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/web_developer-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/firebug-1.12.8b_p1 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/web_developer-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/firebug-1.12.8b_p1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/firebug-2.0.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/firebug-2.0.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/firebug-2.0.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/live-http-headers-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/live-http-headers-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/live-http-headers-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/firebug-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/firebug-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/firebug-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/web_developer-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/proxy_selector-1.22 during metadata regeneration.
@@ -114,7 +77,13 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/proxy_selector-1.22 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/live-http-headers-0.17-r3 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/firebug-2.0.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/firebug-2.0.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/firebug-2.0.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/live-http-headers-0.17-r3 during metadata regeneration.
@@ -123,10 +92,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/live-http-headers-0.17-r3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/hackbar-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/hackbar-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/live-http-headers-0.17-r3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/foxyproxy-9999 during metadata regeneration.
@@ -138,70 +104,31 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/foxyproxy-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/firebug-2.0.6 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/live-http-headers-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/firebug-2.0.6 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/live-http-headers-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/firebug-2.0.6 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/live-http-headers-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/hackbar-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/foxyproxy-4.5 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/hackbar-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/foxyproxy-4.5 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/hackbar-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/foxyproxy-4.5 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/web_developer-1.2.5-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/web_developer-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/web_developer-1.2.5-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/web_developer-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/web_developer-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/cookies_exportimport-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/cookies_exportimport-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/cookies_exportimport-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/foxyproxy-4.4.1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/foxyproxy-4.4.1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/foxyproxy-4.4.1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/user-agent-switcher-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/user-agent-switcher-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/user-agent-switcher-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/hackbar-1.6.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/hackbar-1.6.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/hackbar-1.6.3 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/web_developer-1.2.5-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/cookies_exportimport-1.0-r2 during metadata regeneration.
@@ -213,40 +140,49 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/cookies_exportimport-1.0-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/sqlite_manager-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/hackbar-1.6.2-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/sqlite_manager-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/hackbar-1.6.2-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/sqlite_manager-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/hackbar-1.6.2-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/httpfox-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/firebug-1.12.8b_p1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/httpfox-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/firebug-1.12.8b_p1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/httpfox-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/firebug-1.12.8b_p1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/httpfox-0.8.14 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/foxyproxy-4.4.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/httpfox-0.8.14 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/foxyproxy-4.4.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/httpfox-0.8.14 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/foxyproxy-4.4.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/httpfox-0.8.12-r1 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/firebug-2.0.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/httpfox-0.8.12-r1 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/firebug-2.0.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/httpfox-0.8.12-r1 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/firebug-2.0.7 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/foxyproxy-4.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/foxyproxy-4.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/foxyproxy-4.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/foxyproxy-4.5.5 during metadata regeneration.
@@ -258,103 +194,40 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/foxyproxy-4.5.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/user-agent-switcher-0.7.3-r4 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/cookies_exportimport-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/user-agent-switcher-0.7.3-r4 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/cookies_exportimport-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/user-agent-switcher-0.7.3-r4 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/cookies_exportimport-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/sqlite_manager-0.8.1 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/hackbar-1.6.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/sqlite_manager-0.8.1 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/hackbar-1.6.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/sqlite_manager-0.8.1 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/hackbar-1.6.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.34 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/httpfox-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.34 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/httpfox-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.34 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/httpfox-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.34 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/httpfox-0.8.12-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.34 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/httpfox-0.8.12-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.33 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.33 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.33 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.33 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.33 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/httpfox-0.8.12-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.3 during metadata regeneration.
@@ -366,7 +239,64 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.7 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.34 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.34 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.34 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.34 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.34 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.33 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.33 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.33 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.33 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.33 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.7 during metadata regeneration.
@@ -387,13 +317,49 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/sql-inject-me-0.4.7-r2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/sql-inject-me-0.4.7-r2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/noscript-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/sql-inject-me-0.4.7-r2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/noscript-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/noscript-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/sqlite_manager-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/sqlite_manager-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/sqlite_manager-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/sqlite_manager-0.8.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/sqlite_manager-0.8.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/sqlite_manager-0.8.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/httpfox-0.8.14 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/httpfox-0.8.14 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/httpfox-0.8.14 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/sql-inject-me-9999 during metadata regeneration.
@@ -405,57 +371,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/sql-inject-me-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/showip-2.7.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-2.7.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-2.7.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.11 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
@@ -469,6 +384,54 @@ WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.11 during metadata
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/noscript-2.6.9.11 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/user-agent-switcher-0.7.3-r4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/user-agent-switcher-0.7.3-r4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/user-agent-switcher-0.7.3-r4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/sql-inject-me-0.4.7-r2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/sql-inject-me-0.4.7-r2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/sql-inject-me-0.4.7-r2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/user-agent-switcher-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/user-agent-switcher-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/user-agent-switcher-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/exif_viewer-9999 during metadata regeneration.
@@ -489,19 +452,34 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/ringleader-0.3_pre20140710 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/noscript-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/noscript-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/noscript-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/noscript-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/noscript-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-2.7.7 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/ringleader-0.3_pre20140502 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/ringleader-0.3_pre20140502 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/ringleader-0.3_pre20140502 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/ringleader-0.3_pre20130917 during metadata regeneration.
@@ -522,24 +500,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/exif_viewer-2.00-r3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/xss-me-0.4.6-r4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/xss-me-0.4.6-r4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/xss-me-0.4.6-r4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/hackbar-1.6.2-r2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/hackbar-1.6.2-r2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/hackbar-1.6.2-r2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by www-plugins/xss-me-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
@@ -549,13 +509,43 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/xss-me-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/ringleader-0.3_pre20140502 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/xss-me-0.4.6-r4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/ringleader-0.3_pre20140502 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/xss-me-0.4.6-r4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/ringleader-0.3_pre20140502 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/xss-me-0.4.6-r4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-2.7.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-2.7.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/showip-2.7.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/adblock_plus-2.6.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-analyzer/wireshark-1.12.4 during metadata regeneration.

@@ -12,20 +12,11 @@
             {'type': 'mercurial',
              'uri': 'ssh://hg@bitbucket.org/AdmiralNemo/overlay'}],
  'status': 'unofficial'}
- * Adding new repository
 $ pmaint sync dustin
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-WARNING:pkgcore:repository at location '/home/mgorny/repos/belak' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/belak', named 'belak', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-requesting all changes
-adding changesets
-adding manifests
-adding file changes
-added 113 changesets with 491 changes to 382 files
-updating to branch default
-83 files updated, 0 files merged, 0 files removed, 0 files unresolved
+pulling from https://bitbucket.org/AdmiralNemo/overlay
+searching for changes
+no changes found
 *** syncing dustin
 *** synced dustin
  * Sync succeeded
