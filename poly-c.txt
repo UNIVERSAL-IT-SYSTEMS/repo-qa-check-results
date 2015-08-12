@@ -39,7 +39,7 @@ receiving incremental file list
 timestamp.chk
 
 Number of files: 1 (reg: 1)
-Number of created files: 0
+Number of created files: 1 (reg: 1)
 Number of deleted files: 0
 Number of regular files transferred: 1
 Total file size: 32 bytes
@@ -52,74 +52,8 @@ File list transfer time: 0.000 seconds
 Total bytes sent: 85
 Total bytes received: 132
 
-sent 85 bytes  received 132 bytes  86.80 bytes/sec
+sent 85 bytes  received 132 bytes  144.67 bytes/sec
 total size is 32  speedup is 0.15
--------------------------------------------------------------------------------
-| Welcome to rsync on gentoofan.no-ip.org:873                                 |
-| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
-| Thus this server only has a dynamic IP I cannot stat it here.               |
--------------------------------------------------------------------------------
-
-  ,-~~-.___.
- / |  '     \
-(  )        0
- \_/-, ,----'
-    ====           //
-   /  \-'~;    /~~~(O)
-  /  __/~|   /       |
-=(  _____| (_________|
-
- server specs:
-    -CPU		Intel Atom-330 (2x 1,6 GHz)
-    -RAM		2048 MB PC2-533
-    -OS			Gentoo GNU/Linux (Kernel 3.x)
-    -BANDWIDTH		ADSL (16000/1024)
-    -LIMIT		3 users (concurrently)
-    -LOCATION		Ludwigshafen / Germany
-    -CONTACT		polynomial-c@gentoo.org
-
--------------------------------------------------------------------------------
-
-receiving incremental file list
-metadata/
-metadata/timestamp.chk
-metadata/md5-cache/net-misc/
-metadata/md5-cache/net-misc/openssh-7.0_p1
-metadata/md5-cache/sys-auth/
-metadata/md5-cache/sys-auth/consolekit-1.0.0_pre
-metadata/md5-cache/sys-libs/
-metadata/md5-cache/sys-libs/ncurses-6.0_pre
-net-misc/openssh/
-net-misc/openssh/Manifest
-net-misc/openssh/openssh-7.0_p1.ebuild
-sys-auth/consolekit/
-sys-auth/consolekit/Manifest
-sys-auth/consolekit/consolekit-1.0.0_pre.ebuild
-sys-auth/consolekit/files/
-sys-auth/consolekit/files/consolekit-0.3.rc
-sys-libs/ncurses/
-sys-libs/ncurses/Manifest
-sys-libs/ncurses/ncurses-6.0_pre.ebuild
-deleting metadata/.tmp.timestamp.chk
-deleting metadata/md5-cache/net-misc/openssh-7.0_p1_pre
-deleting net-misc/openssh/openssh-7.0_p1_pre.ebuild
-
-Number of files: 1,136 (reg: 857, dir: 279)
-Number of created files: 4 (reg: 4)
-Number of deleted files: 3 (reg: 3)
-Number of regular files transferred: 11
-Total file size: 3.17M bytes
-Total transferred file size: 44.31K bytes
-Literal data: 44.31K bytes
-Matched data: 0 bytes
-File list size: 31.54K
-File list generation time: 0.001 seconds
-File list transfer time: 0.000 seconds
-Total bytes sent: 655
-Total bytes received: 58.62K
-
-sent 655 bytes  received 58.62K bytes  23.71K bytes/sec
-total size is 3.17M  speedup is 53.50
 *** syncing poly-c
 *** synced poly-c
  * Sync succeeded
