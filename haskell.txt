@@ -13,7 +13,17 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   3b57e4f..6bd83d7  master     -> origin/master
+Updating 3b57e4f..6bd83d7
+Fast-forward
+ dev-haskell/monad-logger-syslog/Manifest           |  1 +
+ dev-haskell/monad-logger-syslog/metadata.xml       |  8 ++++++
+ .../monad-logger-syslog-0.1.1.1.ebuild             | 30 ++++++++++++++++++++++
+ 3 files changed, 39 insertions(+)
+ create mode 100644 dev-haskell/monad-logger-syslog/Manifest
+ create mode 100644 dev-haskell/monad-logger-syslog/metadata.xml
+ create mode 100644 dev-haskell/monad-logger-syslog/monad-logger-syslog-0.1.1.1.ebuild
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
