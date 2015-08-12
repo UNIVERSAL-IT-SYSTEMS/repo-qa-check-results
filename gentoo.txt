@@ -17,25 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   e6545c7..be192bb  master     -> origin/master
-Updating e6545c7..be192bb
+   64c7f53..30606f0  master     -> origin/master
+Updating 64c7f53..30606f0
 Fast-forward
- app-office/calligra/calligra-2.8.5.ebuild | 10 ++++----
- app-office/calligra/calligra-2.8.7.ebuild | 10 ++++----
- app-office/calligra/calligra-9999.ebuild  | 10 ++++----
- app-office/calligra/metadata.xml          |  1 -
- www-servers/pshs/Manifest                 |  5 ----
- www-servers/pshs/pshs-0.2.1.ebuild        | 34 ---------------------------
- www-servers/pshs/pshs-0.2.3.ebuild        | 36 ----------------------------
- www-servers/pshs/pshs-0.2.4.ebuild        | 36 ----------------------------
- www-servers/pshs/pshs-0.2.5.ebuild        | 39 -------------------------------
- www-servers/pshs/pshs-0.2.ebuild          | 33 --------------------------
- 10 files changed, 12 insertions(+), 202 deletions(-)
- delete mode 100644 www-servers/pshs/pshs-0.2.1.ebuild
- delete mode 100644 www-servers/pshs/pshs-0.2.3.ebuild
- delete mode 100644 www-servers/pshs/pshs-0.2.4.ebuild
- delete mode 100644 www-servers/pshs/pshs-0.2.5.ebuild
- delete mode 100644 www-servers/pshs/pshs-0.2.ebuild
+ kde-apps/kget/kget-4.14.3.ebuild         | 15 ++++-----------
+ kde-apps/kget/metadata.xml               |  1 -
+ kde-apps/lokalize/lokalize-4.14.3.ebuild |  3 +--
+ kde-apps/lokalize/metadata.xml           |  3 ---
+ 4 files changed, 5 insertions(+), 17 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
