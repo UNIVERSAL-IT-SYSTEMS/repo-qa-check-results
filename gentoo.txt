@@ -16,30 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   d4017f5..8f56676  master     -> origin/master
-Updating d4017f5..8f56676
-Fast-forward
- dev-lang/mono/Manifest                             |   4 +-
- .../files/add_missing_vb_portable_targets.patch    |  20 ++
- dev-lang/mono/files/mono-3.2.1-mdoc-fix.patch      |  12 +
- ...mono-4.0.2.5-fix-decimal-ms-on-big-endian.patch |  22 ++
- ...ix-mono-dis-makefile-am-when-without-sgen.patch |  15 ++
- .../files/mono-4.0.2.5-fix-ppc-atomic-add-i4.patch |  79 ++++++
- dev-lang/mono/files/systemweb3.patch               |  22 ++
- dev-lang/mono/mono-2.10.9-r2.ebuild                | 265 ---------------------
- dev-lang/mono/mono-3.0.7.ebuild                    | 100 --------
- .../{mono-3.2.8.ebuild => mono-4.0.3.20.ebuild}    |  73 +++---
- 10 files changed, 199 insertions(+), 413 deletions(-)
- create mode 100644 dev-lang/mono/files/add_missing_vb_portable_targets.patch
- create mode 100644 dev-lang/mono/files/mono-3.2.1-mdoc-fix.patch
- create mode 100644 dev-lang/mono/files/mono-4.0.2.5-fix-decimal-ms-on-big-endian.patch
- create mode 100644 dev-lang/mono/files/mono-4.0.2.5-fix-mono-dis-makefile-am-when-without-sgen.patch
- create mode 100644 dev-lang/mono/files/mono-4.0.2.5-fix-ppc-atomic-add-i4.patch
- create mode 100644 dev-lang/mono/files/systemweb3.patch
- delete mode 100644 dev-lang/mono/mono-2.10.9-r2.ebuild
- delete mode 100644 dev-lang/mono/mono-3.0.7.ebuild
- rename dev-lang/mono/{mono-3.2.8.ebuild => mono-4.0.3.20.ebuild} (52%)
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
