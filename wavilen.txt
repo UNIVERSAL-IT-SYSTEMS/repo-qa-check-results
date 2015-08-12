@@ -42,9 +42,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  EAPI=0 is not supported
 
-WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * 
  * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.8.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
@@ -57,6 +54,9 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
+WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-misc/notify-osd-0.9.29-r1
  * Cache regenerated successfully
