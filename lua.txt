@@ -14,20 +14,10 @@
  'status': 'official'}
 $ pmaint sync lua
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-*** syncing lua
-*** failed syncing lua
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync lua
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/lua'...
+Already up-to-date.
 *** syncing lua
 *** synced lua
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 lua
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

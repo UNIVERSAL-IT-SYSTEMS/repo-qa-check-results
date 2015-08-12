@@ -13,112 +13,11 @@
  'status': 'official'}
 $ pmaint sync dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/dotnet
-   8ff767e..4f76129  master     -> origin/master
-Updating 8ff767e..4f76129
-Fast-forward
- app-emacs/dash/dash-9999.ebuild                                     | 4 ++--
- app-emacs/s/s-9999.ebuild                                           | 4 ++--
- app-shells/pash/pash-0.0-r20150618.ebuild                           | 2 +-
- dev-dotnet/dbus-sharp-glib/ChangeLog                                | 4 ++--
- dev-dotnet/dbus-sharp-glib/dbus-sharp-glib-0.6.ebuild               | 2 +-
- dev-dotnet/dbus-sharp/ChangeLog                                     | 4 ++--
- dev-dotnet/dbus-sharp/dbus-sharp-0.7.0-r2.ebuild                    | 2 +-
- dev-dotnet/dbus-sharp/dbus-sharp-0.8.1.ebuild                       | 2 +-
- dev-dotnet/fake/fake-3.23.0.ebuild                                  | 2 +-
- dev-dotnet/fake/fake-9999.ebuild                                    | 2 +-
- dev-dotnet/gio-sharp/gio-sharp-0.3-r1.ebuild                        | 2 +-
- dev-dotnet/gkeyfile-sharp/gkeyfile-sharp-0.1-r1.ebuild              | 2 +-
- dev-dotnet/gnome-desktop-sharp/gnome-desktop-sharp-2.26.0-r3.ebuild | 2 +-
- dev-dotnet/gnome-sharp/gnome-sharp-2.24.2-r1.ebuild                 | 4 ++--
- dev-dotnet/gtk-sharp-beans/gtk-sharp-beans-2.14.0-r2.ebuild         | 2 +-
- dev-dotnet/gtk-sharp/gtk-sharp-2.12.21-r1.ebuild                    | 4 ++--
- dev-dotnet/gtk-sharp/gtk-sharp-2.12.21.ebuild                       | 4 ++--
- dev-dotnet/gtk-sharp/gtk-sharp-2.99.1.ebuild                        | 2 +-
- dev-dotnet/gtk-sharp/gtk-sharp-2.99.3.ebuild                        | 2 +-
- dev-dotnet/gudev-sharp/gudev-sharp-3.0-r1.ebuild                    | 2 +-
- dev-dotnet/hyena/hyena-0.5.ebuild                                   | 2 +-
- dev-dotnet/ikvm-bin/ikvm-bin-7.2.4630.5.ebuild                      | 4 ++--
- dev-dotnet/ikvm/ikvm-7.2.4630.5.ebuild                              | 4 ++--
- dev-dotnet/libgdiplus/libgdiplus-2.10.9-r2.ebuild                   | 4 ++--
- dev-dotnet/libgdiplus/libgdiplus-3.12.ebuild                        | 2 +-
- dev-dotnet/libgdiplus/libgdiplus-9999.ebuild                        | 4 ++--
- dev-dotnet/log4net/log4net-1.2.11-r1.ebuild                         | 2 +-
- dev-dotnet/log4net/log4net-1.2.11.ebuild                            | 2 +-
- dev-dotnet/mono-addins/mono-addins-0.6.2-r1.ebuild                  | 2 +-
- dev-dotnet/mono-addins/mono-addins-1.0-r1.ebuild                    | 2 +-
- dev-dotnet/nini/ChangeLog                                           | 4 ++--
- dev-dotnet/nini/nini-1.1.0-r3.ebuild                                | 2 +-
- dev-dotnet/notify-sharp/notify-sharp-0.4.1.ebuild                   | 2 +-
- dev-dotnet/notify-sharp/notify-sharp-3.0.3.ebuild                   | 2 +-
- dev-dotnet/nuget-codeplex/nuget-codeplex-2015.01.ebuild             | 2 +-
- dev-dotnet/nuget-codeplex/nuget-codeplex-9999.ebuild                | 4 ++--
- dev-dotnet/nuget/nuget-2.8.1.ebuild                                 | 2 +-
- dev-dotnet/nuget/nuget-2.8.3.ebuild                                 | 2 +-
- dev-dotnet/smartirc4net/smartirc4net-1.0.ebuild                     | 2 +-
- dev-dotnet/xdt-for-monodevelop/xdt-for-monodevelop-2.8.1.ebuild     | 2 +-
- dev-dotnet/xdt-for-monodevelop/xdt-for-monodevelop-2.8.3.ebuild     | 2 +-
- dev-dotnet/xsp/ChangeLog                                            | 4 ++--
- dev-dotnet/xsp/files/2.2/mod-mono-server-r1.initd                   | 2 +-
- dev-dotnet/xsp/files/2.2/mod-mono-server.initd                      | 2 +-
- dev-dotnet/xsp/files/2.2/xsp.initd                                  | 2 +-
- dev-dotnet/xsp/xsp-2.10.2-r3.ebuild                                 | 4 ++--
- dev-dotnet/xsp/xsp-2013.07-r1.ebuild                                | 4 ++--
- dev-dotnet/xsp/xsp-2013.07.ebuild                                   | 4 ++--
- dev-dotnet/xsp/xsp-2014.11.ebuild                                   | 4 ++--
- dev-dotnet/xsp/xsp-9999.ebuild                                      | 4 ++--
- dev-lang/fsharp/fsharp-4.0.0.3.ebuild                               | 2 +-
- dev-lang/fsharp/fsharp-9999.ebuild                                  | 2 +-
- dev-lang/ironscheme/ironscheme-0.9.99659.ebuild                     | 4 ++--
- dev-lang/mono/mono-3.10.0.ebuild                                    | 2 +-
- dev-lang/mono/mono-3.12.1.ebuild                                    | 2 +-
- dev-lang/mono/mono-4.0.2.5.ebuild                                   | 2 +-
- dev-lang/mono/mono-4.0.3.20.ebuild                                  | 2 +-
- dev-lang/mono/mono-9999.ebuild                                      | 2 +-
- dev-lang/nemerle/nemerle-1.1b-r1.ebuild                             | 4 ++--
- dev-lang/nemerle/nemerle-1.2-r1.ebuild                              | 4 ++--
- dev-lang/nemerle/nemerle-9999.ebuild                                | 4 ++--
- dev-util/fsharpbinding/fsharpbinding-9999.ebuild                    | 4 ++--
- dev-util/mono-debugger/mono-debugger-9999.ebuild                    | 2 +-
- dev-util/mono-docbrowser/mono-docbrowser-2.20130821-r1.ebuild       | 2 +-
- dev-util/mono-docbrowser/mono-docbrowser-9999.ebuild                | 2 +-
- dev-util/mono-tools/mono-tools-9999.ebuild                          | 2 +-
- dev-util/monodevelop/monodevelop-5.9.0.431.ebuild                   | 2 +-
- dev-util/monodevelop/monodevelop-5.9.4.5.ebuild                     | 2 +-
- dev-util/monodevelop/monodevelop-5.9.5.5.ebuild                     | 2 +-
- dev-util/monodevelop/monodevelop-9999.ebuild                        | 2 +-
- eclass/dotnet.eclass                                                | 4 ++--
- eclass/fake.eclass                                                  | 4 ++--
- eclass/gtk-sharp-module.eclass                                      | 4 ++--
- eclass/mono-env.eclass                                              | 4 ++--
- eclass/nuget.eclass                                                 | 4 ++--
- media-gfx/pinta/pinta-1.6.ebuild                                    | 2 +-
- media-sound/banshee/banshee-2.6.1-r1.ebuild                         | 4 ++--
- net-irc/smuxi/smuxi-1.0.ebuild                                      | 2 +-
- net-irc/smuxi/smuxi-9999.ebuild                                     | 2 +-
- profiles/use.desc                                                   | 2 +-
- www-servers/xsp/files/2.2/mod-mono-server-r1.initd                  | 2 +-
- www-servers/xsp/files/2.2/mod-mono-server.initd                     | 2 +-
- www-servers/xsp/files/2.2/xsp.initd                                 | 2 +-
- www-servers/xsp/xsp-2014.12-r2014120900.ebuild                      | 4 ++--
- www-servers/xsp/xsp-9999.ebuild                                     | 4 ++--
- 85 files changed, 117 insertions(+), 117 deletions(-)
+Already up-to-date.
 *** syncing dotnet
 *** synced dotnet
  * Sync succeeded
 $ pmaint regen -t 2 dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by dev-lang/fsharp-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-lang/fsharp-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-lang/nemerle-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-dotnet/fake-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully

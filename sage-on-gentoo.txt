@@ -11,7 +11,19 @@
  'status': 'unofficial'}
 $ pmaint sync sage-on-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/cschwan/sage-on-gentoo
+   97cac06..bec7819  master     -> origin/master
+Updating 97cac06..bec7819
+Fast-forward
+ sci-mathematics/flint/ChangeLog                    |  8 ++++
+ sci-mathematics/flint/Manifest                     |  2 +-
+ .../flint/files/flint-2.5-issue175.patch           | 53 ----------------------
+ sci-mathematics/flint/files/flint-2.5-test.patch   | 24 ----------
+ .../flint/{flint-2.5.ebuild => flint-2.5.1.ebuild} |  8 ----
+ 5 files changed, 9 insertions(+), 86 deletions(-)
+ delete mode 100644 sci-mathematics/flint/files/flint-2.5-issue175.patch
+ delete mode 100644 sci-mathematics/flint/files/flint-2.5-test.patch
+ rename sci-mathematics/flint/{flint-2.5.ebuild => flint-2.5.1.ebuild} (90%)
 *** syncing sage-on-gentoo
 *** synced sage-on-gentoo
  * Sync succeeded
