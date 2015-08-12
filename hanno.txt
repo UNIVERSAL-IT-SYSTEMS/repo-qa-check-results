@@ -5,11 +5,1010 @@
  'quality': 'experimental',
  'source': [{'type': 'svn', 'uri': 'https://svn.hboeck.de/overlay/'}],
  'status': 'unofficial'}
+ * Adding new repository
 $ pmaint sync hanno
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ext-devlibs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Updating '.':
-At revision 147.
+Initialized empty Git repository in /home/mgorny/repos/hanno/.git/
+	A	x11-drivers/ati-drivers/files/atieventsd.rc6
+	A	x11-drivers/ati-drivers/files/digest-ati-drivers-8.31.5
+	A	x11-drivers/ati-drivers/files/ati-drivers-2.6.19.patch
+	A	x11-drivers/ati-drivers/files/ati-powermode.sh.patch
+	A	x11-drivers/ati-drivers/files/09ati
+	A	x11-drivers/ati-drivers/Manifest
+	A	x11-drivers/ati-drivers/ati-drivers-8.31.5.ebuild
+r1 = bd554e62fd9fa971e9cc9b6d2a87cd5735ad5122 (refs/remotes/git-svn)
+	A	app-antivirus/clamav/clamav-0.90_rc1.ebuild
+	A	app-antivirus/clamav/metadata.xml
+	A	app-antivirus/clamav/clamav-0.90_rc2.ebuild
+	A	app-antivirus/clamav/files/digest-clamav-0.88.6
+	A	app-antivirus/clamav/files/clamav-base64.patch
+	A	app-antivirus/clamav/files/clamav-milter.README.gentoo
+	A	app-antivirus/clamav/files/clamd.rc
+	A	app-antivirus/clamav/files/clamd.conf
+	A	app-antivirus/clamav/files/digest-clamav-0.90_rc1
+	A	app-antivirus/clamav/files/digest-clamav-0.90_rc2
+	A	app-antivirus/clamav/files/digest-clamav-0.88.5
+	A	app-antivirus/clamav/clamav-0.88.5.ebuild
+	A	app-antivirus/clamav/clamav-0.88.6.ebuild
+	A	app-antivirus/clamav/Manifest
+	A	app-antivirus/clamav/ChangeLog
+r2 = 92e68a80b777dce0c70a4c3a8b64c9717c5f052d (refs/remotes/git-svn)
+	A	net-dns/bind-tools/bind-tools-9.4.0_beta4.ebuild
+	A	net-dns/bind-tools/files/nslookup.8
+	A	net-dns/bind-tools/files/bind-tools-configure.patch
+	A	net-dns/bind-tools/files/digest-bind-tools-9.4.0_beta4
+	A	net-dns/bind-tools/Manifest
+r3 = dbc078e012811053851857c24ec0cafc6a7f84bb (refs/remotes/git-svn)
+	M	net-dns/bind-tools/bind-tools-9.4.0_beta4.ebuild
+	M	net-dns/bind-tools/Manifest
+r4 = ea17e724ff333c941d8323822b27dec7579bad4c (refs/remotes/git-svn)
+	A	x11-drivers/xf86-video-ati/files/r128.xinf
+	A	x11-drivers/xf86-video-ati/files/ati.xinf
+	A	x11-drivers/xf86-video-ati/files/digest-xf86-video-ati-20070113
+	A	x11-drivers/xf86-video-ati/files/radeon.xinf
+	A	x11-drivers/xf86-video-ati/Manifest
+	A	x11-drivers/xf86-video-ati/xf86-video-ati-20070113.ebuild
+r5 = 183242551b71633c03903f20247af60267c6867a (refs/remotes/git-svn)
+	A	media-libs/mesa/files/6.5.1-i965-bufmgr.patch
+	A	media-libs/mesa/files/64bit-fix-have-dix-config.patch
+	A	media-libs/mesa/files/change-default-dri-driver-dir-X7.1.patch
+	A	media-libs/mesa/files/digest-mesa-9999
+	A	media-libs/mesa/files/6.5.1-xcb-dont-unlock-twice.patch
+	A	media-libs/mesa/files/change-default-dri-driver-dir.patch
+	A	media-libs/mesa/files/6.5.1-freebsd-dri.patch
+	A	media-libs/mesa/files/64bit-fix-indirect-vertex-array.patch
+	A	media-libs/mesa/files/makedepend-location.patch
+	A	media-libs/mesa/files/radeon-texture-problem.patch
+	A	media-libs/mesa/files/6.5-re-order-context-destruction.patch
+	A	media-libs/mesa/files/6.5.1-mach64-dri-private-dma-2.patch
+	A	media-libs/mesa/files/6.4-multilib-fix.patch
+	A	media-libs/mesa/files/6.4-dont-install-gles-headers.patch
+	A	media-libs/mesa/files/6.5-fix-radeon-PCIE.patch
+	A	media-libs/mesa/Manifest
+	A	media-libs/mesa/mesa-9999.ebuild
+W: +empty_dir: media-libs/mesa/files/lib
+r6 = b7461b6610fb5f8eec10edb0b5863491f47fe543 (refs/remotes/git-svn)
+	A	x11-base/xorg-server/files/1.2.99.0-fix-sysconfdir-references.patch
+	A	x11-base/xorg-server/files/digest-xorg-server-9999
+	A	x11-base/xorg-server/files/CVE-2006-1526-xrender-mitri.patch
+	A	x11-base/xorg-server/files/03-tfp-damage.patch
+	A	x11-base/xorg-server/files/xorg-server-1.0.2-Sbus.patch
+	A	x11-base/xorg-server/files/xorg-conf-example.patch
+	A	x11-base/xorg-server/files/1.0.2-fix-rom-read-dualhead.patch
+	A	x11-base/xorg-server/files/1.1.1-fix_big_endian_glx.patch
+	A	x11-base/xorg-server/files/06-aiglx-happy-vt-switch.patch
+	A	x11-base/xorg-server/files/xorg-server-1.0.2-64bit-fix-have-dix-config.patch
+	A	x11-base/xorg-server/files/xorg-server-1.0.2-64bit-fix-for-glx.patch
+	A	x11-base/xorg-server/files/1.0.2-fix-readKernelMapping-overrun.patch
+	A	x11-base/xorg-server/files/xorg-server-1.0.2-Xprt-build.patch
+	A	x11-base/xorg-server/files/1.1.1-sparc64-ati-lockups.patch
+	A	x11-base/xorg-server/files/1.1.1-fix-xrandr-zoom-keys.patch
+	A	x11-base/xorg-server/files/01-no-move-damage.patch
+	A	x11-base/xorg-server/files/02-dont-backfill-bg-none.patch
+	A	x11-base/xorg-server/files/04-mesa-copy-sub-buffer.patch
+	A	x11-base/xorg-server/files/xorg-server-1.0.2-sparc64-cfbrrop-fix.patch
+	A	x11-base/xorg-server/files/xorg-server-1.1.99.901-GetDrawableAttributes.patch
+	A	x11-base/xorg-server/files/xorg-x11-server-1.1.1-mesa-6.5.1.patch
+	A	x11-base/xorg-server/files/xorg-server-1.0.2-64bit-fix-indirect-vertex-array.patch
+	A	x11-base/xorg-server/files/xorg-server-1.1.0-setuid.diff
+	A	x11-base/xorg-server/files/x11r7.0-setuid.diff
+	A	x11-base/xorg-server/files/1.1.1-fix_acpi_tokenize.patch
+	A	x11-base/xorg-server/files/1.0.2-fix-xorgconfig-rgbpath-and-mouse.patch
+	A	x11-base/xorg-server/files/xorg-server-1.1.1-install-libxf86config-headers.patch
+	A	x11-base/xorg-server/files/1.1.99.903-mesa-6.5.2.patch
+	A	x11-base/xorg-server/files/05-offscreen-pixmaps.patch
+	A	x11-base/xorg-server/Manifest
+	A	x11-base/xorg-server/files/xorg-dl
+	A	x11-base/xorg-server/files/xprint.init
+	A	x11-base/xorg-server/files/1.0.2-Xprint-xprintdir.patch
+	A	x11-base/xorg-server/files/xorg-server-1.0.2-xprint-init.patch
+	A	x11-base/xorg-server/files/1.0.99.901-Xprint-xprintdir.patch
+	A	x11-base/xorg-server/files/1.0.2-try-to-fix-xorgcfg.patch
+	A	x11-base/xorg-server/xorg-server-9999.ebuild
+r7 = efb737a5a2b17ccd2a77f0430574c59821088271 (refs/remotes/git-svn)
+	A	net-im/psi/psi-0.11_pre20061231.ebuild
+	A	net-im/psi/psi-0.11_pre20070115.ebuild
+	A	net-im/psi/metadata.xml
+	A	net-im/psi/files/digest-psi-0.10
+	A	net-im/psi/files/digest-psi-0.11_pre20061231
+	A	net-im/psi/files/psi-reverse_trayicon2.patch
+	A	net-im/psi/files/psi-desktop2.patch
+	A	net-im/psi/files/psi-indicator.png
+	A	net-im/psi/files/psi-pathfix2.patch
+	A	net-im/psi/files/digest-psi-0.10-r2
+	A	net-im/psi/files/digest-psi-0.11_pre20070115
+	A	net-im/psi/files/psi-jingle-gcc4.patch
+	A	net-im/psi/psi-0.10.ebuild
+	A	net-im/psi/ChangeLog
+	A	net-im/psi/Manifest
+	A	net-im/psi/psi-0.10-r2.ebuild
+r8 = f066e6b80d1c6a0ca02be3b226a46dbbf410cec0 (refs/remotes/git-svn)
+	M	media-libs/mesa/mesa-9999.ebuild
+	M	media-libs/mesa/Manifest
+r9 = 9441d5fbcd25aed82f5233adf6da98e224fcb9d2 (refs/remotes/git-svn)
+	M	x11-base/xorg-server/xorg-server-9999.ebuild
+	M	x11-base/xorg-server/Manifest
+r10 = da822da17e06f839091880ad34373059f101f23c (refs/remotes/git-svn)
+	D	x11-base/xorg-server/files/1.2.99.0-fix-sysconfdir-references.patch
+	D	x11-base/xorg-server/files/CVE-2006-1526-xrender-mitri.patch
+	D	x11-base/xorg-server/files/03-tfp-damage.patch
+	D	x11-base/xorg-server/files/xorg-server-1.0.2-Sbus.patch
+	D	x11-base/xorg-server/files/xorg-conf-example.patch
+	D	x11-base/xorg-server/files/1.0.2-fix-rom-read-dualhead.patch
+	D	x11-base/xorg-server/files/1.1.1-fix_big_endian_glx.patch
+	D	x11-base/xorg-server/files/06-aiglx-happy-vt-switch.patch
+	D	x11-base/xorg-server/files/xorg-server-1.0.2-64bit-fix-have-dix-config.patch
+	D	x11-base/xorg-server/files/xorg-server-1.0.2-64bit-fix-for-glx.patch
+	D	x11-base/xorg-server/files/1.0.2-fix-readKernelMapping-overrun.patch
+	D	x11-base/xorg-server/files/xorg-server-1.0.2-Xprt-build.patch
+	D	x11-base/xorg-server/files/1.1.1-sparc64-ati-lockups.patch
+	D	x11-base/xorg-server/files/1.1.1-fix-xrandr-zoom-keys.patch
+	D	x11-base/xorg-server/files/01-no-move-damage.patch
+	D	x11-base/xorg-server/files/02-dont-backfill-bg-none.patch
+	D	x11-base/xorg-server/files/04-mesa-copy-sub-buffer.patch
+	D	x11-base/xorg-server/files/xorg-server-1.0.2-sparc64-cfbrrop-fix.patch
+	D	x11-base/xorg-server/files/xorg-server-1.1.99.901-GetDrawableAttributes.patch
+	D	x11-base/xorg-server/files/xorg-x11-server-1.1.1-mesa-6.5.1.patch
+	D	x11-base/xorg-server/files/xorg-server-1.0.2-64bit-fix-indirect-vertex-array.patch
+	D	x11-base/xorg-server/files/xorg-server-1.1.0-setuid.diff
+	D	x11-base/xorg-server/files/x11r7.0-setuid.diff
+	D	x11-base/xorg-server/files/1.1.1-fix_acpi_tokenize.patch
+	D	x11-base/xorg-server/files/1.0.2-fix-xorgconfig-rgbpath-and-mouse.patch
+	D	x11-base/xorg-server/files/1.0.2-Xprint-xprintdir.patch
+	D	x11-base/xorg-server/files/xorg-server-1.1.1-install-libxf86config-headers.patch
+	D	x11-base/xorg-server/files/xorg-server-1.0.2-xprint-init.patch
+	D	x11-base/xorg-server/files/1.1.99.903-mesa-6.5.2.patch
+	D	x11-base/xorg-server/files/1.0.99.901-Xprint-xprintdir.patch
+	D	x11-base/xorg-server/files/05-offscreen-pixmaps.patch
+	D	x11-base/xorg-server/files/1.0.2-try-to-fix-xorgcfg.patch
+	D	x11-base/xorg-server/files/xorg-dl
+	M	x11-base/xorg-server/Manifest
+W: -empty_dir: x11-base/xorg-server/files/01-no-move-damage.patch
+W: -empty_dir: x11-base/xorg-server/files/02-dont-backfill-bg-none.patch
+W: -empty_dir: x11-base/xorg-server/files/03-tfp-damage.patch
+W: -empty_dir: x11-base/xorg-server/files/04-mesa-copy-sub-buffer.patch
+W: -empty_dir: x11-base/xorg-server/files/05-offscreen-pixmaps.patch
+W: -empty_dir: x11-base/xorg-server/files/06-aiglx-happy-vt-switch.patch
+W: -empty_dir: x11-base/xorg-server/files/1.0.2-Xprint-xprintdir.patch
+W: -empty_dir: x11-base/xorg-server/files/1.0.2-fix-readKernelMapping-overrun.patch
+W: -empty_dir: x11-base/xorg-server/files/1.0.2-fix-rom-read-dualhead.patch
+W: -empty_dir: x11-base/xorg-server/files/1.0.2-fix-xorgconfig-rgbpath-and-mouse.patch
+W: -empty_dir: x11-base/xorg-server/files/1.0.2-try-to-fix-xorgcfg.patch
+W: -empty_dir: x11-base/xorg-server/files/1.0.99.901-Xprint-xprintdir.patch
+W: -empty_dir: x11-base/xorg-server/files/1.1.1-fix-xrandr-zoom-keys.patch
+W: -empty_dir: x11-base/xorg-server/files/1.1.1-fix_acpi_tokenize.patch
+W: -empty_dir: x11-base/xorg-server/files/1.1.1-fix_big_endian_glx.patch
+W: -empty_dir: x11-base/xorg-server/files/1.1.1-sparc64-ati-lockups.patch
+W: -empty_dir: x11-base/xorg-server/files/1.1.99.903-mesa-6.5.2.patch
+W: -empty_dir: x11-base/xorg-server/files/1.2.99.0-fix-sysconfdir-references.patch
+W: -empty_dir: x11-base/xorg-server/files/CVE-2006-1526-xrender-mitri.patch
+W: -empty_dir: x11-base/xorg-server/files/x11r7.0-setuid.diff
+W: -empty_dir: x11-base/xorg-server/files/xorg-conf-example.patch
+W: -empty_dir: x11-base/xorg-server/files/xorg-dl
+W: -empty_dir: x11-base/xorg-server/files/xorg-server-1.0.2-64bit-fix-for-glx.patch
+W: -empty_dir: x11-base/xorg-server/files/xorg-server-1.0.2-64bit-fix-have-dix-config.patch
+W: -empty_dir: x11-base/xorg-server/files/xorg-server-1.0.2-64bit-fix-indirect-vertex-array.patch
+W: -empty_dir: x11-base/xorg-server/files/xorg-server-1.0.2-Sbus.patch
+W: -empty_dir: x11-base/xorg-server/files/xorg-server-1.0.2-Xprt-build.patch
+W: -empty_dir: x11-base/xorg-server/files/xorg-server-1.0.2-sparc64-cfbrrop-fix.patch
+W: -empty_dir: x11-base/xorg-server/files/xorg-server-1.0.2-xprint-init.patch
+W: -empty_dir: x11-base/xorg-server/files/xorg-server-1.1.0-setuid.diff
+W: -empty_dir: x11-base/xorg-server/files/xorg-server-1.1.1-install-libxf86config-headers.patch
+W: -empty_dir: x11-base/xorg-server/files/xorg-server-1.1.99.901-GetDrawableAttributes.patch
+W: -empty_dir: x11-base/xorg-server/files/xorg-x11-server-1.1.1-mesa-6.5.1.patch
+r11 = be3e9822cfa66df47c40620bb138d29b65783092 (refs/remotes/git-svn)
+	D	media-libs/mesa/files/6.5.1-i965-bufmgr.patch
+	D	media-libs/mesa/files/64bit-fix-have-dix-config.patch
+	D	media-libs/mesa/files/change-default-dri-driver-dir-X7.1.patch
+	D	media-libs/mesa/files/6.5.1-xcb-dont-unlock-twice.patch
+	D	media-libs/mesa/files/change-default-dri-driver-dir.patch
+	D	media-libs/mesa/files/6.5.1-freebsd-dri.patch
+	D	media-libs/mesa/files/64bit-fix-indirect-vertex-array.patch
+	D	media-libs/mesa/files/makedepend-location.patch
+	D	media-libs/mesa/files/radeon-texture-problem.patch
+	D	media-libs/mesa/files/6.5-re-order-context-destruction.patch
+	D	media-libs/mesa/files/6.5.1-mach64-dri-private-dma-2.patch
+	D	media-libs/mesa/files/6.4-multilib-fix.patch
+	D	media-libs/mesa/files/6.4-dont-install-gles-headers.patch
+	D	media-libs/mesa/files/6.5-fix-radeon-PCIE.patch
+	M	media-libs/mesa/Manifest
+W: -empty_dir: media-libs/mesa/files/6.4-dont-install-gles-headers.patch
+W: -empty_dir: media-libs/mesa/files/6.4-multilib-fix.patch
+W: -empty_dir: media-libs/mesa/files/6.5-fix-radeon-PCIE.patch
+W: -empty_dir: media-libs/mesa/files/6.5-re-order-context-destruction.patch
+W: -empty_dir: media-libs/mesa/files/6.5.1-freebsd-dri.patch
+W: -empty_dir: media-libs/mesa/files/6.5.1-i965-bufmgr.patch
+W: -empty_dir: media-libs/mesa/files/6.5.1-mach64-dri-private-dma-2.patch
+W: -empty_dir: media-libs/mesa/files/6.5.1-xcb-dont-unlock-twice.patch
+W: -empty_dir: media-libs/mesa/files/64bit-fix-have-dix-config.patch
+W: -empty_dir: media-libs/mesa/files/64bit-fix-indirect-vertex-array.patch
+W: -empty_dir: media-libs/mesa/files/change-default-dri-driver-dir-X7.1.patch
+W: -empty_dir: media-libs/mesa/files/change-default-dri-driver-dir.patch
+W: -empty_dir: media-libs/mesa/files/makedepend-location.patch
+W: -empty_dir: media-libs/mesa/files/radeon-texture-problem.patch
+r12 = 2460668b5711bf0df92f88c9a28da9f96a3aefed (refs/remotes/git-svn)
+	M	x11-drivers/xf86-video-ati/Manifest
+	A	x11-drivers/xf86-video-ati/xf86-video-ati-20070131.ebuild
+	A	x11-drivers/xf86-video-ati/files/digest-xf86-video-ati-20070131
+r13 = e78ab6bc4ec0fd3e3245486fdc1237aa6e8d8e0a (refs/remotes/git-svn)
+	A	x11-drivers/xf86-input-keyboard/files/digest-xf86-input-keyboard-1.1.1
+	A	x11-drivers/xf86-input-keyboard/files/digest-xf86-input-keyboard-1.1.0
+	A	x11-drivers/xf86-input-keyboard/xf86-input-keyboard-1.2.0.ebuild
+	A	x11-drivers/xf86-input-keyboard/xf86-input-keyboard-9999.ebuild
+	A	x11-drivers/xf86-input-keyboard/files/digest-xf86-input-keyboard-1.2.0
+	A	x11-drivers/xf86-input-keyboard/xf86-input-keyboard-1.1.0.ebuild
+	A	x11-drivers/xf86-input-keyboard/Manifest
+	A	x11-drivers/xf86-input-keyboard/metadata.xml
+	A	x11-drivers/xf86-input-keyboard/files/digest-xf86-input-keyboard-9999
+	A	x11-drivers/xf86-input-keyboard/xf86-input-keyboard-1.1.1.ebuild
+	A	x11-drivers/xf86-input-keyboard/ChangeLog
+r14 = 2927d98725fef6d21a48ae600898c28fe37378d6 (refs/remotes/git-svn)
+	D	x11-drivers/xf86-video-ati/xf86-video-ati-20070113.ebuild
+	D	x11-drivers/xf86-video-ati/xf86-video-ati-20070131.ebuild
+	D	x11-drivers/xf86-video-ati/files/digest-xf86-video-ati-20070113
+	D	x11-drivers/xf86-video-ati/files/digest-xf86-video-ati-20070131
+	A	x11-drivers/xf86-video-ati/xf86-video-ati-9999.ebuild
+	A	x11-drivers/xf86-video-ati/files/digest-xf86-video-ati-9999
+	M	x11-drivers/xf86-video-ati/Manifest
+W: -empty_dir: x11-drivers/xf86-video-ati/files/digest-xf86-video-ati-20070113
+W: -empty_dir: x11-drivers/xf86-video-ati/files/digest-xf86-video-ati-20070131
+W: -empty_dir: x11-drivers/xf86-video-ati/xf86-video-ati-20070113.ebuild
+W: -empty_dir: x11-drivers/xf86-video-ati/xf86-video-ati-20070131.ebuild
+r15 = c67cd834d0c684b53230c56f70cbef116665e21b (refs/remotes/git-svn)
+	A	media-libs/mesa/files/lib/libGLU.la
+	A	media-libs/mesa/files/lib/libGL.la
+r16 = d7a11a95e4050b3dd2dc4736a53cd158abf0608a (refs/remotes/git-svn)
+	M	media-libs/mesa/Manifest
+r17 = 3c5722349d64681906be82f3a19d0c269f3d12b4 (refs/remotes/git-svn)
+	M	media-libs/mesa/mesa-9999.ebuild
+	M	media-libs/mesa/Manifest
+r18 = ab8eb52133ce09c21715c79947b65c88f333d7d7 (refs/remotes/git-svn)
+	M	media-libs/mesa/mesa-9999.ebuild
+	M	media-libs/mesa/Manifest
+r19 = fefa49474e24babf2bb5a2af7fc2949356899a03 (refs/remotes/git-svn)
+	D	app-antivirus/clamav/ChangeLog
+	D	app-antivirus/clamav/Manifest
+	D	app-antivirus/clamav/clamav-0.88.5.ebuild
+	D	app-antivirus/clamav/clamav-0.88.6.ebuild
+	D	app-antivirus/clamav/clamav-0.90_rc1.ebuild
+	D	app-antivirus/clamav/clamav-0.90_rc2.ebuild
+	D	app-antivirus/clamav/files/clamav-base64.patch
+	D	app-antivirus/clamav/files/clamav-milter.README.gentoo
+	D	app-antivirus/clamav/files/clamd.conf
+	D	app-antivirus/clamav/files/clamd.rc
+	D	app-antivirus/clamav/files/digest-clamav-0.88.5
+	D	app-antivirus/clamav/files/digest-clamav-0.88.6
+	D	app-antivirus/clamav/files/digest-clamav-0.90_rc1
+	D	app-antivirus/clamav/files/digest-clamav-0.90_rc2
+	D	app-antivirus/clamav/metadata.xml
+	D	app-antivirus/
+W: -empty_dir: app-antivirus
+r20 = 84fad564de5afab36c6c0780bf17eac5fd87f600 (refs/remotes/git-svn)
+	D	net-dns/bind-tools/Manifest
+	D	net-dns/bind-tools/bind-tools-9.4.0_beta4.ebuild
+	D	net-dns/bind-tools/files/bind-tools-configure.patch
+	D	net-dns/bind-tools/files/digest-bind-tools-9.4.0_beta4
+	D	net-dns/bind-tools/files/nslookup.8
+	D	net-dns/
+W: -empty_dir: net-dns
+r21 = 24c81708de1f153144219096ca717c1f416c3f79 (refs/remotes/git-svn)
+	D	net-im/psi/ChangeLog
+	D	net-im/psi/Manifest
+	D	net-im/psi/files/digest-psi-0.10
+	D	net-im/psi/files/digest-psi-0.10-r2
+	D	net-im/psi/files/digest-psi-0.11_pre20061231
+	D	net-im/psi/files/digest-psi-0.11_pre20070115
+	D	net-im/psi/files/psi-desktop2.patch
+	D	net-im/psi/files/psi-indicator.png
+	D	net-im/psi/files/psi-jingle-gcc4.patch
+	D	net-im/psi/files/psi-pathfix2.patch
+	D	net-im/psi/files/psi-reverse_trayicon2.patch
+	D	net-im/psi/metadata.xml
+	D	net-im/psi/psi-0.10-r2.ebuild
+	D	net-im/psi/psi-0.10.ebuild
+	D	net-im/psi/psi-0.11_pre20061231.ebuild
+	D	net-im/psi/psi-0.11_pre20070115.ebuild
+	D	net-im/
+W: -empty_dir: net-im
+r22 = 68b4cce973daaffe1e2d0b4e6e24631b53b2f325 (refs/remotes/git-svn)
+	D	x11-drivers/ati-drivers/Manifest
+	D	x11-drivers/ati-drivers/ati-drivers-8.31.5.ebuild
+	D	x11-drivers/ati-drivers/files/09ati
+	D	x11-drivers/ati-drivers/files/ati-drivers-2.6.19.patch
+	D	x11-drivers/ati-drivers/files/ati-powermode.sh.patch
+	D	x11-drivers/ati-drivers/files/atieventsd.rc6
+	D	x11-drivers/ati-drivers/files/digest-ati-drivers-8.31.5
+	D	x11-drivers/ati-drivers/
+W: -empty_dir: x11-drivers/ati-drivers
+r23 = 19b819b5a3744d0acd0a47853c23097803833ef5 (refs/remotes/git-svn)
+	D	x11-drivers/xf86-input-keyboard/xf86-input-keyboard-1.1.0.ebuild
+	D	x11-drivers/xf86-input-keyboard/xf86-input-keyboard-1.1.1.ebuild
+	D	x11-drivers/xf86-input-keyboard/xf86-input-keyboard-1.2.0.ebuild
+	D	x11-drivers/xf86-input-keyboard/files/digest-xf86-input-keyboard-1.1.1
+	D	x11-drivers/xf86-input-keyboard/files/digest-xf86-input-keyboard-1.2.0
+	D	x11-drivers/xf86-input-keyboard/files/digest-xf86-input-keyboard-1.1.0
+	M	x11-drivers/xf86-input-keyboard/Manifest
+W: -empty_dir: x11-drivers/xf86-input-keyboard/files/digest-xf86-input-keyboard-1.1.0
+W: -empty_dir: x11-drivers/xf86-input-keyboard/files/digest-xf86-input-keyboard-1.1.1
+W: -empty_dir: x11-drivers/xf86-input-keyboard/files/digest-xf86-input-keyboard-1.2.0
+W: -empty_dir: x11-drivers/xf86-input-keyboard/xf86-input-keyboard-1.1.0.ebuild
+W: -empty_dir: x11-drivers/xf86-input-keyboard/xf86-input-keyboard-1.1.1.ebuild
+W: -empty_dir: x11-drivers/xf86-input-keyboard/xf86-input-keyboard-1.2.0.ebuild
+r24 = 3dbecf91280b59618f6186866b0f86c08cf69048 (refs/remotes/git-svn)
+	A	dev-db/mysql/files/mysql.init
+	A	dev-db/mysql/mysql-5.0.38.ebuild
+	A	dev-db/mysql/files/digest-mysql-5.0.38
+	A	dev-db/mysql/Manifest
+	A	dev-db/mysql/files/my.cnf
+r25 = 0a6e03742cd739ec2e39ff76e39d5ebced034322 (refs/remotes/git-svn)
+	M	dev-db/mysql/mysql-5.0.38.ebuild
+	M	dev-db/mysql/files/digest-mysql-5.0.38
+	M	dev-db/mysql/Manifest
+r26 = 36aeb1509f82a0bb6c834f964674b640506ef87d (refs/remotes/git-svn)
+	M	dev-db/mysql/files/digest-mysql-5.0.38
+	M	dev-db/mysql/Manifest
+r27 = 68b6e167ecbdfde6ec91bd87f1808bbd6fa47027 (refs/remotes/git-svn)
+	D	dev-db/mysql/Manifest
+	D	dev-db/mysql/files/digest-mysql-5.0.38
+	D	dev-db/mysql/files/my.cnf
+	D	dev-db/mysql/files/mysql.init
+	D	dev-db/mysql/mysql-5.0.38.ebuild
+	D	dev-db/
+W: -empty_dir: dev-db
+r28 = 1f4430986af278224c0e1fbbd2a794bf0bd98884 (refs/remotes/git-svn)
+	A	net-analyzer/openvas-server/files/openvasd
+	A	net-analyzer/openvas-server/files/digest-openvas-server-0.9.0
+	A	net-analyzer/openvas-libraries/files/digest-openvas-libraries-1.0.0
+	A	net-analyzer/openvas-server/Manifest
+	A	net-analyzer/openvas-client/files/digest-openvas-client-1.0.0
+	A	net-analyzer/openvas-plugins/openvas-plugins-0.9.0.ebuild
+	A	net-analyzer/openvas-plugins/Manifest
+	A	net-analyzer/openvas/Manifest
+	A	net-analyzer/openvas-libnasl/Manifest
+	A	net-analyzer/openvas-libraries/Manifest
+	A	net-analyzer/openvas-client/Manifest
+	A	net-analyzer/openvas-server/openvas-server-0.9.0.ebuild
+	A	net-analyzer/openvas-libraries/openvas-libraries-1.0.0.ebuild
+	A	net-analyzer/openvas-plugins/files/digest-openvas-plugins-0.9.0
+	A	net-analyzer/openvas/files/digest-openvas-0.9.0
+	A	net-analyzer/openvas-libnasl/openvas-libnasl-0.9.0.ebuild
+	A	net-analyzer/openvas-client/openvas-client-1.0.0.ebuild
+	A	net-analyzer/openvas-plugins/files/libtool-mode.patch
+	A	net-analyzer/openvas/openvas-0.9.0.ebuild
+	A	net-analyzer/openvas-libnasl/files/digest-openvas-libnasl-0.9.0
+r29 = 5dbe19f5b02e8d27e4753c71e6bbd6eafe871d06 (refs/remotes/git-svn)
+	A	app-misc/sdricoh_cs/sdricoh_cs-0.1.1_p20071015.ebuild
+	A	app-misc/sdricoh_cs/files/digest-sdricoh_cs-0.1.1_p20071015
+	A	app-misc/sdricoh_cs/Manifest
+r30 = 4f5d7639ead22bbab3ad0eeb6ea43c2b844b6a61 (refs/remotes/git-svn)
+	D	app-misc/sdricoh_cs/Manifest
+	D	app-misc/sdricoh_cs/files/digest-sdricoh_cs-0.1.1_p20071015
+	D	app-misc/sdricoh_cs/sdricoh_cs-0.1.1_p20071015.ebuild
+	D	app-misc/
+W: -empty_dir: app-misc
+r31 = 8884c55c8bd3af9bf13bd33db023781c0d8c1133 (refs/remotes/git-svn)
+	A	net-analyzer/openvas-libnasl/files/digest-openvas-libnasl-1.0.0
+	M	net-analyzer/openvas-libnasl/Manifest
+	A	net-analyzer/openvas-libnasl/openvas-libnasl-1.0.0.ebuild
+r32 = 7ac764a489538ce8f5afffdc83759e927b3f7555 (refs/remotes/git-svn)
+	M	net-analyzer/openvas-libraries/openvas-libraries-1.0.0.ebuild
+	M	net-analyzer/openvas-libraries/Manifest
+r33 = a63393021daeef226a5ebd63192c1a9326711f52 (refs/remotes/git-svn)
+	M	net-analyzer/openvas-libraries/openvas-libraries-1.0.0.ebuild
+	M	net-analyzer/openvas-libraries/Manifest
+r34 = e1ccba8df6a595a4b0db2ca4796eb412d769c349 (refs/remotes/git-svn)
+	M	net-analyzer/openvas-server/Manifest
+	A	net-analyzer/openvas-server/files/digest-openvas-server-0.9.2
+	A	net-analyzer/openvas-server/openvas-server-0.9.2.ebuild
+	M	net-analyzer/openvas-server/openvas-server-0.9.0.ebuild
+r35 = 4d9d75c7b0ba1eae5bee1281acb37eeeffc4361f (refs/remotes/git-svn)
+	M	net-analyzer/openvas-plugins/openvas-plugins-0.9.0.ebuild
+	M	net-analyzer/openvas-plugins/Manifest
+	A	net-analyzer/openvas-plugins/openvas-plugins-0.9.1.ebuild
+	A	net-analyzer/openvas-plugins/files/digest-openvas-plugins-0.9.1
+r36 = 971bbbbfc8006a7899fd9324280f031c86876749 (refs/remotes/git-svn)
+	A	net-analyzer/openvas-client/files/digest-openvas-client-1.0.2
+	A	net-analyzer/openvas-client/openvas-client-1.0.2.ebuild
+	M	net-analyzer/openvas-client/openvas-client-1.0.0.ebuild
+	M	net-analyzer/openvas-client/Manifest
+r37 = 79e0eaee5cebd208e90c2ded9ee3eb47f9549222 (refs/remotes/git-svn)
+	M	net-analyzer/openvas/openvas-0.9.0.ebuild
+	M	net-analyzer/openvas/Manifest
+r38 = d5facbbc98d99a23a57414a7d2e7682a3aeb97de (refs/remotes/git-svn)
+	M	net-analyzer/openvas-plugins/openvas-plugins-0.9.1.ebuild
+	A	net-analyzer/openvas-plugins/files/openvas-plugins-0.9.1-nvt-sync-pathfix.diff
+	M	net-analyzer/openvas-plugins/Manifest
+r39 = e379b2996e0fe811eb35a503ecd91f8652f6c273 (refs/remotes/git-svn)
+	M	net-analyzer/openvas-server/Manifest
+	M	net-analyzer/openvas-client/openvas-client-1.0.2.ebuild
+	M	net-analyzer/openvas-server/openvas-server-0.9.2.ebuild
+	M	net-analyzer/openvas-libnasl/openvas-libnasl-1.0.0.ebuild
+	M	net-analyzer/openvas-client/Manifest
+	A	net-analyzer/openvas-libnasl/files/openvas-libnasl-1.0.0-Makefile.patch
+	M	net-analyzer/openvas-libnasl/Manifest
+r40 = ff85c79a74f69586774c996114d606f596eff333 (refs/remotes/git-svn)
+	A	net-analyzer/openvas-server/files/digest-openvas-server-1.0.0
+	A	net-analyzer/openvas-server/openvas-server-1.0.0.ebuild
+	M	net-analyzer/openvas-server/Manifest
+r41 = 144db9efb7d096df6d5b8a0c15e7924d9c05bd57 (refs/remotes/git-svn)
+	D	net-analyzer/openvas/files/digest-openvas-0.9.0
+	D	net-analyzer/openvas/files/
+	M	net-analyzer/openvas/Manifest
+	A	net-analyzer/openvas/openvas-1.0.0.ebuild
+W: +empty_dir: net-analyzer/openvas/files
+r42 = c85fda1db5f3b3375984bd31bdb518840564dc38 (refs/remotes/git-svn)
+	D	net-analyzer/openvas-plugins/files/digest-openvas-plugins-0.9.0
+	D	net-analyzer/openvas-plugins/files/digest-openvas-plugins-0.9.1
+	M	net-analyzer/openvas-plugins/Manifest
+	A	net-analyzer/openvas-plugins/openvas-plugins-1.0.0.ebuild
+W: -empty_dir: net-analyzer/openvas-plugins/files/digest-openvas-plugins-0.9.0
+W: -empty_dir: net-analyzer/openvas-plugins/files/digest-openvas-plugins-0.9.1
+r43 = eb0fc1d1d8975af6719b49422a6cc5eaeb72eaa9 (refs/remotes/git-svn)
+	D	net-analyzer/openvas-client/files/digest-openvas-client-1.0.0
+	D	net-analyzer/openvas-client/files/digest-openvas-client-1.0.2
+	D	net-analyzer/openvas-client/files/
+	D	net-analyzer/openvas-client/openvas-client-1.0.0.ebuild
+	M	net-analyzer/openvas-client/Manifest
+W: -empty_dir: net-analyzer/openvas-client/files
+W: -empty_dir: net-analyzer/openvas-client/openvas-client-1.0.0.ebuild
+r44 = d1ebed6ba7cbda3b0e871d57c729b8078c30cea7 (refs/remotes/git-svn)
+	D	net-analyzer/openvas-libnasl/openvas-libnasl-0.9.0.ebuild
+	D	net-analyzer/openvas-libnasl/files/digest-openvas-libnasl-1.0.0
+	D	net-analyzer/openvas-libnasl/files/digest-openvas-libnasl-0.9.0
+	M	net-analyzer/openvas-libnasl/Manifest
+W: -empty_dir: net-analyzer/openvas-libnasl/files/digest-openvas-libnasl-0.9.0
+W: -empty_dir: net-analyzer/openvas-libnasl/files/digest-openvas-libnasl-1.0.0
+W: -empty_dir: net-analyzer/openvas-libnasl/openvas-libnasl-0.9.0.ebuild
+r45 = 5564a1fbf696e5ce66268b897a0d4fd9341026b5 (refs/remotes/git-svn)
+	D	net-analyzer/openvas-libraries/files/digest-openvas-libraries-1.0.0
+	D	net-analyzer/openvas-libraries/files/
+	M	net-analyzer/openvas-libraries/Manifest
+W: -empty_dir: net-analyzer/openvas-libraries/files
+r46 = 837f4846a9f2b0b8544d6ce53b1c34d814920c67 (refs/remotes/git-svn)
+	D	net-analyzer/openvas-plugins/openvas-plugins-0.9.0.ebuild
+	D	net-analyzer/openvas-plugins/openvas-plugins-0.9.1.ebuild
+	D	net-analyzer/openvas-plugins/files/libtool-mode.patch
+	D	net-analyzer/openvas-plugins/files/openvas-plugins-0.9.1-nvt-sync-pathfix.diff
+	D	net-analyzer/openvas-plugins/files/
+	M	net-analyzer/openvas-plugins/Manifest
+W: -empty_dir: net-analyzer/openvas-plugins/files
+W: -empty_dir: net-analyzer/openvas-plugins/openvas-plugins-0.9.0.ebuild
+W: -empty_dir: net-analyzer/openvas-plugins/openvas-plugins-0.9.1.ebuild
+r47 = 87d731e9a9788be087f727aa44ea58c33cc90ed1 (refs/remotes/git-svn)
+	D	net-analyzer/openvas-server/openvas-server-0.9.0.ebuild
+	D	net-analyzer/openvas-server/openvas-server-0.9.2.ebuild
+	D	net-analyzer/openvas-server/files/digest-openvas-server-0.9.2
+	D	net-analyzer/openvas-server/files/digest-openvas-server-1.0.0
+	D	net-analyzer/openvas-server/files/digest-openvas-server-0.9.0
+	M	net-analyzer/openvas-server/Manifest
+W: -empty_dir: net-analyzer/openvas-server/files/digest-openvas-server-0.9.0
+W: -empty_dir: net-analyzer/openvas-server/files/digest-openvas-server-0.9.2
+W: -empty_dir: net-analyzer/openvas-server/files/digest-openvas-server-1.0.0
+W: -empty_dir: net-analyzer/openvas-server/openvas-server-0.9.0.ebuild
+W: -empty_dir: net-analyzer/openvas-server/openvas-server-0.9.2.ebuild
+r48 = d2ebe41322aecaae8203474a5a54b495d408a416 (refs/remotes/git-svn)
+	D	net-analyzer/openvas/openvas-0.9.0.ebuild
+	D	net-analyzer/openvas/files
+	M	net-analyzer/openvas/Manifest
+	M	net-analyzer/openvas/openvas-1.0.0.ebuild
+W: -empty_dir: net-analyzer/openvas/files
+W: -empty_dir: net-analyzer/openvas/openvas-0.9.0.ebuild
+r49 = c9e35817deb73d7c0d6232db9a2f2005c1e7c855 (refs/remotes/git-svn)
+	M	net-analyzer/openvas-libnasl/openvas-libnasl-1.0.0.ebuild
+	M	net-analyzer/openvas-libnasl/Manifest
+r50 = eceb56e56e01a81b0b905ca05f1f7b851cad8c76 (refs/remotes/git-svn)
+	D	net-analyzer/openvas-server/Manifest
+	D	net-analyzer/openvas-server/files/openvasd
+	D	net-analyzer/openvas-server/openvas-server-1.0.0.ebuild
+	D	net-analyzer/openvas-server/
+	D	net-analyzer/openvas-libraries/Manifest
+	D	net-analyzer/openvas-libraries/openvas-libraries-1.0.0.ebuild
+	D	net-analyzer/openvas-libraries/
+	D	net-analyzer/openvas-client/Manifest
+	D	net-analyzer/openvas-client/openvas-client-1.0.2.ebuild
+	D	net-analyzer/openvas-client/
+	D	net-analyzer/openvas-plugins/Manifest
+	D	net-analyzer/openvas-plugins/openvas-plugins-1.0.0.ebuild
+	D	net-analyzer/openvas-plugins/
+	D	net-analyzer/openvas/Manifest
+	D	net-analyzer/openvas/openvas-1.0.0.ebuild
+	D	net-analyzer/openvas/
+	D	net-analyzer/openvas-libnasl/Manifest
+	D	net-analyzer/openvas-libnasl/files/openvas-libnasl-1.0.0-Makefile.patch
+	D	net-analyzer/openvas-libnasl/openvas-libnasl-1.0.0.ebuild
+	D	net-analyzer/openvas-libnasl/
+W: -empty_dir: net-analyzer/openvas
+W: -empty_dir: net-analyzer/openvas-client
+W: -empty_dir: net-analyzer/openvas-libnasl
+W: -empty_dir: net-analyzer/openvas-libraries
+W: -empty_dir: net-analyzer/openvas-plugins
+W: -empty_dir: net-analyzer/openvas-server
+r51 = eb56d0c5f477500f9534ceedce4846e6b033fead (refs/remotes/git-svn)
+	D	net-analyzer
+W: -empty_dir: net-analyzer
+r52 = d0d1c6921c0afbba7decf604141e5ba52567210b (refs/remotes/git-svn)
+	D	x11-base/xorg-server/files/digest-xorg-server-9999
+	M	x11-base/xorg-server/Manifest
+	M	x11-base/xorg-server/xorg-server-9999.ebuild
+W: -empty_dir: x11-base/xorg-server/files/digest-xorg-server-9999
+r53 = e909d5a316257ae0b2fbacb4d945bbcba6f06d11 (refs/remotes/git-svn)
+	D	x11-drivers/xf86-input-keyboard/files/digest-xf86-input-keyboard-9999
+	D	x11-drivers/xf86-input-keyboard/files/
+	M	x11-drivers/xf86-input-keyboard/xf86-input-keyboard-9999.ebuild
+	M	x11-drivers/xf86-input-keyboard/Manifest
+W: -empty_dir: x11-drivers/xf86-input-keyboard/files
+r54 = 47fa48e19d159f2d3361b666d58d783e8583cc07 (refs/remotes/git-svn)
+	D	x11-drivers/xf86-video-ati/files/digest-xf86-video-ati-9999
+	M	x11-drivers/xf86-video-ati/xf86-video-ati-9999.ebuild
+	M	x11-drivers/xf86-video-ati/Manifest
+W: -empty_dir: x11-drivers/xf86-video-ati/files/digest-xf86-video-ati-9999
+r55 = 5c13d461ef11c757830966c22f34ea6d0559bb4d (refs/remotes/git-svn)
+	M	x11-drivers/xf86-video-ati/xf86-video-ati-9999.ebuild
+	M	x11-drivers/xf86-video-ati/Manifest
+r56 = be44630c28804fe0ae1847d66e5e69257a608b1b (refs/remotes/git-svn)
+	A	app-office/qbankmanager/qbankmanager-0.9.49_beta.ebuild
+	A	net-libs/aqbanking/aqbanking-3.2.1.ebuild
+	A	sys-libs/libchipcard/files/libchipcard-ccid-dir.diff
+	A	sys-libs/gwenhywfar/Manifest
+	A	app-office/qbankmanager/Manifest
+	A	sys-libs/libchipcard/Manifest
+	A	sys-libs/libchipcard/libchipcard-4.0.0.ebuild
+	A	net-libs/aqbanking/Manifest
+	A	sys-libs/libchipcard/files/chipcardd4
+	A	sys-libs/gwenhywfar/gwenhywfar-3.1.1.ebuild
+r57 = 9a184856a0031405621a8f93d8b737e00b8aaebb (refs/remotes/git-svn)
+	D	media-libs/mesa/files/digest-mesa-9999
+	M	media-libs/mesa/mesa-9999.ebuild
+	M	media-libs/mesa/Manifest
+W: -empty_dir: media-libs/mesa/files/digest-mesa-9999
+r58 = 536eaa2149c7a794fb867e4ec314abbfa737374d (refs/remotes/git-svn)
+	A	x11-drivers/synaptics/files/rc.conf
+	A	x11-drivers/synaptics/synaptics-9999.ebuild
+	A	x11-drivers/synaptics/files/synaptics.patch
+	A	x11-drivers/synaptics/files/rc.init
+	A	x11-drivers/synaptics/Manifest
+r59 = 385311cdfc26defe8f12e1bbe805bd87eb0b3aaa (refs/remotes/git-svn)
+	A	x11-libs/libpciaccess/Manifest
+	A	x11-libs/libpciaccess/libpciaccess-9999.ebuild
+r60 = f4b97e4a8084c0508b3fdf6968b9b49325da78ec (refs/remotes/git-svn)
+	M	sys-libs/libchipcard/libchipcard-4.0.0.ebuild
+	M	sys-libs/libchipcard/Manifest
+r61 = 22e79bca8a2082e2743d34760ef3205343caaafb (refs/remotes/git-svn)
+	A	x11-base/xorg-server/files/1.4-fix-kdrive-automake.patch
+	M	x11-base/xorg-server/Manifest
+	M	x11-base/xorg-server/xorg-server-9999.ebuild
+	A	x11-base/xorg-server/files/1.4-ia64.patch
+r62 = 995b8039a6325202a5f53b931f048e584b7b5f58 (refs/remotes/git-svn)
+	A	media-libs/mesa/mesa-9999-r1.ebuild
+	A	media-libs/mesa/files/mesa-gallium
+	M	media-libs/mesa/Manifest
+r63 = d9d31ca260ffdc190663c8152966bddac8df0a30 (refs/remotes/git-svn)
+	D	media-libs/mesa/files/mesa-gallium
+	M	media-libs/mesa/mesa-9999-r1.ebuild
+W: -empty_dir: media-libs/mesa/files/mesa-gallium
+r64 = 31262439182610ebee2ab6d2eef5c9e66f335ed0 (refs/remotes/git-svn)
+	M	media-libs/mesa/Manifest
+r65 = 09c768a32e2350680ecd916996f5b75d71cd3b76 (refs/remotes/git-svn)
+	M	media-libs/mesa/mesa-9999-r1.ebuild
+	M	media-libs/mesa/Manifest
+	A	media-libs/mesa/files/mesa-gallium-winsys
+r66 = 83e090a9cb7ef374f5ccd70cc72ef39aae2d175c (refs/remotes/git-svn)
+	D	media-libs/mesa/files/mesa-gallium-winsys
+	M	media-libs/mesa/Manifest
+	M	media-libs/mesa/mesa-9999-r1.ebuild
+W: -empty_dir: media-libs/mesa/files/mesa-gallium-winsys
+r67 = 19e72bf0b0199f8b77fbe862b47217aee5c1c174 (refs/remotes/git-svn)
+	A	x11-proto/dri2proto/dri2proto-1.1.ebuild
+	A	x11-proto/dri2proto/Manifest
+r68 = 30e9779cda16f2e440df5bf2e3b684651782e57d (refs/remotes/git-svn)
+	M	media-libs/mesa/Manifest
+	M	media-libs/mesa/mesa-9999.ebuild
+r69 = 0850e6e2cc263ad6ead7639984c54f5497832b7f (refs/remotes/git-svn)
+	A	x11-libs/libdrm/Manifest
+	A	x11-libs/libdrm/libdrm-9999.ebuild
+r70 = c034dc1591170b5160ba6cf750c26151baa09492 (refs/remotes/git-svn)
+	A	x11-base/x11-drm/files/patch/002_all_undefined-true-false.patch
+	A	x11-base/x11-drm/x11-drm-99999999.ebuild
+	A	x11-base/x11-drm/files/modules.d-x11-drm
+	A	x11-base/x11-drm/files/patch/001_all_misc-makefile-fixes.patch
+	A	x11-base/x11-drm/Manifest
+r71 = 425156ad29a6b86cb7b010ca30869987b62fa08a (refs/remotes/git-svn)
+	A	net-im/gajim/Manifest
+	A	net-im/pyotr/pyotr-9999.ebuild
+	A	net-im/gajim/gajim-9999.ebuild
+	A	net-im/pyotr/Manifest
+	A	eclass/bzr.eclass
+r72 = 4667350f85bde64d963d8988e8e10d4bc1a9e893 (refs/remotes/git-svn)
+	A	sys-libs/gwenhywfar/gwenhywfar-3.3.1.ebuild
+	A	net-libs/aqbanking/aqbanking-3.4.1.ebuild
+	M	sys-libs/gwenhywfar/Manifest
+	M	net-libs/aqbanking/Manifest
+r73 = 54f65bdf4d7377da581dcf54bad7cb1be72a46f6 (refs/remotes/git-svn)
+	A	net-im/pyotr/pyotr-0.1.ebuild
+	M	net-im/pyotr/pyotr-9999.ebuild
+	M	net-im/pyotr/Manifest
+r74 = b5f7b33c54a260d30bbdc3b659010f713146e6f5 (refs/remotes/git-svn)
+	A	media-libs/babl/babl-0.0.20.ebuild
+	A	media-libs/gegl/gegl-0.0.16.ebuild
+	A	media-libs/gegl/Manifest
+	A	media-libs/babl/Manifest
+r75 = 12aaf4450ea6075f31634b959dc16ef049af8d7e (refs/remotes/git-svn)
+	A	media-gfx/gimp/Manifest
+	A	media-gfx/gimp/gimp-2.5.0.ebuild
+r76 = 6df8da1b528bab118ed58ebafdc9ad641c043c9d (refs/remotes/git-svn)
+	M	net-im/gajim/Manifest
+	M	net-im/gajim/gajim-9999.ebuild
+r77 = 36d8a9c4890ac8bd26578c63e84149bfc610f58a (refs/remotes/git-svn)
+	M	net-im/pyotr/Manifest
+	M	net-im/pyotr/pyotr-0.1.ebuild
+r78 = 8fd85e0ee0207a5ae7038469ca40d16caba247d4 (refs/remotes/git-svn)
+	D	net-im/pyotr/Manifest
+	D	net-im/pyotr/pyotr-0.1.ebuild
+	D	net-im/pyotr/pyotr-9999.ebuild
+	D	net-im/pyotr/
+W: -empty_dir: net-im/pyotr
+r79 = 5b44cbcc6268e5ae5b55fac2e4b5008c13414580 (refs/remotes/git-svn)
+	M	media-gfx/gimp/Manifest
+	M	media-gfx/gimp/gimp-2.5.0.ebuild
+r80 = b85e21f515ce4ddc434488388816e4e0b40fc629 (refs/remotes/git-svn)
+	A	sci-geosciences/navit/navit-9999.ebuild
+	A	sci-geosciences/navit/Manifest
+r81 = 1bdf05a125feb24139bafcc62e3613e3f2cf375e (refs/remotes/git-svn)
+	M	sci-geosciences/navit/navit-9999.ebuild
+	M	sci-geosciences/navit/Manifest
+r82 = 675fb95b06b48a39ec9e2ce3ebe237d4983331bf (refs/remotes/git-svn)
+	D	sys-libs/gwenhywfar/Manifest
+	D	sys-libs/gwenhywfar/gwenhywfar-3.1.1.ebuild
+	D	sys-libs/gwenhywfar/gwenhywfar-3.3.1.ebuild
+	D	sys-libs/libchipcard/Manifest
+	D	sys-libs/libchipcard/files/chipcardd4
+	D	sys-libs/libchipcard/files/libchipcard-ccid-dir.diff
+	D	sys-libs/libchipcard/libchipcard-4.0.0.ebuild
+	D	sys-libs/
+	D	app-office/qbankmanager/Manifest
+	D	app-office/qbankmanager/qbankmanager-0.9.49_beta.ebuild
+	D	app-office/
+	D	net-libs/aqbanking/Manifest
+	D	net-libs/aqbanking/aqbanking-3.2.1.ebuild
+	D	net-libs/aqbanking/aqbanking-3.4.1.ebuild
+	D	net-libs/
+W: -empty_dir: app-office
+W: -empty_dir: net-libs
+W: -empty_dir: sys-libs
+r83 = 6c44600eff6f39c9eb13e5bbe6df5ce692a25a86 (refs/remotes/git-svn)
+	D	x11-libs/libpciaccess/Manifest
+	D	x11-libs/libpciaccess/libpciaccess-9999.ebuild
+	D	x11-libs/libpciaccess/
+W: -empty_dir: x11-libs/libpciaccess
+r84 = 50b440a628ad3cf448b813638e3583b8863935bc (refs/remotes/git-svn)
+	M	net-im/gajim/gajim-9999.ebuild
+	M	net-im/gajim/Manifest
+r85 = 5f7d3090dd1879e9a086853126e09f8ffbcfc594 (refs/remotes/git-svn)
+	M	x11-base/xorg-server/Manifest
+r86 = 58c4bb722b199e3f36063ac575319eeeabb13f40 (refs/remotes/git-svn)
+	M	x11-base/xorg-server/Manifest
+r87 = 1e8fa076c567d029b89fecb835454496783432a2 (refs/remotes/git-svn)
+	D	x11-proto/dri2proto/Manifest
+	D	x11-proto/dri2proto/dri2proto-1.1.ebuild
+	D	x11-proto/
+W: -empty_dir: x11-proto
+r88 = 661215b82d3151d40f6753b02534daa2534c2515 (refs/remotes/git-svn)
+	A	profiles/repo_name
+r89 = 25993099b6a24d9a62e5d831dad2e78312b71d15 (refs/remotes/git-svn)
+	M	media-libs/mesa/mesa-9999-r1.ebuild
+	M	media-libs/mesa/Manifest
+r90 = 937b6b9d3db787fa6d9b326821ec9efadb22e121 (refs/remotes/git-svn)
+	M	media-libs/babl/Manifest
+	A	media-libs/babl/babl-0.0.22.ebuild
+r91 = 3a3d10286890d1f789cd1d1cc5f8065de94bc117 (refs/remotes/git-svn)
+	M	media-libs/gegl/Manifest
+	A	media-libs/gegl/files/gegl-0.0.18-newffmpeg.diff
+	A	media-libs/gegl/gegl-0.0.18.ebuild
+r92 = 60768a7370fe34cf3e8a3268dcf3f036782e4832 (refs/remotes/git-svn)
+	M	media-gfx/gimp/Manifest
+	A	media-gfx/gimp/gimp-2.5.1.ebuild
+r93 = 6fcbf4fb01c73364e99a511c4fa1e29a53d3c86b (refs/remotes/git-svn)
+	M	media-gfx/gimp/Manifest
+	M	media-gfx/gimp/gimp-2.5.1.ebuild
+	A	media-gfx/gimp/files/gimp-2.5.1-makecheck.diff
+r94 = c3496a81256cd96800c29eab6a6553c5fa496713 (refs/remotes/git-svn)
+	M	media-libs/gegl/gegl-0.0.18.ebuild
+	M	media-libs/gegl/Manifest
+r95 = 97084d87fa8bb1d5072fb701a2b2dfd1515ba941 (refs/remotes/git-svn)
+	M	media-libs/gegl/Manifest
+	M	media-libs/gegl/gegl-0.0.18.ebuild
+r96 = df551d1a5154d5818b16f8ec828bbb0a46198980 (refs/remotes/git-svn)
+	A	media-gfx/gimp/gimp-2.5.2.ebuild
+	M	media-gfx/gimp/Manifest
+r97 = efade8824fa27a273d50ad33a4ed30250ff72845 (refs/remotes/git-svn)
+	M	sci-geosciences/navit/navit-9999.ebuild
+	M	sci-geosciences/navit/Manifest
+r98 = 07b3ed97552005d8b524807db193bcb589a78edb (refs/remotes/git-svn)
+	M	x11-drivers/synaptics/synaptics-9999.ebuild
+	M	x11-drivers/synaptics/Manifest
+r99 = e5593d23f9be54a768583a21cf38d52ecf3b9331 (refs/remotes/git-svn)
+	M	x11-drivers/synaptics/synaptics-9999.ebuild
+	M	x11-drivers/synaptics/Manifest
+r100 = 9a27e20772ab1377dbcdb9d454194aed6b6cf704 (refs/remotes/git-svn)
+	A	media-gfx/gimp/gimp-2.5.3.ebuild
+	M	media-gfx/gimp/Manifest
+r101 = 27b2252fc0c69b3b7a68f573501aba97f0ffaf09 (refs/remotes/git-svn)
+	D	media-libs/mesa/Manifest
+	D	media-libs/mesa/files/lib/libGL.la
+	D	media-libs/mesa/files/lib/libGLU.la
+	D	media-libs/mesa/mesa-9999-r1.ebuild
+	D	media-libs/mesa/mesa-9999.ebuild
+	D	media-libs/mesa/
+W: -empty_dir: media-libs/mesa
+r102 = 380251c93b390f8ed0e41398c1af576f10e26dc6 (refs/remotes/git-svn)
+	D	x11-libs/libdrm/Manifest
+	D	x11-libs/libdrm/libdrm-9999.ebuild
+	D	x11-libs/
+	D	x11-base/x11-drm/Manifest
+	D	x11-base/x11-drm/files/modules.d-x11-drm
+	D	x11-base/x11-drm/files/patch/001_all_misc-makefile-fixes.patch
+	D	x11-base/x11-drm/files/patch/002_all_undefined-true-false.patch
+	D	x11-base/x11-drm/x11-drm-99999999.ebuild
+	D	x11-base/xorg-server/Manifest
+	D	x11-base/xorg-server/files/1.4-fix-kdrive-automake.patch
+	D	x11-base/xorg-server/files/1.4-ia64.patch
+	D	x11-base/xorg-server/files/xprint.init
+	D	x11-base/xorg-server/xorg-server-9999.ebuild
+	D	x11-base/
+	D	x11-drivers/synaptics/Manifest
+	D	x11-drivers/synaptics/files/rc.conf
+	D	x11-drivers/synaptics/files/rc.init
+	D	x11-drivers/synaptics/files/synaptics.patch
+	D	x11-drivers/synaptics/synaptics-9999.ebuild
+	D	x11-drivers/xf86-input-keyboard/ChangeLog
+	D	x11-drivers/xf86-input-keyboard/Manifest
+	D	x11-drivers/xf86-input-keyboard/metadata.xml
+	D	x11-drivers/xf86-input-keyboard/xf86-input-keyboard-9999.ebuild
+	D	x11-drivers/xf86-video-ati/Manifest
+	D	x11-drivers/xf86-video-ati/files/ati.xinf
+	D	x11-drivers/xf86-video-ati/files/r128.xinf
+	D	x11-drivers/xf86-video-ati/files/radeon.xinf
+	D	x11-drivers/xf86-video-ati/xf86-video-ati-9999.ebuild
+	D	x11-drivers/
+W: -empty_dir: x11-base
+W: -empty_dir: x11-drivers
+W: -empty_dir: x11-libs
+r103 = bf9ba723787a0a9a956e1a45854c58555b0c1f26 (refs/remotes/git-svn)
+	M	media-libs/gegl/Manifest
+r104 = 27438b8010f4cb38ae9335a9f5c67fa049069c35 (refs/remotes/git-svn)
+	D	media-gfx/gimp/gimp-2.5.0.ebuild
+	D	media-gfx/gimp/gimp-2.5.1.ebuild
+	D	media-gfx/gimp/files/gimp-2.5.1-makecheck.diff
+	D	media-gfx/gimp/files/
+	M	media-gfx/gimp/Manifest
+W: -empty_dir: media-gfx/gimp/files
+W: -empty_dir: media-gfx/gimp/gimp-2.5.0.ebuild
+W: -empty_dir: media-gfx/gimp/gimp-2.5.1.ebuild
+r105 = 067d4a03546c40f9f03383f3e1e70371f239dade (refs/remotes/git-svn)
+	A	media-gfx/gimp/gimp-2.6.0.ebuild
+	A	media-gfx/gimp/gimp-2.5.4.ebuild
+	M	media-gfx/gimp/Manifest
+r106 = 848dce0c37658349b147437d2571bbdc657fccc3 (refs/remotes/git-svn)
+	D	media-libs/babl/Manifest
+	D	media-libs/babl/babl-0.0.20.ebuild
+	D	media-libs/babl/babl-0.0.22.ebuild
+	D	media-libs/gegl/Manifest
+	D	media-libs/gegl/files/gegl-0.0.18-newffmpeg.diff
+	D	media-libs/gegl/gegl-0.0.16.ebuild
+	D	media-libs/gegl/gegl-0.0.18.ebuild
+	D	media-libs/
+W: -empty_dir: media-libs
+r107 = ac17cb8b08e119dcebf8bb9319fcaa5530d98129 (refs/remotes/git-svn)
+	D	media-gfx/gimp/Manifest
+	D	media-gfx/gimp/gimp-2.5.2.ebuild
+	D	media-gfx/gimp/gimp-2.5.3.ebuild
+	D	media-gfx/gimp/gimp-2.5.4.ebuild
+	D	media-gfx/gimp/gimp-2.6.0.ebuild
+	D	media-gfx/
+W: -empty_dir: media-gfx
+r108 = 56e8652c47f99ce2d2a255156fcd3a38b6f5aff5 (refs/remotes/git-svn)
+	D	eclass/bzr.eclass
+	D	eclass/
+W: -empty_dir: eclass
+r109 = c12a09aac7ce2f8aefbab6bea1133aadb3d8cc0e (refs/remotes/git-svn)
+	A	test.txt
+r110 = 6d52fea0ac8ffc62867223e89e2d09dcd6a3395f (refs/remotes/git-svn)
+	D	test.txt
+W: -empty_dir: test.txt
+r111 = f7945e728a5b3b4de9a5d2e5670c3c48a4f9ae63 (refs/remotes/git-svn)
+	M	net-im/gajim/Manifest
+	M	net-im/gajim/gajim-9999.ebuild
+r112 = 01bcc934ac7b606947a0f1ece32b005accd771c0 (refs/remotes/git-svn)
+	A	sci-geosciences/qlandkartegt/Manifest
+	A	sci-geosciences/qlandkartegt/qlandkartegt-0.10.0.ebuild
+	A	sci-geosciences/qlandkartegt-garmindev/qlandkartegt-garmindev-20090306.ebuild
+	A	sci-geosciences/qlandkartegt-garmindev/files/qlandkartegt-garmindev-multilib-strict.diff
+	A	sci-geosciences/qlandkartegt-garmindev/Manifest
+r113 = a126db33a13aced5758e5075b075b34bc6220fed (refs/remotes/git-svn)
+	A	sci-geosciences/qlandkartegt/qlandkartegt-0.11.0.ebuild
+	M	sci-geosciences/qlandkartegt/Manifest
+r114 = 9f45fa86331e56627e95f3675bc5e3b1dd939fe6 (refs/remotes/git-svn)
+	M	sci-geosciences/qlandkartegt-garmindev/qlandkartegt-garmindev-20090306.ebuild
+	M	sci-geosciences/qlandkartegt-garmindev/Manifest
+	A	sci-geosciences/qlandkartegt-garmindev/qlandkartegt-garmindev-0.1.0.ebuild
+r115 = 3232c2bfad15d2bc9f30446271f273bc357ac82e (refs/remotes/git-svn)
+	D	sci-geosciences/qlandkartegt/Manifest
+	D	sci-geosciences/qlandkartegt/qlandkartegt-0.10.0.ebuild
+	D	sci-geosciences/qlandkartegt/qlandkartegt-0.11.0.ebuild
+	D	sci-geosciences/qlandkartegt/
+	D	sci-geosciences/qlandkartegt-garmindev/Manifest
+	D	sci-geosciences/qlandkartegt-garmindev/files/qlandkartegt-garmindev-multilib-strict.diff
+	D	sci-geosciences/qlandkartegt-garmindev/qlandkartegt-garmindev-0.1.0.ebuild
+	D	sci-geosciences/qlandkartegt-garmindev/qlandkartegt-garmindev-20090306.ebuild
+	D	sci-geosciences/qlandkartegt-garmindev/
+W: -empty_dir: sci-geosciences/qlandkartegt
+W: -empty_dir: sci-geosciences/qlandkartegt-garmindev
+r116 = e9d152329fd72fe7516bfd97c9ba684885793e7b (refs/remotes/git-svn)
+	A	net-misc/aqbd/Manifest
+	A	net-misc/aqbd/aqbd-1.025.ebuild
+	M	net-im/gajim/Manifest
+	M	net-im/gajim/gajim-9999.ebuild
+	A	net-libs/aqbanking/Manifest
+	A	net-libs/aqbanking/aqbanking-3.99.11_rc5.ebuild
+r117 = 8860bea5f349f55978f4f4b4c3393f8d3146e380 (refs/remotes/git-svn)
+	A	app-office/qbankmanager/Manifest
+	A	app-office/qbankmanager/qbankmanager-0.9.51_beta.ebuild
+r118 = 81b4f4ca2b3c285c559b41cf4b513195f4d7b7ea (refs/remotes/git-svn)
+	A	sys-apps/smartmontools/files/smartd.confd
+	A	sys-apps/smartmontools/files/smartd.rc
+	A	sys-apps/smartmontools/smartmontools-9999.ebuild
+r119 = 42fc7fc62399e4a6dcb25fc797a00cfdc28337cb (refs/remotes/git-svn)
+	A	sys-apps/smartmontools/Manifest
+r120 = feb9cf8eb07e9c955257f289cdcf2c470e247594 (refs/remotes/git-svn)
+	M	net-libs/aqbanking/Manifest
+	A	net-libs/aqbanking/aqbanking-3.99.13_rc7.ebuild
+r121 = 0f30c5a4c60b92c2a35f4562b522064fca411c45 (refs/remotes/git-svn)
+	M	net-libs/aqbanking/Manifest
+	A	net-libs/aqbanking/aqbanking-4.0.0.ebuild
+r122 = e18e3264cdcc0f1139f85cdf0fef5be52a723988 (refs/remotes/git-svn)
+	D	app-office/qbankmanager/Manifest
+	D	app-office/qbankmanager/qbankmanager-0.9.51_beta.ebuild
+	D	app-office/
+	D	net-libs/aqbanking/Manifest
+	D	net-libs/aqbanking/aqbanking-3.99.11_rc5.ebuild
+	D	net-libs/aqbanking/aqbanking-3.99.13_rc7.ebuild
+	D	net-libs/aqbanking/aqbanking-4.0.0.ebuild
+	D	net-libs/
+W: -empty_dir: app-office
+W: -empty_dir: net-libs
+r123 = 37cade6c680e7f981d0aba2b41b24c5e89ab3f19 (refs/remotes/git-svn)
+	M	net-im/gajim/Manifest
+	M	net-im/gajim/gajim-9999.ebuild
+r124 = 240d43f1b2a0150b76288ea68502bfa5f7cd18d7 (refs/remotes/git-svn)
+	M	sys-apps/smartmontools/smartmontools-9999.ebuild
+	M	sys-apps/smartmontools/Manifest
+r125 = e4d970192d44d4baaf52ad9f378e4413d49b6e6c (refs/remotes/git-svn)
+	A	app-arch/zpaq/Manifest
+	A	app-arch/zpaq/zpaq-1.00.ebuild
+	A	app-arch/zpaq/zpaq-1.02.ebuild
+r126 = f587b002c8629393572c653cd4f6cd861d3e363d (refs/remotes/git-svn)
+	A	net-im/gajim/files/POTFILES.in
+	M	net-im/gajim/Manifest
+	M	net-im/gajim/gajim-9999.ebuild
+r127 = 75d94b86e0206ab76695df878c18810f9f5fc17f (refs/remotes/git-svn)
+	M	app-arch/zpaq/Manifest
+	A	app-arch/zpaq/zpaq-1.10.ebuild
+r128 = 6cffc9155f60b5e3b2f6d3ead7e1340701e78f49 (refs/remotes/git-svn)
+	M	net-im/gajim/Manifest
+	M	net-im/gajim/gajim-9999.ebuild
+r129 = ab752852ad7c56f4624605c0ee07cdc19ad57d3f (refs/remotes/git-svn)
+	M	app-arch/zpaq/Manifest
+	M	app-arch/zpaq/zpaq-1.10.ebuild
+r130 = 3d9f4c8e9c5d8b8b6c9056fbd7c0ab0798b9d8cc (refs/remotes/git-svn)
+	A	app-arch/zpipe/files/zpipe-fix-build-on-linux.diff
+	A	app-arch/zpipe/Manifest
+	A	app-arch/zpipe/zpipe-1.00.ebuild
+r131 = a33dfb999cad9e36526841d7eb7be0b92d22db5b (refs/remotes/git-svn)
+	A	dev-db/mysql/metadata.xml
+	A	dev-db/mysql/files/mysql.init
+	A	dev-db/mysql/files/my.cnf-4.0
+	A	dev-db/mysql/files/my.cnf
+	A	dev-db/mysql/files/my.cnf-4.1
+	A	dev-db/mysql/Manifest
+	A	dev-db/mysql/ChangeLog
+	A	dev-db/mysql/mysql-5.4.3_beta.ebuild
+	A	dev-db/mysql/mysql-5.5.1.ebuild
+r132 = abae0bd9710b9b339e3071729eff0aee5d3fe8fb (refs/remotes/git-svn)
+	D	app-arch/zpaq/zpaq-1.00.ebuild
+	D	app-arch/zpaq/zpaq-1.02.ebuild
+	M	app-arch/zpaq/Manifest
+W: -empty_dir: app-arch/zpaq/zpaq-1.00.ebuild
+W: -empty_dir: app-arch/zpaq/zpaq-1.02.ebuild
+r133 = 977139f66c6a88149f916a4ab4b8732e6c1c0ad5 (refs/remotes/git-svn)
+	A	app-arch/paq8px/paq8px-68e.ebuild
+	A	app-arch/paq8px/Manifest
+r134 = aee31284721de4333de80b5258107a84d3c61ea4 (refs/remotes/git-svn)
+	A	dev-libs/nspr/metadata.xml
+	A	dev-libs/nspr/files/nspr.pc.in
+	A	dev-libs/nspr/Manifest
+	A	dev-libs/nspr/nspr-9999.ebuild
+	A	dev-libs/nspr/ChangeLog
+	A	dev-libs/nss/files/000a-pss-verification-v11.diff
+	A	dev-libs/nss/files/nss-3.12.5-gentoo-fixups.diff
+	A	dev-libs/nss/files/000b-pss-sign-v9.diff
+	A	dev-libs/nss/files/gentoo-fixups-1.diff
+	A	dev-libs/nss/files/nss-3.12.6-gentoo-fixup-warnings.patch
+	A	dev-libs/nss/Manifest
+	A	dev-libs/nss/nss-9999.ebuild
+r135 = 0d6b7d443bcc237235623672f1a9752e1c93eade (refs/remotes/git-svn)
+	A	net-im/gajim/files/0.14-python-version.patch
+	M	net-im/gajim/Manifest
+	M	net-im/gajim/gajim-9999.ebuild
+r136 = b2dd9b42da977faff3bd1b5d0bd669e24c37c82a (refs/remotes/git-svn)
+	A	app-laptop/tpfand/files/tpfand-without-hal.diff
+	A	app-laptop/tpfand/Manifest
+	A	app-laptop/tpfand/tpfand-0.94.ebuild
+r137 = c5ae0dac80d337001c4baea67cc217373c914861 (refs/remotes/git-svn)
+	M	net-im/gajim/Manifest
+	M	net-im/gajim/gajim-9999.ebuild
+r138 = d9d38fb590557921044496444591cd6c7facd67a (refs/remotes/git-svn)
+	M	sys-apps/smartmontools/smartmontools-9999.ebuild
+	M	sys-apps/smartmontools/Manifest
+r139 = 94f4b6e2e965c2396b2e27a12420535acef7dd81 (refs/remotes/git-svn)
+	A	net-print/foo2zjs/files/foo2zjs-ldflags-icc.diff
+	A	net-print/foo2zjs/files/foo2zjs-destdir-icc.diff
+	A	net-print/foo2zjs/files/foo2zjs-destdir-ugly.diff
+	A	net-print/foo2zjs/files/foo2zjs-ldflags.diff
+	A	net-print/foo2zjs/foo2zjs-20101112.ebuild
+	A	net-print/foo2zjs/Manifest
+r140 = 2602c5651ea28b2825903b2cb75523033a30ae5e (refs/remotes/git-svn)
+	D	app-arch/zpipe/Manifest
+	D	app-arch/zpipe/files/zpipe-fix-build-on-linux.diff
+	D	app-arch/zpipe/zpipe-1.00.ebuild
+	D	app-arch/zpipe/
+	D	app-arch/zpaq/Manifest
+	D	app-arch/zpaq/zpaq-1.10.ebuild
+	D	app-arch/zpaq/
+W: -empty_dir: app-arch/zpaq
+W: -empty_dir: app-arch/zpipe
+r141 = c91192c370118b7f2a718d65d5cacc0e8b0196a3 (refs/remotes/git-svn)
+	A	x11-drivers/xf86-video-tegra/Manifest
+	A	x11-drivers/xf86-video-tegra/xf86-video-tegra-10.9.3_p20101029.ebuild
+r142 = ef4fcbde5fdeffbf52a00dd40bc34ae4765aeb41 (refs/remotes/git-svn)
+	A	dev-libs/openssl/files/openssl-1.0.0d-fbsd-amd64.patch
+	A	dev-libs/openssl/files/openssl-1.0.0a-ldflags.patch
+	A	dev-libs/openssl/files/openssl-1.0.0d-windres.patch
+	A	dev-libs/openssl/files/gentoo.config-1.0.0
+	A	dev-libs/openssl/Manifest
+	A	dev-libs/openssl/openssl-1.0.1_pre20110920.ebuild
+r143 = c921bf9e56eaf5205c6898e3adeca158ee5fd88e (refs/remotes/git-svn)
+	A	app-arch/TheUnarchiver/Manifest
+	A	app-arch/TheUnarchiver/TheUnarchiver-2.7.1.ebuild
+r144 = 7afa02e3aa83971321e29aeefeaa2b13933adef7 (refs/remotes/git-svn)
+	D	dev-libs/openssl/Manifest
+	D	dev-libs/openssl/files/gentoo.config-1.0.0
+	D	dev-libs/openssl/files/openssl-1.0.0a-ldflags.patch
+	D	dev-libs/openssl/files/openssl-1.0.0d-fbsd-amd64.patch
+	D	dev-libs/openssl/files/openssl-1.0.0d-windres.patch
+	D	dev-libs/openssl/openssl-1.0.1_pre20110920.ebuild
+	D	dev-libs/openssl/
+W: -empty_dir: dev-libs/openssl
+r145 = 6d42fcda824a834d5c627ce0573a836559dc5991 (refs/remotes/git-svn)
+	A	dev-libs/openssl/files/openssl-1.0.1e-s_client-verify.patch
+	A	dev-libs/openssl/files/openssl-1.0.1-parallel-build.patch
+	A	dev-libs/openssl/files/openssl-1.0.1e-ipv6.patch
+	A	dev-libs/openssl/files/openssl-1.0.1f-revert-alpha-perl-generation.patch
+	A	dev-libs/openssl/files/openssl-1.0.0h-pkg-config.patch
+	A	dev-libs/openssl/files/openssl-1.0.0a-ldflags.patch
+	A	dev-libs/openssl/files/openssl-1.0.1-x32.patch
+	A	dev-libs/openssl/files/openssl-1.0.0d-windres.patch
+	A	dev-libs/openssl/files/gentoo.config-1.0.1
+	A	dev-libs/openssl/files/openssl-1.0.1f-perl-5.18.patch
+	A	dev-libs/openssl/Manifest
+	A	dev-libs/openssl/openssl-1.0.1g-r1.ebuild
+r146 = 662f7b9191523161ca7a41d03f0ec30ee9e62e9a (refs/remotes/git-svn)
+	A	metadata/layout.conf
+r147 = c68eeb4c6e1880bfb6408eea4980b2df96cf081c (refs/remotes/git-svn)
+Checked out HEAD:
+  https://svn.hboeck.de/overlay r147
 *** syncing hanno
 *** synced hanno
  * Sync succeeded
@@ -20,31 +1019,31 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! ERROR: dev-db/mysql-5.5.1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: dev-db/mysql-5.4.3_beta failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '161' 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '186' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
 !!!             mysql-5.5.1.ebuild, line  10:  Called inherit 'toolchain-funcs' 'mysql'
+!!!        mysql-5.4.3_beta.ebuild, line   8:  Called inherit 'toolchain-funcs' 'mysql'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for mysql failed
 
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
-!!!        mysql-5.4.3_beta.ebuild, line   8:  Called inherit 'toolchain-funcs' 'mysql'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:

@@ -12,9 +12,25 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/wuodan.git'}],
  'status': 'unofficial'}
 $ pmaint sync wuodan
+WARNING:pkgcore:repository at location '/home/mgorny/repos/proaudio' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/proaudio', named 'proaudio', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/luke-jr' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/luke-jr', named 'luke-jr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/kaa' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/kaa', named 'kaa', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/hanno' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/hanno', named 'hanno', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/progress' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pentoo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pentoo', named 'pentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ext-devlibs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named 'xelnor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing wuodan
 *** synced wuodan
@@ -22,6 +38,27 @@ Already up-to-date.
 $ pmaint regen -t 2 wuodan
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by app-text/peg-multimarkdown-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by app-text/peg-multimarkdown-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by app-text/peg-multimarkdown-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by app-text/peg-multimarkdown-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/multi_links-3.0.0.19-r2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/multi_links-3.0.0.19-r2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/multi_links-3.0.0.19-r2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by www-plugins/downthemall-2.0.17 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
@@ -31,13 +68,31 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/downthemall-2.0.17 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/multi_links-3.0.0.19-r2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/multi_links-3.0.0.19-r2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/multi_links-3.0.0.19-r2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/lightning-3.3.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/lightning-3.3.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by www-plugins/lightning-3.3.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/downthemall-9999 during metadata regeneration.
@@ -58,52 +113,22 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/lightning-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/multi_links-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/multi_links-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/multi_links-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/enigmail-1.7.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by app-text/peg-multimarkdown-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by app-text/peg-multimarkdown-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by app-text/peg-multimarkdown-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by app-text/peg-multimarkdown-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/lightning-3.3.1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/lightning-3.3.1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/lightning-3.3.1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-1.0.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-1.0.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-1.0.2 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-plugins/status_4_evar-9999 during metadata regeneration.
@@ -115,15 +140,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/status_4_evar-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/multi_links-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/multi_links-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-plugins/multi_links-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by www-plugins/status_4_evar-2014.07.06.05 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
@@ -133,13 +149,13 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-plugins/status_4_evar-2014.07.06.05 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-1.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-1.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-9999 during metadata regeneration.
+WARNING: 'use' function invoked by www-plugins/provider_for_google_calendar-1.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 

@@ -7,20 +7,20 @@
  'source': [{'type': 'svn',
              'uri': 'https://pd-overlay.svn.sourceforge.net/svnroot/pd-overlay/pd-overlay'}],
  'status': 'unofficial'}
+ * Adding new repository
 $ pmaint sync pd-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/luke-jr' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/luke-jr', named 'luke-jr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/kaa' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/kaa', named 'kaa', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/hanno' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/hanno', named 'hanno', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ext-devlibs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Updating '.':
-At revision 603.
+Initialized empty Git repository in /home/mgorny/repos/pd-overlay/.git/
+Session URL does not match expected session URL: Repository moved permanently to 'https://svn.code.sf.net/p/pd-overlay/code/pd-overlay' at /usr/lib64/perl5/vendor_perl/5.22.0/Git/SVN.pm line 143.
+
 *** syncing pd-overlay
-*** synced pd-overlay
- * Sync succeeded
-$ pmaint regen -t 2 pd-overlay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by puredata-externals/soundhack-0.0.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by puredata-externals/soundhack-0.0.7 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
- * Cache regenerated successfully
+*** failed syncing pd-overlay
+ * Sync failed with 1
