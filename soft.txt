@@ -8,19 +8,24 @@
  'source': [{'type': 'mercurial',
              'uri': 'https://bitbucket.org/Soft/overlay'}],
  'status': 'unofficial'}
+ * Adding new repository
 $ pmaint sync soft
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-pulling from https://bitbucket.org/Soft/overlay
-abort: HTTP Error 500: Internal Server Error
-*** syncing soft
-*** failed syncing soft
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync soft
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nashedelo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nashedelo', named 'nashedelo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-abort: HTTP Error 500: Internal Server Error
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 55 changesets with 120 changes to 83 files
+updating to branch default
+75 files updated, 0 files merged, 0 files removed, 0 files unresolved
 *** syncing soft
-*** failed syncing soft
- * Sync failed again with 1, removing
+*** synced soft
+ * Sync succeeded
+$ pmaint regen -t 2 soft
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

@@ -12,23 +12,24 @@
             {'type': 'mercurial',
              'uri': 'ssh://hg@bitbucket.org/sortsmill/sortsmill-gentoo-overlay'}],
  'status': 'unofficial'}
+ * Adding new repository
 $ pmaint sync sortsmill
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-pulling from https://bitbucket.org/sortsmill/sortsmill-gentoo-overlay
-abort: HTTP Error 500: Internal Server Error
-*** syncing sortsmill
-*** failed syncing sortsmill
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync sortsmill
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nashedelo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nashedelo', named 'nashedelo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-WARNING:pkgcore:repository at location '/home/mgorny/repos/usr-gentoo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/usr-gentoo', named 'usr-gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/floppym' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/floppym', named 'floppym', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-abort: HTTP Error 500: Internal Server Error
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 52 changesets with 190 changes to 85 files
+updating to branch default
+83 files updated, 0 files merged, 0 files removed, 0 files unresolved
 *** syncing sortsmill
-*** failed syncing sortsmill
- * Sync failed again with 1, removing
+*** synced sortsmill
+ * Sync succeeded
+$ pmaint regen -t 2 sortsmill
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

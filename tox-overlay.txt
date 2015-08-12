@@ -12,15 +12,23 @@
              'uri': 'git@github.com:urras/gentoo-overlay-tox.git'}],
  'status': 'unofficial'}
 $ pmaint sync tox-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sortsmill' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sortsmill', named 'sortsmill', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/soft' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/soft', named 'soft', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/repos/soft' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/soft', named 'soft', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sortsmill' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sortsmill', named 'sortsmill', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing tox-overlay
 *** synced tox-overlay
  * Sync succeeded
 $ pmaint regen -t 2 tox-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

@@ -8,20 +8,26 @@
  'source': [{'type': 'git',
              'uri': 'https://bitbucket.org/floppym/floppym-overlay'}],
  'status': 'unofficial'}
+ * Adding new repository
 $ pmaint sync floppym
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: unable to access 'https://bitbucket.org/floppym/floppym-overlay/': The requested URL returned error: 500
-*** syncing floppym
-*** failed syncing floppym
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync floppym
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dwfreed' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dwfreed', named 'dwfreed', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dustin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dustin', named 'dustin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/belak' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/belak', named 'belak', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dustin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dustin', named 'dustin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dwfreed' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dwfreed', named 'dwfreed', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Cloning into '/home/mgorny/repos/floppym'...
-error: RPC failed; result=22, HTTP code = 500
-fatal: The remote end hung up unexpectedly
 *** syncing floppym
-*** failed syncing floppym
- * Sync failed again with 1, removing
+*** synced floppym
+ * Sync succeeded
+$ pmaint regen -t 2 floppym
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

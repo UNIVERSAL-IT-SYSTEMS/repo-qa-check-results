@@ -8,29 +8,21 @@
              'uri': 'https://github.com/Spike-Pentesting/spike-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync spike
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nashedelo' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing spike
 *** synced spike
  * Sync succeeded
 $ pmaint regen -t 2 spike
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by app-editors/komodo-edit-bin-8.5.4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by app-editors/komodo-edit-bin-9.0.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by x11-drivers/nvidia-userspace-173.14.39 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by x11-drivers/nvidia-userspace-173.14.39 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by x11-drivers/nvidia-userspace-173.14.39 during metadata regeneration.
+WARNING: 'use' function invoked by app-editors/komodo-edit-bin-8.5.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by x11-drivers/nvidia-drivers-173.14.39 during metadata regeneration.
@@ -40,6 +32,15 @@ WARNING: 'use' function invoked by x11-drivers/nvidia-drivers-173.14.39 during m
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by x11-drivers/nvidia-drivers-173.14.39 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by x11-drivers/nvidia-userspace-173.14.39 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by x11-drivers/nvidia-userspace-173.14.39 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by x11-drivers/nvidia-userspace-173.14.39 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by dev-util/nvidia-cuda-sdk-6.5.14 during metadata regeneration.
@@ -52,15 +53,15 @@ WARNING: 'use' function invoked by dev-util/nvidia-cuda-sdk-6.5.19 during metada
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by dev-util/nvidia-cuda-sdk-6.5.19 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-libs/libspotify-12.1.51 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-libs/libspotify-12.1.51 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 /home/mgorny/repos/spike/dev-libs/gecode/gecode-9999.ebuild: line 17: ESVN_USER: command not found
-WARNING: 'use' function invoked by dev-libs/libspotify-12.1.51 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-libs/libspotify-12.1.51 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 
 !!! ERROR: net-analyzer/autoscan-network-1.50 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -80,10 +81,10 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!! The die message:
 !!!  EAPI=2 is not supported
 
-WARNING: 'use' function invoked by net-analyzer/wireshark-1.12.4 during metadata regeneration.
+WARNING: 'use' function invoked by net-analyzer/wireshark-1.12.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-analyzer/wireshark-1.12.3 during metadata regeneration.
+WARNING: 'use' function invoked by net-analyzer/wireshark-1.12.4 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 ERROR pkgcore: returned val from gen_metadata was 'False'

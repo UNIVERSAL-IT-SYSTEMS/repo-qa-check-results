@@ -12,21 +12,22 @@
             {'type': 'mercurial',
              'uri': 'ssh://hg@bitbucket.org/danysk/nirvana-overlay'}],
  'status': 'unofficial'}
-$ pmaint sync nirvana
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-pulling from https://bitbucket.org/danysk/nirvana-overlay
-searching for changes
-no changes found
-abort: HTTP Error 500: Internal Server Error
-*** syncing nirvana
-*** failed syncing nirvana
- * Sync failed with 1
- * Will try to re-create
+ * Adding new repository
 $ pmaint sync nirvana
 WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-abort: HTTP Error 500: Internal Server Error
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 32 changesets with 66 changes to 42 files
+updating to branch default
+34 files updated, 0 files merged, 0 files removed, 0 files unresolved
 *** syncing nirvana
-*** failed syncing nirvana
- * Sync failed again with 1, removing
+*** synced nirvana
+ * Sync succeeded
+$ pmaint regen -t 2 nirvana
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

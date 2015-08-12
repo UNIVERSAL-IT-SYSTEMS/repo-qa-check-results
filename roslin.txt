@@ -8,15 +8,17 @@
              'uri': 'https://gitlab.com/roslin-uberlay/roslin.git'}],
  'status': 'unofficial'}
 $ pmaint sync roslin
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nashedelo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nashedelo', named 'nashedelo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing roslin
 *** synced roslin
  * Sync succeeded
 $ pmaint regen -t 2 roslin
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by games-fps/quake1-soa-1-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.

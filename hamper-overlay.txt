@@ -12,15 +12,22 @@
              'uri': 'https://github.com/Hamper/hamper-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync hamper-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dwfreed' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dwfreed', named 'dwfreed', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/floppym' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/floppym', named 'floppym', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dustin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dustin', named 'dustin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/belak' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/belak', named 'belak', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing hamper-overlay
 *** synced hamper-overlay
  * Sync succeeded
 $ pmaint regen -t 2 hamper-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by net-im/qutim-9999-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.

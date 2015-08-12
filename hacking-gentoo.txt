@@ -9,7 +9,23 @@
              'uri': 'rsync://rsync.mad-hacking.net/hacking-gentoo-overlay/'}],
  'status': 'unofficial'}
 $ pmaint sync hacking-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dwfreed' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dwfreed', named 'dwfreed', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/floppym' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/floppym', named 'floppym', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dustin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dustin', named 'dustin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/belak' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/belak', named 'belak', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dustin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dustin', named 'dustin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dwfreed' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dwfreed', named 'dwfreed', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/floppym' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/floppym', named 'floppym', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 receiving incremental file list
 metadata/md5-cache/
 metadata/md5-cache/app-admin/
@@ -353,7 +369,7 @@ Total file size: 5.13M bytes
 Total transferred file size: 592.65K bytes
 Literal data: 592.65K bytes
 Matched data: 0 bytes
-File list size: 45.50K
+File list size: 48.16K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 5.87K
@@ -365,9 +381,7 @@ total size is 5.13M  speedup is 16.79
 *** synced hacking-gentoo
  * Sync succeeded
 $ pmaint regen -t 2 hacking-gentoo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by sys-devel/binutils-2.24-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
@@ -375,10 +389,10 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-devel/binutils-2.24-r3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/binutils-2.25 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/binutils-2.25-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/binutils-2.25-r1 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/binutils-2.25 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-kernel/raspberrypi-notro-sources-3.16.7-r20141111 during metadata regeneration.

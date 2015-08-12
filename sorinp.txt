@@ -9,15 +9,17 @@
              'uri': 'https://github.com/psihozefir/sorinp-gentoo-overlay'}],
  'status': 'unofficial'}
 $ pmaint sync sorinp
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nashedelo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nashedelo', named 'nashedelo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing sorinp
 *** synced sorinp
  * Sync succeeded
 $ pmaint regen -t 2 sorinp
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by virtual/varicad-0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.

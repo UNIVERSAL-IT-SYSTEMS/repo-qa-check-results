@@ -9,30 +9,32 @@
              'uri': 'https://bitbucket.org/amaroun/gamarouns'}],
  'status': 'official'}
 $ pmaint sync gamarouns
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dwfreed' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dwfreed', named 'dwfreed', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/floppym' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/floppym', named 'floppym', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dustin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dustin', named 'dustin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/belak' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/belak', named 'belak', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dustin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dustin', named 'dustin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dwfreed' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dwfreed', named 'dwfreed', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/floppym' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/floppym', named 'floppym', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/belak' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/belak', named 'belak', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 pulling from https://bitbucket.org/amaroun/gamarouns
-abort: HTTP Error 500: Internal Server Error
-*** syncing gamarouns
-*** failed syncing gamarouns
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync gamarouns
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-requesting all changes
-adding changesets
-adding manifests
-adding file changes
-added 36 changesets with 71 changes to 54 files
-updating to branch default
-28 files updated, 0 files merged, 0 files removed, 0 files unresolved
+searching for changes
+no changes found
 *** syncing gamarouns
 *** synced gamarouns
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 gamarouns
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully
