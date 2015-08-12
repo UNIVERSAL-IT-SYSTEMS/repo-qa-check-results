@@ -19,134 +19,164 @@ Already up-to-date.
 $ pmaint regen -t 2 lisp
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by dev-scheme/chibi-scheme-0.6.1 during metadata regeneration.
+WARNING: 'use' function invoked by dev-scheme/chibi-scheme-0.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by dev-scheme/chibi-scheme-0.7 during metadata regeneration.
+WARNING: 'use' function invoked by dev-scheme/chibi-scheme-0.6.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 
 !!! ERROR: app-text/skribilo-0.9.1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: dev-scheme/guile-reader-0.6 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: dev-scheme/jazzscheme-999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 WARNING: 'use' function invoked by dev-scheme/larceny-petit-0.97 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '179' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '195' 'depend'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '179' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/app-text/skribilo/skribilo-0.9.1.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 WARNING: 'use' function invoked by dev-scheme/larceny-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/app-text/skribilo/skribilo-0.9.1.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/app-text/skribilo/skribilo-0.9.1.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/app-text/skribilo/skribilo-0.9.1.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/app-text/skribilo/skribilo-0.9.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
+!!!          skribilo-0.9.1.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'git'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 
 !!! ERROR: app-emacs/geiser-999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
-!!!          skribilo-0.9.1.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'git'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
-!!!        guile-reader-0.6.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'git'
+!!!          jazzscheme-999.ebuild, line   5:  Called inherit 'git'
 WARNING: 'use' function invoked by dev-scheme/larceny-0.97 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!        guile-reader-0.6.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'git'
+
+!!! ERROR: dev-scheme/hop-2.1.1 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!          jazzscheme-999.ebuild, line   5:  Called inherit 'git'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 
-!!! ERROR: dev-scheme/gambit-4.6.6-r1 failed.
+!!! ERROR: dev-lisp/arnesi-20080413-r1 failed.
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '157' 'depend'
-
-!!! ERROR: dev-scheme/kawa-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+
+!!! ERROR: dev-lisp/asdf-2.33-r3 failed.
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '154' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-
-!!! ERROR: dev-scheme/kawa-1.9.90 failed.
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '182' 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '191' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '158' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/kawa/kawa-9999.ebuild'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/gambit/gambit-4.6.6-r1.ebuild'
-!!!              geiser-999.ebuild, line  12:  Called inherit 'git'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '168' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/gambit/gambit-4.6.6-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/kawa/kawa-9999.ebuild'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-scheme/gambit/gambit-4.6.6-r1.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/kawa/kawa-1.9.90.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/hop/hop-2.1.1.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/arnesi/arnesi-20080413-r1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '163' 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/hop/hop-2.1.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/arnesi/arnesi-20080413-r1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-lisp/arnesi/arnesi-20080413-r1.ebuild'
+!!!              geiser-999.ebuild, line  12:  Called inherit 'git'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-scheme/hop/hop-2.1.1.ebuild'
+!!!               hop-2.1.1.ebuild, line   7:  Called inherit 'multilib' 'eutils' 'user'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/asdf/asdf-2.33-r3.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'user'
+!!!      arnesi-20080413-r1.ebuild, line   7:  Called inherit 'common-lisp-2'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 179' for eclass user
+
+received unknown com: export CATEGORY='dev-lisp' PR=r0 PVR='0.9.4' PV='0.9.4' EBUILD='/home/mgorny/repos/lisp/dev-lisp/anaphora/anaphora-0.9.4.ebuild' P='anaphora-0.9.4' PF='anaphora-0.9.4' PN=anaphorapath
+Exception in thread Thread-7:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'common-lisp-2'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/asdf/asdf-2.33-r3.ebuild'
 
-!!! ERROR: app-emacs/slime-2.12 failed.
-!!!         gambit-4.6.6-r1.ebuild, line   7:  Called inherit 'eutils' 'elisp-common'
+!!! ERROR: dev-lisp/alexandria-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-scheme/kawa/kawa-9999.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'elisp-common'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/kawa/kawa-1.9.90.ebuild'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 173' for eclass elisp-common
+!!!  unknown inherit command from pythonic side, 'gen_metadata 256' for eclass common-lisp-2
 
-received unknown com: export CATEGORY='dev-lisp' PR=r1 PVR='0.8-r1' PV='0.8' EBUILD='/home/mgorny/repos/lisp/dev-lisp/archive/archive-0.8-r1.ebuild' P='archive-0.8' PF='archive-0.8-r1' PN=archivepath
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-scheme/kawa/kawa-1.9.90.ebuild'
-Exception in thread Thread-6:
+received unknown com: export CATEGORY='dev-lisp' PR=r0 PVR='0.8.4' PV='0.8.4' EBUILD='/home/mgorny/repos/lisp/dev-lisp/asdf-system-connections/asdf-system-connections-0.8.4.ebuild' P='asdf-system-connections-0.8.4' PF='asdf-system-connections-0.8.4' PN='asdf-system-connections'path
+Exception in thread Thread-12:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -170,46 +200,16 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!               kawa-9999.ebuild, line   9:  Called inherit 'subversion' 'eutils' 'java-pkg-2'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-lisp/asdf/asdf-2.33-r3.ebuild'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'subversion'
-!!!             kawa-1.9.90.ebuild, line   9:  Called inherit 'eutils' 'java-pkg-2'
+!!!            asdf-2.33-r3.ebuild, line   6:  Called inherit 'eutils' 'common-lisp-3'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 160' for eclass subversion
-
-received unknown com: export CATEGORY='dev-lisp' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/lisp/dev-lisp/arnesi/arnesi-9999.ebuild' P='arnesi-9999' PF='arnesi-9999' PN=arnesipath
-Exception in thread Thread-2:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '161' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '180' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'common-lisp-3'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'java-pkg-2'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 164' for eclass java-pkg-2
+!!!  unknown inherit command from pythonic side, 'gen_metadata 164' for eclass common-lisp-3
 
 received unknown com: export CATEGORY='dev-lisp' PR=r0 PVR='0.3.0' PV='0.3.0' EBUILD='/home/mgorny/repos/lisp/dev-lisp/babel/babel-0.3.0.ebuild' P='babel-0.3.0' PF='babel-0.3.0' PN=babelpath
 Exception in thread Thread-10:
@@ -236,17 +236,17 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/app-emacs/slime/slime-2.12.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/app-emacs/slime/slime-2.12.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/app-emacs/slime/slime-2.12.ebuild'
-!!!              slime-2.12.ebuild, line   9:  Called inherit 'common-lisp-3' 'elisp' 'eutils'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/alexandria/alexandria-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/alexandria/alexandria-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-lisp/alexandria/alexandria-9999.ebuild'
+!!!         alexandria-9999.ebuild, line   7:  Called inherit 'common-lisp-3' 'git-2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'common-lisp-3'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 230' for eclass common-lisp-3
+!!!  unknown inherit command from pythonic side, 'gen_metadata 166' for eclass common-lisp-3
 
-received unknown com: export CATEGORY='dev-lisp' PR=r1 PVR='0.2_p20080314-r1' PV='0.2_p20080314' EBUILD='/home/mgorny/repos/lisp/dev-lisp/cl-darcs/cl-darcs-0.2_p20080314-r1.ebuild' P='cl-darcs-0.2_p20080314' PF='cl-darcs-0.2_p20080314-r1' PN='cl-darcs'path
-Exception in thread Thread-5:
+received unknown com: export CATEGORY='dev-lisp' PR=r0 PVR='0.6.0' PV='0.6.0' EBUILD='/home/mgorny/repos/lisp/dev-lisp/cl-gd/cl-gd-0.6.0.ebuild' P='cl-gd-0.6.0' PF='cl-gd-0.6.0' PN='cl-gd'path
+Exception in thread Thread-9:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -272,155 +272,129 @@ RuntimeError: [Errno 32] Broken pipe
 
 
 !!! ERROR: dev-lisp/fsbv-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 
 !!! ERROR: dev-lisp/gsd-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 
 !!! ERROR: dev-lisp/gsll-9999 failed.
-!!! Call stack:
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '150' 'depend'
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '145' 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '150' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '150' 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
+!!!               fsbv-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
-!!!               fsbv-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
 !!!                gsd-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 !!!               gsll-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-
-!!! ERROR: dev-lisp/picolisp-3.1.6 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '179' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/picolisp/picolisp-3.1.6.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/picolisp/picolisp-3.1.6.ebuild'
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-text/skribilo-0.9.1
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-scheme/jazzscheme-999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-scheme/guile-reader-0.6
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-scheme/jazzscheme-999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-emacs/geiser-999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-scheme/gambit-4.6.6-r1
+!!! caught exception False while processing ebuild src: dev-scheme/hop-2.1.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-scheme/kawa-9999
+!!! caught exception False while processing ebuild src: dev-scheme/mosh-0.2.2-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-scheme/kawa-1.9.90
+!!! caught exception False while processing ebuild src: dev-scheme/ikarus-0.0.2
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/asdf-2.33-r3, attr eapi
+error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/asdf-2.33-r3
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-emacs/slime-2.12
+!!! caught exception False while processing ebuild src: dev-lisp/anaphora-0.9.4
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-lisp/cl-difflib-0.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lisp/archive-0.8-r1
+!!! caught exception False while processing ebuild src: dev-lisp/alexandria-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lisp/arnesi-9999
+!!! caught exception False while processing ebuild src: dev-lisp/asdf-system-connections-0.8.4
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-lisp/babel-0.3.0
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-lisp/cl-mongo-9999
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-lisp/cl-log-1.0.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lisp/cl-darcs-0.2_p20080314-r1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-lisp/clisp-2.49-r6
+!!! caught exception False while processing ebuild src: dev-lisp/cl-gd-0.6.0
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-lisp/cl-store-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/fsbv-9999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/gsll-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/gsd-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/gsll-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lisp/hunchentoot-vhost-0.2
+!!! caught exception False while processing ebuild src: dev-lisp/gcl-2.7.0_alpha
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/named-readtables-9999, attr eapi
+error: parsed eapi '5' doesn't match sourced eapi '1' while processing ebuild src: dev-lisp/named-readtables-9999
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/net-telent-date-0.4.1-r1, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/net-telent-date-0.4.1-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lisp/hunchentoot-1.2.18
+!!! caught exception False while processing ebuild src: dev-lisp/hunchentoot-1.2.21
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/org-davep-nntp-2.0, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/org-davep-nntp-2.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lisp/hunchentoot-1.2.17
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/parenscript-2.5, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/parenscript-2.5
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/picolisp-3.1.6, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/picolisp-3.1.6
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/portable-threads-0.9.6_p20071120, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/portable-threads-0.9.6_p20071120
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/regex-20070506, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '3' while processing ebuild src: dev-lisp/regex-20070506
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/salza2-2.0.8, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/salza2-2.0.8
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/trivial-configuration-parser-1.1, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/trivial-configuration-parser-1.1
+!!! caught exception False while processing ebuild src: dev-lisp/hunchentoot-1.2.22
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/rsm-bitcomp-1.3, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/rsm-bitcomp-1.3
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/s-sysdeps-9999, attr eapi
+error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/s-sysdeps-9999
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/s-sysdeps-20080228, attr eapi
+error: parsed eapi '3' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/s-sysdeps-20080228
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/skippy-1.3.7, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '3' while processing ebuild src: dev-lisp/skippy-1.3.7
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/terminfo-9999, attr eapi
+error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/terminfo-9999
 !!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/trees-0.11-r1, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-lisp/picolisp/picolisp-3.1.6.ebuild'
-!!!          picolisp-3.1.6.ebuild, line   7:  Called inherit 'eutils' 'bash-completion-r1'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'bash-completion-r1'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 186' for eclass bash-completion-r1
-
-received unknown com: export CATEGORY='dev-lisp' PR=r0 PVR='1.3' PV='1.3' EBUILD='/home/mgorny/repos/lisp/dev-lisp/rsm-bitcomp/rsm-bitcomp-1.3.ebuild' P='rsm-bitcomp-1.3' PF='rsm-bitcomp-1.3' PN='rsm-bitcomp'path
-Exception in thread Thread-15:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 521, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-' while processing ebuild src: dev-lisp/trees-0.11-r1
+error: parsed eapi '2' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/trees-0.11-r1
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/trivial-features-0.7, attr eapi
+error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/trivial-features-0.7
 !!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/trivial-ldap-0.91, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: dev-lisp/trivial-ldap-0.91
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lisp/rsm-bitcomp-1.3
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-lisp/zs3-1.1.3
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/xmls-1.7.1, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/xmls-1.7.1
+error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/trivial-ldap-0.91
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/trivial-timers-0.0, attr eapi
+error: parsed eapi '2' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/trivial-timers-0.0
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/trivial-timeout-0.1.5, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: dev-lisp/trivial-timeout-0.1.5
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/usocket-0.6.0.1, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: dev-lisp/usocket-0.6.0.1
 !!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/xlunit-0.6.3, attr eapi
 error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/xlunit-0.6.3
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/xmls-1.5, attr eapi
+error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/xmls-1.5
+!!! caught exception Metadata Exception: pkg ebuild src: virtual/commonlisp-1, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: virtual/commonlisp-1
 Error running an operation:
  Unhandled exception in regen_cache
-sandbox:stop  caught signal 15 in pid 305
+sandbox:stop  caught signal 15 in pid 5077
 Sandboxed process killed by signal: Terminated
-sandbox:stop  caught signal 15 in pid 29379
+sandbox:stop  caught signal 15 in pid 31139
+Sandboxed process killed by signal: Terminated
+sandbox:stop  caught signal 15 in pid 30305
 Sandboxed process killed by signal: Terminated
  * Cache regen failed with 246
