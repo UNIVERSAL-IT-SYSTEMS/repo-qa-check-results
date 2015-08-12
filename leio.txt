@@ -12,20 +12,10 @@
  'status': 'official'}
 $ pmaint sync leio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-*** syncing leio
-*** failed syncing leio
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync leio
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/leio'...
+Already up-to-date.
 *** syncing leio
 *** synced leio
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 leio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
