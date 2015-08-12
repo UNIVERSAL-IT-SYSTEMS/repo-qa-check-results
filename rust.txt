@@ -15,7 +15,33 @@
 $ pmaint sync rust
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Heather/gentoo-rust
+   66e1206..ac3d830  master     -> origin/master
+Updating 66e1206..ac3d830
+Fast-forward
+ app-emacs/rust-mode/rust-mode-9999.ebuild                    | 4 ++--
+ app-eselect/eselect-rust/eselect-rust-0.3_pre20150428.ebuild | 2 +-
+ app-shells/rust-zshcomp/rust-zshcomp-9999.ebuild             | 4 ++--
+ app-vim/rust-mode/rust-mode-9999.ebuild                      | 4 ++--
+ dev-lang/rust-bin/rust-bin-1.0.0.ebuild                      | 2 +-
+ dev-lang/rust-bin/rust-bin-1.1.0.ebuild                      | 2 +-
+ dev-lang/rust-bin/rust-bin-99.ebuild                         | 2 +-
+ dev-lang/rust-bin/rust-bin-999.ebuild                        | 2 +-
+ dev-lang/rust/rust-1.1.0.ebuild                              | 2 +-
+ dev-lang/rust/rust-99.ebuild                                 | 2 +-
+ dev-lang/rust/rust-999.ebuild                                | 2 +-
+ dev-lang/rust/rust-9999.ebuild                               | 2 +-
+ dev-rust/cargo/cargo-0.2.0.ebuild                            | 2 +-
+ dev-rust/cargo/cargo-0.3.0.ebuild                            | 2 +-
+ dev-rust/cargo/cargo-9999.ebuild                             | 2 +-
+ dev-rust/rust-bindgen/rust-bindgen-9999.ebuild               | 4 ++--
+ dev-util/SolidOak/SolidOak-9999.ebuild                       | 2 +-
+ dev-util/racer/racer-9999.ebuild                             | 2 +-
+ dev-util/rusty-tags/rusty-tags-9999.ebuild                   | 2 +-
+ virtual/rust/rust-1.1.ebuild                                 | 2 +-
+ virtual/rust/rust-999.ebuild                                 | 4 ++--
+ virtual/rust/rust-9999.ebuild                                | 4 ++--
+ 22 files changed, 28 insertions(+), 28 deletions(-)
 *** syncing rust
 *** synced rust
  * Sync succeeded

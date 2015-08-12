@@ -12,7 +12,79 @@
 $ pmaint sync games-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hasufell/games-overlay
+   5d8314d..166b956  master     -> origin/master
+Updating 5d8314d..166b956
+Fast-forward
+ dev-python/pygame_sdl2/Manifest                    |   5 -
+ dev-python/pygame_sdl2/metadata.xml                |   9 -
+ dev-python/pygame_sdl2/pygame_sdl2-6.99.1.ebuild   |  30 --
+ dev-python/pygame_sdl2/pygame_sdl2-6.99.2.ebuild   |  29 --
+ dev-python/pygame_sdl2/pygame_sdl2-6.99.3.ebuild   |  29 --
+ dev-python/pygame_sdl2/pygame_sdl2-6.99.4.ebuild   |  29 --
+ dev-python/pygame_sdl2/pygame_sdl2-6.99.5.ebuild   |  29 --
+ games-engines/renpy/Manifest                       |  11 -
+ .../files/renpy-6.14.1-av_close_input_stream.patch |  11 -
+ .../renpy/files/renpy-6.14.1-freetype.patch        |  17 --
+ .../renpy/files/renpy-6.14.1-multiple-abi.patch    | 230 ----------------
+ .../renpy-6.14.1-remove-AVFormatParameters.patch   |  19 --
+ .../renpy/files/renpy-6.15.7-freetype.patch        |  29 --
+ .../renpy/files/renpy-6.15.7-multiple-abi.patch    | 250 -----------------
+ .../renpy/files/renpy-6.16.5-multiple-abi.patch    | 245 -----------------
+ .../renpy/files/renpy-6.17.7-multiple-abi.patch    | 245 -----------------
+ .../renpy/files/renpy-6.18.2-multiple-abi.patch    | 271 ------------------
+ .../renpy/files/renpy-6.18.3-multiple-abi.patch    | 271 ------------------
+ .../renpy/files/renpy-6.99.2-multiple-abi.patch    | 302 ---------------------
+ .../renpy/files/renpy-6.99.3-multiple-abi.patch    | 302 ---------------------
+ .../renpy/files/renpy-6.99.4-multiple-abi.patch    | 302 ---------------------
+ .../renpy/files/renpy-6.99.5-multiple-abi.patch    | 302 ---------------------
+ games-engines/renpy/metadata.xml                   |  31 ---
+ games-engines/renpy/renpy-6.14.1-r1.ebuild         | 108 --------
+ games-engines/renpy/renpy-6.15.7.ebuild            | 106 --------
+ games-engines/renpy/renpy-6.16.5.ebuild            | 105 -------
+ games-engines/renpy/renpy-6.17.7.ebuild            | 105 -------
+ games-engines/renpy/renpy-6.18.2.ebuild            | 105 -------
+ games-engines/renpy/renpy-6.18.3.ebuild            | 105 -------
+ games-engines/renpy/renpy-6.99.1.ebuild            | 106 --------
+ games-engines/renpy/renpy-6.99.2.ebuild            | 105 -------
+ games-engines/renpy/renpy-6.99.3.ebuild            | 105 -------
+ games-engines/renpy/renpy-6.99.4.ebuild            | 105 -------
+ games-engines/renpy/renpy-6.99.5.ebuild            | 105 -------
+ 34 files changed, 4158 deletions(-)
+ delete mode 100644 dev-python/pygame_sdl2/Manifest
+ delete mode 100644 dev-python/pygame_sdl2/metadata.xml
+ delete mode 100644 dev-python/pygame_sdl2/pygame_sdl2-6.99.1.ebuild
+ delete mode 100644 dev-python/pygame_sdl2/pygame_sdl2-6.99.2.ebuild
+ delete mode 100644 dev-python/pygame_sdl2/pygame_sdl2-6.99.3.ebuild
+ delete mode 100644 dev-python/pygame_sdl2/pygame_sdl2-6.99.4.ebuild
+ delete mode 100644 dev-python/pygame_sdl2/pygame_sdl2-6.99.5.ebuild
+ delete mode 100644 games-engines/renpy/Manifest
+ delete mode 100644 games-engines/renpy/files/renpy-6.14.1-av_close_input_stream.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.14.1-freetype.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.14.1-multiple-abi.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.14.1-remove-AVFormatParameters.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.15.7-freetype.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.15.7-multiple-abi.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.16.5-multiple-abi.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.17.7-multiple-abi.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.18.2-multiple-abi.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.18.3-multiple-abi.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.99.2-multiple-abi.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.99.3-multiple-abi.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.99.4-multiple-abi.patch
+ delete mode 100644 games-engines/renpy/files/renpy-6.99.5-multiple-abi.patch
+ delete mode 100644 games-engines/renpy/metadata.xml
+ delete mode 100644 games-engines/renpy/renpy-6.14.1-r1.ebuild
+ delete mode 100644 games-engines/renpy/renpy-6.15.7.ebuild
+ delete mode 100644 games-engines/renpy/renpy-6.16.5.ebuild
+ delete mode 100644 games-engines/renpy/renpy-6.17.7.ebuild
+ delete mode 100644 games-engines/renpy/renpy-6.18.2.ebuild
+ delete mode 100644 games-engines/renpy/renpy-6.18.3.ebuild
+ delete mode 100644 games-engines/renpy/renpy-6.99.1.ebuild
+ delete mode 100644 games-engines/renpy/renpy-6.99.2.ebuild
+ delete mode 100644 games-engines/renpy/renpy-6.99.3.ebuild
+ delete mode 100644 games-engines/renpy/renpy-6.99.4.ebuild
+ delete mode 100644 games-engines/renpy/renpy-6.99.5.ebuild
 *** syncing games-overlay
 *** synced games-overlay
  * Sync succeeded
