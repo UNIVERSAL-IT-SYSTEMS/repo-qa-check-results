@@ -10,7 +10,13 @@
  'status': 'unofficial'}
 $ pmaint sync booboo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/l29ah/booboo
+   84b40af..6661529  master     -> origin/master
+Updating 84b40af..6661529
+Fast-forward
+ net-im/swiften/files/swiften-2.0-libdir.patch | 30 +++++++++++++++++++++++++++
+ 1 file changed, 30 insertions(+)
+ create mode 100644 net-im/swiften/files/swiften-2.0-libdir.patch
 *** syncing booboo
 *** synced booboo
  * Sync succeeded

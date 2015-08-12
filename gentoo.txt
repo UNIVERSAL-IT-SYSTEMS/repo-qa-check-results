@@ -17,14 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   64c7f53..30606f0  master     -> origin/master
-Updating 64c7f53..30606f0
+   30606f0..fb6bc68  master     -> origin/master
+Updating 30606f0..fb6bc68
 Fast-forward
- kde-apps/kget/kget-4.14.3.ebuild         | 15 ++++-----------
- kde-apps/kget/metadata.xml               |  1 -
- kde-apps/lokalize/lokalize-4.14.3.ebuild |  3 +--
- kde-apps/lokalize/metadata.xml           |  3 ---
- 4 files changed, 5 insertions(+), 17 deletions(-)
+ kde-base/systemsettings/metadata.xml                  | 1 -
+ kde-base/systemsettings/systemsettings-4.11.14.ebuild | 3 +--
+ kde-base/systemsettings/systemsettings-4.11.19.ebuild | 3 +--
+ kde-base/systemsettings/systemsettings-4.11.21.ebuild | 3 +--
+ 4 files changed, 3 insertions(+), 7 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
