@@ -10,26 +10,24 @@
              'uri': 'https://github.com/SFTtech/gentoo-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync sft
-WARNING:pkgcore:repository at location '/home/mgorny/repos/proaudio' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/proaudio', named 'proaudio', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/luke-jr' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/luke-jr', named 'luke-jr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/kaa' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/kaa', named 'kaa', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/hanno' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/hanno', named 'hanno', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/progress' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/pentoo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/pentoo', named 'pentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ext-devlibs' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/SFTtech/gentoo-overlay
+   18b3636..16739a4  master     -> origin/master
+Updating 18b3636..16739a4
+Fast-forward
+ app-text/cppman/Manifest                    |   2 +-
+ app-text/cppman/cppman-0.4.5.ebuild         |   2 +-
+ games-misc/ponysay/Manifest                 |   2 +-
+ games-misc/ponysay/ponysay-3.0.2.ebuild     |   2 +-
+ games-strategy/openage/Manifest             |   4 +-
+ games-strategy/openage/openage-0.3.0.ebuild | 112 ++++++++++++++++++++++++++++
+ games-strategy/openage/openage-9999.ebuild  |   7 +-
+ 7 files changed, 124 insertions(+), 7 deletions(-)
+ create mode 100644 games-strategy/openage/openage-0.3.0.ebuild
 *** syncing sft
 *** synced sft
  * Sync succeeded

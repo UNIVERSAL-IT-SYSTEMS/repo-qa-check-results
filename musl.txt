@@ -11,14 +11,6 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/musl.git'}],
  'status': 'official'}
 $ pmaint sync musl
-WARNING:pkgcore:repository at location '/home/mgorny/repos/luke-jr' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/luke-jr', named 'luke-jr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/kaa' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/kaa', named 'kaa', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/hanno' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/hanno', named 'hanno', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ext-devlibs' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing musl
@@ -27,13 +19,13 @@ Already up-to-date.
 $ pmaint regen -t 2 musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.5-r99 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.7.4-r99 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.4-r99 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.7.4-r99 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-4.8.5-r99 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully

@@ -14,14 +14,6 @@
              'uri': 'git@github.com:jcpetkovich/overlay-petkovich.git'}],
  'status': 'unofficial'}
 $ pmaint sync petkovich
-WARNING:pkgcore:repository at location '/home/mgorny/repos/luke-jr' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/luke-jr', named 'luke-jr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/kaa' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/kaa', named 'kaa', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/hanno' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/hanno', named 'hanno', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ext-devlibs' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing petkovich
@@ -30,13 +22,13 @@ Already up-to-date.
 $ pmaint regen -t 2 petkovich
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/media-fonts/ttf-font-icons/ttf-font-icons-9999.ebuild
+          : was hB
+          : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/media-fonts/powerline-fonts/powerline-fonts-9999-r1.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/media-fonts/powerline-symbols/powerline-symbols-9999.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/media-fonts/ttf-font-icons/ttf-font-icons-9999.ebuild
           : was hB
           : now ehB
 
@@ -44,33 +36,33 @@ QA warning: set modification bled out of invocation source /home/mgorny/repos/pe
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/app-misc/powerline/powerline-9999-r14.ebuild
           : was hB
           : now ehB
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '210' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
 
 !!! ERROR: dev-lisp/gsd-999 failed.
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '145' 'depend'
 !!!      gnome-panel-2.28.0.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/petkovich/dev-lisp/gsd/gsd-999.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/petkovich/dev-lisp/gsd/gsd-999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
 
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/petkovich/dev-lisp/gsd/gsd-999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/petkovich/dev-lisp/gsd/gsd-999.ebuild'
 !!!                 gsd-999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'

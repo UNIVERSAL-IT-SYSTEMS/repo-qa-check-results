@@ -7,468 +7,12 @@
  'quality': 'experimental',
  'source': [{'type': 'svn', 'uri': 'svn://sidvind.com/overlays/ext-devlibs'}],
  'status': 'unofficial'}
- * Adding new repository
 $ pmaint sync ext-devlibs
 WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Initialized empty Git repository in /home/mgorny/repos/ext-devlibs/.git/
-r1 = 95a6aafa8458962fd2ed532750ae848f5394d7e4 (refs/remotes/git-svn)
-	A	profiles/repo_name
-	A	dev-libs/libportable/libportable-0.1.9999.ebuild
-	A	dev-libs/libportable/libportable-0.1.0_alpha1.ebuild
-	A	dev-libs/libportable/Manifest
-	A	dev-libs/aspartame/Manifest
-	A	dev-libs/aspartame/aspartame-0.1.9999.ebuild
-	A	net-firewall/sshdfilter/files/gentoo.partconf
-	A	net-firewall/sshdfilter/Manifest
-	A	net-firewall/sshdfilter/sshdfilter-1.5.5.ebuild
-r2 = bd4c8ad0f6c90464744e2f652b367272e0b9198d (refs/remotes/git-svn)
-	A	media-gfx/slideshow/slideshow-0.2.9999.ebuild
-	A	media-gfx/slideshow/Manifest
-r3 = 0edf3ac492236772ca1222a93bc4b8d83529ff46 (refs/remotes/git-svn)
-	M	dev-libs/libportable/libportable-0.1.9999.ebuild
-	M	dev-libs/libportable/Manifest
-r4 = 96680bb8c37523315cbf06af6c82a848e59a9e4c (refs/remotes/git-svn)
-	M	media-gfx/slideshow/slideshow-0.2.9999.ebuild
-	M	media-gfx/slideshow/Manifest
-r5 = 86161efd9bfe4435e984715dc54604201f5212d3 (refs/remotes/git-svn)
-	M	dev-libs/libportable/Manifest
-r6 = 3cbff0e3089aafe1f4406ee3da2aebb5d59f9641 (refs/remotes/git-svn)
-	A	dev-libs/pedro/Manifest
-	A	dev-libs/pedro/pedro-1.0.ebuild
-r7 = 5241911454c4ac9cddfaf7b5c99c89910266d8f9 (refs/remotes/git-svn)
-	A	dev-libs/pedro/files/pedro.initd
-	A	dev-libs/pedro/files/pedro.confd
-	M	dev-libs/pedro/Manifest
-	A	dev-libs/pedro/pedro-1.0-r1.ebuild
-r8 = 1316a01a19b890296bddba5bc93eb2a473577a72 (refs/remotes/git-svn)
-	M	dev-libs/pedro/Manifest
-r9 = 89b237df083ba92d8ec7f4382e09e5ae03b662a3 (refs/remotes/git-svn)
-	M	dev-libs/pedro/Manifest
-	M	dev-libs/pedro/pedro-1.0-r1.ebuild
-r10 = c10a93a1ccc59269704832f66e95999ee6d2ccb8 (refs/remotes/git-svn)
-	M	dev-libs/pedro/files/pedro.initd
-	M	dev-libs/pedro/Manifest
-r11 = 465e0cf6ab2882c987113344c1c64d976b34bc34 (refs/remotes/git-svn)
-	M	dev-libs/pedro/files/pedro.initd
-	M	dev-libs/pedro/files/pedro.confd
-	M	dev-libs/pedro/Manifest
-r12 = 2f67cc02c9b99877293bdd389e2828ae2b6e15e9 (refs/remotes/git-svn)
-	A	dev-libs/libx10/libx10-0.9999.ebuild
-	A	dev-libs/libx10/Manifest
-	A	dev-libs/libx10/libx10.metadata.xml
-r13 = 406c6d8bcb3949915cc77e5632cfe2f47507300a (refs/remotes/git-svn)
-	A	dev-python/pybonjour/Manifest
-	A	dev-python/pybonjour/pybonjour-1.1.1.ebuild
-r14 = 56dccebef310cbc6b25e1c93d39e185ea14f7229 (refs/remotes/git-svn)
-	A	dev-python/pyglet/pyglet-1.1.3.ebuild
-	A	dev-python/pyglet/Manifest
-r15 = abedea544b3582ef05c9993aa769a4b02e4e4ef5 (refs/remotes/git-svn)
-	A	dev-python/htmltmpl/htmltmpl-1.22.ebuild
-	A	dev-python/htmltmpl/Manifest
-r16 = d9200c7d9333af0f71963b6e1be6b9439dbfbed1 (refs/remotes/git-svn)
-	A	media-libs/taglibs-extras/Manifest
-	A	media-libs/taglibs-extras/taglibs-extras-9999.ebuild
-r17 = 979dbf7d3931fb80e52bc5e4897671bbe2562a75 (refs/remotes/git-svn)
-	D	media-libs/taglibs-extras/Manifest
-	D	media-libs/taglibs-extras/taglibs-extras-9999.ebuild
-	D	media-libs/taglibs-extras/
-	A	media-libs/taglib-extras/Manifest
-	A	media-libs/taglib-extras/taglib-extras-9999.ebuild
-W: -empty_dir: media-libs/taglibs-extras
-r18 = f9d7470063469608d263c2a127dfe9ca68bc9dc4 (refs/remotes/git-svn)
-	M	dev-libs/libportable/libportable-0.1.9999.ebuild
-r19 = 395625fc01fb942c2efb6b194f1197ce941652bf (refs/remotes/git-svn)
-	M	dev-libs/libportable/Manifest
-r20 = 685107ded6760d0ae47c03c116e400f3bc4b9f4c (refs/remotes/git-svn)
-	M	dev-libs/libportable/libportable-0.1.9999.ebuild
-	M	dev-libs/libportable/Manifest
-r21 = 19d0a8697d7bd8fc9fe94157ffc4fb510dc40cbc (refs/remotes/git-svn)
-	M	dev-libs/libportable/libportable-0.1.9999.ebuild
-	M	dev-libs/libportable/Manifest
-r22 = a7b91e58e011dd96ff6cc09ffc39957b48c697ba (refs/remotes/git-svn)
-	M	dev-libs/libportable/libportable-0.1.9999.ebuild
-	M	dev-libs/libportable/Manifest
-r23 = 0b94dd59408681837cc70f5be916e8dbf347466b (refs/remotes/git-svn)
-	A	dev-libs/json-c/json-c-0.8.ebuild
-	A	dev-libs/json-c/Manifest
-r24 = 1d69b57d366daf58cdd23de4a3bfef76e0fc9891 (refs/remotes/git-svn)
-	A	media-libs/freeimage/Manifest
-	A	media-libs/freeimage/freeimage-3.12.0.ebuild
-r25 = 03fb11fb809fdfa17eb4f2621af592607b559b78 (refs/remotes/git-svn)
-	M	media-libs/freeimage/Manifest
-	M	media-libs/freeimage/freeimage-3.12.0.ebuild
-r26 = 92a6bc99ebe88d6dba550782d79399df388acd72 (refs/remotes/git-svn)
-	M	media-libs/freeimage/Manifest
-	M	media-libs/freeimage/freeimage-3.12.0.ebuild
-r27 = 308ccd4276bcedd7f5eeaac7e3c181f2321c9f46 (refs/remotes/git-svn)
-	A	dev-libs/leptonlib/leptonlib-1.62.ebuild
-	A	dev-libs/leptonlib/Manifest
-r28 = 6039c1abd458c115322c51c42fb71662b194660f (refs/remotes/git-svn)
-	A	app-doc/opengl-manpages/metadata.xml
-	A	app-doc/opengl-manpages/Manifest
-	A	app-doc/opengl-manpages/ChangeLog
-	A	app-doc/opengl-manpages/opengl-manpages-20001215.ebuild
-r29 = f9d9f55859a13fec13430a94cc4b678cfc9ee53d (refs/remotes/git-svn)
-	A	dev-python/shout-python/shout-python-0.2.1.ebuild
-	A	dev-python/shout-python/Manifest
-r30 = 551acca0c325cbef1ff9552e48dd129f213f573b (refs/remotes/git-svn)
-	D	media-libs/freeimage/freeimage-3.12.0.ebuild
-	M	media-libs/freeimage/Manifest
-	A	media-libs/freeimage/freeimage-3.13.0.ebuild
-W: -empty_dir: media-libs/freeimage/freeimage-3.12.0.ebuild
-r31 = 067e389f25ca6540a37656c1055f73bb6ec31c47 (refs/remotes/git-svn)
-	M	dev-libs/libportable/libportable-0.1.9999.ebuild
-	M	dev-libs/libportable/Manifest
-r32 = 70fdb9e0f61e5c07e47f7ea56638d9aa2cb644a6 (refs/remotes/git-svn)
-	A	media-libs/freeimage/files/freeimage-3.13.1-systemlibs.patch
-	M	media-libs/freeimage/Manifest
-	A	media-libs/freeimage/freeimage-3.13.1.ebuild
-r33 = 05cdd41152645c962863705fe7b3c31251027328 (refs/remotes/git-svn)
-	M	dev-libs/libportable/libportable-0.1.9999.ebuild
-	M	dev-libs/libportable/Manifest
-r34 = cd3e2f2df9a5c269b20b2f8d49030e198f0e04f9 (refs/remotes/git-svn)
-	A	dev-libs/cml/Manifest
-	A	dev-libs/cml/cml-1.0.2.ebuild
-r35 = 1b936ac9a74410d736887385b200b24e2c6a7151 (refs/remotes/git-svn)
-	A	dev-python/htmlcolor/htmlcolor-0.1.ebuild
-	A	dev-python/htmlcolor/Manifest
-r36 = 69e1df5fea781b43f4cd9035d18ab900c9e78614 (refs/remotes/git-svn)
-	M	dev-python/htmltmpl/htmltmpl-1.22.ebuild
-	M	dev-python/htmltmpl/Manifest
-	M	dev-python/shout-python/shout-python-0.2.1.ebuild
-	M	dev-python/shout-python/Manifest
-	D	dev-python/pyglet/pyglet-1.1.3.ebuild
-	M	dev-python/pyglet/Manifest
-	A	dev-python/pyglet/pyglet-1.1.4.ebuild
-	M	dev-python/pybonjour/Manifest
-	M	dev-python/pybonjour/pybonjour-1.1.1.ebuild
-W: -empty_dir: dev-python/pyglet/pyglet-1.1.3.ebuild
-r37 = a619938670d85ef7ebd28a12fb2e7f29e221ee2a (refs/remotes/git-svn)
-	A	x11-misc/autostartx/autostartx-1.ebuild
-	A	x11-misc/autostartx/Manifest
-r38 = d5355a9fa35e19a14cd24ef8b6a8b2ce7c9bc27a (refs/remotes/git-svn)
-W: +empty_dir: x11-libs
-r39 = 791d57c6c19a6ca60e05f446098e9503401aa144 (refs/remotes/git-svn)
-	A	x11-libs/libX11/libX11-1.4.0-r1.ebuild
-	A	x11-libs/libX11/files/ext_display_name_fix.patch
-	A	x11-libs/libX11/Manifest
-r40 = 0a98e582965628ac83c8da67d7f71f4cbe576f72 (refs/remotes/git-svn)
-	M	x11-libs/libX11/Manifest
-r41 = c7a629132cc138f1c038c2b327017107b0447427 (refs/remotes/git-svn)
-	A	x11-misc/synergy-plus/files/xrandr.patch
-	A	x11-misc/synergy-plus/synergy-plus-1.3.4-r1.ebuild
-	A	x11-misc/synergy-plus/Manifest
-r42 = a19ede0b2f6a95c32479c3cd4148e1d3dab19f56 (refs/remotes/git-svn)
-	A	media-gfx/slideshow/slideshow-9999.ebuild
-	M	media-gfx/slideshow/Manifest
-r43 = 2818c8a55024a52bae226c7b3faceede83d43b2c (refs/remotes/git-svn)
-	M	media-gfx/slideshow/slideshow-9999.ebuild
-	M	media-gfx/slideshow/Manifest
-r44 = f5fcdbc22340e3ff16a39dd96773e3b45f324c7e (refs/remotes/git-svn)
-	D	media-gfx/slideshow/Manifest
-	D	media-gfx/slideshow/slideshow-0.2.9999.ebuild
-	D	media-gfx/slideshow/slideshow-9999.ebuild
-	D	media-gfx/slideshow/
-	A	media-gfx/slideshow-daemon/slideshow-0.2.9999.ebuild
-	A	media-gfx/slideshow-daemon/slideshow-9999.ebuild
-	A	media-gfx/slideshow-daemon/Manifest
-W: -empty_dir: media-gfx/slideshow
-r45 = 681a494d9ea0da8b7e0f3e4b1ea7396118f16f40 (refs/remotes/git-svn)
-	D	media-gfx/slideshow-daemon/slideshow-0.2.9999.ebuild
-W: -empty_dir: media-gfx/slideshow-daemon/slideshow-0.2.9999.ebuild
-r46 = f5f51d209e5c5de0f315560087aa818836209aab (refs/remotes/git-svn)
-	D	media-gfx/slideshow-daemon/slideshow-9999.ebuild
-	M	media-gfx/slideshow-daemon/Manifest
-	A	media-gfx/slideshow-daemon/slideshow-daemon-9999.ebuild
-W: -empty_dir: media-gfx/slideshow-daemon/slideshow-9999.ebuild
-r47 = bf898e5053be26b8eedce1745e3b52048d052359 (refs/remotes/git-svn)
-	A	media-gfx/slideshow/slideshow-9999.ebuild
-	A	media-gfx/slideshow/Manifest
-r48 = 66021cc5132e9b6bc0587f7dcd03a7f40f916edd (refs/remotes/git-svn)
-	A	media-gfx/slideshow-frontend/slideshow-frontend-9999.ebuild
-	A	media-gfx/slideshow-frontend/Manifest
-r49 = 8ed20ba59f88a5d7b36adf27e54ef731495290a2 (refs/remotes/git-svn)
-	A	dev-python/xorg_query/Manifest
-	A	dev-python/xorg_query/xorg_query-0.5.ebuild
-r50 = 4b646dec71f0dc1f8633052815528092761fddca (refs/remotes/git-svn)
-	M	media-gfx/slideshow-frontend/slideshow-frontend-9999.ebuild
-r51 = b6335309c2b4a3a0846fcb774bb555540b1e87cb (refs/remotes/git-svn)
-	M	media-gfx/slideshow-frontend/slideshow-frontend-9999.ebuild
-	M	media-gfx/slideshow-frontend/Manifest
-r52 = cbb6c223919bc24970d7809250650a525bf8d94a (refs/remotes/git-svn)
-	M	media-gfx/slideshow-frontend/slideshow-frontend-9999.ebuild
-	M	media-gfx/slideshow-frontend/Manifest
-r53 = 837d3875996771932b2bbce305f5d85a85971ece (refs/remotes/git-svn)
-	M	media-gfx/slideshow-frontend/slideshow-frontend-9999.ebuild
-	M	media-gfx/slideshow-frontend/Manifest
-r54 = f684cedbd0a1b8133b7237beb34c859872a82bb1 (refs/remotes/git-svn)
-	D	x11-libs/libX11/libX11-1.4.0-r1.ebuild
-	A	x11-libs/libX11/libX11-1.4.1-r1.ebuild
-	M	x11-libs/libX11/Manifest
-W: -empty_dir: x11-libs/libX11/libX11-1.4.0-r1.ebuild
-r55 = 304620e68ab4ebc68444ccc36ce2365df9030028 (refs/remotes/git-svn)
-	D	dev-libs/libportable/libportable-0.1.9999.ebuild
-	A	dev-libs/libportable/libportable-0.9999.ebuild
-	M	dev-libs/libportable/Manifest
-W: -empty_dir: dev-libs/libportable/libportable-0.1.9999.ebuild
-r56 = 8c5eba60191807c4188a01850dd52242ad66f634 (refs/remotes/git-svn)
-	M	dev-libs/libportable/libportable-0.9999.ebuild
-	M	dev-libs/libportable/Manifest
-	A	dev-libs/libportable/libportable-0.2.1.ebuild
-r57 = 772af09529102e15f3dc0f1b5f02a00ace873d98 (refs/remotes/git-svn)
-	M	dev-libs/libportable/Manifest
-	M	dev-libs/libportable/libportable-0.2.1.ebuild
-r58 = 85a2d4308169db6d0ce51a0a3df58e240c4f9c7f (refs/remotes/git-svn)
-	M	dev-libs/libportable/Manifest
-	M	dev-libs/libportable/libportable-0.2.1.ebuild
-r59 = eabb63a03886c885a4d2dd614d41daafa6e52b53 (refs/remotes/git-svn)
-	M	dev-libs/libportable/libportable-0.9999.ebuild
-	M	dev-libs/libportable/Manifest
-r60 = da0f036f2136870ed1b676c4965554aff2de6df2 (refs/remotes/git-svn)
-	A	dev-libs/libportable/metadata.xml
-	M	dev-libs/libportable/Manifest
-r61 = ccdf7807bab6478026e50bf156526dd3c4da4212 (refs/remotes/git-svn)
-	M	dev-libs/libportable/Manifest
-	M	dev-libs/libportable/libportable-0.2.1.ebuild
-r62 = acca38815c94a05bfb9aa1cf87d791deb620e9b5 (refs/remotes/git-svn)
-	M	dev-libs/libportable/libportable-0.9999.ebuild
-	M	dev-libs/libportable/Manifest
-	M	dev-libs/libportable/libportable-0.2.1.ebuild
-r63 = 44ccaaba8ef3e7b4d44c4747d4135844380d466e (refs/remotes/git-svn)
-	D	x11-libs/libX11/Manifest
-	D	x11-libs/libX11/files/ext_display_name_fix.patch
-	D	x11-libs/libX11/libX11-1.4.1-r1.ebuild
-	D	x11-libs/libX11/
-W: -empty_dir: x11-libs/libX11
-r64 = a30bd70951dcdb93021f396a8bc14cedd0381538 (refs/remotes/git-svn)
-	A	x11-libs/libX11/files/ext_display_name_fix.patch
-	A	x11-libs/libX11/libX11-1.4.1-r1.ebuild
-	A	x11-libs/libX11/Manifest
-r65 = 155e4184b0dbc3fba25cde3caa334acf6b801dc7 (refs/remotes/git-svn)
-	M	dev-python/xorg_query/Manifest
-	A	dev-python/xorg_query/xorg_query-0.5-r1.ebuild
-r66 = 99c875b46d4d61871ee30d93662727ec9b1b663b (refs/remotes/git-svn)
-	D	x11-libs/libX11/Manifest
-	D	x11-libs/libX11/files/ext_display_name_fix.patch
-	D	x11-libs/libX11/libX11-1.4.1-r1.ebuild
-	D	x11-libs/libX11/
-W: -empty_dir: x11-libs/libX11
-r67 = b8aad572688df9dcd36c702506df90530f498402 (refs/remotes/git-svn)
-	A	net-libs/libmarc/Manifest
-	A	net-libs/libmarc/libmarc-9999.ebuild
-	A	net-libs/libcaputils/libcaputils-9999.ebuild
-	A	net-libs/libcaputils/Manifest
-r68 = 4b08e7fcb819146f2a0fa4528e02aa92cfa0e252 (refs/remotes/git-svn)
-	A	app-misc/parserver/files/parserver.init.d
-	A	app-misc/parserver/Manifest
-	A	app-misc/parserver/parserver-4.ebuild
-r69 = 3b436e67a3c2c674ed72029f82ea36a3141f6e19 (refs/remotes/git-svn)
-	D	net-libs/libmarc/Manifest
-	D	net-libs/libmarc/libmarc-9999.ebuild
-	D	net-libs/libmarc/
-	D	net-libs/libcaputils/Manifest
-	D	net-libs/libcaputils/libcaputils-9999.ebuild
-	D	net-libs/libcaputils/
-W: -empty_dir: net-libs/libcaputils
-W: -empty_dir: net-libs/libmarc
-r70 = 0dcf82a537edd05eb0458b35b818f6e1f478a303 (refs/remotes/git-svn)
-	D	app-misc/parserver/Manifest
-	D	app-misc/parserver/files/parserver.init.d
-	D	app-misc/parserver/parserver-4.ebuild
-	D	app-misc/parserver/
-	A	app-misc/parport_server/files/parserver.init.d
-	A	app-misc/parport_server/Manifest
-	A	app-misc/parport_server/parserver-4.ebuild
-W: -empty_dir: app-misc/parserver
-r71 = b7734bc409a8e6acb6522f3d08edb0874f8bab33 (refs/remotes/git-svn)
-	D	app-misc/parport_server/parserver-4.ebuild
-	A	app-misc/parport_server/parport_server-1.5.ebuild
-	D	app-misc/parport_server/files/parserver.init.d
-	A	app-misc/parport_server/files/parport_server.init
-W: -empty_dir: app-misc/parport_server/files/parserver.init.d
-W: -empty_dir: app-misc/parport_server/parserver-4.ebuild
-r72 = 03c1e66c741b3282ab0bb2ef6f87a4b046f0a3df (refs/remotes/git-svn)
-	M	app-misc/parport_server/Manifest
-r73 = bca8373fc4af8ac1a3d204c5d862261daa073990 (refs/remotes/git-svn)
-	M	app-misc/parport_server/files/parport_server.init
-	M	app-misc/parport_server/Manifest
-r74 = a0ac2dbcedb96bfb6ad70661a37403c177715949 (refs/remotes/git-svn)
-	M	app-misc/parport_server/Manifest
-r75 = a76730a871f9461dbef372b195c4ba29d8d98505 (refs/remotes/git-svn)
-	M	app-misc/parport_server/Manifest
-r76 = e97fe69d00c7fdca04569e12ea0b3d0b7e374faf (refs/remotes/git-svn)
-	A	app-misc/parport_server/parport_server-1.6.ebuild
-	M	app-misc/parport_server/Manifest
-r77 = 3d96444e02deada870925b2a5f212e4598f9c46a (refs/remotes/git-svn)
-	M	app-misc/parport_server/files/parport_server.init
-	A	app-misc/parport_server/files/parport_server.conf
-	A	app-misc/parport_server/parport_server-1.7.ebuild
-	A	app-misc/parport_server/parport_server-1.8.ebuild
-	M	app-misc/parport_server/Manifest
-r78 = 58a47ecce978db42cb06aacba34a3b85bad1e478 (refs/remotes/git-svn)
-	A	app-misc/parport_server/parport_server-1.9.ebuild
-	M	app-misc/parport_server/Manifest
-r79 = 510e73cc5b4c4abb3b9a0c1e166d69836ca5fa59 (refs/remotes/git-svn)
-	M	dev-libs/cml/Manifest
-	M	dev-libs/cml/cml-1.0.2.ebuild
-r80 = 540df17084d74551d6189ef3bffd683fe4167b52 (refs/remotes/git-svn)
-	M	dev-libs/libportable/libportable-0.9999.ebuild
-r81 = 4eb263db6768dae99a605c8979cded866bb60b43 (refs/remotes/git-svn)
-	M	dev-libs/libportable/Manifest
-r82 = 8141eb30c1d9c7f182003f6d534514bb77fd8273 (refs/remotes/git-svn)
-	M	media-libs/taglib-extras/Manifest
-	M	media-libs/taglib-extras/taglib-extras-9999.ebuild
-r83 = a55b22c5106dabcc3f7199ae86dd2338631a4959 (refs/remotes/git-svn)
-	A	dev-libs/assimp/metadata.xml
-	A	dev-libs/assimp/Manifest
-	A	dev-libs/assimp/assimp-2.0.863.ebuild
-r84 = 487a9eff8e1f55eca0ac5f5cbe500fbe68f20629 (refs/remotes/git-svn)
-	A	dev-libs/assimp/ChangeLog
-r85 = 99c6f63aa6a35c7ff5f157aefdcf17e9c1296266 (refs/remotes/git-svn)
-	A	dev-libs/assimp/assimp-3.0.1270.ebuild
-	M	dev-libs/assimp/Manifest
-	M	dev-libs/assimp/ChangeLog
-r86 = 621e2dfcd950d9c2eaa292f7b9144f67a4ad2b48 (refs/remotes/git-svn)
-	A	dev-perl/Net-PcapWriter/Manifest
-	A	dev-perl/Net-PcapWriter/Net-PcapWriter-0.5.ebuild
-r87 = 15253b935642c64a0952879efec4b61fb0f140a5 (refs/remotes/git-svn)
-	A	dev-perl/Net-PcapWriter/metadata.xml
-r88 = a5fd862b8af7d69d80d18c988922f3858047395c (refs/remotes/git-svn)
-	A	dev-perl/Net-PcapWriter/ChangeLog
-r89 = 94084e88f44ec330f9a6d343bdee839bcfc9c44c (refs/remotes/git-svn)
-	A	dev-libs/glm/Manifest
-	A	dev-libs/glm/glm-0.9.4.1.ebuild
-	A	dev-libs/glm/glm-0.9.4.3.ebuild
-r90 = d2ba6d45f8d406498b41e55628d155562184ce76 (refs/remotes/git-svn)
-	A	dev-libs/libportable/libportable-0.2.3.ebuild
-	M	dev-libs/libportable/Manifest
-r91 = 47bb7e26d668f826a648ce9b930579a84e873786 (refs/remotes/git-svn)
-	M	media-gfx/slideshow-daemon/Manifest
-	M	media-gfx/slideshow-daemon/slideshow-daemon-9999.ebuild
-r92 = 1e5596296fb1e77bb7bf8884cd61d1d0d24f975b (refs/remotes/git-svn)
-	A	metadata/layout.conf
-	A	metadata/herds.xml
-r93 = 6a32ffdd3f8806c64465c02317906521e6719a7a (refs/remotes/git-svn)
-	M	dev-python/xorg_query/Manifest
-	A	dev-python/xorg_query/xorg_query-0.6.ebuild
-	A	dev-python/xorg_query/xorg_query-9999.ebuild
-r94 = 626120d47008ed9af789092b12ffb05be4bd69f4 (refs/remotes/git-svn)
-	A	dev-libs/datapack/metadata.xml
-	A	dev-libs/datapack/Manifest
-	A	dev-libs/datapack/ChangeLog
-	A	dev-libs/datapack/datapack-0.1.ebuild
-r95 = aa40799c8ad1ebaaa80780f78d2a680bf01cd061 (refs/remotes/git-svn)
-	D	dev-libs/json-c/Manifest
-	D	dev-libs/json-c/json-c-0.8.ebuild
-	D	dev-libs/json-c/
-W: -empty_dir: dev-libs/json-c
-r96 = f3bd2fa22795f82f0a02e01f7edda2d786d1d327 (refs/remotes/git-svn)
-	M	dev-libs/libx10/libx10-0.9999.ebuild
-	M	dev-libs/libx10/Manifest
-	M	dev-libs/leptonlib/leptonlib-1.62.ebuild
-	M	dev-libs/leptonlib/Manifest
-r97 = 804ae56f3ae183364b4e6b3d86dc997c1f65cad9 (refs/remotes/git-svn)
-	M	metadata/layout.conf
-	M	metadata/herds.xml
-r98 = 1f322e2783b051afdaff7ae185e6183f11abfa61 (refs/remotes/git-svn)
-	A	media-gfx/slideshow-daemon/metadata.xml
-	M	media-gfx/slideshow-daemon/Manifest
-	M	media-gfx/slideshow-daemon/slideshow-daemon-9999.ebuild
-	A	media-gfx/slideshow-daemon/ChangeLog
-r99 = 6e6ad586c1d7ecea85520caa57a733cf5e8988d7 (refs/remotes/git-svn)
-	M	media-gfx/slideshow/Manifest
-	M	x11-misc/synergy-plus/synergy-plus-1.3.4-r1.ebuild
-	M	x11-misc/synergy-plus/Manifest
-r100 = 7224fffc3aaa4cdb39bd08a97ebb776c4fc39815 (refs/remotes/git-svn)
-	M	media-gfx/slideshow-daemon/Manifest
-	M	media-gfx/slideshow-daemon/slideshow-daemon-9999.ebuild
-	M	media-gfx/slideshow-daemon/ChangeLog
-r101 = 52a6eca6f2ad43cb6f0fb8b315b4442ec1ff6696 (refs/remotes/git-svn)
-	M	dev-libs/datapack/Manifest
-	M	dev-libs/datapack/datapack-0.1.ebuild
-	A	dev-libs/datapack/datapack-0.2.ebuild
-r102 = 3e90db4360a4d83ac0fdc00368b794d9f743a43d (refs/remotes/git-svn)
-	D	dev-python/xorg_query/xorg_query-0.5-r1.ebuild
-	D	dev-python/xorg_query/xorg_query-0.5.ebuild
-	D	dev-python/xorg_query/xorg_query-0.6.ebuild
-	A	dev-python/xorg_query/metadata.xml
-	M	dev-python/xorg_query/Manifest
-	A	dev-python/xorg_query/ChangeLog
-	A	dev-python/xorg_query/xorg_query-0.6-r1.ebuild
-	M	dev-python/xorg_query/xorg_query-9999.ebuild
-W: -empty_dir: dev-python/xorg_query/xorg_query-0.5-r1.ebuild
-W: -empty_dir: dev-python/xorg_query/xorg_query-0.5.ebuild
-W: -empty_dir: dev-python/xorg_query/xorg_query-0.6.ebuild
-r103 = 96cf1a2b15f495b9a219bb09e20fbc6fc49cd84f (refs/remotes/git-svn)
-	A	dev-libs/awesomium/metadata.xml
-	A	dev-libs/awesomium/Manifest
-	A	dev-libs/awesomium/awesomium-1.7.2.ebuild
-r104 = 29b66d604826411500223366ccb5f363fda4630a (refs/remotes/git-svn)
-	A	dev-util/patchelf/metadata.xml
-	A	dev-util/patchelf/Manifest
-	A	dev-util/patchelf/ChangeLog
-	A	dev-util/patchelf/patchelf-9999.ebuild
-r105 = 4e390c4c4bcd731e9eb55f6208cd933098c22d53 (refs/remotes/git-svn)
-	A	app-misc/jpegsplit/metadata.xml
-	A	app-misc/jpegsplit/jpegsplit-1.0.ebuild
-	A	app-misc/jpegsplit/Manifest
-	A	app-misc/jpegsplit/ChangeLog
-r106 = 4618367752ecfd7cfab0ef98411061eb4168b872 (refs/remotes/git-svn)
-	M	dev-libs/datapack/metadata.xml
-	M	dev-libs/datapack/Manifest
-	M	dev-libs/datapack/ChangeLog
-	A	dev-libs/datapack/datapack-0.3.ebuild
-r107 = d5a1c63008e143dcb4da9b776d2f2258c3d9191c (refs/remotes/git-svn)
-	A	app-misc/jpegsplit/jpegsplit-1.2.ebuild
-	M	app-misc/jpegsplit/Manifest
-	M	app-misc/jpegsplit/ChangeLog
-r108 = 6d88e5a0fd3a9f3d7dfd2d374bebafd48a62fe14 (refs/remotes/git-svn)
-	M	app-misc/jpegsplit/Manifest
-r109 = 394c396025ffd0a943e7973f5079b8c0038c2702 (refs/remotes/git-svn)
-	M	dev-libs/datapack/Manifest
-r110 = 4d7fc21e465e65d9d5d6122d578045bdcd78728c (refs/remotes/git-svn)
-	M	x11-misc/autostartx/autostartx-1.ebuild
-	M	x11-misc/autostartx/Manifest
-r111 = d524bb754502716c0183f1cb82a33a8acc171b84 (refs/remotes/git-svn)
-	M	media-gfx/slideshow-daemon/metadata.xml
-	M	media-gfx/slideshow-daemon/Manifest
-	M	media-gfx/slideshow-daemon/slideshow-daemon-9999.ebuild
-	M	media-gfx/slideshow-daemon/ChangeLog
-r112 = 1327d22ea59597f6c0074e92e8feb9535b25ca08 (refs/remotes/git-svn)
-	D	dev-perl/Net-PcapWriter/Net-PcapWriter-0.5.ebuild
-	M	dev-perl/Net-PcapWriter/Manifest
-	M	dev-perl/Net-PcapWriter/ChangeLog
-	A	dev-perl/Net-PcapWriter/Net-PcapWriter-0.711.ebuild
-W: -empty_dir: dev-perl/Net-PcapWriter/Net-PcapWriter-0.5.ebuild
-r113 = b174e55f4ad3f2abddc5081e1a66d5fd75bcdaf2 (refs/remotes/git-svn)
-	M	dev-perl/Net-PcapWriter/Manifest
-r114 = d250bca1d65554039c0d900ec39852980a02b71f (refs/remotes/git-svn)
-	M	dev-python/xorg_query/metadata.xml
-	M	dev-python/xorg_query/Manifest
-	M	dev-python/xorg_query/xorg_query-9999.ebuild
-r115 = 3ff8b323486d6d8255b5950de7361d9982e0cae2 (refs/remotes/git-svn)
-	M	dev-python/xorg_query/Manifest
-	M	dev-python/xorg_query/ChangeLog
-	M	dev-python/xorg_query/xorg_query-9999.ebuild
-r116 = b26ca26d47559c571916734bfb99add2f36a40bc (refs/remotes/git-svn)
-	A	app-admin/reprepro/metadata.xml
-	A	app-admin/reprepro/reprepro-4.16.0.ebuild
-	A	app-admin/reprepro/Manifest
-	A	app-admin/reprepro/ChangeLog
-r117 = 4bff5fae39e16a03149673bc803a5e3beb576c60 (refs/remotes/git-svn)
-	A	media-gfx/slideshow-frontend/metadata.xml
-	M	media-gfx/slideshow-frontend/slideshow-frontend-9999.ebuild
-	M	media-gfx/slideshow-frontend/Manifest
-r118 = 5b5ba3504cb21321d54c98746e274dac9b92738f (refs/remotes/git-svn)
-	M	media-gfx/slideshow-daemon/Manifest
-	M	media-gfx/slideshow-daemon/slideshow-daemon-9999.ebuild
-r119 = 9a80fd6c4f9389e3f19f446b6dce6727365f0c05 (refs/remotes/git-svn)
-Checked out HEAD:
-  svn://sidvind.com/overlays/ext-devlibs r119
-creating empty directory: x11-libs
+Current branch master is up to date.
 *** syncing ext-devlibs
 *** synced ext-devlibs
  * Sync succeeded
@@ -477,45 +21,45 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: dev-python/xorg_query-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '193' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 
 !!! ERROR: dev-python/xorg_query-0.6-r1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-9999.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-9999.ebuild'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '193' 'depend'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '201' 'depend'
-!!!         xorg_query-9999.ebuild, line   7:  Called inherit 'distutils-r1' 'git-2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-9999.ebuild'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-0.6-r1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-9999.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-0.6-r1.ebuild'
-!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-0.6-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
+!!!         xorg_query-9999.ebuild, line   7:  Called inherit 'distutils-r1' 'git-2'
 !!!       xorg_query-0.6-r1.ebuild, line   7:  Called inherit 'distutils-r1'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
+!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!               python-r1.eclass, line  47:  Called die
 !!! The die message:
 !!!  Unsupported EAPI=4 (too old, allowed only on restricted set of packages) for python-r1
 
-!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!               python-r1.eclass, line  47:  Called die
 !!! The die message:

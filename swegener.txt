@@ -7,29 +7,11 @@
              'uri': 'rsync://rsync.gentoo.stealer.net/swegener-overlay/'}],
  'status': 'official'}
 $ pmaint sync swegener
-WARNING:pkgcore:repository at location '/home/mgorny/repos/proaudio' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/proaudio', named 'proaudio', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/luke-jr' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/luke-jr', named 'luke-jr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/kaa' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/kaa', named 'kaa', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/hanno' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/hanno', named 'hanno', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/progress' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/pentoo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/pentoo', named 'pentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ext-devlibs' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/luke-jr' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/luke-jr', named 'luke-jr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/kaa' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/kaa', named 'kaa', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Welcome To
         ____ _____ _____    _    _     _____ ____               _
@@ -47,23 +29,25 @@ Location: Nuernberg, Germany
 Contact: Sven Wegener <swegener@gentoo.org>
 
 receiving incremental file list
+metadata/md5-cache/gnome-extra/
+metadata/md5-cache/gnome-extra/brightside-1.4.0
 
 Number of files: 1,014 (reg: 856, dir: 158)
-Number of created files: 0
+Number of created files: 1 (reg: 1)
 Number of deleted files: 0
-Number of regular files transferred: 0
+Number of regular files transferred: 1
 Total file size: 1.22M bytes
-Total transferred file size: 0 bytes
-Literal data: 0 bytes
+Total transferred file size: 1.05K bytes
+Literal data: 1.05K bytes
 Matched data: 0 bytes
 File list size: 25.38K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 239
-Total bytes received: 25.55K
+Total bytes sent: 259
+Total bytes received: 26.27K
 
-sent 239 bytes  received 25.55K bytes  10.32K bytes/sec
-total size is 1.22M  speedup is 47.40
+sent 259 bytes  received 26.27K bytes  17.68K bytes/sec
+total size is 1.22M  speedup is 46.09
 *** syncing swegener
 *** synced swegener
  * Sync succeeded
