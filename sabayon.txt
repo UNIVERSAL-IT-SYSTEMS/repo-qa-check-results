@@ -8,19 +8,7 @@
  'status': 'unofficial'}
 $ pmaint sync sabayon
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/Sabayon/for-gentoo
-   d94bc90..f55e908  master     -> origin/master
-Updating d94bc90..f55e908
-Fast-forward
- sys-boot/unetbootin/Manifest                       |  1 -
- .../unetbootin/files/unetbootin-581-desktop.patch  | 24 ------
- sys-boot/unetbootin/metadata.xml                   |  8 --
- sys-boot/unetbootin/unetbootin-608.ebuild          | 90 ----------------------
- 4 files changed, 123 deletions(-)
- delete mode 100644 sys-boot/unetbootin/Manifest
- delete mode 100644 sys-boot/unetbootin/files/unetbootin-581-desktop.patch
- delete mode 100644 sys-boot/unetbootin/metadata.xml
- delete mode 100644 sys-boot/unetbootin/unetbootin-608.ebuild
+Already up-to-date.
 *** syncing sabayon
 *** synced sabayon
  * Sync succeeded
