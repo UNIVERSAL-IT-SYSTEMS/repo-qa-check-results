@@ -9,7 +9,14 @@
  'status': 'unofficial'}
 $ pmaint sync miramir
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/miramir/miramir-layman
+   44b67e1..3a94e19  master     -> origin/master
+Updating 44b67e1..3a94e19
+Fast-forward
+ dev-util/phpstorm/Manifest                 |  2 ++
+ dev-util/phpstorm/phpstorm-141.2402.ebuild | 46 ++++++++++++++++++++++++++++++
+ 2 files changed, 48 insertions(+)
+ create mode 100644 dev-util/phpstorm/phpstorm-141.2402.ebuild
 *** syncing miramir
 *** synced miramir
  * Sync succeeded
