@@ -25,21 +25,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '175' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+
+!!! ERROR: dev-python/g-pypi-0.4 failed.
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
 !!!           ioncube-3.3.7.ebuild, line  10:  Called inherit 'php-ext-base-r1' 'versionator'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-base-r1'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for php-ext-base-r1 failed
 
-
-!!! ERROR: dev-python/g-pypi-0.4 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '166' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
