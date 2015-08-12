@@ -10,7 +10,19 @@
 $ pmaint sync vaca
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hashashin/gentoo-vaca-overlay
+   69799f2..9b02d0d  master     -> origin/master
+Updating 69799f2..9b02d0d
+Fast-forward
+ dev-util/jenkins-bin/ChangeLog                     |  6 +++++
+ dev-util/jenkins-bin/Manifest                      | 28 +++++++++++-----------
+ ...s-bin-1.623.ebuild => jenkins-bin-1.624.ebuild} |  0
+ media-plugins/live/ChangeLog                       |  6 +++++
+ media-plugins/live/Manifest                        | 28 +++++++++++-----------
+ ...ve-2015.07.31.ebuild => live-2015.08.07.ebuild} |  0
+ 6 files changed, 40 insertions(+), 28 deletions(-)
+ rename dev-util/jenkins-bin/{jenkins-bin-1.623.ebuild => jenkins-bin-1.624.ebuild} (100%)
+ rename media-plugins/live/{live-2015.07.31.ebuild => live-2015.08.07.ebuild} (100%)
 *** syncing vaca
 *** synced vaca
  * Sync succeeded
