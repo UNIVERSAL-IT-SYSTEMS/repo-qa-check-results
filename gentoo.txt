@@ -17,15 +17,25 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   7972a49..0415a99  master     -> origin/master
-Updating 7972a49..0415a99
+   e6545c7..be192bb  master     -> origin/master
+Updating e6545c7..be192bb
 Fast-forward
- app-portage/install-mask/Manifest                  |  1 -
- .../install-mask/install-mask-0.0.2-r3.ebuild      | 27 ----------------------
- media-gfx/digikam/digikam-4.4.0-r1.ebuild          | 13 +++--------
- media-gfx/digikam/metadata.xml                     |  1 -
- 4 files changed, 3 insertions(+), 39 deletions(-)
- delete mode 100644 app-portage/install-mask/install-mask-0.0.2-r3.ebuild
+ app-office/calligra/calligra-2.8.5.ebuild | 10 ++++----
+ app-office/calligra/calligra-2.8.7.ebuild | 10 ++++----
+ app-office/calligra/calligra-9999.ebuild  | 10 ++++----
+ app-office/calligra/metadata.xml          |  1 -
+ www-servers/pshs/Manifest                 |  5 ----
+ www-servers/pshs/pshs-0.2.1.ebuild        | 34 ---------------------------
+ www-servers/pshs/pshs-0.2.3.ebuild        | 36 ----------------------------
+ www-servers/pshs/pshs-0.2.4.ebuild        | 36 ----------------------------
+ www-servers/pshs/pshs-0.2.5.ebuild        | 39 -------------------------------
+ www-servers/pshs/pshs-0.2.ebuild          | 33 --------------------------
+ 10 files changed, 12 insertions(+), 202 deletions(-)
+ delete mode 100644 www-servers/pshs/pshs-0.2.1.ebuild
+ delete mode 100644 www-servers/pshs/pshs-0.2.3.ebuild
+ delete mode 100644 www-servers/pshs/pshs-0.2.4.ebuild
+ delete mode 100644 www-servers/pshs/pshs-0.2.5.ebuild
+ delete mode 100644 www-servers/pshs/pshs-0.2.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

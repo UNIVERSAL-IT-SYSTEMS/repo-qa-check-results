@@ -15,19 +15,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/SFTtech/gentoo-overlay
-   18b3636..16739a4  master     -> origin/master
-Updating 18b3636..16739a4
-Fast-forward
- app-text/cppman/Manifest                    |   2 +-
- app-text/cppman/cppman-0.4.5.ebuild         |   2 +-
- games-misc/ponysay/Manifest                 |   2 +-
- games-misc/ponysay/ponysay-3.0.2.ebuild     |   2 +-
- games-strategy/openage/Manifest             |   4 +-
- games-strategy/openage/openage-0.3.0.ebuild | 112 ++++++++++++++++++++++++++++
- games-strategy/openage/openage-9999.ebuild  |   7 +-
- 7 files changed, 124 insertions(+), 7 deletions(-)
- create mode 100644 games-strategy/openage/openage-0.3.0.ebuild
+Already up-to-date.
 *** syncing sft
 *** synced sft
  * Sync succeeded
