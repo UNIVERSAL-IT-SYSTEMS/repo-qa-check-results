@@ -10,7 +10,15 @@
  'status': 'unofficial'}
 $ pmaint sync booboo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/l29ah/booboo
+   c878edc..74f6106  master     -> origin/master
+Updating c878edc..74f6106
+Fast-forward
+ net-im/swiften/files/swiften-2.9999-boost.patch | 24 +++++++
+ net-im/swiften/swiften-2.9999-r1.ebuild         | 88 +++++++++++++++++++++++++
+ 2 files changed, 112 insertions(+)
+ create mode 100644 net-im/swiften/files/swiften-2.9999-boost.patch
+ create mode 100644 net-im/swiften/swiften-2.9999-r1.ebuild
 *** syncing booboo
 *** synced booboo
  * Sync succeeded
@@ -20,10 +28,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use' function invoked by net-libs/loudmouth-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by dev-lang/psyclpc-20090321 during metadata regeneration.
+WARNING: 'use' function invoked by www-client/uzbl-9999-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-client/uzbl-9999-r1 during metadata regeneration.
+WARNING: 'use' function invoked by dev-lang/psyclpc-20090321 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by app-office/ledger-9999 during metadata regeneration.
