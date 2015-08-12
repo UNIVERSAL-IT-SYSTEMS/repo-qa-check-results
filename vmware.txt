@@ -16,16 +16,14 @@
 $ pmaint sync vmware
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/vmware
-   86156ce..a1639ad  master     -> origin/master
-Updating 86156ce..a1639ad
+   a1639ad..ec119fe  master     -> origin/master
+Updating a1639ad..ec119fe
 Fast-forward
- .../vmware-player/files/vmware-network.service     | 17 ++++++++++++++++
- .../files/vmware-usbarbitrator.service             | 11 +++++++++++
- app-emulation/vmware-player/metadata.xml           |  1 +
- .../vmware-player-7.1.2.2780323.ebuild             | 23 +++++++++++++++++++---
- 4 files changed, 49 insertions(+), 3 deletions(-)
- create mode 100644 app-emulation/vmware-player/files/vmware-network.service
- create mode 100644 app-emulation/vmware-player/files/vmware-usbarbitrator.service
+ .../vmware-player-7.1.2.2780323.ebuild             | 17 ++++---
+ app-emulation/vmware-tools/Manifest                |  6 +++
+ .../vmware-tools/vmware-tools-9.9.3.2780323.ebuild | 54 ++++++++++++++++++++++
+ 3 files changed, 68 insertions(+), 9 deletions(-)
+ create mode 100644 app-emulation/vmware-tools/vmware-tools-9.9.3.2780323.ebuild
 *** syncing vmware
 *** synced vmware
  * Sync succeeded
