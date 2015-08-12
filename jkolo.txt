@@ -31,9 +31,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!           ioncube-3.3.7.ebuild, line  10:  Called inherit 'php-ext-base-r1' 'versionator'
 
 !!! ERROR: dev-python/g-pypi-0.4 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-base-r1'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-base-r1'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for php-ext-base-r1 failed
