@@ -10,11 +10,22 @@
  'status': 'unofficial'}
 $ pmaint sync usr-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to access 'https://bitbucket.org/mgorny/usr-gentoo/': The requested URL returned error: 500
+*** syncing usr-gentoo
+*** failed syncing usr-gentoo
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync usr-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+Cloning into '/home/mgorny/repos/usr-gentoo'...
 *** syncing usr-gentoo
 *** synced usr-gentoo
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 usr-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

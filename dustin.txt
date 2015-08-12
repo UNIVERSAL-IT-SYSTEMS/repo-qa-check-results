@@ -15,12 +15,16 @@
 $ pmaint sync dustin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 pulling from https://bitbucket.org/AdmiralNemo/overlay
-searching for changes
-no changes found
+abort: HTTP Error 500: Internal Server Error
 *** syncing dustin
-*** synced dustin
- * Sync succeeded
-$ pmaint regen -t 2 dustin
+*** failed syncing dustin
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync dustin
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+abort: HTTP Error 500: Internal Server Error
+*** syncing dustin
+*** failed syncing dustin
+ * Sync failed again with 1, removing

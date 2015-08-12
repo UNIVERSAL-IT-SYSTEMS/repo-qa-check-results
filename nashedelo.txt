@@ -13,12 +13,18 @@ $ pmaint sync nashedelo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 pulling from https://bitbucket.org/angry_elf/nashedelo
-searching for changes
-no changes found
+abort: HTTP Error 500: Internal Server Error
 *** syncing nashedelo
-*** synced nashedelo
- * Sync succeeded
-$ pmaint regen -t 2 nashedelo
+*** failed syncing nashedelo
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync nashedelo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+requesting all changes
+abort: HTTP Error 500: Internal Server Error
+*** syncing nashedelo
+*** failed syncing nashedelo
+ * Sync failed again with 1, removing

@@ -10,11 +10,18 @@
  'status': 'unofficial'}
 $ pmaint sync floppym
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to access 'https://bitbucket.org/floppym/floppym-overlay/': The requested URL returned error: 500
 *** syncing floppym
-*** synced floppym
- * Sync succeeded
-$ pmaint regen -t 2 floppym
+*** failed syncing floppym
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync floppym
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+Cloning into '/home/mgorny/repos/floppym'...
+error: RPC failed; result=22, HTTP code = 500
+fatal: The remote end hung up unexpectedly
+*** syncing floppym
+*** failed syncing floppym
+ * Sync failed again with 1, removing

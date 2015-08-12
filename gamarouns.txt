@@ -11,12 +11,28 @@
 $ pmaint sync gamarouns
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 pulling from https://bitbucket.org/amaroun/gamarouns
-searching for changes
-no changes found
+abort: HTTP Error 500: Internal Server Error
+*** syncing gamarouns
+*** failed syncing gamarouns
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync gamarouns
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 36 changesets with 71 changes to 54 files
+updating to branch default
+28 files updated, 0 files merged, 0 files removed, 0 files unresolved
 *** syncing gamarouns
 *** synced gamarouns
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 gamarouns
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully
