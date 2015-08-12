@@ -8,8 +8,6 @@
  'status': 'unofficial'}
 $ pmaint sync xwing
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named 'xelnor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 This is xwing.info / coruscant.xwing.info
 
 Server Address : 62.212.103.27 / 2001:7a8:2b1b::254
@@ -20,7 +18,7 @@ receiving incremental file list
 timestamp.chk
 
 Number of files: 1 (reg: 1)
-Number of created files: 0
+Number of created files: 1 (reg: 1)
 Number of deleted files: 0
 Number of regular files transferred: 1
 Total file size: 32 bytes
@@ -33,35 +31,8 @@ File list transfer time: 0.000 seconds
 Total bytes sent: 85
 Total bytes received: 133
 
-sent 85 bytes  received 133 bytes  145.33 bytes/sec
+sent 85 bytes  received 133 bytes  87.20 bytes/sec
 total size is 32  speedup is 0.15
-This is xwing.info / coruscant.xwing.info
-
-Server Address : 62.212.103.27 / 2001:7a8:2b1b::254
-Contact Name   : webmaster@xwing.info
-Hardware       : Intel Atom D510 @ 1.66GHz, 2048MB RAM
-
-receiving incremental file list
-metadata/
-metadata/timestamp.chk
-deleting metadata/.tmp.timestamp.chk
-
-Number of files: 107 (reg: 68, dir: 37, link: 2)
-Number of created files: 0
-Number of deleted files: 1 (reg: 1)
-Number of regular files transferred: 1
-Total file size: 155.12K bytes
-Total transferred file size: 32 bytes
-Literal data: 32 bytes
-Matched data: 0 bytes
-File list size: 3.41K
-File list generation time: 0.001 seconds
-File list transfer time: 0.000 seconds
-Total bytes sent: 128
-Total bytes received: 3.53K
-
-sent 128 bytes  received 3.53K bytes  1.46K bytes/sec
-total size is 155.12K  speedup is 42.38
 *** syncing xwing
 *** synced xwing
  * Sync succeeded
