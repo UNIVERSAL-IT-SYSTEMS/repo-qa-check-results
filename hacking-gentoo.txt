@@ -11,6 +11,7 @@
 $ pmaint sync hacking-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 receiving incremental file list
+metadata/
 metadata/md5-cache/
 metadata/md5-cache/app-admin/
 metadata/md5-cache/app-admin/ceph-deploy-1.2.3
@@ -324,6 +325,8 @@ metadata/md5-cache/www-apps/redmine-2.4.7
 metadata/md5-cache/www-apps/redmine-2.5.3
 metadata/md5-cache/www-apps/redmine-2.6.0
 metadata/md5-cache/www-apps/redmine-2.6.0.13525
+profiles/use.local.desc
+deleting metadata/pkg_desc_index
 deleting metadata/md5-cache/virtual/udev-200
 deleting metadata/md5-cache/virtual/libudev-208
 deleting metadata/md5-cache/virtual/
@@ -348,19 +351,19 @@ deleting metadata/md5-cache/app-portage/
 
 Number of files: 1,853 (reg: 1,558, dir: 295)
 Number of created files: 0
-Number of regular files transferred: 284
+Number of regular files transferred: 285
 Total file size: 5.13M bytes
-Total transferred file size: 592.65K bytes
-Literal data: 592.65K bytes
+Total transferred file size: 607.00K bytes
+Literal data: 607.00K bytes
 Matched data: 0 bytes
-File list size: 45.41K
+File list size: 46.82K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 5.87K
-Total bytes received: 299.90K
+Total bytes sent: 5.89K
+Total bytes received: 303.44K
 
-sent 5.87K bytes  received 299.90K bytes  35.97K bytes/sec
-total size is 5.13M  speedup is 16.79
+sent 5.89K bytes  received 303.44K bytes  68.74K bytes/sec
+total size is 5.13M  speedup is 16.60
 *** syncing hacking-gentoo
 *** synced hacking-gentoo
  * Sync succeeded

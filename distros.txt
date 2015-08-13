@@ -9,19 +9,10 @@
 $ pmaint sync distros
 WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/cg' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/cg', named 'cg', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://git.calculate.ru/calculate/distros
-   883a020..54df93d  master     -> origin/master
-   50e0ec3..570e378  develop    -> origin/develop
-   54df93d..570e378  update     -> origin/update
-Updating 883a020..54df93d
-Fast-forward
- profiles/templates/3.2/6_ac_update_sync/world/0-ini          |  2 +-
- .../templates/3.2/6_ac_update_sync/world/create/applications |  1 +
- profiles/templates/3.2/6_ac_update_sync/world/create/kde     |  3 +++
- .../templates/3.2/6_ac_update_sync/world/update/100-199/125  | 12 ++++++++++++
- 4 files changed, 17 insertions(+), 1 deletion(-)
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/100-199/125
+Already up-to-date.
 *** syncing distros
 *** synced distros
  * Sync succeeded

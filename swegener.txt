@@ -25,25 +25,29 @@ Location: Nuernberg, Germany
 Contact: Sven Wegener <swegener@gentoo.org>
 
 receiving incremental file list
+metadata/
 metadata/md5-cache/gnome-extra/
 metadata/md5-cache/gnome-extra/brightside-1.4.0
+profiles/
+deleting metadata/pkg_desc_index
+deleting profiles/use.local.desc
 
 Number of files: 1,014 (reg: 856, dir: 158)
 Number of created files: 1 (reg: 1)
-Number of deleted files: 0
+Number of deleted files: 2 (reg: 2)
 Number of regular files transferred: 1
 Total file size: 1.22M bytes
 Total transferred file size: 1.05K bytes
 Literal data: 1.05K bytes
 Matched data: 0 bytes
-File list size: 25.46K
+File list size: 25.38K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 263
-Total bytes received: 26.27K
+Total bytes sent: 267
+Total bytes received: 26.28K
 
-sent 263 bytes  received 26.27K bytes  5.90K bytes/sec
-total size is 1.22M  speedup is 46.07
+sent 267 bytes  received 26.28K bytes  10.62K bytes/sec
+total size is 1.22M  speedup is 46.06
 *** syncing swegener
 *** synced swegener
  * Sync succeeded

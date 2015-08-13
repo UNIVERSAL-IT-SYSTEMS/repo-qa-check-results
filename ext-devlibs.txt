@@ -7,30 +7,16 @@
  'quality': 'experimental',
  'source': [{'type': 'svn', 'uri': 'svn://sidvind.com/overlays/ext-devlibs'}],
  'status': 'unofficial'}
+ * Adding new repository
 $ pmaint sync ext-devlibs
 WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/embedded-cross' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/embedded-cross', named 'embedded-cross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: No remote repository specified.  Please, specify either a URL or a
-remote name from which new revisions should be fetched.
-*** syncing ext-devlibs
-*** failed syncing ext-devlibs
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync ext-devlibs
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/emacs' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/emacs', named 'emacs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/embedded-cross' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/embedded-cross', named 'embedded-cross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Cloning into '/home/mgorny/repos/ext-devlibs'...
 fatal: Unable to find remote helper for 'svn'
 *** syncing ext-devlibs
 *** failed syncing ext-devlibs
- * Sync failed again with 1, removing
+ * Sync failed with 1

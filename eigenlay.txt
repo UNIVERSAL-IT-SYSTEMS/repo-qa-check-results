@@ -10,8 +10,8 @@
  'status': 'unofficial'}
  * Adding new repository
 $ pmaint sync eigenlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/cg' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/cg', named 'cg', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Cloning into '/home/mgorny/repos/eigenlay'...
 fatal: repository 'https://git.gitorious.org/eigennet/eigenlay.git/' not found

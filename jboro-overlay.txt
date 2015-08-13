@@ -1,0 +1,19 @@
+{'description': {'en': 'personal experimental ebuilds'},
+ 'homepage': 'https://github.com/JBoro/portage',
+ 'name': 'jboro-overlay',
+ 'owner': [{'email': 'justin.borodinsky@gmail.com',
+            'name': 'justin borodinsky'}],
+ 'quality': 'experimental',
+ 'source': [{'type': 'git', 'uri': 'https://github.com/JBoro/portage.git'}],
+ 'status': 'unofficial'}
+ * Adding new repository
+$ pmaint sync jboro-overlay
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/jboro-overlay'...
+*** syncing jboro-overlay
+*** synced jboro-overlay
+ * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 jboro-overlay
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

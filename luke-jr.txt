@@ -6,18 +6,11 @@
  'source': [{'type': 'svn',
              'uri': 'svn://svn.dashjr.org/luke-portage-overlay/trunk'}],
  'status': 'unofficial'}
-$ pmaint sync luke-jr
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: No remote repository specified.  Please, specify either a URL or a
-remote name from which new revisions should be fetched.
-*** syncing luke-jr
-*** failed syncing luke-jr
- * Sync failed with 1
- * Will try to re-create
+ * Adding new repository
 $ pmaint sync luke-jr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Cloning into '/home/mgorny/repos/luke-jr'...
 fatal: Unable to find remote helper for 'svn'
 *** syncing luke-jr
 *** failed syncing luke-jr
- * Sync failed again with 1, removing
+ * Sync failed with 1
