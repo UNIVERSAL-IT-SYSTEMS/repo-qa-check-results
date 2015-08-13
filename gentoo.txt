@@ -17,23 +17,18 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   c31a2f2..0ee0347  master     -> origin/master
-Updating c31a2f2..0ee0347
+   0ee0347..6a7eaef  master     -> origin/master
+Updating 0ee0347..6a7eaef
 Fast-forward
- media-sound/mpg123/Manifest                        |   7 +-
- media-sound/mpg123/mpg123-1.19.0.ebuild            |  98 --------------------
- media-sound/mpg123/mpg123-1.20.0.ebuild            |  98 --------------------
- media-sound/mpg123/mpg123-1.20.1.ebuild            |  98 --------------------
- media-sound/mpg123/mpg123-1.21.0.ebuild            |  98 --------------------
- media-sound/mpg123/mpg123-1.22.0.ebuild            | 101 ---------------------
- .../{mpg123-1.22.1.ebuild => mpg123-1.22.4.ebuild} |   2 +-
- 7 files changed, 2 insertions(+), 500 deletions(-)
- delete mode 100644 media-sound/mpg123/mpg123-1.19.0.ebuild
- delete mode 100644 media-sound/mpg123/mpg123-1.20.0.ebuild
- delete mode 100644 media-sound/mpg123/mpg123-1.20.1.ebuild
- delete mode 100644 media-sound/mpg123/mpg123-1.21.0.ebuild
- delete mode 100644 media-sound/mpg123/mpg123-1.22.0.ebuild
- rename media-sound/mpg123/{mpg123-1.22.1.ebuild => mpg123-1.22.4.ebuild} (98%)
+ dev-python/pypy-bin/pypy-bin-2.3.1-r2.ebuild                            | 2 +-
+ dev-python/pypy-bin/pypy-bin-2.4.0.ebuild                               | 2 +-
+ dev-python/pypy-bin/{pypy-bin-2.5.1.ebuild => pypy-bin-2.5.1-r1.ebuild} | 2 +-
+ dev-python/pypy-bin/{pypy-bin-2.6.0.ebuild => pypy-bin-2.6.0-r1.ebuild} | 2 +-
+ .../pypy3-bin/{pypy3-bin-2.4.0.ebuild => pypy3-bin-2.4.0-r1.ebuild}     | 2 +-
+ 5 files changed, 5 insertions(+), 5 deletions(-)
+ rename dev-python/pypy-bin/{pypy-bin-2.5.1.ebuild => pypy-bin-2.5.1-r1.ebuild} (99%)
+ rename dev-python/pypy-bin/{pypy-bin-2.6.0.ebuild => pypy-bin-2.6.0-r1.ebuild} (99%)
+ rename dev-python/pypy3-bin/{pypy3-bin-2.4.0.ebuild => pypy3-bin-2.4.0-r1.ebuild} (99%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
