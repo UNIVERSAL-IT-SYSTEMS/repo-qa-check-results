@@ -16,7 +16,24 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   c31a2f2..0ee0347  master     -> origin/master
+Updating c31a2f2..0ee0347
+Fast-forward
+ media-sound/mpg123/Manifest                        |   7 +-
+ media-sound/mpg123/mpg123-1.19.0.ebuild            |  98 --------------------
+ media-sound/mpg123/mpg123-1.20.0.ebuild            |  98 --------------------
+ media-sound/mpg123/mpg123-1.20.1.ebuild            |  98 --------------------
+ media-sound/mpg123/mpg123-1.21.0.ebuild            |  98 --------------------
+ media-sound/mpg123/mpg123-1.22.0.ebuild            | 101 ---------------------
+ .../{mpg123-1.22.1.ebuild => mpg123-1.22.4.ebuild} |   2 +-
+ 7 files changed, 2 insertions(+), 500 deletions(-)
+ delete mode 100644 media-sound/mpg123/mpg123-1.19.0.ebuild
+ delete mode 100644 media-sound/mpg123/mpg123-1.20.0.ebuild
+ delete mode 100644 media-sound/mpg123/mpg123-1.20.1.ebuild
+ delete mode 100644 media-sound/mpg123/mpg123-1.21.0.ebuild
+ delete mode 100644 media-sound/mpg123/mpg123-1.22.0.ebuild
+ rename media-sound/mpg123/{mpg123-1.22.1.ebuild => mpg123-1.22.4.ebuild} (98%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
