@@ -37,90 +37,80 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!  EAPI=2 is not supported
 
 
+!!! ERROR: media-tv/xbmc-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '161' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-tv/xbmc/xbmc-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-tv/xbmc/xbmc-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-tv/xbmc/xbmc-9999.ebuild'
+
 !!! ERROR: gnome-extra/computertemp-0.9.6.1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-
-!!! ERROR: media-tv/xbmc-9999 failed.
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '226' 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/gnome-extra/computertemp/computertemp-0.9.6.1.ebuild'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '161' 'depend'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/gnome-extra/computertemp/computertemp-0.9.6.1.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/gnome-extra/computertemp/computertemp-0.9.6.1.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-tv/xbmc/xbmc-9999.ebuild'
-!!!    computertemp-0.9.6.1.ebuild, line   5:  Called inherit 'gnome2'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-tv/xbmc/xbmc-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-tv/xbmc/xbmc-9999.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!               xbmc-9999.ebuild, line  20:  Called inherit 'git' 'autotools'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '226' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+
+!!! ERROR: x11-plugins/cairo-dock-plugins-9999-r2 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/gnome-extra/computertemp/computertemp-0.9.6.1.ebuild'
+!!!                  ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/gnome-extra/computertemp/computertemp-0.9.6.1.ebuild'
+!!!                  ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+
+!!! ERROR: media-sound/alsa-driver-9999-r1 failed.
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/gnome-extra/computertemp/computertemp-0.9.6.1.ebuild'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!    computertemp-0.9.6.1.ebuild, line   5:  Called inherit 'gnome2'
+
+!!! ERROR: media-plugins/banshee-community-extensions-9999 failed.
+!!!                  ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '250' 'depend'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                  ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                         ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                          ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/x11-plugins/cairo-dock-plugins/cairo-dock-plugins-9999-r2.ebuild'
+!!!                         ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '215' 'depend'
+!!!                         ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '293' 'depend'
+!!!                          ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/x11-plugins/cairo-dock-plugins/cairo-dock-plugins-9999-r2.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                         ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/x11-plugins/cairo-dock-plugins/cairo-dock-plugins-9999-r2.ebuild'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI= is not supported
 
-
-!!! ERROR: dev-libs/dee-1.0.10 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-
-!!! ERROR: media-sound/alsa-driver-9999-r1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-
-!!! ERROR: media-plugins/banshee-community-extensions-9999 failed.
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '170' 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                         ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/dev-libs/dee/dee-1.0.10.ebuild'
-!!!                         ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-
-!!! ERROR: media-plugins/vdr-live-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!!                         ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '293' 'depend'
-!!! Call stack:
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/dev-libs/dee/dee-1.0.10.ebuild'
-!!!                         ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '215' 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                                 ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/banshee-community-extensions/banshee-community-extensions-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/dev-libs/dee/dee-1.0.10.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                                 ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/banshee-community-extensions/banshee-community-extensions-9999.ebuild'
-!!!              dee-1.0.10.ebuild, line   9:  Called inherit 'autotools-utils'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '193' 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-sound/alsa-driver/alsa-driver-9999-r1.ebuild'
-!!!                     isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/banshee-community-extensions/banshee-community-extensions-9999.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools-utils'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!   banshee-community-extensions-9999.ebuild, line   7:  Called inherit 'base' 'mono' 'git' 'autotools'
+!!!                                 ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/banshee-community-extensions/banshee-community-extensions-9999.ebuild'
+!!!   cairo-dock-plugins-9999-r2.ebuild, line  10:  Called inherit 'cmake-utils' 'bzr'
+!!!                                 ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/banshee-community-extensions/banshee-community-extensions-9999.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-sound/alsa-driver/alsa-driver-9999-r1.ebuild'
-!!!              ebuild-daemon.lib, line  37:  Called die
+!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                   ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 268' for eclass autotools-utils
+!!!  unknown inherit command from pythonic side, 'gen_metadata 268' for eclass cmake-utils
 
 received unknown com: export CATEGORY='media-libs' PR=r1 PVR='0.0.1_pre20110210-r1' PV='0.0.1_pre20110210' EBUILD='/home/mgorny/repos/amielke-overlay/media-libs/libbluray/libbluray-0.0.1_pre20110210-r1.ebuild' P='libbluray-0.0.1_pre20110210' PF='libbluray-0.0.1_pre20110210-r1' PN=libbluraypath
-Exception in thread Thread-10:
+Exception in thread Thread-5:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -145,69 +135,79 @@ Traceback (most recent call last):
 RuntimeError: [Errno 32] Broken pipe
 
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-sound/alsa-driver/alsa-driver-9999-r1.ebuild'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-live/vdr-live-9999.ebuild'
-!!!               ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                     isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/banshee-community-extensions/banshee-community-extensions-9999.ebuild'
+
+!!! ERROR: media-plugins/vdr-live-9999 failed.
 
 !!! ERROR: media-plugins/vdr-vnsiserver-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!     alsa-driver-9999-r1.ebuild, line   5:  Called inherit 'linux-mod' 'flag-o-matic' 'eutils' 'multilib' 'autotools' 'git'
+!!!   banshee-community-extensions-9999.ebuild, line   7:  Called inherit 'base' 'mono' 'git' 'autotools'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!               ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!                          ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+
+!!! ERROR: media-plugins/vdr-image-0.3.0-r1 failed.
+
+!!! ERROR: media-plugins/vdr-mediad-0.1.2a failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-
-!!! ERROR: media-plugins/vdr-streamdev-0.3.4-r1 failed.
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-live/vdr-live-9999.ebuild'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-live/vdr-live-9999.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!              ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: media-plugins/vdr-picselshow-0.0.2 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!           vdr-live-9999.ebuild, line   5:  Called inherit 'git' 'vdr-plugin'
-!!!              ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '193' 'depend'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '223' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!              ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '236' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '217' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-live/vdr-live-9999.ebuild'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '216' 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-vnsiserver/vdr-vnsiserver-9999.ebuild'
-!!!              ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '232' 'depend'
-!!!                      ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-streamdev/vdr-streamdev-0.3.4-r1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-vnsiserver/vdr-vnsiserver-9999.ebuild'
-!!!                      ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-streamdev/vdr-streamdev-0.3.4-r1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-vnsiserver/vdr-vnsiserver-9999.ebuild'
-!!!          isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-streamdev/vdr-streamdev-0.3.4-r1.ebuild'
-!!!     vdr-vnsiserver-9999.ebuild, line   9:  Called inherit 'vdr-plugin' 'git'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!   vdr-streamdev-0.3.4-r1.ebuild, line   7:  Called inherit 'vdr-plugin' 'eutils'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-live/vdr-live-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-vnsiserver/vdr-vnsiserver-9999.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-mediad/vdr-mediad-0.1.2a.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-live/vdr-live-9999.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-image/vdr-image-0.3.0-r1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-vnsiserver/vdr-vnsiserver-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-mediad/vdr-mediad-0.1.2a.ebuild'
+!!!           vdr-live-9999.ebuild, line   5:  Called inherit 'git' 'vdr-plugin'
+!!!     vdr-vnsiserver-9999.ebuild, line   9:  Called inherit 'vdr-plugin' 'git'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-image/vdr-image-0.3.0-r1.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-picselshow/vdr-picselshow-0.0.2.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-picselshow/vdr-picselshow-0.0.2.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-picselshow/vdr-picselshow-0.0.2.ebuild'
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!    vdr-picselshow-0.0.2.ebuild, line   5:  Called inherit 'vdr-plugin' 'eutils'
-!!!               ebuild-daemon.lib, line  37:  Called die
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-image/vdr-image-0.3.0-r1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-mediad/vdr-mediad-0.1.2a.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!       vdr-mediad-0.1.2a.ebuild, line   5:  Called inherit 'vdr-plugin'
+!!!      vdr-image-0.3.0-r1.ebuild, line   5:  Called inherit 'vdr-plugin' 'eutils' 'flag-o-matic'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
 !!!  unknown inherit command from pythonic side, 'gen_metadata 196' for eclass vdr-plugin
 
@@ -215,58 +215,41 @@ received unknown com: export CATEGORY='media-video' PR=r0 PVR='0.1.6.8' PV='0.1.
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 250' for eclass vdr-plugin
+!!!  unknown inherit command from pythonic side, 'gen_metadata 215' for eclass vdr-plugin
 
-received unknown com: export CATEGORY='net-analyzer' PR=r0 PVR='2.99_beta' PV='2.99_beta' EBUILD='/home/mgorny/repos/amielke-overlay/net-analyzer/lilac-reloaded/lilac-reloaded-2.99_beta.ebuild' P='lilac-reloaded-2.99_beta' PF='lilac-reloaded-2.99_beta' PN='lilac-reloaded'path
+received unknown com: export CATEGORY='media-video' PR=r1 PVR='1.9.0-r1' PV='1.9.0' EBUILD='/home/mgorny/repos/amielke-overlay/media-video/mjpegtools/mjpegtools-1.9.0-r1.ebuild' P='mjpegtools-1.9.0' PF='mjpegtools-1.9.0-r1' PN=mjpegtoolspath
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-pda/syncevolution-1.1
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-tv/xbmc-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-java/DbVisualizer-7.1.4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/computertemp-0.9.6.1
-!!! caught exception Metadata Exception: pkg ebuild src: dev-libs/dee-1.0.10, attr eapi
-error: parsed eapi '4' doesn't match sourced eapi '0' while processing ebuild src: dev-libs/dee-1.0.10
+!!! caught exception Metadata Exception: pkg ebuild src: x11-plugins/cairo-dock-plugins-9999-r2, attr eapi
+error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: x11-plugins/cairo-dock-plugins-9999-r2
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/alsa-driver-9999-r1
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-plugins/banshee-community-extensions-9999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-plugins/vdr-live-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: gnome-extra/computertemp-0.9.6.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-libs/libbluray-0.0.1_pre20110210-r1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: net-misc/roger-router-1.8.12-r1
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-backup/insync-1.0.32
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-plugins/vdr-vnsiserver-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-plugins/vdr-live-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-streamdev-0.3.4-r1
+!!! caught exception False while processing ebuild src: media-plugins/vdr-image-0.3.0-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-picselshow-0.0.2
+!!! caught exception False while processing ebuild src: media-plugins/vdr-mediad-0.1.2a
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-xine-0.9.3-r1
+!!! caught exception False while processing ebuild src: app-backup/insync-1.2.6
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-video/imagination-2.1
+!!! caught exception False while processing ebuild src: app-office/kingsoft-office-0.15.0_alpha
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-video/replex-0.1.6.8
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-analyzer/lilac-reloaded-2.99_beta
+!!! caught exception False while processing ebuild src: media-video/mjpegtools-1.9.0-r1
 Error running an operation:
  Unhandled exception in regen_cache
-sandbox:stop  caught signal 15 in pid 5925
+sandbox:stop  caught signal 15 in pid 3411
 Sandboxed process killed by signal: Terminated
-
-!!! ERROR: media-plugins/vdr-xine-0.9.3-r1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '211' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-xine/vdr-xine-0.9.3-r1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-xine/vdr-xine-0.9.3-r1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-xine/vdr-xine-0.9.3-r1.ebuild'
-!!!       vdr-xine-0.9.3-r1.ebuild, line   7:  Called inherit 'vdr-plugin'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass vdr-plugin
-
-sandbox:stop  caught signal 15 in pid 5417
+sandbox:stop  caught signal 15 in pid 32568
 Sandboxed process killed by signal: Terminated
  * Cache regen failed with 246
