@@ -13,7 +13,14 @@
  'status': 'official'}
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   62bc4cb..4d97911  master     -> origin/master
+Updating 62bc4cb..4d97911
+Fast-forward
+ kde-plasma/kwin/kwin-5.3.95.ebuild      | 2 +-
+ kde-plasma/kwin/kwin-5.4.49.9999.ebuild | 2 +-
+ kde-plasma/kwin/kwin-9999.ebuild        | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
 *** syncing kde
 *** synced kde
  * Sync succeeded
