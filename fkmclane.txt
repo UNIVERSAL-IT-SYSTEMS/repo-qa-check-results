@@ -10,10 +10,20 @@
             {'type': 'git', 'uri': 'https://github.com/fkmclane/overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync fkmclane
-WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/fkmclane/overlay
+   9c9aa56..9bd79eb  master     -> origin/master
+Updating 9c9aa56..9bd79eb
+Fast-forward
+ README.md                                          |  3 ++
+ media-video/obs-studio/Manifest                    |  5 ++-
+ ...udio-0.11.1.ebuild => obs-studio-0.11.2.ebuild} |  0
+ net-wireless/create_ap/Manifest                    |  2 ++
+ net-wireless/create_ap/create_ap-0.1.ebuild        | 36 ++++++++++++++++++++++
+ 5 files changed, 43 insertions(+), 3 deletions(-)
+ rename media-video/obs-studio/{obs-studio-0.11.1.ebuild => obs-studio-0.11.2.ebuild} (100%)
+ create mode 100644 net-wireless/create_ap/Manifest
+ create mode 100644 net-wireless/create_ap/create_ap-0.1.ebuild
 *** syncing fkmclane
 *** synced fkmclane
  * Sync succeeded
