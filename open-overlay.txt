@@ -13,15 +13,17 @@ Already up-to-date.
 *** synced open-overlay
  * Sync succeeded
 $ pmaint regen -t 2 open-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use_enable' function invoked by mate-extra/caja-dropbox-1.10.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-9999 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-6.0.0_alpha20150719 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-6.0.0_alpha20150719 during metadata regeneration.
+WARNING: 'use' function invoked by sys-devel/gcc-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully
