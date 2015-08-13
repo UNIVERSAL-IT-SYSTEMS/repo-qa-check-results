@@ -12,6 +12,8 @@
              'uri': 'http://github.com/v-fox/gentoo_overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync v-fox
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pentoo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pentoo', named 'pentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.

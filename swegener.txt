@@ -7,6 +7,8 @@
              'uri': 'rsync://rsync.gentoo.stealer.net/swegener-overlay/'}],
  'status': 'official'}
 $ pmaint sync swegener
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pentoo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pentoo', named 'pentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Welcome To
@@ -46,7 +48,7 @@ File list transfer time: 0.000 seconds
 Total bytes sent: 267
 Total bytes received: 26.28K
 
-sent 267 bytes  received 26.28K bytes  17.70K bytes/sec
+sent 267 bytes  received 26.28K bytes  7.58K bytes/sec
 total size is 1.22M  speedup is 46.06
 *** syncing swegener
 *** synced swegener
