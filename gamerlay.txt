@@ -13,7 +13,14 @@
  'status': 'unofficial'}
 $ pmaint sync gamerlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/gamerlay
+   bd5c72c..6f0f6ff  master     -> origin/master
+Updating bd5c72c..6f0f6ff
+Fast-forward
+ dev-games/simgear/simgear-9999.ebuild              | 2 +-
+ games-simulation/flightgear/flightgear-9999.ebuild | 2 +-
+ games-util/terragear/terragear-9999.ebuild         | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
 *** syncing gamerlay
 *** synced gamerlay
  * Sync succeeded

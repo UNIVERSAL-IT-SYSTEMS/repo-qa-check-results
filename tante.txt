@@ -37,15 +37,15 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 
 
 !!! ERROR: media-video/devede-3.16.9 failed.
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lang/nodejs-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-video/devede-3.16.9
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '181' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lang/nodejs-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-video/devede-3.16.9
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/tante/media-video/devede/devede-3.16.9.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/tante/media-video/devede/devede-3.16.9.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/tante/media-video/devede/devede-3.16.9.ebuild'
