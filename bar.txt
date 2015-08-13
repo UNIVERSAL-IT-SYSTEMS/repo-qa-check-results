@@ -15,21 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/tokiclover/bar-overlay
-   e996d35..bcd79cc  master     -> origin/master
-Updating e996d35..bcd79cc
-Fast-forward
- dev-libs/efl/Manifest                                    |  2 +-
- dev-libs/efl/efl-1.12.2.ebuild                           | 16 ++++++++--------
- dev-libs/efl/efl-1.13.3.ebuild                           | 14 +++++++-------
- dev-libs/efl/{efl-1.14.2.ebuild => efl-1.14.3.ebuild}    | 16 ++++++++--------
- dev-libs/efl/efl-9999.ebuild                             | 16 ++++++++--------
- dev-libs/efl/metadata.xml                                |  1 +
- media-libs/elementary/Manifest                           |  2 +-
- ...elementary-1.14.2.ebuild => elementary-1.14.3.ebuild} |  0
- 8 files changed, 34 insertions(+), 33 deletions(-)
- rename dev-libs/efl/{efl-1.14.2.ebuild => efl-1.14.3.ebuild} (92%)
- rename media-libs/elementary/{elementary-1.14.2.ebuild => elementary-1.14.3.ebuild} (100%)
+Already up-to-date.
 *** syncing bar
 *** synced bar
  * Sync succeeded
@@ -39,52 +25,52 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use' function invoked by media-fonts/liberation-fonts-2.00.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-2.70 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-2.80 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.20 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-3.00 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-print/cnijfilter-2.90 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.10 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by net-print/cnijfilter-2.60 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.00 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-2.80 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.30 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-2.70 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.50 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-3.10 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.70 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-3.20 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-print/cnijfilter-3.40 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-4.10 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-3.70 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.60 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-3.90 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-print/cnijfilter-3.80 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use' function invoked by net-print/cnijfilter-3.50 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-3.60 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-3.30 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by net-print/cnijfilter-4.00 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.90 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-4.10 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully
