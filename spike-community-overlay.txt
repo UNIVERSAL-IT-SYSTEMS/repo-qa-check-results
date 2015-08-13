@@ -9,8 +9,6 @@
              'uri': 'https://github.com/Sabayon-Labs/spike-community-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync spike-community-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/pentoo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/pentoo', named 'pentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing spike-community-overlay
@@ -19,14 +17,16 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 spike-community-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-6.12.3, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: app-forensics/dc3dd-6.12.3
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.2.641, attr eapi
 error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: app-forensics/dc3dd-7.2.641
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.0.0, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: app-forensics/dc3dd-7.0.0
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-6.12.3, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: app-forensics/dc3dd-6.12.3
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/bulk_extractor-1.5.5, attr eapi
 error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: app-forensics/bulk_extractor-1.5.5
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.0.0, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: app-forensics/dc3dd-7.0.0
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/ssdeep-2.11.1, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: app-forensics/ssdeep-2.11.1
 Error running an operation:
  Unhandled exception in regen_cache
  app-forensics/xmount-0.5.0-2
