@@ -13,7 +13,17 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   2f66f5d..1310850  master     -> origin/master
+Updating 2f66f5d..1310850
+Fast-forward
+ dev-haskell/persistent-instances-iproute/Manifest  |  1 +
+ .../persistent-instances-iproute/metadata.xml      |  8 +++++++
+ .../persistent-instances-iproute-0.1.0.1.ebuild    | 27 ++++++++++++++++++++++
+ 3 files changed, 36 insertions(+)
+ create mode 100644 dev-haskell/persistent-instances-iproute/Manifest
+ create mode 100644 dev-haskell/persistent-instances-iproute/metadata.xml
+ create mode 100644 dev-haskell/persistent-instances-iproute/persistent-instances-iproute-0.1.0.1.ebuild
 *** syncing haskell
 *** synced haskell
  * Sync succeeded

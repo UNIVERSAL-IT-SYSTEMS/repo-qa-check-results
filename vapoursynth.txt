@@ -8,7 +8,17 @@
  'status': 'unofficial'}
 $ pmaint sync vapoursynth
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/4re/vapoursynth-portage
+   d3ac8a0..c60bbb9  master     -> origin/master
+Updating d3ac8a0..c60bbb9
+Fast-forward
+ media-libs/zimg/Manifest                           |  2 ++
+ media-libs/zimg/zimg-1.1.1.ebuild                  | 40 ++++++++++++++++++++++
+ media-plugins/vapoursynth-zimg/Manifest            |  1 +
+ .../vapoursynth-zimg/vapoursynth-zimg-1.1.1.ebuild | 27 +++++++++++++++
+ 4 files changed, 70 insertions(+)
+ create mode 100644 media-libs/zimg/zimg-1.1.1.ebuild
+ create mode 100644 media-plugins/vapoursynth-zimg/vapoursynth-zimg-1.1.1.ebuild
 *** syncing vapoursynth
 *** synced vapoursynth
  * Sync succeeded
