@@ -17,11 +17,12 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   b73ab71..4afd147  master     -> origin/master
-Updating b73ab71..4afd147
+   f3b2419..f5db1e3  master     -> origin/master
+Updating f3b2419..f5db1e3
 Fast-forward
- eclass/kde5.eclass | 1 -
- 1 file changed, 1 deletion(-)
+ eclass/kde4-base.eclass |  5 +++++
+ eclass/kde5.eclass      | 18 +++++++++++++++---
+ 2 files changed, 20 insertions(+), 3 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
