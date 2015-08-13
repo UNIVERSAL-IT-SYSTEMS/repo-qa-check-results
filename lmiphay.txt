@@ -10,17 +10,10 @@
  'status': 'unofficial'}
 $ pmaint sync lmiphay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing lmiphay
-*** failed syncing lmiphay
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync lmiphay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/lmiphay'...
+Already up-to-date.
 *** syncing lmiphay
 *** synced lmiphay
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 lmiphay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
