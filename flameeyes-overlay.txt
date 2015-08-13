@@ -12,15 +12,15 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/flameeyes.git'}],
  'status': 'unofficial'}
 $ pmaint sync flameeyes-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing flameeyes-overlay
 *** synced flameeyes-overlay
  * Sync succeeded
 $ pmaint regen -t 2 flameeyes-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: dev-ruby/ruby-hunspell-9999-r1 failed.
@@ -42,6 +42,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-ruby/ruby-hunspell-9999-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-misc/ftpsync-1.2.33
-sandbox:stop  caught signal 15 in pid 29951
+sandbox:stop  caught signal 15 in pid 17633
 Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully
