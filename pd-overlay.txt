@@ -11,9 +11,8 @@
  * Resetting, sync parameters changed
 $ pmaint sync pd-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Initialized empty Git repository in /home/mgorny/repos/pd-overlay/.git/
-Session URL does not match expected session URL: Repository moved permanently to 'https://svn.code.sf.net/p/pd-overlay/code/pd-overlay' at /usr/lib64/perl5/vendor_perl/5.22.0/Git/SVN.pm line 143.
-
+Cloning into '/home/mgorny/repos/pd-overlay'...
+fatal: Unable to find remote helper for 'svn+https'
 *** syncing pd-overlay
 *** failed syncing pd-overlay
  * Sync failed with 1

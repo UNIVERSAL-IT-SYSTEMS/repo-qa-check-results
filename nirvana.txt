@@ -20,7 +20,7 @@ no changes found
 *** syncing nirvana
 *** synced nirvana
  * Sync succeeded
-$ pmaint regen -t 2 nirvana
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 nirvana
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

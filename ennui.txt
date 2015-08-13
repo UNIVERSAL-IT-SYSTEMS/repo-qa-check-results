@@ -18,7 +18,7 @@ Already up-to-date.
 *** syncing ennui
 *** synced ennui
  * Sync succeeded
-$ pmaint regen -t 2 ennui
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 ennui
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

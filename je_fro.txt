@@ -16,7 +16,7 @@ Already up-to-date.
 *** syncing je_fro
 *** synced je_fro
  * Sync succeeded
-$ pmaint regen -t 2 je_fro
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 je_fro
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * 
@@ -25,4 +25,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
- * Cache regenerated successfully
+Unhandled exception occurred:
+ mismatched tag: line 21, column 2
+ * Cache regen failed with 246

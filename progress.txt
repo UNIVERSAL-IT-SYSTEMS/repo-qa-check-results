@@ -10,14 +10,19 @@
 $ pmaint sync progress
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Current branch master is up to date.
+fatal: No remote repository specified.  Please, specify either a URL or a
+remote name from which new revisions should be fetched.
 *** syncing progress
-*** synced progress
- * Sync succeeded
-$ pmaint regen -t 2 progress
+*** failed syncing progress
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync progress
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- net-zope/five.formlib-1.0.4
- * Cache regen failed with 246
+WARNING:pkgcore:repository at location '/home/mgorny/repos/hanno' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/hanno', named 'hanno', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/progress'...
+fatal: Unable to find remote helper for 'svn+http'
+*** syncing progress
+*** failed syncing progress
+ * Sync failed again with 1, removing

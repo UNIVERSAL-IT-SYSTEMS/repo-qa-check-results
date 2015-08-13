@@ -16,7 +16,15 @@ Already up-to-date.
 *** syncing games-overlay
 *** synced games-overlay
  * Sync succeeded
-$ pmaint regen -t 2 games-overlay
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 games-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+Unhandled exception occurred:
+ Metadata Exception: pkg ebuild src: games-emulation/epsxe-1.6.0-r5, attr description
+ error: Metadata Exception: pkg ebuild src: games-emulation/epsxe-1.6.0-r5, attr data
+ error: [Errno 13] Permission denied
+ Metadata Exception: pkg ebuild src: games-emulation/epsxe-1.6.0-r5, attr data
+ error: [Errno 13] Permission denied
+ [Errno 13] Permission denied
+coms error in 7433, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246

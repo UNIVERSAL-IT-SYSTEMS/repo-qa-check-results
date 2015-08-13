@@ -19,9 +19,19 @@ Already up-to-date.
 *** syncing mistafunk
 *** synced mistafunk
  * Sync succeeded
-$ pmaint regen -t 2 mistafunk
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 mistafunk
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 !!! caught exception Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi
 error: parsed eapi '0' doesn't match sourced eapi '3' while processing ebuild src: media-gfx/blender-cycles-9999
- * Cache regenerated successfully
+Unhandled exception occurred:
+ Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr description
+ error: Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr data
+ error: Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi
+ error: parsed eapi '0' doesn't match sourced eapi '3'
+ Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr data
+ error: Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi
+ error: parsed eapi '0' doesn't match sourced eapi '3'
+ Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi
+ error: parsed eapi '0' doesn't match sourced eapi '3'
+ * Cache regen failed with 246

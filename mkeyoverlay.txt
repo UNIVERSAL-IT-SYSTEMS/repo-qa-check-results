@@ -20,7 +20,7 @@ no changes found
 *** syncing mkeyoverlay
 *** synced mkeyoverlay
  * Sync succeeded
-$ pmaint regen -t 2 mkeyoverlay
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 mkeyoverlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

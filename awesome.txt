@@ -15,9 +15,12 @@ Already up-to-date.
 *** syncing awesome
 *** synced awesome
  * Sync succeeded
-$ pmaint regen -t 2 awesome
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 awesome
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by www-apps/icingaweb2-2.0.0_beta3 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by www-apps/icingaweb2-2.0.0_beta3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 

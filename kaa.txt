@@ -8,11 +8,20 @@
  'status': 'unofficial'}
 $ pmaint sync kaa
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Current branch master is up to date.
+fatal: No remote repository specified.  Please, specify either a URL or a
+remote name from which new revisions should be fetched.
 *** syncing kaa
-*** synced kaa
- * Sync succeeded
-$ pmaint regen -t 2 kaa
+*** failed syncing kaa
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync kaa
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+WARNING:pkgcore:repository at location '/home/mgorny/repos/emacs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/emacs', named 'emacs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/embedded-cross' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/embedded-cross', named 'embedded-cross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/kaa'...
+fatal: Unable to find remote helper for 'svn+http'
+*** syncing kaa
+*** failed syncing kaa
+ * Sync failed again with 1, removing

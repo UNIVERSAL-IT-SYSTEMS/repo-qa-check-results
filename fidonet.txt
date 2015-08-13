@@ -8,6 +8,9 @@
              'uri': 'rsync://fidonet.overlay.junc.org/fidonet/'}],
  'status': 'unofficial'}
 $ pmaint sync fidonet
+WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/embedded-cross', named 'embedded-cross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 This is overlay.junc.org.
 
@@ -63,12 +66,12 @@ File list transfer time: 0.000 seconds
 Total bytes sent: 739
 Total bytes received: 19.61K
 
-sent 739 bytes  received 19.61K bytes  8.14K bytes/sec
+sent 739 bytes  received 19.61K bytes  3.70K bytes/sec
 total size is 157.49K  speedup is 7.74
 *** syncing fidonet
 *** synced fidonet
  * Sync succeeded
-$ pmaint regen -t 2 fidonet
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 fidonet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

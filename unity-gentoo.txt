@@ -10,17 +10,13 @@
              'uri': 'git://github.com/shiznix/unity-gentoo.git'}],
  'status': 'unofficial'}
 $ pmaint sync unity-gentoo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing unity-gentoo
 *** synced unity-gentoo
  * Sync succeeded
-$ pmaint regen -t 2 unity-gentoo
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 unity-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

@@ -16,7 +16,9 @@ Already up-to-date.
 *** syncing init6
 *** synced init6
  * Sync succeeded
-$ pmaint regen -t 2 init6
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 init6
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+Unhandled exception occurred:
+ 'ascii' codec can't encode character u'\u2019' in position 39: ordinal not in range(128)
+ * Cache regen failed with 246
