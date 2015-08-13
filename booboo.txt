@@ -10,7 +10,16 @@
  'status': 'unofficial'}
 $ pmaint sync booboo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/l29ah/booboo
+   6661529..64705c8  master     -> origin/master
+Updating 6661529..64705c8
+Fast-forward
+ net-im/communi/communi-2.2.9999.ebuild  | 52 +++++++++++++++++++++++++++++++++
+ net-im/communi/metadata.xml             |  5 ++++
+ net-im/spectrum/spectrum-9999-r1.ebuild |  2 +-
+ 3 files changed, 58 insertions(+), 1 deletion(-)
+ create mode 100644 net-im/communi/communi-2.2.9999.ebuild
+ create mode 100644 net-im/communi/metadata.xml
 *** syncing booboo
 *** synced booboo
  * Sync succeeded
