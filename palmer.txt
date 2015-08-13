@@ -15,7 +15,22 @@
  'status': 'unofficial'}
 $ pmaint sync palmer
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/palmer
+   50aa983..92faa0c  master     -> origin/master
+Updating 50aa983..92faa0c
+Fast-forward
+ mail-client/mhng/Manifest                          |  9 ++---
+ .../mhng/files/mhng-0.0.2-fgets_return.patch       | 37 --------------------
+ .../mhng/files/mhng-0.0.2-system_return.patch      | 25 --------------
+ .../mhng/files/mhng-0.0.2-write_return.patch       | 25 --------------
+ mail-client/mhng/mhng-0.0.2.ebuild                 | 39 ----------------------
+ .../mhng/{mhng-0.0.3.ebuild => mhng-0.1.0.ebuild}  |  0
+ 6 files changed, 2 insertions(+), 133 deletions(-)
+ delete mode 100644 mail-client/mhng/files/mhng-0.0.2-fgets_return.patch
+ delete mode 100644 mail-client/mhng/files/mhng-0.0.2-system_return.patch
+ delete mode 100644 mail-client/mhng/files/mhng-0.0.2-write_return.patch
+ delete mode 100644 mail-client/mhng/mhng-0.0.2.ebuild
+ rename mail-client/mhng/{mhng-0.0.3.ebuild => mhng-0.1.0.ebuild} (100%)
 *** syncing palmer
 *** synced palmer
  * Sync succeeded
