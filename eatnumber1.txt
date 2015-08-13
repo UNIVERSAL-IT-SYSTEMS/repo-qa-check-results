@@ -14,8 +14,6 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/eatnumber1.git'}],
  'status': 'unofficial'}
 $ pmaint sync eatnumber1
-WARNING:pkgcore:repository at location '/home/mgorny/repos/cg' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/cg', named 'cg', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing eatnumber1
@@ -33,22 +31,22 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '186' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/eatnumber1/dev-libs/libuseless/libuseless-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/eatnumber1/dev-libs/libuseless/libuseless-9999.ebuild'
 
 !!! ERROR: games-roguelike/dwarf-fortress-0.28.181.40d-r18 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/eatnumber1/dev-libs/libuseless/libuseless-9999.ebuild'
-!!!                       ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                       ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                       ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '279' 'depend'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/eatnumber1/dev-libs/libuseless/libuseless-9999.ebuild'
+!!!                       ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!         libuseless-9999.ebuild, line   8:  Called inherit 'git' 'autotools'
-!!!                       ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                       ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!                       ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '279' 'depend'
+!!!                       ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!                               ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
 !!!                               ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
 !!!                   isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
@@ -58,23 +56,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
-
-!!! ERROR: sys-block/compcache-tools-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '215' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/eatnumber1/sys-block/compcache-tools/compcache-tools-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/eatnumber1/sys-block/compcache-tools/compcache-tools-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/eatnumber1/sys-block/compcache-tools/compcache-tools-9999.ebuild'
-!!!    compcache-tools-9999.ebuild, line   7:  Called inherit 'eutils' 'toolchain-funcs' 'mercurial'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass eutils
-
+Sandboxed process killed by signal: Broken pipe
 
 !!! ERROR: games-roguelike/dwarf-fortress-0.28.181.40d-r18 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -92,14 +74,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 29977
+sandbox:stop  caught signal 15 in pid 29248
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-libs/libuseless-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: games-roguelike/dwarf-fortress-0.28.181.40d-r18
 !!! caught exception Metadata Exception: pkg ebuild src: dev-java/commons-ssl-0.3.9, attr eapi
 error: parsed eapi '0' doesn't match sourced eapi '4' while processing ebuild src: dev-java/commons-ssl-0.3.9
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-block/compcache-tools-9999
 Unhandled exception occurred:
  Metadata Exception: pkg ebuild src: games-roguelike/dwarf-fortress-0.28.181.40d-r18, attr description
  error: Metadata Exception: pkg ebuild src: games-roguelike/dwarf-fortress-0.28.181.40d-r18, attr data
