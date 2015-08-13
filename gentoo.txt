@@ -17,11 +17,16 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   3d34178..c68621a  master     -> origin/master
-Updating 3d34178..c68621a
+   dd8a9fc..4a4b67c  master     -> origin/master
+Updating dd8a9fc..4a4b67c
 Fast-forward
- sys-libs/fts-standalone/fts-standalone-0.2.ebuild | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
+ dev-java/javacsv/Manifest           |  1 +
+ dev-java/javacsv/javacsv-2.1.ebuild | 42 +++++++++++++++++++++++++++++++++++++
+ dev-java/javacsv/metadata.xml       | 10 +++++++++
+ 3 files changed, 53 insertions(+)
+ create mode 100644 dev-java/javacsv/Manifest
+ create mode 100644 dev-java/javacsv/javacsv-2.1.ebuild
+ create mode 100644 dev-java/javacsv/metadata.xml
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
