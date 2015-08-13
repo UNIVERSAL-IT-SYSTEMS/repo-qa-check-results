@@ -56,13 +56,13 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by dev-util/nvidia-cuda-sdk-6.5.19 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by dev-libs/libspotify-12.1.51 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-libs/libspotify-12.1.51 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 /home/mgorny/repos/spike/dev-libs/gecode/gecode-9999.ebuild: line 17: ESVN_USER: command not found
+WARNING: 'use' function invoked by dev-libs/libspotify-12.1.51 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-libs/libspotify-12.1.51 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 
 !!! ERROR: net-analyzer/autoscan-network-1.50 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -76,9 +76,9 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/spike/net-analyzer/autoscan-network/autoscan-network-1.50.ebuild'
 !!!   autoscan-network-1.50.ebuild, line   7:  Called inherit 'gnome2' 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_gnome2'
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_gnome2
+!!!             ebuild-daemon.bash, line 402:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
 
