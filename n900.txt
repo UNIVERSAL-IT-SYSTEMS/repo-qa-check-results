@@ -51,7 +51,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  unknown inherit command from pythonic side, 'alive' for eclass eutils
 
-Sandboxed process killed by signal: Broken pipe
 
 !!! ERROR: net-misc/ofono-0.27_pre201008102034 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -69,7 +68,7 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 13751
+sandbox:stop  caught signal 15 in pid 11101
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ofono-0.27_pre201008102034
 ERROR pkgcore: returned val from gen_metadata was 'False'
