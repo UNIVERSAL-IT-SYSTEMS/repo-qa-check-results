@@ -15,30 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/tokiclover/bar-overlay
-   bcd79cc..1db61f4  master     -> origin/master
-Updating bcd79cc..1db61f4
-Fast-forward
- app-editors/ecrire/ecrire-9999.ebuild              |  45 +++++
- dev-libs/efl/Manifest                              |   1 +
- dev-libs/efl/efl-1.15.0.ebuild                     | 224 +++++++++++++++++++++
- dev-python/python-efl/Manifest                     |   1 +
- dev-python/python-efl/python-efl-1.15.0.ebuild     |  40 ++++
- media-libs/elementary/Manifest                     |   1 +
- media-libs/elementary/elementary-1.15.0.ebuild     |  66 ++++++
- media-plugins/emotion_generic_players/Manifest     |   1 +
- .../emotion_generic_players-1.15.0.ebuild          |  50 +++++
- media-plugins/evas_generic_loaders/Manifest        |   1 +
- .../evas_generic_loaders-1.15.0.ebuild             |  62 ++++++
- media-sound/empc/empc-9999.ebuild                  |   3 -
- sets/PACKAGE_LIST                                  |   1 +
- 13 files changed, 493 insertions(+), 3 deletions(-)
- create mode 100644 app-editors/ecrire/ecrire-9999.ebuild
- create mode 100644 dev-libs/efl/efl-1.15.0.ebuild
- create mode 100644 dev-python/python-efl/python-efl-1.15.0.ebuild
- create mode 100644 media-libs/elementary/elementary-1.15.0.ebuild
- create mode 100644 media-plugins/emotion_generic_players/emotion_generic_players-1.15.0.ebuild
- create mode 100644 media-plugins/evas_generic_loaders/evas_generic_loaders-1.15.0.ebuild
+Already up-to-date.
 *** syncing bar
 *** synced bar
  * Sync succeeded
@@ -48,31 +25,22 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use' function invoked by media-fonts/liberation-fonts-2.00.0 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-2.60 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.00 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by net-print/cnijfilter-2.80 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-2.70 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.10 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-2.60 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-print/cnijfilter-2.90 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use' function invoked by net-print/cnijfilter-2.70 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by net-print/cnijfilter-3.30 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.70 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.50 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-3.00 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-print/cnijfilter-3.40 during metadata regeneration.
@@ -81,19 +49,28 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by net-print/cnijfilter-3.20 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-3.90 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-3.70 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-print/cnijfilter-4.00 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-4.10 during metadata regeneration.
+WARNING: 'use' function invoked by net-print/cnijfilter-3.50 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-print/cnijfilter-3.60 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-print/cnijfilter-3.80 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-4.00 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-3.90 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-4.10 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-print/cnijfilter-3.10 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully
