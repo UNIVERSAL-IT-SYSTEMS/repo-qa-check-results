@@ -11,7 +11,13 @@
  'status': 'official'}
 $ pmaint sync libressl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/gentoo/libressl
+   c4fb1d0..5c2c47b  master     -> origin/master
+Updating c4fb1d0..5c2c47b
+Fast-forward
+ .gitignore | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .gitignore
 *** syncing libressl
 *** synced libressl
  * Sync succeeded

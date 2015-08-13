@@ -12,7 +12,15 @@
 $ pmaint sync games-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hasufell/games-overlay
+   166b956..801ea02  master     -> origin/master
+Updating 166b956..801ea02
+Fast-forward
+ .gitignore                                         |   2 +
+ games-roguelike/stone-soup/Manifest                |   1 +
+ .../stone-soup/stone-soup-0.16.2.ebuild            | 140 +++++++++++++++++++++
+ 3 files changed, 143 insertions(+)
+ create mode 100644 games-roguelike/stone-soup/stone-soup-0.16.2.ebuild
 *** syncing games-overlay
 *** synced games-overlay
  * Sync succeeded
