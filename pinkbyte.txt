@@ -39,14 +39,14 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                    kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 37: useq: command not found
+/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 40: useq: command not found
 !!!              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!               kde4-functions.eclass, line  23:  Called die
 !!! The die message:
+/home/mgorny/repos/pinkbyte/games-action/fs2_open/fs2_open-3.6.10.ebuild: line 64: useq: command not found
 !!!  EAPI=4 is not supported
 
-/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 37: useq: command not found
-/home/mgorny/repos/pinkbyte/games-action/fs2_launcher/fs2_launcher-152.ebuild: line 40: useq: command not found
-/home/mgorny/repos/pinkbyte/games-action/fs2_open/fs2_open-3.6.10.ebuild: line 64: useq: command not found
 /home/mgorny/repos/pinkbyte/games-action/fs2_open/fs2_open-3.6.10.ebuild: line 67: useq: command not found
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-misc/serverstatuswidget-9999-r1
