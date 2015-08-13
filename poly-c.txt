@@ -39,7 +39,7 @@ receiving incremental file list
 timestamp.chk
 
 Number of files: 1 (reg: 1)
-Number of created files: 0
+Number of created files: 1 (reg: 1)
 Number of deleted files: 0
 Number of regular files transferred: 1
 Total file size: 32 bytes
@@ -52,75 +52,8 @@ File list transfer time: 0.000 seconds
 Total bytes sent: 85
 Total bytes received: 132
 
-sent 85 bytes  received 132 bytes  62.00 bytes/sec
+sent 85 bytes  received 132 bytes  86.80 bytes/sec
 total size is 32  speedup is 0.15
--------------------------------------------------------------------------------
-| Welcome to rsync on gentoofan.no-ip.org:873                                 |
-| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
-| Thus this server only has a dynamic IP I cannot stat it here.               |
--------------------------------------------------------------------------------
-
-  ,-~~-.___.
- / |  '     \
-(  )        0
- \_/-, ,----'
-    ====           //
-   /  \-'~;    /~~~(O)
-  /  __/~|   /       |
-=(  _____| (_________|
-
- server specs:
-    -CPU		Intel Atom-330 (2x 1,6 GHz)
-    -RAM		2048 MB PC2-533
-    -OS			Gentoo GNU/Linux (Kernel 3.x)
-    -BANDWIDTH		ADSL (16000/1024)
-    -LIMIT		3 users (concurrently)
-    -LOCATION		Ludwigshafen / Germany
-    -CONTACT		polynomial-c@gentoo.org
-
--------------------------------------------------------------------------------
-
-receiving incremental file list
-games-fps/
-metadata/
-metadata/timestamp.chk
-metadata/md5-cache/net-misc/
-metadata/md5-cache/net-misc/openssh-7.0_p1
-metadata/md5-cache/sys-libs/
-net-misc/openssh/
-net-misc/openssh/Manifest
-net-misc/openssh/openssh-7.0_p1.ebuild
-net-misc/wicd/
-net-misc/wicd/wicd-1.7.3-r1.ebuild
-sys-libs/
-deleting metadata/.tmp.timestamp.chk
-deleting metadata/md5-cache/sys-libs/ncurses-6.0_pre
-deleting sys-libs/ncurses/files/ncurses-6.0-rxvt-unicode-9.15.patch
-deleting sys-libs/ncurses/files/ncurses-6.0-pkg-config.patch
-deleting sys-libs/ncurses/files/ncurses-6.0-gfbsd.patch
-deleting sys-libs/ncurses/files/ncurses-5.9-gcc-5.patch
-deleting sys-libs/ncurses/files/ncurses-5.7-nongnu.patch
-deleting sys-libs/ncurses/files/
-deleting sys-libs/ncurses/ncurses-6.0_pre.ebuild
-deleting sys-libs/ncurses/Manifest
-deleting sys-libs/ncurses/
-
-Number of files: 1,126 (reg: 849, dir: 277)
-Number of created files: 0
-Number of deleted files: 11 (reg: 9, dir: 2)
-Number of regular files transferred: 5
-Total file size: 3.15M bytes
-Total transferred file size: 31.38K bytes
-Literal data: 31.38K bytes
-Matched data: 0 bytes
-File list size: 31.58K
-File list generation time: 0.001 seconds
-File list transfer time: 0.000 seconds
-Total bytes sent: 526
-Total bytes received: 51.17K
-
-sent 526 bytes  received 51.17K bytes  20.68K bytes/sec
-total size is 3.15M  speedup is 61.02
 *** syncing poly-c
 *** synced poly-c
  * Sync succeeded
