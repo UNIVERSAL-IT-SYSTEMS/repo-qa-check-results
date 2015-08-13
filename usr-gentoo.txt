@@ -9,6 +9,8 @@
  'source': [{'type': 'git', 'uri': 'https://bitbucket.org/mgorny/usr-gentoo'}],
  'status': 'unofficial'}
 $ pmaint sync usr-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
