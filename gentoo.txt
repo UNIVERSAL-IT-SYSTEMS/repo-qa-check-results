@@ -16,7 +16,26 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   7a8bc12..6618549  master     -> origin/master
+Updating 7a8bc12..6618549
+Fast-forward
+ eclass/dotnet.eclass                               | 139 +++++++++++
+ net-wireless/blueman/blueman-9999.ebuild           |   2 -
+ ...9-set-codeset-for-gettext-to-UTF-8-always.patch | 267 ---------------------
+ sys-auth/consolekit/Manifest                       |   1 +
+ sys-auth/consolekit/consolekit-1.0.0.ebuild        | 111 +++++++++
+ sys-auth/consolekit/files/consolekit-1.0.0.initd   |  17 ++
+ sys-auth/consolekit/metadata.xml                   |   1 +
+ .../binutils-config/binutils-config-4-r4.ebuild    |  29 +++
+ sys-devel/binutils-config/files/binutils.eselect   |  45 ++++
+ 9 files changed, 343 insertions(+), 269 deletions(-)
+ create mode 100644 eclass/dotnet.eclass
+ delete mode 100644 net-wireless/blueman/files/blueman-9999-set-codeset-for-gettext-to-UTF-8-always.patch
+ create mode 100644 sys-auth/consolekit/consolekit-1.0.0.ebuild
+ create mode 100644 sys-auth/consolekit/files/consolekit-1.0.0.initd
+ create mode 100644 sys-devel/binutils-config/binutils-config-4-r4.ebuild
+ create mode 100644 sys-devel/binutils-config/files/binutils.eselect
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
