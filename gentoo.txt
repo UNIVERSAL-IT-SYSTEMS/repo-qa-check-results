@@ -17,15 +17,13 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   901ed95..2eb3d7b  master     -> origin/master
-Updating 901ed95..2eb3d7b
+   2eb3d7b..f1bd1a8  master     -> origin/master
+Updating 2eb3d7b..f1bd1a8
 Fast-forward
- dev-dotnet/gtk-sharp/Manifest                      |  1 +
- dev-java/jflex/jflex-1.6.0-r2.ebuild               | 95 ++++++++++++++++++++++
- ....5.ebuild => milton-mail-api-2.5.1.5-r1.ebuild} | 18 ++--
- 3 files changed, 107 insertions(+), 7 deletions(-)
- create mode 100644 dev-java/jflex/jflex-1.6.0-r2.ebuild
- rename dev-java/milton-mail-api/{milton-mail-api-2.5.1.5.ebuild => milton-mail-api-2.5.1.5-r1.ebuild} (65%)
+ app-misc/carbon-c-relay/Manifest                                    | 2 +-
+ .../{carbon-c-relay-0.39-r1.ebuild => carbon-c-relay-0.44.ebuild}   | 6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+ rename app-misc/carbon-c-relay/{carbon-c-relay-0.39-r1.ebuild => carbon-c-relay-0.44.ebuild} (91%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
