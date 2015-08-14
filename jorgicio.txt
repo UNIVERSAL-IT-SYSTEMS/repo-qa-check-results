@@ -15,7 +15,34 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/jorgicio/jorgicio-gentoo
+   6ba6c68..e845b40  master     -> origin/master
+Updating 6ba6c68..e845b40
+Fast-forward
+ README.md                                          |  12 -
+ app-office/libreoffice-l10n/Manifest               | 169 ------
+ app-office/libreoffice-l10n/files/lo_gen_langs.sh  |  65 ---
+ .../libreoffice-l10n-5.0.0.5.ebuild                |  88 ---
+ app-office/libreoffice/Manifest                    |  15 -
+ .../files/libreoffice-4.4-system-pyuno.patch       |  44 --
+ ...ffice-4.4.5.2-fix-KDE4-listbox-regression.patch |  80 ---
+ app-office/libreoffice/libreoffice-5.0.0.5.ebuild  | 608 ---------------------
+ app-office/libreoffice/metadata.xml                |  20 -
+ dev-python/subunit/Manifest                        |   3 -
+ dev-python/subunit/files/1.0.0-tests.patch         |  25 -
+ dev-python/subunit/subunit-1.1.0-r1000.ebuild      |  80 ---
+ 12 files changed, 1209 deletions(-)
+ delete mode 100644 app-office/libreoffice-l10n/Manifest
+ delete mode 100644 app-office/libreoffice-l10n/files/lo_gen_langs.sh
+ delete mode 100644 app-office/libreoffice-l10n/libreoffice-l10n-5.0.0.5.ebuild
+ delete mode 100644 app-office/libreoffice/Manifest
+ delete mode 100644 app-office/libreoffice/files/libreoffice-4.4-system-pyuno.patch
+ delete mode 100644 app-office/libreoffice/files/libreoffice-4.4.5.2-fix-KDE4-listbox-regression.patch
+ delete mode 100644 app-office/libreoffice/libreoffice-5.0.0.5.ebuild
+ delete mode 100644 app-office/libreoffice/metadata.xml
+ delete mode 100644 dev-python/subunit/Manifest
+ delete mode 100644 dev-python/subunit/files/1.0.0-tests.patch
+ delete mode 100644 dev-python/subunit/subunit-1.1.0-r1000.ebuild
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
@@ -31,15 +58,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
@@ -47,6 +65,15 @@ WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metada
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
