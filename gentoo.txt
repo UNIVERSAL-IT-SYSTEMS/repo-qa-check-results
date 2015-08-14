@@ -17,22 +17,22 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   8874840..123e26c  master     -> origin/master
-Updating 8874840..123e26c
+   cdea058..2f0496d  master     -> origin/master
+Updating cdea058..2f0496d
 Fast-forward
- sys-apps/rsbac-admin/Manifest                      |  4 +-
- sys-apps/rsbac-admin/rsbac-admin-1.4.6-r1.ebuild   | 71 ----------------------
- sys-apps/rsbac-admin/rsbac-admin-1.4.6.ebuild      | 69 ---------------------
- sys-apps/rsbac-admin/rsbac-admin-1.4.7.ebuild      | 71 ----------------------
- ...admin-1.4.8.ebuild => rsbac-admin-1.4.9.ebuild} |  2 +-
- sys-kernel/rsbac-sources/Manifest                  |  8 +--
- ...-3.10.7.ebuild => rsbac-sources-3.14.28.ebuild} |  6 +-
- 7 files changed, 9 insertions(+), 222 deletions(-)
- delete mode 100644 sys-apps/rsbac-admin/rsbac-admin-1.4.6-r1.ebuild
- delete mode 100644 sys-apps/rsbac-admin/rsbac-admin-1.4.6.ebuild
- delete mode 100644 sys-apps/rsbac-admin/rsbac-admin-1.4.7.ebuild
- rename sys-apps/rsbac-admin/{rsbac-admin-1.4.8.ebuild => rsbac-admin-1.4.9.ebuild} (99%)
- rename sys-kernel/rsbac-sources/{rsbac-sources-3.10.7.ebuild => rsbac-sources-3.14.28.ebuild} (93%)
+ dev-ruby/bson/Manifest                             |  1 +
+ dev-ruby/bson/bson-3.2.1.ebuild                    | 45 ++++++++++++++++++++++
+ dev-ruby/bundler/Manifest                          |  2 +-
+ ...{bundler-1.9.9.ebuild => bundler-1.10.6.ebuild} |  2 +-
+ dev-ruby/bunny/Manifest                            |  3 +-
+ dev-ruby/bunny/bunny-1.5.1.ebuild                  | 32 ---------------
+ .../{bunny-1.5.0.ebuild => bunny-2.0.1.ebuild}     |  4 +-
+ media-libs/imlib2/imlib2-9999.ebuild               |  6 +--
+ 8 files changed, 54 insertions(+), 41 deletions(-)
+ create mode 100644 dev-ruby/bson/bson-3.2.1.ebuild
+ rename dev-ruby/bundler/{bundler-1.9.9.ebuild => bundler-1.10.6.ebuild} (96%)
+ delete mode 100644 dev-ruby/bunny/bunny-1.5.1.ebuild
+ rename dev-ruby/bunny/{bunny-1.5.0.ebuild => bunny-2.0.1.ebuild} (87%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
