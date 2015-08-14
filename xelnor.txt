@@ -7,7 +7,9 @@
  'status': 'unofficial'}
  * Adding new repository
 $ pmaint sync xelnor
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Cloning into '/home/mgorny/repos/xelnor'...
 fatal: remote error: access denied or repository not exported: /overlay.git
 *** syncing xelnor

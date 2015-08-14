@@ -14,108 +14,108 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/jtriley.git'}],
  'status': 'unofficial'}
 $ pmaint sync jtriley
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing jtriley
 *** synced jtriley
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 jtriley
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: dev-lua/lunatic-python-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '203' 'depend'
+
+!!! ERROR: app-misc/g15daemon-1.9.5.3-r8 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+
+!!! ERROR: app-misc/g15daemon-1.9.5.3-r7 failed.
 
 !!! ERROR: app-misc/g15daemon-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-
-!!! ERROR: app-misc/g15daemon-1.9.5.3-r7 failed.
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '203' 'depend'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-
-!!! ERROR: app-misc/g15daemon-1.9.5.3-r8 failed.
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '206' 'depend'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/dev-lua/lunatic-python/lunatic-python-9999.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '178' 'depend'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '206' 'depend'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/dev-lua/lunatic-python/lunatic-python-9999.ebuild'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '206' 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '206' 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/dev-lua/lunatic-python/lunatic-python-9999.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
 !!!     lunatic-python-9999.ebuild, line   8:  Called inherit 'git' 'multilib' 'toolchain-funcs' 'flag-o-matic' 'eutils'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-9999.ebuild'
+!!!          g15daemon-9999.ebuild, line  12:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base' 'subversion' 'autotools'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
+!!!    g15daemon-1.9.5.3-r7.ebuild, line  10:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base'
 
-!!! ERROR: app-benchmarks/autobench-2.1.2 failed.
+!!! ERROR: sci-chemistry/vmd-1.9.1-r2 failed.
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r7.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
-!!!          g15daemon-9999.ebuild, line  12:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base' 'subversion' 'autotools'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!    g15daemon-1.9.5.3-r7.ebuild, line  10:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-misc/g15daemon/g15daemon-1.9.5.3-r8.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '199' 'depend'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!    g15daemon-1.9.5.3-r8.ebuild, line  10:  Called inherit 'eutils' 'linux-info' 'perl-module' 'python' 'base'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '176' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/app-benchmarks/autobench/autobench-2.1.2.ebuild'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/app-benchmarks/autobench/autobench-2.1.2.ebuild'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jtriley/sci-chemistry/vmd/vmd-1.9.1-r2.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/app-benchmarks/autobench/autobench-2.1.2.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jtriley/sci-chemistry/vmd/vmd-1.9.1-r2.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jtriley/sci-chemistry/vmd/vmd-1.9.1-r2.ebuild'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
 
-!!!         autobench-2.1.2.ebuild, line   5:  Called inherit 'eutils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!            vmd-1.9.1-r2.ebuild, line   9:  Called inherit 'cuda' 'eutils' 'multilib' 'prefix' 'python' 'toolchain-funcs'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cuda'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 181' for eclass eutils
+!!!  unknown inherit command from pythonic side, 'gen_metadata 161' for eclass cuda
 
-received unknown com: export CATEGORY='dev-python' PR=r0 PVR='2014.1' PV='2014.1' EBUILD='/home/mgorny/repos/jtriley/dev-python/pycuda/pycuda-2014.1.ebuild' P='pycuda-2014.1' PF='pycuda-2014.1' PN=pycudapath
+received unknown com: export CATEGORY='dev-python' PR=r0 PVR='0.7.1' PV='0.7.1' EBUILD='/home/mgorny/repos/jtriley/dev-python/scp/scp-0.7.1.ebuild' P='scp-0.7.1' PF='scp-0.7.1' PN=scppath
 
 !!! ERROR: app-misc/g15daemon-1.9.5.3-r7 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -137,7 +137,7 @@ received unknown com: export CATEGORY='dev-python' PR=r0 PVR='2014.1' PV='2014.1
 
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lua/lunatic-python-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-benchmarks/autobench-2.1.2
+!!! caught exception False while processing ebuild src: sci-chemistry/vmd-1.9.1-r2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-misc/g15daemon-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
@@ -145,7 +145,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-misc/g15daemon-1.9.5.3-r8
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/pycuda-2014.1
+!!! caught exception False while processing ebuild src: dev-python/scp-0.7.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 Unhandled exception occurred:
  Metadata Exception: pkg ebuild src: app-misc/g15daemon-1.9.5.3-r7, attr description

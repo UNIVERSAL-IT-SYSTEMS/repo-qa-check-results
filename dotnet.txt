@@ -12,35 +12,14 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/dotnet.git'}],
  'status': 'official'}
 $ pmaint sync dotnet
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing dotnet
-*** failed syncing dotnet
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync dotnet
 WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
-Cloning into '/home/mgorny/repos/dotnet'...
+Already up-to-date.
 *** syncing dotnet
 *** synced dotnet
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 dotnet
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by dev-lang/fsharp-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-lang/fsharp-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-lang/nemerle-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-dotnet/fake-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully

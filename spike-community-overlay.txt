@@ -9,15 +9,15 @@
              'uri': 'https://github.com/Sabayon-Labs/spike-community-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync spike-community-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing spike-community-overlay
 *** synced spike-community-overlay
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 spike-community-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.2.641, attr eapi
 error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: app-forensics/dc3dd-7.2.641

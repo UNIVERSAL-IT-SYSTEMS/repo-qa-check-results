@@ -13,44 +13,22 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/java.git'}],
  'status': 'official'}
 $ pmaint sync java
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 From git://anongit.gentoo.org/proj/java
-   7ba28ce..75e85df  master     -> origin/master
-Updating 7ba28ce..75e85df
+   75e85df..b5eed87  master     -> origin/master
+Updating 75e85df..b5eed87
 Fast-forward
- dev-java/axiom/Manifest                   |  1 -
- dev-java/axiom/axiom-1.2.2.ebuild         | 43 -------------------------------
- dev-java/axiom/files/build.xml            | 26 -------------------
- dev-java/axiom/metadata.xml               |  5 ----
- dev-java/neethi/Manifest                  |  2 --
- dev-java/neethi/files/build.xml           | 26 -------------------
- dev-java/neethi/metadata.xml              |  5 ----
- dev-java/neethi/neethi-1.0.1.ebuild       | 39 ----------------------------
- dev-java/neethi/neethi-2.0.ebuild         | 40 ----------------------------
- dev-java/ws-policy/Manifest               |  1 -
- dev-java/ws-policy/files/build.xml        | 26 -------------------
- dev-java/ws-policy/metadata.xml           |  5 ----
- dev-java/ws-policy/ws-policy-1.0.1.ebuild | 41 -----------------------------
- 13 files changed, 260 deletions(-)
- delete mode 100644 dev-java/axiom/Manifest
- delete mode 100644 dev-java/axiom/axiom-1.2.2.ebuild
- delete mode 100644 dev-java/axiom/files/build.xml
- delete mode 100644 dev-java/axiom/metadata.xml
- delete mode 100644 dev-java/neethi/Manifest
- delete mode 100644 dev-java/neethi/files/build.xml
- delete mode 100644 dev-java/neethi/metadata.xml
- delete mode 100644 dev-java/neethi/neethi-1.0.1.ebuild
- delete mode 100644 dev-java/neethi/neethi-2.0.ebuild
- delete mode 100644 dev-java/ws-policy/Manifest
- delete mode 100644 dev-java/ws-policy/files/build.xml
- delete mode 100644 dev-java/ws-policy/metadata.xml
- delete mode 100644 dev-java/ws-policy/ws-policy-1.0.1.ebuild
+ .../gentoo-void-jar/gentoo-void-jar-1.0.ebuild     | 25 ----------------------
+ dev-java/gentoo-void-jar/metadata.xml              |  5 -----
+ 2 files changed, 30 deletions(-)
+ delete mode 100644 dev-java/gentoo-void-jar/gentoo-void-jar-1.0.ebuild
+ delete mode 100644 dev-java/gentoo-void-jar/metadata.xml
 *** syncing java
 *** synced java
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 java
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

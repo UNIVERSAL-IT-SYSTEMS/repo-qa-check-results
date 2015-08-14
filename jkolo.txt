@@ -9,15 +9,15 @@
              'uri': 'https://git.kolosowscy.pl/jurek/gentoo-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync jkolo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing jkolo
 *** synced jkolo
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 jkolo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: dev-php5/ioncube-3.3.7 failed.
@@ -77,7 +77,7 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for php-ext-base-r1 failed
 
-sandbox:stop  caught signal 15 in pid 4640
+sandbox:stop  caught signal 15 in pid 13998
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, php-ext-base-r1 cannot be found while processing ebuild src: dev-php5/ioncube-3.3.7
 ERROR pkgcore: returned val from gen_metadata was 'False'
