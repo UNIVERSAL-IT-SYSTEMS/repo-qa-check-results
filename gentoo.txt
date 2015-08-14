@@ -16,7 +16,44 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   d86004c..2adc6ee  master     -> origin/master
+Updating d86004c..2adc6ee
+Fast-forward
+ dev-dotnet/xsp/Manifest                            |  2 -
+ dev-dotnet/xsp/xsp-2.10.2-r2.ebuild                | 51 ----------------------
+ dev-util/monodevelop/monodevelop-5.9.5.5.ebuild    |  6 +--
+ eclass/gtk-sharp-module.eclass                     |  4 +-
+ profiles/base/package.use.mask                     |  4 +-
+ www-servers/xsp/Manifest                           |  1 +
+ .../xsp/files/2.2/mod-mono-server-r1.initd         |  0
+ .../xsp/files/2.2/mod-mono-server.confd            |  0
+ .../xsp/files/2.2/mod-mono-server.initd            |  0
+ .../xsp/files/2.2/xsp.confd                        |  0
+ .../xsp/files/2.2/xsp.initd                        |  0
+ .../xsp/files/aclocal-fix.patch                    |  0
+ www-servers/xsp/files/systemd/mono-xsp4.service    | 15 +++++++
+ www-servers/xsp/files/systemd/mono.webapp          | 10 +++++
+ www-servers/xsp/files/systemd/readme.txt           |  1 +
+ .../xsp/files/xsp-2.10.2-endrequest.patch          |  0
+ {dev-dotnet => www-servers}/xsp/metadata.xml       |  3 ++
+ .../xsp/xsp-2014.12-r2014120900.ebuild             | 41 ++++++++++++++---
+ 18 files changed, 72 insertions(+), 66 deletions(-)
+ delete mode 100644 dev-dotnet/xsp/Manifest
+ delete mode 100644 dev-dotnet/xsp/xsp-2.10.2-r2.ebuild
+ create mode 100644 www-servers/xsp/Manifest
+ rename {dev-dotnet => www-servers}/xsp/files/2.2/mod-mono-server-r1.initd (100%)
+ rename {dev-dotnet => www-servers}/xsp/files/2.2/mod-mono-server.confd (100%)
+ rename {dev-dotnet => www-servers}/xsp/files/2.2/mod-mono-server.initd (100%)
+ rename {dev-dotnet => www-servers}/xsp/files/2.2/xsp.confd (100%)
+ rename {dev-dotnet => www-servers}/xsp/files/2.2/xsp.initd (100%)
+ rename {dev-dotnet => www-servers}/xsp/files/aclocal-fix.patch (100%)
+ create mode 100644 www-servers/xsp/files/systemd/mono-xsp4.service
+ create mode 100644 www-servers/xsp/files/systemd/mono.webapp
+ create mode 100644 www-servers/xsp/files/systemd/readme.txt
+ rename {dev-dotnet => www-servers}/xsp/files/xsp-2.10.2-endrequest.patch (100%)
+ rename {dev-dotnet => www-servers}/xsp/metadata.xml (76%)
+ rename dev-dotnet/xsp/xsp-2014.11.ebuild => www-servers/xsp/xsp-2014.12-r2014120900.ebuild (54%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
