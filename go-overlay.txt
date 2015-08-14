@@ -10,70 +10,10 @@
  'status': 'unofficial'}
 $ pmaint sync go-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/Dr-Terrible/go-overlay
-   ebcd9dc..897e460  master     -> origin/master
-error: Your local changes to the following files would be overwritten by merge:
-	metadata/md5-cache/app-admin/trousseau-0.3.5_pre20150212
-	metadata/md5-cache/app-benchmarks/boom-20141103
-	metadata/md5-cache/app-benchmarks/vegeta-5.7.1
-	metadata/md5-cache/app-editors/lime-qml-20150428
-	metadata/md5-cache/app-editors/lime-termbox-20150428
-	metadata/md5-cache/app-editors/liteide-27.2.1
-	metadata/md5-cache/app-editors/srclib-0.0.40
-	metadata/md5-cache/app-misc/asciinema-1.1.1
-	metadata/md5-cache/app-misc/thymer-0.1.0
-	metadata/md5-cache/app-shells/peco-0.3.2
-	metadata/md5-cache/dev-db/bolt-1.0
-	metadata/md5-cache/dev-db/boltd-1.0
-	metadata/md5-cache/dev-db/cayley-0.4.1
-	metadata/md5-cache/dev-db/influxdb-0.9.1
-	metadata/md5-cache/dev-db/influxdb-0.9.2
-	metadata/md5-cache/dev-db/telegraf-0.1.3
-	metadata/md5-cache/dev-db/tiedot-3.2
-	metadata/md5-cache/dev-go/flint-0.0.4
-	metadata/md5-cache/dev-go/forego-0.16.1
-	metadata/md5-cache/dev-go/gb-0.1_pre20150803
-	metadata/md5-cache/dev-go/gcli-0.2.1
-	metadata/md5-cache/dev-go/ginkgo-1.2.0
-	metadata/md5-cache/dev-go/go-bindata-3.0.8_pre20150721
-	metadata/md5-cache/dev-go/go-torch-0.5.0_pre20150729
-	metadata/md5-cache/dev-go/gocode-2015.03.03
-	metadata/md5-cache/dev-go/gom-20150527
-	metadata/md5-cache/dev-go/gostatus-20150606
-	metadata/md5-cache/dev-go/gox-0.3.0
-	metadata/md5-cache/dev-go/gox-0.4.0_pre20150618
-	metadata/md5-cache/dev-go/goxc-0.17.0
-	metadata/md5-cache/dev-go/grind-0.1.0_pre20150302
-	metadata/md5-cache/dev-go/liteide-tools-2015.04.09
-	metadata/md5-cache/dev-go/minify-20150602
-	metadata/md5-cache/dev-go/protobuf-20150626
-	metadata/md5-cache/dev-go/re2dfa-0.1.0_pre20150625
-	metadata/md5-cache/dev-go/statik-20150419
-	metadata/md5-cache/dev-go/walter-1.1.0
-	metadata/md5-cache/dev-go/wellington-0.9.0
-	metadata/md5-cache/dev-util/go-tools-20150806
-	metadata/md5-cache/net-misc/bat-0.0.2
-	metadata/md5-cache/net-misc/gollum-0.3.2
-	metadata/md5-cache/net-misc/syncthing-0.11.18
-	metadata/md5-cache/net-misc/wsd-0.0.0_pre20150722
-	metadata/md5-cache/sys-devel/calc-20150422
-	metadata/md5-cache/www-apps/gitea-0.7.0_pre20150630
-	metadata/md5-cache/www-apps/hugo-0.14-r1
-	metadata/md5-cache/www-apps/hugo-0.15_pre20150806
-	metadata/pkg_desc_index
-Please, commit your changes or stash them before you can merge.
-Aborting
-Updating ebcd9dc..897e460
-*** syncing go-overlay
-*** failed syncing go-overlay
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync go-overlay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/go-overlay'...
+Already up-to-date.
 *** syncing go-overlay
 *** synced go-overlay
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 go-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
