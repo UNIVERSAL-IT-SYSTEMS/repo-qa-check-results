@@ -13,52 +13,5 @@ Already up-to-date.
 *** syncing wacfg
 *** synced wacfg
  * Sync succeeded
-$ pmaint regen --use-local-desc --pkg-desc-index -t 2 wacfg
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-
-!!! ERROR: app-admin/wacfg-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '158' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wacfg/app-admin/wacfg/wacfg-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wacfg/app-admin/wacfg/wacfg-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wacfg/app-admin/wacfg/wacfg-9999.ebuild'
-!!!              wacfg-9999.ebuild, line   8:  Called inherit 'distutils' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: app-admin/wacfg-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '158' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wacfg/app-admin/wacfg/wacfg-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wacfg/app-admin/wacfg/wacfg-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wacfg/app-admin/wacfg/wacfg-9999.ebuild'
-!!!              wacfg-9999.ebuild, line   8:  Called inherit 'distutils' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-sandbox:stop  caught signal 15 in pid 10979
-Sandboxed process killed by signal: Terminated
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-admin/wacfg-9999
-Unhandled exception occurred:
- Metadata Exception: pkg ebuild src: app-admin/wacfg-9999, attr description
- error: Metadata Exception: pkg ebuild src: app-admin/wacfg-9999, attr data
- error: inherit requires an unknown eclass, git cannot be found
- Metadata Exception: pkg ebuild src: app-admin/wacfg-9999, attr data
- error: inherit requires an unknown eclass, git cannot be found
- inherit requires an unknown eclass, git cannot be found
- * Cache regen failed with 246
+ * Cache regenerated successfully
+repository <pkgcore.ebuild.repo_objs.RepoConfig object at 0x7f4c1bc12310> doesn't support cache regeneration

@@ -19,16 +19,5 @@ Already up-to-date.
 *** syncing gnome
 *** synced gnome
  * Sync succeeded
-$ pmaint regen --use-local-desc --pkg-desc-index -t 2 gnome
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-/home/mgorny/repos/gnome/gnome-extra/evolution-mapi/evolution-mapi-3.16.3.ebuild: line 23: ~#~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86: command not found
-Unhandled exception occurred:
- Metadata Exception: pkg ebuild src: sys-libs/libosinfo-9999, attr description
- error: Metadata Exception: pkg ebuild src: sys-libs/libosinfo-9999, attr data
- error: [Errno 13] Permission denied
- Metadata Exception: pkg ebuild src: sys-libs/libosinfo-9999, attr data
- error: [Errno 13] Permission denied
- [Errno 13] Permission denied
-coms error in 19686, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+ * Cache regenerated successfully
+repository <pkgcore.ebuild.repo_objs.RepoConfig object at 0x7f4c1bc1b710> doesn't support cache regeneration
