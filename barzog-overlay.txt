@@ -25,12 +25,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 /home/mgorny/repos/barzog-overlay/sys-libs/lib-compat/lib-compat-1.4.2-r1.ebuild: line 21: [: =: unary operator expected
  * QA: Kernel version could not be determined, please inherit kernel-2 or linux-info
-Unhandled exception occurred:
- Metadata Exception: pkg ebuild src: sys-libs/lib-compat-1.4.2-r1, attr description
- error: Metadata Exception: pkg ebuild src: sys-libs/lib-compat-1.4.2-r1, attr data
- error: [Errno 13] Permission denied
- Metadata Exception: pkg ebuild src: sys-libs/lib-compat-1.4.2-r1, attr data
- error: [Errno 13] Permission denied
- [Errno 13] Permission denied
-coms error in 13721, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+/home/mgorny/repos/barzog-overlay/sys-libs/lib-compat/lib-compat-1.4.2-r1.ebuild: line 21: [: =: unary operator expected
+ * QA: Kernel version could not be determined, please inherit kernel-2 or linux-info
+ * Cache regenerated successfully

@@ -10,7 +10,14 @@
 $ pmaint sync mozilla
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/mozilla
+   8358440..e11d875  master     -> origin/master
+Updating 8358440..e11d875
+Fast-forward
+ www-client/firefox/Manifest                        | 160 ++++++++++-----------
+ .../{firefox-40.0.ebuild => firefox-40.0.2.ebuild} |   0
+ 2 files changed, 80 insertions(+), 80 deletions(-)
+ rename www-client/firefox/{firefox-40.0.ebuild => firefox-40.0.2.ebuild} (100%)
 *** syncing mozilla
 *** synced mozilla
  * Sync succeeded
