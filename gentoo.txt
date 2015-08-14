@@ -16,7 +16,186 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   695ace0..1b7b14a  master     -> origin/master
+Updating 695ace0..1b7b14a
+Fast-forward
+ app-admin/mcelog/Manifest                          |   6 +-
+ app-admin/mcelog/mcelog-1.0_pre3.ebuild            |  49 ----
+ .../mcelog/mcelog-1.0_pre3_p20120918-r1.ebuild     |  59 -----
+ .../mcelog/mcelog-1.0_pre3_p20130621-r1.ebuild     |  60 -----
+ app-admin/mcelog/mcelog-1.0_pre3_p20130621.ebuild  |  59 -----
+ app-admin/mcelog/mcelog-103.ebuild                 |  59 -----
+ .../{mcelog-109.ebuild => mcelog-122.ebuild}       |  10 +-
+ app-arch/innoextract/Manifest                      |   2 -
+ .../innoextract/files/innoextract-1.2-gentoo.patch |  49 ----
+ .../innoextract/files/innoextract-1.3-gentoo.patch |  49 ----
+ app-arch/innoextract/innoextract-1.2.ebuild        |  37 ---
+ app-arch/innoextract/innoextract-1.3.ebuild        |  48 ----
+ dev-lang/elixir/Manifest                           |  10 -
+ dev-lang/elixir/elixir-0.11.2.ebuild               |  28 ---
+ dev-lang/elixir/elixir-0.12.5.ebuild               |  28 ---
+ dev-lang/elixir/elixir-0.13.3.ebuild               |  28 ---
+ dev-lang/elixir/elixir-0.14.3.ebuild               |  28 ---
+ dev-lang/elixir/elixir-0.15.1.ebuild               |  28 ---
+ dev-lang/elixir/elixir-1.0.0.ebuild                |  28 ---
+ dev-lang/elixir/elixir-1.0.1.ebuild                |  28 ---
+ dev-lang/elixir/elixir-1.0.2.ebuild                |  28 ---
+ dev-lang/elixir/elixir-1.0.3.ebuild                |  28 ---
+ dev-lang/elixir/elixir-1.0.4.ebuild                |  28 ---
+ .../libmemcached/libmemcached-1.0.18-r3.ebuild     |   2 +-
+ dev-libs/libntru/Manifest                          |   2 -
+ .../files/01-libntru-0.2-fix-build-on-macosx.patch | 109 --------
+ .../files/02-libntru-0.2-add-warnings.patch        |  60 -----
+ .../files/03-libntru-0.2-install-rules.patch       | 255 -------------------
+ .../files/04-libntru-0.2-respect-flags.patch       |  92 -------
+ .../files/05-libntru-0.2-fix-memory-leak.patch     |  24 --
+ ...-Allow-building-and-installing-static-lib.patch |  78 ------
+ ...ib-target-depend-on-the-libntru.so-target.patch |  33 ---
+ .../libntru-0.3-Update-VERSION-in-Makefiles.patch  |  53 ----
+ dev-libs/libntru/libntru-0.2.ebuild                |  38 ---
+ dev-libs/libntru/libntru-0.3.ebuild                |  57 -----
+ dev-lua/luvit/Manifest                             |   1 -
+ .../files/luvit-0.6.1-unbundle-http-parser.patch   |  54 ----
+ dev-lua/luvit/luvit-0.6.1-r1.ebuild                |  92 -------
+ dev-lua/luvit/luvit-0.6.1.ebuild                   |  82 ------
+ dev-lua/luvit/metadata.xml                         |   1 -
+ dev-python/watchdog/Manifest                       |   1 -
+ dev-python/watchdog/watchdog-0.8.2.ebuild          |  37 ---
+ dev-util/ninja-ide/Manifest                        |   2 -
+ .../ninja-ide/files/ninja-ide-2.1.1-lang.patch     |  26 --
+ .../files/ninja-ide-2.1.1-syntaxhighlighting.patch |  43 ----
+ .../ninja-ide/files/ninja-ide-2.2-python2_6.patch  |  27 --
+ .../ninja-ide/files/ninja-ide-2.2-syntax.patch     |   9 -
+ .../ninja-ide/files/ninja-ide-2.2-version.patch    |   9 -
+ dev-util/ninja-ide/ninja-ide-2.1.1-r3.ebuild       |  45 ----
+ dev-util/ninja-ide/ninja-ide-2.1.1-r5.ebuild       |  48 ----
+ dev-util/ninja-ide/ninja-ide-2.2.ebuild            |  49 ----
+ .../arx-fatalis-data-1.21-r1.ebuild                |  70 ------
+ games-rpg/arx-libertatis/Manifest                  |   2 -
+ .../arx-libertatis/arx-libertatis-1.0.3.ebuild     |  91 -------
+ .../arx-libertatis/arx-libertatis-1.1.1.ebuild     |  98 --------
+ .../files/arx-libertatis-1.0.3-cmake2.8.patch      |  36 ---
+ .../files/arx-libertatis-1.0.3-gentoo.patch        |  74 ------
+ .../0ad-data/0ad-data-0.0.16_alpha.ebuild          |  29 ---
+ ...7_alpha.ebuild => 0ad-data-0.0.18_alpha.ebuild} |   2 +-
+ games-strategy/0ad-data/Manifest                   |   3 +-
+ games-strategy/0ad/0ad-0.0.16_alpha-r2.ebuild      | 141 -----------
+ ...0.0.17_alpha.ebuild => 0ad-0.0.18_alpha.ebuild} |  25 +-
+ games-strategy/0ad/Manifest                        |   3 +-
+ .../0ad/files/0ad-0.0.16_alpha-gcc-4.9.patch       |  42 ----
+ .../0ad/files/0ad-0.0.16_alpha-gentoo.patch        |  93 -------
+ ...-gentoo.patch => 0ad-0.0.18_alpha-gentoo.patch} |  73 +++---
+ media-gfx/blender/blender-2.72b-r2.ebuild          | 280 ---------------------
+ media-video/ffdiaporama/Manifest                   |   4 -
+ media-video/ffdiaporama/ffdiaporama-1.5.ebuild     |  56 -----
+ media-video/ffdiaporama/ffdiaporama-1.6.ebuild     |  65 -----
+ media-video/ffdiaporama/ffdiaporama-2.0.1.ebuild   |  75 ------
+ .../files/ffdiaporama-1.6-ffmpeg-2.0.patch         |  32 ---
+ .../ffdiaporama-2.0-libav9-deinterlacing.patch     |  26 --
+ net-firewall/pglinux/Manifest                      |   3 -
+ .../files/0-pglinux-2.2.2-gentoo-init.patch        |  61 -----
+ .../pglinux/files/0-pglinux-2.2.2-systemd.patch    |  42 ----
+ .../files/1-pglinux-2.2.2-gentoo-init.patch        |  20 --
+ .../pglinux/files/1-pglinux-2.2.2-systemd.patch    | 144 -----------
+ .../pglinux/files/2-pglinux-2.2.2-systemd.patch    |  34 ---
+ .../pglinux/files/3-pglinux-2.2.2-systemd.patch    |  21 --
+ .../pglinux/files/4-pglinux-2.2.2-systemd.patch    |  24 --
+ .../pglinux/files/5-pglinux-2.2.2-systemd.patch    |  18 --
+ .../pglinux/files/6-pglinux-2.2.2-systemd.patch    |  87 -------
+ net-firewall/pglinux/files/pgl.gentoo.in           |  55 ----
+ .../files/pglinux-2.2.2-path-variables.patch       | 131 ----------
+ .../pglinux/pglinux-2.2.1_p20120711.ebuild         |  91 -------
+ net-firewall/pglinux/pglinux-2.2.2-r1.ebuild       | 106 --------
+ net-firewall/pglinux/pglinux-2.2.2.ebuild          | 101 --------
+ net-firewall/pglinux/pglinux-2.2.3.ebuild          |  98 --------
+ net-im/bitlbee-steam/Manifest                      |   1 -
+ net-im/bitlbee-steam/bitlbee-steam-1.1.0.ebuild    |  38 ---
+ sci-geosciences/congen/Manifest                    |   1 -
+ sci-geosciences/congen/congen-1.6.1_p2.ebuild      |  34 ---
+ xfce-extra/xfce4-whiskermenu-plugin/Manifest       |   2 -
+ .../xfce4-whiskermenu-plugin-1.3.2.ebuild          |  66 -----
+ .../xfce4-whiskermenu-plugin-1.4.0.ebuild          |  66 -----
+ 96 files changed, 56 insertions(+), 4614 deletions(-)
+ delete mode 100644 app-admin/mcelog/mcelog-1.0_pre3.ebuild
+ delete mode 100644 app-admin/mcelog/mcelog-1.0_pre3_p20120918-r1.ebuild
+ delete mode 100644 app-admin/mcelog/mcelog-1.0_pre3_p20130621-r1.ebuild
+ delete mode 100644 app-admin/mcelog/mcelog-1.0_pre3_p20130621.ebuild
+ delete mode 100644 app-admin/mcelog/mcelog-103.ebuild
+ rename app-admin/mcelog/{mcelog-109.ebuild => mcelog-122.ebuild} (90%)
+ delete mode 100644 app-arch/innoextract/files/innoextract-1.2-gentoo.patch
+ delete mode 100644 app-arch/innoextract/files/innoextract-1.3-gentoo.patch
+ delete mode 100644 app-arch/innoextract/innoextract-1.2.ebuild
+ delete mode 100644 app-arch/innoextract/innoextract-1.3.ebuild
+ delete mode 100644 dev-lang/elixir/elixir-0.11.2.ebuild
+ delete mode 100644 dev-lang/elixir/elixir-0.12.5.ebuild
+ delete mode 100644 dev-lang/elixir/elixir-0.13.3.ebuild
+ delete mode 100644 dev-lang/elixir/elixir-0.14.3.ebuild
+ delete mode 100644 dev-lang/elixir/elixir-0.15.1.ebuild
+ delete mode 100644 dev-lang/elixir/elixir-1.0.0.ebuild
+ delete mode 100644 dev-lang/elixir/elixir-1.0.1.ebuild
+ delete mode 100644 dev-lang/elixir/elixir-1.0.2.ebuild
+ delete mode 100644 dev-lang/elixir/elixir-1.0.3.ebuild
+ delete mode 100644 dev-lang/elixir/elixir-1.0.4.ebuild
+ delete mode 100644 dev-libs/libntru/files/01-libntru-0.2-fix-build-on-macosx.patch
+ delete mode 100644 dev-libs/libntru/files/02-libntru-0.2-add-warnings.patch
+ delete mode 100644 dev-libs/libntru/files/03-libntru-0.2-install-rules.patch
+ delete mode 100644 dev-libs/libntru/files/04-libntru-0.2-respect-flags.patch
+ delete mode 100644 dev-libs/libntru/files/05-libntru-0.2-fix-memory-leak.patch
+ delete mode 100644 dev-libs/libntru/files/libntru-0.3-Allow-building-and-installing-static-lib.patch
+ delete mode 100644 dev-libs/libntru/files/libntru-0.3-Make-the-lib-target-depend-on-the-libntru.so-target.patch
+ delete mode 100644 dev-libs/libntru/files/libntru-0.3-Update-VERSION-in-Makefiles.patch
+ delete mode 100644 dev-libs/libntru/libntru-0.2.ebuild
+ delete mode 100644 dev-libs/libntru/libntru-0.3.ebuild
+ delete mode 100644 dev-lua/luvit/files/luvit-0.6.1-unbundle-http-parser.patch
+ delete mode 100644 dev-lua/luvit/luvit-0.6.1-r1.ebuild
+ delete mode 100644 dev-lua/luvit/luvit-0.6.1.ebuild
+ delete mode 100644 dev-python/watchdog/watchdog-0.8.2.ebuild
+ delete mode 100644 dev-util/ninja-ide/files/ninja-ide-2.1.1-lang.patch
+ delete mode 100644 dev-util/ninja-ide/files/ninja-ide-2.1.1-syntaxhighlighting.patch
+ delete mode 100644 dev-util/ninja-ide/files/ninja-ide-2.2-python2_6.patch
+ delete mode 100644 dev-util/ninja-ide/files/ninja-ide-2.2-syntax.patch
+ delete mode 100644 dev-util/ninja-ide/files/ninja-ide-2.2-version.patch
+ delete mode 100644 dev-util/ninja-ide/ninja-ide-2.1.1-r3.ebuild
+ delete mode 100644 dev-util/ninja-ide/ninja-ide-2.1.1-r5.ebuild
+ delete mode 100644 dev-util/ninja-ide/ninja-ide-2.2.ebuild
+ delete mode 100644 games-rpg/arx-fatalis-data/arx-fatalis-data-1.21-r1.ebuild
+ delete mode 100644 games-rpg/arx-libertatis/arx-libertatis-1.0.3.ebuild
+ delete mode 100644 games-rpg/arx-libertatis/arx-libertatis-1.1.1.ebuild
+ delete mode 100644 games-rpg/arx-libertatis/files/arx-libertatis-1.0.3-cmake2.8.patch
+ delete mode 100644 games-rpg/arx-libertatis/files/arx-libertatis-1.0.3-gentoo.patch
+ delete mode 100644 games-strategy/0ad-data/0ad-data-0.0.16_alpha.ebuild
+ rename games-strategy/0ad-data/{0ad-data-0.0.17_alpha.ebuild => 0ad-data-0.0.18_alpha.ebuild} (92%)
+ delete mode 100644 games-strategy/0ad/0ad-0.0.16_alpha-r2.ebuild
+ rename games-strategy/0ad/{0ad-0.0.17_alpha.ebuild => 0ad-0.0.18_alpha.ebuild} (85%)
+ delete mode 100644 games-strategy/0ad/files/0ad-0.0.16_alpha-gcc-4.9.patch
+ delete mode 100644 games-strategy/0ad/files/0ad-0.0.16_alpha-gentoo.patch
+ rename games-strategy/0ad/files/{0ad-0.0.17_alpha-gentoo.patch => 0ad-0.0.18_alpha-gentoo.patch} (53%)
+ delete mode 100644 media-gfx/blender/blender-2.72b-r2.ebuild
+ delete mode 100644 media-video/ffdiaporama/ffdiaporama-1.5.ebuild
+ delete mode 100644 media-video/ffdiaporama/ffdiaporama-1.6.ebuild
+ delete mode 100644 media-video/ffdiaporama/ffdiaporama-2.0.1.ebuild
+ delete mode 100644 media-video/ffdiaporama/files/ffdiaporama-1.6-ffmpeg-2.0.patch
+ delete mode 100644 media-video/ffdiaporama/files/ffdiaporama-2.0-libav9-deinterlacing.patch
+ delete mode 100644 net-firewall/pglinux/files/0-pglinux-2.2.2-gentoo-init.patch
+ delete mode 100644 net-firewall/pglinux/files/0-pglinux-2.2.2-systemd.patch
+ delete mode 100644 net-firewall/pglinux/files/1-pglinux-2.2.2-gentoo-init.patch
+ delete mode 100644 net-firewall/pglinux/files/1-pglinux-2.2.2-systemd.patch
+ delete mode 100644 net-firewall/pglinux/files/2-pglinux-2.2.2-systemd.patch
+ delete mode 100644 net-firewall/pglinux/files/3-pglinux-2.2.2-systemd.patch
+ delete mode 100644 net-firewall/pglinux/files/4-pglinux-2.2.2-systemd.patch
+ delete mode 100644 net-firewall/pglinux/files/5-pglinux-2.2.2-systemd.patch
+ delete mode 100644 net-firewall/pglinux/files/6-pglinux-2.2.2-systemd.patch
+ delete mode 100644 net-firewall/pglinux/files/pgl.gentoo.in
+ delete mode 100644 net-firewall/pglinux/files/pglinux-2.2.2-path-variables.patch
+ delete mode 100644 net-firewall/pglinux/pglinux-2.2.1_p20120711.ebuild
+ delete mode 100644 net-firewall/pglinux/pglinux-2.2.2-r1.ebuild
+ delete mode 100644 net-firewall/pglinux/pglinux-2.2.2.ebuild
+ delete mode 100644 net-firewall/pglinux/pglinux-2.2.3.ebuild
+ delete mode 100644 net-im/bitlbee-steam/bitlbee-steam-1.1.0.ebuild
+ delete mode 100644 sci-geosciences/congen/congen-1.6.1_p2.ebuild
+ delete mode 100644 xfce-extra/xfce4-whiskermenu-plugin/xfce4-whiskermenu-plugin-1.3.2.ebuild
+ delete mode 100644 xfce-extra/xfce4-whiskermenu-plugin/xfce4-whiskermenu-plugin-1.4.0.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
