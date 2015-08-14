@@ -16,7 +16,23 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   e9c38cb..12cc36d  master     -> origin/master
+Updating e9c38cb..12cc36d
+Fast-forward
+ .../openafs-kernel/openafs-kernel-1.6.12-r1.ebuild |  2 +-
+ net-fs/openafs/openafs-1.6.12-r1.ebuild            |  2 +-
+ net-libs/mbedtls/Manifest                          |  1 +
+ net-libs/mbedtls/mbedtls-2.0.0.ebuild              | 91 ++++++++++++++++++++++
+ net-libs/mbedtls/metadata.xml                      | 19 +++++
+ .../files/hiawatha-9.14-system-mbedtls.patch       | 25 ++++++
+ www-servers/hiawatha/hiawatha-9.14-r1.ebuild       | 87 +++++++++++++++++++++
+ 7 files changed, 225 insertions(+), 2 deletions(-)
+ create mode 100644 net-libs/mbedtls/Manifest
+ create mode 100644 net-libs/mbedtls/mbedtls-2.0.0.ebuild
+ create mode 100644 net-libs/mbedtls/metadata.xml
+ create mode 100644 www-servers/hiawatha/files/hiawatha-9.14-system-mbedtls.patch
+ create mode 100644 www-servers/hiawatha/hiawatha-9.14-r1.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

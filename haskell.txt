@@ -13,7 +13,15 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   3d33dee..948ba1f  master     -> origin/master
+Updating 3d33dee..948ba1f
+Fast-forward
+ app-emacs/ghc-mod/ghc-mod-9999.ebuild                                  | 3 ++-
+ dev-haskell/cabal-helper/Manifest                                      | 2 +-
+ .../{cabal-helper-0.5.0.0.ebuild => cabal-helper-0.5.1.0.ebuild}       | 0
+ 3 files changed, 3 insertions(+), 2 deletions(-)
+ rename dev-haskell/cabal-helper/{cabal-helper-0.5.0.0.ebuild => cabal-helper-0.5.1.0.ebuild} (100%)
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
