@@ -33,24 +33,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!  inherit for git failed
 
 
-!!! ERROR: x11-themes/gtk-engines-murrine-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '234' 'depend'
-!!!                ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wirelay/x11-themes/gtk-engines-murrine/gtk-engines-murrine-9999.ebuild'
-!!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wirelay/x11-themes/gtk-engines-murrine/gtk-engines-murrine-9999.ebuild'
-!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wirelay/x11-themes/gtk-engines-murrine/gtk-engines-murrine-9999.ebuild'
-!!!   gtk-engines-murrine-9999.ebuild, line   7:  Called inherit 'git-2' 'autotools' 'gnome.org'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
-!!!                 ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass autotools
-
-Sandboxed process killed by signal: Broken pipe
-
 !!! ERROR: dev-libs/wicked-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
@@ -67,11 +49,9 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 9602
+sandbox:stop  caught signal 15 in pid 16202
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-libs/wicked-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-themes/gtk-engines-murrine-9999
 Unhandled exception occurred:
  Metadata Exception: pkg ebuild src: dev-libs/wicked-9999, attr description
  error: Metadata Exception: pkg ebuild src: dev-libs/wicked-9999, attr data
