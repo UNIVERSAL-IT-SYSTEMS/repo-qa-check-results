@@ -22,16 +22,8 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 mistafunk
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '3' while processing ebuild src: media-gfx/blender-cycles-9999
-Unhandled exception occurred:
- Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr description
- error: Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr data
- error: Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi
- error: parsed eapi '0' doesn't match sourced eapi '3'
- Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr data
- error: Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi
- error: parsed eapi '0' doesn't match sourced eapi '3'
- Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi
- error: parsed eapi '0' doesn't match sourced eapi '3'
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 15548, read_line com failed w/ 1: backing out of daemon.
  * Cache regen failed with 246
