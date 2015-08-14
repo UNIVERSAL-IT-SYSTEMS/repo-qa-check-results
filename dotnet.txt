@@ -13,17 +13,7 @@
  'status': 'official'}
 $ pmaint sync dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/dotnet
-   3ea0170..ab8f8cc  master     -> origin/master
-Updating 3ea0170..ab8f8cc
-Fast-forward
- .../gnome-sharp/gnome-sharp-2.24.2-r1.ebuild       |  2 +-
- dev-dotnet/gtk-sharp/gtk-sharp-2.12.21-r1.ebuild   | 60 ----------------------
- dev-dotnet/gtk-sharp/gtk-sharp-2.12.21.ebuild      |  7 ++-
- dev-dotnet/libgdiplus/libgdiplus-3.12.ebuild       |  2 +-
- eclass/gtk-sharp-module.eclass                     |  2 +-
- 5 files changed, 8 insertions(+), 65 deletions(-)
- delete mode 100644 dev-dotnet/gtk-sharp/gtk-sharp-2.12.21-r1.ebuild
+Already up-to-date.
 *** syncing dotnet
 *** synced dotnet
  * Sync succeeded

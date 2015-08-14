@@ -15,16 +15,7 @@
 $ pmaint sync rust
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/Heather/gentoo-rust
-   da0ba2d..e15c720  master     -> origin/master
-Updating da0ba2d..e15c720
-Fast-forward
- dev-rust/cargo/Manifest                           |  20 +
- dev-rust/cargo/cargo-0.4.0.ebuild                 | 167 ++++++
- dev-rust/cargo/files/cargo-0.4.0-local-deps.patch | 685 ++++++++++++++++++++++
- 3 files changed, 872 insertions(+)
- create mode 100644 dev-rust/cargo/cargo-0.4.0.ebuild
- create mode 100644 dev-rust/cargo/files/cargo-0.4.0-local-deps.patch
+Already up-to-date.
 *** syncing rust
 *** synced rust
  * Sync succeeded
