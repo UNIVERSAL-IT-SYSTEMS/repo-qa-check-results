@@ -17,7 +17,17 @@
  'status': 'official'}
 $ pmaint sync science
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/sci
+   444c8b6..cc3b055  master     -> origin/master
+Updating 444c8b6..cc3b055
+Fast-forward
+ app-admin/eselect/ChangeLog                        |  11 +
+ app-admin/eselect/Manifest                         |   2 +-
+ ...1.4.4-r102.ebuild => eselect-1.4.5-r100.ebuild} |   0
+ ...ives.patch => eselect-1.4.5-alternatives.patch} | 260 +++++++++++++++------
+ 4 files changed, 195 insertions(+), 78 deletions(-)
+ rename app-admin/eselect/{eselect-1.4.4-r102.ebuild => eselect-1.4.5-r100.ebuild} (100%)
+ rename app-admin/eselect/files/{eselect-1.4.4-alternatives.patch => eselect-1.4.5-alternatives.patch} (86%)
 *** syncing science
 *** synced science
  * Sync succeeded
