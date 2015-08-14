@@ -19,5 +19,7 @@ Already up-to-date.
 *** syncing Armageddon
 *** synced Armageddon
  * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 Armageddon
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully
-repository <pkgcore.ebuild.repo_objs.RepoConfig object at 0x7f4c1c032910> doesn't support cache regeneration

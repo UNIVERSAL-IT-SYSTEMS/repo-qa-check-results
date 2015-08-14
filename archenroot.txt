@@ -15,5 +15,15 @@ Already up-to-date.
 *** syncing archenroot
 *** synced archenroot
  * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 archenroot
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Debug: custom package version: 2.11.1-01
+Debug: working directory: 
+Debug: custom package version: 2.11.2-06
+Debug: working directory: 
+Debug: custom package version: 2.11.1-01
+Debug: working directory: 
+Debug: custom package version: 2.11.2-06
+Debug: working directory: 
  * Cache regenerated successfully
-repository <pkgcore.ebuild.repo_objs.RepoConfig object at 0x7f4c1bc1ba10> doesn't support cache regeneration

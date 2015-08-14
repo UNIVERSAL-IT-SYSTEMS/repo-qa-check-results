@@ -18,5 +18,7 @@ Already up-to-date.
 *** syncing plab
 *** synced plab
  * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 plab
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully
-repository <pkgcore.ebuild.repo_objs.RepoConfig object at 0x7f4c1bcb2f10> doesn't support cache regeneration

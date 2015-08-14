@@ -15,5 +15,7 @@ Already up-to-date.
 *** syncing funtoo-tengine
 *** synced funtoo-tengine
  * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 funtoo-tengine
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully
-repository <pkgcore.ebuild.repo_objs.RepoConfig object at 0x7f4c1bc9e810> doesn't support cache regeneration

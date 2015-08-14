@@ -17,5 +17,19 @@ No revisions or tags to pull.
 *** syncing bazaar
 *** synced bazaar
  * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 bazaar
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * 
+ * "/home/mgorny/repos/bazaar/www-apps/trac-bzr/trac-bzr-0.4.2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+ * 
+ * "/home/mgorny/repos/bazaar/www-apps/trac-bzr/trac-bzr-0.4.2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
  * Cache regenerated successfully
-repository <pkgcore.ebuild.repo_objs.RepoConfig object at 0x7f4c1bcb7e50> doesn't support cache regeneration

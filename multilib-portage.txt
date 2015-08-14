@@ -12,5 +12,9 @@ Already up-to-date.
 *** syncing multilib-portage
 *** synced multilib-portage
  * Sync succeeded
- * Cache regenerated successfully
-repository <pkgcore.ebuild.repo_objs.RepoConfig object at 0x7f4c1bc12a50> doesn't support cache regeneration
+$ pmaint regen --use-local-desc --pkg-desc-index -t 2 multilib-portage
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Unhandled exception occurred:
+ 'ascii' codec can't encode character u'\u2019' in position 155: ordinal not in range(128)
+ * Cache regen failed with 246
