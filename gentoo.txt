@@ -17,19 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   277e745..ec6b413  master     -> origin/master
-Updating 277e745..ec6b413
+   ec6b413..2d4637c  master     -> origin/master
+Updating ec6b413..2d4637c
 Fast-forward
- dev-python/pbr/Manifest                        |   1 +
- dev-python/pbr/pbr-1.5.0.ebuild                |  66 +++++++
- net-analyzer/wireshark/Manifest                |   1 +
- net-analyzer/wireshark/wireshark-1.12.7.ebuild | 258 +++++++++++++++++++++++++
- x11-misc/vdpauinfo/Manifest                    |   1 +
- x11-misc/vdpauinfo/vdpauinfo-1.0.ebuild        |  20 ++
- 6 files changed, 347 insertions(+)
- create mode 100644 dev-python/pbr/pbr-1.5.0.ebuild
- create mode 100644 net-analyzer/wireshark/wireshark-1.12.7.ebuild
- create mode 100644 x11-misc/vdpauinfo/vdpauinfo-1.0.ebuild
+ .../glance/files/cve-2015-5163-stable-kilo.patch   | 260 +++++++++++++++++++++
+ ...e-2015.1.1.ebuild => glance-2015.1.1-r1.ebuild} |   1 +
+ 2 files changed, 261 insertions(+)
+ create mode 100644 app-admin/glance/files/cve-2015-5163-stable-kilo.patch
+ rename app-admin/glance/{glance-2015.1.1.ebuild => glance-2015.1.1-r1.ebuild} (99%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
