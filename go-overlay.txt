@@ -10,10 +10,23 @@
  'status': 'unofficial'}
 $ pmaint sync go-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/Dr-Terrible/go-overlay
+   897e460..01d3f4e  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+	metadata/pkg_desc_index
+Please, commit your changes or stash them before you can merge.
+Aborting
+Updating 897e460..01d3f4e
+*** syncing go-overlay
+*** failed syncing go-overlay
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync go-overlay
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/go-overlay'...
 *** syncing go-overlay
 *** synced go-overlay
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 go-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
