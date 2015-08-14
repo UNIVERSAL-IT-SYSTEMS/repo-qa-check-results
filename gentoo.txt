@@ -16,20 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   a8a6e1f..695ace0  master     -> origin/master
-Updating a8a6e1f..695ace0
-Fast-forward
- games-roguelike/stone-soup/Manifest                |   1 -
- ...6.1-Use-pkg-config-for-linking-to-ncurses.patch |  49 -------
- ...ne-soup-0.16.1-respect-flags-and-compiler.patch | 110 --------------
- ...p-0.14.2.ebuild => stone-soup-0.14.2-r1.ebuild} |   4 +-
- .../stone-soup/stone-soup-0.16.1.ebuild            | 160 ---------------------
- 5 files changed, 2 insertions(+), 322 deletions(-)
- delete mode 100644 games-roguelike/stone-soup/files/stone-soup-0.16.1-Use-pkg-config-for-linking-to-ncurses.patch
- delete mode 100644 games-roguelike/stone-soup/files/stone-soup-0.16.1-respect-flags-and-compiler.patch
- rename games-roguelike/stone-soup/{stone-soup-0.14.2.ebuild => stone-soup-0.14.2-r1.ebuild} (97%)
- delete mode 100644 games-roguelike/stone-soup/stone-soup-0.16.1.ebuild
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
