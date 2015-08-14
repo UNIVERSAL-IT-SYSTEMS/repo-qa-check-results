@@ -14,20 +14,11 @@
  'status': 'official'}
 $ pmaint sync java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/java
-   3659529..fd0a415  master     -> origin/master
-Updating 3659529..fd0a415
-Fast-forward
- www-servers/jboss-bin/Manifest               | 2 +-
- www-servers/jboss-bin/jboss-bin-4.0.5.ebuild | 4 ++--
- 2 files changed, 3 insertions(+), 3 deletions(-)
+Already up-to-date.
 *** syncing java
 *** synced java
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by www-servers/jboss-bin-4.0.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
