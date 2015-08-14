@@ -13,9 +13,7 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/sekh.git'}],
  'status': 'unofficial'}
 $ pmaint sync sekh
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing sekh
 *** synced sekh
@@ -26,12 +24,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use' function invoked by sys-devel/gcc-4.7_p201304 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-Unhandled exception occurred:
- Metadata Exception: pkg ebuild src: media-gfx/digikam-3.2.0_beta1, attr description
- error: Metadata Exception: pkg ebuild src: media-gfx/digikam-3.2.0_beta1, attr data
- error: [Errno 13] Permission denied
- Metadata Exception: pkg ebuild src: media-gfx/digikam-3.2.0_beta1, attr data
- error: [Errno 13] Permission denied
- [Errno 13] Permission denied
-coms error in 14762, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+WARNING: 'use' function invoked by sys-devel/gcc-4.7_p201304 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+ * Cache regenerated successfully

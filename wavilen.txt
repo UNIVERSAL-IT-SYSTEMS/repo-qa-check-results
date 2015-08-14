@@ -9,9 +9,7 @@
              'uri': 'https://github.com/wavilen/wavilen-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync wavilen
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing wavilen
 *** synced wavilen
@@ -44,15 +42,15 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  EAPI=0 is not supported
 
+WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * 
  * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.9.7.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * 
  * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.8.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
