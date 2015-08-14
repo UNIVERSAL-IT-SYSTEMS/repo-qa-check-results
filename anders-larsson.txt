@@ -21,7 +21,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use' function invoked by app-admin/keepassx-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by app-admin/keepassx-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
- * Cache regenerated successfully
+Unhandled exception occurred:
+ Metadata Exception: pkg ebuild src: games-util/acquisition-9999, attr description
+ error: Metadata Exception: pkg ebuild src: games-util/acquisition-9999, attr data
+ error: [Errno 13] Permission denied
+ Metadata Exception: pkg ebuild src: games-util/acquisition-9999, attr data
+ error: [Errno 13] Permission denied
+ [Errno 13] Permission denied
+coms error in 23553, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246
