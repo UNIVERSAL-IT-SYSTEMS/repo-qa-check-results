@@ -11,19 +11,14 @@
  'status': 'unofficial'}
 $ pmaint sync sage-on-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/cschwan/sage-on-gentoo
-   c403d0c..c9829b2  master     -> origin/master
-Updating c403d0c..c9829b2
-Fast-forward
- package.keywords/sage-9999               | 1 +
- sci-mathematics/flint/ChangeLog          | 4 ++++
- sci-mathematics/flint/flint-2.5.2.ebuild | 2 +-
- 3 files changed, 6 insertions(+), 1 deletion(-)
+Already up-to-date.
 *** syncing sage-on-gentoo
 *** synced sage-on-gentoo
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 sage-on-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by sci-mathematics/maxima-5.35.1-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.

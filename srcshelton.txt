@@ -20,12 +20,14 @@ Already up-to-date.
 *** synced srcshelton
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 srcshelton
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by www-apps/rpi-monitor-2.3 during metadata regeneration.
+WARNING: 'use' function invoked by www-apps/rpi-monitor-2.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-apps/rpi-monitor-2.2 during metadata regeneration.
+WARNING: 'use' function invoked by www-apps/rpi-monitor-2.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-apps/rpi-monitor-2.6 during metadata regeneration.
@@ -34,23 +36,23 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-apps/rpi-monitor-2.5.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by www-apps/rpi-monitor-2.5 during metadata regeneration.
+WARNING: 'use' function invoked by www-apps/rpi-monitor-2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 mkdir: cannot create directory '/tmpfs-1.0': Permission denied
 WARNING: 'use' function invoked by sys-devel/binutils-2.24-r3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-analyzer/munin-2.0.19-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by net-analyzer/munin-2.0.19 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.3 during metadata regeneration.
+WARNING: 'use' function invoked by net-analyzer/munin-2.0.19-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.7.3-r1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.8.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by www-apps/rpi-monitor-2.2 during metadata regeneration.
