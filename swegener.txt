@@ -43,59 +43,19 @@ Matched data: 0 bytes
 File list size: 25.40K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 271
-Total bytes received: 26.30K
+Total bytes sent: 267
+Total bytes received: 26.29K
 
-sent 271 bytes  received 26.30K bytes  10.63K bytes/sec
-total size is 1.22M  speedup is 46.02
+sent 267 bytes  received 26.29K bytes  10.62K bytes/sec
+total size is 1.22M  speedup is 46.03
 *** syncing swegener
 *** synced swegener
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 swegener
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-
-!!! ERROR: gnome-extra/brightside-1.4.0 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '199' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/swegener/gnome-extra/brightside/brightside-1.4.0.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/swegener/gnome-extra/brightside/brightside-1.4.0.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/swegener/gnome-extra/brightside/brightside-1.4.0.ebuild'
-!!!        brightside-1.4.0.ebuild, line   9:  Called inherit 'gnome2' 'eutils' 'autotools'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-
-!!! ERROR: gnome-extra/brightside-1.4.0 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '199' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/swegener/gnome-extra/brightside/brightside-1.4.0.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/swegener/gnome-extra/brightside/brightside-1.4.0.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/swegener/gnome-extra/brightside/brightside-1.4.0.ebuild'
-!!!        brightside-1.4.0.ebuild, line   9:  Called inherit 'gnome2' 'eutils' 'autotools'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/brightside-1.4.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr description
-error: Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr data
-error: False while processing ebuild src: gnome-extra/brightside-1.4.0
- * Cache regen failed with 65
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 3063, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246
