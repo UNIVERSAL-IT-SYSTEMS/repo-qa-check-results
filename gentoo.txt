@@ -16,7 +16,23 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   8874840..123e26c  master     -> origin/master
+Updating 8874840..123e26c
+Fast-forward
+ sys-apps/rsbac-admin/Manifest                      |  4 +-
+ sys-apps/rsbac-admin/rsbac-admin-1.4.6-r1.ebuild   | 71 ----------------------
+ sys-apps/rsbac-admin/rsbac-admin-1.4.6.ebuild      | 69 ---------------------
+ sys-apps/rsbac-admin/rsbac-admin-1.4.7.ebuild      | 71 ----------------------
+ ...admin-1.4.8.ebuild => rsbac-admin-1.4.9.ebuild} |  2 +-
+ sys-kernel/rsbac-sources/Manifest                  |  8 +--
+ ...-3.10.7.ebuild => rsbac-sources-3.14.28.ebuild} |  6 +-
+ 7 files changed, 9 insertions(+), 222 deletions(-)
+ delete mode 100644 sys-apps/rsbac-admin/rsbac-admin-1.4.6-r1.ebuild
+ delete mode 100644 sys-apps/rsbac-admin/rsbac-admin-1.4.6.ebuild
+ delete mode 100644 sys-apps/rsbac-admin/rsbac-admin-1.4.7.ebuild
+ rename sys-apps/rsbac-admin/{rsbac-admin-1.4.8.ebuild => rsbac-admin-1.4.9.ebuild} (99%)
+ rename sys-kernel/rsbac-sources/{rsbac-sources-3.10.7.ebuild => rsbac-sources-3.14.28.ebuild} (93%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
