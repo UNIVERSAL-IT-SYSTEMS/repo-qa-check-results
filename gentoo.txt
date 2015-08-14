@@ -16,23 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   cdea058..2f0496d  master     -> origin/master
-Updating cdea058..2f0496d
-Fast-forward
- dev-ruby/bson/Manifest                             |  1 +
- dev-ruby/bson/bson-3.2.1.ebuild                    | 45 ++++++++++++++++++++++
- dev-ruby/bundler/Manifest                          |  2 +-
- ...{bundler-1.9.9.ebuild => bundler-1.10.6.ebuild} |  2 +-
- dev-ruby/bunny/Manifest                            |  3 +-
- dev-ruby/bunny/bunny-1.5.1.ebuild                  | 32 ---------------
- .../{bunny-1.5.0.ebuild => bunny-2.0.1.ebuild}     |  4 +-
- media-libs/imlib2/imlib2-9999.ebuild               |  6 +--
- 8 files changed, 54 insertions(+), 41 deletions(-)
- create mode 100644 dev-ruby/bson/bson-3.2.1.ebuild
- rename dev-ruby/bundler/{bundler-1.9.9.ebuild => bundler-1.10.6.ebuild} (96%)
- delete mode 100644 dev-ruby/bunny/bunny-1.5.1.ebuild
- rename dev-ruby/bunny/{bunny-1.5.0.ebuild => bunny-2.0.1.ebuild} (87%)
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

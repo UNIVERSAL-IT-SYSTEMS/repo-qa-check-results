@@ -39,11 +39,11 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                       ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!                       ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!                       ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!                       ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '279' 'depend'
 !!!                       ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
@@ -56,7 +56,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
-Sandboxed process killed by signal: Broken pipe
 
 !!! ERROR: games-roguelike/dwarf-fortress-0.28.181.40d-r18 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -74,7 +73,7 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 10044
+sandbox:stop  caught signal 15 in pid 14545
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-libs/libuseless-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: games-roguelike/dwarf-fortress-0.28.181.40d-r18
