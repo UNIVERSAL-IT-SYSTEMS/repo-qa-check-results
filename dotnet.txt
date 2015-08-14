@@ -13,7 +13,42 @@
  'status': 'official'}
 $ pmaint sync dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/dotnet
+   de33f5c..3ea0170  master     -> origin/master
+Updating de33f5c..3ea0170
+Fast-forward
+ dev-dotnet/xsp/ChangeLog                          | 520 ----------------------
+ dev-dotnet/xsp/Manifest                           |   3 -
+ dev-dotnet/xsp/files/2.2/mod-mono-server-r1.initd |  83 ----
+ dev-dotnet/xsp/files/2.2/mod-mono-server.confd    |  34 --
+ dev-dotnet/xsp/files/2.2/mod-mono-server.initd    |  81 ----
+ dev-dotnet/xsp/files/2.2/xsp.confd                |  12 -
+ dev-dotnet/xsp/files/2.2/xsp.initd                |  38 --
+ dev-dotnet/xsp/files/aclocal-fix.patch            |  13 -
+ dev-dotnet/xsp/files/xsp-2.10.2-endrequest.patch  |  35 --
+ dev-dotnet/xsp/metadata.xml                       |   9 -
+ dev-dotnet/xsp/xsp-2.10.2-r3.ebuild               |  49 --
+ dev-dotnet/xsp/xsp-2013.07-r1.ebuild              |  66 ---
+ dev-dotnet/xsp/xsp-2013.07.ebuild                 |  70 ---
+ dev-dotnet/xsp/xsp-2014.11.ebuild                 |  66 ---
+ dev-dotnet/xsp/xsp-9999.ebuild                    |  66 ---
+ dev-util/monodevelop/monodevelop-5.9.5.5.ebuild   |   2 +-
+ 16 files changed, 1 insertion(+), 1146 deletions(-)
+ delete mode 100644 dev-dotnet/xsp/ChangeLog
+ delete mode 100644 dev-dotnet/xsp/Manifest
+ delete mode 100644 dev-dotnet/xsp/files/2.2/mod-mono-server-r1.initd
+ delete mode 100644 dev-dotnet/xsp/files/2.2/mod-mono-server.confd
+ delete mode 100644 dev-dotnet/xsp/files/2.2/mod-mono-server.initd
+ delete mode 100644 dev-dotnet/xsp/files/2.2/xsp.confd
+ delete mode 100644 dev-dotnet/xsp/files/2.2/xsp.initd
+ delete mode 100644 dev-dotnet/xsp/files/aclocal-fix.patch
+ delete mode 100644 dev-dotnet/xsp/files/xsp-2.10.2-endrequest.patch
+ delete mode 100644 dev-dotnet/xsp/metadata.xml
+ delete mode 100644 dev-dotnet/xsp/xsp-2.10.2-r3.ebuild
+ delete mode 100644 dev-dotnet/xsp/xsp-2013.07-r1.ebuild
+ delete mode 100644 dev-dotnet/xsp/xsp-2013.07.ebuild
+ delete mode 100644 dev-dotnet/xsp/xsp-2014.11.ebuild
+ delete mode 100644 dev-dotnet/xsp/xsp-9999.ebuild
 *** syncing dotnet
 *** synced dotnet
  * Sync succeeded
