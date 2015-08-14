@@ -14,7 +14,16 @@
  'status': 'official'}
 $ pmaint sync yngwin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named 'xelnor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+From git://anongit.gentoo.org/dev/yngwin
+   775b112..081eb44  master     -> origin/master
+Updating 775b112..081eb44
+Fast-forward
+ app-editors/neovim/files/nvimrc       | 101 +++++++---------------------------
+ app-editors/neovim/metadata.xml       |  11 ++--
+ app-editors/neovim/neovim-9999.ebuild |  17 +++++-
+ 3 files changed, 41 insertions(+), 88 deletions(-)
 *** syncing yngwin
 *** synced yngwin
  * Sync succeeded
