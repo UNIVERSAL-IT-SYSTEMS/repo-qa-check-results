@@ -16,7 +16,14 @@
  'status': 'unofficial'}
 $ pmaint sync mrueg
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/mrueg
+   403b02b..28bf037  master     -> origin/master
+Updating 403b02b..28bf037
+Fast-forward
+ www-apps/redmine_scrum/Manifest                                         | 2 +-
+ .../{redmine_scrum-0.11.1.ebuild => redmine_scrum-0.12.0.ebuild}        | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename www-apps/redmine_scrum/{redmine_scrum-0.11.1.ebuild => redmine_scrum-0.12.0.ebuild} (100%)
 *** syncing mrueg
 *** synced mrueg
  * Sync succeeded

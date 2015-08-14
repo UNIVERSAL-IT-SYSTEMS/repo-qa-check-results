@@ -21,25 +21,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.1-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use' function invoked by sys-devel/gcc-4.8.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.1-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
- * Cache regenerated successfully
+Unhandled exception occurred:
+ Metadata Exception: pkg ebuild src: dev-util/DCD-0.6.0, attr description
+ error: Metadata Exception: pkg ebuild src: dev-util/DCD-0.6.0, attr data
+ error: [Errno 13] Permission denied
+ Metadata Exception: pkg ebuild src: dev-util/DCD-0.6.0, attr data
+ error: [Errno 13] Permission denied
+ [Errno 13] Permission denied
+coms error in 17695, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246
