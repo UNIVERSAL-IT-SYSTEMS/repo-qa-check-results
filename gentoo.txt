@@ -16,7 +16,18 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   1a6fa65..f573a07  master     -> origin/master
+Updating 1a6fa65..f573a07
+Fast-forward
+ dev-util/astyle/Manifest                           |  1 +
+ .../{astyle-2.04.ebuild => astyle-2.04-r1.ebuild}  |  4 +-
+ dev-util/astyle/astyle-2.05.1.ebuild               | 65 ++++++++++++++++++++++
+ .../astyle/files/astyle-2.05.1-build_system.patch  | 56 +++++++++++++++++++
+ 4 files changed, 124 insertions(+), 2 deletions(-)
+ rename dev-util/astyle/{astyle-2.04.ebuild => astyle-2.04-r1.ebuild} (95%)
+ create mode 100644 dev-util/astyle/astyle-2.05.1.ebuild
+ create mode 100644 dev-util/astyle/files/astyle-2.05.1-build_system.patch
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
