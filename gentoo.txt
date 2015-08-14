@@ -16,7 +16,18 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   08f5af6..3dfdc58  master     -> origin/master
+Updating 08f5af6..3dfdc58
+Fast-forward
+ app-editors/neovim/Manifest                        |  1 +
+ app-editors/neovim/files/nvimrc                    | 99 ++++------------------
+ app-editors/neovim/metadata.xml                    |  3 +
+ app-editors/neovim/neovim-0.0.0_pre20150814.ebuild | 75 ++++++++++++++++
+ profiles/base/package.use.mask                     |  3 +
+ profiles/package.mask                              | 10 +++
+ 6 files changed, 110 insertions(+), 81 deletions(-)
+ create mode 100644 app-editors/neovim/neovim-0.0.0_pre20150814.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
