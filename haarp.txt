@@ -16,12 +16,4 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 haarp
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Unhandled exception occurred:
- Metadata Exception: pkg ebuild src: games-util/doomseeker-0.12.2b, attr description
- error: Metadata Exception: pkg ebuild src: games-util/doomseeker-0.12.2b, attr data
- error: [Errno 13] Permission denied
- Metadata Exception: pkg ebuild src: games-util/doomseeker-0.12.2b, attr data
- error: [Errno 13] Permission denied
- [Errno 13] Permission denied
-coms error in 450, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+ * Cache regenerated successfully
