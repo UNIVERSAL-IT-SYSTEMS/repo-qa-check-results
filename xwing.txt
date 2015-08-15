@@ -15,34 +15,31 @@ Contact Name   : webmaster@xwing.info
 Hardware       : Intel Atom D510 @ 1.66GHz, 2048MB RAM
 
 receiving incremental file list
-timestamp.chk
 
 Number of files: 1 (reg: 1)
-Number of created files: 1 (reg: 1)
+Number of created files: 0
 Number of deleted files: 0
-Number of regular files transferred: 1
+Number of regular files transferred: 0
 Total file size: 32 bytes
-Total transferred file size: 32 bytes
-Literal data: 32 bytes
+Total transferred file size: 0 bytes
+Literal data: 0 bytes
 Matched data: 0 bytes
 File list size: 47
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 85
-Total bytes received: 131
+Total bytes sent: 62
+Total bytes received: 58
 
-sent 85 bytes  received 131 bytes  144.00 bytes/sec
-total size is 32  speedup is 0.15
+sent 62 bytes  received 58 bytes  80.00 bytes/sec
+total size is 32  speedup is 0.27
 *** syncing xwing
 *** synced xwing
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 xwing
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by media-gfx/AfterShotPro-2.1.2.10 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by media-gfx/AfterShotPro-2.1.2.10 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
- * Cache regenerated successfully
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 23546, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246

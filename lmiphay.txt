@@ -10,7 +10,15 @@
  'status': 'unofficial'}
 $ pmaint sync lmiphay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/lmiphay
+   0f7b2a5..bfd04fe  master     -> origin/master
+Updating 0f7b2a5..bfd04fe
+Fast-forward
+ dev-util/plasmate/Manifest               |  2 ++
+ dev-util/plasmate/plasmate-1.0-r1.ebuild | 29 +++++++++++++++++++++++++++++
+ 2 files changed, 31 insertions(+)
+ create mode 100644 dev-util/plasmate/Manifest
+ create mode 100644 dev-util/plasmate/plasmate-1.0-r1.ebuild
 *** syncing lmiphay
 *** synced lmiphay
  * Sync succeeded

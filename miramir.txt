@@ -9,7 +9,67 @@
  'status': 'unofficial'}
 $ pmaint sync miramir
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/miramir/miramir-layman
+   2b489d0..e4a55f5  master     -> origin/master
+Updating 2b489d0..e4a55f5
+Fast-forward
+ dev-java/commons-collections/Manifest              |   3 -
+ .../commons-collections-3.2.1.ebuild               |  60 -------
+ .../files/java8-compatibility.patch                | 161 ------------------
+ media-sound/deadbeef/deadbeef-0.5.5.ebuild         | 183 ---------------------
+ media-sound/deadbeef/deadbeef-0.5.6.ebuild         | 183 ---------------------
+ media-sound/deadbeef/deadbeef-0.6.0.ebuild         | 183 ---------------------
+ media-sound/deadbeef/deadbeef-0.6.1.ebuild         | 183 ---------------------
+ net-ftp/vsftpd-devnet/ChangeLog                    |  33 ----
+ net-ftp/vsftpd-devnet/Manifest                     |  17 --
+ .../vsftpd-devnet/files/vsftpd-3.0.2-alpha.patch   |  16 --
+ .../vsftpd-devnet/files/vsftpd-3.0.2-caps.patch    |  13 --
+ .../files/vsftpd-3.0.2-dont-link-caps.patch        |  20 ---
+ .../vsftpd-devnet/files/vsftpd-3.0.2-gentoo.patch  |  12 --
+ .../files/vsftpd-3.0.2-kerberos.patch              |  19 ---
+ .../files/vsftpd-3.0.2-makefile.patch              |  12 --
+ .../files/vsftpd-3.0.2-remove-legacy-cap.patch     |  54 ------
+ net-ftp/vsftpd-devnet/files/vsftpd-checkconfig.sh  |  29 ----
+ net-ftp/vsftpd-devnet/files/vsftpd.conf            | 105 ------------
+ net-ftp/vsftpd-devnet/files/vsftpd.init            |  47 ------
+ net-ftp/vsftpd-devnet/files/vsftpd.logrotate       |   4 -
+ net-ftp/vsftpd-devnet/files/vsftpd.service         |  11 --
+ net-ftp/vsftpd-devnet/files/vsftpd.xinetd          |  15 --
+ net-ftp/vsftpd-devnet/metadata.xml                 |   5 -
+ .../vsftpd-devnet/vsftpd-devnet-3.0.2_p1.ebuild    | 124 --------------
+ x11-misc/gsimplecal/gsimplecal-1.6.ebuild          |  32 ----
+ x11-misc/gxkb/Manifest                             |   4 +-
+ .../gxkb/{gxkb-0.7.0.ebuild => gxkb-0.7.5.ebuild}  |   0
+ x11-misc/tint2/Manifest                            |   6 +-
+ x11-misc/tint2/files/gtk-update-icon-cache.patch   |  22 ++-
+ x11-misc/tint2/tint2-9999.ebuild                   |  15 +-
+ 30 files changed, 31 insertions(+), 1540 deletions(-)
+ delete mode 100644 dev-java/commons-collections/Manifest
+ delete mode 100644 dev-java/commons-collections/commons-collections-3.2.1.ebuild
+ delete mode 100644 dev-java/commons-collections/files/java8-compatibility.patch
+ delete mode 100644 media-sound/deadbeef/deadbeef-0.5.5.ebuild
+ delete mode 100644 media-sound/deadbeef/deadbeef-0.5.6.ebuild
+ delete mode 100644 media-sound/deadbeef/deadbeef-0.6.0.ebuild
+ delete mode 100644 media-sound/deadbeef/deadbeef-0.6.1.ebuild
+ delete mode 100644 net-ftp/vsftpd-devnet/ChangeLog
+ delete mode 100644 net-ftp/vsftpd-devnet/Manifest
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd-3.0.2-alpha.patch
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd-3.0.2-caps.patch
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd-3.0.2-dont-link-caps.patch
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd-3.0.2-gentoo.patch
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd-3.0.2-kerberos.patch
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd-3.0.2-makefile.patch
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd-3.0.2-remove-legacy-cap.patch
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd-checkconfig.sh
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd.conf
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd.init
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd.logrotate
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd.service
+ delete mode 100644 net-ftp/vsftpd-devnet/files/vsftpd.xinetd
+ delete mode 100644 net-ftp/vsftpd-devnet/metadata.xml
+ delete mode 100644 net-ftp/vsftpd-devnet/vsftpd-devnet-3.0.2_p1.ebuild
+ delete mode 100644 x11-misc/gsimplecal/gsimplecal-1.6.ebuild
+ rename x11-misc/gxkb/{gxkb-0.7.0.ebuild => gxkb-0.7.5.ebuild} (100%)
 *** syncing miramir
 *** synced miramir
  * Sync succeeded
