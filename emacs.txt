@@ -21,4 +21,8 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 emacs
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: app-editors/emacs-vcs-25.0.9999-r2, attr description
+error: Metadata Exception: pkg ebuild src: app-editors/emacs-vcs-25.0.9999-r2, attr data
+error: [Errno 13] Permission denied while processing ebuild src: app-editors/emacs-vcs-25.0.9999-r2
+coms error in 3171, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65

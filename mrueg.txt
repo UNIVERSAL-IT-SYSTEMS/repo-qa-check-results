@@ -16,7 +16,14 @@
  'status': 'unofficial'}
 $ pmaint sync mrueg
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/mrueg
+   40fb36d..af495eb  master     -> origin/master
+Updating 40fb36d..af495eb
+Fast-forward
+ dev-ruby/github-markdown/Manifest                                       | 2 +-
+ .../{github-markdown-0.6.8.ebuild => github-markdown-0.6.9.ebuild}      | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename dev-ruby/github-markdown/{github-markdown-0.6.8.ebuild => github-markdown-0.6.9.ebuild} (100%)
 *** syncing mrueg
 *** synced mrueg
  * Sync succeeded

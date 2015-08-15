@@ -8,9 +8,23 @@
  'source': [{'type': 'svn', 'uri': 'svn://sidvind.com/overlays/ext-devlibs'}],
  'status': 'unofficial'}
 $ pmaint sync ext-devlibs
+WARNING:pkgcore:repository at location '/home/mgorny/sync/eigenlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/eigenlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Current branch master is up to date.
+	A	dev-libs/cml/metadata.xml
+	M	dev-libs/cml/Manifest
+	A	dev-libs/cml/ChangeLog
+	A	dev-libs/cml/cml-1.0.4.ebuild
+r122 = 7d6f6736dbefb45060617bebcadb595eec648967 (refs/remotes/git-svn)
+	M	dev-libs/cml/Manifest
+	M	dev-libs/cml/ChangeLog
+	M	dev-libs/cml/cml-1.0.2.ebuild
+r123 = 6af607e843fec44b6aa41137c4330e9ebcbdb569 (refs/remotes/git-svn)
+First, rewinding head to replay your work on top of it...
+Fast-forwarded master to refs/remotes/git-svn.
 *** syncing ext-devlibs
 *** synced ext-devlibs
  * Sync succeeded
