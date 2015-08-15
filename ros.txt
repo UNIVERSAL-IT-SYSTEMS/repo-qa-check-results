@@ -15,5 +15,8 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 ros
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception junk after document element: line 4, column 0 while processing ebuild src: sci-electronics/sdformat-1.4.11
- * Cache regen failed with 65
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 29185, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246
