@@ -10,11 +10,20 @@
 $ pmaint sync ext-devlibs
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-	D	dev-libs/aspartame/Manifest
-	D	dev-libs/aspartame/aspartame-0.1.9999.ebuild
-	D	dev-libs/aspartame/
-W: -empty_dir: dev-libs/aspartame
-r126 = af3fc3f2a76c9435f35e90646259b04e29093caa (refs/remotes/git-svn)
+	D	dev-libs/libx10/Manifest
+	D	dev-libs/libx10/libx10-0.9999.ebuild
+	D	dev-libs/libx10/libx10.metadata.xml
+	D	dev-libs/libx10/
+W: -empty_dir: dev-libs/libx10
+r127 = ba1cf9bf21e3b00e0b7e4dd6b596137dfb6eeea0 (refs/remotes/git-svn)
+	D	dev-libs/pedro/Manifest
+	D	dev-libs/pedro/files/pedro.confd
+	D	dev-libs/pedro/files/pedro.initd
+	D	dev-libs/pedro/pedro-1.0-r1.ebuild
+	D	dev-libs/pedro/pedro-1.0.ebuild
+	D	dev-libs/pedro/
+W: -empty_dir: dev-libs/pedro
+r128 = ff3867de2b6c8c916666e2a107a180edf9c4674e (refs/remotes/git-svn)
 First, rewinding head to replay your work on top of it...
 Fast-forwarded master to refs/remotes/git-svn.
 *** syncing ext-devlibs
