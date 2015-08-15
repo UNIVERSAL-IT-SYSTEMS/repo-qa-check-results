@@ -129,7 +129,6 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 error: parsed eapi '5' doesn't match sourced eapi '3' while processing ebuild src: app-benchmarks/glmark2-2014.03
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-libs/intel-common-12.1.9.293
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: net-p2p/dogecoin-qt-1.5.1
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
