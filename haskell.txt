@@ -14,13 +14,22 @@
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/gentoo-haskell/gentoo-haskell
-   21cba9a..c38d496  master     -> origin/master
-Updating 21cba9a..c38d496
+   c38d496..a6e9f74  master     -> origin/master
+Updating c38d496..a6e9f74
 Fast-forward
- dev-haskell/picoparsec/Manifest                                         | 2 +-
- .../picoparsec/{picoparsec-0.1.2.2.ebuild => picoparsec-0.1.2.3.ebuild} | 2 +-
- 2 files changed, 2 insertions(+), 2 deletions(-)
- rename dev-haskell/picoparsec/{picoparsec-0.1.2.2.ebuild => picoparsec-0.1.2.3.ebuild} (96%)
+ dev-haskell/http-client/Manifest                                      | 2 +-
+ .../{http-client-0.4.18.1.ebuild => http-client-0.4.19.ebuild}        | 2 +-
+ dev-haskell/pandoc-citeproc/Manifest                                  | 2 +-
+ .../{pandoc-citeproc-0.7.3.ebuild => pandoc-citeproc-0.7.3.1.ebuild}  | 2 +-
+ dev-haskell/yesod-core/Manifest                                       | 2 +-
+ .../yesod-core/{yesod-core-1.4.12.ebuild => yesod-core-1.4.13.ebuild} | 4 ++--
+ www-apps/gitit/Manifest                                               | 2 +-
+ www-apps/gitit/{gitit-0.11.1.ebuild => gitit-0.11.1.1.ebuild}         | 2 +-
+ 8 files changed, 9 insertions(+), 9 deletions(-)
+ rename dev-haskell/http-client/{http-client-0.4.18.1.ebuild => http-client-0.4.19.ebuild} (97%)
+ rename dev-haskell/pandoc-citeproc/{pandoc-citeproc-0.7.3.ebuild => pandoc-citeproc-0.7.3.1.ebuild} (97%)
+ rename dev-haskell/yesod-core/{yesod-core-1.4.12.ebuild => yesod-core-1.4.13.ebuild} (96%)
+ rename www-apps/gitit/{gitit-0.11.1.ebuild => gitit-0.11.1.1.ebuild} (98%)
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
