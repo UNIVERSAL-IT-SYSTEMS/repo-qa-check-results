@@ -7,9 +7,7 @@
  'source': [{'type': 'git', 'uri': 'git://github.com/wired/wirelay.git'}],
  'status': 'unofficial'}
 $ pmaint sync wirelay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing wirelay
 *** synced wirelay
@@ -51,7 +49,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 4228
+sandbox:stop  caught signal 15 in pid 7685
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-libs/wicked-9999
 !!! caught exception Metadata Exception: pkg ebuild src: dev-libs/wicked-9999, attr description

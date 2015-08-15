@@ -13,11 +13,7 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/yngwin.git'}],
  'status': 'official'}
 $ pmaint sync yngwin
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named 'xelnor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named 'xelnor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.

@@ -12,36 +12,54 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/gentoo-bsd.git'}],
  'status': 'official'}
 $ pmaint sync gentoo-bsd
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/gentoo-bsd
+   88f0bf6..ac58cf0  master     -> origin/master
+Updating 88f0bf6..ac58cf0
+Fast-forward
+ scripts/automatic_updater.sh                                          | 2 +-
+ sys-freebsd/boot0/boot0-10.2_beta1.ebuild                             | 2 +-
+ sys-freebsd/freebsd-bin/freebsd-bin-10.2_beta1.ebuild                 | 2 +-
+ sys-freebsd/freebsd-cddl/freebsd-cddl-10.2_beta1.ebuild               | 2 +-
+ sys-freebsd/freebsd-lib/freebsd-lib-10.2_beta1.ebuild                 | 2 +-
+ sys-freebsd/freebsd-libexec/freebsd-libexec-10.2_beta1.ebuild         | 2 +-
+ sys-freebsd/freebsd-mk-defs/freebsd-mk-defs-10.2_beta1.ebuild         | 2 +-
+ sys-freebsd/freebsd-pam-modules/freebsd-pam-modules-10.2_beta1.ebuild | 2 +-
+ sys-freebsd/freebsd-pf/freebsd-pf-10.2_beta1.ebuild                   | 2 +-
+ sys-freebsd/freebsd-rescue/freebsd-rescue-10.2_beta1.ebuild           | 2 +-
+ sys-freebsd/freebsd-sbin/freebsd-sbin-10.2_beta1.ebuild               | 2 +-
+ sys-freebsd/freebsd-share/freebsd-share-10.2_beta1.ebuild             | 2 +-
+ sys-freebsd/freebsd-sources/freebsd-sources-10.2_beta1.ebuild         | 2 +-
+ sys-freebsd/freebsd-ubin/freebsd-ubin-10.2_beta1.ebuild               | 2 +-
+ sys-freebsd/freebsd-usbin/freebsd-usbin-10.2_beta1.ebuild             | 2 +-
+ 15 files changed, 15 insertions(+), 15 deletions(-)
+ mode change 100644 => 100755 scripts/automatic_updater.sh
 *** syncing gentoo-bsd
 *** synced gentoo-bsd
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 gentoo-bsd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by sys-freebsd/freebsd-sbin-10.2_beta1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 WARNING: 'use' function invoked by sys-freebsd/freebsd-cddl-10.2_beta1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-freebsd/freebsd-sources-10.2_beta1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-freebsd/freebsd-lib-10.2_beta1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-freebsd/freebsd-lib-10.2_beta1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-freebsd/freebsd-share-10.2_beta1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-freebsd/freebsd-lib-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-lib-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-sbin-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by sys-freebsd/freebsd-rescue-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-sources-10.2_beta1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-freebsd/freebsd-usbin-10.2_beta1 during metadata regeneration.

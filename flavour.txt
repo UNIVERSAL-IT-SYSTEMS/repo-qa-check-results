@@ -10,9 +10,7 @@
              'uri': 'https://github.com/wimmuskee/flavour.git'}],
  'status': 'unofficial'}
 $ pmaint sync flavour
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing flavour
 *** synced flavour
@@ -55,7 +53,7 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for twisted failed
 
-sandbox:stop  caught signal 15 in pid 18270
+sandbox:stop  caught signal 15 in pid 20294
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, twisted cannot be found while processing ebuild src: net-misc/epoptes-9999
 !!! caught exception Metadata Exception: pkg ebuild src: net-misc/epoptes-9999, attr description

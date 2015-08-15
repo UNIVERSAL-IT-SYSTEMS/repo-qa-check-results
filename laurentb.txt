@@ -10,9 +10,7 @@
              'uri': 'http://github.com/laurentb/gentoo-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync laurentb
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing laurentb
 *** synced laurentb
@@ -20,8 +18,4 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 laurentb
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 8445, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+ * Cache regenerated successfully

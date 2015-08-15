@@ -9,9 +9,7 @@
              'uri': 'https://git.kolosowscy.pl/jurek/gentoo-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync jkolo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing jkolo
 *** synced jkolo
@@ -77,7 +75,7 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for php-ext-base-r1 failed
 
-sandbox:stop  caught signal 15 in pid 30542
+sandbox:stop  caught signal 15 in pid 31951
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: dev-python/g-pypi-0.4 failed.
