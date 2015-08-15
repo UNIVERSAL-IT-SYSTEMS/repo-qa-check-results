@@ -14,21 +14,7 @@
  'status': 'unofficial'}
 $ pmaint sync vayerx
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/vayerx/vayerx-gentoo
-   53b6276..d49c229  master     -> origin/master
-Updating 53b6276..d49c229
-Fast-forward
- games-rpg/lipsofsuna/Manifest                      |  7 ++--
- .../files/lipsofsuna-0.8.0_ogre_overlay.patch      | 12 +++++++
- ...ofsuna-0.6.0.ebuild => lipsofsuna-0.8.0.ebuild} | 11 +++++--
- games-rpg/lipsofsuna/lipsofsuna-9999.ebuild        | 11 +++++--
- gnome-extra/gsmartcontrol/Manifest                 |  2 --
- .../gsmartcontrol/gsmartcontrol-0.8.5.ebuild       | 37 ----------------------
- 6 files changed, 32 insertions(+), 48 deletions(-)
- create mode 100644 games-rpg/lipsofsuna/files/lipsofsuna-0.8.0_ogre_overlay.patch
- rename games-rpg/lipsofsuna/{lipsofsuna-0.6.0.ebuild => lipsofsuna-0.8.0.ebuild} (87%)
- delete mode 100644 gnome-extra/gsmartcontrol/Manifest
- delete mode 100644 gnome-extra/gsmartcontrol/gsmartcontrol-0.8.5.ebuild
+Already up-to-date.
 *** syncing vayerx
 *** synced vayerx
  * Sync succeeded
