@@ -11,23 +11,7 @@
  'status': 'unofficial'}
 $ pmaint sync linuxunderground-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/linuxunderground/gentoo.overlay
-   a9a5583..57c2332  master     -> origin/master
-Updating a9a5583..57c2332
-Fast-forward
- app-crypt/eid-mw/Manifest                          |  6 --
- app-crypt/eid-mw/eid-mw-4.1.3_pre560.ebuild        | 70 -----------------
- app-crypt/eid-mw/eid-mw-9999.ebuild                | 70 -----------------
- .../files/gtk_not_required_4.1.3_pre560.patch      | 89 ----------------------
- app-crypt/eid-mw/files/gtk_not_required_9999.patch | 76 ------------------
- app-crypt/eid-mw/metadata.xml                      | 32 --------
- 6 files changed, 343 deletions(-)
- delete mode 100644 app-crypt/eid-mw/Manifest
- delete mode 100644 app-crypt/eid-mw/eid-mw-4.1.3_pre560.ebuild
- delete mode 100644 app-crypt/eid-mw/eid-mw-9999.ebuild
- delete mode 100644 app-crypt/eid-mw/files/gtk_not_required_4.1.3_pre560.patch
- delete mode 100644 app-crypt/eid-mw/files/gtk_not_required_9999.patch
- delete mode 100644 app-crypt/eid-mw/metadata.xml
+Already up-to-date.
 *** syncing linuxunderground-overlay
 *** synced linuxunderground-overlay
  * Sync succeeded

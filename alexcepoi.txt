@@ -22,4 +22,8 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 alexcepoi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: app-admin/rcm-1.2.3, attr description
+error: Metadata Exception: pkg ebuild src: app-admin/rcm-1.2.3, attr data
+error: [Errno 13] Permission denied while processing ebuild src: app-admin/rcm-1.2.3
+coms error in 26493, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
