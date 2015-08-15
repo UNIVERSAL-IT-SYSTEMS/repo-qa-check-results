@@ -259,6 +259,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-terms/gnome-terminal-3.12.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-terms/hotwire-0.721
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-accessibility/svox-9999
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
