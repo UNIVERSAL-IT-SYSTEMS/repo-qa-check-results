@@ -29,8 +29,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-!!! caught exception Metadata Exception: pkg ebuild src: app-portage/g-pypi-9999, attr description
-error: Metadata Exception: pkg ebuild src: app-portage/g-pypi-9999, attr data
-error: [Errno 13] Permission denied while processing ebuild src: app-portage/g-pypi-9999
-coms error in 989, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 65
+ * 
+ * "/home/mgorny/repos/sping/app-portage/g-pypi/g-pypi-9999.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+ * Cache regenerated successfully
