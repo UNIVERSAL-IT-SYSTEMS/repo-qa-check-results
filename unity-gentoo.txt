@@ -12,7 +12,18 @@
 $ pmaint sync unity-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/shiznix/unity-gentoo
+   e093578..f0831b4  master     -> origin/master
+Updating e093578..f0831b4
+Fast-forward
+ profiles/vivid/unity-portage.pkeywords             |   1 +
+ profiles/wily/unity-portage.pkeywords              |   1 +
+ www-client/firefox/Manifest                        | 167 +++++++++++----------
+ .../files/firefox-38-hppa-js-syntax-error.patch    |  30 ++++
+ ...401.ebuild => firefox-40.0_p0_p00150401.ebuild} |  15 +-
+ 5 files changed, 122 insertions(+), 92 deletions(-)
+ create mode 100644 www-client/firefox/files/firefox-38-hppa-js-syntax-error.patch
+ rename www-client/firefox/{firefox-39.0_p0_p00150401.ebuild => firefox-40.0_p0_p00150401.ebuild} (96%)
 *** syncing unity-gentoo
 *** synced unity-gentoo
  * Sync succeeded
