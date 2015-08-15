@@ -16,7 +16,17 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   8112648..1ec0c52  master     -> origin/master
+Updating 8112648..1ec0c52
+Fast-forward
+ dev-python/django-ldapdb/Manifest                  |   1 +
+ .../django-ldapdb/django-ldapdb-0.4.0.ebuild       |  21 ++++
+ media-sound/ardour/Manifest                        |   1 +
+ media-sound/ardour/ardour-4.2.ebuild               | 139 +++++++++++++++++++++
+ 4 files changed, 162 insertions(+)
+ create mode 100644 dev-python/django-ldapdb/django-ldapdb-0.4.0.ebuild
+ create mode 100644 media-sound/ardour/ardour-4.2.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
