@@ -14,22 +14,7 @@
  'status': 'unofficial'}
 $ pmaint sync abendbrot
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/stefan-gr/abendbrot
-   ffb4a08..1f1cddb  master     -> origin/master
-Updating ffb4a08..1f1cddb
-Fast-forward
- media-sound/yarock/Manifest                        |  2 +
- media-sound/yarock/yarock-1.1.3.ebuild             | 86 ++++++++++++++++++++++
- net-libs/htmlcxx/Manifest                          |  4 +
- .../htmlcxx/files/htmlcxx-0.85-ptrdiff_t.patch     | 11 +++
- net-libs/htmlcxx/htmlcxx-0.85.ebuild               | 23 ++++++
- net-libs/htmlcxx/metadata.xml                      |  8 ++
- 6 files changed, 134 insertions(+)
- create mode 100644 media-sound/yarock/yarock-1.1.3.ebuild
- create mode 100644 net-libs/htmlcxx/Manifest
- create mode 100644 net-libs/htmlcxx/files/htmlcxx-0.85-ptrdiff_t.patch
- create mode 100644 net-libs/htmlcxx/htmlcxx-0.85.ebuild
- create mode 100644 net-libs/htmlcxx/metadata.xml
+Already up-to-date.
 *** syncing abendbrot
 *** synced abendbrot
  * Sync succeeded

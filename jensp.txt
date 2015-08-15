@@ -12,107 +12,7 @@
  'status': 'unofficial'}
 $ pmaint sync jensp
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/user/jensp
-   30b732d..ffce769  master     -> origin/master
-Updating 30b732d..ffce769
-Fast-forward
- app-text/gscan2pdf/Manifest                        |   2 -
- app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild          |  57 --
- dev-libs/openssl/Manifest                          |  25 +
- dev-libs/openssl/files/gentoo.config-0.9.8         | 145 +++++
- dev-libs/openssl/files/gentoo.config-1.0.0         | 159 +++++
- dev-libs/openssl/files/gentoo.config-1.0.1         | 164 +++++
- .../openssl/files/openssl-0.9.8e-bsd-sparc64.patch |  25 +
- .../openssl/files/openssl-0.9.8h-ldflags.patch     |  29 +
- .../openssl/files/openssl-0.9.8m-binutils.patch    |  24 +
- .../openssl/files/openssl-1.0.0a-ldflags.patch     |  29 +
- .../openssl/files/openssl-1.0.0d-fbsd-amd64.patch  |  12 +
- .../openssl/files/openssl-1.0.0d-windres.patch     |  76 +++
- .../files/openssl-1.0.0e-parallel-build.patch      | 315 ++++++++++
- dev-libs/openssl/files/openssl-1.0.0e-x32.patch    |  92 +++
- .../openssl/files/openssl-1.0.0h-pkg-config.patch  |  34 ++
- .../files/openssl-1.0.1-parallel-build.patch       | 354 +++++++++++
- dev-libs/openssl/files/openssl-1.0.1-x32.patch     |  79 +++
- dev-libs/openssl/files/openssl-1.0.1e-ipv6.patch   | 656 ++++++++++++++++++++
- .../files/openssl-1.0.1e-s_client-verify.patch     |  18 +
- .../openssl/files/openssl-1.0.1f-perl-5.18.patch   | 356 +++++++++++
- ...enssl-1.0.1f-revert-alpha-perl-generation.patch |  84 +++
- dev-libs/openssl/files/openssl-1.0.1h-ipv6.patch   | 675 +++++++++++++++++++++
- .../files/openssl-1.0.2-parallel-build.patch       | 354 +++++++++++
- .../openssl/files/openssl-1.0.2_beta2-ipv6.patch   | 640 +++++++++++++++++++
- ...-1.0.2_beta2-revert-alpha-perl-generation.patch |  65 ++
- dev-libs/openssl/openssl-1.0.1i.ebuild             | 258 ++++++++
- media-libs/glee/Manifest                           |   3 -
- media-libs/glee/files/glee-autotools.patch         |  22 -
- media-libs/glee/glee-5.40.ebuild                   |  33 -
- media-libs/glew/Manifest                           |   2 -
- media-libs/glew/glew-1.5.4.ebuild                  |  48 --
- media-video/mjpegtools/Manifest                    |   5 -
- .../files/mjpegtools-1.9.0-glibc-2.10.patch        |  11 -
- .../mjpegtools/files/mjpegtools-1.9.0-jpeg-7.patch |  24 -
- .../mjpegtools/files/mjpegtools-1.9.0-nopic.patch  |  41 --
- media-video/mjpegtools/mjpegtools-1.9.0-r1.ebuild  |  88 ---
- net-irc/irssi-mod-fish/Manifest                    |   2 -
- .../irssi-mod-fish/irssi-mod-fish-1.00_rc5.ebuild  |  52 --
- sys-apps/dbus/Manifest                             |   5 -
- sys-apps/dbus/dbus-1.2.24-r1.ebuild                | 129 ----
- sys-apps/dbus/files/30-dbus                        |   9 -
- sys-apps/dbus/files/dbus.init-1.0                  |  51 --
- sys-apps/dbus/files/multithread-locking-fix.patch  | 455 --------------
- sys-apps/fatrace/Manifest                          |   2 -
- sys-apps/fatrace/fatrace-0.1.ebuild                |  21 -
- www-plugins/lightspark/Manifest                    |   2 -
- .../files/lightspark-0.4.1-debug-defines.patch     |  15 -
- www-plugins/lightspark/lightspark-9999.ebuild      |  62 --
- 48 files changed, 4668 insertions(+), 1141 deletions(-)
- delete mode 100644 app-text/gscan2pdf/Manifest
- delete mode 100644 app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild
- create mode 100644 dev-libs/openssl/Manifest
- create mode 100755 dev-libs/openssl/files/gentoo.config-0.9.8
- create mode 100755 dev-libs/openssl/files/gentoo.config-1.0.0
- create mode 100755 dev-libs/openssl/files/gentoo.config-1.0.1
- create mode 100644 dev-libs/openssl/files/openssl-0.9.8e-bsd-sparc64.patch
- create mode 100644 dev-libs/openssl/files/openssl-0.9.8h-ldflags.patch
- create mode 100644 dev-libs/openssl/files/openssl-0.9.8m-binutils.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.0a-ldflags.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.0d-fbsd-amd64.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.0d-windres.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.0e-parallel-build.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.0e-x32.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.0h-pkg-config.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.1-parallel-build.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.1-x32.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.1e-ipv6.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.1e-s_client-verify.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.1f-perl-5.18.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.1f-revert-alpha-perl-generation.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.1h-ipv6.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.2-parallel-build.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.2_beta2-ipv6.patch
- create mode 100644 dev-libs/openssl/files/openssl-1.0.2_beta2-revert-alpha-perl-generation.patch
- create mode 100644 dev-libs/openssl/openssl-1.0.1i.ebuild
- delete mode 100644 media-libs/glee/Manifest
- delete mode 100644 media-libs/glee/files/glee-autotools.patch
- delete mode 100644 media-libs/glee/glee-5.40.ebuild
- delete mode 100644 media-libs/glew/Manifest
- delete mode 100644 media-libs/glew/glew-1.5.4.ebuild
- delete mode 100644 media-video/mjpegtools/Manifest
- delete mode 100644 media-video/mjpegtools/files/mjpegtools-1.9.0-glibc-2.10.patch
- delete mode 100644 media-video/mjpegtools/files/mjpegtools-1.9.0-jpeg-7.patch
- delete mode 100644 media-video/mjpegtools/files/mjpegtools-1.9.0-nopic.patch
- delete mode 100644 media-video/mjpegtools/mjpegtools-1.9.0-r1.ebuild
- delete mode 100644 net-irc/irssi-mod-fish/Manifest
- delete mode 100644 net-irc/irssi-mod-fish/irssi-mod-fish-1.00_rc5.ebuild
- delete mode 100644 sys-apps/dbus/Manifest
- delete mode 100644 sys-apps/dbus/dbus-1.2.24-r1.ebuild
- delete mode 100644 sys-apps/dbus/files/30-dbus
- delete mode 100644 sys-apps/dbus/files/dbus.init-1.0
- delete mode 100644 sys-apps/dbus/files/multithread-locking-fix.patch
- delete mode 100644 sys-apps/fatrace/Manifest
- delete mode 100644 sys-apps/fatrace/fatrace-0.1.ebuild
- delete mode 100644 www-plugins/lightspark/Manifest
- delete mode 100644 www-plugins/lightspark/files/lightspark-0.4.1-debug-defines.patch
- delete mode 100644 www-plugins/lightspark/lightspark-9999.ebuild
+Already up-to-date.
 *** syncing jensp
 *** synced jensp
  * Sync succeeded
@@ -171,7 +71,7 @@ received unknown com: export CATEGORY='sys-kernel' PR=r1 PVR='2.6.34-r1' PV='2.6
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 23349
+sandbox:stop  caught signal 15 in pid 1037
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/pykickstart-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
