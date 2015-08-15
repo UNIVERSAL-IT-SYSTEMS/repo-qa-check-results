@@ -13,6 +13,8 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/kork.git'}],
  'status': 'unofficial'}
 $ pmaint sync kork
+WARNING:pkgcore:repository at location '/home/mgorny/repos/interactive-fiction' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing kork
@@ -56,7 +58,7 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for ruby failed
 
-sandbox:stop  caught signal 15 in pid 28961
+sandbox:stop  caught signal 15 in pid 14332
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, ruby cannot be found while processing ebuild src: app-office/ekee-2.0.2
 !!! caught exception Metadata Exception: pkg ebuild src: app-office/ekee-2.0.2, attr description
