@@ -12,15 +12,15 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/lordvan.git'}],
  'status': 'unofficial'}
 $ pmaint sync lordvan
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing lordvan
 *** synced lordvan
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 lordvan
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: app-misc/labyrinth-0.4.0 failed.
@@ -33,6 +33,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lordvan/app-misc/labyrinth/labyrinth-0.4.0.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lordvan/app-misc/labyrinth/labyrinth-0.4.0.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lordvan/app-misc/labyrinth/labyrinth-0.4.0.ebuild'
+ * 
+ * "/home/mgorny/repos/lordvan/media-video/openshot/openshot-1.2.2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 !!!         labyrinth-0.4.0.ebuild, line   5:  Called inherit 'gnome2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
@@ -41,12 +47,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  EAPI= is not supported
 
- * 
- * "/home/mgorny/repos/lordvan/media-video/openshot/openshot-1.2.2.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
  * 
  * "/home/mgorny/repos/lordvan/media-video/openshot/openshot-1.4.1.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation

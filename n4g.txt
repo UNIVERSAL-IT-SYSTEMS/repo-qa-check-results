@@ -7,15 +7,15 @@
              'uri': 'git://git.disconnected-by-peer.at/novell4gentoo/stable.git'}],
  'status': 'unofficial'}
 $ pmaint sync n4g
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing n4g
 *** synced n4g
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 n4g
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: app-admin/oessysmon-0.1.7-r1 failed.

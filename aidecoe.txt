@@ -9,15 +9,14 @@
              'uri': 'git://github.com/aidecoe/aidecoe-overlay.git'}],
  'status': 'official'}
 $ pmaint sync aidecoe
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing aidecoe
 *** synced aidecoe
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 aidecoe
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: sys-kernel/genkernel-999999 failed.
@@ -53,7 +52,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 32327
+sandbox:stop  caught signal 15 in pid 28582
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-kernel/genkernel-999999
 !!! caught exception Metadata Exception: pkg ebuild src: sys-kernel/genkernel-999999, attr description

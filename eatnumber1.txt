@@ -14,15 +14,15 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/eatnumber1.git'}],
  'status': 'unofficial'}
 $ pmaint sync eatnumber1
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing eatnumber1
 *** synced eatnumber1
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 eatnumber1
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: dev-libs/libuseless-9999 failed.
@@ -33,23 +33,22 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '186' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/eatnumber1/dev-libs/libuseless/libuseless-9999.ebuild'
-
-!!! ERROR: games-roguelike/dwarf-fortress-0.28.181.40d-r18 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/eatnumber1/dev-libs/libuseless/libuseless-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/eatnumber1/dev-libs/libuseless/libuseless-9999.ebuild'
+
+!!! ERROR: games-roguelike/dwarf-fortress-0.28.181.40d-r18 failed.
 !!!         libuseless-9999.ebuild, line   8:  Called inherit 'git' 'autotools'
-!!!                       ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!                       ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!                       ebuild-daemon.bash, line 210:  Called __ebd_main_loop
 !!!                       ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '279' 'depend'
 !!!                       ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-Sandboxed process killed by signal: Broken pipe
 !!!                               ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
 !!!                               ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
 !!!                   isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
@@ -59,7 +58,6 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for git failed
 
-Sandboxed process killed by signal: Broken pipe
 
 !!! ERROR: games-roguelike/dwarf-fortress-0.28.181.40d-r18 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -77,7 +75,7 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 24519
+sandbox:stop  caught signal 15 in pid 20683
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: dev-libs/libuseless-9999 failed.
@@ -96,7 +94,7 @@ Sandboxed process killed by signal: Terminated
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 23442
+sandbox:stop  caught signal 15 in pid 19582
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-libs/libuseless-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: games-roguelike/dwarf-fortress-0.28.181.40d-r18
