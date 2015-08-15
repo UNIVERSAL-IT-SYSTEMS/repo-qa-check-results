@@ -7,6 +7,7 @@
              'uri': 'svn://svn.tuxfamily.org/svnroot/proaudio/proaudio/trunk/overlays/proaudio'}],
  'status': 'unofficial'}
  * Adding new repository
+ * Resetting, sync parameters changed
 $ pmaint sync proaudio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -14,59 +15,86 @@ Initialized empty Git repository in /home/mgorny/repos/proaudio/.git/
 W: Ignoring error from SVN, path probably does not exist: (160013): Filesystem has no item: File not found: revision 100, path '/trunk/overlays/proaudio'
 W: Do not be alarmed at the above message git-svn is just searching aggressively for old history.
 This may take a while on large repositories
-Checked through r100Checked through r200Checked through r300Checked through r400	A	dev-python/pyalsaaudio/Manifest
-	A	dev-python/pyalsaaudio/pyalsaaudio-0.2-r1.ebuild
+Checked through r100Checked through r200Checked through r300Checked through r400	A	eclass/patcher.eclass
+	A	eclass/fetch-tools.eclass
+	A	eclass/lash.eclass
+	A	eclass/need-gcc-version.eclass
+	A	eclass/unpacker.eclass
+	A	eclass/scons-ccache.eclass
+	A	eclass/reiser4-patch.eclass
+	A	eclass/jackmidi.eclass
+	A	eclass/virtualx2.eclass
+	A	eclass/broken-ebuild.eclass
+	A	eclass/zyn2.eclass
+	A	eclass/zyn3.eclass
+	A	sys-process/rtirq/Manifest
+	A	sys-process/rtirq/rtirq-20050914-r2.ebuild
+	A	sys-process/rtirq/rtirq-20060819-r1.ebuild
+	A	sys-process/rtirq/rtirq-20070101.ebuild
+	A	sys-process/rtirq/files/digest-rtirq-20060819-r1
+	A	sys-process/rtirq/files/digest-rtirq-20070101
+	A	sys-process/rtirq/files/pidof_workaround.patch
+	A	sys-process/rtirq/files/rt-initscript.gz
+	A	sys-process/rtirq/files/digest-rtirq-20060218-r1
+	A	sys-process/rtirq/files/rtirq-quick_fix.patch
+	A	sys-process/rtirq/files/digest-rtirq-20050914-r2
+	A	sys-process/rtirq/files/rtirq-20050914-v0.1.bz2
+	A	sys-process/rtirq/files/rtirq-quick_fix2.patch
+	A	sys-process/rtirq/rtirq-20060218-r1.ebuild
+	A	sys-process/rt-exec/Manifest
+	A	sys-process/rt-exec/rt-exec-1.0.3.ebuild
+	A	sys-process/rt-exec/files/digest-rt-exec-1.0.3
+	A	sys-process/set_rlimits/Manifest
+	A	sys-process/set_rlimits/set_rlimits-1.2.0.ebuild
+	A	sys-process/set_rlimits/files/digest-set_rlimits-1.2.0
+	A	sys-devel/llvm-base/files/digest-llvm-base-1.9
+	A	sys-devel/llvm-base/Manifest
+	A	sys-devel/llvm-base/llvm-base-1.9.ebuild
+	A	sys-devel/llvm-gcc/llvm-gcc-1.9.ebuild
+	A	sys-devel/llvm-gcc/files/llvm-gcc-1.9-dwarf_fix.patch
+	A	sys-devel/llvm-gcc/files/digest-llvm-gcc-1.9
+	A	sys-devel/llvm-gcc/Manifest
+	A	sys-kernel/rt-sources/rt-sources-2.6.17-r7.ebuild
+	A	sys-kernel/rt-sources/rt-sources-2.6.18-r6.ebuild
+	A	sys-kernel/rt-sources/rt-sources-2.6.19-r14.ebuild
+	A	sys-kernel/rt-sources/rt-sources-2.6.17-r8.ebuild
+	A	sys-kernel/rt-sources/rt-sources-2.6.18-r7.ebuild
+	A	sys-kernel/rt-sources/rt-sources-2.6.19-r15.ebuild
+	A	sys-kernel/rt-sources/rt-sources-2.6.19-r6.ebuild
+	A	sys-kernel/rt-sources/rt-sources-2.6.16-r29.ebuild
+	A	sys-kernel/rt-sources/rt-sources-2.6.17_rc6-r5.ebuild
+	A	sys-kernel/rt-sources/files/dont_put_temp_files_in_source.patch
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.17_rc6-r5
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.15-r21
+	A	sys-kernel/rt-sources/files/input_device_id-to-mod_devicetable.patch
+	A	sys-kernel/rt-sources/files/realtime-lsm-0.8.6.gz
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.19-r14
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.19-r15
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.16-r29
+	A	sys-kernel/rt-sources/files/realtime-lsm-0.8.6_2.6.19.gz
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.17-r5
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.18-r5
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.17-r7
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.18-r6
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.17-r8
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.18-r7
+	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.19-r6
+	A	sys-kernel/rt-sources/rt-sources-2.6.15-r21.ebuild
+	A	sys-kernel/rt-sources/Manifest
+	A	sys-kernel/rt-sources/rt-sources-2.6.17-r5.ebuild
+	A	sys-kernel/rt-sources/rt-sources-2.6.18-r5.ebuild
 	A	dev-python/pyalsaaudio/files/digest-pyalsaaudio-0.2-r1
-	A	media-plugins/njl-plugins/njl-plugins-0.2.1-r1.ebuild
-	A	media-plugins/njl-plugins/njl-plugins-0.2.1.ebuild
-	A	media-plugins/njl-plugins/files/digest-njl-plugins-0.2.1
-	A	media-plugins/njl-plugins/files/digest-njl-plugins-0.2.1-r1
-	A	media-plugins/njl-plugins/Manifest
-	A	media-plugins/vocoder-ladspa/vocoder-ladspa-0.3.ebuild
-	A	media-plugins/vocoder-ladspa/Manifest
-	A	media-plugins/vocoder-ladspa/files/stereo-0001.patch.gz
-	A	media-plugins/vocoder-ladspa/files/digest-vocoder-ladspa-0.3
-	A	media-plugins/nekobee/Manifest
-	A	media-plugins/nekobee/nekobee-0.1.3.ebuild
-	A	media-plugins/nekobee/nekobee-0.1.5.ebuild
-	A	media-plugins/nekobee/files/digest-nekobee-0.1.3
-	A	media-plugins/nekobee/files/digest-nekobee-0.1.5
-	A	media-plugins/wasp/wasp-0.1.3-r2.ebuild
-	A	media-plugins/wasp/wasp-0.1.4.ebuild
-	A	media-plugins/wasp/files/digest-wasp-0.1.3-r2
-	A	media-plugins/wasp/files/digest-wasp-0.1.4
-	A	media-plugins/wasp/Manifest
-	A	media-plugins/dssi-vst/ChangeLog
-	A	media-plugins/dssi-vst/dssi-vst-0.3.1.ebuild
-	A	media-plugins/dssi-vst/dssi-vst-0.4-r1.ebuild
-	A	media-plugins/dssi-vst/dssi-vst-0.4.ebuild
-	A	media-plugins/dssi-vst/files/digest-dssi-vst-0.3.1
-	A	media-plugins/dssi-vst/files/digest-dssi-vst-0.4
-	A	media-plugins/dssi-vst/files/digest-dssi-vst-0.4-r1
-	A	media-plugins/dssi-vst/Manifest
-	A	media-plugins/amb-plugins/amb-plugins-0.0.2.ebuild
-	A	media-plugins/amb-plugins/files/digest-amb-plugins-0.1.0
-	A	media-plugins/amb-plugins/files/digest-amb-plugins-0.0.2
-	A	media-plugins/amb-plugins/Manifest
-	A	media-plugins/amb-plugins/amb-plugins-0.1.0.ebuild
-	A	media-plugins/swh-plugins/files/digest-swh-plugins-0.4.15
-	A	media-plugins/swh-plugins/Manifest
-	A	media-plugins/swh-plugins/swh-plugins-0.4.15.ebuild
-	A	media-plugins/preamp/preamp-2.0.ebuild
-	A	media-plugins/preamp/Manifest
-	A	media-plugins/preamp/files/digest-preamp-2.0
-	A	media-plugins/omins/files/digest-omins-0.2.0
-	A	media-plugins/omins/omins-0.2.0.ebuild
-	A	media-plugins/omins/Manifest
+	A	dev-python/pyalsaaudio/Manifest
+	A	dev-python/pyalsaaudio/pyalsaaudio-0.2-r1.ebuild
 	A	media-plugins/fil-plugins/files/digest-fil-plugins-0.1.0
 	A	media-plugins/fil-plugins/Manifest
 	A	media-plugins/fil-plugins/fil-plugins-0.1.0.ebuild
 	A	media-plugins/wsynth-dssi/Manifest
 	A	media-plugins/wsynth-dssi/wsynth-dssi-0.1.3.ebuild
 	A	media-plugins/wsynth-dssi/files/digest-wsynth-dssi-0.1.3
+	A	media-plugins/whysynth/files/whysynth_hacked_eg.patch
 	A	media-plugins/whysynth/files/digest-whysynth-20060122
 	A	media-plugins/whysynth/files/digest-whysynth-20060122-r1
-	A	media-plugins/whysynth/files/whysynth_hacked_eg.patch
 	A	media-plugins/whysynth/Manifest
 	A	media-plugins/whysynth/whysynth-20060122-r1.ebuild
 	A	media-plugins/whysynth/whysynth-20060122.ebuild
@@ -77,75 +105,145 @@ Checked through r100Checked through r200Checked through r300Checked through r
 	A	media-plugins/oscilloscope/oscilloscope-0.2.1.ebuild
 	A	media-plugins/oscilloscope/files/digest-oscilloscope-0.2.1
 	A	media-plugins/oscilloscope/files/makefile-destdir.patch
+	A	media-plugins/hexter/files/digest-hexter-0.5.9
 	A	media-plugins/hexter/Manifest
 	A	media-plugins/hexter/hexter-0.5.9.ebuild
-	A	media-plugins/hexter/files/digest-hexter-0.5.9
-	A	media-plugins/sineshaper/Manifest
-	A	media-plugins/sineshaper/sineshaper-0.5.23.ebuild
-	A	media-plugins/sineshaper/files/makefile-destdir.patch
 	A	media-plugins/sineshaper/files/digest-sineshaper-0.4.2
 	A	media-plugins/sineshaper/files/digest-sineshaper-0.5.23
+	A	media-plugins/sineshaper/files/makefile-destdir.patch
 	A	media-plugins/sineshaper/sineshaper-0.4.2.ebuild
-	A	sys-apps/das_watchdog/das_watchdog-0.2.4.ebuild
+	A	media-plugins/sineshaper/Manifest
+	A	media-plugins/sineshaper/sineshaper-0.5.23.ebuild
+	A	media-plugins/njl-plugins/Manifest
+	A	media-plugins/njl-plugins/njl-plugins-0.2.1-r1.ebuild
+	A	media-plugins/njl-plugins/njl-plugins-0.2.1.ebuild
+	A	media-plugins/njl-plugins/files/digest-njl-plugins-0.2.1
+	A	media-plugins/njl-plugins/files/digest-njl-plugins-0.2.1-r1
+	A	media-plugins/vocoder-ladspa/files/stereo-0001.patch.gz
+	A	media-plugins/vocoder-ladspa/files/digest-vocoder-ladspa-0.3
+	A	media-plugins/vocoder-ladspa/vocoder-ladspa-0.3.ebuild
+	A	media-plugins/vocoder-ladspa/Manifest
+	A	media-plugins/nekobee/files/digest-nekobee-0.1.3
+	A	media-plugins/nekobee/files/digest-nekobee-0.1.5
+	A	media-plugins/nekobee/Manifest
+	A	media-plugins/nekobee/nekobee-0.1.3.ebuild
+	A	media-plugins/nekobee/nekobee-0.1.5.ebuild
+	A	media-plugins/wasp/files/digest-wasp-0.1.3-r2
+	A	media-plugins/wasp/files/digest-wasp-0.1.4
+	A	media-plugins/wasp/Manifest
+	A	media-plugins/wasp/wasp-0.1.3-r2.ebuild
+	A	media-plugins/wasp/wasp-0.1.4.ebuild
+	A	media-plugins/dssi-vst/dssi-vst-0.3.1.ebuild
+	A	media-plugins/dssi-vst/dssi-vst-0.4-r1.ebuild
+	A	media-plugins/dssi-vst/dssi-vst-0.4.ebuild
+	A	media-plugins/dssi-vst/files/digest-dssi-vst-0.4
+	A	media-plugins/dssi-vst/files/digest-dssi-vst-0.4-r1
+	A	media-plugins/dssi-vst/files/digest-dssi-vst-0.3.1
+	A	media-plugins/dssi-vst/Manifest
+	A	media-plugins/dssi-vst/ChangeLog
+	A	media-plugins/amb-plugins/amb-plugins-0.1.0.ebuild
+	A	media-plugins/amb-plugins/amb-plugins-0.0.2.ebuild
+	A	media-plugins/amb-plugins/files/digest-amb-plugins-0.1.0
+	A	media-plugins/amb-plugins/files/digest-amb-plugins-0.0.2
+	A	media-plugins/amb-plugins/Manifest
+	A	media-plugins/swh-plugins/files/digest-swh-plugins-0.4.15
+	A	media-plugins/swh-plugins/Manifest
+	A	media-plugins/swh-plugins/swh-plugins-0.4.15.ebuild
+	A	media-plugins/preamp/files/digest-preamp-2.0
+	A	media-plugins/preamp/preamp-2.0.ebuild
+	A	media-plugins/preamp/Manifest
+	A	media-plugins/omins/Manifest
+	A	media-plugins/omins/files/digest-omins-0.2.0
+	A	media-plugins/omins/omins-0.2.0.ebuild
 	A	sys-apps/das_watchdog/das_watchdog-0.2.5.ebuild
-	A	sys-apps/das_watchdog/files/digest-das_watchdog-0.3.1
-	A	sys-apps/das_watchdog/files/digest-das_watchdog-0.2.4
 	A	sys-apps/das_watchdog/files/digest-das_watchdog-0.2.5
 	A	sys-apps/das_watchdog/files/das_watchdog-init.d.gz
+	A	sys-apps/das_watchdog/files/digest-das_watchdog-0.3.1
+	A	sys-apps/das_watchdog/files/digest-das_watchdog-0.2.4
 	A	sys-apps/das_watchdog/Manifest
 	A	sys-apps/das_watchdog/das_watchdog-0.3.1.ebuild
+	A	sys-apps/das_watchdog/das_watchdog-0.2.4.ebuild
 	A	x11-libs/qwt/files/digest-qwt-9999
 	A	x11-libs/qwt/Manifest
 	A	x11-libs/qwt/qwt-9999.ebuild
 	A	dev-libs/libinstpatch/files/digest-libinstpatch-1.0.0_pre1
 	A	dev-libs/libinstpatch/Manifest
 	A	dev-libs/libinstpatch/libinstpatch-1.0.0_pre1.ebuild
-	A	media-sound/jackmeter/Manifest
-	A	media-sound/jackmeter/jackmeter-0.3.ebuild
-	A	media-sound/jackmeter/files/digest-jackmeter-0.3
-	A	media-sound/zynaddsubfx-converter/Manifest
-	A	media-sound/zynaddsubfx-converter/zynaddsubfx-converter-2.0.0_pre2.ebuild
-	A	media-sound/zynaddsubfx-converter/files/zynaddsubfx-converter-patches.tar.gz
-	A	media-sound/zynaddsubfx-converter/files/digest-zynaddsubfx-converter-2.0.0_pre2
+	A	media-sound/ecamegapedal/files/digest-ecamegapedal-0.4.4
+	A	media-sound/ecamegapedal/Manifest
+	A	media-sound/ecamegapedal/ecamegapedal-0.4.4.ebuild
+	A	media-sound/fluidsynth/ChangeLog
+	A	media-sound/fluidsynth/fluidsynth-1.0.6-r1.ebuild
+	A	media-sound/fluidsynth/fluidsynth-1.0.7.ebuild
+	A	media-sound/fluidsynth/fluidsynth-1.0.7a.ebuild
+	A	media-sound/fluidsynth/metadata.xml
+	A	media-sound/fluidsynth/files/1.0.3-nonx86.patch
+	A	media-sound/fluidsynth/files/fluidsynth-1.0.6.amd64.patch
+	A	media-sound/fluidsynth/files/digest-fluidsynth-1.0.6-r1
+	A	media-sound/fluidsynth/files/digest-fluidsynth-1.0.7
+	A	media-sound/fluidsynth/files/digest-fluidsynth-1.0.7a
+	A	media-sound/fluidsynth/Manifest
+	A	media-sound/ardour/ardour-0.99.3.ebuild
+	A	media-sound/ardour/ardour-9999.ebuild
+	A	media-sound/ardour/files/digest-ardour-0.99.2
+	A	media-sound/ardour/files/digest-ardour-0.99.3
+	A	media-sound/ardour/files/digest-ardour-9999
+	A	media-sound/ardour/files/ardour-vst-support_0_1.patch
+	A	media-sound/ardour/files/ardour-vst-support_1_1.patch
+	A	media-sound/ardour/Manifest
+	A	media-sound/ardour/ardour-0.99.2.ebuild
+	A	media-sound/breakage/files/digest-breakage-23
+	A	media-sound/breakage/Manifest
+	A	media-sound/breakage/breakage-23.ebuild
+	A	media-sound/freecycle/files/freecycle-0.6alpha_gcc34_compat.patch
+	A	media-sound/freecycle/files/digest-freecycle-0.51a-r1
+	A	media-sound/freecycle/files/digest-freecycle-0.60a
+	A	media-sound/freecycle/Manifest
+	A	media-sound/freecycle/freecycle-0.51a-r1.ebuild
+	A	media-sound/freecycle/freecycle-0.60a.ebuild
+	A	media-sound/gnusound/files/gnusound-0.7.4-destdir.patch
+	A	media-sound/gnusound/files/digest-gnusound-0.7.4-r1
+	A	media-sound/gnusound/Manifest
+	A	media-sound/gnusound/gnusound-0.7.4-r1.ebuild
 	A	media-sound/jackdmp/jackdmp-9999.ebuild
 	A	media-sound/jackdmp/jackdmp-0.61.ebuild
 	A	media-sound/jackdmp/files/digest-jackdmp-9999
 	A	media-sound/jackdmp/files/digest-jackdmp-0.61
 	A	media-sound/jackdmp/Manifest
-	A	media-sound/freebirth/freebirth-0.3.2.ebuild
-	A	media-sound/freebirth/metadata.xml
-	A	media-sound/freebirth/files/freebirth-0.3.2-gentoo.patch
-	A	media-sound/freebirth/files/digest-freebirth-0.3.2
-	A	media-sound/freebirth/Manifest
-	A	media-sound/freebirth/ChangeLog
-	A	media-sound/san-dysth/files/digest-san-dysth-0.1.0-r1
-	A	media-sound/san-dysth/Manifest
-	A	media-sound/san-dysth/san-dysth-0.1.0-r1.ebuild
+	A	media-sound/yatm/yatm-0.4.ebuild
+	A	media-sound/yatm/metadata.xml
+	A	media-sound/yatm/files/digest-yatm-0.4
+	A	media-sound/yatm/Manifest
 	A	media-sound/bristol/bristol-0.9.4.57.ebuild
 	A	media-sound/bristol/bristol-0.9.5.66.ebuild
-	A	media-sound/bristol/files/Makefile
-	A	media-sound/bristol/files/digest-bristol-0.9.1
-	A	media-sound/bristol/files/build
 	A	media-sound/bristol/files/digest-bristol-0.9.4.1
 	A	media-sound/bristol/files/digest-bristol-0.9.5.89
 	A	media-sound/bristol/files/digest-bristol-0.9.5.60
 	A	media-sound/bristol/files/digest-bristol-0.9.4.57
 	A	media-sound/bristol/files/digest-bristol-0.9.5.66
+	A	media-sound/bristol/files/Makefile
+	A	media-sound/bristol/files/digest-bristol-0.9.1
+	A	media-sound/bristol/files/build
 	A	media-sound/bristol/bristol-0.9.1.ebuild
 	A	media-sound/bristol/Manifest
 	A	media-sound/bristol/bristol-0.9.4.1.ebuild
 	A	media-sound/bristol/bristol-0.9.5.89.ebuild
 	A	media-sound/bristol/bristol-0.9.5.60.ebuild
-	A	media-sound/ninjam-server/ninjam-server-0.02.ebuild
-	A	media-sound/ninjam-server/files/digest-ninjam-server-0.02
-	A	media-sound/ninjam-server/Manifest
-	A	media-sound/ldrum/files/digest-ldrum-0.6.0-r1
-	A	media-sound/ldrum/ldrum-0.6.0-r1.ebuild
-	A	media-sound/ldrum/Manifest
-	A	media-sound/miniaudicle/files/miniaudicle-0.1.3.4-makefile.patch
-	A	media-sound/miniaudicle/files/digest-miniaudicle-0.1.3.4
-	A	media-sound/miniaudicle/miniaudicle-0.1.3.4.ebuild
-	A	media-sound/miniaudicle/Manifest
+	A	media-sound/djplay/metadata.xml
+	A	media-sound/djplay/djplay-0.3.0-r1.ebuild
+	A	media-sound/djplay/files/fix_cast-amd64.patch
+	A	media-sound/djplay/files/digest-djplay-0.3.0-r1
+	A	media-sound/djplay/Manifest
+	A	media-sound/djplay/ChangeLog
+	A	media-sound/vkeybd/files/lash-enabled-default.patch
+	A	media-sound/vkeybd/files/digest-vkeybd-0.1.17-r1
+	A	media-sound/vkeybd/files/digest-vkeybd-0.1.17a
+	A	media-sound/vkeybd/Manifest
+	A	media-sound/vkeybd/vkeybd-0.1.17-r1.ebuild
+	A	media-sound/vkeybd/vkeybd-0.1.17a.ebuild
+	A	media-sound/snd/Manifest
+	A	media-sound/snd/snd-8.7.ebuild
+	A	media-sound/snd/files/digest-snd-8.7
 	A	media-sound/rezound/files/rezound-0.12.2_beta-foxinclude.patch
 	A	media-sound/rezound/files/digest-rezound-0.12.2_beta-r2
 	A	media-sound/rezound/files/digest-rezound-9999
@@ -155,185 +253,17 @@ Checked through r100Checked through r200Checked through r300Checked through r
 	A	media-sound/rezound/rezound-0.12.2_beta-r2.ebuild
 	A	media-sound/rezound/Manifest
 	A	media-sound/rezound/rezound-9999.ebuild
-	A	media-sound/iannix/iannix-0.638_beta.ebuild
-	A	media-sound/iannix/files/digest-iannix-0.638_beta
-	A	media-sound/iannix/Manifest
-	A	media-sound/tkeca/tkeca-4.0.2.ebuild
-	A	media-sound/tkeca/files/digest-tkeca-4.0.2
-	A	media-sound/tkeca/Manifest
-	A	media-sound/sooperlooper/sooperlooper-1.0.8c.ebuild
-	A	media-sound/sooperlooper/files/digest-sooperlooper-1.0.8c
-	A	media-sound/sooperlooper/Manifest
-	A	media-sound/khagan/Manifest
-	A	media-sound/khagan/khagan-0.1.2.ebuild
-	A	media-sound/khagan/files/digest-khagan-0.1.2
-	A	media-sound/fluidsynth/files/fluidsynth-1.0.6.amd64.patch
-	A	media-sound/fluidsynth/files/digest-fluidsynth-1.0.6-r1
-	A	media-sound/fluidsynth/files/digest-fluidsynth-1.0.7
-	A	media-sound/fluidsynth/files/digest-fluidsynth-1.0.7a
-	A	media-sound/fluidsynth/files/1.0.3-nonx86.patch
-	A	media-sound/fluidsynth/Manifest
-	A	media-sound/fluidsynth/ChangeLog
-	A	media-sound/fluidsynth/fluidsynth-1.0.6-r1.ebuild
-	A	media-sound/fluidsynth/fluidsynth-1.0.7.ebuild
-	A	media-sound/fluidsynth/fluidsynth-1.0.7a.ebuild
-	A	media-sound/fluidsynth/metadata.xml
-	A	media-sound/ninjam-cclient/files/add-jack-with-fixes.patch
-	A	media-sound/ninjam-cclient/files/digest-ninjam-cclient-0.01a
-	A	media-sound/ninjam-cclient/Manifest
-	A	media-sound/ninjam-cclient/ninjam-cclient-0.01a.ebuild
-	A	media-sound/csound/csound-5.02.ebuild
-	A	media-sound/csound/files/digest-csound-5.01
-	A	media-sound/csound/files/digest-csound-5.02.1
-	A	media-sound/csound/files/digest-csound-5.02
-	A	media-sound/csound/Manifest
-	A	media-sound/csound/csound-5.01.ebuild
-	A	media-sound/csound/csound-5.02.1.ebuild
-	A	media-sound/bpmdj/bpmdj-3.2.ebuild
-	A	media-sound/bpmdj/files/Makefile-prefix.patch
-	A	media-sound/bpmdj/files/Makefile-destdir.patch
-	A	media-sound/bpmdj/files/Makefile-nostrip.patch
-	A	media-sound/bpmdj/files/digest-bpmdj-3.2
-	A	media-sound/bpmdj/files/Makefile-make_install.patch
-	A	media-sound/bpmdj/files/digest-bpmdj-2.9
-	A	media-sound/bpmdj/bpmdj-2.9.ebuild
-	A	media-sound/bpmdj/Manifest
-	A	media-sound/jamin/files/digest-jamin-9999
-	A	media-sound/jamin/jamin-9999.ebuild
-	A	media-sound/jamin/Manifest
-	A	media-sound/paulstretch/Manifest
-	A	media-sound/paulstretch/paulstretch-1.000.ebuild
-	A	media-sound/paulstretch/files/digest-paulstretch-1.024
-	A	media-sound/paulstretch/files/digest-paulstretch-1.000
-	A	media-sound/paulstretch/paulstretch-1.024.ebuild
-	A	media-sound/qtractor/files/digest-qtractor-9999
-	A	media-sound/qtractor/qtractor-9999.ebuild
-	A	media-sound/qtractor/Manifest
-	A	media-sound/zynaddsubfx/metadata.xml
-	A	media-sound/zynaddsubfx/files/jackmidi_ifdef.patch
-	A	media-sound/zynaddsubfx/files/unzombify.diff
-	A	media-sound/zynaddsubfx/files/zyn-jackmidi-051205.diff
-	A	media-sound/zynaddsubfx/files/digest-zynaddsubfx-9999
-	A	media-sound/zynaddsubfx/files/fix_jackmidi.patch
-	A	media-sound/zynaddsubfx/files/zyn-lash-and-jackmidi-051205.diff
-	A	media-sound/zynaddsubfx/files/digest-zynaddsubfx-2.2.1-r5
-	A	media-sound/zynaddsubfx/files/digest-zynaddsubfx-2.2.1-r8
-	A	media-sound/zynaddsubfx/files/zyn_lash-0.5.0pre0.diff
-	A	media-sound/zynaddsubfx/zynaddsubfx-9999.ebuild
-	A	media-sound/zynaddsubfx/Manifest
-	A	media-sound/zynaddsubfx/zynaddsubfx-2.2.1-r5.ebuild
-	A	media-sound/zynaddsubfx/zynaddsubfx-2.2.1-r8.ebuild
-	A	media-sound/louderbox/Manifest
-	A	media-sound/louderbox/louderbox-9999.ebuild
-	A	media-sound/louderbox/files/louderbox-configure.patch
-	A	media-sound/louderbox/files/digest-louderbox-9999
-	A	media-sound/kontroll/files/digest-kontroll-20060925
-	A	media-sound/kontroll/files/Makefile-destdir.patch
-	A	media-sound/kontroll/Manifest
-	A	media-sound/kontroll/kontroll-20060925.ebuild
-	A	media-sound/fst-demo-synths/files/README
-	A	media-sound/fst-demo-synths/files/digest-fst-demo-synths-0.1-r2
-	A	media-sound/fst-demo-synths/files/digest-fst-demo-synths-0.1-r3
-	A	media-sound/fst-demo-synths/fst-demo-synths-0.1-r2.ebuild
-	A	media-sound/fst-demo-synths/fst-demo-synths-0.1-r3.ebuild
-	A	media-sound/fst-demo-synths/Manifest
-	A	media-sound/denemo/Manifest
-	A	media-sound/denemo/denemo-0.7.5.ebuild
-	A	media-sound/denemo/files/digest-denemo-0.7.5
-	A	media-sound/lmms/lmms-9999-r1.ebuild
-	A	media-sound/lmms/lmms-9999.ebuild
-	A	media-sound/lmms/files/digest-lmms-0.2.1
-	A	media-sound/lmms/files/digest-lmms-0.1.4
-	A	media-sound/lmms/files/digest-lmms-9999
-	A	media-sound/lmms/files/digest-lmms-9999-r1
-	A	media-sound/lmms/files/lmms-qt4_configure_gentoo.patch
-	A	media-sound/lmms/Manifest
-	A	media-sound/lmms/lmms-0.2.1.ebuild
-	A	media-sound/lmms/lmms-0.1.4.ebuild
-	A	media-sound/patchage/patchage-0.2.3.ebuild
-	A	media-sound/patchage/patchage-9999.ebuild
-	A	media-sound/patchage/files/digest-patchage-0.2.3
-	A	media-sound/patchage/files/digest-patchage-9999
-	A	media-sound/patchage/Manifest
-	A	media-sound/aqualung/aqualung-9999.ebuild
-	A	media-sound/aqualung/files/digest-aqualung-9999
-	A	media-sound/aqualung/Manifest
-	A	media-sound/jack_convolve/jack_convolve-0.0.13.ebuild
-	A	media-sound/jack_convolve/Manifest
-	A	media-sound/jack_convolve/files/Makefile-destdir.patch
-	A	media-sound/jack_convolve/files/digest-jack_convolve-0.0.13
-	A	media-sound/dino/files/digest-dino-0.2.1
-	A	media-sound/dino/Manifest
-	A	media-sound/dino/dino-0.2.1.ebuild
-	A	media-sound/simsam/files/digest-simsam-0.1.7
-	A	media-sound/simsam/files/simsam-0.1.7-gcc3_4.patch.gz
-	A	media-sound/simsam/Manifest
-	A	media-sound/simsam/simsam-0.1.7.ebuild
-	A	media-sound/freqtweak/freqtweak-0.7.0.ebuild
-	A	media-sound/freqtweak/metadata.xml
-	A	media-sound/freqtweak/files/digest-freqtweak-0.7.0
-	A	media-sound/freqtweak/Manifest
-	A	media-sound/freqtweak/ChangeLog
-	A	media-sound/lilypond/files/digest-lilypond-2.10.4
-	A	media-sound/lilypond/files/lilypond-2.10.2-version.patch
-	A	media-sound/lilypond/files/digest-lilypond-2.8.8
-	A	media-sound/lilypond/Manifest
-	A	media-sound/lilypond/lilypond-2.8.8.ebuild
-	A	media-sound/lilypond/lilypond-2.10.4.ebuild
-	A	media-sound/gmorgan/gmorgan-0.25.ebuild
-	A	media-sound/gmorgan/files/digest-gmorgan-0.25
-	A	media-sound/gmorgan/Manifest
-	A	media-sound/qjackctl/Manifest
-	A	media-sound/qjackctl/qjackctl-0.2.20.ebuild
-	A	media-sound/qjackctl/qjackctl-0.2.21.ebuild
-	A	media-sound/qjackctl/qjackctl-9999.ebuild
-	A	media-sound/qjackctl/files/digest-qjackctl-0.2.20
-	A	media-sound/qjackctl/files/digest-qjackctl-0.2.21
-	A	media-sound/qjackctl/files/digest-qjackctl-9999
-	A	media-sound/soma/files/digest-soma-2.3
-	A	media-sound/soma/soma-2.3.ebuild
-	A	media-sound/soma/Manifest
-	A	media-sound/jackbeat/files/digest-jackbeat-0.5.4
-	A	media-sound/jackbeat/Manifest
-	A	media-sound/jackbeat/jackbeat-0.5.4.ebuild
-	A	media-sound/qmidicontrol/files/qmidicontrol-0.0.1b-qtbasedir.patch
-	A	media-sound/qmidicontrol/files/digest-qmidicontrol-0.0.1b
-	A	media-sound/qmidicontrol/qmidicontrol-0.0.1b.ebuild
-	A	media-sound/qmidicontrol/Manifest
-	A	media-sound/drc/drc-2.6.2.ebuild
-	A	media-sound/drc/files/digest-drc-2.6.2
-	A	media-sound/drc/Manifest
-	A	media-sound/drc/fix
-	A	media-sound/idjc/files/digest-idjc-0.6.3
-	A	media-sound/idjc/files/digest-idjc-0.6.8_pre5
-	A	media-sound/idjc/Manifest
-	A	media-sound/idjc/idjc-0.6.3.ebuild
-	A	media-sound/idjc/idjc-0.6.8_pre5.ebuild
-	A	media-sound/om/om-9999.ebuild
-	A	media-sound/om/files/digest-om-9999
-	A	media-sound/om/files/om-src-engine-LashDriver.cpp.diff
-	A	media-sound/om/files/digest-om-0.2.0
-	A	media-sound/om/Manifest
-	A	media-sound/om/om-0.2.0.ebuild
-	A	media-sound/amidimap/amidimap-0.1.1.ebuild
-	A	media-sound/amidimap/files/digest-amidimap-0.1.1
-	A	media-sound/amidimap/Manifest
-	A	media-sound/qsampler/Manifest
-	A	media-sound/qsampler/qsampler-9999.ebuild
-	A	media-sound/qsampler/files/digest-qsampler-9999
-	A	media-sound/midicontroller/Manifest
-	A	media-sound/midicontroller/midicontroller-041011.ebuild
-	A	media-sound/midicontroller/files/digest-midicontroller-041011
-	A	media-sound/madjack/files/digest-madjack-0.4
-	A	media-sound/madjack/Manifest
-	A	media-sound/madjack/madjack-0.4.ebuild
-	A	media-sound/jack_capture/jack_capture-0.3.7.ebuild
-	A	media-sound/jack_capture/files/digest-jack_capture-0.3.7
-	A	media-sound/jack_capture/files/digest-jack_capture-0.3.9
-	A	media-sound/jack_capture/files/digest-jack_capture-0.9.3
-	A	media-sound/jack_capture/jack_capture-0.3.9.ebuild
-	A	media-sound/jack_capture/jack_capture-0.9.3.ebuild
-	A	media-sound/jack_capture/Manifest
+	A	media-sound/meterbridge/meterbridge-0.9.2-r1.ebuild
+	A	media-sound/meterbridge/meterbridge-0.9.2-r2.ebuild
+	A	media-sound/meterbridge/files/meterbridge.1.gz
+	A	media-sound/meterbridge/files/meterbridge_0.9.2-4.0.0.1.gcc4.patch
+	A	media-sound/meterbridge/files/digest-meterbridge-0.9.2-r1
+	A	media-sound/meterbridge/files/digest-meterbridge-0.9.2-r2
+	A	media-sound/meterbridge/files/meterbridge-lash.patch
+	A	media-sound/meterbridge/Manifest
+	A	media-sound/afsp/afsp-8.2.ebuild
+	A	media-sound/afsp/files/digest-afsp-8.2
+	A	media-sound/afsp/Manifest
 	A	media-sound/smack/Manifest
 	A	media-sound/smack/smack-0.2.1.ebuild
 	A	media-sound/smack/smack-0.3.ebuild
@@ -341,80 +271,73 @@ Checked through r100Checked through r200Checked through r300Checked through r
 	A	media-sound/smack/files/digest-smack-0.3
 	A	media-sound/smack/files/digest-smack-9999
 	A	media-sound/smack/smack-9999.ebuild
-	A	media-sound/fmit/fmit-0.96.5-r1.ebuild
-	A	media-sound/fmit/fmit-0.96.5.ebuild
-	A	media-sound/fmit/files/digest-fmit-0.96.5
-	A	media-sound/fmit/files/digest-fmit-0.96.5-r1
-	A	media-sound/fmit/Manifest
-	A	media-sound/breakage/files/digest-breakage-23
-	A	media-sound/breakage/Manifest
-	A	media-sound/breakage/breakage-23.ebuild
-	A	media-sound/gnusound/files/gnusound-0.7.4-destdir.patch
-	A	media-sound/gnusound/files/digest-gnusound-0.7.4-r1
-	A	media-sound/gnusound/Manifest
-	A	media-sound/gnusound/gnusound-0.7.4-r1.ebuild
-	A	media-sound/pitchtune/files/digest-pitchtune-0.0.4
-	A	media-sound/pitchtune/pitchtune-0.0.4.ebuild
-	A	media-sound/pitchtune/Manifest
-	A	media-sound/kaconnect/files/digest-kaconnect-1.1.1-r1
-	A	media-sound/kaconnect/kaconnect-1.1.1-r1.ebuild
-	A	media-sound/kaconnect/Manifest
-	A	media-sound/kguitar/files/digest-kguitar-0.5
-	A	media-sound/kguitar/files/tetex_sandbox.patch
-	A	media-sound/kguitar/Manifest
-	A	media-sound/kguitar/kguitar-0.5.ebuild
-	A	media-sound/openbeatbox/Manifest
-	A	media-sound/openbeatbox/openbeatbox-0.7.1.ebuild
-	A	media-sound/openbeatbox/files/digest-openbeatbox-0.7.1
-	A	media-sound/gdam/files/digest-gdam-9999
-	A	media-sound/gdam/files/digest-gdam-0.942
-	A	media-sound/gdam/gdam-0.942.ebuild
-	A	media-sound/gdam/Manifest
-	A	media-sound/gdam/gdam-9999.ebuild
-	A	media-sound/wired/Manifest
+	A	media-sound/jace/jace-0.0.2.ebuild
+	A	media-sound/jace/jace-0.0.3.ebuild
+	A	media-sound/jace/files/Makefile-destdir.patch
+	A	media-sound/jace/files/jace-0.0.3-makefile.patch
+	A	media-sound/jace/files/digest-jace-0.0.2
+	A	media-sound/jace/files/digest-jace-0.0.3
+	A	media-sound/jace/Manifest
+	A	media-sound/alsaplayer-fftscope/files/fftscope.c.patch
+	A	media-sound/alsaplayer-fftscope/files/digest-alsaplayer-fftscope-9999
+	A	media-sound/alsaplayer-fftscope/Manifest
+	A	media-sound/alsaplayer-fftscope/alsaplayer-fftscope-9999.ebuild
+	A	media-sound/mjoo/files/digest-mjoo-9999
+	A	media-sound/mjoo/Manifest
+	A	media-sound/mjoo/mjoo-9999.ebuild
+	A	media-sound/fst-demo-synths/Manifest
+	A	media-sound/fst-demo-synths/files/README
+	A	media-sound/fst-demo-synths/files/digest-fst-demo-synths-0.1-r2
+	A	media-sound/fst-demo-synths/files/digest-fst-demo-synths-0.1-r3
+	A	media-sound/fst-demo-synths/fst-demo-synths-0.1-r2.ebuild
+	A	media-sound/fst-demo-synths/fst-demo-synths-0.1-r3.ebuild
+	A	media-sound/simplesysexxer/files/digest-simplesysexxer-0.1.1
+	A	media-sound/simplesysexxer/simplesysexxer-0.1.1.ebuild
+	A	media-sound/simplesysexxer/Manifest
+	A	media-sound/aldrin/aldrin-0.8.ebuild
+	A	media-sound/aldrin/aldrin-0.9.ebuild
+	A	media-sound/aldrin/files/digest-aldrin-0.8
+	A	media-sound/aldrin/files/digest-aldrin-0.9
+	A	media-sound/aldrin/Manifest
 	A	media-sound/wired/wired-0.2.2.ebuild
 	A	media-sound/wired/wired-0.3.1.ebuild
 	A	media-sound/wired/wired-9999.ebuild
 	A	media-sound/wired/wired-0.4_alpha.ebuild
-	A	media-sound/wired/files/digest-wired-9999
-	A	media-sound/wired/files/digest-wired-0.4_alpha
 	A	media-sound/wired/files/digest-wired-0.2.2
 	A	media-sound/wired/files/digest-wired-0.3.1
-	A	media-sound/alsaplayer-midi/Manifest
-	A	media-sound/alsaplayer-midi/alsaplayer-midi-9999.ebuild
-	A	media-sound/alsaplayer-midi/files/digest-alsaplayer-midi-9999
-	A	media-sound/mixxx/mixxx-1.5.0_beta1.ebuild
+	A	media-sound/wired/files/digest-wired-9999
+	A	media-sound/wired/files/digest-wired-0.4_alpha
+	A	media-sound/wired/Manifest
+	A	media-sound/om/Manifest
+	A	media-sound/om/om-0.2.0.ebuild
+	A	media-sound/om/om-9999.ebuild
+	A	media-sound/om/files/digest-om-9999
+	A	media-sound/om/files/om-src-engine-LashDriver.cpp.diff
+	A	media-sound/om/files/digest-om-0.2.0
 	A	media-sound/mixxx/files/digest-mixxx-1.5.0_beta1
 	A	media-sound/mixxx/Manifest
+	A	media-sound/mixxx/mixxx-1.5.0_beta1.ebuild
+	A	media-sound/schism-tracker/files/digest-schism-tracker-9999
+	A	media-sound/schism-tracker/schism-tracker-9999.ebuild
+	A	media-sound/schism-tracker/Manifest
+	A	media-sound/gwc/files/digest-gwc-0.21.05-r1
+	A	media-sound/gwc/gwc-0.21.05-r1.ebuild
+	A	media-sound/gwc/Manifest
+	A	media-sound/swami/Manifest
+	A	media-sound/swami/ChangeLog
+	A	media-sound/swami/swami-0.9.2.ebuild
 	A	media-sound/swami/metadata.xml
 	A	media-sound/swami/files/digest-swami-1.0.0_pre1
 	A	media-sound/swami/files/digest-swami-0.9.2
 	A	media-sound/swami/swami-1.0.0_pre1.ebuild
-	A	media-sound/swami/Manifest
-	A	media-sound/swami/ChangeLog
-	A	media-sound/swami/swami-0.9.2.ebuild
+	A	media-sound/flake/flake-0.10.ebuild
 	A	media-sound/flake/files/digest-flake-0.10
 	A	media-sound/flake/Manifest
-	A	media-sound/flake/flake-0.10.ebuild
-	A	media-sound/museseq/museseq-0.9_pre1.ebuild
-	A	media-sound/museseq/museseq-0.9_pre2.ebuild
-	A	media-sound/museseq/files/digest-museseq-0.9_pre2
-	A	media-sound/museseq/files/museseq-0.8.1-lash-cosmetic-fix.patch
-	A	media-sound/museseq/files/digest-museseq-9999
-	A	media-sound/museseq/files/museseq-0.8.1-gcc4.patch
-	A	media-sound/museseq/files/digest-museseq-0.8.1
-	A	media-sound/museseq/files/digest-museseq-0.8.1-r2
-	A	media-sound/museseq/files/digest-museseq-0.8.1a
-	A	media-sound/museseq/files/museseq-0.8.1-lash-shutdown-fix.patch
-	A	media-sound/museseq/files/digest-museseq-0.9_pre1
-	A	media-sound/museseq/Manifest
-	A	media-sound/museseq/museseq-9999.ebuild
-	A	media-sound/museseq/museseq-0.8.1.ebuild
-	A	media-sound/museseq/museseq-0.8.1-r2.ebuild
-	A	media-sound/museseq/museseq-0.8.1a.ebuild
-	A	media-sound/ices/files/digest-ices-2.0.60a
-	A	media-sound/ices/Manifest
-	A	media-sound/ices/ices-2.0.60a.ebuild
+	A	media-sound/timemachine/metadata.xml
+	A	media-sound/timemachine/files/digest-timemachine-0.3.1
+	A	media-sound/timemachine/timemachine-0.3.1.ebuild
+	A	media-sound/timemachine/Manifest
+	A	media-sound/timemachine/ChangeLog
 	A	media-sound/sweep/files/digest-sweep-9999
 	A	media-sound/sweep/files/sweep-0.9.1-alsa.patch
 	A	media-sound/sweep/files/digest-sweep-0.9.1
@@ -423,67 +346,443 @@ Checked through r100Checked through r200Checked through r300Checked through r
 	A	media-sound/sweep/sweep-9999.ebuild
 	A	media-sound/sweep/sweep-0.9.1-r1.ebuild
 	A	media-sound/sweep/sweep-0.9.1.ebuild
-	A	media-sound/tapiir/files/tapiir-0.7.1-multiline.patch
-	A	media-sound/tapiir/files/tapiir-0.7.1-mtd.patch
-	A	media-sound/tapiir/files/tapiir-gcc4.patch
-	A	media-sound/tapiir/files/tapiir-0.7.1-alsa.patch
-	A	media-sound/tapiir/files/tapiir-buffersizecallback.patch
-	A	media-sound/tapiir/files/digest-tapiir-0.7.1-r1
-	A	media-sound/tapiir/Manifest
-	A	media-sound/tapiir/tapiir-0.7.1-r1.ebuild
-	A	media-sound/aeolus/aeolus-0.6.6-r1.ebuild
-	A	media-sound/aeolus/aeolus-0.6.6.ebuild
-	A	media-sound/aeolus/files/digest-aeolus-0.6.6
-	A	media-sound/aeolus/files/digest-aeolus-0.6.6-r1
-	A	media-sound/aeolus/files/aeolus.conf
-	A	media-sound/aeolus/files/aeolus-0.6.6-makefile.patch
-	A	media-sound/aeolus/files/aeolus-0.6.6-r1-makefile.patch
-	A	media-sound/aeolus/files/aeolus-wrapper-script
-	A	media-sound/aeolus/Manifest
+	A	media-sound/jokosher/jokosher-0.1-r2.ebuild
+	A	media-sound/jokosher/Manifest
+	A	media-sound/jokosher/jokosher-9999.ebuild
+	A	media-sound/jokosher/files/digest-jokosher-0.1-r2
+	A	media-sound/jokosher/files/digest-jokosher-9999
+	A	media-sound/ktabedit/files/digest-ktabedit-0.0.8
+	A	media-sound/ktabedit/Manifest
+	A	media-sound/ktabedit/ktabedit-0.0.8.ebuild
+	A	media-sound/sooperlooper/sooperlooper-1.0.8c.ebuild
+	A	media-sound/sooperlooper/files/digest-sooperlooper-1.0.8c
+	A	media-sound/sooperlooper/Manifest
+	A	media-sound/tuneroid/files/digest-tuneroid-0.9.5
+	A	media-sound/tuneroid/tuneroid-0.9.5.ebuild
+	A	media-sound/tuneroid/Manifest
+	A	media-sound/gmorgan/gmorgan-0.25.ebuild
+	A	media-sound/gmorgan/files/digest-gmorgan-0.25
+	A	media-sound/gmorgan/Manifest
+	A	media-sound/tuxguitar/Manifest
+	A	media-sound/tuxguitar/tuxguitar-0.5.ebuild
+	A	media-sound/tuxguitar/tuxguitar-0.6.ebuild
+	A	media-sound/tuxguitar/files/digest-tuxguitar-0.5
+	A	media-sound/tuxguitar/files/digest-tuxguitar-0.6
+	A	media-sound/tuxguitar/files/digest-tuxguitar-0.8
+	A	media-sound/tuxguitar/tuxguitar-0.8.ebuild
+	A	media-sound/chuck/chuck-1.2.0.6.ebuild
+	A	media-sound/chuck/files/chuck-1.2.0.6-makefile.patch
+	A	media-sound/chuck/files/digest-chuck-1.2.0.6
+	A	media-sound/chuck/Manifest
+	A	media-sound/ghostess/Manifest
+	A	media-sound/ghostess/ghostess-20050916.ebuild
+	A	media-sound/ghostess/files/digest-ghostess-20050916
+	A	media-sound/ghostess/files/digest-ghostess-20061127
+	A	media-sound/ghostess/ghostess-20061127.ebuild
+	A	media-sound/sonic-visualiser/files/digest-sonic-visualiser-0.9
+	A	media-sound/sonic-visualiser/Manifest
+	A	media-sound/sonic-visualiser/sonic-visualiser-0.9.ebuild
+	A	media-sound/ingen/Manifest
+	A	media-sound/ingen/files/digest-ingen-9999
+	A	media-sound/ingen/ingen-9999.ebuild
+	A	media-sound/kluppe/kluppe-0.6.8.ebuild
+	A	media-sound/kluppe/files/digest-kluppe-0.5.4
+	A	media-sound/kluppe/files/digest-kluppe-0.6.5
+	A	media-sound/kluppe/files/digest-kluppe-0.6.8
+	A	media-sound/kluppe/kluppe-0.5.4.ebuild
+	A	media-sound/kluppe/Manifest
+	A	media-sound/kluppe/kluppe-0.6.5.ebuild
+	A	media-sound/jackminimix/files/digest-jackminimix-0.1
+	A	media-sound/jackminimix/jackminimix-0.1.ebuild
+	A	media-sound/jackminimix/Manifest
+	A	media-sound/jackmeter/files/digest-jackmeter-0.3
+	A	media-sound/jackmeter/Manifest
+	A	media-sound/jackmeter/jackmeter-0.3.ebuild
+	A	media-sound/lmms/files/digest-lmms-0.2.1
+	A	media-sound/lmms/files/digest-lmms-0.1.4
+	A	media-sound/lmms/files/digest-lmms-9999
+	A	media-sound/lmms/files/digest-lmms-9999-r1
+	A	media-sound/lmms/files/lmms-qt4_configure_gentoo.patch
+	A	media-sound/lmms/Manifest
+	A	media-sound/lmms/lmms-0.2.1.ebuild
+	A	media-sound/lmms/lmms-0.1.4.ebuild
+	A	media-sound/lmms/lmms-9999-r1.ebuild
+	A	media-sound/lmms/lmms-9999.ebuild
+	A	media-sound/freebirth/metadata.xml
+	A	media-sound/freebirth/files/digest-freebirth-0.3.2
+	A	media-sound/freebirth/files/freebirth-0.3.2-gentoo.patch
+	A	media-sound/freebirth/Manifest
+	A	media-sound/freebirth/ChangeLog
+	A	media-sound/freebirth/freebirth-0.3.2.ebuild
+	A	media-sound/san-dysth/files/digest-san-dysth-0.1.0-r1
+	A	media-sound/san-dysth/Manifest
+	A	media-sound/san-dysth/san-dysth-0.1.0-r1.ebuild
+	A	media-sound/hydrogen/Manifest
+	A	media-sound/hydrogen/hydrogen-0.9.2.ebuild
+	A	media-sound/hydrogen/ChangeLog
+	A	media-sound/hydrogen/hydrogen-0.9.3-r1.ebuild
+	A	media-sound/hydrogen/hydrogen-0.9.3.ebuild
+	A	media-sound/hydrogen/metadata.xml
+	A	media-sound/hydrogen/files/hydrogen-0.9.3-segfault.patch
+	A	media-sound/hydrogen/files/digest-hydrogen-0.9.2
+	A	media-sound/hydrogen/files/digest-hydrogen-0.9.3
+	A	media-sound/hydrogen/files/digest-hydrogen-0.9.3-r1
+	A	media-sound/hydrogen/files/0.9.1-OSS.patch
+	A	media-sound/hydrogen/files/hydrogen-0.9.2-configure.in.patch
+	A	media-sound/dino/dino-0.2.1.ebuild
+	A	media-sound/dino/files/digest-dino-0.2.1
+	A	media-sound/dino/Manifest
+	A	media-sound/madjack/madjack-0.4.ebuild
+	A	media-sound/madjack/files/digest-madjack-0.4
+	A	media-sound/madjack/Manifest
+	A	media-sound/lingot/lingot-0.6.2.ebuild
+	A	media-sound/lingot/files/digest-lingot-0.6.1
+	A	media-sound/lingot/files/digest-lingot-0.6.2
+	A	media-sound/lingot/Manifest
+	A	media-sound/lingot/lingot-0.6.1.ebuild
+	A	media-sound/alsaplayer/Manifest
+	A	media-sound/alsaplayer/ChangeLog
+	A	media-sound/alsaplayer/alsaplayer-0.99.76-r5.ebuild
+	A	media-sound/alsaplayer/alsaplayer-0.99.76-r6.ebuild
 	A	media-sound/alsaplayer/alsaplayer-9999.ebuild
+	A	media-sound/alsaplayer/files/alsaplayer-0.99.76-join-null-thread.patch
+	A	media-sound/alsaplayer/files/alsaplayer-0.99.76-cxxflags.patch
+	A	media-sound/alsaplayer/files/alsaplayer-patches-2.tar.bz2
 	A	media-sound/alsaplayer/files/alsaplayer-patches-3.tar.gz
 	A	media-sound/alsaplayer/files/digest-alsaplayer-0.99.76-r5
 	A	media-sound/alsaplayer/files/alsaplayer-endian.patch
 	A	media-sound/alsaplayer/files/digest-alsaplayer-0.99.76-r6
 	A	media-sound/alsaplayer/files/alsaplayer-9999-cxxflags.patch
 	A	media-sound/alsaplayer/files/digest-alsaplayer-9999
-	A	media-sound/alsaplayer/files/alsaplayer-0.99.76-join-null-thread.patch
-	A	media-sound/alsaplayer/files/alsaplayer-0.99.76-cxxflags.patch
-	A	media-sound/alsaplayer/files/alsaplayer-patches-2.tar.bz2
-	A	media-sound/alsaplayer/Manifest
-	A	media-sound/alsaplayer/ChangeLog
-	A	media-sound/alsaplayer/alsaplayer-0.99.76-r5.ebuild
-	A	media-sound/alsaplayer/alsaplayer-0.99.76-r6.ebuild
-	A	media-sound/chuck/Manifest
-	A	media-sound/chuck/chuck-1.2.0.6.ebuild
-	A	media-sound/chuck/files/chuck-1.2.0.6-makefile.patch
-	A	media-sound/chuck/files/digest-chuck-1.2.0.6
-	A	media-sound/mammut/files/digest-mammut-0.22
-	A	media-sound/mammut/mammut-0.22.ebuild
-	A	media-sound/mammut/Manifest
-	A	media-sound/ingen/files/digest-ingen-9999
-	A	media-sound/ingen/ingen-9999.ebuild
-	A	media-sound/ingen/Manifest
+	A	media-sound/jackEQ/Manifest
+	A	media-sound/jackEQ/jackEQ-0.4.1.ebuild
+	A	media-sound/jackEQ/files/digest-jackEQ-0.4.1
+	A	media-sound/soma/files/digest-soma-2.3
+	A	media-sound/soma/soma-2.3.ebuild
+	A	media-sound/soma/Manifest
+	A	media-sound/snd-ls/Manifest
+	A	media-sound/snd-ls/snd-ls-0.9.7.0-r1.ebuild
+	A	media-sound/snd-ls/snd-ls-0.9.6.2.ebuild
+	A	media-sound/snd-ls/snd-ls-0.9.7.11.ebuild
+	A	media-sound/snd-ls/snd-ls-0.9.7.4.ebuild
+	A	media-sound/snd-ls/files/digest-snd-ls-0.9.7.0-r1
+	A	media-sound/snd-ls/files/digest-snd-ls-0.9.6.2
+	A	media-sound/snd-ls/files/digest-snd-ls-0.9.7.11
+	A	media-sound/snd-ls/files/digest-snd-ls-0.9.7.4
+	A	media-sound/alsa-midi-humanizer/Manifest
+	A	media-sound/alsa-midi-humanizer/alsa-midi-humanizer-0.0.3.ebuild
+	A	media-sound/alsa-midi-humanizer/files/digest-alsa-midi-humanizer-0.0.3
+	A	media-sound/louderbox/files/louderbox-configure.patch
+	A	media-sound/louderbox/files/digest-louderbox-9999
+	A	media-sound/louderbox/Manifest
+	A	media-sound/louderbox/louderbox-9999.ebuild
+	A	media-sound/qmidicontrol/Manifest
+	A	media-sound/qmidicontrol/files/digest-qmidicontrol-0.0.1b
+	A	media-sound/qmidicontrol/files/qmidicontrol-0.0.1b-qtbasedir.patch
+	A	media-sound/qmidicontrol/qmidicontrol-0.0.1b.ebuild
+	A	media-sound/kguitar/files/digest-kguitar-0.5
+	A	media-sound/kguitar/files/tetex_sandbox.patch
+	A	media-sound/kguitar/Manifest
+	A	media-sound/kguitar/kguitar-0.5.ebuild
+	A	media-sound/qoscc/files/digest-qoscc-0.3.1
+	A	media-sound/qoscc/Manifest
+	A	media-sound/qoscc/qoscc-0.3.1.ebuild
+	A	media-sound/idjc/Manifest
+	A	media-sound/idjc/idjc-0.6.3.ebuild
+	A	media-sound/idjc/idjc-0.6.8_pre5.ebuild
+	A	media-sound/idjc/files/digest-idjc-0.6.3
+	A	media-sound/idjc/files/digest-idjc-0.6.8_pre5
 	A	media-sound/somaplayer/somaplayer-0.5.2.ebuild
 	A	media-sound/somaplayer/files/digest-somaplayer-0.5.2
 	A	media-sound/somaplayer/Manifest
-	A	media-sound/amsynth/amsynth-1.1.0-r1.ebuild
+	A	media-sound/alsaplayer-midi/alsaplayer-midi-9999.ebuild
+	A	media-sound/alsaplayer-midi/files/digest-alsaplayer-midi-9999
+	A	media-sound/alsaplayer-midi/Manifest
+	A	media-sound/gneutronica/Manifest
+	A	media-sound/gneutronica/gneutronica-0.28.ebuild
+	A	media-sound/gneutronica/gneutronica-0.29.ebuild
+	A	media-sound/gneutronica/files/digest-gneutronica-0.28
+	A	media-sound/gneutronica/files/digest-gneutronica-0.29
+	A	media-sound/gneutronica/files/gneutronica-0.28-makefile.patch
+	A	media-sound/qamix/files/digest-qamix-0.0.7e
+	A	media-sound/qamix/Manifest
+	A	media-sound/qamix/qamix-0.0.7e.ebuild
+	A	media-sound/ams/ams-1.8.7-r1.ebuild
+	A	media-sound/ams/files/digest-ams-1.8.7-r1
+	A	media-sound/ams/Manifest
+	A	media-sound/museseq/museseq-0.9_pre1.ebuild
+	A	media-sound/museseq/museseq-0.9_pre2.ebuild
+	A	media-sound/museseq/files/digest-museseq-0.9_pre1
+	A	media-sound/museseq/files/digest-museseq-0.9_pre2
+	A	media-sound/museseq/files/museseq-0.8.1-lash-cosmetic-fix.patch
+	A	media-sound/museseq/files/digest-museseq-9999
+	A	media-sound/museseq/files/museseq-0.8.1-gcc4.patch
+	A	media-sound/museseq/files/digest-museseq-0.8.1
+	A	media-sound/museseq/files/digest-museseq-0.8.1-r2
+	A	media-sound/museseq/files/digest-museseq-0.8.1a
+	A	media-sound/museseq/files/museseq-0.8.1-lash-shutdown-fix.patch
+	A	media-sound/museseq/Manifest
+	A	media-sound/museseq/museseq-9999.ebuild
+	A	media-sound/museseq/museseq-0.8.1.ebuild
+	A	media-sound/museseq/museseq-0.8.1-r2.ebuild
+	A	media-sound/museseq/museseq-0.8.1a.ebuild
+	A	media-sound/raton/files/digest-raton-0.22
+	A	media-sound/raton/raton-0.22.ebuild
+	A	media-sound/raton/Manifest
+	A	media-sound/iannix/iannix-0.638_beta.ebuild
+	A	media-sound/iannix/files/digest-iannix-0.638_beta
+	A	media-sound/iannix/Manifest
+	A	media-sound/tutka/files/digest-tutka-0.12.4
+	A	media-sound/tutka/Manifest
+	A	media-sound/tutka/tutka-0.12.4.ebuild
+	A	media-sound/rosegarden/rosegarden-9999.ebuild
+	A	media-sound/rosegarden/rosegarden-4.1.2.3-r2.ebuild
+	A	media-sound/rosegarden/rosegarden-4.1.2.4.ebuild
+	A	media-sound/rosegarden/files/digest-rosegarden-4.1.0-r2
+	A	media-sound/rosegarden/files/digest-rosegarden-4.1.4.0
+	A	media-sound/rosegarden/files/digest-rosegarden-9999
+	A	media-sound/rosegarden/files/digest-rosegarden-4.1.2.3-r2
+	A	media-sound/rosegarden/files/digest-rosegarden-4.1.2.4
+	A	media-sound/rosegarden/files/rosegarden-colour.patch
+	A	media-sound/rosegarden/files/4.1.0-dssi.patch
+	A	media-sound/rosegarden/files/digest-rosegarden-4.1.3_pre1
+	A	media-sound/rosegarden/rosegarden-4.1.3_pre1.ebuild
+	A	media-sound/rosegarden/Manifest
+	A	media-sound/rosegarden/rosegarden-4.1.0-r2.ebuild
+	A	media-sound/rosegarden/rosegarden-4.1.4.0.ebuild
+	A	media-sound/khagan/files/digest-khagan-0.1.2
+	A	media-sound/khagan/Manifest
+	A	media-sound/khagan/khagan-0.1.2.ebuild
+	A	media-sound/freqtweak/Manifest
+	A	media-sound/freqtweak/ChangeLog
+	A	media-sound/freqtweak/freqtweak-0.7.0.ebuild
+	A	media-sound/freqtweak/metadata.xml
+	A	media-sound/freqtweak/files/digest-freqtweak-0.7.0
+	A	media-sound/stygmorgan/stygmorgan-0.27.ebuild
+	A	media-sound/stygmorgan/files/digest-stygmorgan-0.27
+	A	media-sound/stygmorgan/Manifest
+	A	media-sound/jack_capture/jack_capture-0.3.7.ebuild
+	A	media-sound/jack_capture/files/digest-jack_capture-0.3.7
+	A	media-sound/jack_capture/files/digest-jack_capture-0.3.9
+	A	media-sound/jack_capture/files/digest-jack_capture-0.9.3
+	A	media-sound/jack_capture/jack_capture-0.3.9.ebuild
+	A	media-sound/jack_capture/jack_capture-0.9.3.ebuild
+	A	media-sound/jack_capture/Manifest
+	A	media-sound/ninjam-cclient/ninjam-cclient-0.01a.ebuild
+	A	media-sound/ninjam-cclient/files/digest-ninjam-cclient-0.01a
+	A	media-sound/ninjam-cclient/files/add-jack-with-fixes.patch
+	A	media-sound/ninjam-cclient/Manifest
+	A	media-sound/csound/Manifest
+	A	media-sound/csound/csound-5.01.ebuild
+	A	media-sound/csound/csound-5.02.1.ebuild
+	A	media-sound/csound/csound-5.02.ebuild
+	A	media-sound/csound/files/digest-csound-5.01
+	A	media-sound/csound/files/digest-csound-5.02.1
+	A	media-sound/csound/files/digest-csound-5.02
+	A	media-sound/fmit/fmit-0.96.5-r1.ebuild
+	A	media-sound/fmit/fmit-0.96.5.ebuild
+	A	media-sound/fmit/files/digest-fmit-0.96.5
+	A	media-sound/fmit/files/digest-fmit-0.96.5-r1
+	A	media-sound/fmit/Manifest
+	A	media-sound/qarecord/qarecord-0.0.9b.ebuild
+	A	media-sound/qarecord/files/digest-qarecord-0.0.9b
+	A	media-sound/qarecord/Manifest
+	A	media-sound/glashctl/glashctl-0.2.0.ebuild
+	A	media-sound/glashctl/glashctl-0.4.0.ebuild
+	A	media-sound/glashctl/files/digest-glashctl-0.2.0
+	A	media-sound/glashctl/files/digest-glashctl-0.4.0
+	A	media-sound/glashctl/Manifest
+	A	media-sound/specimen/specimen-0.5.1-r1.ebuild
+	A	media-sound/specimen/specimen-0.5.1.ebuild
+	A	media-sound/specimen/Manifest
+	A	media-sound/specimen/files/specimen-lash.patch
+	A	media-sound/specimen/files/digest-specimen-0.5.1.1
+	A	media-sound/specimen/files/digest-specimen-0.5.1
+	A	media-sound/specimen/files/digest-specimen-0.5.1-r1
+	A	media-sound/specimen/files/specimen-jackmidi.diff
+	A	media-sound/specimen/files/jack_client.patch
+	A	media-sound/specimen/specimen-0.5.1.1.ebuild
+	A	media-sound/traverso/files/digest-traverso-0.30.0
+	A	media-sound/traverso/files/digest-traverso-0.30.1
+	A	media-sound/traverso/traverso-0.30.0.ebuild
+	A	media-sound/traverso/traverso-0.30.1.ebuild
+	A	media-sound/traverso/Manifest
+	A	media-sound/kmidimon/files/digest-kmidimon-0.5.0
+	A	media-sound/kmidimon/Manifest
+	A	media-sound/kmidimon/kmidimon-0.5.0.ebuild
+	A	media-sound/denemo/files/digest-denemo-0.7.5
+	A	media-sound/denemo/Manifest
+	A	media-sound/denemo/denemo-0.7.5.ebuild
+	A	media-sound/gdam/gdam-9999.ebuild
+	A	media-sound/gdam/files/digest-gdam-9999
+	A	media-sound/gdam/files/digest-gdam-0.942
+	A	media-sound/gdam/gdam-0.942.ebuild
+	A	media-sound/gdam/Manifest
+	A	media-sound/jack_mixer/files/jack_mixer-2-destdir.patch
+	A	media-sound/jack_mixer/files/digest-jack_mixer-2
+	A	media-sound/jack_mixer/Manifest
+	A	media-sound/jack_mixer/jack_mixer-2.ebuild
+	A	media-sound/dssi_convolve/Manifest
+	A	media-sound/dssi_convolve/dssi_convolve-0.0.4.ebuild
+	A	media-sound/dssi_convolve/files/Makefile-destdir.patch
+	A	media-sound/dssi_convolve/files/digest-dssi_convolve-0.0.4
 	A	media-sound/amsynth/amsynth-1.2.0.ebuild
-	A	media-sound/amsynth/files/amsynth-1.1.0-gcc4.patch
-	A	media-sound/amsynth/files/digest-amsynth-1.1.0-r1
 	A	media-sound/amsynth/files/digest-amsynth-1.2.0
 	A	media-sound/amsynth/files/amsynth-ALSAMidiDriver.patch
+	A	media-sound/amsynth/files/amsynth-1.1.0-gcc4.patch
+	A	media-sound/amsynth/files/digest-amsynth-1.1.0-r1
 	A	media-sound/amsynth/Manifest
 	A	media-sound/amsynth/ChangeLog
 	A	media-sound/amsynth/metadata.xml
-	A	media-sound/jokosher/files/digest-jokosher-9999
-	A	media-sound/jokosher/files/digest-jokosher-0.1-r2
-	A	media-sound/jokosher/jokosher-0.1-r2.ebuild
-	A	media-sound/jokosher/Manifest
-	A	media-sound/jokosher/jokosher-9999.ebuild
-	A	media-sound/snd/snd-8.7.ebuild
-	A	media-sound/snd/files/digest-snd-8.7
-	A	media-sound/snd/Manifest
+	A	media-sound/amsynth/amsynth-1.1.0-r1.ebuild
+	A	media-sound/ices/files/digest-ices-2.0.60a
+	A	media-sound/ices/Manifest
+	A	media-sound/ices/ices-2.0.60a.ebuild
+	A	media-sound/miniaudicle/files/miniaudicle-0.1.3.4-makefile.patch
+	A	media-sound/miniaudicle/files/digest-miniaudicle-0.1.3.4
+	A	media-sound/miniaudicle/miniaudicle-0.1.3.4.ebuild
+	A	media-sound/miniaudicle/Manifest
+	A	media-sound/qloud/files/digest-qloud-0.21
+	A	media-sound/qloud/qloud-0.21.ebuild
+	A	media-sound/qloud/Manifest
+	A	media-sound/qlo10k1/files/digest-qlo10k1-0.1.2
+	A	media-sound/qlo10k1/Manifest
+	A	media-sound/qlo10k1/qlo10k1-0.1.2.ebuild
+	A	media-sound/simsam/simsam-0.1.7.ebuild
+	A	media-sound/simsam/files/digest-simsam-0.1.7
+	A	media-sound/simsam/files/simsam-0.1.7-gcc3_4.patch.gz
+	A	media-sound/simsam/Manifest
+	A	media-sound/seq24/seq24-0.8.6.ebuild
+	A	media-sound/seq24/seq24-0.8.7.ebuild
+	A	media-sound/seq24/files/digest-seq24-0.8.3-r2
+	A	media-sound/seq24/files/seq24-0.8.3-dr-lash-cairo.bz2
+	A	media-sound/seq24/files/digest-seq24-0.8.6
+	A	media-sound/seq24/files/digest-seq24-0.8.7
+	A	media-sound/seq24/files/seq24-0.8.3-dr-lash-1.patch
+	A	media-sound/seq24/Manifest
+	A	media-sound/seq24/seq24-0.8.3-r2.ebuild
+	A	media-sound/beast/Manifest
+	A	media-sound/beast/beast-0.7.1.ebuild
+	A	media-sound/beast/files/digest-beast-0.7.1
+	A	media-sound/paulstretch/paulstretch-1.000.ebuild
+	A	media-sound/paulstretch/files/digest-paulstretch-1.000
+	A	media-sound/paulstretch/files/digest-paulstretch-1.024
+	A	media-sound/paulstretch/paulstretch-1.024.ebuild
+	A	media-sound/paulstretch/Manifest
+	A	media-sound/ceres/Manifest
+	A	media-sound/ceres/ceres-0.45.ebuild
+	A	media-sound/ceres/ceres-0.47.ebuild
+	A	media-sound/ceres/files/digest-ceres-0.45
+	A	media-sound/ceres/files/digest-ceres-0.47
+	A	media-sound/zynaddsubfx/zynaddsubfx-9999.ebuild
+	A	media-sound/zynaddsubfx/Manifest
+	A	media-sound/zynaddsubfx/zynaddsubfx-2.2.1-r5.ebuild
+	A	media-sound/zynaddsubfx/zynaddsubfx-2.2.1-r8.ebuild
+	A	media-sound/zynaddsubfx/metadata.xml
+	A	media-sound/zynaddsubfx/files/digest-zynaddsubfx-9999
+	A	media-sound/zynaddsubfx/files/fix_jackmidi.patch
+	A	media-sound/zynaddsubfx/files/zyn-lash-and-jackmidi-051205.diff
+	A	media-sound/zynaddsubfx/files/digest-zynaddsubfx-2.2.1-r5
+	A	media-sound/zynaddsubfx/files/digest-zynaddsubfx-2.2.1-r8
+	A	media-sound/zynaddsubfx/files/zyn_lash-0.5.0pre0.diff
+	A	media-sound/zynaddsubfx/files/jackmidi_ifdef.patch
+	A	media-sound/zynaddsubfx/files/unzombify.diff
+	A	media-sound/zynaddsubfx/files/zyn-jackmidi-051205.diff
+	A	media-sound/pitchtune/files/digest-pitchtune-0.0.4
+	A	media-sound/pitchtune/pitchtune-0.0.4.ebuild
+	A	media-sound/pitchtune/Manifest
+	A	media-sound/kaconnect/files/digest-kaconnect-1.1.1-r1
+	A	media-sound/kaconnect/kaconnect-1.1.1-r1.ebuild
+	A	media-sound/kaconnect/Manifest
+	A	media-sound/ggseq/files/digest-ggseq-0.3.0
+	A	media-sound/ggseq/files/digest-ggseq-0.3.1
+	A	media-sound/ggseq/ggseq-0.3.0.ebuild
+	A	media-sound/ggseq/Manifest
+	A	media-sound/ggseq/ggseq-0.3.1.ebuild
+	A	media-sound/aseqjoy/Manifest
+	A	media-sound/aseqjoy/aseqjoy-0.0.1.ebuild
+	A	media-sound/aseqjoy/files/digest-aseqjoy-0.0.1
+	A	media-sound/chionic/chionic-1.0.1.ebuild
+	A	media-sound/chionic/files/gcc4.1-fix.patch
+	A	media-sound/chionic/files/digest-chionic-1.0.1
+	A	media-sound/chionic/Manifest
+	A	media-sound/ardour2/ardour2-9999.ebuild
+	A	media-sound/ardour2/files/digest-ardour2-9999
+	A	media-sound/ardour2/Manifest
+	A	media-sound/horgand/Manifest
+	A	media-sound/horgand/horgand-1.07-r1.ebuild
+	A	media-sound/horgand/horgand-1.07.ebuild
+	A	media-sound/horgand/metadata.xml
+	A	media-sound/horgand/files/digest-horgand-1.07
+	A	media-sound/horgand/files/digest-horgand-1.07-r1
+	A	media-sound/horgand/files/debug.patch
+	A	media-sound/qmidiroute/Manifest
+	A	media-sound/qmidiroute/qmidiroute-0.2.1.ebuild
+	A	media-sound/qmidiroute/files/digest-qmidiroute-0.2.1
+	A	media-sound/qmidiroute/files/qmidiroute-0.2.1-fixqtbasedir.patch
+	A	media-sound/midicontroller/midicontroller-041011.ebuild
+	A	media-sound/midicontroller/files/digest-midicontroller-041011
+	A	media-sound/midicontroller/Manifest
+	A	media-sound/somax/files/digest-somax-1.1
+	A	media-sound/somax/Manifest
+	A	media-sound/somax/somax-1.1.ebuild
+	A	media-sound/qtractor/files/digest-qtractor-9999
+	A	media-sound/qtractor/qtractor-9999.ebuild
+	A	media-sound/qtractor/Manifest
+	A	media-sound/freewheeling/freewheeling-0.5.2a.ebuild
+	A	media-sound/freewheeling/files/freewheeling-gcc41.patch
+	A	media-sound/freewheeling/files/digest-freewheeling-0.5.2a
+	A	media-sound/freewheeling/Manifest
+	A	media-sound/kontroll/Manifest
+	A	media-sound/kontroll/kontroll-20060925.ebuild
+	A	media-sound/kontroll/files/digest-kontroll-20060925
+	A	media-sound/kontroll/files/Makefile-destdir.patch
+	A	media-sound/zynaddsubfx-converter/Manifest
+	A	media-sound/zynaddsubfx-converter/zynaddsubfx-converter-2.0.0_pre2.ebuild
+	A	media-sound/zynaddsubfx-converter/files/digest-zynaddsubfx-converter-2.0.0_pre2
+	A	media-sound/zynaddsubfx-converter/files/zynaddsubfx-converter-patches.tar.gz
+	A	media-sound/drc/drc-2.6.2.ebuild
+	A	media-sound/drc/files/digest-drc-2.6.2
+	A	media-sound/drc/Manifest
+	A	media-sound/drc/fix
+	A	media-sound/kmiditracker/kmiditracker-0.5.13-r1.ebuild
+	A	media-sound/kmiditracker/kmiditracker-0.5.13.ebuild
+	A	media-sound/kmiditracker/files/digest-kmiditracker-0.5.13
+	A	media-sound/kmiditracker/files/digest-kmiditracker-0.5.13-r1
+	A	media-sound/kmiditracker/Manifest
+	A	media-sound/gnuitar/gnuitar-0.3.2.ebuild
+	A	media-sound/gnuitar/files/digest-gnuitar-0.3.2
+	A	media-sound/gnuitar/Manifest
+	A	media-sound/japa/japa-0.1.8.ebuild
+	A	media-sound/japa/files/japa-0.1.8-makefile.patch
+	A	media-sound/japa/files/digest-japa-0.1.8
+	A	media-sound/japa/Manifest
+	A	media-sound/rtsynth/Manifest
+	A	media-sound/rtsynth/files/digest-rtsynth-1.9.2
+	A	media-sound/rtsynth/rtsynth-1.9.2.ebuild
+	A	media-sound/patchage/patchage-9999.ebuild
+	A	media-sound/patchage/files/digest-patchage-0.2.3
+	A	media-sound/patchage/files/digest-patchage-9999
+	A	media-sound/patchage/Manifest
+	A	media-sound/patchage/patchage-0.2.3.ebuild
+	A	media-sound/aqualung/aqualung-9999.ebuild
+	A	media-sound/aqualung/files/digest-aqualung-9999
+	A	media-sound/aqualung/Manifest
+	A	media-sound/ninjam-server/Manifest
+	A	media-sound/ninjam-server/ninjam-server-0.02.ebuild
+	A	media-sound/ninjam-server/files/digest-ninjam-server-0.02
+	A	media-sound/linuxsampler/files/digest-linuxsampler-9999
+	A	media-sound/linuxsampler/Manifest
+	A	media-sound/linuxsampler/linuxsampler-9999.ebuild
+	A	media-sound/ldrum/files/digest-ldrum-0.6.0-r1
+	A	media-sound/ldrum/ldrum-0.6.0-r1.ebuild
+	A	media-sound/ldrum/Manifest
+	A	media-sound/frinika/Manifest
+	A	media-sound/frinika/frinika-0.1.7.ebuild
+	A	media-sound/frinika/files/digest-frinika-0.2.1
+	A	media-sound/frinika/files/digest-frinika-0.1.7
+	A	media-sound/frinika/files/frinika
+	A	media-sound/frinika/frinika-0.2.1.ebuild
 	A	media-sound/jack-rack/jack-rack-1.4.5.ebuild
 	A	media-sound/jack-rack/metadata.xml
 	A	media-sound/jack-rack/files/jack-rack-1.4.3-gtkdep.patch
@@ -495,41 +794,33 @@ Checked through r100Checked through r200Checked through r300Checked through r
 	A	media-sound/jack-rack/ChangeLog
 	A	media-sound/jack-rack/jack-rack-1.4.3.ebuild
 	A	media-sound/jack-rack/jack-rack-1.4.4.ebuild
-	A	media-sound/ktabedit/files/digest-ktabedit-0.0.8
-	A	media-sound/ktabedit/Manifest
-	A	media-sound/ktabedit/ktabedit-0.0.8.ebuild
-	A	media-sound/qlo10k1/Manifest
-	A	media-sound/qlo10k1/qlo10k1-0.1.2.ebuild
-	A	media-sound/qlo10k1/files/digest-qlo10k1-0.1.2
-	A	media-sound/tuneroid/Manifest
-	A	media-sound/tuneroid/files/digest-tuneroid-0.9.5
-	A	media-sound/tuneroid/tuneroid-0.9.5.ebuild
-	A	media-sound/rosegarden/files/digest-rosegarden-4.1.2.3-r2
-	A	media-sound/rosegarden/files/digest-rosegarden-4.1.2.4
-	A	media-sound/rosegarden/files/rosegarden-colour.patch
-	A	media-sound/rosegarden/files/4.1.0-dssi.patch
-	A	media-sound/rosegarden/files/digest-rosegarden-4.1.3_pre1
-	A	media-sound/rosegarden/files/digest-rosegarden-4.1.0-r2
-	A	media-sound/rosegarden/files/digest-rosegarden-4.1.4.0
-	A	media-sound/rosegarden/files/digest-rosegarden-9999
-	A	media-sound/rosegarden/rosegarden-4.1.3_pre1.ebuild
-	A	media-sound/rosegarden/Manifest
-	A	media-sound/rosegarden/rosegarden-4.1.0-r2.ebuild
-	A	media-sound/rosegarden/rosegarden-4.1.4.0.ebuild
-	A	media-sound/rosegarden/rosegarden-9999.ebuild
-	A	media-sound/rosegarden/rosegarden-4.1.2.3-r2.ebuild
-	A	media-sound/rosegarden/rosegarden-4.1.2.4.ebuild
-	A	media-sound/meterbridge/Manifest
-	A	media-sound/meterbridge/meterbridge-0.9.2-r1.ebuild
-	A	media-sound/meterbridge/meterbridge-0.9.2-r2.ebuild
-	A	media-sound/meterbridge/files/meterbridge.1.gz
-	A	media-sound/meterbridge/files/meterbridge_0.9.2-4.0.0.1.gcc4.patch
-	A	media-sound/meterbridge/files/digest-meterbridge-0.9.2-r1
-	A	media-sound/meterbridge/files/digest-meterbridge-0.9.2-r2
-	A	media-sound/meterbridge/files/meterbridge-lash.patch
+	A	media-sound/jackmix/files/digest-jackmix-0.1
+	A	media-sound/jackmix/jackmix-0.1.ebuild
+	A	media-sound/jackmix/Manifest
+	A	media-sound/tkeca/files/digest-tkeca-4.0.2
+	A	media-sound/tkeca/Manifest
+	A	media-sound/tkeca/tkeca-4.0.2.ebuild
+	A	media-sound/tapiir/files/tapiir-gcc4.patch
+	A	media-sound/tapiir/files/tapiir-0.7.1-alsa.patch
+	A	media-sound/tapiir/files/tapiir-buffersizecallback.patch
+	A	media-sound/tapiir/files/digest-tapiir-0.7.1-r1
+	A	media-sound/tapiir/files/tapiir-0.7.1-multiline.patch
+	A	media-sound/tapiir/files/tapiir-0.7.1-mtd.patch
+	A	media-sound/tapiir/Manifest
+	A	media-sound/tapiir/tapiir-0.7.1-r1.ebuild
+	A	media-sound/aeolus/aeolus-0.6.6-r1.ebuild
+	A	media-sound/aeolus/aeolus-0.6.6.ebuild
+	A	media-sound/aeolus/files/aeolus-0.6.6-makefile.patch
+	A	media-sound/aeolus/files/aeolus-0.6.6-r1-makefile.patch
+	A	media-sound/aeolus/files/aeolus-wrapper-script
+	A	media-sound/aeolus/files/digest-aeolus-0.6.6
+	A	media-sound/aeolus/files/digest-aeolus-0.6.6-r1
+	A	media-sound/aeolus/files/aeolus.conf
+	A	media-sound/aeolus/Manifest
 	A	media-sound/jack-audio-connection-kit/jack-audio-connection-kit-9999.ebuild
 	A	media-sound/jack-audio-connection-kit/jack-audio-connection-kit-0.100.7-r2.ebuild
 	A	media-sound/jack-audio-connection-kit/jack-audio-connection-kit-0.100.7-r3.ebuild
+	A	media-sound/jack-audio-connection-kit/files/jackmidi_01dec05.patch
 	A	media-sound/jack-audio-connection-kit/files/jack-audio-connection-kit-transport.patch
 	A	media-sound/jack-audio-connection-kit/files/digest-jack-audio-connection-kit-0.101.1
 	A	media-sound/jack-audio-connection-kit/files/digest-jack-audio-connection-kit-0.102.20
@@ -537,1460 +828,28 @@ Checked through r100Checked through r200Checked through r300Checked through r
 	A	media-sound/jack-audio-connection-kit/files/digest-jack-audio-connection-kit-9999
 	A	media-sound/jack-audio-connection-kit/files/digest-jack-audio-connection-kit-0.100.7-r2
 	A	media-sound/jack-audio-connection-kit/files/digest-jack-audio-connection-kit-0.100.7-r3
-	A	media-sound/jack-audio-connection-kit/files/jackmidi_01dec05.patch
 	A	media-sound/jack-audio-connection-kit/Manifest
 	A	media-sound/jack-audio-connection-kit/jack-audio-connection-kit-0.101.1.ebuild
 	A	media-sound/jack-audio-connection-kit/jack-audio-connection-kit-0.102.20.ebuild
-	A	media-sound/stygmorgan/files/digest-stygmorgan-0.27
-	A	media-sound/stygmorgan/Manifest
-	A	media-sound/stygmorgan/stygmorgan-0.27.ebuild
-	A	media-sound/ardour/ardour-9999.ebuild
-	A	media-sound/ardour/files/digest-ardour-9999
-	A	media-sound/ardour/files/ardour-vst-support_0_1.patch
-	A	media-sound/ardour/files/ardour-vst-support_1_1.patch
-	A	media-sound/ardour/files/digest-ardour-0.99.2
-	A	media-sound/ardour/files/digest-ardour-0.99.3
-	A	media-sound/ardour/Manifest
-	A	media-sound/ardour/ardour-0.99.2.ebuild
-	A	media-sound/ardour/ardour-0.99.3.ebuild
-	A	media-sound/ghostess/files/digest-ghostess-20050916
-	A	media-sound/ghostess/files/digest-ghostess-20061127
-	A	media-sound/ghostess/ghostess-20061127.ebuild
-	A	media-sound/ghostess/Manifest
-	A	media-sound/ghostess/ghostess-20050916.ebuild
-	A	media-sound/sonic-visualiser/Manifest
-	A	media-sound/sonic-visualiser/sonic-visualiser-0.9.ebuild
-	A	media-sound/sonic-visualiser/files/digest-sonic-visualiser-0.9
-	A	media-sound/alsaplayer-fftscope/files/digest-alsaplayer-fftscope-9999
-	A	media-sound/alsaplayer-fftscope/files/fftscope.c.patch
-	A	media-sound/alsaplayer-fftscope/Manifest
-	A	media-sound/alsaplayer-fftscope/alsaplayer-fftscope-9999.ebuild
-	A	media-sound/freewheeling/Manifest
-	A	media-sound/freewheeling/freewheeling-0.5.2a.ebuild
-	A	media-sound/freewheeling/files/freewheeling-gcc41.patch
-	A	media-sound/freewheeling/files/digest-freewheeling-0.5.2a
-	A	media-sound/qoscc/Manifest
-	A	media-sound/qoscc/qoscc-0.3.1.ebuild
-	A	media-sound/qoscc/files/digest-qoscc-0.3.1
-	A	media-sound/kmiditracker/kmiditracker-0.5.13-r1.ebuild
-	A	media-sound/kmiditracker/kmiditracker-0.5.13.ebuild
-	A	media-sound/kmiditracker/files/digest-kmiditracker-0.5.13
-	A	media-sound/kmiditracker/files/digest-kmiditracker-0.5.13-r1
-	A	media-sound/kmiditracker/Manifest
-	A	media-sound/aseqjoy/files/digest-aseqjoy-0.0.1
-	A	media-sound/aseqjoy/Manifest
-	A	media-sound/aseqjoy/aseqjoy-0.0.1.ebuild
-	A	media-sound/japa/Manifest
-	A	media-sound/japa/japa-0.1.8.ebuild
-	A	media-sound/japa/files/digest-japa-0.1.8
-	A	media-sound/japa/files/japa-0.1.8-makefile.patch
-	A	media-sound/chionic/Manifest
-	A	media-sound/chionic/chionic-1.0.1.ebuild
-	A	media-sound/chionic/files/gcc4.1-fix.patch
-	A	media-sound/chionic/files/digest-chionic-1.0.1
-	A	media-sound/jack_mixer/jack_mixer-2.ebuild
-	A	media-sound/jack_mixer/files/jack_mixer-2-destdir.patch
-	A	media-sound/jack_mixer/files/digest-jack_mixer-2
-	A	media-sound/jack_mixer/Manifest
-	A	media-sound/ardour2/Manifest
-	A	media-sound/ardour2/ardour2-9999.ebuild
-	A	media-sound/ardour2/files/digest-ardour2-9999
-	A	media-sound/qamix/files/digest-qamix-0.0.7e
-	A	media-sound/qamix/Manifest
-	A	media-sound/qamix/qamix-0.0.7e.ebuild
-	A	media-sound/hydrogen/metadata.xml
-	A	media-sound/hydrogen/files/hydrogen-0.9.3-segfault.patch
-	A	media-sound/hydrogen/files/digest-hydrogen-0.9.2
-	A	media-sound/hydrogen/files/digest-hydrogen-0.9.3
-	A	media-sound/hydrogen/files/digest-hydrogen-0.9.3-r1
-	A	media-sound/hydrogen/files/0.9.1-OSS.patch
-	A	media-sound/hydrogen/files/hydrogen-0.9.2-configure.in.patch
-	A	media-sound/hydrogen/Manifest
-	A	media-sound/hydrogen/hydrogen-0.9.2.ebuild
-	A	media-sound/hydrogen/ChangeLog
-	A	media-sound/hydrogen/hydrogen-0.9.3-r1.ebuild
-	A	media-sound/hydrogen/hydrogen-0.9.3.ebuild
-	A	media-sound/gwc/gwc-0.21.05-r1.ebuild
-	A	media-sound/gwc/Manifest
-	A	media-sound/gwc/files/digest-gwc-0.21.05-r1
-	A	media-sound/horgand/Manifest
-	A	media-sound/horgand/horgand-1.07-r1.ebuild
-	A	media-sound/horgand/horgand-1.07.ebuild
-	A	media-sound/horgand/metadata.xml
-	A	media-sound/horgand/files/debug.patch
-	A	media-sound/horgand/files/digest-horgand-1.07
-	A	media-sound/horgand/files/digest-horgand-1.07-r1
-	A	media-sound/raton/files/digest-raton-0.22
-	A	media-sound/raton/raton-0.22.ebuild
-	A	media-sound/raton/Manifest
-	A	media-sound/timemachine/metadata.xml
-	A	media-sound/timemachine/files/digest-timemachine-0.3.1
-	A	media-sound/timemachine/timemachine-0.3.1.ebuild
-	A	media-sound/timemachine/Manifest
-	A	media-sound/timemachine/ChangeLog
-	A	media-sound/linuxsampler/Manifest
-	A	media-sound/linuxsampler/linuxsampler-9999.ebuild
-	A	media-sound/linuxsampler/files/digest-linuxsampler-9999
-	A	media-sound/djplay/Manifest
-	A	media-sound/djplay/ChangeLog
-	A	media-sound/djplay/metadata.xml
-	A	media-sound/djplay/djplay-0.3.0-r1.ebuild
-	A	media-sound/djplay/files/digest-djplay-0.3.0-r1
-	A	media-sound/djplay/files/fix_cast-amd64.patch
-	A	media-sound/vkeybd/files/digest-vkeybd-0.1.17-r1
-	A	media-sound/vkeybd/files/digest-vkeybd-0.1.17a
-	A	media-sound/vkeybd/files/lash-enabled-default.patch
-	A	media-sound/vkeybd/Manifest
-	A	media-sound/vkeybd/vkeybd-0.1.17-r1.ebuild
-	A	media-sound/vkeybd/vkeybd-0.1.17a.ebuild
-	A	media-sound/tutka/files/digest-tutka-0.12.4
-	A	media-sound/tutka/Manifest
-	A	media-sound/tutka/tutka-0.12.4.ebuild
+	A	media-sound/lilypond/Manifest
+	A	media-sound/lilypond/lilypond-2.8.8.ebuild
+	A	media-sound/lilypond/lilypond-2.10.4.ebuild
+	A	media-sound/lilypond/files/digest-lilypond-2.10.4
+	A	media-sound/lilypond/files/lilypond-2.10.2-version.patch
+	A	media-sound/lilypond/files/digest-lilypond-2.8.8
+	A	media-sound/mx44/mx44-1.ebuild
 	A	media-sound/mx44/files/README.Gentoo
 	A	media-sound/mx44/files/digest-mx44-1
 	A	media-sound/mx44/files/mx44
 	A	media-sound/mx44/Manifest
-	A	media-sound/mx44/mx44-1.ebuild
-	A	media-sound/jaaa/Manifest
-	A	media-sound/jaaa/jaaa-0.4.0.ebuild
-	A	media-sound/jaaa/files/digest-jaaa-0.4.0
-	A	media-sound/jaaa/files/jaaa-0.4.0-makefile.patch
-	A	media-sound/freecycle/Manifest
-	A	media-sound/freecycle/freecycle-0.51a-r1.ebuild
-	A	media-sound/freecycle/freecycle-0.60a.ebuild
-	A	media-sound/freecycle/files/digest-freecycle-0.51a-r1
-	A	media-sound/freecycle/files/digest-freecycle-0.60a
-	A	media-sound/freecycle/files/freecycle-0.6alpha_gcc34_compat.patch
-	A	media-sound/jackminimix/files/digest-jackminimix-0.1
-	A	media-sound/jackminimix/jackminimix-0.1.ebuild
-	A	media-sound/jackminimix/Manifest
-	A	media-sound/simplesysexxer/Manifest
-	A	media-sound/simplesysexxer/files/digest-simplesysexxer-0.1.1
-	A	media-sound/simplesysexxer/simplesysexxer-0.1.1.ebuild
-	A	media-sound/gnuitar/files/digest-gnuitar-0.3.2
-	A	media-sound/gnuitar/Manifest
-	A	media-sound/gnuitar/gnuitar-0.3.2.ebuild
-	A	media-sound/aldrin/aldrin-0.8.ebuild
-	A	media-sound/aldrin/aldrin-0.9.ebuild
-	A	media-sound/aldrin/files/digest-aldrin-0.8
-	A	media-sound/aldrin/files/digest-aldrin-0.9
-	A	media-sound/aldrin/Manifest
-	A	media-sound/rtsynth/Manifest
-	A	media-sound/rtsynth/files/digest-rtsynth-1.9.2
-	A	media-sound/rtsynth/rtsynth-1.9.2.ebuild
-	A	media-sound/dssi_convolve/dssi_convolve-0.0.4.ebuild
-	A	media-sound/dssi_convolve/files/Makefile-destdir.patch
-	A	media-sound/dssi_convolve/files/digest-dssi_convolve-0.0.4
-	A	media-sound/dssi_convolve/Manifest
-	A	media-sound/schism-tracker/files/digest-schism-tracker-9999
-	A	media-sound/schism-tracker/schism-tracker-9999.ebuild
-	A	media-sound/schism-tracker/Manifest
-	A	media-sound/qmidiroute/qmidiroute-0.2.1.ebuild
-	A	media-sound/qmidiroute/files/digest-qmidiroute-0.2.1
-	A	media-sound/qmidiroute/files/qmidiroute-0.2.1-fixqtbasedir.patch
-	A	media-sound/qmidiroute/Manifest
-	A	media-sound/frinika/files/digest-frinika-0.2.1
-	A	media-sound/frinika/files/digest-frinika-0.1.7
-	A	media-sound/frinika/files/frinika
-	A	media-sound/frinika/frinika-0.2.1.ebuild
-	A	media-sound/frinika/Manifest
-	A	media-sound/frinika/frinika-0.1.7.ebuild
-	A	media-sound/qloud/files/digest-qloud-0.21
-	A	media-sound/qloud/qloud-0.21.ebuild
-	A	media-sound/qloud/Manifest
-	A	media-sound/jackmix/jackmix-0.1.ebuild
-	A	media-sound/jackmix/Manifest
-	A	media-sound/jackmix/files/digest-jackmix-0.1
-	A	media-sound/lash/files/digest-lash-0.5.0
-	A	media-sound/lash/files/digest-lash-0.5.1
-	A	media-sound/lash/files/digest-lash-0.5.2-r1
-	A	media-sound/lash/Manifest
-	A	media-sound/lash/lash-0.5.0.ebuild
-	A	media-sound/lash/lash-0.5.1.ebuild
-	A	media-sound/lash/lash-0.5.2-r1.ebuild
-	A	media-sound/ecamegapedal/ecamegapedal-0.4.4.ebuild
-	A	media-sound/ecamegapedal/files/digest-ecamegapedal-0.4.4
-	A	media-sound/ecamegapedal/Manifest
-	A	media-sound/beast/beast-0.7.1.ebuild
-	A	media-sound/beast/files/digest-beast-0.7.1
-	A	media-sound/beast/Manifest
-	A	media-sound/seq24/files/digest-seq24-0.8.3-r2
-	A	media-sound/seq24/files/seq24-0.8.3-dr-lash-cairo.bz2
-	A	media-sound/seq24/files/digest-seq24-0.8.6
-	A	media-sound/seq24/files/digest-seq24-0.8.7
-	A	media-sound/seq24/files/seq24-0.8.3-dr-lash-1.patch
-	A	media-sound/seq24/Manifest
-	A	media-sound/seq24/seq24-0.8.3-r2.ebuild
-	A	media-sound/seq24/seq24-0.8.6.ebuild
-	A	media-sound/seq24/seq24-0.8.7.ebuild
-	A	media-sound/ac3jack/Manifest
-	A	media-sound/ac3jack/ac3jack-0.1.2.ebuild
-	A	media-sound/ac3jack/files/digest-ac3jack-0.1.2
-	A	media-sound/alsa-midi-humanizer/alsa-midi-humanizer-0.0.3.ebuild
-	A	media-sound/alsa-midi-humanizer/files/digest-alsa-midi-humanizer-0.0.3
-	A	media-sound/alsa-midi-humanizer/Manifest
-	A	media-sound/qarecord/Manifest
-	A	media-sound/qarecord/qarecord-0.0.9b.ebuild
-	A	media-sound/qarecord/files/digest-qarecord-0.0.9b
-	A	media-sound/kluppe/files/digest-kluppe-0.5.4
-	A	media-sound/kluppe/files/digest-kluppe-0.6.5
-	A	media-sound/kluppe/files/digest-kluppe-0.6.8
-	A	media-sound/kluppe/kluppe-0.5.4.ebuild
-	A	media-sound/kluppe/Manifest
-	A	media-sound/kluppe/kluppe-0.6.5.ebuild
-	A	media-sound/kluppe/kluppe-0.6.8.ebuild
-	A	media-sound/ceres/files/digest-ceres-0.45
-	A	media-sound/ceres/files/digest-ceres-0.47
-	A	media-sound/ceres/Manifest
-	A	media-sound/ceres/ceres-0.45.ebuild
-	A	media-sound/ceres/ceres-0.47.ebuild
-	A	media-sound/glashctl/Manifest
-	A	media-sound/glashctl/glashctl-0.2.0.ebuild
-	A	media-sound/glashctl/glashctl-0.4.0.ebuild
-	A	media-sound/glashctl/files/digest-glashctl-0.2.0
-	A	media-sound/glashctl/files/digest-glashctl-0.4.0
-	A	media-sound/specimen/files/digest-specimen-0.5.1.1
-	A	media-sound/specimen/files/digest-specimen-0.5.1
-	A	media-sound/specimen/files/digest-specimen-0.5.1-r1
-	A	media-sound/specimen/files/specimen-jackmidi.diff
-	A	media-sound/specimen/files/jack_client.patch
-	A	media-sound/specimen/files/specimen-lash.patch
-	A	media-sound/specimen/specimen-0.5.1.1.ebuild
-	A	media-sound/specimen/specimen-0.5.1-r1.ebuild
-	A	media-sound/specimen/specimen-0.5.1.ebuild
-	A	media-sound/specimen/Manifest
-	A	media-sound/traverso/files/digest-traverso-0.30.0
-	A	media-sound/traverso/files/digest-traverso-0.30.1
-	A	media-sound/traverso/traverso-0.30.0.ebuild
-	A	media-sound/traverso/traverso-0.30.1.ebuild
-	A	media-sound/traverso/Manifest
-	A	media-sound/ggseq/files/digest-ggseq-0.3.0
-	A	media-sound/ggseq/files/digest-ggseq-0.3.1
-	A	media-sound/ggseq/ggseq-0.3.0.ebuild
-	A	media-sound/ggseq/Manifest
-	A	media-sound/ggseq/ggseq-0.3.1.ebuild
-	A	media-sound/kmidimon/files/digest-kmidimon-0.5.0
-	A	media-sound/kmidimon/Manifest
-	A	media-sound/kmidimon/kmidimon-0.5.0.ebuild
-	A	media-sound/yatm/files/digest-yatm-0.4
-	A	media-sound/yatm/Manifest
-	A	media-sound/yatm/yatm-0.4.ebuild
-	A	media-sound/yatm/metadata.xml
-	A	media-sound/gneutronica/files/gneutronica-0.28-makefile.patch
-	A	media-sound/gneutronica/files/digest-gneutronica-0.28
-	A	media-sound/gneutronica/files/digest-gneutronica-0.29
-	A	media-sound/gneutronica/Manifest
-	A	media-sound/gneutronica/gneutronica-0.28.ebuild
-	A	media-sound/gneutronica/gneutronica-0.29.ebuild
-	A	media-sound/ams/Manifest
-	A	media-sound/ams/ams-1.8.7-r1.ebuild
-	A	media-sound/ams/files/digest-ams-1.8.7-r1
-	A	media-sound/somax/files/digest-somax-1.1
-	A	media-sound/somax/Manifest
-	A	media-sound/somax/somax-1.1.ebuild
-	A	media-sound/afsp/Manifest
-	A	media-sound/afsp/afsp-8.2.ebuild
-	A	media-sound/afsp/files/digest-afsp-8.2
-	A	media-sound/tuxguitar/Manifest
-	A	media-sound/tuxguitar/tuxguitar-0.5.ebuild
-	A	media-sound/tuxguitar/tuxguitar-0.6.ebuild
-	A	media-sound/tuxguitar/files/digest-tuxguitar-0.5
-	A	media-sound/tuxguitar/files/digest-tuxguitar-0.6
-	A	media-sound/tuxguitar/files/digest-tuxguitar-0.8
-	A	media-sound/tuxguitar/tuxguitar-0.8.ebuild
-	A	media-sound/lingot/lingot-0.6.1.ebuild
-	A	media-sound/lingot/lingot-0.6.2.ebuild
-	A	media-sound/lingot/files/digest-lingot-0.6.1
-	A	media-sound/lingot/files/digest-lingot-0.6.2
-	A	media-sound/lingot/Manifest
-	A	media-sound/jackEQ/files/digest-jackEQ-0.4.1
-	A	media-sound/jackEQ/Manifest
-	A	media-sound/jackEQ/jackEQ-0.4.1.ebuild
-	A	media-sound/snd-ls/snd-ls-0.9.7.11.ebuild
-	A	media-sound/snd-ls/snd-ls-0.9.7.4.ebuild
-	A	media-sound/snd-ls/files/digest-snd-ls-0.9.7.0-r1
-	A	media-sound/snd-ls/files/digest-snd-ls-0.9.6.2
-	A	media-sound/snd-ls/files/digest-snd-ls-0.9.7.11
-	A	media-sound/snd-ls/files/digest-snd-ls-0.9.7.4
-	A	media-sound/snd-ls/Manifest
-	A	media-sound/snd-ls/snd-ls-0.9.7.0-r1.ebuild
-	A	media-sound/snd-ls/snd-ls-0.9.6.2.ebuild
-	A	media-sound/jace/Manifest
-	A	media-sound/jace/jace-0.0.2.ebuild
-	A	media-sound/jace/jace-0.0.3.ebuild
-	A	media-sound/jace/files/Makefile-destdir.patch
-	A	media-sound/jace/files/jace-0.0.3-makefile.patch
-	A	media-sound/jace/files/digest-jace-0.0.2
-	A	media-sound/jace/files/digest-jace-0.0.3
-	A	media-sound/mjoo/Manifest
-	A	media-sound/mjoo/mjoo-9999.ebuild
-	A	media-sound/mjoo/files/digest-mjoo-9999
-	A	sys-libs/raul/files/digest-raul-9999
-	A	sys-libs/raul/Manifest
-	A	sys-libs/raul/raul-9999.ebuild
-	A	sys-libs/libfreebob/libfreebob-1.0.0.ebuild
-	A	sys-libs/libfreebob/files/digest-libfreebob-1.0.0
-	A	sys-libs/libfreebob/Manifest
-	A	sys-libs/pam/pam-0.78-r6.ebuild
-	A	sys-libs/pam/files/pam.d-0.99/other
-	A	sys-libs/pam/files/pam.d-0.99/system-auth
-	A	sys-libs/pam/files/digest-pam-0.99.6.3-r3
-	A	sys-libs/pam/files/Linux-PAM-0.99.6.3-selinux.patch
-	A	sys-libs/pam/files/pam.d/other
-	A	sys-libs/pam/files/pam.d/system-auth
-	A	sys-libs/pam/files/Linux-PAM-0.99.6.3-berkdb.patch
-	A	sys-libs/pam/files/pam-0.78-inttypes.patch
-	A	sys-libs/pam/files/Linux-PAM-0.99.6.3-linking.patch
-	A	sys-libs/pam/files/pam-0.78-realtime.patch
-	A	sys-libs/pam/files/pam-0.78-xauth-path.patch
-	A	sys-libs/pam/files/digest-pam-0.78-r6
-	A	sys-libs/pam/files/pam_env.conf
-	A	sys-libs/pam/files/README.pam_console
-	A	sys-libs/pam/pam-0.99.6.3-r3.ebuild
-	A	sys-libs/pam/Manifest
-	A	media-libs/libzzub/libzzub-0.1.ebuild
-	A	media-libs/libzzub/libzzub-0.2.ebuild
-	A	media-libs/libzzub/files/digest-libzzub-0.1
-	A	media-libs/libzzub/files/digest-libzzub-0.2
-	A	media-libs/libzzub/Manifest
-	A	media-libs/libconvolve/Manifest
-	A	media-libs/libconvolve/libconvolve-0.0.8.ebuild
-	A	media-libs/libconvolve/files/digest-libconvolve-0.0.8
-	A	media-libs/libconvolve/files/Makefile-destdir.patch
-	A	media-libs/alsa-lib/alsa-lib-1.0.10.ebuild
-	A	media-libs/alsa-lib/files/alsa-lib-mixer.patch
-	A	media-libs/alsa-lib/files/pcm_multi.patch
-	A	media-libs/alsa-lib/files/alsa-lib-1.0.10-test-ppc.patch
-	A	media-libs/alsa-lib/files/alsa-lib-1.0.10_rc3-hardened.patch
-	A	media-libs/alsa-lib/files/digest-alsa-lib-1.0.10
-	A	media-libs/alsa-lib/files/alsa-lib-1.0.12_rc1-bindings-crash.patch
-	A	media-libs/alsa-lib/files/alsa-lib-1.0.10_rc3-test.patch
-	A	media-libs/alsa-lib/files/alsa-lib-1.0.10-no-wordexp-header.patch
-	A	media-libs/alsa-lib/files/digest-alsa-lib-1.0.12_rc1-r1
-	A	media-libs/alsa-lib/Manifest
-	A	media-libs/alsa-lib/alsa-lib-1.0.12_rc1-r1.ebuild
-	A	media-libs/juce/juce-1.31.ebuild
-	A	media-libs/juce/juce-1.40.ebuild
-	A	media-libs/juce/juce-1.35.ebuild
-	A	media-libs/juce/files/digest-juce-1.31
-	A	media-libs/juce/files/digest-juce-1.40
-	A	media-libs/juce/files/digest-juce-1.35
-	A	media-libs/juce/files/juce-1.31-gcc-4.1.patch
-	A	media-libs/juce/files/juce-1.31-vorbis_header.patch
-	A	media-libs/juce/Manifest
-	A	media-libs/libfishsound/libfishsound-0.7.0.ebuild
-	A	media-libs/libfishsound/files/digest-libfishsound-0.7.0
-	A	media-libs/libfishsound/Manifest
-	A	media-libs/fluidsynth-dssi/fluidsynth-dssi-0.9.1.ebuild
-	A	media-libs/fluidsynth-dssi/metadata.xml
-	A	media-libs/fluidsynth-dssi/files/digest-fluidsynth-dssi-0.9.1
-	A	media-libs/fluidsynth-dssi/Manifest
-	A	media-libs/fluidsynth-dssi/ChangeLog
-	A	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.1.ebuild
-	A	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.2.ebuild
-	A	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.3.ebuild
-	A	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.4.ebuild
-	A	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.5.ebuild
-	A	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.6.ebuild
-	A	media-libs/zynaddsubfx-collection/files/digest-zynaddsubfx-collection-0.6
-	A	media-libs/zynaddsubfx-collection/files/digest-zynaddsubfx-collection-0.1
-	A	media-libs/zynaddsubfx-collection/files/digest-zynaddsubfx-collection-0.2
-	A	media-libs/zynaddsubfx-collection/files/digest-zynaddsubfx-collection-0.3
-	A	media-libs/zynaddsubfx-collection/files/digest-zynaddsubfx-collection-0.4
-	A	media-libs/zynaddsubfx-collection/files/digest-zynaddsubfx-collection-0.5
-	A	media-libs/zynaddsubfx-collection/Manifest
-	A	media-libs/libjackasyn/Manifest
-	A	media-libs/libjackasyn/libjackasyn-0.11.ebuild
-	A	media-libs/libjackasyn/libjackasyn-0.13.ebuild
-	A	media-libs/libjackasyn/files/libjackasyn-0.11-destdir.patch
-	A	media-libs/libjackasyn/files/digest-libjackasyn-0.11
-	A	media-libs/libjackasyn/files/digest-libjackasyn-0.13
-	A	media-libs/libjackasyn/files/libjackasyn-0.13-libdir.patch
-	A	media-libs/vst-sdk/vst-sdk-2.3-r3.ebuild
-	A	media-libs/vst-sdk/files/digest-vst-sdk-2.3-r3
-	A	media-libs/vst-sdk/Manifest
-	A	media-libs/ld10k1/ld10k1-0.1.8.ebuild
-	A	media-libs/ld10k1/files/digest-ld10k1-0.1.8
-	A	media-libs/ld10k1/Manifest
-	A	media-libs/phat/phat-0.3.1.ebuild
-	A	media-libs/phat/phat-0.4.0.ebuild
-	A	media-libs/phat/phat-9999.ebuild
-	A	media-libs/phat/files/digest-phat-0.3.1
-	A	media-libs/phat/files/digest-phat-0.4.0
-	A	media-libs/phat/files/digest-phat-9999
-	A	media-libs/phat/Manifest
-	A	media-libs/libgig/Manifest
-	A	media-libs/libgig/libgig-9999.ebuild
-	A	media-libs/libgig/files/digest-libgig-9999
-	A	media-libs/aubio/aubio-0.2.0-r1.ebuild
-	A	media-libs/aubio/aubio-0.2.0.ebuild
-	A	media-libs/aubio/aubio-0.3.1.ebuild
-	A	media-libs/aubio/files/digest-aubio-0.2.0
-	A	media-libs/aubio/files/digest-aubio-0.2.0-r1
-	A	media-libs/aubio/files/digest-aubio-0.3.1
-	A	media-libs/aubio/Manifest
-	A	media-libs/libclthreads/Manifest
-	A	media-libs/libclthreads/libclthreads-2.2.1.ebuild
-	A	media-libs/libclthreads/files/libclthreads-2.2.1-makefile.patch
-	A	media-libs/libclthreads/files/digest-libclthreads-2.2.1
-	A	media-libs/libclalsadrv/files/libclalsadrv-1.1.0-makefile.patch
-	A	media-libs/libclalsadrv/files/digest-libclalsadrv-1.1.0
-	A	media-libs/libclalsadrv/Manifest
-	A	media-libs/libclalsadrv/libclalsadrv-1.1.0.ebuild
-	A	media-libs/dssi/Manifest
-	A	media-libs/dssi/ChangeLog
-	A	media-libs/dssi/dssi-0.9.1.ebuild
-	A	media-libs/dssi/metadata.xml
-	A	media-libs/dssi/files/digest-dssi-0.9.1
-	A	media-libs/dssi/files/dssi-0.9-gentoo.patch
-	A	media-libs/flowcanvas/files/digest-flowcanvas-9999
-	A	media-libs/flowcanvas/Manifest
-	A	media-libs/flowcanvas/flowcanvas-9999.ebuild
-	A	media-libs/zynaddsubfx-extras/files/digest-zynaddsubfx-extras-20060419
-	A	media-libs/zynaddsubfx-extras/files/digest-zynaddsubfx-extras-99999999
-	A	media-libs/zynaddsubfx-extras/Manifest
-	A	media-libs/zynaddsubfx-extras/zynaddsubfx-extras-20060419.ebuild
-	A	media-libs/zynaddsubfx-extras/zynaddsubfx-extras-99999999.ebuild
-	A	media-libs/libdsp/libdsp-5.0.2.ebuild
-	A	media-libs/libdsp/files/digest-libdsp-5.0.2
-	A	media-libs/libdsp/files/Makefile.patch
-	A	media-libs/libdsp/Manifest
-	A	media-libs/joss/joss-0.3.ebuild
-	A	media-libs/joss/files/digest-joss-0.3
-	A	media-libs/joss/Manifest
-	A	media-libs/tse3/tse3-0.3.1.ebuild
-	A	media-libs/tse3/metadata.xml
-	A	media-libs/tse3/files/digest-tse3-0.3.1
-	A	media-libs/tse3/files/tse3-0.2.7-gcc4.patch
-	A	media-libs/tse3/files/tse3-0.2.7-size_t-64bit.patch
-	A	media-libs/tse3/Manifest
-	A	media-libs/tse3/ChangeLog
-	A	media-libs/libsoundtouch/files/digest-libsoundtouch-1.3.1
-	A	media-libs/libsoundtouch/libsoundtouch-1.3.1.ebuild
-	A	media-libs/libsoundtouch/Manifest
-	A	media-libs/bse-alsa/files/digest-bse-alsa-0.7.1
-	A	media-libs/bse-alsa/Manifest
-	A	media-libs/bse-alsa/bse-alsa-0.7.1.ebuild
-	A	media-libs/liblscp/liblscp-9999.ebuild
-	A	media-libs/liblscp/files/digest-liblscp-9999
-	A	media-libs/liblscp/Manifest
-	A	media-libs/fst/fst-1.6-r1.ebuild
-	A	media-libs/fst/files/digest-fst-1.8
-	A	media-libs/fst/files/digest-fst-1.8-r1
-	A	media-libs/fst/files/digest-fst-1.8-r2
-	A	media-libs/fst/files/digest-fst-1.8-r3
-	A	media-libs/fst/files/digest-fst-1.7-r5
-	A	media-libs/fst/files/fst-1.8-if_no_lash_run.patch
-	A	media-libs/fst/files/libfst.pc
-	A	media-libs/fst/files/fst-1.6-wineliblocfix.patch
-	A	media-libs/fst/files/vsthcompilerhack_fix.patch
-	A	media-libs/fst/files/digest-fst-1.6-r1
-	A	media-libs/fst/files/digest-fst-1.6-r2
-	A	media-libs/fst/fst-1.6-r2.ebuild
-	A	media-libs/fst/fst-1.8-r1.ebuild
-	A	media-libs/fst/fst-1.8.ebuild
-	A	media-libs/fst/fst-1.8-r2.ebuild
-	A	media-libs/fst/fst-1.8-r3.ebuild
-	A	media-libs/fst/Manifest
-	A	media-libs/fst/fst-1.7-r5.ebuild
-	A	media-libs/zynaddsubfx-banks/zynaddsubfx-banks-2.2.1.ebuild
-	A	media-libs/zynaddsubfx-banks/files/digest-zynaddsubfx-banks-20061031
-	A	media-libs/zynaddsubfx-banks/files/digest-zynaddsubfx-banks-2.2.1
-	A	media-libs/zynaddsubfx-banks/files/digest-zynaddsubfx-banks-20060419
-	A	media-libs/zynaddsubfx-banks/files/digest-zynaddsubfx-banks-99999999
-	A	media-libs/zynaddsubfx-banks/zynaddsubfx-banks-20060419.ebuild
-	A	media-libs/zynaddsubfx-banks/zynaddsubfx-banks-99999999.ebuild
-	A	media-libs/zynaddsubfx-banks/Manifest
-	A	media-libs/zynaddsubfx-banks/zynaddsubfx-banks-20061031.ebuild
-	A	media-libs/pylash/files/digest-pylash-3_pre
-	A	media-libs/pylash/Manifest
-	A	media-libs/pylash/pylash-3_pre.ebuild
-	A	media-libs/pyphat/files/digest-pyphat-9999
-	A	media-libs/pyphat/Manifest
-	A	media-libs/pyphat/pyphat-9999.ebuild
-	A	media-libs/portaudio/portaudio-9999.ebuild
-	A	media-libs/portaudio/portaudio-19-r1.ebuild
-	A	media-libs/portaudio/portaudio-19.ebuild
-	A	media-libs/portaudio/portaudio-19-r2.ebuild
-	A	media-libs/portaudio/files/digest-portaudio-9999
-	A	media-libs/portaudio/files/digest-portaudio-19
-	A	media-libs/portaudio/files/digest-portaudio-19-r1
-	A	media-libs/portaudio/files/digest-portaudio-19-r2
-	A	media-libs/portaudio/files/digest-portaudio-19-r3
-	A	media-libs/portaudio/portaudio-19-r3.ebuild
-	A	media-libs/portaudio/Manifest
-	A	media-libs/stops/Manifest
-	A	media-libs/stops/stops-0.3.0.ebuild
-	A	media-libs/stops/files/digest-stops-0.3.0
-	A	media-libs/libclxclient/libclxclient-3.3.1.ebuild
-	A	media-libs/libclxclient/files/libclxclient-3.3.0-makefile.patch
-	A	media-libs/libclxclient/files/libclxclient-3.3.1-makefile.patch
-	A	media-libs/libclxclient/files/digest-libclxclient-3.3.0
-	A	media-libs/libclxclient/files/digest-libclxclient-3.3.1
-	A	media-libs/libclxclient/Manifest
-	A	media-libs/libclxclient/libclxclient-3.3.0.ebuild
-	A	media-libs/hydrogen-drumkits/Manifest
-	A	media-libs/hydrogen-drumkits/hydrogen-drumkits-0.1.ebuild
-	A	media-libs/hydrogen-drumkits/files/gen_drumkit_ebuild
-	A	media-libs/hydrogen-drumkits/files/digest-hydrogen-drumkits-0.1
-	A	dev-util/cmake/files/digest-cmake-2.4.2
-	A	dev-util/cmake/cmake-2.4.2.ebuild
-	A	dev-util/cmake/Manifest
-	A	eclass/virtualx2.eclass
-	A	eclass/broken-ebuild.eclass
-	A	eclass/zyn2.eclass
-	A	eclass/zyn3.eclass
-	A	eclass/patcher.eclass
-	A	eclass/fetch-tools.eclass
-	A	eclass/lash.eclass
-	A	eclass/need-gcc-version.eclass
-	A	eclass/unpacker.eclass
-	A	eclass/scons-ccache.eclass
-	A	eclass/reiser4-patch.eclass
-	A	eclass/jackmidi.eclass
-	A	sys-process/set_rlimits/set_rlimits-1.2.0.ebuild
-	A	sys-process/set_rlimits/files/digest-set_rlimits-1.2.0
-	A	sys-process/set_rlimits/Manifest
-	A	sys-process/rtirq/rtirq-20070101.ebuild
-	A	sys-process/rtirq/files/digest-rtirq-20070101
-	A	sys-process/rtirq/files/pidof_workaround.patch
-	A	sys-process/rtirq/files/rt-initscript.gz
-	A	sys-process/rtirq/files/digest-rtirq-20060218-r1
-	A	sys-process/rtirq/files/rtirq-quick_fix.patch
-	A	sys-process/rtirq/files/digest-rtirq-20050914-r2
-	A	sys-process/rtirq/files/rtirq-20050914-v0.1.bz2
-	A	sys-process/rtirq/files/rtirq-quick_fix2.patch
-	A	sys-process/rtirq/files/digest-rtirq-20060819-r1
-	A	sys-process/rtirq/rtirq-20060218-r1.ebuild
-	A	sys-process/rtirq/Manifest
-	A	sys-process/rtirq/rtirq-20050914-r2.ebuild
-	A	sys-process/rtirq/rtirq-20060819-r1.ebuild
-	A	sys-process/rt-exec/Manifest
-	A	sys-process/rt-exec/rt-exec-1.0.3.ebuild
-	A	sys-process/rt-exec/files/digest-rt-exec-1.0.3
-	A	sys-devel/llvm-gcc/llvm-gcc-1.9.ebuild
-	A	sys-devel/llvm-gcc/files/llvm-gcc-1.9-dwarf_fix.patch
-	A	sys-devel/llvm-gcc/files/digest-llvm-gcc-1.9
-	A	sys-devel/llvm-gcc/Manifest
-	A	sys-devel/llvm-base/files/digest-llvm-base-1.9
-	A	sys-devel/llvm-base/Manifest
-	A	sys-devel/llvm-base/llvm-base-1.9.ebuild
-	A	sys-kernel/rt-sources/rt-sources-2.6.17-r8.ebuild
-	A	sys-kernel/rt-sources/rt-sources-2.6.18-r7.ebuild
-	A	sys-kernel/rt-sources/rt-sources-2.6.19-r15.ebuild
-	A	sys-kernel/rt-sources/rt-sources-2.6.19-r6.ebuild
-	A	sys-kernel/rt-sources/rt-sources-2.6.16-r29.ebuild
-	A	sys-kernel/rt-sources/rt-sources-2.6.17_rc6-r5.ebuild
-	A	sys-kernel/rt-sources/files/realtime-lsm-0.8.6_2.6.19.gz
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.17-r5
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.18-r5
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.17-r7
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.18-r6
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.17-r8
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.18-r7
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.19-r6
-	A	sys-kernel/rt-sources/files/dont_put_temp_files_in_source.patch
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.17_rc6-r5
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.15-r21
-	A	sys-kernel/rt-sources/files/input_device_id-to-mod_devicetable.patch
-	A	sys-kernel/rt-sources/files/realtime-lsm-0.8.6.gz
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.19-r14
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.19-r15
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.16-r29
-	A	sys-kernel/rt-sources/rt-sources-2.6.15-r21.ebuild
-	A	sys-kernel/rt-sources/Manifest
-	A	sys-kernel/rt-sources/rt-sources-2.6.17-r5.ebuild
-	A	sys-kernel/rt-sources/rt-sources-2.6.18-r5.ebuild
-	A	sys-kernel/rt-sources/rt-sources-2.6.17-r7.ebuild
-	A	sys-kernel/rt-sources/rt-sources-2.6.18-r6.ebuild
-	A	sys-kernel/rt-sources/rt-sources-2.6.19-r14.ebuild
-r415 = f92e27f592afa83f4e8ea8b16adafe398097a11f (refs/remotes/git-svn)
-	A	00-NEW-DEVELOPER-README
-	A	old_ChangeLog
-	A	00-OVERLAY-INFO
-	A	generate-detailed-packages-list
-	A	00-PACKAGES-LIST
-	A	TODO
-	A	00-README
-	A	prepare_tree
-	A	00-DETAILED-PACKAGES-LIST
-W: +empty_dir: profiles
-r416 = 725715bc3e90013fe668df99f1511c2d16a5818e (refs/remotes/git-svn)
-	D	sys-devel/llvm-base/Manifest
-	D	sys-devel/llvm-base/files/digest-llvm-base-1.9
-	D	sys-devel/llvm-base/llvm-base-1.9.ebuild
-	D	sys-devel/llvm-gcc/Manifest
-	D	sys-devel/llvm-gcc/files/digest-llvm-gcc-1.9
-	D	sys-devel/llvm-gcc/files/llvm-gcc-1.9-dwarf_fix.patch
-	D	sys-devel/llvm-gcc/llvm-gcc-1.9.ebuild
-	D	sys-devel/
-	D	media-sound/aldrin/Manifest
-	D	media-sound/aldrin/aldrin-0.8.ebuild
-	D	media-sound/aldrin/aldrin-0.9.ebuild
-	D	media-sound/aldrin/files/digest-aldrin-0.8
-	D	media-sound/aldrin/files/digest-aldrin-0.9
-	D	media-sound/aldrin/
-	D	media-libs/libzzub/Manifest
-	D	media-libs/libzzub/files/digest-libzzub-0.1
-	D	media-libs/libzzub/files/digest-libzzub-0.2
-	D	media-libs/libzzub/libzzub-0.1.ebuild
-	D	media-libs/libzzub/libzzub-0.2.ebuild
-	D	media-libs/libzzub/
-W: -empty_dir: media-libs/libzzub
-W: -empty_dir: media-sound/aldrin
-W: -empty_dir: sys-devel
-r417 = eee0cf0d9ebd50b07cdc5c9a97c0deadf3b65234 (refs/remotes/git-svn)
-	M	00-NEW-DEVELOPER-README
-	M	00-DETAILED-PACKAGES-LIST
-r418 = cac436f14daae58d428e4a4f5bb680109cbd562e (refs/remotes/git-svn)
-	D	media-sound/wired/Manifest
-	D	media-sound/wired/files/digest-wired-0.2.2
-	D	media-sound/wired/files/digest-wired-0.3.1
-	D	media-sound/wired/files/digest-wired-0.4_alpha
-	D	media-sound/wired/files/digest-wired-9999
-	D	media-sound/wired/wired-0.2.2.ebuild
-	D	media-sound/wired/wired-0.3.1.ebuild
-	D	media-sound/wired/wired-0.4_alpha.ebuild
-	D	media-sound/wired/wired-9999.ebuild
-	D	media-sound/wired/
-W: -empty_dir: media-sound/wired
-r420 = 32ed164cb8a9322901f88e2f3cfc18fc005b3593 (refs/remotes/git-svn)
-	A	media-sound/aldrin/aldrin-0.8.ebuild
-	A	media-sound/aldrin/aldrin-0.9-r1.ebuild
-	A	media-sound/aldrin/aldrin-0.9.ebuild
-	A	media-sound/aldrin/files/digest-aldrin-0.8
-	A	media-sound/aldrin/files/digest-aldrin-0.9
-	A	media-sound/aldrin/files/digest-aldrin-0.9-r1
-	A	media-sound/aldrin/Manifest
-	A	media-libs/libzzub/libzzub-0.1.ebuild
-	A	media-libs/libzzub/libzzub-0.2.1.ebuild
-	A	media-libs/libzzub/libzzub-0.2.ebuild
-	A	media-libs/libzzub/files/digest-libzzub-0.1
-	A	media-libs/libzzub/files/digest-libzzub-0.2.1
-	A	media-libs/libzzub/files/digest-libzzub-0.2
-	A	media-libs/libzzub/Manifest
-r421 = e666e50a6dc2563baf8de43a2968fc589c154932 (refs/remotes/git-svn)
-	M	media-libs/libzzub/libzzub-0.2.1.ebuild
-	M	media-libs/libzzub/Manifest
-r422 = bd3a03919fa56bc660ecb72b2602680c330e2ac3 (refs/remotes/git-svn)
-	D	TODO
-	A	00-TODO
-	M	00-NEW-DEVELOPER-README
-	M	00-PACKAGES-LIST
-	M	00-DETAILED-PACKAGES-LIST
-W: -empty_dir: TODO
-r423 = 8e72f6b1f7c86a86b3120e2172044503cc5d6bed (refs/remotes/git-svn)
-	A	media-sound/freewheeling/files/digest-freewheeling-0.5.5
-	M	media-sound/freewheeling/Manifest
-	A	media-sound/freewheeling/freewheeling-0.5.5.ebuild
-r424 = 071160471a1e1f1406dab6eec1574c3110ed572e (refs/remotes/git-svn)
-	M	prepare_tree
-	M	00-TODO
-	M	00-NEW-DEVELOPER-README
-	A	check_ebuild_unstable-untested
-	M	generate-detailed-packages-list
-r425 = 5290dfff7e76d77cac2e97afc084ebfa649bd85b (refs/remotes/git-svn)
-	M	00-NEW-DEVELOPER-README
-	A	media-sound/canorus/canorus-9999.ebuild
-	A	media-sound/canorus/files/digest-canorus-9999
-	A	media-sound/canorus/Manifest
-	M	00-DETAILED-PACKAGES-LIST
-r426 = cb6db71c8529bb9eda8efc38ac860fa9eb048f40 (refs/remotes/git-svn)
-	M	00-NEW-DEVELOPER-README
-r427 = eee22291eb80286a5805c1eed595bf86452ce9bc (refs/remotes/git-svn)
-	A	media-libs/pylash/files/pylash-3_pre-fPIC.patch
-	M	media-libs/pylash/Manifest
-	M	media-libs/pylash/pylash-3_pre.ebuild
-r428 = ef28e87d403ed907669f49b4b1cd9ec856d1a46d (refs/remotes/git-svn)
-	M	media-sound/jack_mixer/jack_mixer-2.ebuild
-	M	media-sound/jack_mixer/Manifest
-r429 = 7a7c9a06a11427cb1d85b7361802fbc7b975bd82 (refs/remotes/git-svn)
-	M	media-sound/alsa-midi-humanizer/Manifest
-	M	media-sound/alsa-midi-humanizer/alsa-midi-humanizer-0.0.3.ebuild
-r430 = af657ca7d6c982d4f180ee8f9fccb74cfa34b7dc (refs/remotes/git-svn)
-	M	media-sound/aeolus/aeolus-0.6.6-r1.ebuild
-	M	media-sound/aeolus/aeolus-0.6.6.ebuild
-	M	media-sound/aeolus/Manifest
-r431 = 38279deb6e9c9cee88256cedf0ca9c2b3687d69f (refs/remotes/git-svn)
-	M	media-sound/amidimap/Manifest
-	M	media-sound/amidimap/amidimap-0.1.1.ebuild
-r432 = 079c695b98d8e271e91b2d01fa78ef59725d5433 (refs/remotes/git-svn)
-	M	media-sound/ac3jack/ac3jack-0.1.2.ebuild
-	M	media-sound/ac3jack/Manifest
-r433 = 0f2f33cd9a40763a3d6912a4f0521731909982d8 (refs/remotes/git-svn)
-	A	media-plugins/pd-hid/files/pd-hid-0.6-Makefile.patch
-	A	media-plugins/pd-hid/files/digest-pd-hid-0.6
-	A	media-plugins/pd-hid/files/pd-hid-0.6-debug.patch
-	A	media-plugins/pd-hid/Manifest
-	A	media-plugins/pd-hid/pd-hid-0.6.ebuild
-r434 = 23ce9de480551ec845167e74493cae6b83e71d86 (refs/remotes/git-svn)
-	M	media-plugins/pd-hid/Manifest
-	M	media-plugins/pd-hid/pd-hid-0.6.ebuild
-r436 = 518b87e38b92296646341c035188e3def9d54dbf (refs/remotes/git-svn)
-	M	media-sound/qamix/Manifest
-	M	media-sound/qamix/qamix-0.0.7e.ebuild
-r437 = 875b7feaa55de072dead544496dc54c4e480af68 (refs/remotes/git-svn)
-	M	media-sound/qarecord/qarecord-0.0.9b.ebuild
-	M	media-sound/qarecord/Manifest
-r438 = 2aea03f937f0351e2ea5c8c62c98724e59cf8bb5 (refs/remotes/git-svn)
-	M	media-sound/pitchtune/pitchtune-0.0.4.ebuild
-	M	media-sound/pitchtune/Manifest
-	M	media-sound/qlo10k1/Manifest
-	M	media-sound/qlo10k1/qlo10k1-0.1.2.ebuild
-	M	media-libs/ld10k1/ld10k1-0.1.8.ebuild
-	M	media-libs/ld10k1/Manifest
-r439 = 31d998a367b10cd4f761f1efbad6376a0df76ed0 (refs/remotes/git-svn)
-	M	media-sound/lingot/lingot-0.6.2.ebuild
-	M	media-sound/lingot/Manifest
-	M	media-sound/lingot/lingot-0.6.1.ebuild
-	M	media-sound/paulstretch/paulstretch-1.000.ebuild
-	M	media-sound/paulstretch/paulstretch-1.024.ebuild
-	M	media-sound/paulstretch/Manifest
-	M	media-sound/aseqjoy/Manifest
-	M	media-sound/aseqjoy/aseqjoy-0.0.1.ebuild
-	M	media-sound/japa/japa-0.1.8.ebuild
-	M	media-sound/japa/Manifest
-	M	media-sound/ldrum/ldrum-0.6.0-r1.ebuild
-	M	media-sound/ldrum/Manifest
-r441 = 604a5844a3b2ad924357731c6137741fa88f580d (refs/remotes/git-svn)
-	M	media-sound/ceres/Manifest
-	M	media-sound/ceres/ceres-0.47.ebuild
-r442 = 2fedce60dfdcc1128dc0d0e64fa904b06f61d4fe (refs/remotes/git-svn)
-	M	media-libs/juce/juce-1.31.ebuild
-	M	media-libs/juce/juce-1.40.ebuild
-	M	media-libs/juce/Manifest
-r443 = 2753bd89c8aedc35c49272b6a3423664f20a5194 (refs/remotes/git-svn)
-	M	media-libs/joss/joss-0.3.ebuild
-	M	media-libs/joss/Manifest
-r444 = 39da93039612927a918d75d091a3cff636fcc094 (refs/remotes/git-svn)
-	M	media-libs/aubio/aubio-0.3.1.ebuild
-	A	media-libs/aubio/aubio-0.3.2.ebuild
-	A	media-libs/aubio/files/digest-aubio-0.3.2
-	M	media-libs/aubio/Manifest
-r445 = ad294e6bc14e06f89cb0278db6fb1bc54bb22ec3 (refs/remotes/git-svn)
-	M	media-sound/jace/Manifest
-	M	media-sound/jace/jace-0.0.3.ebuild
-r446 = 3d21938cbf29fd5428b97298624947112e55aa47 (refs/remotes/git-svn)
-	M	media-plugins/sineshaper/sineshaper-0.4.2.ebuild
-	M	media-plugins/sineshaper/Manifest
-r447 = 85726d27e6b1de44382fbfcd7972b2571fc6ee3c (refs/remotes/git-svn)
-	D	media-sound/idjc/idjc-0.6.3.ebuild
-	D	media-sound/idjc/files/digest-idjc-0.6.3
-	A	media-sound/idjc/files/digest-idjc-0.6.9
-	A	media-sound/idjc/idjc-0.6.9.ebuild
-	M	media-sound/idjc/Manifest
-W: -empty_dir: media-sound/idjc/files/digest-idjc-0.6.3
-W: -empty_dir: media-sound/idjc/idjc-0.6.3.ebuild
-r448 = d8e60eacbce961dee1f293ecb8bdc62c35055146 (refs/remotes/git-svn)
-	A	media-plugins/preamp/files/preamp-2.0-Makefile.patch
-	M	media-plugins/preamp/preamp-2.0.ebuild
-	M	media-plugins/preamp/Manifest
-r449 = f18955abfa6edfb86bf467fb07831f39af4a3243 (refs/remotes/git-svn)
-	M	media-plugins/oscilloscope/oscilloscope-0.2.1.ebuild
-	A	media-plugins/oscilloscope/files/oscilloscope-0.2.1-fPIC.patch
-	M	media-plugins/oscilloscope/Manifest
-r450 = d08a56ee3d802bf9ecb2b36227665bdb58746049 (refs/remotes/git-svn)
-	M	media-sound/kmidimon/Manifest
-	M	media-sound/kmidimon/kmidimon-0.5.0.ebuild
-	M	media-sound/kontroll/Manifest
-	M	media-sound/kontroll/kontroll-20060925.ebuild
-	M	media-sound/kmiditracker/kmiditracker-0.5.13-r1.ebuild
-	M	media-sound/kmiditracker/Manifest
-r451 = 490f1775fc1f0a0747869c09373ba97c1da57cbc (refs/remotes/git-svn)
-	M	media-sound/simplesysexxer/simplesysexxer-0.1.1.ebuild
-	M	media-sound/simplesysexxer/Manifest
-r452 = 8953e6dd0bc8125361a68e06044c8f1ad82fe3d9 (refs/remotes/git-svn)
-	M	media-sound/schism-tracker/schism-tracker-9999.ebuild
-	M	media-sound/schism-tracker/Manifest
-	M	media-sound/schism-tracker/files/digest-schism-tracker-9999
-r453 = 9165c273f45f511225581cf894252bd34a1cc5ad (refs/remotes/git-svn)
-	M	media-sound/idjc/idjc-0.6.8_pre5.ebuild
-	M	media-sound/idjc/idjc-0.6.9.ebuild
-	M	media-sound/idjc/Manifest
-r454 = 561660391f1119395884529433b0fbff81110d49 (refs/remotes/git-svn)
-	A	media-sound/gneutronica/files/gneutronica-0.33-makefile.patch
-	A	media-sound/gneutronica/files/digest-gneutronica-0.33
-	A	media-sound/gneutronica/gneutronica-0.33.ebuild
-	M	media-sound/gneutronica/Manifest
-r455 = 02d04056dce4fc79ed0d6012990972becefb424a (refs/remotes/git-svn)
-	M	media-sound/glashctl/glashctl-0.2.0.ebuild
-	M	media-sound/glashctl/glashctl-0.4.0.ebuild
-	M	media-sound/glashctl/Manifest
-	M	media-sound/ktabedit/Manifest
-	M	media-sound/ktabedit/ktabedit-0.0.8.ebuild
-	M	media-sound/khagan/khagan-0.1.2.ebuild
-	M	media-sound/khagan/Manifest
-	M	media-sound/kguitar/Manifest
-	M	media-sound/kguitar/kguitar-0.5.ebuild
-	M	media-sound/kmiditracker/kmiditracker-0.5.13.ebuild
-	M	media-sound/kmiditracker/Manifest
-r456 = d16a1ef3e722a702d20493b97fe42d23659cd03e (refs/remotes/git-svn)
-	M	media-sound/drc/Manifest
-	M	media-sound/drc/drc-2.6.2.ebuild
-	M	media-sound/tapiir/Manifest
-	M	media-sound/tapiir/tapiir-0.7.1-r1.ebuild
-	M	media-sound/san-dysth/Manifest
-	M	media-sound/san-dysth/san-dysth-0.1.0-r1.ebuild
-	M	media-sound/midicontroller/midicontroller-041011.ebuild
-	M	media-sound/midicontroller/Manifest
-r457 = 5d616ac79bff0e2e519295aa9bfae7d4a0249f53 (refs/remotes/git-svn)
-	M	media-sound/mx44/Manifest
-	M	media-sound/mx44/mx44-1.ebuild
-	M	media-sound/miniaudicle/miniaudicle-0.1.3.4.ebuild
-	M	media-sound/miniaudicle/Manifest
-	M	media-sound/qoscc/Manifest
-	M	media-sound/qoscc/qoscc-0.3.1.ebuild
-	M	media-sound/madjack/Manifest
-	M	media-sound/madjack/madjack-0.4.ebuild
-r458 = 0da02216609c77b779f9f0bfc446cddedb2ea27c (refs/remotes/git-svn)
-	M	media-sound/snd-ls/Manifest
-	A	media-sound/snd-ls/snd-ls-0.9.7.12.ebuild
-	A	media-sound/snd-ls/files/digest-snd-ls-0.9.7.12
-r459 = 62ef3ce2cbcb2b80ad36b51974430425651821ec (refs/remotes/git-svn)
-	M	media-sound/raton/Manifest
-	M	media-sound/raton/raton-0.22.ebuild
-r460 = fd4a8a3aa59a2814376d65e177bd88764f77ff8c (refs/remotes/git-svn)
-	M	media-sound/alsaplayer-fftscope/Manifest
-	M	media-sound/alsaplayer-fftscope/alsaplayer-fftscope-9999.ebuild
-	D	media-sound/alsaplayer-fftscope/files/fftscope.c.patch
-W: -empty_dir: media-sound/alsaplayer-fftscope/files/fftscope.c.patch
-r466 = fa5c245fa18d2531eeabf8dfdfad1af7c89e8b60 (refs/remotes/git-svn)
-	M	media-sound/alsaplayer/Manifest
-	M	media-sound/alsaplayer/alsaplayer-9999.ebuild
-r467 = 668a28653b88d45a39a5e8b4d129a169dd490e5e (refs/remotes/git-svn)
-	M	media-sound/alsaplayer/alsaplayer-9999.ebuild
-	M	media-sound/alsaplayer/Manifest
-r468 = 048b17d7040da07f19e2ef6f20dd914042407457 (refs/remotes/git-svn)
-	M	media-sound/alsaplayer/alsaplayer-9999.ebuild
-	M	media-sound/alsaplayer/Manifest
-r471 = 37fc71c115fed19a7180fd9785c437a5847bf249 (refs/remotes/git-svn)
-	M	00-PACKAGES-LIST
-	M	media-sound/gneutronica/Manifest
-	M	media-sound/tapiir/Manifest
-	A	media-sound/gwc/files/digest-gwc-0.21.07
-	M	media-sound/gwc/gwc-0.21.05-r1.ebuild
-	M	media-sound/gwc/Manifest
-	A	media-sound/gwc/gwc-0.21.07.ebuild
-	M	00-DETAILED-PACKAGES-LIST
-r472 = 430c05492e3493aa4209f266d10bd66d75a9f021 (refs/remotes/git-svn)
-	D	media-sound/rosegarden/rosegarden-4.1.3_pre1.ebuild
-	D	media-sound/rosegarden/rosegarden-4.1.0-r2.ebuild
-	D	media-sound/rosegarden/rosegarden-4.1.4.0.ebuild
-	D	media-sound/rosegarden/rosegarden-4.1.2.3-r2.ebuild
-	D	media-sound/rosegarden/rosegarden-4.1.2.4.ebuild
-	M	media-sound/rosegarden/rosegarden-9999.ebuild
-	D	media-sound/rosegarden/files/digest-rosegarden-4.1.0-r2
-	D	media-sound/rosegarden/files/digest-rosegarden-4.1.4.0
-	D	media-sound/rosegarden/files/digest-rosegarden-4.1.2.3-r2
-	D	media-sound/rosegarden/files/digest-rosegarden-4.1.2.4
-	D	media-sound/rosegarden/files/digest-rosegarden-4.1.3_pre1
-	A	media-sound/rosegarden/files/digest-rosegarden-1.4.0
-	A	media-sound/rosegarden/files/digest-rosegarden-1.2.3-r2
-	A	media-sound/rosegarden/files/digest-rosegarden-1.2.4
-	A	media-sound/rosegarden/files/digest-rosegarden-1.0-r2
-	M	media-sound/rosegarden/Manifest
-	A	media-sound/rosegarden/rosegarden-1.0-r2.ebuild
-	A	media-sound/rosegarden/rosegarden-1.4.0.ebuild
-	A	media-sound/rosegarden/rosegarden-1.2.3-r2.ebuild
-	A	media-sound/rosegarden/rosegarden-1.2.4.ebuild
-	A	profiles/package.mask
-W: -empty_dir: media-sound/rosegarden/files/digest-rosegarden-4.1.0-r2
-W: -empty_dir: media-sound/rosegarden/files/digest-rosegarden-4.1.2.3-r2
-W: -empty_dir: media-sound/rosegarden/files/digest-rosegarden-4.1.2.4
-W: -empty_dir: media-sound/rosegarden/files/digest-rosegarden-4.1.3_pre1
-W: -empty_dir: media-sound/rosegarden/files/digest-rosegarden-4.1.4.0
-W: -empty_dir: media-sound/rosegarden/rosegarden-4.1.0-r2.ebuild
-W: -empty_dir: media-sound/rosegarden/rosegarden-4.1.2.3-r2.ebuild
-W: -empty_dir: media-sound/rosegarden/rosegarden-4.1.2.4.ebuild
-W: -empty_dir: media-sound/rosegarden/rosegarden-4.1.3_pre1.ebuild
-W: -empty_dir: media-sound/rosegarden/rosegarden-4.1.4.0.ebuild
-r473 = b9bd64bdea1114d86e3dd4f446a18a565db1f500 (refs/remotes/git-svn)
-	M	media-sound/yatm/yatm-0.4.ebuild
-	M	media-sound/yatm/Manifest
-r474 = 9b48a990032130e19c85a5a98101ea5a6eb0f1ca (refs/remotes/git-svn)
-	M	sys-libs/pam/Manifest
-	M	sys-libs/pam/pam-0.78-r6.ebuild
-r475 = d07b0f82eda39ef09b0c13893ebe41594b6f0393 (refs/remotes/git-svn)
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.20_rc7-r3
-	M	sys-kernel/rt-sources/Manifest
-	A	sys-kernel/rt-sources/rt-sources-2.6.20_rc7-r3.ebuild
-r476 = b6153d7a96fcadabe740a1df3583fcf04ca20551 (refs/remotes/git-svn)
-	A	media-sound/zynaddsubfx/files/mutex-split.patch
-	A	media-sound/zynaddsubfx/files/ifdef-jackmidi.patch
-	M	media-sound/zynaddsubfx/zynaddsubfx-9999.ebuild
-	M	media-sound/zynaddsubfx/Manifest
-r477 = e11705b43ce570753d60fd8ff1ef084a06c581aa (refs/remotes/git-svn)
-	M	media-sound/zynaddsubfx/zynaddsubfx-9999.ebuild
-	M	media-sound/zynaddsubfx/Manifest
-r478 = cd1215501f67224898a5d883906d5f3b719382a9 (refs/remotes/git-svn)
-	D	media-sound/zynaddsubfx/files/ifdef-jackmidi.patch
-	D	media-sound/zynaddsubfx/files/mutex-split.patch
-	D	media-sound/zynaddsubfx/files/fix_jackmidi.patch
-	A	media-sound/zynaddsubfx/files/03-fix_jackmidi.patch
-	A	media-sound/zynaddsubfx/files/02-ifdef-jackmidi.patch
-	A	media-sound/zynaddsubfx/files/01-mutex-split.patch
-	M	media-sound/zynaddsubfx/zynaddsubfx-9999.ebuild
-	M	media-sound/zynaddsubfx/Manifest
-	M	media-sound/zynaddsubfx/zynaddsubfx-2.2.1-r8.ebuild
-W: -empty_dir: media-sound/zynaddsubfx/files/fix_jackmidi.patch
-W: -empty_dir: media-sound/zynaddsubfx/files/ifdef-jackmidi.patch
-W: -empty_dir: media-sound/zynaddsubfx/files/mutex-split.patch
-r479 = 0b1200a9e3c9c0792c219578385a22f8f78bb291 (refs/remotes/git-svn)
-	D	media-sound/glashctl/glashctl-0.4.0.ebuild
-	D	media-sound/glashctl/files/digest-glashctl-0.4.0
-	A	media-sound/glashctl/files/digest-glashctl-0.4.2
-	A	media-sound/glashctl/glashctl-0.4.2.ebuild
-	M	media-sound/glashctl/Manifest
-W: -empty_dir: media-sound/glashctl/files/digest-glashctl-0.4.0
-W: -empty_dir: media-sound/glashctl/glashctl-0.4.0.ebuild
-r480 = baa1761a810f69b81e0bd1e4634467d4b40717db (refs/remotes/git-svn)
-	M	media-sound/idjc/Manifest
-	D	media-sound/aldrin/aldrin-0.8.ebuild
-	D	media-sound/aldrin/aldrin-0.9.ebuild
-	D	media-sound/aldrin/files/digest-aldrin-0.9
-	D	media-sound/aldrin/files/digest-aldrin-0.8
-	A	media-sound/aldrin/files/digest-aldrin-0.10.1
-	M	media-sound/aldrin/Manifest
-	A	media-sound/aldrin/aldrin-0.10.1.ebuild
-	D	media-libs/libzzub/libzzub-0.1.ebuild
-	D	media-libs/libzzub/libzzub-0.2.ebuild
-	A	media-libs/libzzub/libzzub-0.2.2.ebuild
-	D	media-libs/libzzub/files/digest-libzzub-0.2
-	D	media-libs/libzzub/files/digest-libzzub-0.1
-	A	media-libs/libzzub/files/digest-libzzub-0.2.2
-	M	media-libs/libzzub/Manifest
-W: -empty_dir: media-libs/libzzub/files/digest-libzzub-0.1
-W: -empty_dir: media-libs/libzzub/files/digest-libzzub-0.2
-W: -empty_dir: media-libs/libzzub/libzzub-0.1.ebuild
-W: -empty_dir: media-libs/libzzub/libzzub-0.2.ebuild
-W: -empty_dir: media-sound/aldrin/aldrin-0.8.ebuild
-W: -empty_dir: media-sound/aldrin/aldrin-0.9.ebuild
-W: -empty_dir: media-sound/aldrin/files/digest-aldrin-0.8
-W: -empty_dir: media-sound/aldrin/files/digest-aldrin-0.9
-r482 = 62da6b003617344f90ffa7b547f51fcca23a07d7 (refs/remotes/git-svn)
-	M	media-sound/aldrin/Manifest
-r483 = 0f22d0ee9fcfd32c602fb90fd3b6761443b2fd23 (refs/remotes/git-svn)
-	M	media-sound/idjc/Manifest
-r484 = b04095615d7209b6187d529fd3a9c8ac51f27050 (refs/remotes/git-svn)
-	A	media-sound/jackmix/files/digest-jackmix-0.2
-	M	media-sound/jackmix/Manifest
-	A	media-sound/jackmix/jackmix-0.2.ebuild
-r485 = a76c1d6e5d091ffe8cf98b186c8066e50e7b9718 (refs/remotes/git-svn)
-	M	media-sound/jackmix/Manifest
-	M	media-sound/jackmix/jackmix-0.2.ebuild
-r486 = 2e23a3d27440a76c0e441cd0d0fd4b9900c50387 (refs/remotes/git-svn)
-	M	00-DETAILED-PACKAGES-LIST
-	A	media-video/xjadeo/xjadeo-0.4.0_rc3.ebuild
-	A	media-video/xjadeo/files/digest-xjadeo-0.4.0_rc3
-	A	media-video/xjadeo/Manifest
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.20-r2
-	M	sys-kernel/rt-sources/Manifest
-	A	sys-kernel/rt-sources/rt-sources-2.6.20-r2.ebuild
-	M	00-PACKAGES-LIST
-	D	media-sound/lmms/lmms-0.2.1.ebuild
-	D	media-sound/lmms/lmms-9999.ebuild
-	M	media-sound/lmms/lmms-9999-r1.ebuild
-	D	media-sound/lmms/files/digest-lmms-9999
-	D	media-sound/lmms/files/digest-lmms-0.2.1
-	A	media-sound/lmms/files/digest-lmms-0.2.1-r1
-	M	media-sound/lmms/files/digest-lmms-9999-r1
-	M	media-sound/lmms/Manifest
-	A	media-sound/lmms/lmms-0.2.1-r1.ebuild
-	M	media-libs/zynaddsubfx-banks/zynaddsubfx-banks-99999999.ebuild
-	M	media-libs/zynaddsubfx-banks/Manifest
-W: -empty_dir: media-sound/lmms/files/digest-lmms-0.2.1
-W: -empty_dir: media-sound/lmms/files/digest-lmms-9999
-W: -empty_dir: media-sound/lmms/lmms-0.2.1.ebuild
-W: -empty_dir: media-sound/lmms/lmms-9999.ebuild
-r487 = df965ca7084a8d17fc7b220aaceb4047a5a421c3 (refs/remotes/git-svn)
-	M	media-video/xjadeo/Manifest
-	M	media-video/xjadeo/xjadeo-0.4.0_rc3.ebuild
-r488 = 6ab9d6a29e83dec9dafd3820ad973e708df89417 (refs/remotes/git-svn)
-	M	media-sound/jackmix/Manifest
-	M	media-sound/jackmix/jackmix-0.2.ebuild
-r489 = e58bb4db93ae50e87547fc2908dcf2059ee4bcc4 (refs/remotes/git-svn)
-	M	media-sound/lmms/Manifest
-	M	media-sound/lmms/lmms-9999-r1.ebuild
-r490 = eb50228e7a3e726d4b3aae1ae7282db6d38347e1 (refs/remotes/git-svn)
-	M	media-sound/lmms/lmms-9999-r1.ebuild
-	M	media-sound/lmms/Manifest
-	M	media-sound/lmms/lmms-0.2.1-r1.ebuild
-r491 = 3b7fc632dd1c6342264752d5177acdd1f428fcdc (refs/remotes/git-svn)
-	M	media-sound/lmms/lmms-9999-r1.ebuild
-	M	media-sound/lmms/Manifest
-	M	media-sound/lmms/lmms-0.2.1-r1.ebuild
-r492 = 00443e2230b7aeb3aeea9d3e50297df50f3dacd9 (refs/remotes/git-svn)
-	A	x11-wm/fvwm/files/fvwm.desktop
-	A	x11-wm/fvwm/files/digest-fvwm-20070204
-	A	x11-wm/fvwm/files/fvwm-menu-xlock-xlockmore-compat.diff
-	A	x11-wm/fvwm/files/fvwm-translucent-menus.diff.gz
-	A	x11-wm/fvwm/files/README.transluceny
-	A	x11-wm/fvwm/Manifest
-	A	x11-wm/fvwm/fvwm-20070204.ebuild
-r493 = 79f335e39d0f1edddc83e1b5934af34fd5cc1c4d (refs/remotes/git-svn)
-	A	x11-themes/crystalaudio/files/digest-crystalaudio-0.9.0
-	A	x11-themes/crystalaudio/Manifest
-	A	x11-themes/crystalaudio/crystalaudio-0.9.0.ebuild
-r494 = b4e8619669eb4c0328bad7f3bf00bf72aed006cb (refs/remotes/git-svn)
-	M	00-PACKAGES-LIST
-	A	media-sound/rosegarden/files/digest-rosegarden-1.5.0
-	M	media-sound/rosegarden/Manifest
-	A	media-sound/rosegarden/rosegarden-1.5.0.ebuild
-	D	media-sound/dino/dino-0.2.1.ebuild
-	D	media-sound/dino/files/digest-dino-0.2.1
-	A	media-sound/dino/files/digest-dino-0.2.2
-	M	media-sound/dino/Manifest
-	A	media-sound/dino/dino-0.2.2.ebuild
-	M	00-DETAILED-PACKAGES-LIST
-	M	00-TODO
-W: -empty_dir: media-sound/dino/dino-0.2.1.ebuild
-W: -empty_dir: media-sound/dino/files/digest-dino-0.2.1
-r495 = a09059d90f592fa66f8eee7f6105fb9459059269 (refs/remotes/git-svn)
-	D	sys-kernel/rt-sources/rt-sources-2.6.17_rc6-r5.ebuild
-	D	sys-kernel/rt-sources/rt-sources-2.6.19-r14.ebuild
-	D	sys-kernel/rt-sources/files/digest-rt-sources-2.6.17_rc6-r5
-	D	sys-kernel/rt-sources/files/digest-rt-sources-2.6.19-r14
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.20-r3
-	M	sys-kernel/rt-sources/Manifest
-	A	sys-kernel/rt-sources/rt-sources-2.6.20-r3.ebuild
-W: -empty_dir: sys-kernel/rt-sources/files/digest-rt-sources-2.6.17_rc6-r5
-W: -empty_dir: sys-kernel/rt-sources/files/digest-rt-sources-2.6.19-r14
-W: -empty_dir: sys-kernel/rt-sources/rt-sources-2.6.17_rc6-r5.ebuild
-W: -empty_dir: sys-kernel/rt-sources/rt-sources-2.6.19-r14.ebuild
-r496 = a6a299c43423a0edd4791b72fc3df14dbe2b188f (refs/remotes/git-svn)
-	D	x11-themes/crystalaudio/Manifest
-	D	x11-themes/crystalaudio/crystalaudio-0.9.0.ebuild
-	D	x11-themes/crystalaudio/files/digest-crystalaudio-0.9.0
-	D	x11-themes/crystalaudio/
-W: -empty_dir: x11-themes/crystalaudio
-r497 = 9deaf0fbc2e45a260beb2ac3f0e70533e17c546f (refs/remotes/git-svn)
-	A	x11-themes/crystalaudio/files/digest-crystalaudio-9999
-	A	x11-themes/crystalaudio/Manifest
-	A	x11-themes/crystalaudio/crystalaudio-9999.ebuild
-r498 = 4dec0eae64bb0a92ebe337171fea75fd88766fd0 (refs/remotes/git-svn)
-	M	x11-themes/crystalaudio/Manifest
-	M	x11-themes/crystalaudio/crystalaudio-9999.ebuild
-r499 = b4f72cfac11f099c1af7ab4effca4df38ba04b88 (refs/remotes/git-svn)
-	D	media-sound/hydrogen/ChangeLog
-	D	media-sound/hydrogen/Manifest
-	D	media-sound/hydrogen/files/0.9.1-OSS.patch
-	D	media-sound/hydrogen/files/digest-hydrogen-0.9.2
-	D	media-sound/hydrogen/files/digest-hydrogen-0.9.3
-	D	media-sound/hydrogen/files/digest-hydrogen-0.9.3-r1
-	D	media-sound/hydrogen/files/hydrogen-0.9.2-configure.in.patch
-	D	media-sound/hydrogen/files/hydrogen-0.9.3-segfault.patch
-	D	media-sound/hydrogen/hydrogen-0.9.2.ebuild
-	D	media-sound/hydrogen/hydrogen-0.9.3-r1.ebuild
-	D	media-sound/hydrogen/hydrogen-0.9.3.ebuild
-	D	media-sound/hydrogen/metadata.xml
-	D	media-sound/hydrogen/
-	M	media-sound/jackmix/Manifest
-	M	media-sound/jackmix/jackmix-0.2.ebuild
-W: -empty_dir: media-sound/hydrogen
-r500 = f06c2b2a43c3f640cfb9488a5434c57df3110866 (refs/remotes/git-svn)
-	M	00-DETAILED-PACKAGES-LIST
-	D	sys-kernel/rt-sources/rt-sources-2.6.20-r2.ebuild
-	A	sys-kernel/rt-sources/rt-sources-2.6.20-r5.ebuild
-	D	sys-kernel/rt-sources/files/digest-rt-sources-2.6.20-r2
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.20-r5
-	M	sys-kernel/rt-sources/Manifest
-	M	media-plugins/omins/omins-0.2.0.ebuild
-	M	media-plugins/omins/Manifest
-	M	media-sound/ardour2/ardour2-9999.ebuild
-	M	media-sound/ardour2/Manifest
-	A	media-sound/hydrogen/Manifest
-	A	media-sound/hydrogen/hydrogen-0.9.3-r1.ebuild
-	A	media-sound/hydrogen/files/digest-hydrogen-0.9.3-r1
-	A	media-sound/hydrogen/files/0.9.1-OSS.patch
-	A	media-sound/hydrogen/files/hydrogen-0.9.2-configure.in.patch
-	A	media-sound/hydrogen/files/hydrogen-0.9.3-segfault.patch
-	M	media-sound/om/om-0.2.0.ebuild
-	M	media-sound/om/files/digest-om-9999
-	M	media-sound/om/Manifest
-W: -empty_dir: sys-kernel/rt-sources/files/digest-rt-sources-2.6.20-r2
-W: -empty_dir: sys-kernel/rt-sources/rt-sources-2.6.20-r2.ebuild
-r501 = ec88d906c4a16db91ca5ccf62beafce1ee49245b (refs/remotes/git-svn)
-	M	media-sound/aldrin/Manifest
-	M	media-sound/aldrin/aldrin-0.10.1.ebuild
-r502 = a89c9ec18c2c882cf6abe1ae68751752d68731cf (refs/remotes/git-svn)
-	M	media-plugins/hexter/hexter-0.5.9.ebuild
-	M	media-plugins/hexter/Manifest
-	M	media-sound/ingen/ingen-9999.ebuild
-	M	media-sound/ingen/Manifest
-	M	media-sound/rosegarden/Manifest
-	M	media-sound/rosegarden/rosegarden-1.4.0.ebuild
-	M	media-sound/rosegarden/rosegarden-1.5.0.ebuild
-	M	media-sound/rosegarden/rosegarden-1.2.3-r2.ebuild
-	M	media-sound/rosegarden/rosegarden-1.2.4.ebuild
-	M	media-sound/rosegarden/rosegarden-9999.ebuild
-	M	media-sound/bpmdj/bpmdj-3.2.ebuild
-	M	media-sound/bpmdj/Manifest
-	M	media-sound/jack_convolve/jack_convolve-0.0.13.ebuild
-	M	media-sound/jack_convolve/Manifest
-	M	media-sound/alsa-midi-humanizer/alsa-midi-humanizer-0.0.3.ebuild
-	M	media-sound/alsa-midi-humanizer/Manifest
-r503 = 776144460eeee2b15fb5f9c9d746212d06359db7 (refs/remotes/git-svn)
-	M	media-sound/hydrogen/Manifest
-	M	media-sound/hydrogen/hydrogen-0.9.3-r1.ebuild
-r504 = 78da559184f7a78331bfd4470407d51ec60f12cf (refs/remotes/git-svn)
-	M	media-libs/fst/fst-1.8-r3.ebuild
-	M	media-libs/fst/Manifest
-	M	media-libs/vst-sdk/Manifest
-	M	media-libs/vst-sdk/vst-sdk-2.3-r3.ebuild
-r505 = 2c96dfa24a2b6b9dc7d6ab8c399ee0f9e64bdc88 (refs/remotes/git-svn)
-	M	eclass/fetch-tools.eclass
-	M	00-DETAILED-PACKAGES-LIST
-	A	sys-libs/pam/pam-0.99.7.1-r1.ebuild
-	A	sys-libs/pam/files/digest-pam-0.99.7.1-r1
-	A	sys-libs/pam/files/add-rt_to_ebuild.patch
-	A	sys-libs/pam/files/Linux-PAM-0.99.7.0-disable-regenerate-man.patch
-	M	sys-libs/pam/Manifest
-	M	media-sound/rosegarden/Manifest
-	M	media-sound/rosegarden/rosegarden-1.5.0.ebuild
-	M	media-sound/rosegarden/rosegarden-9999.ebuild
-r506 = e7f1640df8f4f3f9e3d9007a51881955733460b4 (refs/remotes/git-svn)
-	M	media-sound/rosegarden/Manifest
-	M	media-sound/rosegarden/rosegarden-1.5.0.ebuild
-	M	media-sound/rosegarden/rosegarden-9999.ebuild
-r507 = 6a9f52ca4df4a009049566d84c8bdfd341330e7c (refs/remotes/git-svn)
-	M	sys-libs/raul/Manifest
-	M	sys-libs/raul/raul-9999.ebuild
-	M	media-sound/tuxguitar/tuxguitar-0.8.ebuild
-	M	media-sound/tuxguitar/Manifest
-	M	media-sound/tuxguitar/tuxguitar-0.6.ebuild
-	M	media-sound/ingen/ingen-9999.ebuild
-	M	media-sound/ingen/Manifest
-	M	media-sound/patchage/patchage-9999.ebuild
-	M	media-sound/patchage/Manifest
-	M	media-libs/flowcanvas/Manifest
-	M	media-libs/flowcanvas/flowcanvas-9999.ebuild
-	M	00-DETAILED-PACKAGES-LIST
-r508 = 4d7f9e1079a2852be249e8c2f02cdc764d9c78ee (refs/remotes/git-svn)
-	A	media-sound/sweep/sweep-9999-r1.ebuild
-	A	media-sound/sweep/sweep-0.9.2.ebuild
-	A	media-sound/sweep/files/digest-sweep-9999-r1
-	A	media-sound/sweep/files/digest-sweep-0.9.2
-	M	media-sound/sweep/Manifest
-r509 = 91c5476504c2b2a9fb4fae34850dda1988277f13 (refs/remotes/git-svn)
-	M	media-sound/frinika/Manifest
-	A	media-sound/frinika/files/digest-frinika-0.3.0
-	A	media-sound/frinika/frinika-0.3.0.ebuild
-r510 = 522931111477804b74afc6d91b96a2d359b5bfde (refs/remotes/git-svn)
-	M	media-sound/frinika/Manifest
-	M	media-sound/frinika/frinika-0.3.0.ebuild
-r511 = 7f0f0553128dd4434cb5ac214fcec5f40239ad2d (refs/remotes/git-svn)
-	M	media-sound/frinika/frinika-0.3.0.ebuild
-	M	media-sound/frinika/Manifest
-r512 = 10e790a4b4fa29da2fe196a05ada910c30d50866 (refs/remotes/git-svn)
-	M	media-sound/sweep/Manifest
-	M	media-sound/sweep/sweep-9999-r1.ebuild
-	M	media-sound/sweep/sweep-0.9.2.ebuild
-r513 = 359c919c4cde7c9c51bd97a536d74fffb7fc6d61 (refs/remotes/git-svn)
-	A	profiles/repo_name
-r514 = c8256de11894c67bc03b4221116ce9e11405f9d4 (refs/remotes/git-svn)
-	M	media-libs/libdsp/libdsp-5.0.2.ebuild
-	D	media-libs/libdsp/files/Makefile.patch
-	A	media-libs/libdsp/files/libdsp-5.0.2-Makefile.patch
-	M	media-libs/libdsp/Manifest
-	A	eclass/exteutils.eclass
-	M	eclass/zyn2.eclass
-	M	00-DETAILED-PACKAGES-LIST
-	M	media-sound/freecycle/Manifest
-	M	media-sound/freecycle/freecycle-0.51a-r1.ebuild
-	M	media-sound/freecycle/freecycle-0.60a.ebuild
-	M	media-sound/rosegarden/Manifest
-	A	media-sound/rosegarden/rosegarden-1.5.0-r1.ebuild
-	A	media-sound/rosegarden/files/digest-rosegarden-1.5.0-r1
-	M	media-sound/seq24/Manifest
-	M	media-sound/seq24/seq24-0.8.7.ebuild
-	M	media-sound/bpmdj/Manifest
-	M	media-sound/bpmdj/bpmdj-3.2.ebuild
-W: -empty_dir: media-libs/libdsp/files/Makefile.patch
-r515 = 66d6a18a9b4f35bc1bbd2aadf2415dc273445a04 (refs/remotes/git-svn)
-	D	media-sound/alsaplayer/alsaplayer-0.99.76-r5.ebuild
-	D	media-sound/alsaplayer/alsaplayer-0.99.76-r6.ebuild
-	M	media-sound/alsaplayer/Manifest
-	A	media-sound/alsaplayer/alsaplayer-0.99.77.ebuild
-	M	media-sound/alsaplayer/alsaplayer-9999.ebuild
-	D	media-sound/alsaplayer/files/alsaplayer-0.99.76-cxxflags.patch
-	D	media-sound/alsaplayer/files/alsaplayer-patches-2.tar.bz2
-	D	media-sound/alsaplayer/files/alsaplayer-patches-3.tar.gz
-	D	media-sound/alsaplayer/files/digest-alsaplayer-0.99.76-r5
-	D	media-sound/alsaplayer/files/digest-alsaplayer-0.99.76-r6
-	D	media-sound/alsaplayer/files/alsaplayer-0.99.76-join-null-thread.patch
-	A	media-sound/alsaplayer/files/alsaplayer-0.99.77-cxxflags.patch
-	A	media-sound/alsaplayer/files/digest-alsaplayer-0.99.77
-	M	media-sound/alsaplayer/files/digest-alsaplayer-9999
-W: -empty_dir: media-sound/alsaplayer/alsaplayer-0.99.76-r5.ebuild
-W: -empty_dir: media-sound/alsaplayer/alsaplayer-0.99.76-r6.ebuild
-W: -empty_dir: media-sound/alsaplayer/files/alsaplayer-0.99.76-cxxflags.patch
-W: -empty_dir: media-sound/alsaplayer/files/alsaplayer-0.99.76-join-null-thread.patch
-W: -empty_dir: media-sound/alsaplayer/files/alsaplayer-patches-2.tar.bz2
-W: -empty_dir: media-sound/alsaplayer/files/alsaplayer-patches-3.tar.gz
-W: -empty_dir: media-sound/alsaplayer/files/digest-alsaplayer-0.99.76-r5
-W: -empty_dir: media-sound/alsaplayer/files/digest-alsaplayer-0.99.76-r6
-r516 = ce36efde647ff0e7b3cf78cecce4952710c2cde3 (refs/remotes/git-svn)
-	M	media-sound/alsaplayer/alsaplayer-0.99.77.ebuild
-r517 = 03aaa917aef75be6df901273b033a6e575d14511 (refs/remotes/git-svn)
-	M	media-sound/alsaplayer/Manifest
-r518 = 9b5a0794a8216f15c72a91b7777f9ef7ad7f103b (refs/remotes/git-svn)
-	M	media-sound/jokosher/Manifest
-	M	media-sound/jokosher/jokosher-9999.ebuild
-r519 = 6c529ac81024fe4c7fea303eed8181d028a38b61 (refs/remotes/git-svn)
-	M	sys-libs/raul/Manifest
-	M	sys-libs/raul/raul-9999.ebuild
-	M	media-sound/tapiir/Manifest
-	M	media-sound/tapiir/tapiir-0.7.1-r1.ebuild
-	A	media-sound/tapiir/tapiir-0.7.2.ebuild
-	A	media-sound/tapiir/files/digest-tapiir-0.7.2
-	M	media-sound/dssi_convolve/dssi_convolve-0.0.4.ebuild
-	M	media-sound/dssi_convolve/Manifest
-	M	media-sound/kontroll/Manifest
-	M	media-sound/kontroll/kontroll-20060925.ebuild
-	M	media-sound/museseq/Manifest
-	M	media-sound/museseq/museseq-9999.ebuild
-	M	media-sound/bpmdj/Manifest
-	M	media-sound/bpmdj/bpmdj-3.2.ebuild
-	M	media-sound/jack_convolve/jack_convolve-0.0.13.ebuild
-	M	media-sound/jack_convolve/Manifest
-	M	media-libs/libconvolve/Manifest
-	M	media-libs/libconvolve/libconvolve-0.0.8.ebuild
-	M	eclass/patcher.eclass
-	M	00-DETAILED-PACKAGES-LIST
-	M	00-TODO
-	A	profiles/use.local.desc
-r520 = ee780222536bcadf5fa033b9eb130b46a3013da2 (refs/remotes/git-svn)
-	M	media-sound/alsaplayer/alsaplayer-9999.ebuild
-	A	media-sound/alsaplayer/files/alsaplayer-0.99.77-join-null-thread.patch
-	M	media-sound/alsaplayer/files/alsaplayer-0.99.77-cxxflags.patch
-	A	media-sound/alsaplayer/files/alsaplayer-0.99.77-ppc-endian-fix.patch
-	M	media-sound/alsaplayer/Manifest
-	M	media-sound/alsaplayer/alsaplayer-0.99.77.ebuild
-r521 = 5ba23df100b484b8905817a908bd6c6fce1acf99 (refs/remotes/git-svn)
-	M	media-sound/jokosher/Manifest
-	M	media-sound/jokosher/jokosher-9999.ebuild
-r525 = e1617c066e73e09b46928f5c9856e226cb739c61 (refs/remotes/git-svn)
-	M	media-libs/juce/Manifest
-r526 = f24bda364b4f75c16a614faff7cf728ffa2fe3fd (refs/remotes/git-svn)
-	A	media-libs/juce/files/digest-juce-1.41
-	M	media-libs/juce/Manifest
-	A	media-libs/juce/juce-1.41.ebuild
-r527 = 6a4a733f00eca1db8d9485346176464415eb85de (refs/remotes/git-svn)
-	M	media-libs/juce/Manifest
-	M	media-libs/juce/juce-1.41.ebuild
-r528 = ee1d8221b9be12441002078b9b228e07218fa087 (refs/remotes/git-svn)
-	M	00-DETAILED-PACKAGES-LIST
-	A	media-sound/mammut/mammut-0.57.ebuild
-	A	media-sound/mammut/files/digest-mammut-0.57
-	A	media-sound/mammut/files/mammut-0.57-makefile.patch
-	M	media-sound/mammut/mammut-0.22.ebuild
-	M	media-sound/mammut/Manifest
-	M	media-libs/fst/fst-1.8-r3.ebuild
-	M	media-libs/fst/Manifest
-r529 = d5e220bdd675e34ef379e9bc34c510bf2b420721 (refs/remotes/git-svn)
-	M	media-sound/mammut/Manifest
-	M	media-sound/mammut/files/mammut-0.57-makefile.patch
-r530 = c4ba323c49f9664f03859de8c10818c7ec08bc40 (refs/remotes/git-svn)
-	M	media-sound/mammut/Manifest
-	M	media-sound/mammut/mammut-0.57.ebuild
-r531 = b46994027af281b0c18b95255d25cc418ddd48a2 (refs/remotes/git-svn)
-	M	media-sound/mammut/Manifest
-	M	media-sound/mammut/mammut-0.57.ebuild
-r532 = 50992f359a3071fafa117dae81fbb2d99fee93b7 (refs/remotes/git-svn)
-	M	media-sound/mammut/Manifest
-	M	media-sound/mammut/mammut-0.57.ebuild
-r533 = 7b203d293b3d0930f15f335c1bea5b9a104f286e (refs/remotes/git-svn)
-	M	media-sound/mammut/Manifest
-	M	media-sound/mammut/files/mammut-0.57-makefile.patch
-r534 = a8dcbb95ab4927f78fccf2154ef7674ed62fa74a (refs/remotes/git-svn)
-	M	media-sound/rezound/Manifest
-	M	media-sound/rezound/rezound-9999.ebuild
-	M	media-sound/bpmdj/bpmdj-3.2.ebuild
-	M	media-sound/bpmdj/Manifest
-	M	media-sound/zynaddsubfx/Manifest
-	M	media-sound/zynaddsubfx/zynaddsubfx-2.2.1-r8.ebuild
-	M	eclass/zyn2.eclass
-	M	00-DETAILED-PACKAGES-LIST
-	M	00-TODO
-	D	sys-kernel/rt-sources/rt-sources-2.6.20-r3.ebuild
-	D	sys-kernel/rt-sources/files/digest-rt-sources-2.6.20-r3
-	A	sys-kernel/rt-sources/files/digest-rt-sources-2.6.20-r8
-	A	sys-kernel/rt-sources/rt-sources-2.6.20-r8.ebuild
-	M	sys-kernel/rt-sources/Manifest
-W: -empty_dir: sys-kernel/rt-sources/files/digest-rt-sources-2.6.20-r3
-W: -empty_dir: sys-kernel/rt-sources/rt-sources-2.6.20-r3.ebuild
-r535 = d7d1f0479a3f4fb05badc6b1238ed14d838668d4 (refs/remotes/git-svn)
-	M	media-sound/aqualung/aqualung-9999.ebuild
-	M	media-sound/aqualung/Manifest
-r536 = 55c09bbc7ad9b5e4b5bce5841cefcda38ef6c3af (refs/remotes/git-svn)
-	D	media-sound/alsaplayer/alsaplayer-0.99.77.ebuild
-	D	media-sound/alsaplayer/files/alsaplayer-0.99.77-join-null-thread.patch
-	D	media-sound/alsaplayer/files/alsaplayer-0.99.77-cxxflags.patch
-	D	media-sound/alsaplayer/files/digest-alsaplayer-0.99.77
-	D	media-sound/alsaplayer/files/alsaplayer-0.99.77-ppc-endian-fix.patch
-	D	media-sound/alsaplayer/files/alsaplayer-endian.patch
-	M	media-sound/alsaplayer/Manifest
-	M	media-sound/alsaplayer/ChangeLog
-W: -empty_dir: media-sound/alsaplayer/alsaplayer-0.99.77.ebuild
-W: -empty_dir: media-sound/alsaplayer/files/alsaplayer-0.99.77-cxxflags.patch
-W: -empty_dir: media-sound/alsaplayer/files/alsaplayer-0.99.77-join-null-thread.patch
-W: -empty_dir: media-sound/alsaplayer/files/alsaplayer-0.99.77-ppc-endian-fix.patch
-W: -empty_dir: media-sound/alsaplayer/files/alsaplayer-endian.patch
-W: -empty_dir: media-sound/alsaplayer/files/digest-alsaplayer-0.99.77
-r537 = ecae799eaeb764298e7b1433a253bf656d9b87ee (refs/remotes/git-svn)
-	M	media-sound/swami/swami-1.0.0_pre1.ebuild
-	M	media-sound/swami/Manifest
-r538 = bbb626d188c15a35ac941d08fb90d535392581bf (refs/remotes/git-svn)
-	M	media-sound/swami/swami-1.0.0_pre1.ebuild
-	M	media-sound/swami/Manifest
-r539 = 474a2abb483b9ef5cf02bc54e609762e0a6b6847 (refs/remotes/git-svn)
-	D	x11-themes/crystalaudio/Manifest
-	D	x11-themes/crystalaudio/crystalaudio-9999.ebuild
-	D	x11-themes/crystalaudio/files/digest-crystalaudio-9999
-	D	x11-themes/crystalaudio/
-	A	x11-themes/crystal-audio/crystal-audio-1.0.ebuild
-	A	x11-themes/crystal-audio/files/digest-crystal-audio-1.0
-	A	x11-themes/crystal-audio/Manifest
-W: -empty_dir: x11-themes/crystalaudio
-r540 = 608fa0000081c99770c0edc2b43d7d129c8ed9b9 (refs/remotes/git-svn)
-	D	x11-wm/fvwm/fvwm-20070204.ebuild
-	D	x11-wm/fvwm/files/digest-fvwm-20070204
-	D	x11-wm/fvwm/files/fvwm-translucent-menus.diff.gz
-	A	x11-wm/fvwm/files/digest-fvwm-2.5.22
-	M	x11-wm/fvwm/Manifest
-	A	x11-wm/fvwm/fvwm-2.5.22.ebuild
-W: -empty_dir: x11-wm/fvwm/files/digest-fvwm-20070204
-W: -empty_dir: x11-wm/fvwm/files/fvwm-translucent-menus.diff.gz
-W: -empty_dir: x11-wm/fvwm/fvwm-20070204.ebuild
-r541 = 4e32eaba9f66f9559eb9cea7923c8e77c3f798a3 (refs/remotes/git-svn)
-	M	media-sound/swami/swami-1.0.0_pre1.ebuild
-	M	media-sound/swami/Manifest
-r542 = a3b93a2fa180cbeb884b1c6af3af83507626a254 (refs/remotes/git-svn)
-	M	media-sound/idjc/Manifest
-	A	media-sound/idjc/idjc-0.6.10.ebuild
-	A	media-sound/idjc/files/digest-idjc-0.6.10
-	A	media-sound/idjc/files/digest-idjc-0.6.11_pre1
-	A	media-sound/idjc/idjc-0.6.11_pre1.ebuild
-r543 = 25daad3272321eb5f1b379fc393ed7bcd3721234 (refs/remotes/git-svn)
-	M	media-libs/juce/Manifest
-	M	media-libs/juce/juce-1.41.ebuild
-r544 = 26d74eef712c5962dec7e5427df786793c1588d7 (refs/remotes/git-svn)
-	M	media-sound/jackdmp/jackdmp-9999.ebuild
-	M	media-sound/jackdmp/jackdmp-0.61.ebuild
-	M	media-sound/jackdmp/Manifest
-	M	media-sound/rosegarden/Manifest
-	M	media-sound/rosegarden/rosegarden-1.5.0-r1.ebuild
-	M	eclass/exteutils.eclass
-	M	eclass/fetch-tools.eclass
-	M	00-DETAILED-PACKAGES-LIST
-r545 = 1dd4b73a0ff21417c2ec7891463f7eb6d6bc3736 (refs/remotes/git-svn)
-	D	x11-themes/crystal-audio/crystal-audio-1.0.ebuild
-	A	x11-themes/crystal-audio/crystal-audio-1.2.ebuild
-	D	x11-themes/crystal-audio/files/digest-crystal-audio-1.0
-	A	x11-themes/crystal-audio/files/digest-crystal-audio-1.2
-	M	x11-themes/crystal-audio/Manifest
-W: -empty_dir: x11-themes/crystal-audio/crystal-audio-1.0.ebuild
-W: -empty_dir: x11-themes/crystal-audio/files/digest-crystal-audio-1.0
-r546 = 4f98675a8b0b0ebeade4d39819895801b7143391 (refs/remotes/git-svn)
-	M	x11-themes/crystal-audio/files/digest-crystal-audio-1.2
-	M	x11-themes/crystal-audio/Manifest
-r547 = 4ba35c8bb55b945f53b4bd8fda857d6cf883f216 (refs/remotes/git-svn)
-	M	media-video/xjadeo/Manifest
-	A	media-video/xjadeo/xjadeo-0.4.0.ebuild
-	A	media-video/xjadeo/files/digest-xjadeo-0.4.0
-	M	00-PACKAGES-LIST
-	A	media-libs/pyphat/files/digest-pyphat-0.1
-	A	media-libs/pyphat/pyphat-0.1.ebuild
-	M	media-libs/pyphat/Manifest
-	M	media-libs/pyphat/pyphat-9999.ebuild
-	M	media-libs/juce/Manifest
-	M	00-DETAILED-PACKAGES-LIST
-r548 = fd341565a2ef13b072af9a919eaee68b3e705aaf (refs/remotes/git-svn)
-	A	media-sound/aldrin/files/digest-aldrin-9999
-	M	media-sound/aldrin/Manifest
-	A	media-sound/aldrin/aldrin-9999.ebuild
-	A	media-libs/libzzub/files/digest-libzzub-9999
-	A	media-libs/libzzub/libzzub-9999.ebuild
-	M	media-libs/libzzub/Manifest
-r549 = 9e86f3ae9a24edae1bde8e79b76ebb0706735ae4 (refs/remotes/git-svn)
-	M	media-sound/aldrin/Manifest
-	M	media-sound/aldrin/aldrin-9999.ebuild
-r550 = 7186849bc6acb0d81ec732a0727fc6e895fd7935 (refs/remotes/git-svn)
-	M	media-sound/rosegarden/Manifest
-	M	media-sound/rosegarden/rosegarden-1.5.0-r1.ebuild
-r551 = 443b4489593c721c8bd8a71afc51e236464680e6 (refs/remotes/git-svn)
-	M	media-sound/rosegarden/Manifest
-	M	media-sound/rosegarden/rosegarden-1.5.0-r1.ebuild
-	M	media-sound/rosegarden/rosegarden-9999.ebuild
-	M	00-DETAILED-PACKAGES-LIST
-r552 = 2e53dfc43caca9276b2be983eede9f1bb05b2c3f (refs/remotes/git-svn)
-	M	media-video/xjadeo/files/digest-xjadeo-0.4.0
-	M	media-video/xjadeo/Manifest
-r553 = b301f507b10d8ee9b3570e6b53e9045519f29973 (refs/remotes/git-svn)
-	M	media-sound/vkeybd/Manifest
-	M	media-sound/vkeybd/vkeybd-0.1.17-r1.ebuild
-	M	media-sound/zynaddsubfx-converter/zynaddsubfx-converter-2.0.0_pre2.ebuild
-	M	media-sound/zynaddsubfx-converter/Manifest
-	M	media-sound/ingen/ingen-9999.ebuild
-	M	media-sound/ingen/Manifest
-r554 = 07e751b0af140f1103418b3a0e3ccbc77e554fa1 (refs/remotes/git-svn)
-	M	media-libs/juce/Manifest
-	M	media-libs/juce/juce-1.31.ebuild
-	M	media-libs/juce/juce-1.40.ebuild
-	M	media-libs/juce/juce-1.41.ebuild
-	M	media-libs/juce/juce-1.35.ebuild
-	M	media-libs/zynaddsubfx-collection/Manifest
-	M	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.1.ebuild
-	M	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.2.ebuild
-	M	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.3.ebuild
-	M	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.4.ebuild
-	M	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.5.ebuild
-	M	media-libs/zynaddsubfx-collection/zynaddsubfx-collection-0.6.ebuild
-	M	media-libs/fst/fst-1.6-r1.ebuild
-	M	media-libs/fst/fst-1.6-r2.ebuild
-	M	media-libs/fst/fst-1.8-r1.ebuild
-	M	media-libs/fst/fst-1.8.ebuild
-	M	media-libs/fst/fst-1.8-r2.ebuild
-	M	media-libs/fst/fst-1.8-r3.ebuild
-	M	media-libs/fst/Manifest
-	M	media-libs/fst/fst-1.7-r5.ebuild
-	M	media-libs/zynaddsubfx-banks/zynaddsubfx-banks-20060419.ebuild
-	M	media-libs/zynaddsubfx-banks/zynaddsubfx-banks-99999999.ebuild
-	M	media-libs/zynaddsubfx-banks/Manifest
-	M	media-libs/zynaddsubfx-banks/zynaddsubfx-banks-20061031.ebuild
-	M	media-libs/zynaddsubfx-banks/zynaddsubfx-banks-2.2.1.ebuild
-	M	media-libs/libgig/Manifest
-	M	media-libs/libgig/libgig-9999.ebuild
-	M	media-libs/libgig/files/digest-libgig-9999
-	M	media-libs/dssi/dssi-0.9.1.ebuild
-	M	media-libs/dssi/Manifest
-	M	media-libs/zynaddsubfx-extras/files/digest-zynaddsubfx-extras-99999999
-	M	media-libs/zynaddsubfx-extras/Manifest
-	M	media-libs/zynaddsubfx-extras/zynaddsubfx-extras-20060419.ebuild
-	M	media-libs/zynaddsubfx-extras/zynaddsubfx-extras-99999999.ebuild
-	M	00-DETAILED-PACKAGES-LIST
-r555 = 9e37b2dae7e082a552cc64bdfb37068497681efc (refs/remotes/git-svn)
-	A	media-libs/lv2dynparam/files/digest-lv2dynparam-9999
-	A	media-libs/lv2dynparam/lv2dynparam-9999.ebuild
-	A	media-libs/lv2dynparam/Manifest
-	A	media-libs/slv2/files/digest-slv2-9999
-	A	media-libs/slv2/Manifest
-	A	media-libs/slv2/slv2-9999.ebuild
-	M	00-DETAILED-PACKAGES-LIST
-	A	media-plugins/ll-plugins/Manifest
-	A	media-plugins/ll-plugins/ll-plugins-9999.ebuild
-	A	media-plugins/ll-plugins/files/digest-ll-plugins-9999
-	A	media-plugins/zynadd/Manifest
-	A	media-plugins/zynadd/zynadd-9999.ebuild
-	A	media-plugins/zynadd/files/digest-zynadd-9999
-	M	00-PACKAGES-LIST
-	A	media-sound/zynjacku/files/digest-zynjacku-9999
-	A	media-sound/zynjacku/zynjacku-9999.ebuild
-	A	media-sound/zynjacku/Manifest
-r556 = d09c395f529d616fc1fd4d7cf74fb28806de7c27 (refs/remotes/git-svn)
-	M	media-libs/juce/Manifest
-	M	media-libs/juce/juce-1.41.ebuild
-r557 = a3c548c52d1f68449f2c7f6b45dec07e5bb8595e (refs/remotes/git-svn)
+	A	media-sound/bpmdj/bpmdj-3.2.ebuild
+	A	media-sound/bpmdj/files/Makefile-prefix.patch
+	A	media-sound/bpmdj/files/Makefile-destdir.patch
+	A	media-sound/bpmdj/files/Makefile-nostrip.patch
+	A	media-sound/bpmdj/files/digest-bpmdj-3.2
+	A	media-sound/bpmdj/files/Makefile-make_install.patch
+fatal: malformed index info 100644 a9f2e2390846589b3e7d2
+error: git-svn died of signal 15
 *** syncing proaudio
 *** failed syncing proaudio
  * Sync failed with 1

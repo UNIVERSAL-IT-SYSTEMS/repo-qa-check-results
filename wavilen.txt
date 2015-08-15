@@ -11,11 +11,7 @@
 $ pmaint sync wavilen
 WARNING:pkgcore:repository at location '/home/mgorny/repos/proaudio' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/proaudio', named 'proaudio', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing wavilen
 *** synced wavilen
@@ -109,6 +105,4 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception Metadata Exception: pkg ebuild src: x11-misc/notify-osd-0.9.29-r1, attr description
 error: Metadata Exception: pkg ebuild src: x11-misc/notify-osd-0.9.29-r1, attr data
 error: False while processing ebuild src: x11-misc/notify-osd-0.9.29-r1
-Unhandled exception occurred:
- 'ascii' codec can't decode byte 0xe2 in position 10: ordinal not in range(128)
- * Cache regen failed with 246
+ * Cache regen failed with 65

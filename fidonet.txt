@@ -14,6 +14,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 This is overlay.junc.org.
 
 receiving incremental file list
+metadata/
 metadata/md5-cache/mail-filter/
 metadata/md5-cache/mail-filter/dovecot-antispam-1.3
 metadata/md5-cache/mail-filter/fuglu-0.6.2
@@ -51,23 +52,24 @@ metadata/md5-cache/net-mail/dovecot-1.2.17
 metadata/md5-cache/net-www/
 metadata/md5-cache/net-www/modoboa-1.2.0
 profiles/use.local.desc
+deleting metadata/pkg_desc_index
 
 Number of files: 182 (reg: 136, dir: 46)
 Number of created files: 0
-Number of deleted files: 0
+Number of deleted files: 1 (reg: 1)
 Number of regular files transferred: 33
 Total file size: 157.49K bytes
 Total transferred file size: 21.97K bytes
 Literal data: 21.97K bytes
 Matched data: 0 bytes
-File list size: 4.36K
+File list size: 4.35K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 758
-Total bytes received: 20.13K
+Total bytes sent: 769
+Total bytes received: 20.14K
 
-sent 758 bytes  received 20.13K bytes  13.93K bytes/sec
-total size is 157.49K  speedup is 7.54
+sent 769 bytes  received 20.14K bytes  13.94K bytes/sec
+total size is 157.49K  speedup is 7.53
 *** syncing fidonet
 *** synced fidonet
  * Sync succeeded
