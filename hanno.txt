@@ -67,7 +67,7 @@ received unknown com: export CATEGORY='net-misc' PR=r0 PVR='1.025' PV='1.025' EB
 !!! The die message:
 !!!  inherit for mysql failed
 
-sandbox:stop  caught signal 15 in pid 10208
+sandbox:stop  caught signal 15 in pid 6945
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: dev-db/mysql-5.5.1 failed.
@@ -86,7 +86,7 @@ Sandboxed process killed by signal: Terminated
 !!! The die message:
 !!!  inherit for mysql failed
 
-sandbox:stop  caught signal 15 in pid 12436
+sandbox:stop  caught signal 15 in pid 9135
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, mysql cannot be found while processing ebuild src: dev-db/mysql-5.4.3_beta
 ERROR pkgcore: returned val from gen_metadata was 'False'

@@ -24,4 +24,8 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-apps/icingaweb2-2.0.0_beta3 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: dev-php/PEAR-HTTP_WebDAV_Client-1.0.2, attr description
+error: Metadata Exception: pkg ebuild src: dev-php/PEAR-HTTP_WebDAV_Client-1.0.2, attr data
+error: [Errno 13] Permission denied while processing ebuild src: dev-php/PEAR-HTTP_WebDAV_Client-1.0.2
+coms error in 4423, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
