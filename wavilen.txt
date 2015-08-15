@@ -34,6 +34,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
+WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 !!!    notify-osd-0.9.29-r1.ebuild, line   7:  Called inherit 'gnome2' 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
@@ -41,9 +44,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
-
-WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * 
  * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.9.7.ebuild":
