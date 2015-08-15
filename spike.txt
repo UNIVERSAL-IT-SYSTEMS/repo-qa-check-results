@@ -9,37 +9,7 @@
  'status': 'unofficial'}
 $ pmaint sync spike
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/Spike-Pentesting/spike-overlay
-   c8ead27..4de40bc  master     -> origin/master
-Updating c8ead27..4de40bc
-Fast-forward
- .drone.yml                                         |   1 -
- dev-ruby/activemodel/Manifest                      |   2 +
- dev-ruby/activemodel/activemodel-3.2.21.ebuild     |  45 +++++
- dev-ruby/activesupport/Manifest                    |   2 +
- dev-ruby/activesupport/activesupport-3.2.21.ebuild |  57 ++++++
- dev-util/soapui/Manifest                           |   2 +
- dev-util/soapui/soapui-5.2.0.ebuild                |  37 ++++
- media-tv/popcorntime-bin/Manifest                  |   2 +-
- .../popcorntime-bin/popcorntime-bin-0.3.8.0.ebuild |  13 +-
- net-analyzer/autoscan-network/Manifest             |   2 +-
- .../autoscan-network/autoscan-network-1.50.ebuild  |   2 +-
- net-analyzer/dirb/Manifest                         |   2 +
- net-analyzer/dirb/dirb-2.22.ebuild                 |  34 ++++
- spike/spike-pentesting/Manifest                    |   1 +
- .../spike-pentesting-1.2-r1.ebuild                 | 195 +++++++++++++++++++++
- www-apps/beef/Manifest                             |   2 +
- www-apps/beef/beef-0.4.6.1.ebuild                  |  75 ++++++++
- 17 files changed, 466 insertions(+), 8 deletions(-)
- create mode 100644 dev-ruby/activemodel/Manifest
- create mode 100644 dev-ruby/activemodel/activemodel-3.2.21.ebuild
- create mode 100644 dev-ruby/activesupport/Manifest
- create mode 100644 dev-ruby/activesupport/activesupport-3.2.21.ebuild
- create mode 100644 dev-util/soapui/soapui-5.2.0.ebuild
- create mode 100644 net-analyzer/dirb/Manifest
- create mode 100644 net-analyzer/dirb/dirb-2.22.ebuild
- create mode 100644 spike/spike-pentesting/spike-pentesting-1.2-r1.ebuild
- create mode 100644 www-apps/beef/beef-0.4.6.1.ebuild
+Already up-to-date.
 *** syncing spike
 *** synced spike
  * Sync succeeded

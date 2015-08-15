@@ -39,29 +39,31 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!  inherit for kde-functions failed
 
 
-!!! ERROR: media-plugins/xmms-sanalyzer-1.2.10 failed.
+!!! ERROR: media-plugins/xmms-scivi-0.2.0_rc3 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '231' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '226' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/graveyard/media-plugins/xmms-sanalyzer/xmms-sanalyzer-1.2.10.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/media-plugins/xmms-sanalyzer/xmms-sanalyzer-1.2.10.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/graveyard/media-plugins/xmms-sanalyzer/xmms-sanalyzer-1.2.10.ebuild'
-!!!   xmms-sanalyzer-1.2.10.ebuild, line  15:  Called inherit 'xmms-plugin'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'xmms-plugin'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/graveyard/media-plugins/xmms-scivi/xmms-scivi-0.2.0_rc3.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/media-plugins/xmms-scivi/xmms-scivi-0.2.0_rc3.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/graveyard/media-plugins/xmms-scivi/xmms-scivi-0.2.0_rc3.ebuild'
+!!!    xmms-scivi-0.2.0_rc3.ebuild, line   7:  Called inherit 'base' 'autotools'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'base'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 226' for eclass xmms-plugin
+!!!  unknown inherit command from pythonic side, 'gen_metadata 226' for eclass base
 
-received unknown com: export CATEGORY='media-plugins' PR=r0 PVR='0.2.0_rc3' PV='0.2.0_rc3' EBUILD='/home/mgorny/repos/graveyard/media-plugins/xmms-scivi/xmms-scivi-0.2.0_rc3.ebuild' P='xmms-scivi-0.2.0_rc3' PF='xmms-scivi-0.2.0_rc3' PN='xmms-scivi'path
+received unknown com: export CATEGORY='media-plugins' PR=r0 PVR='0.3.6' PV='0.3.6' EBUILD='/home/mgorny/repos/graveyard/media-plugins/xmms-scrobbler/xmms-scrobbler-0.3.6.ebuild' P='xmms-scrobbler-0.3.6' PF='xmms-scrobbler-0.3.6' PN='xmms-scrobbler'path
 !!! caught exception inherit requires an unknown eclass, kde-functions cannot be found while processing ebuild src: media-plugins/xmms-kde-3.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-plugins/xmms-kjofol-0.95
+!!! caught exception Metadata Exception: pkg ebuild src: media-plugins/xmms-scivi-0.2.0_rc3, attr eapi
+error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: media-plugins/xmms-scivi-0.2.0_rc3
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/xmms-scivi-0.2.0_rc3
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-plugins/xmms-scrobbler-0.3.6
+!!! caught exception False while processing ebuild src: media-plugins/xmms-scrobbler-0.3.6
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-plugins/xmms-scrobbler-0.3.7
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))

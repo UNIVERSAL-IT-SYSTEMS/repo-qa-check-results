@@ -17,7 +17,16 @@
  'status': 'official'}
 $ pmaint sync science
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/sci
+   7672a9f..5dc13cc  master     -> origin/master
+ * [new branch]      gentoo-master -> origin/gentoo-master
+Updating 7672a9f..5dc13cc
+Fast-forward
+ sci-physics/yoda/ChangeLog         |  7 +++++-
+ sci-physics/yoda/Manifest          |  1 +
+ sci-physics/yoda/yoda-1.4.0.ebuild | 51 ++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 58 insertions(+), 1 deletion(-)
+ create mode 100644 sci-physics/yoda/yoda-1.4.0.ebuild
 *** syncing science
 *** synced science
  * Sync succeeded
