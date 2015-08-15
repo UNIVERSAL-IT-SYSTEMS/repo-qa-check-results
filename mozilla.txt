@@ -17,8 +17,4 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 mozilla
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception Metadata Exception: pkg ebuild src: mail-client/thunderbird-38.1.0, attr description
-error: Metadata Exception: pkg ebuild src: mail-client/thunderbird-38.1.0, attr data
-error: [Errno 13] Permission denied while processing ebuild src: mail-client/thunderbird-38.1.0
-coms error in 1528, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 65
+ * Cache regenerated successfully
