@@ -17,13 +17,22 @@
 $ pmaint sync mrueg
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/dev/mrueg
-   40fb36d..af495eb  master     -> origin/master
-Updating 40fb36d..af495eb
+   af495eb..7ea7ea8  master     -> origin/master
+Updating af495eb..7ea7ea8
 Fast-forward
- dev-ruby/github-markdown/Manifest                                       | 2 +-
- .../{github-markdown-0.6.8.ebuild => github-markdown-0.6.9.ebuild}      | 0
- 2 files changed, 1 insertion(+), 1 deletion(-)
- rename dev-ruby/github-markdown/{github-markdown-0.6.8.ebuild => github-markdown-0.6.9.ebuild} (100%)
+ dev-python/cookies/Manifest                 |  1 +
+ dev-python/cookies/cookies-2.2.1.ebuild     | 24 +++++++++++++++++++++++
+ dev-python/cookies/metadata.xml             |  8 ++++++++
+ dev-python/responses/Manifest               |  1 +
+ dev-python/responses/metadata.xml           |  8 ++++++++
+ dev-python/responses/responses-0.4.0.ebuild | 30 +++++++++++++++++++++++++++++
+ 6 files changed, 72 insertions(+)
+ create mode 100644 dev-python/cookies/Manifest
+ create mode 100644 dev-python/cookies/cookies-2.2.1.ebuild
+ create mode 100644 dev-python/cookies/metadata.xml
+ create mode 100644 dev-python/responses/Manifest
+ create mode 100644 dev-python/responses/metadata.xml
+ create mode 100644 dev-python/responses/responses-0.4.0.ebuild
 *** syncing mrueg
 *** synced mrueg
  * Sync succeeded

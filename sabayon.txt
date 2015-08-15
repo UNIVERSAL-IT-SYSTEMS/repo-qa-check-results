@@ -8,19 +8,7 @@
  'status': 'unofficial'}
 $ pmaint sync sabayon
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/Sabayon/for-gentoo
-   95ed6ac..8f8de84  master     -> origin/master
-Updating 95ed6ac..8f8de84
-Fast-forward
- media-libs/portmidi/Manifest                       |   1 -
- .../portmidi-217-cmake-libdir-java-opts.patch      | 211 ---------------------
- .../files/portmidi-217-python-setup.py.patch       |  12 --
- media-libs/portmidi/portmidi-217.ebuild            | 162 ----------------
- 4 files changed, 386 deletions(-)
- delete mode 100644 media-libs/portmidi/Manifest
- delete mode 100644 media-libs/portmidi/files/portmidi-217-cmake-libdir-java-opts.patch
- delete mode 100644 media-libs/portmidi/files/portmidi-217-python-setup.py.patch
- delete mode 100644 media-libs/portmidi/portmidi-217.ebuild
+Already up-to-date.
 *** syncing sabayon
 *** synced sabayon
  * Sync succeeded

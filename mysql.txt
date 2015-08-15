@@ -14,7 +14,14 @@
  'status': 'official'}
 $ pmaint sync mysql
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/mysql
+   c8da824..8889eec  master     -> origin/master
+Updating c8da824..8889eec
+Fast-forward
+ dev-java/mariadb-java-client/ChangeLog                       |  4 ++++
+ .../mariadb-java-client/mariadb-java-client-1.1.7.ebuild     | 12 ++++--------
+ dev-java/mariadb-java-client/mariadb-java-client-9999.ebuild |  6 +++---
+ 3 files changed, 11 insertions(+), 11 deletions(-)
 *** syncing mysql
 *** synced mysql
  * Sync succeeded
@@ -33,7 +40,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                         ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!                         ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!             isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
-!!!   mariadb-java-client-1.1.7.ebuild, line  23:  Called inherit 'java-pkg-2' 'java-ant-2' ''
+!!!   mariadb-java-client-1.1.7.ebuild, line  19:  Called inherit 'java-pkg-2' 'java-ant-2' ''
 !!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
 !!!                  ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
@@ -50,7 +57,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-9999.ebuild'
 !!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-9999.ebuild'
 !!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-9999.ebuild'
-!!!   mariadb-java-client-9999.ebuild, line  23:  Called inherit 'java-pkg-2' 'java-ant-2' 'eutils' 'bzr'
+!!!   mariadb-java-client-9999.ebuild, line  23:  Called inherit 'java-pkg-2' 'java-ant-2' 'eutils' 'git-r3'
 !!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'java-pkg-2'
 !!!                 ebuild-daemon.lib, line  37:  Called die
 !!! The die message:

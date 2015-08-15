@@ -250,4 +250,8 @@ QA warning: set modification bled out of invocation source /home/mgorny/repos/ra
 QA warning: set modification bled out of invocation source /home/mgorny/repos/raiagent/sys-power/phc-k8/phc-k8-0.4.6_beta1.ebuild
           : was hB
           : now ehB
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: app-editors/vim-7.4.591-r2, attr description
+error: Metadata Exception: pkg ebuild src: app-editors/vim-7.4.591-r2, attr data
+error: [Errno 13] Permission denied while processing ebuild src: app-editors/vim-7.4.591-r2
+coms error in 31374, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65

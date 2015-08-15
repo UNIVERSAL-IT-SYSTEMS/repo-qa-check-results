@@ -12,12 +12,48 @@
 $ pmaint sync linuxunderground-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/linuxunderground/gentoo.overlay
-   028d3e4..2008eb3  master     -> origin/master
-Updating 028d3e4..2008eb3
+   2008eb3..a9a5583  master     -> origin/master
+Updating 2008eb3..a9a5583
 Fast-forward
- .../{xcftools-1.0.7.ebuild => xcftools-1.0.7-r2.ebuild}      | 12 ++++++------
- 1 file changed, 6 insertions(+), 6 deletions(-)
- rename media-gfx/xcftools/{xcftools-1.0.7.ebuild => xcftools-1.0.7-r2.ebuild} (79%)
+ app-crypt/acsccid/ChangeLog                             |  2 +-
+ app-crypt/acsccid/Manifest                              |  6 +++---
+ app-crypt/acsccid/acsccid-1.1.0.ebuild                  |  2 +-
+ app-crypt/acsccid/metadata.xml                          |  2 +-
+ app-emulation/dosemu/Manifest                           |  2 +-
+ app-emulation/dosemu/dosemu-1.4.1_pre20130728-r3.ebuild |  4 ++--
+ app-emulation/ti99sim/ChangeLog                         |  2 +-
+ app-emulation/ti99sim/Manifest                          |  6 +++---
+ app-emulation/ti99sim/ti99sim-0.0.11.ebuild             |  4 ++--
+ app-emulation/ti99sim/ti99sim-0.12.1.ebuild             |  2 +-
+ dev-db/firebird/Manifest                                |  2 +-
+ dev-db/firebird/firebird-2.5.4.26856.0.ebuild           | 10 +++++-----
+ dev-python/fdb/Manifest                                 |  2 +-
+ dev-python/fdb/fdb-1.4.9.ebuild                         |  2 +-
+ games-arcade/BoulderDash/BoulderDash-1.0.ebuild         |  4 ++--
+ games-arcade/BoulderDash/Manifest                       |  2 +-
+ games-arcade/breaker/ChangeLog                          |  2 +-
+ games-arcade/breaker/Manifest                           |  4 ++--
+ games-arcade/breaker/breaker-2.16.ebuild                |  2 +-
+ games-arcade/diamond-girl/ChangeLog                     |  2 +-
+ games-arcade/diamond-girl/Manifest                      |  8 +++-----
+ games-arcade/diamond-girl/diamond-girl-1.25.2.ebuild    |  2 +-
+ games-arcade/diamond-girl/diamond-girl-9999.ebuild      |  4 ++--
+ games-arcade/doubledash/Manifest                        |  2 +-
+ games-arcade/doubledash/doubledash-0.5.1.ebuild         |  6 +++---
+ games-arcade/epiphany/Manifest                          |  4 ++--
+ games-arcade/epiphany/epiphany-0.7.0.ebuild             |  6 +++---
+ games-arcade/epiphany/epiphany-9999.ebuild              |  6 +++---
+ games-arcade/gdash/ChangeLog                            |  2 +-
+ games-arcade/gdash/Manifest                             |  4 ++--
+ games-arcade/gdash/gdash-20130427.ebuild                |  2 +-
+ games-arcade/xdigger/Manifest                           |  2 +-
+ games-arcade/xdigger/xdigger-1.0.10.ebuild              |  2 +-
+ media-gfx/xcftools/Manifest                             |  4 ++--
+ media-gfx/xcftools/metadata.xml                         | 12 +++---------
+ media-sound/tinysid/ChangeLog                           |  2 +-
+ media-sound/tinysid/Manifest                            |  4 ++--
+ media-sound/tinysid/tinysid-0.94.ebuild                 |  2 +-
+ 38 files changed, 65 insertions(+), 73 deletions(-)
 *** syncing linuxunderground-overlay
 *** synced linuxunderground-overlay
  * Sync succeeded
