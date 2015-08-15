@@ -51,6 +51,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  unknown inherit command from pythonic side, 'alive' for eclass distutils-r1
 
+Sandboxed process killed by signal: Broken pipe
 
 !!! ERROR: dev-php5/ioncube-3.3.7 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -68,7 +69,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for php-ext-base-r1 failed
 
-sandbox:stop  caught signal 15 in pid 11173
+sandbox:stop  caught signal 15 in pid 24370
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: dev-python/g-pypi-0.4 failed.

@@ -11,10 +11,18 @@ $ pmaint sync ext-devlibs
 WARNING:pkgcore:repository at location '/home/mgorny/sync/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Current branch master is up to date.
+	A	dev-libs/leptonlib/metadata.xml
+	A	dev-libs/leptonlib/leptonlib-1.72.ebuild
+	M	dev-libs/leptonlib/Manifest
+r129 = 3931dfdcc391a4d62dbbe2a867d35470b4af7360 (refs/remotes/git-svn)
+	D	dev-python/pyglet/Manifest
+	D	dev-python/pyglet/pyglet-1.1.4.ebuild
+	D	dev-python/pyglet/
+W: -empty_dir: dev-python/pyglet
+r130 = 98f9bcaf0b94ab26356a59883d3c670879668811 (refs/remotes/git-svn)
+First, rewinding head to replay your work on top of it...
+Fast-forwarded master to refs/remotes/git-svn.
 *** syncing ext-devlibs
 *** synced ext-devlibs
  * Sync succeeded
