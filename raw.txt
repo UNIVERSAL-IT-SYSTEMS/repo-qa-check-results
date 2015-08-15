@@ -9,11 +9,15 @@
              'uri': 'https://github.com/mahatma-kaganovich/raw.git'}],
  'status': 'unofficial'}
 $ pmaint sync raw
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/proaudio' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/proaudio', named 'proaudio', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+From https://github.com/mahatma-kaganovich/raw
+   da978c3..353ec9e  master     -> origin/master
+Updating da978c3..353ec9e
+Fast-forward
+ profiles/common/make.defaults         | 2 +-
+ profiles/common/minimal/make.defaults | 1 -
+ 2 files changed, 1 insertion(+), 2 deletions(-)
 *** syncing raw
 *** synced raw
  * Sync succeeded
@@ -173,7 +177,7 @@ Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directo
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 7321
+sandbox:stop  caught signal 15 in pid 24467
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-cluster/kerrighed-9999-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'

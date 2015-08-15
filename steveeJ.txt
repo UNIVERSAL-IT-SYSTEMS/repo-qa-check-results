@@ -14,20 +14,49 @@
              'uri': 'git@github.com:steveeJ/personal-portage-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync steveeJ
-WARNING:pkgcore:repository at location '/home/mgorny/repos/proaudio' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/proaudio', named 'proaudio', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/steveeJ/personal-portage-overlay
-   cf04f2a..56428d2  master     -> origin/master
-Updating cf04f2a..56428d2
-Fast-forward
- profiles/cluster/linux/amd64/latest/phyhost/package.accept_keywords | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+Already up-to-date.
 *** syncing steveeJ
 *** synced steveeJ
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 steveeJ
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.18.11 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.19.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.0.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.0.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.0.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.1.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.18.11 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.19.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.0.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.0.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.0.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.1.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully

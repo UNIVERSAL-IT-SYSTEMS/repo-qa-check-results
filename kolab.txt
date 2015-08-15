@@ -9,7 +9,7 @@
              'uri': 'https://gitlab.awesome-it.de/overlays/kolab.git'}],
  'status': 'unofficial'}
 $ pmaint sync kolab
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing kolab
 *** synced kolab
@@ -185,4 +185,8 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by www-apps/kolab-webadmin-3.1.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: dev-util/kolab-utils-3.0.5, attr description
+error: Metadata Exception: pkg ebuild src: dev-util/kolab-utils-3.0.5, attr data
+error: [Errno 13] Permission denied while processing ebuild src: dev-util/kolab-utils-3.0.5
+coms error in 2530, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65

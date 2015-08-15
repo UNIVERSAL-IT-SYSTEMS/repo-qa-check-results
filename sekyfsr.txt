@@ -12,9 +12,7 @@
              'uri': 'https://github.com/npinto/sekyfsr-gentoo-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync sekyfsr
-WARNING:pkgcore:repository at location '/home/mgorny/repos/proaudio' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/proaudio', named 'proaudio', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing sekyfsr
 *** synced sekyfsr
@@ -101,121 +99,23 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!  inherit for git failed
 
 
-!!! ERROR: net-p2p/freicoin-qt-0.8.6.1 failed.
+!!! ERROR: app-benchmarks/glmark2-2014.03 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '199' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/net-p2p/freicoin-qt/freicoin-qt-0.8.6.1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/net-p2p/freicoin-qt/freicoin-qt-0.8.6.1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/sekyfsr/net-p2p/freicoin-qt/freicoin-qt-0.8.6.1.ebuild'
-!!!     freicoin-qt-0.8.6.1.ebuild, line  10:  Called inherit 'db-use' 'eutils' 'fdo-mime' 'gnome2-utils' 'kde4-functions' 'qt4-r2' 'versionator'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'db-use'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/app-benchmarks/glmark2/glmark2-2014.03.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/app-benchmarks/glmark2/glmark2-2014.03.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/sekyfsr/app-benchmarks/glmark2/glmark2-2014.03.ebuild'
+!!!         glmark2-2014.03.ebuild, line   8:  Called inherit 'waf-utils' 'python-single-r1'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass db-use
+!!!  unknown inherit command from pythonic side, 'gen_metadata 229' for eclass waf-utils
 
-
-!!! ERROR: x11-libs/pango-1.28.3-r1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '181' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.3-r1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.3-r1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.3-r1.ebuild'
-!!!         pango-1.28.3-r1.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2' 'multilib' 'toolchain-funcs'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
-
-
-!!! ERROR: x11-libs/pango-1.28.4 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '172' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.4.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.4.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.4.ebuild'
-!!!            pango-1.28.4.ebuild, line   9:  Called inherit 'autotools' 'eutils' 'gnome2' 'multilib' 'toolchain-funcs'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
-
-
-!!! ERROR: app-text/gistp-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '158' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/app-text/gistp/gistp-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/app-text/gistp/gistp-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/sekyfsr/app-text/gistp/gistp-9999.ebuild'
-!!!              gistp-9999.ebuild, line   9:  Called inherit 'perl-app' 'git-2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
-
-!!! ERROR: app-benchmarks/cuda_dgemmSweep-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '222' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/app-benchmarks/cuda_dgemmSweep/cuda_dgemmSweep-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/app-benchmarks/cuda_dgemmSweep/cuda_dgemmSweep-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/sekyfsr/app-benchmarks/cuda_dgemmSweep/cuda_dgemmSweep-9999.ebuild'
-!!!    cuda_dgemmSweep-9999.ebuild, line   7:  Called inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-sandbox:stop  caught signal 15 in pid 9362
-Sandboxed process killed by signal: Terminated
-
-!!! ERROR: net-p2p/freicoin-qt-0.8.6.1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '207' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/net-p2p/freicoin-qt/freicoin-qt-0.8.6.1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/net-p2p/freicoin-qt/freicoin-qt-0.8.6.1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/sekyfsr/net-p2p/freicoin-qt/freicoin-qt-0.8.6.1.ebuild'
-!!!     freicoin-qt-0.8.6.1.ebuild, line  10:  Called inherit 'db-use' 'eutils' 'fdo-mime' 'gnome2-utils' 'kde4-functions' 'qt4-r2' 'versionator'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!          kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
+received unknown com: export CATEGORY='dev-libs' PR=r0 PVR='12.1.9.293' PV='12.1.9.293' EBUILD='/home/mgorny/repos/sekyfsr/dev-libs/intel-common/intel-common-12.1.9.293.ebuild' P='intel-common-12.1.9.293' PF='intel-common-12.1.9.293' PN='intel-common'path
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-libs/pango-1.28.3-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
@@ -224,24 +124,42 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-text/gistp-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-benchmarks/cuda_dgemmSweep-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-p2p/freicoin-qt-0.8.6.1
+!!! caught exception False while processing ebuild src: app-benchmarks/cuda_memtest-1.2.2
+!!! caught exception Metadata Exception: pkg ebuild src: app-benchmarks/glmark2-2014.03, attr eapi
+error: parsed eapi '5' doesn't match sourced eapi '3' while processing ebuild src: app-benchmarks/glmark2-2014.03
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.3-r1, attr description
-error: Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.3-r1, attr data
-error: False while processing ebuild src: x11-libs/pango-1.28.3-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.4, attr description
-error: Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.4, attr data
-error: False while processing ebuild src: x11-libs/pango-1.28.4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: app-text/gistp-9999, attr description
-error: Metadata Exception: pkg ebuild src: app-text/gistp-9999, attr data
-error: False while processing ebuild src: app-text/gistp-9999
-!!! caught exception Metadata Exception: pkg ebuild src: app-benchmarks/cuda_dgemmSweep-9999, attr description
-error: Metadata Exception: pkg ebuild src: app-benchmarks/cuda_dgemmSweep-9999, attr data
-error: inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-benchmarks/cuda_dgemmSweep-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: net-p2p/freicoin-qt-0.8.6.1, attr description
-error: Metadata Exception: pkg ebuild src: net-p2p/freicoin-qt-0.8.6.1, attr data
-error: False while processing ebuild src: net-p2p/freicoin-qt-0.8.6.1
- * Cache regen failed with 65
+!!! caught exception False while processing ebuild src: dev-libs/intel-common-12.1.9.293
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: net-p2p/dogecoin-qt-1.5.1
+Traceback (most recent call last):
+  File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
+    scripts.main(basename(__file__))
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/__init__.py", line 43, in main
+    commandline.main(subcommands)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/util/commandline.py", line 915, in main
+    exitstatus = main_func(options, out, err)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/pmaint.py", line 215, in regen_main
+    eclass_caching=(not options.disable_eclass_caching))
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/__init__.py", line 68, in _recast_exception_decorator
+    return functor(*args, **kwds)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/repo.py", line 236, in _cmd_api_regen_cache
+    self._get_observer(observer), threads=threads, **options)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 41, in regen_repository
+    regen_iter(passthru(repo), _get_repo_helper(), observer)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 529, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+ * Cache regen failed with 1
