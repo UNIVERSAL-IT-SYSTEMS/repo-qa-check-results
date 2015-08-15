@@ -8,28 +8,13 @@
  'source': [{'type': 'svn', 'uri': 'svn://sidvind.com/overlays/ext-devlibs'}],
  'status': 'unofficial'}
 $ pmaint sync ext-devlibs
-WARNING:pkgcore:repository at location '/home/mgorny/sync/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-	A	dev-libs/glm/metadata.xml
-	M	dev-libs/glm/Manifest
-	A	dev-libs/glm/glm-0.9.7.0.ebuild
-r124 = e2f6a33b6e3179bf9470e5b2c4450d0941a501dc (refs/remotes/git-svn)
-	A	profiles/updates/3Q-2015
-	D	dev-libs/glm/Manifest
-	D	dev-libs/glm/glm-0.9.4.1.ebuild
-	D	dev-libs/glm/glm-0.9.4.3.ebuild
-	D	dev-libs/glm/glm-0.9.7.0.ebuild
-	D	dev-libs/glm/metadata.xml
-	D	dev-libs/glm/
-	A	media-libs/glm/metadata.xml
-	A	media-libs/glm/Manifest
-	A	media-libs/glm/glm-0.9.4.1.ebuild
-	A	media-libs/glm/glm-0.9.4.3.ebuild
-	A	media-libs/glm/glm-0.9.7.0.ebuild
-W: -empty_dir: dev-libs/glm
-r125 = 238539d02891412f93ef31bb7e18d2f627d2bea4 (refs/remotes/git-svn)
+	D	dev-libs/aspartame/Manifest
+	D	dev-libs/aspartame/aspartame-0.1.9999.ebuild
+	D	dev-libs/aspartame/
+W: -empty_dir: dev-libs/aspartame
+r126 = af3fc3f2a76c9435f35e90646259b04e29093caa (refs/remotes/git-svn)
 First, rewinding head to replay your work on top of it...
 Fast-forwarded master to refs/remotes/git-svn.
 *** syncing ext-devlibs
@@ -38,8 +23,4 @@ Fast-forwarded master to refs/remotes/git-svn.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 ext-devlibs
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 8408, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+ * Cache regenerated successfully
