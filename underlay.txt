@@ -14,214 +14,90 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/underlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync underlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing underlay
 *** synced underlay
  * Sync succeeded
-$ pmaint regen --use-local-desc --pkg-desc-index -t 2 underlay
+$ pmaint regen --use-local-desc --pkg-desc-index -t 1 underlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-line 5
-
-!!! ERROR: dev-perl/Audio-Ardour-Irc-0.20 failed.
-
-!!! ERROR: dev-perl/Net-LibLO-0.07 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-
-!!! ERROR: dev-perl/Exporter-5.63 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '178' 'depend'
-
-!!! ERROR: dev-perl/Lirc-Client-1.51-r1 failed.
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '204' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '220' 'depend'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
-!!!          Net-LibLO-0.07.ebuild, line   8:  Called inherit 'perl-module'
 
 !!! ERROR: dev-lang/php-5.2.17 failed.
-!!!           Exporter-5.63.ebuild, line   8:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
 !!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '163' 'depend'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!     Lirc-Client-1.51-r1.ebuild, line   8:  Called inherit 'perl-module'
-!!!   Audio-Ardour-Irc-0.20.ebuild, line   8:  Called inherit 'perl-module'
 !!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-lang/php/php-5.2.17.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-lang/php/php-5.2.17.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/underlay/dev-lang/php/php-5.2.17.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
 !!!              php-5.2.17.ebuild, line  10:  Called inherit 'eutils' 'autotools' 'flag-o-matic' 'versionator' 'depend.apache' 'apache-module' 'db-use' 'phpconfutils' 'php-common-r1' 'libtool'
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-common-r1'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for php-common-r1 failed
 
-Sandboxed process killed by signal: Broken pipe
-line 5
 
-!!! ERROR: dev-perl/Audio-Ardour-Irc-0.20 failed.
+!!! ERROR: app-admin/gentool-0.2.9 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '220' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '180' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
-!!!   Audio-Ardour-Irc-0.20.ebuild, line   8:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/underlay/app-admin/gentool/gentool-0.2.9.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/app-admin/gentool/gentool-0.2.9.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/underlay/app-admin/gentool/gentool-0.2.9.ebuild'
+!!!           gentool-0.2.9.ebuild, line   7:  Called inherit 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
+!!!  unknown inherit command from pythonic side, 'gen_metadata 279' for eclass eutils
 
-
-!!! ERROR: dev-perl/Exporter-5.63 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '178' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!           Exporter-5.63.ebuild, line   8:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-
-!!! ERROR: dev-perl/Lirc-Client-1.51-r1 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '204' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
-!!!     Lirc-Client-1.51-r1.ebuild, line   8:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-
-!!! ERROR: dev-perl/Net-LibLO-0.07 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
-!!!          Net-LibLO-0.07.ebuild, line   8:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
+received unknown com: export CATEGORY='media-tv' PR=r1 PVR='2009.07.06-r1' PV='2009.07.06' EBUILD='/home/mgorny/repos/underlay/media-tv/linuxtv-dvb-firmware/linuxtv-dvb-firmware-2009.07.06-r1.ebuild' P='linuxtv-dvb-firmware-2009.07.06' PF='linuxtv-dvb-firmware-2009.07.06-r1' PN='linuxtv-dvb-firmware'path
 !!! caught exception inherit requires an unknown eclass, php-common-r1 cannot be found while processing ebuild src: dev-lang/php-5.2.17
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Net-LibLO-0.07
+!!! caught exception False while processing ebuild src: app-admin/gentool-0.2.9
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Exporter-5.63
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Lirc-Client-1.51-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Audio-Ardour-Irc-0.20
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lang/php-5.2.17, attr description
-error: Metadata Exception: pkg ebuild src: dev-lang/php-5.2.17, attr data
-error: [Errno 13] Permission denied while processing ebuild src: dev-lang/php-5.2.17
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: dev-perl/Audio-Ardour-Irc-0.20, attr description
-error: Metadata Exception: pkg ebuild src: dev-perl/Audio-Ardour-Irc-0.20, attr data
-error: False while processing ebuild src: dev-perl/Audio-Ardour-Irc-0.20
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: dev-perl/Exporter-5.63, attr description
-error: Metadata Exception: pkg ebuild src: dev-perl/Exporter-5.63, attr data
-error: False while processing ebuild src: dev-perl/Exporter-5.63
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: dev-perl/Lirc-Client-1.51-r1, attr description
-error: Metadata Exception: pkg ebuild src: dev-perl/Lirc-Client-1.51-r1, attr data
-error: False while processing ebuild src: dev-perl/Lirc-Client-1.51-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: dev-perl/Net-LibLO-0.07, attr description
-error: Metadata Exception: pkg ebuild src: dev-perl/Net-LibLO-0.07, attr data
-error: False while processing ebuild src: dev-perl/Net-LibLO-0.07
-coms error in 22888, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 65
+!!! caught exception False while processing ebuild src: media-tv/linuxtv-dvb-firmware-2009.07.06-r1
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-tv/linuxtv-dvb-firmware-2009.09.19-r2
+Traceback (most recent call last):
+  File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
+    scripts.main(basename(__file__))
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/__init__.py", line 43, in main
+    commandline.main(subcommands)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/util/commandline.py", line 915, in main
+    exitstatus = main_func(options, out, err)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/pmaint.py", line 215, in regen_main
+    eclass_caching=(not options.disable_eclass_caching))
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/__init__.py", line 68, in _recast_exception_decorator
+    return functor(*args, **kwds)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/repo.py", line 236, in _cmd_api_regen_cache
+    self._get_observer(observer), threads=threads, **options)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 41, in regen_repository
+    regen_iter(passthru(repo), _get_repo_helper(), observer)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 529, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+ * Cache regen failed with 1

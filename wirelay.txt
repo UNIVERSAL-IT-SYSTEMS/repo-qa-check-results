@@ -7,12 +7,16 @@
  'source': [{'type': 'git', 'uri': 'git://github.com/wired/wirelay.git'}],
  'status': 'unofficial'}
 $ pmaint sync wirelay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing wirelay
 *** synced wirelay
  * Sync succeeded
-$ pmaint regen --use-local-desc --pkg-desc-index -t 2 wirelay
+$ pmaint regen --use-local-desc --pkg-desc-index -t 1 wirelay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
@@ -33,45 +37,59 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!  inherit for git failed
 
 
-!!! ERROR: net-analyzer/istatd-0.5.7 failed.
+!!! ERROR: net-im/bitlbee-1.2.8 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '180' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '173' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wirelay/net-analyzer/istatd/istatd-0.5.7.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wirelay/net-analyzer/istatd/istatd-0.5.7.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wirelay/net-analyzer/istatd/istatd-0.5.7.ebuild'
-!!!            istatd-0.5.7.ebuild, line   7:  Called inherit 'eutils' 'autotools'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wirelay/net-im/bitlbee/bitlbee-1.2.8.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wirelay/net-im/bitlbee/bitlbee-1.2.8.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wirelay/net-im/bitlbee/bitlbee-1.2.8.ebuild'
+!!!           bitlbee-1.2.8.ebuild, line   6:  Called inherit 'eutils' 'toolchain-funcs' 'confutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'confutils'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'alive' for eclass autotools
+!!!  unknown inherit command from pythonic side, 'gen_metadata 223' for eclass confutils
 
-
-!!! ERROR: dev-libs/wicked-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '163' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/wirelay/dev-libs/wicked/wicked-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/wirelay/dev-libs/wicked/wicked-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/wirelay/dev-libs/wicked/wicked-9999.ebuild'
-!!!             wicked-9999.ebuild, line   9:  Called inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-sandbox:stop  caught signal 15 in pid 10486
-Sandboxed process killed by signal: Terminated
+received unknown com: export CATEGORY='net-im' PR=r0 PVR='1.3_pre20100806' PV='1.3_pre20100806' EBUILD='/home/mgorny/repos/wirelay/net-im/bitlbee/bitlbee-1.3_pre20100806.ebuild' P='bitlbee-1.3_pre20100806' PF='bitlbee-1.3_pre20100806' PN=bitlbeepath
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-libs/wicked-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-analyzer/istatd-0.5.7
-!!! caught exception Metadata Exception: pkg ebuild src: dev-libs/wicked-9999, attr description
-error: Metadata Exception: pkg ebuild src: dev-libs/wicked-9999, attr data
-error: inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-libs/wicked-9999
- * Cache regen failed with 65
+!!! caught exception False while processing ebuild src: net-im/bitlbee-1.2.8
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-im/bitlbee-1.3_pre20100806
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: net-im/emesene-9999
+Traceback (most recent call last):
+  File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
+    scripts.main(basename(__file__))
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/__init__.py", line 43, in main
+    commandline.main(subcommands)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/util/commandline.py", line 915, in main
+    exitstatus = main_func(options, out, err)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/pmaint.py", line 215, in regen_main
+    eclass_caching=(not options.disable_eclass_caching))
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/__init__.py", line 68, in _recast_exception_decorator
+    return functor(*args, **kwds)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/repo.py", line 236, in _cmd_api_regen_cache
+    self._get_observer(observer), threads=threads, **options)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 41, in regen_repository
+    regen_iter(passthru(repo), _get_repo_helper(), observer)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 529, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+ * Cache regen failed with 1

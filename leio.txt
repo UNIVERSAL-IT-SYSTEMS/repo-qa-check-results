@@ -11,14 +11,12 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/leio.git'}],
  'status': 'official'}
 $ pmaint sync leio
-WARNING:pkgcore:repository at location '/home/mgorny/repos/interactive-fiction' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing leio
 *** synced leio
  * Sync succeeded
-$ pmaint regen --use-local-desc --pkg-desc-index -t 2 leio
+$ pmaint regen --use-local-desc --pkg-desc-index -t 1 leio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

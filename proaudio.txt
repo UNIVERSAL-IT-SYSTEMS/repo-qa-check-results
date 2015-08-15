@@ -6,12 +6,76 @@
  'source': [{'type': 'svn',
              'uri': 'svn://svn.tuxfamily.org/svnroot/proaudio/proaudio/trunk/overlays/proaudio'}],
  'status': 'unofficial'}
- * Adding new repository
 $ pmaint sync proaudio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/proaudio'...
-fatal: Unable to find remote helper for 'svn'
+Current branch master is up to date.
 *** syncing proaudio
-*** failed syncing proaudio
- * Sync failed with 1
+*** synced proaudio
+ * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 1 proaudio
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+
+!!! ERROR: media-sound/abraca-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '170' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/proaudio/media-sound/abraca/abraca-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/proaudio/media-sound/abraca/abraca-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/proaudio/media-sound/abraca/abraca-9999.ebuild'
+!!!             abraca-9999.ebuild, line   6:  Called inherit 'exteutils' 'multilib' 'git-2' 'waf-utils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
+!!!              ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_waf-utils'
+!!!         isolated-functions.lib, line 286:  Called __preloaded_eclass_waf-utils
+!!!             ebuild-daemon.bash, line 405:  Called die
+!!! The die message:
+!!!  EAPI=3 is not supported
+
+WARNING: 'use' function invoked by media-sound/jost-0.4.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-sound/radium-1.9.26 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-sound/tuxguitar-1.0 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-sound/tuxguitar-1.0 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-sound/tuxguitar-1.0 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-libs/pyjack-0.5.2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+
+!!! ERROR: media-sound/abraca-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '170' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/proaudio/media-sound/abraca/abraca-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/proaudio/media-sound/abraca/abraca-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/proaudio/media-sound/abraca/abraca-9999.ebuild'
+!!!             abraca-9999.ebuild, line   6:  Called inherit 'exteutils' 'multilib' 'git-2' 'waf-utils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!!               waf-utils.eclass, line  22:  Called die
+!!! The die message:
+!!!  EAPI=3 is not supported
+
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-sound/abraca-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr description
+error: Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr data
+error: False while processing ebuild src: media-sound/abraca-9999
+ * Cache regen failed with 65

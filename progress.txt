@@ -7,12 +7,19 @@
  'source': [{'type': 'svn',
              'uri': 'http://gentoo-progress.googlecode.com/svn/overlays/progress'}],
  'status': 'unofficial'}
- * Adding new repository
 $ pmaint sync progress
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pd-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pd-overlay', named 'pd-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/progress'...
-fatal: Unable to find remote helper for 'svn+http'
+Current branch master is up to date.
 *** syncing progress
-*** failed syncing progress
- * Sync failed with 1
+*** synced progress
+ * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 1 progress
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Error running an operation:
+ Unhandled exception in regen_cache
+ net-zope/five.formlib-1.0.4
+ * Cache regen failed with 246

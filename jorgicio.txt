@@ -15,11 +15,31 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/jorgicio/jorgicio-gentoo
+   3fdbc59..26719d7  master     -> origin/master
+Updating 3fdbc59..26719d7
+Fast-forward
+ media-sound/clementine/Manifest                    |   8 +
+ media-sound/clementine/clementine-1.2.3-r1.ebuild  | 168 +++++++++++++++++++
+ .../files/clementine-1.2.2-fix-build.patch         |  25 +++
+ .../files/clementine-1.2.2-fix-build2.patch        |  38 +++++
+ .../clementine/files/clementine-1.2.2-gcc49.patch  |  17 ++
+ .../files/clementine-1.2.3-boost-1.5.7-fix.patch   | 181 +++++++++++++++++++++
+ .../files/clementine-1.2.3-namespaces.patch        |  36 ++++
+ media-sound/clementine/metadata.xml                |  25 +++
+ 8 files changed, 498 insertions(+)
+ create mode 100644 media-sound/clementine/Manifest
+ create mode 100644 media-sound/clementine/clementine-1.2.3-r1.ebuild
+ create mode 100644 media-sound/clementine/files/clementine-1.2.2-fix-build.patch
+ create mode 100644 media-sound/clementine/files/clementine-1.2.2-fix-build2.patch
+ create mode 100644 media-sound/clementine/files/clementine-1.2.2-gcc49.patch
+ create mode 100644 media-sound/clementine/files/clementine-1.2.3-boost-1.5.7-fix.patch
+ create mode 100644 media-sound/clementine/files/clementine-1.2.3-namespaces.patch
+ create mode 100644 media-sound/clementine/metadata.xml
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
-$ pmaint regen --use-local-desc --pkg-desc-index -t 2 jorgicio
+$ pmaint regen --use-local-desc --pkg-desc-index -t 1 jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.

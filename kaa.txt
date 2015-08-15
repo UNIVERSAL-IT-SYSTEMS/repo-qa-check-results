@@ -6,13 +6,13 @@
  'quality': 'experimental',
  'source': [{'type': 'svn', 'uri': 'http://www.kaa.org.ua/gentoo'}],
  'status': 'unofficial'}
- * Adding new repository
 $ pmaint sync kaa
-WARNING:pkgcore:repository at location '/home/mgorny/repos/interactive-fiction' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/kaa'...
-fatal: Unable to find remote helper for 'svn+http'
+Current branch master is up to date.
 *** syncing kaa
-*** failed syncing kaa
- * Sync failed with 1
+*** synced kaa
+ * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 1 kaa
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully
