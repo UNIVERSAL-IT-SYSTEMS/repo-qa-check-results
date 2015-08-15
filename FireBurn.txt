@@ -23,4 +23,8 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by games-action/trine-bin-1.08_p5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: sys-libs/db-4.8.30-r1, attr description
+error: Metadata Exception: pkg ebuild src: sys-libs/db-4.8.30-r1, attr data
+error: [Errno 13] Permission denied while processing ebuild src: sys-libs/db-4.8.30-r1
+coms error in 3449, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
