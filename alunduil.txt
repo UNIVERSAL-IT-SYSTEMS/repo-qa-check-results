@@ -17,25 +17,16 @@ $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/alunduil/alunduil-overlay
-   4dd0bdf..cd88105  master     -> origin/master
-Updating 4dd0bdf..cd88105
+   cd88105..f472a65  master     -> origin/master
+Updating cd88105..f472a65
 Fast-forward
- dev-python/aiohttp/Manifest                        |  4 +-
- ...aiohttp-0.17.0.ebuild => aiohttp-0.17.2.ebuild} |  0
- dev-python/botocore/Manifest                       |  3 +
- dev-python/botocore/botocore-1.1.8.ebuild          | 53 ++++++++++++++++
- dev-python/botocore/metadata.xml                   | 10 +++
- dev-python/os-client-config/Manifest               |  3 +
- dev-python/os-client-config/metadata.xml           | 10 +++
- .../os-client-config/os-client-config-1.6.3.ebuild | 74 ++++++++++++++++++++++
- 8 files changed, 155 insertions(+), 2 deletions(-)
- rename dev-python/aiohttp/{aiohttp-0.17.0.ebuild => aiohttp-0.17.2.ebuild} (100%)
- create mode 100644 dev-python/botocore/Manifest
- create mode 100644 dev-python/botocore/botocore-1.1.8.ebuild
- create mode 100644 dev-python/botocore/metadata.xml
- create mode 100644 dev-python/os-client-config/Manifest
- create mode 100644 dev-python/os-client-config/metadata.xml
- create mode 100644 dev-python/os-client-config/os-client-config-1.6.3.ebuild
+ dev-python/expects/Manifest                 |  3 +++
+ dev-python/expects/expects-0.8.0_rc2.ebuild | 40 +++++++++++++++++++++++++++++
+ dev-python/expects/metadata.xml             | 10 ++++++++
+ 3 files changed, 53 insertions(+)
+ create mode 100644 dev-python/expects/Manifest
+ create mode 100644 dev-python/expects/expects-0.8.0_rc2.ebuild
+ create mode 100644 dev-python/expects/metadata.xml
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded

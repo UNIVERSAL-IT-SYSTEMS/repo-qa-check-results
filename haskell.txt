@@ -13,7 +13,14 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   21cba9a..c38d496  master     -> origin/master
+Updating 21cba9a..c38d496
+Fast-forward
+ dev-haskell/picoparsec/Manifest                                         | 2 +-
+ .../picoparsec/{picoparsec-0.1.2.2.ebuild => picoparsec-0.1.2.3.ebuild} | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ rename dev-haskell/picoparsec/{picoparsec-0.1.2.2.ebuild => picoparsec-0.1.2.3.ebuild} (96%)
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
