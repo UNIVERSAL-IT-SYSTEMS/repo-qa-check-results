@@ -9,20 +9,7 @@
  'status': 'unofficial'}
 $ pmaint sync miramir
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/miramir/miramir-layman
-   3a94e19..2b489d0  master     -> origin/master
-Updating 3a94e19..2b489d0
-Fast-forward
- app-editors/sublime-text/Manifest                  | 15 ++------
- app-editors/sublime-text/sublime-text-2220.ebuild  | 39 --------------------
- app-editors/sublime-text/sublime-text-3059.ebuild  | 43 ----------------------
- app-editors/sublime-text/sublime-text-3065.ebuild  | 43 ----------------------
- ...e-text-3080.ebuild => sublime-text-3095.ebuild} |  0
- 5 files changed, 3 insertions(+), 137 deletions(-)
- delete mode 100644 app-editors/sublime-text/sublime-text-2220.ebuild
- delete mode 100644 app-editors/sublime-text/sublime-text-3059.ebuild
- delete mode 100644 app-editors/sublime-text/sublime-text-3065.ebuild
- rename app-editors/sublime-text/{sublime-text-3080.ebuild => sublime-text-3095.ebuild} (100%)
+Already up-to-date.
 *** syncing miramir
 *** synced miramir
  * Sync succeeded
