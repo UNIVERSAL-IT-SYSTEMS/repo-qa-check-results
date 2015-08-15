@@ -13,8 +13,6 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/lua.git'}],
  'status': 'official'}
 $ pmaint sync lua
-WARNING:pkgcore:repository at location '/home/mgorny/repos/kaa' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/kaa', named 'kaa', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing lua
