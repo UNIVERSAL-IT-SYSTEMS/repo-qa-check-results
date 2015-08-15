@@ -15,17 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/tokiclover/bar-overlay
-   156720b..efc3d38  master     -> origin/master
-Updating 156720b..efc3d38
-Fast-forward
- sys-fs/vdev/files/vdevd.confd |  5 ++++
- sys-fs/vdev/files/vdevd.initd | 46 ++++++++++++++++++++++++++++++++++
- sys-fs/vdev/vdev-9999.ebuild  | 58 +++++++++++++++++++++++++++++++++++++++++++
- 3 files changed, 109 insertions(+)
- create mode 100644 sys-fs/vdev/files/vdevd.confd
- create mode 100755 sys-fs/vdev/files/vdevd.initd
- create mode 100644 sys-fs/vdev/vdev-9999.ebuild
+Already up-to-date.
 *** syncing bar
 *** synced bar
  * Sync succeeded
