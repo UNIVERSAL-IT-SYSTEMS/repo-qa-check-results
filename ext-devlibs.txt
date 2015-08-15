@@ -8,18 +8,9 @@
  'source': [{'type': 'svn', 'uri': 'svn://sidvind.com/overlays/ext-devlibs'}],
  'status': 'unofficial'}
 $ pmaint sync ext-devlibs
-WARNING:pkgcore:repository at location '/home/mgorny/sync/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-	D	x11-misc/synergy-plus/Manifest
-	D	x11-misc/synergy-plus/files/xrandr.patch
-	D	x11-misc/synergy-plus/synergy-plus-1.3.4-r1.ebuild
-	D	x11-misc/synergy-plus/
-W: -empty_dir: x11-misc/synergy-plus
-r121 = 0cce988bb23fd2845c360fa61593c117af525b2b (refs/remotes/git-svn)
-First, rewinding head to replay your work on top of it...
-Fast-forwarded master to refs/remotes/git-svn.
+Current branch master is up to date.
 *** syncing ext-devlibs
 *** synced ext-devlibs
  * Sync succeeded

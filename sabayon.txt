@@ -9,18 +9,36 @@
 $ pmaint sync sabayon
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/Sabayon/for-gentoo
-   f55e908..1824bc9  master     -> origin/master
-Updating f55e908..1824bc9
+   1824bc9..95ed6ac  master     -> origin/master
+Updating 1824bc9..95ed6ac
 Fast-forward
- net-nds/smbldap-tools/Manifest                     |  1 -
- .../files/smbldap-tools-0.9.10-pod2man.patch       | 20 --------
- net-nds/smbldap-tools/metadata.xml                 |  9 ----
- net-nds/smbldap-tools/smbldap-tools-0.9.10.ebuild  | 58 ----------------------
- 4 files changed, 88 deletions(-)
- delete mode 100644 net-nds/smbldap-tools/Manifest
- delete mode 100644 net-nds/smbldap-tools/files/smbldap-tools-0.9.10-pod2man.patch
- delete mode 100644 net-nds/smbldap-tools/metadata.xml
- delete mode 100644 net-nds/smbldap-tools/smbldap-tools-0.9.10.ebuild
+ net-im/ejabberd-babel/Manifest                     |   3 -
+ .../ejabberd-babel/ejabberd-babel-2.1.0_rc1.ebuild | 221 -------------
+ .../files/ejabberd-2.0.5-erlang-13.patch           | 361 ---------------------
+ .../ejabberd-2.1.4-mod_shared_roster_ldap.patch    |  13 -
+ net-im/ejabberd-babel/files/ejabberd-2.confd       |  23 --
+ net-im/ejabberd-babel/files/ejabberd-2.initd       |  54 ---
+ net-im/ejabberd-babel/files/ejabberd-3.confd       |   5 -
+ net-im/ejabberd-babel/files/ejabberd-3.initd       |  47 ---
+ .../files/ejabberd-wrapper-2.template              |  49 ---
+ .../files/ejabberdctl-wrapper-3.template           |  46 ---
+ net-im/ejabberd-babel/files/self-cert-v2.sh        |  41 ---
+ net-im/ejabberd-babel/files/ssl.cnf                |  36 --
+ net-im/ejabberd-babel/metadata.xml                 |  18 -
+ 13 files changed, 917 deletions(-)
+ delete mode 100644 net-im/ejabberd-babel/Manifest
+ delete mode 100644 net-im/ejabberd-babel/ejabberd-babel-2.1.0_rc1.ebuild
+ delete mode 100644 net-im/ejabberd-babel/files/ejabberd-2.0.5-erlang-13.patch
+ delete mode 100644 net-im/ejabberd-babel/files/ejabberd-2.1.4-mod_shared_roster_ldap.patch
+ delete mode 100644 net-im/ejabberd-babel/files/ejabberd-2.confd
+ delete mode 100644 net-im/ejabberd-babel/files/ejabberd-2.initd
+ delete mode 100644 net-im/ejabberd-babel/files/ejabberd-3.confd
+ delete mode 100644 net-im/ejabberd-babel/files/ejabberd-3.initd
+ delete mode 100644 net-im/ejabberd-babel/files/ejabberd-wrapper-2.template
+ delete mode 100644 net-im/ejabberd-babel/files/ejabberdctl-wrapper-3.template
+ delete mode 100755 net-im/ejabberd-babel/files/self-cert-v2.sh
+ delete mode 100644 net-im/ejabberd-babel/files/ssl.cnf
+ delete mode 100644 net-im/ejabberd-babel/metadata.xml
 *** syncing sabayon
 *** synced sabayon
  * Sync succeeded
