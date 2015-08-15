@@ -17,19 +17,25 @@ $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/alunduil/alunduil-overlay
-   b85e249..4dd0bdf  master     -> origin/master
-Updating b85e249..4dd0bdf
+   4dd0bdf..cd88105  master     -> origin/master
+Updating 4dd0bdf..cd88105
 Fast-forward
- app-admin/supernova/Manifest                       |  3 ++
- app-admin/supernova/metadata.xml                   | 10 ++++
- app-admin/supernova/supernova-2.0.8.ebuild         | 53 ++++++++++++++++++++++
- app-emulation/docker-compose/Manifest              |  4 +-
- ....4.0_rc3.ebuild => docker-compose-1.4.0.ebuild} |  6 +--
- 5 files changed, 70 insertions(+), 6 deletions(-)
- create mode 100644 app-admin/supernova/Manifest
- create mode 100644 app-admin/supernova/metadata.xml
- create mode 100644 app-admin/supernova/supernova-2.0.8.ebuild
- rename app-emulation/docker-compose/{docker-compose-1.4.0_rc3.ebuild => docker-compose-1.4.0.ebuild} (91%)
+ dev-python/aiohttp/Manifest                        |  4 +-
+ ...aiohttp-0.17.0.ebuild => aiohttp-0.17.2.ebuild} |  0
+ dev-python/botocore/Manifest                       |  3 +
+ dev-python/botocore/botocore-1.1.8.ebuild          | 53 ++++++++++++++++
+ dev-python/botocore/metadata.xml                   | 10 +++
+ dev-python/os-client-config/Manifest               |  3 +
+ dev-python/os-client-config/metadata.xml           | 10 +++
+ .../os-client-config/os-client-config-1.6.3.ebuild | 74 ++++++++++++++++++++++
+ 8 files changed, 155 insertions(+), 2 deletions(-)
+ rename dev-python/aiohttp/{aiohttp-0.17.0.ebuild => aiohttp-0.17.2.ebuild} (100%)
+ create mode 100644 dev-python/botocore/Manifest
+ create mode 100644 dev-python/botocore/botocore-1.1.8.ebuild
+ create mode 100644 dev-python/botocore/metadata.xml
+ create mode 100644 dev-python/os-client-config/Manifest
+ create mode 100644 dev-python/os-client-config/metadata.xml
+ create mode 100644 dev-python/os-client-config/os-client-config-1.6.3.ebuild
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded
