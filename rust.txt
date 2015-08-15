@@ -15,7 +15,14 @@
 $ pmaint sync rust
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Heather/gentoo-rust
+   e15c720..4c2d56d  master     -> origin/master
+Updating e15c720..4c2d56d
+Fast-forward
+ dev-lang/rust/Manifest          |   3 +
+ dev-lang/rust/rust-1.2.0.ebuild | 131 ++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 134 insertions(+)
+ create mode 100644 dev-lang/rust/rust-1.2.0.ebuild
 *** syncing rust
 *** synced rust
  * Sync succeeded

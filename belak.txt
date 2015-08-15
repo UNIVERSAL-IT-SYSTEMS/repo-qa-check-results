@@ -58,25 +58,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!  EAPI=3 is not supported
 
 
-!!! ERROR: app-editors/scribes-0.4-r954 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '188' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
-!!!        scribes-0.4-r954.ebuild, line  10:  Called inherit 'autotools' 'eutils' 'gnome2' 'python'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
-
-
 !!! ERROR: app-editors/scribes-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
@@ -99,12 +80,12 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-editors/scribes-0.4-r954
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-editors/scribes-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception Metadata Exception: pkg ebuild src: app-editors/scribes-0.4-r954, attr description
 error: Metadata Exception: pkg ebuild src: app-editors/scribes-0.4-r954, attr data
-error: False while processing ebuild src: app-editors/scribes-0.4-r954
+error: [Errno 13] Permission denied while processing ebuild src: app-editors/scribes-0.4-r954
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception Metadata Exception: pkg ebuild src: app-editors/scribes-9999, attr description
 error: Metadata Exception: pkg ebuild src: app-editors/scribes-9999, attr data
 error: False while processing ebuild src: app-editors/scribes-9999
+coms error in 19369, read_line com failed w/ 1: backing out of daemon.
  * Cache regen failed with 65
