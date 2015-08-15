@@ -15,7 +15,15 @@
  'status': 'unofficial'}
 $ pmaint sync palmer
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/palmer
+   a3df9e6..31aa938  master     -> origin/master
+Updating a3df9e6..31aa938
+Fast-forward
+ net-misc/megasync/Manifest              |  3 --
+ net-misc/megasync/megasync-2.1.1.ebuild | 53 ---------------------------------
+ 2 files changed, 56 deletions(-)
+ delete mode 100644 net-misc/megasync/Manifest
+ delete mode 100644 net-misc/megasync/megasync-2.1.1.ebuild
 *** syncing palmer
 *** synced palmer
  * Sync succeeded
