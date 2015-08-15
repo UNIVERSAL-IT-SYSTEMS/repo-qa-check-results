@@ -16,7 +16,35 @@
 $ pmaint sync displacer
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/displacer
+   11ad7fb..071ca94  master     -> origin/master
+Updating 11ad7fb..071ca94
+Fast-forward
+ media-libs/mesa/Manifest                           |   8 -
+ ...-not-use-NoFramePointerElim-with-LLVM-3.7.patch |  49 ---
+ .../0002-gallivm-Workaround-LLVM-PR23628.patch     |  48 ---
+ media-libs/mesa/files/eselect-mesa.conf.9.2        |  39 --
+ media-libs/mesa/files/glx_ro_text_segm.patch       |  28 --
+ .../mesa-9.2-dont-require-llvm-for-r300.patch      |  12 -
+ .../mesa-9999-dont-require-llvm-for-r300.patch     |  11 -
+ media-libs/mesa/mesa-9999.ebuild                   | 463 ---------------------
+ media-libs/mesa/metadata.xml                       |  27 --
+ x11-libs/libdrm/Manifest                           |   3 -
+ x11-libs/libdrm/libdrm-9999.ebuild                 |  59 ---
+ x11-libs/libdrm/metadata.xml                       |   8 -
+ 12 files changed, 755 deletions(-)
+ delete mode 100644 media-libs/mesa/Manifest
+ delete mode 100644 media-libs/mesa/files/0001-gallivm-Do-not-use-NoFramePointerElim-with-LLVM-3.7.patch
+ delete mode 100644 media-libs/mesa/files/0002-gallivm-Workaround-LLVM-PR23628.patch
+ delete mode 100644 media-libs/mesa/files/eselect-mesa.conf.9.2
+ delete mode 100644 media-libs/mesa/files/glx_ro_text_segm.patch
+ delete mode 100644 media-libs/mesa/files/mesa-9.2-dont-require-llvm-for-r300.patch
+ delete mode 100644 media-libs/mesa/files/mesa-9999-dont-require-llvm-for-r300.patch
+ delete mode 100644 media-libs/mesa/mesa-9999.ebuild
+ delete mode 100644 media-libs/mesa/metadata.xml
+ delete mode 100644 x11-libs/libdrm/Manifest
+ delete mode 100644 x11-libs/libdrm/libdrm-9999.ebuild
+ delete mode 100644 x11-libs/libdrm/metadata.xml
 *** syncing displacer
 *** synced displacer
  * Sync succeeded

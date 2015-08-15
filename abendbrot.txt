@@ -15,12 +15,21 @@
 $ pmaint sync abendbrot
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/stefan-gr/abendbrot
-   281b3dc..40b666e  master     -> origin/master
-Updating 281b3dc..40b666e
+   40b666e..ffb4a08  master     -> origin/master
+Updating 40b666e..ffb4a08
 Fast-forward
- games-emulation/beetle-psx-libretro/Manifest                        | 2 +-
- games-emulation/beetle-psx-libretro/beetle-psx-libretro-9999.ebuild | 4 ++--
- 2 files changed, 3 insertions(+), 3 deletions(-)
+ games-emulation/libretro-meta/Manifest             |  4 +-
+ .../libretro-meta/libretro-meta-9999-r1.ebuild     |  3 +-
+ games-emulation/libretro-meta/metadata.xml         |  1 -
+ games-emulation/mednafen-psx-libretro/Manifest     |  2 -
+ .../mednafen-psx-libretro-9999.ebuild              | 59 ----------------------
+ games-emulation/mednafen-psx-libretro/metadata.xml |  8 ---
+ profiles/updates/3Q-2015                           |  1 +
+ 7 files changed, 4 insertions(+), 74 deletions(-)
+ delete mode 100644 games-emulation/mednafen-psx-libretro/Manifest
+ delete mode 100644 games-emulation/mednafen-psx-libretro/mednafen-psx-libretro-9999.ebuild
+ delete mode 100644 games-emulation/mednafen-psx-libretro/metadata.xml
+ create mode 100644 profiles/updates/3Q-2015
 *** syncing abendbrot
 *** synced abendbrot
  * Sync succeeded

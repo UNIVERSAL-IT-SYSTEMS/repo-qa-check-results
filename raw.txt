@@ -11,7 +11,16 @@
 $ pmaint sync raw
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/mahatma-kaganovich/raw
+   353ec9e..da696a0  master     -> origin/master
+Updating 353ec9e..da696a0
+Fast-forward
+ app-portage/ppatch/Manifest                                             | 1 +
+ .../ppatch/files/extensions/dev-libs/gmp/prepare/sparc-pgo-time.bashrc  | 1 +
+ profiles/common/broken/make.defaults                                    | 2 +-
+ profiles/common/other/make.defaults                                     | 1 +
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+ create mode 100644 app-portage/ppatch/files/extensions/dev-libs/gmp/prepare/sparc-pgo-time.bashrc
 *** syncing raw
 *** synced raw
  * Sync succeeded
@@ -171,7 +180,7 @@ Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directo
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 11173
+sandbox:stop  caught signal 15 in pid 14774
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-cluster/kerrighed-9999-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
