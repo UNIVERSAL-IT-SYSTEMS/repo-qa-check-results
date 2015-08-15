@@ -16,22 +16,16 @@
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/jorgicio/jorgicio-gentoo
-   28aad0d..7258e8b  master     -> origin/master
-Updating 28aad0d..7258e8b
+   7258e8b..f5beaf7  master     -> origin/master
+Updating 7258e8b..f5beaf7
 Fast-forward
- app-doc/zeal/Manifest                                  | 4 ++--
- app-doc/zeal/zeal-0.1.1.ebuild                         | 4 ++--
- app-doc/zeal/zeal-9999.ebuild                          | 4 ++--
- net-im/telegram-bin/Manifest                           | 2 +-
- net-im/telegram-bin/telegram-bin-0.8.48.ebuild         | 4 ++--
- net-im/telegram-dev-bin/Manifest                       | 4 ++--
- net-im/telegram-dev-bin/telegram-dev-bin-0.8.49.ebuild | 4 ++--
- net-im/telegram-dev-bin/telegram-dev-bin-0.8.50.ebuild | 4 ++--
- net-misc/nitroshare/Manifest                           | 4 ++--
- net-misc/nitroshare/nitroshare-0.3.0.ebuild            | 6 ++----
- net-misc/nitroshare/nitroshare-9999.ebuild             | 4 ++--
- profiles/use.desc                                      | 2 +-
- 12 files changed, 22 insertions(+), 24 deletions(-)
+ games-arcade/mari0/Manifest            |  3 ++
+ games-arcade/mari0/files/mari0.svg     | 26 ++++++++++++++
+ games-arcade/mari0/mari0-1.6-r1.ebuild | 62 ++++++++++++++++++++++++++++++++++
+ 3 files changed, 91 insertions(+)
+ create mode 100644 games-arcade/mari0/Manifest
+ create mode 100644 games-arcade/mari0/files/mari0.svg
+ create mode 100644 games-arcade/mari0/mari0-1.6-r1.ebuild
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
