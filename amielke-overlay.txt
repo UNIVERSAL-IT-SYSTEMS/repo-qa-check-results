@@ -10,7 +10,121 @@
 $ pmaint sync amielke-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/amielke/amielke-overlay
+   75197dc..80e6411  master     -> origin/master
+Updating 75197dc..80e6411
+Fast-forward
+ app-misc/fprint_demo/Manifest                      |  13 -
+ app-misc/fprint_demo/fprint_demo-0.4.ebuild        |  20 -
+ app-misc/fprint_demo/metadata.xml                  |   9 -
+ app-misc/lirc/ChangeLog                            | 923 ---------------------
+ app-misc/lirc/Manifest                             |  44 -
+ app-misc/lirc/files/2.6.33.patch                   | 270 ------
+ app-misc/lirc/files/autoconf.patch                 | 195 -----
+ app-misc/lirc/files/bug296739a.patch               |  16 -
+ app-misc/lirc/files/irexec-confd                   |   9 -
+ app-misc/lirc/files/irexec-initd                   |  28 -
+ app-misc/lirc/files/irexec-initd-0.8.6-r2          |  28 -
+ app-misc/lirc/files/lirc-0.8.3-imon-pad2keys.patch | 291 -------
+ app-misc/lirc/files/lirc-0.8.3-kernel-2.6.26.diff  | 107 ---
+ app-misc/lirc/files/lirc-0.8.3-kernel-2.6.27.diff  |  38 -
+ app-misc/lirc/files/lirc-0.8.3-pa19.patch          |  68 --
+ .../lirc/files/lirc-0.8.3_pre1-imon-pad2keys.patch | 257 ------
+ .../lirc/files/lirc-0.8.3_pre1-kernel-2.6.24.diff  | 110 ---
+ .../files/lirc-0.8.3_pre1-remotewonderplus.patch   |  26 -
+ .../lirc/files/lirc-0.8.3_pre3-imon-pad2keys.patch | 291 -------
+ .../lirc/files/lirc-0.8.4-portaudio_check.patch    |  18 -
+ .../files/lirc-0.9.0-kernel-2.6.39-atiusb-fix.diff |  59 --
+ app-misc/lirc/files/lirc_i2c_r1.70_to_r1.72.patch  |  77 --
+ app-misc/lirc/files/lircd                          |  16 -
+ app-misc/lirc/files/lircd-0.8.3                    |  23 -
+ app-misc/lirc/files/lircd-0.8.6                    |  39 -
+ app-misc/lirc/files/lircd.conf.2                   |  10 -
+ app-misc/lirc/files/lircmd                         |  20 -
+ app-misc/lirc/files/modprobed.lirc                 |  22 -
+ app-misc/lirc/files/modulesd.lirc                  |  22 -
+ app-misc/lirc/files/xbox-lircd.conf                |  55 --
+ app-misc/lirc/lirc-0.8.3-r2.ebuild                 | 331 --------
+ app-misc/lirc/lirc-0.8.3_pre1.ebuild               | 310 -------
+ app-misc/lirc/lirc-0.8.4.ebuild                    | 326 --------
+ app-misc/lirc/lirc-0.8.4a.ebuild                   | 332 --------
+ app-misc/lirc/lirc-0.8.5.ebuild                    | 339 --------
+ app-misc/lirc/lirc-0.8.6-r1.ebuild                 | 359 --------
+ app-misc/lirc/lirc-0.8.6-r2.ebuild                 | 361 --------
+ app-misc/lirc/lirc-0.8.6-r3.ebuild                 | 366 --------
+ app-misc/lirc/lirc-0.9.0.ebuild                    | 360 --------
+ app-misc/lirc/lirc-9999.ebuild                     | 363 --------
+ app-misc/lirc/metadata.xml                         |  11 -
+ app-pda/funambol/Manifest                          |   7 -
+ app-pda/funambol/files/Funambol.init               |  27 -
+ app-pda/funambol/funambol-8.7.0.ebuild             |  45 -
+ app-pda/funambol/funambol-9.0.0.ebuild             |  45 -
+ app-pda/syncevolution/Manifest                     |   2 -
+ app-pda/syncevolution/syncevolution-1.1.ebuild     |  61 --
+ gnome-extra/computertemp/Manifest                  |   2 -
+ .../computertemp/computertemp-0.9.6.1.ebuild       |  24 -
+ gnome-extra/evolution-tray/Manifest                |   2 -
+ .../evolution-tray/evolution-tray-0.0.7.ebuild     |  21 -
+ media-tv/xbmc/Manifest                             |   3 -
+ media-tv/xbmc/files/python2.7.2.patch              | 710 ----------------
+ media-tv/xbmc/files/python2.7.patch                | 655 ---------------
+ media-tv/xbmc/xbmc-9999.ebuild                     | 212 -----
+ 55 files changed, 8378 deletions(-)
+ delete mode 100644 app-misc/fprint_demo/Manifest
+ delete mode 100644 app-misc/fprint_demo/fprint_demo-0.4.ebuild
+ delete mode 100644 app-misc/fprint_demo/metadata.xml
+ delete mode 100644 app-misc/lirc/ChangeLog
+ delete mode 100644 app-misc/lirc/Manifest
+ delete mode 100644 app-misc/lirc/files/2.6.33.patch
+ delete mode 100644 app-misc/lirc/files/autoconf.patch
+ delete mode 100644 app-misc/lirc/files/bug296739a.patch
+ delete mode 100644 app-misc/lirc/files/irexec-confd
+ delete mode 100755 app-misc/lirc/files/irexec-initd
+ delete mode 100755 app-misc/lirc/files/irexec-initd-0.8.6-r2
+ delete mode 100644 app-misc/lirc/files/lirc-0.8.3-imon-pad2keys.patch
+ delete mode 100644 app-misc/lirc/files/lirc-0.8.3-kernel-2.6.26.diff
+ delete mode 100644 app-misc/lirc/files/lirc-0.8.3-kernel-2.6.27.diff
+ delete mode 100644 app-misc/lirc/files/lirc-0.8.3-pa19.patch
+ delete mode 100644 app-misc/lirc/files/lirc-0.8.3_pre1-imon-pad2keys.patch
+ delete mode 100644 app-misc/lirc/files/lirc-0.8.3_pre1-kernel-2.6.24.diff
+ delete mode 100644 app-misc/lirc/files/lirc-0.8.3_pre1-remotewonderplus.patch
+ delete mode 100644 app-misc/lirc/files/lirc-0.8.3_pre3-imon-pad2keys.patch
+ delete mode 100644 app-misc/lirc/files/lirc-0.8.4-portaudio_check.patch
+ delete mode 100644 app-misc/lirc/files/lirc-0.9.0-kernel-2.6.39-atiusb-fix.diff
+ delete mode 100644 app-misc/lirc/files/lirc_i2c_r1.70_to_r1.72.patch
+ delete mode 100755 app-misc/lirc/files/lircd
+ delete mode 100644 app-misc/lirc/files/lircd-0.8.3
+ delete mode 100644 app-misc/lirc/files/lircd-0.8.6
+ delete mode 100644 app-misc/lirc/files/lircd.conf.2
+ delete mode 100755 app-misc/lirc/files/lircmd
+ delete mode 100644 app-misc/lirc/files/modprobed.lirc
+ delete mode 100644 app-misc/lirc/files/modulesd.lirc
+ delete mode 100755 app-misc/lirc/files/xbox-lircd.conf
+ delete mode 100644 app-misc/lirc/lirc-0.8.3-r2.ebuild
+ delete mode 100644 app-misc/lirc/lirc-0.8.3_pre1.ebuild
+ delete mode 100644 app-misc/lirc/lirc-0.8.4.ebuild
+ delete mode 100644 app-misc/lirc/lirc-0.8.4a.ebuild
+ delete mode 100644 app-misc/lirc/lirc-0.8.5.ebuild
+ delete mode 100644 app-misc/lirc/lirc-0.8.6-r1.ebuild
+ delete mode 100644 app-misc/lirc/lirc-0.8.6-r2.ebuild
+ delete mode 100644 app-misc/lirc/lirc-0.8.6-r3.ebuild
+ delete mode 100644 app-misc/lirc/lirc-0.9.0.ebuild
+ delete mode 100644 app-misc/lirc/lirc-9999.ebuild
+ delete mode 100644 app-misc/lirc/metadata.xml
+ delete mode 100644 app-pda/funambol/Manifest
+ delete mode 100644 app-pda/funambol/files/Funambol.init
+ delete mode 100644 app-pda/funambol/funambol-8.7.0.ebuild
+ delete mode 100644 app-pda/funambol/funambol-9.0.0.ebuild
+ delete mode 100644 app-pda/syncevolution/Manifest
+ delete mode 100644 app-pda/syncevolution/syncevolution-1.1.ebuild
+ delete mode 100644 gnome-extra/computertemp/Manifest
+ delete mode 100644 gnome-extra/computertemp/computertemp-0.9.6.1.ebuild
+ delete mode 100644 gnome-extra/evolution-tray/Manifest
+ delete mode 100644 gnome-extra/evolution-tray/evolution-tray-0.0.7.ebuild
+ delete mode 100644 media-tv/xbmc/Manifest
+ delete mode 100644 media-tv/xbmc/files/python2.7.2.patch
+ delete mode 100644 media-tv/xbmc/files/python2.7.patch
+ delete mode 100644 media-tv/xbmc/xbmc-9999.ebuild
 *** syncing amielke-overlay
 *** synced amielke-overlay
  * Sync succeeded
@@ -18,67 +132,46 @@ $ pmaint regen --use-local-desc --pkg-desc-index -t 1 amielke-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
-!!! ERROR: app-pda/syncevolution-1.1 failed.
+!!! ERROR: media-sound/alsa-driver-9999-r1 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '203' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '215' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/app-pda/syncevolution/syncevolution-1.1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/app-pda/syncevolution/syncevolution-1.1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/app-pda/syncevolution/syncevolution-1.1.ebuild'
-!!!       syncevolution-1.1.ebuild, line   7:  Called inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
-
-
-!!! ERROR: media-tv/xbmc-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '161' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-tv/xbmc/xbmc-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-tv/xbmc/xbmc-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-tv/xbmc/xbmc-9999.ebuild'
-!!!               xbmc-9999.ebuild, line  20:  Called inherit 'git' 'autotools'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-sound/alsa-driver/alsa-driver-9999-r1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-sound/alsa-driver/alsa-driver-9999-r1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-sound/alsa-driver/alsa-driver-9999-r1.ebuild'
+!!!     alsa-driver-9999-r1.ebuild, line   5:  Called inherit 'linux-mod' 'flag-o-matic' 'eutils' 'multilib' 'autotools' 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
 
-!!! ERROR: app-misc/lirc-9999 failed.
+!!! ERROR: media-sound/banshee-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '161' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '182' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/app-misc/lirc/lirc-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/app-misc/lirc/lirc-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/app-misc/lirc/lirc-9999.ebuild'
-!!!               lirc-9999.ebuild, line   5:  Called inherit 'eutils' 'linux-mod' 'flag-o-matic' 'autotools' 'cvs'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cvs'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-sound/banshee/banshee-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-sound/banshee/banshee-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-sound/banshee/banshee-9999.ebuild'
+!!!            banshee-9999.ebuild, line   7:  Called inherit 'eutils' 'autotools' 'mono' 'gnome2-utils' 'fdo-mime' 'versionator' 'git-2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mono'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 226' for eclass cvs
+!!!  unknown inherit command from pythonic side, 'gen_metadata 221' for eclass mono
 
-received unknown com: export CATEGORY='gnome-extra' PR=r0 PVR='0.9.6.1' PV='0.9.6.1' EBUILD='/home/mgorny/repos/amielke-overlay/gnome-extra/computertemp/computertemp-0.9.6.1.ebuild' P='computertemp-0.9.6.1' PF='computertemp-0.9.6.1' PN=computertemppath
+received unknown com: export CATEGORY='media-sound' PR=r0 PVR='1.1.7' PV='1.1.7' EBUILD='/home/mgorny/repos/amielke-overlay/media-sound/gmusicbrowser/gmusicbrowser-1.1.7.ebuild' P='gmusicbrowser-1.1.7' PF='gmusicbrowser-1.1.7' PN=gmusicbrowserpath
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/alsa-driver-9999-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-pda/syncevolution-1.1
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-tv/xbmc-9999
+!!! caught exception False while processing ebuild src: media-sound/banshee-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/fprint_demo-0.4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/computertemp-0.9.6.1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: gnome-extra/evolution-tray-0.0.7
+!!! caught exception False while processing ebuild src: media-sound/gmusicbrowser-1.1.7
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-fs/sysfsutils-2.1.0-r1
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))

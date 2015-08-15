@@ -103,6 +103,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: mail-filter/sbd-proxy-1.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-shells/bashinator-0.6.1
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-shells/pdsh-2.18-r9999
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
