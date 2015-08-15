@@ -17,7 +17,15 @@
  'status': 'official'}
 $ pmaint sync science
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/sci
+   5dc13cc..c95aada  master     -> origin/master
+Updating 5dc13cc..c95aada
+Fast-forward
+ sci-physics/rivet/ChangeLog          |  7 ++++-
+ sci-physics/rivet/Manifest           |  1 +
+ sci-physics/rivet/rivet-2.3.0.ebuild | 60 ++++++++++++++++++++++++++++++++++++
+ 3 files changed, 67 insertions(+), 1 deletion(-)
+ create mode 100644 sci-physics/rivet/rivet-2.3.0.ebuild
 *** syncing science
 *** synced science
  * Sync succeeded
