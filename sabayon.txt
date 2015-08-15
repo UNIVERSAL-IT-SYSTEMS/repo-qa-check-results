@@ -8,7 +8,19 @@
  'status': 'unofficial'}
 $ pmaint sync sabayon
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Sabayon/for-gentoo
+   f55e908..1824bc9  master     -> origin/master
+Updating f55e908..1824bc9
+Fast-forward
+ net-nds/smbldap-tools/Manifest                     |  1 -
+ .../files/smbldap-tools-0.9.10-pod2man.patch       | 20 --------
+ net-nds/smbldap-tools/metadata.xml                 |  9 ----
+ net-nds/smbldap-tools/smbldap-tools-0.9.10.ebuild  | 58 ----------------------
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 net-nds/smbldap-tools/Manifest
+ delete mode 100644 net-nds/smbldap-tools/files/smbldap-tools-0.9.10-pod2man.patch
+ delete mode 100644 net-nds/smbldap-tools/metadata.xml
+ delete mode 100644 net-nds/smbldap-tools/smbldap-tools-0.9.10.ebuild
 *** syncing sabayon
 *** synced sabayon
  * Sync succeeded
