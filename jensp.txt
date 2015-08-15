@@ -90,7 +90,6 @@ error: parsed eapi '2' doesn't match sourced eapi '3' while processing ebuild sr
 error: parsed eapi '3' doesn't match sourced eapi '2' while processing ebuild src: sys-apps/fatrace-0.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-irc/irssi-mod-fish-1.00_rc5
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-video/mjpegtools-1.9.0-r1
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
@@ -98,7 +97,7 @@ Traceback (most recent call last):
     commandline.main(subcommands)
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/util/commandline.py", line 915, in main
     exitstatus = main_func(options, out, err)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/pmaint.py", line 215, in regen_main
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/pmaint.py", line 216, in regen_main
     eclass_caching=(not options.disable_eclass_caching))
   File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/__init__.py", line 68, in _recast_exception_decorator
     return functor(*args, **kwds)

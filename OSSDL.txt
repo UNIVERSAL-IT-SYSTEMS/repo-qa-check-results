@@ -86,4 +86,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.17.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
- * Cache regenerated successfully
+Unhandled exception occurred:
+ 'ascii' codec can't decode byte 0xe2 in position 24: ordinal not in range(128)
+ * Cache regen failed with 246
