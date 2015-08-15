@@ -12,53 +12,113 @@
  'status': 'unofficial'}
 $ pmaint sync jensp
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/jensp
+   30b732d..ffce769  master     -> origin/master
+Updating 30b732d..ffce769
+Fast-forward
+ app-text/gscan2pdf/Manifest                        |   2 -
+ app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild          |  57 --
+ dev-libs/openssl/Manifest                          |  25 +
+ dev-libs/openssl/files/gentoo.config-0.9.8         | 145 +++++
+ dev-libs/openssl/files/gentoo.config-1.0.0         | 159 +++++
+ dev-libs/openssl/files/gentoo.config-1.0.1         | 164 +++++
+ .../openssl/files/openssl-0.9.8e-bsd-sparc64.patch |  25 +
+ .../openssl/files/openssl-0.9.8h-ldflags.patch     |  29 +
+ .../openssl/files/openssl-0.9.8m-binutils.patch    |  24 +
+ .../openssl/files/openssl-1.0.0a-ldflags.patch     |  29 +
+ .../openssl/files/openssl-1.0.0d-fbsd-amd64.patch  |  12 +
+ .../openssl/files/openssl-1.0.0d-windres.patch     |  76 +++
+ .../files/openssl-1.0.0e-parallel-build.patch      | 315 ++++++++++
+ dev-libs/openssl/files/openssl-1.0.0e-x32.patch    |  92 +++
+ .../openssl/files/openssl-1.0.0h-pkg-config.patch  |  34 ++
+ .../files/openssl-1.0.1-parallel-build.patch       | 354 +++++++++++
+ dev-libs/openssl/files/openssl-1.0.1-x32.patch     |  79 +++
+ dev-libs/openssl/files/openssl-1.0.1e-ipv6.patch   | 656 ++++++++++++++++++++
+ .../files/openssl-1.0.1e-s_client-verify.patch     |  18 +
+ .../openssl/files/openssl-1.0.1f-perl-5.18.patch   | 356 +++++++++++
+ ...enssl-1.0.1f-revert-alpha-perl-generation.patch |  84 +++
+ dev-libs/openssl/files/openssl-1.0.1h-ipv6.patch   | 675 +++++++++++++++++++++
+ .../files/openssl-1.0.2-parallel-build.patch       | 354 +++++++++++
+ .../openssl/files/openssl-1.0.2_beta2-ipv6.patch   | 640 +++++++++++++++++++
+ ...-1.0.2_beta2-revert-alpha-perl-generation.patch |  65 ++
+ dev-libs/openssl/openssl-1.0.1i.ebuild             | 258 ++++++++
+ media-libs/glee/Manifest                           |   3 -
+ media-libs/glee/files/glee-autotools.patch         |  22 -
+ media-libs/glee/glee-5.40.ebuild                   |  33 -
+ media-libs/glew/Manifest                           |   2 -
+ media-libs/glew/glew-1.5.4.ebuild                  |  48 --
+ media-video/mjpegtools/Manifest                    |   5 -
+ .../files/mjpegtools-1.9.0-glibc-2.10.patch        |  11 -
+ .../mjpegtools/files/mjpegtools-1.9.0-jpeg-7.patch |  24 -
+ .../mjpegtools/files/mjpegtools-1.9.0-nopic.patch  |  41 --
+ media-video/mjpegtools/mjpegtools-1.9.0-r1.ebuild  |  88 ---
+ net-irc/irssi-mod-fish/Manifest                    |   2 -
+ .../irssi-mod-fish/irssi-mod-fish-1.00_rc5.ebuild  |  52 --
+ sys-apps/dbus/Manifest                             |   5 -
+ sys-apps/dbus/dbus-1.2.24-r1.ebuild                | 129 ----
+ sys-apps/dbus/files/30-dbus                        |   9 -
+ sys-apps/dbus/files/dbus.init-1.0                  |  51 --
+ sys-apps/dbus/files/multithread-locking-fix.patch  | 455 --------------
+ sys-apps/fatrace/Manifest                          |   2 -
+ sys-apps/fatrace/fatrace-0.1.ebuild                |  21 -
+ www-plugins/lightspark/Manifest                    |   2 -
+ .../files/lightspark-0.4.1-debug-defines.patch     |  15 -
+ www-plugins/lightspark/lightspark-9999.ebuild      |  62 --
+ 48 files changed, 4668 insertions(+), 1141 deletions(-)
+ delete mode 100644 app-text/gscan2pdf/Manifest
+ delete mode 100644 app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild
+ create mode 100644 dev-libs/openssl/Manifest
+ create mode 100755 dev-libs/openssl/files/gentoo.config-0.9.8
+ create mode 100755 dev-libs/openssl/files/gentoo.config-1.0.0
+ create mode 100755 dev-libs/openssl/files/gentoo.config-1.0.1
+ create mode 100644 dev-libs/openssl/files/openssl-0.9.8e-bsd-sparc64.patch
+ create mode 100644 dev-libs/openssl/files/openssl-0.9.8h-ldflags.patch
+ create mode 100644 dev-libs/openssl/files/openssl-0.9.8m-binutils.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.0a-ldflags.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.0d-fbsd-amd64.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.0d-windres.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.0e-parallel-build.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.0e-x32.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.0h-pkg-config.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.1-parallel-build.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.1-x32.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.1e-ipv6.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.1e-s_client-verify.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.1f-perl-5.18.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.1f-revert-alpha-perl-generation.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.1h-ipv6.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.2-parallel-build.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.2_beta2-ipv6.patch
+ create mode 100644 dev-libs/openssl/files/openssl-1.0.2_beta2-revert-alpha-perl-generation.patch
+ create mode 100644 dev-libs/openssl/openssl-1.0.1i.ebuild
+ delete mode 100644 media-libs/glee/Manifest
+ delete mode 100644 media-libs/glee/files/glee-autotools.patch
+ delete mode 100644 media-libs/glee/glee-5.40.ebuild
+ delete mode 100644 media-libs/glew/Manifest
+ delete mode 100644 media-libs/glew/glew-1.5.4.ebuild
+ delete mode 100644 media-video/mjpegtools/Manifest
+ delete mode 100644 media-video/mjpegtools/files/mjpegtools-1.9.0-glibc-2.10.patch
+ delete mode 100644 media-video/mjpegtools/files/mjpegtools-1.9.0-jpeg-7.patch
+ delete mode 100644 media-video/mjpegtools/files/mjpegtools-1.9.0-nopic.patch
+ delete mode 100644 media-video/mjpegtools/mjpegtools-1.9.0-r1.ebuild
+ delete mode 100644 net-irc/irssi-mod-fish/Manifest
+ delete mode 100644 net-irc/irssi-mod-fish/irssi-mod-fish-1.00_rc5.ebuild
+ delete mode 100644 sys-apps/dbus/Manifest
+ delete mode 100644 sys-apps/dbus/dbus-1.2.24-r1.ebuild
+ delete mode 100644 sys-apps/dbus/files/30-dbus
+ delete mode 100644 sys-apps/dbus/files/dbus.init-1.0
+ delete mode 100644 sys-apps/dbus/files/multithread-locking-fix.patch
+ delete mode 100644 sys-apps/fatrace/Manifest
+ delete mode 100644 sys-apps/fatrace/fatrace-0.1.ebuild
+ delete mode 100644 www-plugins/lightspark/Manifest
+ delete mode 100644 www-plugins/lightspark/files/lightspark-0.4.1-debug-defines.patch
+ delete mode 100644 www-plugins/lightspark/lightspark-9999.ebuild
 *** syncing jensp
 *** synced jensp
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 jensp
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-
-!!! ERROR: app-text/gscan2pdf-1.0.0 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jensp/app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jensp/app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jensp/app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild'
-!!!         gscan2pdf-1.0.0.ebuild, line   6:  Called inherit 'perl-app'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-
-!!! ERROR: www-plugins/lightspark-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '187' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jensp/www-plugins/lightspark/lightspark-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jensp/www-plugins/lightspark/lightspark-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jensp/www-plugins/lightspark/lightspark-9999.ebuild'
-!!!         lightspark-9999.ebuild, line   7:  Called inherit 'cmake-utils' 'nsplugins' 'multilib' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
 
 !!! ERROR: dev-python/pykickstart-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -71,56 +131,55 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jensp/dev-python/pykickstart/pykickstart-9999.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jensp/dev-python/pykickstart/pykickstart-9999.ebuild'
 !!!        pykickstart-9999.ebuild, line   7:  Called inherit 'distutils' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+
+!!! ERROR: sys-kernel/jenkernel-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '180' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jensp/sys-kernel/jenkernel/jenkernel-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jensp/sys-kernel/jenkernel/jenkernel-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jensp/sys-kernel/jenkernel/jenkernel-9999.ebuild'
+!!!          jenkernel-9999.ebuild, line  39:  Called inherit 'git-2' 'bash-completion-r1' 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'bash-completion-r1'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 225' for eclass distutils
+!!!  unknown inherit command from pythonic side, 'gen_metadata 245' for eclass bash-completion-r1
 
-received unknown com: export CATEGORY='net-irc' PR=r0 PVR='1.00_rc5' PV='1.00_rc5' EBUILD='/home/mgorny/repos/jensp/net-irc/irssi-mod-fish/irssi-mod-fish-1.00_rc5.ebuild' P='irssi-mod-fish-1.00_rc5' PF='irssi-mod-fish-1.00_rc5' PN='irssi-mod-fish'path
+received unknown com: export CATEGORY='sys-kernel' PR=r1 PVR='2.6.34-r1' PV='2.6.34' EBUILD='/home/mgorny/repos/jensp/sys-kernel/jens-n900-sources/jens-n900-sources-2.6.34-r1.ebuild' P='jens-n900-sources-2.6.34' PF='jens-n900-sources-2.6.34-r1' PN='jens-n900-sources'path
+
+!!! ERROR: dev-python/pykickstart-9999 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '190' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/jensp/dev-python/pykickstart/pykickstart-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/jensp/dev-python/pykickstart/pykickstart-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/jensp/dev-python/pykickstart/pykickstart-9999.ebuild'
+!!!        pykickstart-9999.ebuild, line   7:  Called inherit 'distutils' 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+sandbox:stop  caught signal 15 in pid 23349
+Sandboxed process killed by signal: Terminated
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/pykickstart-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-text/gscan2pdf-1.0.0
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: www-plugins/lightspark-9999
+!!! caught exception False while processing ebuild src: sys-kernel/jenkernel-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-libs/glee-5.40
-!!! caught exception Metadata Exception: pkg ebuild src: media-libs/glew-1.5.4, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '2' while processing ebuild src: media-libs/glew-1.5.4
-!!! caught exception Metadata Exception: pkg ebuild src: sys-apps/dbus-1.2.24-r1, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '3' while processing ebuild src: sys-apps/dbus-1.2.24-r1
-!!! caught exception Metadata Exception: pkg ebuild src: sys-apps/fatrace-0.1, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '2' while processing ebuild src: sys-apps/fatrace-0.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-irc/irssi-mod-fish-1.00_rc5
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-video/mjpegtools-1.9.0-r1
-Traceback (most recent call last):
-  File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
-    scripts.main(basename(__file__))
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/__init__.py", line 43, in main
-    commandline.main(subcommands)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/util/commandline.py", line 915, in main
-    exitstatus = main_func(options, out, err)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/pmaint.py", line 215, in regen_main
-    eclass_caching=(not options.disable_eclass_caching))
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/__init__.py", line 68, in _recast_exception_decorator
-    return functor(*args, **kwds)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/repo.py", line 236, in _cmd_api_regen_cache
-    self._get_observer(observer), threads=threads, **options)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 41, in regen_repository
-    regen_iter(passthru(repo), _get_repo_helper(), observer)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 529, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 827, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 760, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 458, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
- * Cache regen failed with 1
+!!! caught exception False while processing ebuild src: sys-kernel/jens-n900-sources-2.6.34-r1
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-kernel/meego-n900-sources-2.6.33.2
+!!! caught exception Metadata Exception: pkg ebuild src: dev-python/pykickstart-9999, attr description
+error: Metadata Exception: pkg ebuild src: dev-python/pykickstart-9999, attr data
+error: inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/pykickstart-9999
+ * Cache regen failed with 65

@@ -13,7 +13,20 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   948ba1f..21cba9a  master     -> origin/master
+Updating 948ba1f..21cba9a
+Fast-forward
+ dev-haskell/semigroupoids/Manifest                                  | 2 +-
+ .../{semigroupoids-5.0.0.2.ebuild => semigroupoids-5.0.0.3.ebuild}  | 4 ++--
+ dev-haskell/vector-algorithms/Manifest                              | 2 +-
+ ...ector-algorithms-0.7.ebuild => vector-algorithms-0.7.0.1.ebuild} | 6 ++----
+ dev-haskell/yaml/Manifest                                           | 2 +-
+ dev-haskell/yaml/{yaml-0.8.12.ebuild => yaml-0.8.13.ebuild}         | 2 +-
+ 6 files changed, 8 insertions(+), 10 deletions(-)
+ rename dev-haskell/semigroupoids/{semigroupoids-5.0.0.2.ebuild => semigroupoids-5.0.0.3.ebuild} (94%)
+ rename dev-haskell/vector-algorithms/{vector-algorithms-0.7.ebuild => vector-algorithms-0.7.0.1.ebuild} (89%)
+ rename dev-haskell/yaml/{yaml-0.8.12.ebuild => yaml-0.8.13.ebuild} (97%)
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
