@@ -58,4 +58,8 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.0.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: x11-libs/gtk-fortran-2.9999-r1, attr description
+error: Metadata Exception: pkg ebuild src: x11-libs/gtk-fortran-2.9999-r1, attr data
+error: [Errno 13] Permission denied while processing ebuild src: x11-libs/gtk-fortran-2.9999-r1
+coms error in 5086, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65

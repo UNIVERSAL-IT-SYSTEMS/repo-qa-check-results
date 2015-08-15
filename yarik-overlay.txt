@@ -19,4 +19,8 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 yarik-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: dev-util/cppcheck-1.68, attr description
+error: Metadata Exception: pkg ebuild src: dev-util/cppcheck-1.68, attr data
+error: [Errno 13] Permission denied while processing ebuild src: dev-util/cppcheck-1.68
+coms error in 456, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
