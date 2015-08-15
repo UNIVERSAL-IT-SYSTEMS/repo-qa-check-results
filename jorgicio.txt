@@ -15,25 +15,17 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/jorgicio/jorgicio-gentoo
-   c16e3f8..00ef8b0  master     -> origin/master
-Updating c16e3f8..00ef8b0
-Fast-forward
- profiles/package.mask/00-funtoo | 3 ---
- profiles/package.mask/00-gentoo | 6 ------
- 2 files changed, 9 deletions(-)
- delete mode 100644 profiles/package.mask/00-funtoo
- delete mode 100644 profiles/package.mask/00-gentoo
+Already up-to-date.
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
@@ -42,10 +34,10 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
@@ -54,7 +46,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
+WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
