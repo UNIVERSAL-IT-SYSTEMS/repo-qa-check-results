@@ -19,4 +19,8 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 2 systemd-love
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: sys-auth/pambase-20120417-r4, attr description
+error: Metadata Exception: pkg ebuild src: sys-auth/pambase-20120417-r4, attr data
+error: [Errno 13] Permission denied while processing ebuild src: sys-auth/pambase-20120417-r4
+coms error in 4964, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
