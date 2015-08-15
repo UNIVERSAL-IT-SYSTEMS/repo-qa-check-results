@@ -19,8 +19,4 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 graaff
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception Metadata Exception: pkg ebuild src: dev-util/cucumber-sinatra-0.2.3, attr description
-error: Metadata Exception: pkg ebuild src: dev-util/cucumber-sinatra-0.2.3, attr data
-error: [Errno 13] Permission denied while processing ebuild src: dev-util/cucumber-sinatra-0.2.3
-coms error in 16886, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 65
+ * Cache regenerated successfully

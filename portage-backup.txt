@@ -18,8 +18,4 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 portage-backup
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception Metadata Exception: pkg ebuild src: app-backup/backuppc-3.1.0-r2, attr description
-error: Metadata Exception: pkg ebuild src: app-backup/backuppc-3.1.0-r2, attr data
-error: [Errno 13] Permission denied while processing ebuild src: app-backup/backuppc-3.1.0-r2
-coms error in 20025, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 65
+ * Cache regenerated successfully
