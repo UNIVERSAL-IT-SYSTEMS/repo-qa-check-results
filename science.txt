@@ -17,7 +17,15 @@
  'status': 'official'}
 $ pmaint sync science
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/sci
+   cc3b055..7672a9f  master     -> origin/master
+Updating cc3b055..7672a9f
+Fast-forward
+ sci-biology/tophat/ChangeLog           |  5 ++++
+ sci-biology/tophat/Manifest            |  1 +
+ sci-biology/tophat/tophat-2.1.0.ebuild | 43 ++++++++++++++++++++++++++++++++++
+ 3 files changed, 49 insertions(+)
+ create mode 100644 sci-biology/tophat/tophat-2.1.0.ebuild
 *** syncing science
 *** synced science
  * Sync succeeded
