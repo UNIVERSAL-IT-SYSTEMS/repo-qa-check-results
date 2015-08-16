@@ -34,4 +34,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: www-apache/mod_asn-1.5, attr description
+error: Metadata Exception: pkg ebuild src: www-apache/mod_asn-1.5, attr data
+error: [Errno 13] Permission denied while processing ebuild src: www-apache/mod_asn-1.5
+coms error in 9533, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65

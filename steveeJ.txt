@@ -16,7 +16,15 @@
 $ pmaint sync steveeJ
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/steveeJ/personal-portage-overlay
+   f83bdc9..2fbc32a  master     -> origin/master
+Updating f83bdc9..2fbc32a
+Fast-forward
+ sys-kernel/gentoo-sources/ChangeLog                          |  6 ++++++
+ sys-kernel/gentoo-sources/Manifest                           | 12 +++++-------
+ ...ntoo-sources-4.1.2.ebuild => gentoo-sources-4.1.5.ebuild} |  4 ++--
+ 3 files changed, 13 insertions(+), 9 deletions(-)
+ rename sys-kernel/gentoo-sources/{gentoo-sources-4.1.2.ebuild => gentoo-sources-4.1.5.ebuild} (94%)
 *** syncing steveeJ
 *** synced steveeJ
  * Sync succeeded
@@ -38,7 +46,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.0.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.1.2 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.1.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.18.11 during metadata regeneration.
@@ -56,7 +64,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.0.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.1.2 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.1.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully
