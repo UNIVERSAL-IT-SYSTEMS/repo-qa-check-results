@@ -14,29 +14,13 @@
  'status': 'official'}
 $ pmaint sync mysql
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/mysql
-   8889eec..9210dba  master     -> origin/master
-Updating 8889eec..9210dba
-Fast-forward
- dev-db/mariadb-connector-c/ChangeLog               |  5 +++++
- .../mariadb-connector-c-2.0.0-r1.ebuild            |  4 ++--
- .../mariadb-connector-c-2.1.0.ebuild               |  2 +-
- .../mariadb-connector-c-9999.ebuild                |  2 +-
- dev-java/mariadb-java-client/ChangeLog             |  4 ++++
- dev-java/mariadb-java-client/Manifest              | 22 ++++++++++++++++++++++
- .../mariadb-java-client-1.1.7.ebuild               |  2 +-
- .../mariadb-java-client-9999.ebuild                |  2 +-
- dev-python/mysql-connector-python/Manifest         |  1 -
- dev-python/mysql-connector-python/metadata.xml     |  8 --------
- .../mysql-connector-python-2.0.2.ebuild            | 20 --------------------
- 11 files changed, 37 insertions(+), 35 deletions(-)
- delete mode 100644 dev-python/mysql-connector-python/Manifest
- delete mode 100644 dev-python/mysql-connector-python/metadata.xml
- delete mode 100644 dev-python/mysql-connector-python/mysql-connector-python-2.0.2.ebuild
+Already up-to-date.
 *** syncing mysql
 *** synced mysql
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 mysql
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

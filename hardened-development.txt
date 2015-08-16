@@ -10,31 +10,13 @@
 $ pmaint sync hardened-development
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/hardened-dev
-   ad90fad..ec3a459  master     -> origin/master
-Updating ad90fad..ec3a459
-Fast-forward
- app-crypt/ima-evm-utils/ChangeLog                  |  2 +-
- app-crypt/ima-evm-utils/Manifest                   | 24 +++++++++++++------
- app-crypt/ima-evm-utils/ima-evm-utils-0.2.ebuild   |  2 +-
- app-crypt/ima-evm-utils/ima-evm-utils-9999.ebuild  |  2 +-
- app-crypt/tpm-emulator/ChangeLog                   |  2 +-
- app-crypt/tpm-emulator/Manifest                    | 28 ++++++++++++++++++----
- app-crypt/tpm-emulator/files/tpm-emulator.initd    |  2 +-
- .../tpm-emulator/files/tpm-emulator.initd-0.5.1    |  2 +-
- app-crypt/tpm-emulator/tpm-emulator-0.7.4.ebuild   |  2 +-
- eclass/toolchain.eclass                            |  2 +-
- sys-boot/tboot/Manifest                            | 22 ++++++++++++++++-
- sys-boot/tboot/tboot-1.8.2.ebuild                  |  2 +-
- sys-kernel/hardened-sources/Manifest               | 26 +++++++++++++++++---
- .../hardened-sources-3.14.50-r1.ebuild             |  2 +-
- .../hardened-sources-3.2.71.ebuild                 |  2 +-
- .../hardened-sources-4.1.5-r1.ebuild               |  2 +-
- 16 files changed, 97 insertions(+), 27 deletions(-)
+Already up-to-date.
 *** syncing hardened-development
 *** synced hardened-development
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 hardened-development
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

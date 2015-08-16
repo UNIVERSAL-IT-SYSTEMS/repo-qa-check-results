@@ -16,7 +16,9 @@ Already up-to-date.
 *** synced dlang
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 dlang
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.1-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
