@@ -14,21 +14,19 @@
              'uri': 'git://anongit.gentoo.org/repo/gentoo.git'}],
  'status': 'official'}
 $ pmaint sync gentoo
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   f5d25bd..96a9e7a  master     -> origin/master
-Updating f5d25bd..96a9e7a
+   82effb3..94a35a3  master     -> origin/master
+Updating 82effb3..94a35a3
 Fast-forward
- app-emulation/docker-swarm/Manifest                |  1 +
- .../docker-swarm/docker-swarm-0.4.0.ebuild         | 37 ++++++++++++++++++++++
- app-emulation/docker-swarm/metadata.xml            | 10 ++++++
- 3 files changed, 48 insertions(+)
- create mode 100644 app-emulation/docker-swarm/Manifest
- create mode 100644 app-emulation/docker-swarm/docker-swarm-0.4.0.ebuild
- create mode 100644 app-emulation/docker-swarm/metadata.xml
+ dev-java/guice/Manifest            |  2 +-
+ dev-java/guice/guice-3.0-r1.ebuild | 50 -------------------------
+ dev-java/guice/guice-4.0.ebuild    | 76 ++++++++++++++++++++++++++++++++++++++
+ dev-java/jarjar/jarjar-1.4.ebuild  |  5 +--
+ 4 files changed, 79 insertions(+), 54 deletions(-)
+ delete mode 100644 dev-java/guice/guice-3.0-r1.ebuild
+ create mode 100644 dev-java/guice/guice-4.0.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

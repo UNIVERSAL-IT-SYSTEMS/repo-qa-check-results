@@ -7,9 +7,7 @@
  'source': [{'type': 'git', 'uri': 'git://github.com/dlanx/dlan-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync dlan
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing dlan
@@ -18,4 +16,8 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 dlan
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 4013, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246
