@@ -8,15 +8,19 @@
              'uri': 'git://github.com/nutztherookie/wacfg-overlay.git'}],
  'status': 'official'}
 $ pmaint sync wacfg
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/sync/jkolo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at location '/home/mgorny/sync/jkolo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing wacfg
 *** synced wacfg
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 wacfg
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: app-admin/wacfg-9999 failed.
@@ -53,7 +57,7 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 32711
+sandbox:stop  caught signal 15 in pid 10846
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-admin/wacfg-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'

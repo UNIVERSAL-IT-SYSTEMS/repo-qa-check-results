@@ -14,15 +14,15 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/jamesbroadhead.git'}],
  'status': 'unofficial'}
 $ pmaint sync jamesbroadhead
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing jamesbroadhead
 *** synced jamesbroadhead
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 jamesbroadhead
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: media-sound/kid3-1.6-r1 failed.
