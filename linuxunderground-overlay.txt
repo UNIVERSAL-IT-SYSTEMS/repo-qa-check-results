@@ -18,8 +18,4 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 linuxunderground-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception Metadata Exception: pkg ebuild src: app-emulation/dosemu-1.4.1_pre20130728-r3, attr description
-error: Metadata Exception: pkg ebuild src: app-emulation/dosemu-1.4.1_pre20130728-r3, attr data
-error: [Errno 13] Permission denied while processing ebuild src: app-emulation/dosemu-1.4.1_pre20130728-r3
-coms error in 21355, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 65
+ * Cache regenerated successfully
