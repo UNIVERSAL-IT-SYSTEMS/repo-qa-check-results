@@ -15,7 +15,14 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/jorgicio/jorgicio-gentoo
+   df6c99d..5da10a0  master     -> origin/master
+Updating df6c99d..5da10a0
+Fast-forward
+ dev-python/tweepy/Manifest                          |  3 ++-
+ .../{tweepy-3.3.0.ebuild => tweepy-3.4.0.ebuild}    | 21 ++++++++++++---------
+ 2 files changed, 14 insertions(+), 10 deletions(-)
+ rename dev-python/tweepy/{tweepy-3.3.0.ebuild => tweepy-3.4.0.ebuild} (67%)
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
