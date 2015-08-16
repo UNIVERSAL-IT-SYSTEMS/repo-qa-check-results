@@ -84,4 +84,8 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by net-analyzer/munin-2.0.19 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: sys-libs/gdbm-1.11, attr description
+error: Metadata Exception: pkg ebuild src: sys-libs/gdbm-1.11, attr data
+error: [Errno 13] Permission denied while processing ebuild src: sys-libs/gdbm-1.11
+coms error in 4413, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
