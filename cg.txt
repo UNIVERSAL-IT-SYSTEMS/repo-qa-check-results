@@ -7,13 +7,34 @@
              'uri': 'https://github.com/brothermechanic/cg.git'}],
  'status': 'unofficial'}
 $ pmaint sync cg
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/sync/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/brothermechanic/cg
+   d5b6d91..77bec2e  master     -> origin/master
+Updating d5b6d91..77bec2e
+Fast-forward
+ dev-util/nvidia-cuda-toolkit/Manifest              |   1 +
+ media-gfx/djv/djv-9999.ebuild                      |   6 +-
+ media-gfx/djv/files/libjpeg-boolean.patch          |  36 +++
+ media-gfx/ngplant/ngplant-9999.ebuild              |   2 +-
+ media-tv/kodi/Manifest                             |   2 +
+ .../kodi/files/kodi-14.0-dvddemux-ffmpeg.patch     |  16 ++
+ media-tv/kodi/files/kodi-14.0-gcc5.patch           |  25 ++
+ media-tv/kodi/files/kodi-14.1-no-arm-flags.patch   |  16 ++
+ media-tv/kodi/files/kodi-9999-nomythtv.patch       |  67 +++++
+ media-tv/kodi/kodi-14.1-r1.ebuild                  | 279 +++++++++++++++++++++
+ media-tv/kodi/metadata.xml                         |  29 +++
+ 11 files changed, 477 insertions(+), 2 deletions(-)
+ create mode 100755 media-gfx/djv/files/libjpeg-boolean.patch
+ create mode 100644 media-tv/kodi/Manifest
+ create mode 100644 media-tv/kodi/files/kodi-14.0-dvddemux-ffmpeg.patch
+ create mode 100755 media-tv/kodi/files/kodi-14.0-gcc5.patch
+ create mode 100644 media-tv/kodi/files/kodi-14.1-no-arm-flags.patch
+ create mode 100644 media-tv/kodi/files/kodi-9999-nomythtv.patch
+ create mode 100644 media-tv/kodi/kodi-14.1-r1.ebuild
+ create mode 100644 media-tv/kodi/metadata.xml
 *** syncing cg
 *** synced cg
  * Sync succeeded

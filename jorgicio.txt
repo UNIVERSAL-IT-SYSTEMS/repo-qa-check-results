@@ -15,7 +15,27 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/jorgicio/jorgicio-gentoo
+   aca95cf..df6c99d  master     -> origin/master
+Updating aca95cf..df6c99d
+Fast-forward
+ README.md                                        |   1 +
+ app-shells/shellinabox/Manifest                  |   5 +
+ app-shells/shellinabox/files/shellinabox         |   7 ++
+ app-shells/shellinabox/files/shellinabox-systemd |  11 ++
+ app-shells/shellinabox/files/shellinaboxd        |  16 +++
+ app-shells/shellinabox/shellinabox-2.17.ebuild   |  54 ++++++++++
+ app-shells/shellinabox/shellinabox-9999.ebuild   |  53 ++++++++++
+ net-misc/dropbox/Manifest                        |   3 +
+ net-misc/dropbox/dropbox-3.8.8.ebuild            | 128 +++++++++++++++++++++++
+ 9 files changed, 278 insertions(+)
+ create mode 100644 app-shells/shellinabox/Manifest
+ create mode 100644 app-shells/shellinabox/files/shellinabox
+ create mode 100644 app-shells/shellinabox/files/shellinabox-systemd
+ create mode 100644 app-shells/shellinabox/files/shellinaboxd
+ create mode 100644 app-shells/shellinabox/shellinabox-2.17.ebuild
+ create mode 100644 app-shells/shellinabox/shellinabox-9999.ebuild
+ create mode 100644 net-misc/dropbox/dropbox-3.8.8.ebuild
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded

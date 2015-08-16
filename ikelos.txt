@@ -13,7 +13,123 @@
 $ pmaint sync ikelos
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/ikelos
+   22535f6..110590c  master     -> origin/master
+Updating 22535f6..110590c
+Fast-forward
+ app-emulation/qemu-softmmu/ChangeLog               |  300 -----
+ app-emulation/qemu-softmmu/Manifest                |    8 -
+ app-emulation/qemu-softmmu/files/diablo.patch      |   32 -
+ app-emulation/qemu-softmmu/files/kill-debugs.patch |   58 -
+ app-emulation/qemu-softmmu/files/qemu-ifdown       |   20 -
+ app-emulation/qemu-softmmu/files/qemu-ifup         |   22 -
+ app-emulation/qemu-softmmu/metadata.xml            |   18 -
+ .../qemu-softmmu/qemu-softmmu-0.10.1.ebuild        |  109 --
+ app-forensics/vol-plugins-crypto/Manifest          |    3 -
+ .../vol-plugins-crypto-1.0.ebuild                  |   38 -
+ app-forensics/vol-plugins-malware/Manifest         |    6 -
+ .../vol-plugins-malware-1.0.ebuild                 |   44 -
+ app-forensics/vol-plugins-moyix/Manifest           |    7 -
+ .../vol-plugins-moyix/vol-plugins-moyix-1.0.ebuild |   40 -
+ app-forensics/vol-plugins-reg/Manifest             |    2 -
+ .../vol-plugins-reg/vol-plugins-reg-0.6.ebuild     |   26 -
+ games-rpg/mangos/ChangeLog                         |   11 -
+ games-rpg/mangos/Manifest                          |    5 -
+ games-rpg/mangos/files/9999/mangos-realmd          |   23 -
+ games-rpg/mangos/files/9999/mangos-worldd          |   23 -
+ games-rpg/mangos/mangos-9999.ebuild                |  143 ---
+ games-rpg/mangos/metadata.xml                      |   14 -
+ gnome-extra/alarm-clock/Manifest                   |    3 -
+ gnome-extra/alarm-clock/alarm-clock-0.2.5.ebuild   |   27 -
+ .../files/alarm-clock-0.2.4-adjustments.patch      |   40 -
+ gnome-extra/evolution-mapi/Manifest                |    2 -
+ .../evolution-mapi/evolution-mapi-0.30.3.ebuild    |   38 -
+ gnome-extra/gimmie/Manifest                        |    3 -
+ gnome-extra/gimmie/gimmie-0.2.8.ebuild             |   18 -
+ gnome-extra/gimmie/gimmie-0.2.99999.ebuild         |   25 -
+ gnome-extra/gnome-main-menu/Manifest               |    3 -
+ .../gnome-main-menu/files/g-m-m-build-nm.patch     |   55 -
+ .../gnome-main-menu/gnome-main-menu-0.9.11.ebuild  |   21 -
+ .../gnome-shell-extensions-system-monitor/Manifest |    1 -
+ ...ome-shell-extensions-system-monitor-9999.ebuild |   77 --
+ gnome-extra/timer-applet/ChangeLog                 |   22 -
+ gnome-extra/timer-applet/Manifest                  |    4 -
+ gnome-extra/timer-applet/metadata.xml              |    5 -
+ gnome-extra/timer-applet/timer-applet-2.0.1.ebuild |   29 -
+ x11-terms/gnome-terminal/ChangeLog                 | 1284 --------------------
+ x11-terms/gnome-terminal/Manifest                  |   15 -
+ .../files/gnome-terminal-3.10.2-sys-wait.h.patch   |   24 -
+ .../gnome-terminal-3.12.0-appmenu-parameter.patch  |   26 -
+ .../gnome-terminal-3.12.0-fallback-title-1.patch   |   29 -
+ .../gnome-terminal-3.12.0-fallback-title-2.patch   |   28 -
+ ...erminal-3.12.0-remove-set-title-feature-0.patch |  131 --
+ ...erminal-3.12.0-remove-set-title-feature-1.patch |  214 ----
+ ...erminal-3.12.0-remove-set-title-feature-2.patch |  217 ----
+ ...erminal-3.12.0-remove-set-title-feature-3.patch |  181 ---
+ ...nome-terminal-3.12.0-restore-transparency.patch |  239 ----
+ .../gnome-terminal-3.6.1-no-gnome-doc-utils.patch  |   36 -
+ .../files/gnome-terminal-3.6.1-window-resize.patch |   30 -
+ .../gnome-terminal/gnome-terminal-3.12.0.ebuild    |   90 --
+ x11-terms/gnome-terminal/metadata.xml              |    9 -
+ x11-terms/hotwire/Manifest                         |    2 -
+ x11-terms/hotwire/hotwire-0.721.ebuild             |   39 -
+ 56 files changed, 3919 deletions(-)
+ delete mode 100644 app-emulation/qemu-softmmu/ChangeLog
+ delete mode 100644 app-emulation/qemu-softmmu/Manifest
+ delete mode 100644 app-emulation/qemu-softmmu/files/diablo.patch
+ delete mode 100644 app-emulation/qemu-softmmu/files/kill-debugs.patch
+ delete mode 100755 app-emulation/qemu-softmmu/files/qemu-ifdown
+ delete mode 100755 app-emulation/qemu-softmmu/files/qemu-ifup
+ delete mode 100644 app-emulation/qemu-softmmu/metadata.xml
+ delete mode 100644 app-emulation/qemu-softmmu/qemu-softmmu-0.10.1.ebuild
+ delete mode 100644 app-forensics/vol-plugins-crypto/Manifest
+ delete mode 100644 app-forensics/vol-plugins-crypto/vol-plugins-crypto-1.0.ebuild
+ delete mode 100644 app-forensics/vol-plugins-malware/Manifest
+ delete mode 100644 app-forensics/vol-plugins-malware/vol-plugins-malware-1.0.ebuild
+ delete mode 100644 app-forensics/vol-plugins-moyix/Manifest
+ delete mode 100644 app-forensics/vol-plugins-moyix/vol-plugins-moyix-1.0.ebuild
+ delete mode 100644 app-forensics/vol-plugins-reg/Manifest
+ delete mode 100644 app-forensics/vol-plugins-reg/vol-plugins-reg-0.6.ebuild
+ delete mode 100644 games-rpg/mangos/ChangeLog
+ delete mode 100644 games-rpg/mangos/Manifest
+ delete mode 100755 games-rpg/mangos/files/9999/mangos-realmd
+ delete mode 100755 games-rpg/mangos/files/9999/mangos-worldd
+ delete mode 100644 games-rpg/mangos/mangos-9999.ebuild
+ delete mode 100644 games-rpg/mangos/metadata.xml
+ delete mode 100644 gnome-extra/alarm-clock/Manifest
+ delete mode 100644 gnome-extra/alarm-clock/alarm-clock-0.2.5.ebuild
+ delete mode 100644 gnome-extra/alarm-clock/files/alarm-clock-0.2.4-adjustments.patch
+ delete mode 100644 gnome-extra/evolution-mapi/Manifest
+ delete mode 100644 gnome-extra/evolution-mapi/evolution-mapi-0.30.3.ebuild
+ delete mode 100644 gnome-extra/gimmie/Manifest
+ delete mode 100644 gnome-extra/gimmie/gimmie-0.2.8.ebuild
+ delete mode 100644 gnome-extra/gimmie/gimmie-0.2.99999.ebuild
+ delete mode 100644 gnome-extra/gnome-main-menu/Manifest
+ delete mode 100644 gnome-extra/gnome-main-menu/files/g-m-m-build-nm.patch
+ delete mode 100644 gnome-extra/gnome-main-menu/gnome-main-menu-0.9.11.ebuild
+ delete mode 100644 gnome-extra/gnome-shell-extensions-system-monitor/Manifest
+ delete mode 100644 gnome-extra/gnome-shell-extensions-system-monitor/gnome-shell-extensions-system-monitor-9999.ebuild
+ delete mode 100644 gnome-extra/timer-applet/ChangeLog
+ delete mode 100644 gnome-extra/timer-applet/Manifest
+ delete mode 100644 gnome-extra/timer-applet/metadata.xml
+ delete mode 100644 gnome-extra/timer-applet/timer-applet-2.0.1.ebuild
+ delete mode 100644 x11-terms/gnome-terminal/ChangeLog
+ delete mode 100644 x11-terms/gnome-terminal/Manifest
+ delete mode 100644 x11-terms/gnome-terminal/files/gnome-terminal-3.10.2-sys-wait.h.patch
+ delete mode 100644 x11-terms/gnome-terminal/files/gnome-terminal-3.12.0-appmenu-parameter.patch
+ delete mode 100644 x11-terms/gnome-terminal/files/gnome-terminal-3.12.0-fallback-title-1.patch
+ delete mode 100644 x11-terms/gnome-terminal/files/gnome-terminal-3.12.0-fallback-title-2.patch
+ delete mode 100644 x11-terms/gnome-terminal/files/gnome-terminal-3.12.0-remove-set-title-feature-0.patch
+ delete mode 100644 x11-terms/gnome-terminal/files/gnome-terminal-3.12.0-remove-set-title-feature-1.patch
+ delete mode 100644 x11-terms/gnome-terminal/files/gnome-terminal-3.12.0-remove-set-title-feature-2.patch
+ delete mode 100644 x11-terms/gnome-terminal/files/gnome-terminal-3.12.0-remove-set-title-feature-3.patch
+ delete mode 100644 x11-terms/gnome-terminal/files/gnome-terminal-3.12.0-restore-transparency.patch
+ delete mode 100644 x11-terms/gnome-terminal/files/gnome-terminal-3.6.1-no-gnome-doc-utils.patch
+ delete mode 100644 x11-terms/gnome-terminal/files/gnome-terminal-3.6.1-window-resize.patch
+ delete mode 100644 x11-terms/gnome-terminal/gnome-terminal-3.12.0.ebuild
+ delete mode 100644 x11-terms/gnome-terminal/metadata.xml
+ delete mode 100644 x11-terms/hotwire/Manifest
+ delete mode 100644 x11-terms/hotwire/hotwire-0.721.ebuild
 *** syncing ikelos
 *** synced ikelos
  * Sync succeeded
@@ -40,120 +156,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!  EAPI=3 is not supported
 
 
-!!! ERROR: gnome-extra/alarm-clock-0.2.5 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '204' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/alarm-clock/alarm-clock-0.2.5.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/alarm-clock/alarm-clock-0.2.5.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/alarm-clock/alarm-clock-0.2.5.ebuild'
-!!!       alarm-clock-0.2.5.ebuild, line   5:  Called inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-
-!!! ERROR: gnome-extra/evolution-mapi-0.30.3 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '224' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/evolution-mapi/evolution-mapi-0.30.3.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/evolution-mapi/evolution-mapi-0.30.3.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/evolution-mapi/evolution-mapi-0.30.3.ebuild'
-!!!   evolution-mapi-0.30.3.ebuild, line   7:  Called inherit 'autotools' 'eutils' 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
-
-
-!!! ERROR: gnome-extra/gimmie-0.2.8 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '177' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.8.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.8.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.8.ebuild'
-!!!            gimmie-0.2.8.ebuild, line   5:  Called inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-
-!!! ERROR: gnome-extra/gimmie-0.2.99999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '197' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.99999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.99999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gimmie/gimmie-0.2.99999.ebuild'
-!!!        gimmie-0.2.99999.ebuild, line   5:  Called inherit 'gnome2' 'autotools' 'subversion'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-
-!!! ERROR: gnome-extra/gnome-main-menu-0.9.11 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!              ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!              ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '229' 'depend'
-!!!              ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                      ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gnome-main-menu/gnome-main-menu-0.9.11.ebuild'
-!!!                      ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gnome-main-menu/gnome-main-menu-0.9.11.ebuild'
-!!!          isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gnome-main-menu/gnome-main-menu-0.9.11.ebuild'
-!!!   gnome-main-menu-0.9.11.ebuild, line   5:  Called inherit 'eutils' 'gnome2'
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!               ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!          isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                   gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-
-!!! ERROR: gnome-extra/gnome-shell-extensions-system-monitor-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                                  ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                                  ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                                  ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '325' 'depend'
-!!!                                  ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                                          ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/gnome-shell-extensions-system-monitor/gnome-shell-extensions-system-monitor-9999.ebuild'
-!!!                                          ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/gnome-shell-extensions-system-monitor/gnome-shell-extensions-system-monitor-9999.ebuild'
-!!!                              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/gnome-shell-extensions-system-monitor/gnome-shell-extensions-system-monitor-9999.ebuild'
-!!!   gnome-shell-extensions-system-monitor-9999.ebuild, line  11:  Called inherit 'gnome2-utils' 'gnome2' 'python' 'git-2'
-!!!                        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!                                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                              isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                                       gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
-
-
 !!! ERROR: gnome-extra/gtkparasite-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
@@ -173,93 +175,51 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!  EAPI= is not supported
 
 
-!!! ERROR: gnome-extra/timer-applet-2.0.1 failed.
+!!! ERROR: dev-python/git-python-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '209' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '188' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/gnome-extra/timer-applet/timer-applet-2.0.1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/gnome-extra/timer-applet/timer-applet-2.0.1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/gnome-extra/timer-applet/timer-applet-2.0.1.ebuild'
-!!!      timer-applet-2.0.1.ebuild, line   5:  Called inherit 'gnome2' 'flag-o-matic'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-
-!!! ERROR: games-rpg/mangos-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '164' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/games-rpg/mangos/mangos-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/games-rpg/mangos/mangos-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/games-rpg/mangos/mangos-9999.ebuild'
-!!!             mangos-9999.ebuild, line   9:  Called inherit 'eutils' 'autotools' 'git'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-python/git-python/git-python-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-python/git-python/git-python-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/dev-python/git-python/git-python-9999.ebuild'
+!!!         git-python-9999.ebuild, line   7:  Called inherit 'distutils' 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
 
-!!! ERROR: x11-terms/gnome-terminal-3.12.0 failed.
+!!! ERROR: dev-python/gitty-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '220' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '161' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/x11-terms/gnome-terminal/gnome-terminal-3.12.0.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/x11-terms/gnome-terminal/gnome-terminal-3.12.0.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/x11-terms/gnome-terminal/gnome-terminal-3.12.0.ebuild'
-!!!   gnome-terminal-3.12.0.ebuild, line   9:  Called inherit 'gnome2' 'readme.gentoo'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/ikelos/dev-python/gitty/gitty-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/ikelos/dev-python/gitty/gitty-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/ikelos/dev-python/gitty/gitty-9999.ebuild'
+!!!              gitty-9999.ebuild, line   5:  Called inherit 'python' 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 178' for eclass gnome2
+!!!  unknown inherit command from pythonic side, 'gen_metadata 227' for eclass git
 
-received unknown com: export CATEGORY='x11-terms' PR=r0 PVR='0.721' PV='0.721' EBUILD='/home/mgorny/repos/ikelos/x11-terms/hotwire/hotwire-0.721.ebuild' P='hotwire-0.721' PF='hotwire-0.721' PN=hotwirepath
-!!! caught exception Metadata Exception: pkg ebuild src: app-emulation/qemu-softmmu-0.10.1, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '1' while processing ebuild src: app-emulation/qemu-softmmu-0.10.1
+received unknown com: export CATEGORY='dev-python' PR=r0 PVR='1.3.7' PV='1.3.7' EBUILD='/home/mgorny/repos/ikelos/dev-python/google-appengine/google-appengine-1.3.7.ebuild' P='google-appengine-1.3.7' PF='google-appengine-1.3.7' PN='google-appengine'failed
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-util/libbls-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/alarm-clock-0.2.5
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/evolution-mapi-0.30.3
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/gimmie-0.2.8
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/gimmie-0.2.99999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/gnome-main-menu-0.9.11
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/gnome-shell-extensions-system-monitor-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/gtkparasite-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/git-python-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/timer-applet-2.0.1
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/vol-plugins-crypto-1.0, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: app-forensics/vol-plugins-crypto-1.0
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/vol-plugins-malware-1.0, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: app-forensics/vol-plugins-malware-1.0
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/vol-plugins-moyix-1.0, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: app-forensics/vol-plugins-moyix-1.0
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/vol-plugins-reg-0.6, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: app-forensics/vol-plugins-reg-0.6
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: games-rpg/mangos-9999
+!!! caught exception False while processing ebuild src: dev-python/gitty-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/google-appengine-1.3.7
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-terms/gnome-terminal-3.12.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-terms/hotwire-0.721
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-accessibility/svox-9999
+!!! caught exception False while processing ebuild src: dev-python/pdbparse-9999
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-python/pefile-1.2.10.111
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))

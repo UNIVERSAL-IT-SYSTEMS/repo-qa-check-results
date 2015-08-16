@@ -12,7 +12,25 @@
 $ pmaint sync prism-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hasufell/prism-overlay
+   dcceb5e..0a0c462  master     -> origin/master
+Updating dcceb5e..0a0c462
+Fast-forward
+ media-libs/mediastreamer/Manifest                  |   1 +
+ .../mediastreamer/mediastreamer-2.11.2.ebuild      | 188 +++++++++++++++++++++
+ net-libs/belle-sip/Manifest                        |   1 +
+ net-libs/belle-sip/belle-sip-1.4.1.ebuild          |  33 ++++
+ net-libs/ortp/Manifest                             |   1 +
+ net-libs/ortp/ortp-0.24.2.ebuild                   |  66 ++++++++
+ net-voip/linphone/Manifest                         |   3 +-
+ net-voip/linphone/linphone-3.8.0.ebuild            | 119 -------------
+ ...linphone-3.8.1.ebuild => linphone-3.8.5.ebuild} |   1 +
+ 9 files changed, 292 insertions(+), 121 deletions(-)
+ create mode 100644 media-libs/mediastreamer/mediastreamer-2.11.2.ebuild
+ create mode 100644 net-libs/belle-sip/belle-sip-1.4.1.ebuild
+ create mode 100644 net-libs/ortp/ortp-0.24.2.ebuild
+ delete mode 100644 net-voip/linphone/linphone-3.8.0.ebuild
+ rename net-voip/linphone/{linphone-3.8.1.ebuild => linphone-3.8.5.ebuild} (99%)
 *** syncing prism-overlay
 *** synced prism-overlay
  * Sync succeeded

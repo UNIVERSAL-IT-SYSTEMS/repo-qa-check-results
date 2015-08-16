@@ -8,7 +8,29 @@
  'status': 'unofficial'}
 $ pmaint sync sabayon
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Sabayon/for-gentoo
+   8f8de84..cdda2df  master     -> origin/master
+Updating 8f8de84..cdda2df
+Fast-forward
+ media-video/winff/Manifest                         |  2 +-
+ .../{winff-1.5.2.ebuild => winff-1.5.3.ebuild}     | 20 ++++++---
+ www-servers/apache/Manifest                        |  2 +-
+ .../{apache-2.2.29.ebuild => apache-2.2.31.ebuild} |  4 +-
+ www-servers/apache/files/00_systemd.conf           |  2 -
+ www-servers/apache/files/apache2.4.service         | 20 ---------
+ x11-misc/gxneur/Manifest                           |  2 +-
+ .../{gxneur-0.15.0.ebuild => gxneur-0.17.0.ebuild} |  5 ++-
+ x11-misc/xneur/Manifest                            |  2 +-
+ x11-misc/xneur/files/0.15.0-select-gtk.patch       | 48 ----------------------
+ .../{xneur-0.15.0.ebuild => xneur-0.17.0.ebuild}   |  7 ++--
+ 11 files changed, 26 insertions(+), 88 deletions(-)
+ rename media-video/winff/{winff-1.5.2.ebuild => winff-1.5.3.ebuild} (72%)
+ rename www-servers/apache/{apache-2.2.29.ebuild => apache-2.2.31.ebuild} (93%)
+ delete mode 100644 www-servers/apache/files/00_systemd.conf
+ delete mode 100644 www-servers/apache/files/apache2.4.service
+ rename x11-misc/gxneur/{gxneur-0.15.0.ebuild => gxneur-0.17.0.ebuild} (83%)
+ delete mode 100644 x11-misc/xneur/files/0.15.0-select-gtk.patch
+ rename x11-misc/xneur/{xneur-0.15.0.ebuild => xneur-0.17.0.ebuild} (93%)
 *** syncing sabayon
 *** synced sabayon
  * Sync succeeded

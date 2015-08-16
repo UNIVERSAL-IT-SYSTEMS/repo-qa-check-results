@@ -10,7 +10,39 @@
  'status': 'unofficial'}
 $ pmaint sync go-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/Dr-Terrible/go-overlay
+   01d3f4e..d9ce00a  master     -> origin/master
+Updating 01d3f4e..d9ce00a
+Fast-forward
+ dev-db/bolt/Manifest                               |  2 +-
+ dev-db/bolt/bolt-1.0.ebuild                        |  6 ++---
+ dev-go/flint/Manifest                              |  2 +-
+ dev-go/flint/flint-0.0.4.ebuild                    |  4 +--
+ dev-go/gcli/Manifest                               |  2 +-
+ dev-go/gcli/gcli-0.2.1.ebuild                      |  2 +-
+ dev-go/gcli/gcli-0.2.2_pre20150808.ebuild          |  2 +-
+ dev-go/ginkgo/ginkgo-1.2.0.ebuild                  |  2 +-
+ dev-go/go-torch/Manifest                           |  2 +-
+ dev-go/go-torch/go-torch-0.5.0_pre20150729.ebuild  |  4 +--
+ dev-util/orange-cat/Manifest                       |  8 ++++++
+ dev-util/orange-cat/metadata.xml                   | 10 +++++++
+ dev-util/orange-cat/orange-cat-0.2.2.ebuild        | 31 ++++++++++++++++++++++
+ metadata/md5-cache/dev-db/bolt-1.0                 |  6 ++---
+ metadata/md5-cache/dev-go/flint-0.0.4              |  4 +--
+ metadata/md5-cache/dev-go/gcli-0.2.1               |  4 +--
+ metadata/md5-cache/dev-go/gcli-0.2.2_pre20150808   |  4 +--
+ metadata/md5-cache/dev-go/ginkgo-1.2.0             |  2 +-
+ .../md5-cache/dev-go/go-torch-0.5.0_pre20150729    |  4 +--
+ metadata/md5-cache/dev-util/orange-cat-0.2.2       | 12 +++++++++
+ .../md5-cache/www-apps/gitea-0.7.0_pre20150630     |  4 +--
+ metadata/pkg_desc_index                            |  1 +
+ www-apps/gitea/Manifest                            |  2 +-
+ www-apps/gitea/gitea-0.7.0_pre20150630.ebuild      |  4 +--
+ 24 files changed, 93 insertions(+), 31 deletions(-)
+ create mode 100644 dev-util/orange-cat/Manifest
+ create mode 100644 dev-util/orange-cat/metadata.xml
+ create mode 100644 dev-util/orange-cat/orange-cat-0.2.2.ebuild
+ create mode 100644 metadata/md5-cache/dev-util/orange-cat-0.2.2
 *** syncing go-overlay
 *** synced go-overlay
  * Sync succeeded

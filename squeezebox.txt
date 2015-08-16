@@ -16,7 +16,37 @@
 $ pmaint sync squeezebox
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/squeezebox
+   f9e5d1a..0f4ab74  master     -> origin/master
+ * [new tag]         jivelite-20141213 -> jivelite-20141213
+ * [new tag]         lms-bin-7.9.0_pre20150812 -> lms-bin-7.9.0_pre20150812
+Updating f9e5d1a..0f4ab74
+Fast-forward
+ .gitignore                                         |    3 +-
+ licenses/jivelite                                  |   57 ++
+ media-sound/jivelite/Manifest                      |    1 +
+ media-sound/jivelite/jivelite-20141213.ebuild      |   56 +
+ media-sound/logitechmediaserver-bin/ChangeLog      |  146 ---
+ media-sound/logitechmediaserver-bin/Manifest       |   13 +-
+ ...erver-bin-7.7.3-add-alarm-shuffle-setting.patch |  271 -----
+ ...er-bin-7.7.3-fix-transition-sample-rates2.patch |  171 ----
+ ...er-bin-7.7.3-remove-softlink-target-check.patch |   20 -
+ ....9.0_pre20150812-client-playlists-gentoo.patch} |    4 +-
+ ...server-bin-7.9.0_pre20150812-uuid-gentoo.patch} |    4 +-
+ ...gitechmediaserver-bin-7.9.0_pre20150812.ebuild} | 1070 ++++++++++++--------
+ .../logitechmediaserver-bin-9999.ebuild            |    2 +-
+ media-sound/squeezelite/files/squeezelite.conf.d   |    2 +
+ 14 files changed, 757 insertions(+), 1063 deletions(-)
+ create mode 100644 licenses/jivelite
+ create mode 100644 media-sound/jivelite/Manifest
+ create mode 100644 media-sound/jivelite/jivelite-20141213.ebuild
+ delete mode 100644 media-sound/logitechmediaserver-bin/ChangeLog
+ delete mode 100644 media-sound/logitechmediaserver-bin/files/logitechmediaserver-bin-7.7.3-add-alarm-shuffle-setting.patch
+ delete mode 100644 media-sound/logitechmediaserver-bin/files/logitechmediaserver-bin-7.7.3-fix-transition-sample-rates2.patch
+ delete mode 100644 media-sound/logitechmediaserver-bin/files/logitechmediaserver-bin-7.7.3-remove-softlink-target-check.patch
+ rename media-sound/logitechmediaserver-bin/files/{logitechmediaserver-bin-7.7.3-client-playlists-gentoo.patch => logitechmediaserver-bin-7.9.0_pre20150812-client-playlists-gentoo.patch} (67%)
+ rename media-sound/logitechmediaserver-bin/files/{logitechmediaserver-bin-7.7.3-uuid-gentoo.patch => logitechmediaserver-bin-7.9.0_pre20150812-uuid-gentoo.patch} (78%)
+ rename media-sound/logitechmediaserver-bin/{logitechmediaserver-bin-7.7.3.ebuild => logitechmediaserver-bin-7.9.0_pre20150812.ebuild} (72%)
 *** syncing squeezebox
 *** synced squeezebox
  * Sync succeeded

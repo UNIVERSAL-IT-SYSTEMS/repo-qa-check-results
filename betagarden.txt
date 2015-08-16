@@ -15,7 +15,14 @@
  'status': 'official'}
 $ pmaint sync betagarden
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/betagarden
+   474788c..e77b8b6  master     -> origin/master
+Updating 474788c..e77b8b6
+Fast-forward
+ media-tv/mediathekview-bin/Manifest                |  1 +
+ .../mediathekview-bin-10_pre20150814.ebuild        | 60 ++++++++++++++++++++++
+ 2 files changed, 61 insertions(+)
+ create mode 100644 media-tv/mediathekview-bin/mediathekview-bin-10_pre20150814.ebuild
 *** syncing betagarden
 *** synced betagarden
  * Sync succeeded

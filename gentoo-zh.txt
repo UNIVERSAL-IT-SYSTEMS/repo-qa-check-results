@@ -8,19 +8,35 @@
  'status': 'unofficial'}
 $ pmaint sync gentoo-zh
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/microcai/gentoo-zh
+   9c56508..2194d6d  master     -> origin/master
+Updating 9c56508..2194d6d
+Fast-forward
+ app-antivirus/360safe/360safe-3.0.0.67.ebuild     | 40 ------------
+ app-antivirus/360safe/Manifest                    |  2 -
+ dev-libs/libinput/Manifest                        |  1 -
+ dev-libs/libinput/libinput-0.19.0.ebuild          | 55 ----------------
+ dev-libs/libinput/metadata.xml                    |  5 --
+ games-rpg/troubledwater/Manifest                  |  3 -
+ games-rpg/troubledwater/files/skwx.desktop        | 12 ----
+ games-rpg/troubledwater/files/skwx_unx            | 13 ----
+ games-rpg/troubledwater/troubledwater-1020.ebuild | 78 -----------------------
+ 9 files changed, 209 deletions(-)
+ delete mode 100644 app-antivirus/360safe/360safe-3.0.0.67.ebuild
+ delete mode 100644 app-antivirus/360safe/Manifest
+ delete mode 100644 dev-libs/libinput/Manifest
+ delete mode 100644 dev-libs/libinput/libinput-0.19.0.ebuild
+ delete mode 100644 dev-libs/libinput/metadata.xml
+ delete mode 100644 games-rpg/troubledwater/Manifest
+ delete mode 100644 games-rpg/troubledwater/files/skwx.desktop
+ delete mode 100644 games-rpg/troubledwater/files/skwx_unx
+ delete mode 100644 games-rpg/troubledwater/troubledwater-1020.ebuild
 *** syncing gentoo-zh
 *** synced gentoo-zh
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 gentoo-zh
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by games-rpg/troubledwater-1020 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by games-rpg/troubledwater-1020 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by sys-kernel/e-sources-3.18.14 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
@@ -82,12 +98,6 @@ WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata re
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by games-rpg/troubledwater-1020 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by games-rpg/troubledwater-1020 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-kernel/e-sources-3.18.14 during metadata regeneration.

@@ -15,7 +15,15 @@
  'status': 'unofficial'}
 $ pmaint sync torbrowser
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/MeisterP/torbrowser-overlay
+   1b3b4f5..97f99a5  master     -> origin/master
+Updating 1b3b4f5..97f99a5
+Fast-forward
+ www-client/torbrowser/ChangeLog                    |  5 ++++
+ .../torbrowser-38.2.0-nss-fixup-warnings.patch     | 25 ++++++++++++++++
+ .../torbrowser/torbrowser-38.2.0_p500.ebuild       | 33 +++++++++++-----------
+ 3 files changed, 47 insertions(+), 16 deletions(-)
+ create mode 100644 www-client/torbrowser/files/torbrowser-38.2.0-nss-fixup-warnings.patch
 *** syncing torbrowser
 *** synced torbrowser
  * Sync succeeded

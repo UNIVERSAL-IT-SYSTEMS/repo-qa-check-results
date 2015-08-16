@@ -11,7 +11,21 @@
  'status': 'official'}
 $ pmaint sync libressl
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/gentoo/libressl
+   5c2c47b..ccdb24b  master     -> origin/master
+Updating 5c2c47b..ccdb24b
+Fast-forward
+ dev-db/mysql/Manifest                          |   2 +
+ dev-db/mysql/files/my.cnf-5.6                  | 141 ++++++++++++++++++++
+ dev-db/mysql/files/mysql-5.6.22-libressl.patch |  12 ++
+ dev-db/mysql/metadata.xml                      |  26 ++++
+ dev-db/mysql/mysql-5.6.26-r1.ebuild            | 170 +++++++++++++++++++++++++
+ 5 files changed, 351 insertions(+)
+ create mode 100644 dev-db/mysql/Manifest
+ create mode 100644 dev-db/mysql/files/my.cnf-5.6
+ create mode 100644 dev-db/mysql/files/mysql-5.6.22-libressl.patch
+ create mode 100644 dev-db/mysql/metadata.xml
+ create mode 100644 dev-db/mysql/mysql-5.6.26-r1.ebuild
 *** syncing libressl
 *** synced libressl
  * Sync succeeded

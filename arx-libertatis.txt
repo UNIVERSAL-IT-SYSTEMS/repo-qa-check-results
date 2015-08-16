@@ -10,7 +10,19 @@
  'status': 'unofficial'}
 $ pmaint sync arx-libertatis
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/arx/ArxGentoo
+   1e3964b..4382a76  master     -> origin/master
+Updating 1e3964b..4382a76
+Fast-forward
+ app-arch/innoextract/Manifest                      |  2 +-
+ app-arch/innoextract/metadata.xml                  | 11 +++--
+ games-rpg/arx-libertatis/ChangeLog                 | 14 +++++-
+ games-rpg/arx-libertatis/Manifest                  |  6 +--
+ .../arx-libertatis/arx-libertatis-9999.ebuild      |  9 ++--
+ games-rpg/arx-libertatis/metadata.xml              | 52 +++++++++++++++++++---
+ metadata/cache/games-rpg/arx-libertatis-9999       |  4 +-
+ profiles/use.local.desc                            |  7 ++-
+ 8 files changed, 83 insertions(+), 22 deletions(-)
 *** syncing arx-libertatis
 *** synced arx-libertatis
  * Sync succeeded

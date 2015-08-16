@@ -16,7 +16,22 @@
 $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/alunduil/alunduil-overlay
+   f472a65..7fc1471  master     -> origin/master
+Updating f472a65..7fc1471
+Fast-forward
+ app-admin/supernova/Manifest                       |  3 --
+ app-admin/supernova/metadata.xml                   | 10 ----
+ app-admin/supernova/supernova-2.0.8.ebuild         | 53 ----------------------
+ dev-python/botocore/Manifest                       |  4 +-
+ dev-python/botocore/botocore-1.1.8.ebuild          |  4 +-
+ dev-python/os-client-config/Manifest               |  1 +
+ .../files/test_get_all_clouds.patch                | 13 ++++++
+ 7 files changed, 18 insertions(+), 70 deletions(-)
+ delete mode 100644 app-admin/supernova/Manifest
+ delete mode 100644 app-admin/supernova/metadata.xml
+ delete mode 100644 app-admin/supernova/supernova-2.0.8.ebuild
+ create mode 100644 dev-python/os-client-config/files/test_get_all_clouds.patch
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded

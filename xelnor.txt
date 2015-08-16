@@ -7,7 +7,43 @@
  'status': 'unofficial'}
 $ pmaint sync xelnor
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://overlay.xelnor.net/overlay
+   b85eea4..4b4e35b  master     -> origin/master
+Updating b85eea4..4b4e35b
+Fast-forward
+ dev-python/confutils/Manifest                      |  2 +-
+ dev-python/confutils/confutils-0.3.7.ebuild        |  2 +-
+ dev-python/django-appconf/Manifest                 |  2 +
+ .../django-appconf/django-appconf-1.0.1.ebuild     | 23 ++++++++
+ dev-python/django-mptt/Manifest                    |  2 +
+ dev-python/django-mptt/django-mptt-0.7.4.ebuild    | 22 ++++++++
+ dev-python/django-sendfile/Manifest                |  2 +
+ .../django-sendfile/django-sendfile-0.3.9.ebuild   | 23 ++++++++
+ dev-python/fslib/Manifest                          |  2 +-
+ dev-python/fslib/fslib-0.2.1.ebuild                |  2 +-
+ dev-python/getconf/Manifest                        |  2 +
+ dev-python/getconf/getconf-1.3.0.ebuild            | 22 ++++++++
+ dev-python/tdparser/Manifest                       |  2 +-
+ dev-python/tdparser/tdparser-1.1.3.ebuild          |  2 +-
+ www-apps/xelpaste/Manifest                         |  6 +++
+ www-apps/xelpaste/files/xelpaste.cron.daily        |  3 ++
+ www-apps/xelpaste/files/xelpaste.ini               | 61 ++++++++++++++++++++++
+ www-apps/xelpaste/xelpaste-1.0.0.ebuild            | 40 ++++++++++++++
+ www-apps/xelpaste/xelpaste-3.0.1.ebuild            | 40 ++++++++++++++
+ 19 files changed, 254 insertions(+), 6 deletions(-)
+ create mode 100644 dev-python/django-appconf/Manifest
+ create mode 100644 dev-python/django-appconf/django-appconf-1.0.1.ebuild
+ create mode 100644 dev-python/django-mptt/Manifest
+ create mode 100644 dev-python/django-mptt/django-mptt-0.7.4.ebuild
+ create mode 100644 dev-python/django-sendfile/Manifest
+ create mode 100644 dev-python/django-sendfile/django-sendfile-0.3.9.ebuild
+ create mode 100644 dev-python/getconf/Manifest
+ create mode 100644 dev-python/getconf/getconf-1.3.0.ebuild
+ create mode 100644 www-apps/xelpaste/Manifest
+ create mode 100644 www-apps/xelpaste/files/xelpaste.cron.daily
+ create mode 100644 www-apps/xelpaste/files/xelpaste.ini
+ create mode 100644 www-apps/xelpaste/xelpaste-1.0.0.ebuild
+ create mode 100644 www-apps/xelpaste/xelpaste-3.0.1.ebuild
 *** syncing xelnor
 *** synced xelnor
  * Sync succeeded

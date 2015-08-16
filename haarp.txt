@@ -9,7 +9,17 @@
  'status': 'unofficial'}
 $ pmaint sync haarp
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/haarp
+   8dbd286..71f415c  master     -> origin/master
+Updating 8dbd286..71f415c
+Fast-forward
+ games-util/doomseeker/Manifest                  | 2 +-
+ games-util/doomseeker/doomseeker-0.12.2b.ebuild | 2 ++
+ profiles/use.mask                               | 2 ++
+ sys-power/turbostat/Manifest                    | 2 +-
+ sys-power/turbostat/turbostat-9999.ebuild       | 5 +++--
+ 5 files changed, 9 insertions(+), 4 deletions(-)
+ create mode 100644 profiles/use.mask
 *** syncing haarp
 *** synced haarp
  * Sync succeeded

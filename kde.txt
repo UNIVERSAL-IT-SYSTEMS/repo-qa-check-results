@@ -13,7 +13,33 @@
  'status': 'official'}
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   b4d2d06..2e42a4b  master     -> origin/master
+Updating b4d2d06..2e42a4b
+Fast-forward
+ Documentation/maintainers/regenerate-files         |   4 +-
+ .../.kde-frameworks-5.12/_HEADER_                  |   2 -
+ .../.kde-frameworks-5.12/kde-frameworks-5.12       |   1 -
+ .../.kde-frameworks-5.12/more-deps                 |  21 ---
+ .../kde-frameworks-5.12.keywords                   |  90 ----------
+ Documentation/package.mask/kde-frameworks-5.12     |  69 --------
+ .../package.unmask/.kde-frameworks-5.12/_HEADER_   |   2 -
+ .../.kde-frameworks-5.12/kde-frameworks-5.12       |   1 -
+ eclass/kde5-functions.eclass                       |   2 +-
+ .../files/plasma-workspace-5.4-consolekit2.patch   | 189 +++++++++++++++++++++
+ .../plasma-workspace-5.4.49.9999.ebuild            |   5 +-
+ sets/kde-frameworks                                |   2 +
+ sets/kde-frameworks-5.12                           |  66 -------
+ 13 files changed, 198 insertions(+), 256 deletions(-)
+ delete mode 100644 Documentation/package.accept_keywords/.kde-frameworks-5.12/_HEADER_
+ delete mode 120000 Documentation/package.accept_keywords/.kde-frameworks-5.12/kde-frameworks-5.12
+ delete mode 100644 Documentation/package.accept_keywords/.kde-frameworks-5.12/more-deps
+ delete mode 100644 Documentation/package.accept_keywords/kde-frameworks-5.12.keywords
+ delete mode 100644 Documentation/package.mask/kde-frameworks-5.12
+ delete mode 100644 Documentation/package.unmask/.kde-frameworks-5.12/_HEADER_
+ delete mode 120000 Documentation/package.unmask/.kde-frameworks-5.12/kde-frameworks-5.12
+ create mode 100644 kde-plasma/plasma-workspace/files/plasma-workspace-5.4-consolekit2.patch
+ delete mode 100644 sets/kde-frameworks-5.12
 *** syncing kde
 *** synced kde
  * Sync succeeded
