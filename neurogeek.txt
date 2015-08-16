@@ -24,4 +24,8 @@ chmod: missing operand
 Try 'chmod --help' for more information.
 chmod: missing operand
 Try 'chmod --help' for more information.
- * Cache regenerated successfully
+!!! caught exception Metadata Exception: pkg ebuild src: dev-cpp/litesql-0.3.9, attr description
+error: Metadata Exception: pkg ebuild src: dev-cpp/litesql-0.3.9, attr data
+error: [Errno 13] Permission denied while processing ebuild src: dev-cpp/litesql-0.3.9
+coms error in 12985, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
