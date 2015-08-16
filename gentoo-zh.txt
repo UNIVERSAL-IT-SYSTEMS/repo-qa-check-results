@@ -8,29 +8,7 @@
  'status': 'unofficial'}
 $ pmaint sync gentoo-zh
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/microcai/gentoo-zh
-   9c56508..2194d6d  master     -> origin/master
-Updating 9c56508..2194d6d
-Fast-forward
- app-antivirus/360safe/360safe-3.0.0.67.ebuild     | 40 ------------
- app-antivirus/360safe/Manifest                    |  2 -
- dev-libs/libinput/Manifest                        |  1 -
- dev-libs/libinput/libinput-0.19.0.ebuild          | 55 ----------------
- dev-libs/libinput/metadata.xml                    |  5 --
- games-rpg/troubledwater/Manifest                  |  3 -
- games-rpg/troubledwater/files/skwx.desktop        | 12 ----
- games-rpg/troubledwater/files/skwx_unx            | 13 ----
- games-rpg/troubledwater/troubledwater-1020.ebuild | 78 -----------------------
- 9 files changed, 209 deletions(-)
- delete mode 100644 app-antivirus/360safe/360safe-3.0.0.67.ebuild
- delete mode 100644 app-antivirus/360safe/Manifest
- delete mode 100644 dev-libs/libinput/Manifest
- delete mode 100644 dev-libs/libinput/libinput-0.19.0.ebuild
- delete mode 100644 dev-libs/libinput/metadata.xml
- delete mode 100644 games-rpg/troubledwater/Manifest
- delete mode 100644 games-rpg/troubledwater/files/skwx.desktop
- delete mode 100644 games-rpg/troubledwater/files/skwx_unx
- delete mode 100644 games-rpg/troubledwater/troubledwater-1020.ebuild
+Already up-to-date.
 *** syncing gentoo-zh
 *** synced gentoo-zh
  * Sync succeeded

@@ -15,45 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/tokiclover/bar-overlay
-   49182ea..229a2a4  master     -> origin/master
-Updating 49182ea..229a2a4
-Fast-forward
- app-arch/lz4/lz4-130.ebuild                        |  8 ++---
- app-arch/lz4/lz4-131.ebuild                        |  8 ++---
- app-arch/lz4/lz4-9999.ebuild                       | 10 +++----
- dev-libs/efl/metadata.xml                          | 10 +------
- dev-python/pyrobase/pyrobase-0.2.ebuild            |  2 +-
- dev-python/pyrocore/pyrocore-0.4.2.ebuild          |  2 +-
- eclass/ecnij.eclass                                | 23 ++++++++++-----
- media-fonts/artwiz-aleczapka-se/Manifest           | 27 +----------------
- net-misc/connman/metadata.xml                      |  2 +-
- net-misc/pacrunner/metadata.xml                    |  2 +-
- net-print/cnijfilter/cnijfilter-2.60.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-2.70.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-2.80.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-2.90.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-3.00.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-3.10.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-3.20.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-3.30.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-3.40.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-3.50.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-3.60.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-3.70.ebuild        |  8 ++---
- net-print/cnijfilter/cnijfilter-3.80.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-3.90.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-4.00.ebuild        |  6 ++--
- net-print/cnijfilter/cnijfilter-4.10.ebuild        |  6 ++--
- sys-apps/less/Manifest                             | 34 ----------------------
- sys-firmware/iucode-tool/iucode-tool-1.3.ebuild    |  8 ++---
- sys-firmware/iucode-tool/iucode-tool-9999.ebuild   |  8 ++---
- sys-fs/vdev/files/vdevd.initd                      | 17 ++++++-----
- sys-fs/vdev/vdev-9999.ebuild                       |  2 +-
- x11-themes/awoken-icon-theme/metadata.xml          |  5 ++--
- .../leopard-gtk-theme/leopard-gtk-theme-4.0.ebuild |  6 ++--
- .../leopard-icon-theme-4.0.ebuild                  |  9 ++----
- 34 files changed, 108 insertions(+), 173 deletions(-)
+Already up-to-date.
 *** syncing bar
 *** synced bar
  * Sync succeeded

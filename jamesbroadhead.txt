@@ -15,30 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync jamesbroadhead
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/user/jamesbroadhead
-   59dd6af..5afb622  master     -> origin/master
-Updating 59dd6af..5afb622
-Fast-forward
- app-office/gscan2pdf/Manifest                      |   7 +-
- app-office/gscan2pdf/gscan2pdf-1.1.2-r1.ebuild     |  56 ------
- app-office/gscan2pdf/gscan2pdf-1.2.7.ebuild        |  85 +++++++++
- media-sound/kid3/ChangeLog                         | 212 ---------------------
- media-sound/kid3/Manifest                          |   8 -
- .../kid3/files/kid3-1.6-id3form-usability.patch    |  92 ---------
- .../files/kid3-id3form-understandability.patch     |  49 -----
- media-sound/kid3/kid3-1.6-r1.ebuild                |  57 ------
- media-sound/kid3/kid3-2.0-r1.ebuild                |  56 ------
- media-sound/kid3/metadata.xml                      |   6 -
- 10 files changed, 87 insertions(+), 541 deletions(-)
- delete mode 100644 app-office/gscan2pdf/gscan2pdf-1.1.2-r1.ebuild
- create mode 100644 app-office/gscan2pdf/gscan2pdf-1.2.7.ebuild
- delete mode 100644 media-sound/kid3/ChangeLog
- delete mode 100644 media-sound/kid3/Manifest
- delete mode 100644 media-sound/kid3/files/kid3-1.6-id3form-usability.patch
- delete mode 100644 media-sound/kid3/files/kid3-id3form-understandability.patch
- delete mode 100644 media-sound/kid3/kid3-1.6-r1.ebuild
- delete mode 100644 media-sound/kid3/kid3-2.0-r1.ebuild
- delete mode 100644 media-sound/kid3/metadata.xml
+Already up-to-date.
 *** syncing jamesbroadhead
 *** synced jamesbroadhead
  * Sync succeeded

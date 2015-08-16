@@ -14,35 +14,7 @@
 $ pmaint sync pinkbyte
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/Pinkbyte/pinkbyte-overlay
-   5dcf24f..fd8d2e6  master     -> origin/master
-Updating 5dcf24f..fd8d2e6
-Fast-forward
- games-action/babylon-mediavps/Manifest             |   4 -
- .../babylon-mediavps/babylon-mediavps-3.4.2.ebuild |  67 -------------
- games-action/freespace2-data/Manifest              |   1 -
- .../freespace2-data/freespace2-data-1.0.ebuild     |  73 --------------
- games-action/freespace2-mediavps/Manifest          |   7 --
- .../freespace2-mediavps-3.6.10.ebuild              |  48 ---------
- games-action/fs2_launcher/Manifest                 |   1 -
- games-action/fs2_launcher/fs2_launcher-152.ebuild  |  63 ------------
- games-action/fs2_open/Manifest                     |   6 --
- games-action/fs2_open/fs2_open-3.6.10.ebuild       | 108 ---------------------
- kde-misc/serverstatuswidget/Manifest               |   1 -
- .../serverstatuswidget-9999-r1.ebuild              |  18 ----
- 12 files changed, 397 deletions(-)
- delete mode 100644 games-action/babylon-mediavps/Manifest
- delete mode 100644 games-action/babylon-mediavps/babylon-mediavps-3.4.2.ebuild
- delete mode 100644 games-action/freespace2-data/Manifest
- delete mode 100644 games-action/freespace2-data/freespace2-data-1.0.ebuild
- delete mode 100644 games-action/freespace2-mediavps/Manifest
- delete mode 100644 games-action/freespace2-mediavps/freespace2-mediavps-3.6.10.ebuild
- delete mode 100644 games-action/fs2_launcher/Manifest
- delete mode 100644 games-action/fs2_launcher/fs2_launcher-152.ebuild
- delete mode 100644 games-action/fs2_open/Manifest
- delete mode 100644 games-action/fs2_open/fs2_open-3.6.10.ebuild
- delete mode 100644 kde-misc/serverstatuswidget/Manifest
- delete mode 100644 kde-misc/serverstatuswidget/serverstatuswidget-9999-r1.ebuild
+Already up-to-date.
 *** syncing pinkbyte
 *** synced pinkbyte
  * Sync succeeded

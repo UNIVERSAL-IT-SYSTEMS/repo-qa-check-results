@@ -13,27 +13,7 @@
 $ pmaint sync pentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/pentoo/pentoo-overlay
-   27b1edf..2f0b746  master     -> origin/master
-Updating 27b1edf..2f0b746
-Fast-forward
- README.md                                                      | 6 ++++++
- pentoo/zero-system/Manifest                                    | 2 +-
- pentoo/zero-system/zero-system-9999.ebuild                     | 4 ++--
- profiles/pentoo/arch/arm/package.accept_keywords/app-text      | 3 +++
- profiles/pentoo/arch/arm/package.accept_keywords/dev-libs      | 1 +
- profiles/pentoo/arch/arm/package.accept_keywords/mail-client   | 1 +
- profiles/pentoo/arch/arm/package.accept_keywords/media-gfx     | 1 +
- profiles/pentoo/arch/arm/package.accept_keywords/media-libs    | 1 +
- profiles/pentoo/zero-system/package.accept_keywords/dev-java   | 2 ++
- profiles/pentoo/zero-system/package.accept_keywords/media-libs | 1 +
- profiles/pentoo/zero-system/package.accept_keywords/net-p2p    | 1 +
- profiles/pentoo/zero-system/package.accept_keywords/x11-misc   | 1 +
- 12 files changed, 21 insertions(+), 3 deletions(-)
- create mode 100644 profiles/pentoo/arch/arm/package.accept_keywords/app-text
- create mode 100644 profiles/pentoo/arch/arm/package.accept_keywords/dev-libs
- create mode 100644 profiles/pentoo/arch/arm/package.accept_keywords/mail-client
- create mode 100644 profiles/pentoo/zero-system/package.accept_keywords/x11-misc
+Already up-to-date.
 *** syncing pentoo
 *** synced pentoo
  * Sync succeeded

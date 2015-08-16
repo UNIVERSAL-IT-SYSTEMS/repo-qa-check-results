@@ -12,18 +12,7 @@
 $ pmaint sync games-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/hasufell/games-overlay
-   8cb66c7..d0903e5  master     -> origin/master
-Updating 8cb66c7..d0903e5
-Fast-forward
- games-strategy/freeciv/Manifest                    |   3 +-
- games-strategy/freeciv/freeciv-2.4.4.ebuild        | 168 ---------------------
- ...civ-2.5.0-r2.ebuild => freeciv-2.5.0-r3.ebuild} |   4 +-
- .../{freeciv-2.4.3.ebuild => freeciv-2.5.1.ebuild} |  36 +++--
- 4 files changed, 23 insertions(+), 188 deletions(-)
- delete mode 100644 games-strategy/freeciv/freeciv-2.4.4.ebuild
- rename games-strategy/freeciv/{freeciv-2.5.0-r2.ebuild => freeciv-2.5.0-r3.ebuild} (98%)
- rename games-strategy/freeciv/{freeciv-2.4.3.ebuild => freeciv-2.5.1.ebuild} (86%)
+Already up-to-date.
 *** syncing games-overlay
 *** synced games-overlay
  * Sync succeeded

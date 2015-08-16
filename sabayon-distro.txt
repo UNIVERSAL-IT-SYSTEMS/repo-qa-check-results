@@ -10,19 +10,7 @@
 $ pmaint sync sabayon-distro
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/Sabayon/sabayon-distro
-   6963b5e..c170eab  master     -> origin/master
-Updating 6963b5e..c170eab
-Fast-forward
- x11-misc/lightdm-base/Manifest                                |  2 +-
- ...{lightdm-base-1.12.2.ebuild => lightdm-base-1.14.2.ebuild} | 11 +++++++----
- x11-misc/lightdm-qt4/Manifest                                 |  2 +-
- .../{lightdm-qt4-1.12.2.ebuild => lightdm-qt4-1.14.2.ebuild}  |  0
- .../lightdm/{lightdm-1.12.2.ebuild => lightdm-1.14.2.ebuild}  |  8 ++++----
- 5 files changed, 13 insertions(+), 10 deletions(-)
- rename x11-misc/lightdm-base/{lightdm-base-1.12.2.ebuild => lightdm-base-1.14.2.ebuild} (86%)
- rename x11-misc/lightdm-qt4/{lightdm-qt4-1.12.2.ebuild => lightdm-qt4-1.14.2.ebuild} (100%)
- rename x11-misc/lightdm/{lightdm-1.12.2.ebuild => lightdm-1.14.2.ebuild} (74%)
+Already up-to-date.
 *** syncing sabayon-distro
 *** synced sabayon-distro
  * Sync succeeded
