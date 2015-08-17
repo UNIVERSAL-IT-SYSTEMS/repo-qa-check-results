@@ -15,19 +15,8 @@
              'uri': 'https://github.com/mrueg/mrueg-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync mrueg
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/dev/mrueg
-   d4ada14..976009f  master     -> origin/master
-Updating d4ada14..976009f
-Fast-forward
- app-crypt/keyringer/Manifest               |  1 +
- app-crypt/keyringer/keyringer-0.3.8.ebuild | 33 ++++++++++++++++++++++++++++++
- app-crypt/keyringer/metadata.xml           |  8 ++++++++
- 3 files changed, 42 insertions(+)
- create mode 100644 app-crypt/keyringer/Manifest
- create mode 100644 app-crypt/keyringer/keyringer-0.3.8.ebuild
- create mode 100644 app-crypt/keyringer/metadata.xml
+Already up-to-date.
 *** syncing mrueg
 *** synced mrueg
  * Sync succeeded

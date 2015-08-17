@@ -11,9 +11,7 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/jensp.git'}],
  'status': 'unofficial'}
 $ pmaint sync jensp
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing jensp
 *** synced jensp
@@ -73,7 +71,7 @@ received unknown com: export CATEGORY='sys-kernel' PR=r1 PVR='2.6.34-r1' PV='2.6
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 24890
+sandbox:stop  caught signal 15 in pid 23842
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/pykickstart-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'

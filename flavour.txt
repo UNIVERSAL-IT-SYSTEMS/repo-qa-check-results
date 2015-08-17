@@ -10,9 +10,7 @@
              'uri': 'https://github.com/wimmuskee/flavour.git'}],
  'status': 'unofficial'}
 $ pmaint sync flavour
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing flavour
 *** synced flavour
@@ -72,7 +70,7 @@ received unknown com: export CATEGORY='net-misc' PR=r0 PVR='0.12' PV='0.12' EBUI
 !!! The die message:
 !!!  inherit for twisted failed
 
-sandbox:stop  caught signal 15 in pid 3644
+sandbox:stop  caught signal 15 in pid 1108
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, twisted cannot be found while processing ebuild src: net-misc/epoptes-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
