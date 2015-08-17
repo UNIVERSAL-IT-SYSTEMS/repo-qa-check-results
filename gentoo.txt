@@ -16,7 +16,15 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   badf9b7..e54afaa  master     -> origin/master
+Updating badf9b7..e54afaa
+Fast-forward
+ media-sound/ardour/ardour-4.1.ebuild               |  2 +-
+ media-sound/ardour/ardour-4.2.ebuild               |  2 +-
+ .../ardour/files/ardour-4.x-revision-naming.patch  | 38 ++++++++++++++++++++++
+ 3 files changed, 40 insertions(+), 2 deletions(-)
+ create mode 100644 media-sound/ardour/files/ardour-4.x-revision-naming.patch
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
