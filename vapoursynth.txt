@@ -7,11 +7,7 @@
              'uri': 'https://github.com/4re/vapoursynth-portage.git'}],
  'status': 'unofficial'}
 $ pmaint sync vapoursynth
-WARNING:pkgcore:repository at location '/home/mgorny/sync/slyfox' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/slyfox' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing vapoursynth
 *** synced vapoursynth
@@ -25,6 +21,4 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by media-video/mpv-9999-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-editors/vapoursynth-editor-4, attr description\nerror: Metadata Exception: pkg ebuild src: app-editors/vapoursynth-editor-4, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-editors/vapoursynth-editor-4' @0x7f90095e1b90>)
-coms error in 25825, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 65
+ * Cache regenerated successfully

@@ -8,11 +8,7 @@
              'uri': 'git://github.com/nutztherookie/wacfg-overlay.git'}],
  'status': 'official'}
 $ pmaint sync wacfg
-WARNING:pkgcore:repository at location '/home/mgorny/sync/slyfox' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/slyfox' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing wacfg
 *** synced wacfg
@@ -55,10 +51,10 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 23889
+sandbox:stop  caught signal 15 in pid 32019
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-admin/wacfg-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-apps/roundcube-0.4
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-admin/wacfg-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-admin/wacfg-9999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-admin/wacfg-9999' @0x7f80266e2b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-admin/wacfg-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-admin/wacfg-9999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-admin/wacfg-9999' @0x7f185df4eb90>)
  * Cache regen failed with 65

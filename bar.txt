@@ -15,21 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/tokiclover/bar-overlay
-   10d5a6f..5a88cbf  master     -> origin/master
-Updating 10d5a6f..5a88cbf
-Fast-forward
- README.md                                          |   5 +
- .../mesa-10.2-dont-require-llvm-for-r300.patch     |  11 --
- .../mesa-10.4-dont-require-llvm-for-r300.patch     |  12 --
- .../mesa-9999-dont-require-llvm-for-r300.patch     |  12 --
- media-libs/mesa/mesa-10.5.9999.ebuild              | 146 ++++++++------------
- media-libs/mesa/mesa-10.6.9999.ebuild              | 148 ++++++++-------------
- media-libs/mesa/mesa-9999.ebuild                   |  94 +++++--------
- 7 files changed, 154 insertions(+), 274 deletions(-)
- delete mode 100644 media-libs/mesa/files/mesa-10.2-dont-require-llvm-for-r300.patch
- delete mode 100644 media-libs/mesa/files/mesa-10.4-dont-require-llvm-for-r300.patch
- delete mode 100644 media-libs/mesa/files/mesa-9999-dont-require-llvm-for-r300.patch
+Already up-to-date.
 *** syncing bar
 *** synced bar
  * Sync succeeded
