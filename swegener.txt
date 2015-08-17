@@ -37,16 +37,18 @@ Matched data: 0 bytes
 File list size: 25.40K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 227
-Total bytes received: 25.57K
+Total bytes sent: 231
+Total bytes received: 25.58K
 
-sent 227 bytes  received 25.57K bytes  10.32K bytes/sec
-total size is 1.22M  speedup is 47.39
+sent 231 bytes  received 25.58K bytes  10.32K bytes/sec
+total size is 1.22M  speedup is 47.37
 *** syncing swegener
 *** synced swegener
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 swegener
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: gnome-extra/brightside-1.4.0 failed.

@@ -15,19 +15,14 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/jorgicio/jorgicio-gentoo
-   df6c99d..5da10a0  master     -> origin/master
-Updating df6c99d..5da10a0
-Fast-forward
- dev-python/tweepy/Manifest                          |  3 ++-
- .../{tweepy-3.3.0.ebuild => tweepy-3.4.0.ebuild}    | 21 ++++++++++++---------
- 2 files changed, 14 insertions(+), 10 deletions(-)
- rename dev-python/tweepy/{tweepy-3.3.0.ebuild => tweepy-3.4.0.ebuild} (67%)
+Already up-to-date.
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 jorgicio
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.

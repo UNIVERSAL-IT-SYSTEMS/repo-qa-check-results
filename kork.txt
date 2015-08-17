@@ -19,7 +19,9 @@ Already up-to-date.
 *** synced kork
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 kork
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: app-office/ekee-2.0.2 failed.
@@ -61,7 +63,6 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sci-astronomy/fpipe-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sci-astronomy/ftools-6.10
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sci-astronomy/ftools-6.11
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
