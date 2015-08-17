@@ -13,7 +13,11 @@
             {'type': 'git', 'uri': 'git@github.com:vayerx/vayerx-gentoo.git'}],
  'status': 'unofficial'}
 $ pmaint sync vayerx
+WARNING:pkgcore:repository at location '/home/mgorny/sync/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing vayerx
 *** synced vayerx
@@ -21,16 +25,8 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 vayerx
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by dev-ruby/ruby-libglade2-0.19.4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by games-action/trine-bin-1.10 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-ruby/ruby-libglade2-0.19.4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by games-action/trine-bin-1.10 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
- * Cache regenerated successfully
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 24778, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246

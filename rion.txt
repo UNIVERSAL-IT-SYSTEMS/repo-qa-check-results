@@ -8,6 +8,8 @@
              'uri': 'git://github.com/rion-overlay/rion-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync rion
+WARNING:pkgcore:repository at location '/home/mgorny/sync/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing rion
