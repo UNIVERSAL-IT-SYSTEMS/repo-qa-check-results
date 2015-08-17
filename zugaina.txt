@@ -18,7 +18,7 @@ Total file size: 8.70M bytes
 Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
-File list size: 70.47K
+File list size: 73.97K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 670
@@ -599,6 +599,7 @@ received unknown com: export CATEGORY='net-p2p' PR=r0 PVR='0.8.1a' PV='0.8.1a' E
 error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: net-p2p/gnunet-qt-0.8.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-p2p/gnunet-qt-0.8.1a
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: net-p2p/gnunet-0.7.0b
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
