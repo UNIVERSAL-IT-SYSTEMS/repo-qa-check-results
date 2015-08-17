@@ -13,7 +13,20 @@
 $ pmaint sync drdim
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/drdim/layman
+   090506b..248c5b8  master     -> origin/master
+Updating 090506b..248c5b8
+Fast-forward
+ dev-util/idea-professional/Manifest                |  2 +
+ .../idea-professional-142.3926.4.ebuild            | 40 +++++++++++++++++++
+ dev-util/idea/Manifest                             |  2 +
+ dev-util/idea/idea-142.3926.4.ebuild               | 40 +++++++++++++++++++
+ dev-util/phpstorm/Manifest                         |  2 +
+ dev-util/phpstorm/phpstorm-141.2402.ebuild         | 46 ++++++++++++++++++++++
+ 6 files changed, 132 insertions(+)
+ create mode 100644 dev-util/idea-professional/idea-professional-142.3926.4.ebuild
+ create mode 100644 dev-util/idea/idea-142.3926.4.ebuild
+ create mode 100644 dev-util/phpstorm/phpstorm-141.2402.ebuild
 *** syncing drdim
 *** synced drdim
  * Sync succeeded

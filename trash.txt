@@ -8,7 +8,14 @@
  'status': 'unofficial'}
 $ pmaint sync trash
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/batekman/trash-overlay
+   84216fc..f08eb6e  master     -> origin/master
+Updating 84216fc..f08eb6e
+Fast-forward
+ media-sound/deadbeef/Manifest                 |   1 +
+ media-sound/deadbeef/deadbeef-20150816.ebuild | 179 ++++++++++++++++++++++++++
+ 2 files changed, 180 insertions(+)
+ create mode 100644 media-sound/deadbeef/deadbeef-20150816.ebuild
 *** syncing trash
 *** synced trash
  * Sync succeeded
