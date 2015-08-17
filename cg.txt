@@ -7,39 +7,11 @@
              'uri': 'https://github.com/brothermechanic/cg.git'}],
  'status': 'unofficial'}
 $ pmaint sync cg
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/sync/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/brothermechanic/cg
-   77bec2e..00c24b1  master     -> origin/master
-Updating 77bec2e..00c24b1
-Fast-forward
- app-emulation/wine/Manifest                        |   7 +
- .../wine/files/wine-1.4_rc2-multilib-portage.patch |  40 ++
- app-emulation/wine/files/wine-1.5.26-winegcc.patch |  59 +++
- app-emulation/wine/files/wine-1.6-memset-O3.patch  |  21 +
- .../wine/files/wine-1.7.12-osmesa-check.patch      |  38 ++
- .../wine-1.7.47-critical-security-cookie-fix.patch |  82 ++++
- app-emulation/wine/metadata.xml                    |  35 ++
- app-emulation/wine/wine-1.7.47-r1.ebuild           | 438 +++++++++++++++++++++
- app-text/goldendict/files/goldendict-xdg.patch     |  12 +
- app-text/goldendict/goldendict-9999.ebuild         |  69 ++++
- app-text/goldendict/metadata.xml                   |  13 +
- 11 files changed, 814 insertions(+)
- create mode 100644 app-emulation/wine/Manifest
- create mode 100644 app-emulation/wine/files/wine-1.4_rc2-multilib-portage.patch
- create mode 100644 app-emulation/wine/files/wine-1.5.26-winegcc.patch
- create mode 100644 app-emulation/wine/files/wine-1.6-memset-O3.patch
- create mode 100644 app-emulation/wine/files/wine-1.7.12-osmesa-check.patch
- create mode 100644 app-emulation/wine/files/wine-1.7.47-critical-security-cookie-fix.patch
- create mode 100644 app-emulation/wine/metadata.xml
- create mode 100644 app-emulation/wine/wine-1.7.47-r1.ebuild
- create mode 100644 app-text/goldendict/files/goldendict-xdg.patch
- create mode 100644 app-text/goldendict/goldendict-9999.ebuild
- create mode 100644 app-text/goldendict/metadata.xml
+Already up-to-date.
 *** syncing cg
 *** synced cg
  * Sync succeeded
