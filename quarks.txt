@@ -9,15 +9,7 @@
  'status': 'unofficial'}
 $ pmaint sync quarks
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://www.startux.de/quarks
-   65122fb..4803b48  master     -> origin/master
-Updating 65122fb..4803b48
-Fast-forward
- app-admin/ocsinventory-agent/Manifest              |  2 -
- .../ocsinventory-agent-2.0.5.ebuild                | 86 ----------------------
- 2 files changed, 88 deletions(-)
- delete mode 100644 app-admin/ocsinventory-agent/Manifest
- delete mode 100644 app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild
+Already up-to-date.
 *** syncing quarks
 *** synced quarks
  * Sync succeeded
@@ -67,5 +59,5 @@ http://launchpad.net/cairo-dock-core/2.4/2.4.0/+download/cairo-dock-2.4.0~2.tar.
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/Parse-Win32Registry-0.60
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/Parse-Win32Registry-0.60, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/Parse-Win32Registry-0.60, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/Parse-Win32Registry-0.60' @0x7eff03bd8a50>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/Parse-Win32Registry-0.60, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/Parse-Win32Registry-0.60, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/Parse-Win32Registry-0.60' @0x7f64772d5a50>)
  * Cache regen failed with 65

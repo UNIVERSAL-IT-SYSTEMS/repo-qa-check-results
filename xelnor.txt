@@ -6,11 +6,7 @@
  'source': [{'type': 'git', 'uri': 'git://overlay.xelnor.net/overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync xelnor
-WARNING:pkgcore:repository at location '/home/mgorny/sync/timroes' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/timroes', named 'timroes', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/timroes' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/timroes', named 'timroes', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing xelnor
 *** synced xelnor
@@ -68,5 +64,5 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-misc/akonadi-googledata-1.2.0
 caught exception 'not well-formed (invalid token): line 1, column 1' while processing 'ebuild src: kde-misc/akonadi-googledata-1.2.0'
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/akonadi-googledata-1.2.0, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/akonadi-googledata-1.2.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/akonadi-googledata-1.2.0' @0x7fc6b5f4e690>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/akonadi-googledata-1.2.0, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/akonadi-googledata-1.2.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/akonadi-googledata-1.2.0' @0x7f52f4057690>)
  * Cache regen failed with 65
