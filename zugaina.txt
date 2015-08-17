@@ -10,68 +10,6 @@ $ pmaint sync zugaina
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 
 receiving incremental file list
-net-p2p/
-deleting net-p2p/gnunet/files/gnunet.initd-0.9.0v2
-deleting net-p2p/gnunet/files/gnunet.initd-0.9.0
-deleting net-p2p/gnunet/files/gnunet.initd
-deleting net-p2p/gnunet/files/gnunet-download-manager.scm
-deleting net-p2p/gnunet/files/gnunet-2
-deleting net-p2p/gnunet/files/gnunet-0.9.0_pre2-gentoo.patch
-deleting net-p2p/gnunet/files/gnunet-0.9.0_pre0-gentoo.patch
-deleting net-p2p/gnunet/files/gnunet
-deleting net-p2p/gnunet/files/config-daemon.in.patch
-deleting net-p2p/gnunet/files/
-deleting net-p2p/gnunet/metadata.xml
-deleting net-p2p/gnunet/gnunet-0.9.5a.ebuild
-deleting net-p2p/gnunet/gnunet-0.9.3.ebuild
-deleting net-p2p/gnunet/gnunet-0.9.2.ebuild
-deleting net-p2p/gnunet/gnunet-0.9.1.ebuild
-deleting net-p2p/gnunet/gnunet-0.9.0_pre2.ebuild
-deleting net-p2p/gnunet/gnunet-0.9.0_pre1.ebuild
-deleting net-p2p/gnunet/gnunet-0.9.0_pre0.ebuild
-deleting net-p2p/gnunet/gnunet-0.9.0.ebuild
-deleting net-p2p/gnunet/gnunet-0.8.1b.ebuild
-deleting net-p2p/gnunet/gnunet-0.8.1a.ebuild
-deleting net-p2p/gnunet/gnunet-0.8.1.ebuild
-deleting net-p2p/gnunet/gnunet-0.8.1-r1.ebuild
-deleting net-p2p/gnunet/gnunet-0.8.0c.ebuild
-deleting net-p2p/gnunet/gnunet-0.8.0b.ebuild
-deleting net-p2p/gnunet/gnunet-0.8.0a.ebuild
-deleting net-p2p/gnunet/gnunet-0.8.0_pre1.ebuild
-deleting net-p2p/gnunet/gnunet-0.8.0_pre0.ebuild
-deleting net-p2p/gnunet/gnunet-0.8.0.ebuild
-deleting net-p2p/gnunet/gnunet-0.7.3.ebuild
-deleting net-p2p/gnunet/gnunet-0.7.2c.ebuild
-deleting net-p2p/gnunet/gnunet-0.7.2b.ebuild
-deleting net-p2p/gnunet/gnunet-0.7.1b.ebuild
-deleting net-p2p/gnunet/gnunet-0.7.1a.ebuild
-deleting net-p2p/gnunet/gnunet-0.7.1_pre0.ebuild
-deleting net-p2p/gnunet/gnunet-0.7.1.ebuild
-deleting net-p2p/gnunet/gnunet-0.7.0e.ebuild
-deleting net-p2p/gnunet/gnunet-0.7.0b.ebuild
-deleting net-p2p/gnunet/Manifest
-deleting net-p2p/gnunet/ChangeLog
-deleting net-p2p/gnunet/
-deleting net-p2p/freenet/files/wrapper1.conf
-deleting net-p2p/freenet/files/strip-version-check.patch
-deleting net-p2p/freenet/files/run.sh-20090501
-deleting net-p2p/freenet/files/libraryloader-revert-using-of-absolute-path.patch
-deleting net-p2p/freenet/files/freenet.old
-deleting net-p2p/freenet/files/freenet-0.7.5_p1422-wrapper.conf
-deleting net-p2p/freenet/files/freenet-0.7.5_p1389-wrapper.conf
-deleting net-p2p/freenet/files/freenet-0.7.5_p1384-nativebiginteger-no-nativedoublevalue.patch
-deleting net-p2p/freenet/files/freenet-0.7.5_p1384-libraryloader-just-try-loading.patch
-deleting net-p2p/freenet/files/freenet
-deleting net-p2p/freenet/files/ext.patch
-deleting net-p2p/freenet/files/0.7.5_p1321-ext.patch
-deleting net-p2p/freenet/files/0.7.5_p1302-ext.patch
-deleting net-p2p/freenet/files/0.7.5_p1245-strip-openjdk-check.patch
-deleting net-p2p/freenet/files/
-deleting net-p2p/freenet/freenet-0.7_p1218.ebuild
-deleting net-p2p/freenet/freenet-0.7.5_p1440.ebuild
-deleting net-p2p/freenet/freenet-0.7.5_p1250.ebuild
-deleting net-p2p/freenet/Manifest
-deleting net-p2p/freenet/
 
 Number of files: 2,787 (reg: 2,243, dir: 544)
 Number of created files: 0
@@ -80,14 +18,14 @@ Total file size: 3.54M bytes
 Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
-File list size: 45.14K
+File list size: 48.05K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 628
-Total bytes received: 53.84K
+Total bytes sent: 623
+Total bytes received: 53.83K
 
-sent 628 bytes  received 53.84K bytes  21.79K bytes/sec
-total size is 3.54M  speedup is 65.04
+sent 623 bytes  received 53.83K bytes  21.78K bytes/sec
+total size is 3.54M  speedup is 65.05
 *** syncing zugaina
 *** synced zugaina
  * Sync succeeded
@@ -112,9 +50,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI= is not supported
-
-WARNING: 'use' function invoked by net-im/phonegaim-1.0.0.45 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
 
 
 !!! ERROR: net-firewall/psad-2.1.2 failed.
@@ -191,12 +126,12 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.2.ebuild'
 !!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.2.ebuild'
 !!!          gxmms2-git-0.2.ebuild, line   9:  Called inherit 'eutils' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 190' for eclass git
+!!!  unknown inherit command from pythonic side, 'gen_metadata 190' for eclass eutils
 
-received unknown com: export CATEGORY='media-sound' PR=r0 PVR='0.3' PV='0.3' EBUILD='/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.3.ebuild' P='gxmms2-git-0.3' PF='gxmms2-git-0.3' PN='gxmms2-git'failed
+received unknown com: export CATEGORY='media-sound' PR=r0 PVR='0.3' PV='0.3' EBUILD='/home/mgorny/repos/zugaina/media-sound/gxmms2-git/gxmms2-git-0.3.ebuild' P='gxmms2-git-0.3' PF='gxmms2-git-0.3' PN='gxmms2-git'path
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-im/empathy-0.23.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
@@ -206,10 +141,9 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/gxmms2-git-0.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-sound/gxmms2-git-0.2
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/gxmms2-git-0.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-sound/gxmms2-git-0.6.0
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-sound/gxmms2-git-0.6.1
+!!! caught exception False while processing ebuild src: media-sound/gxmms2-git-0.3
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-sound/gxmms2-git-0.6.0
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
