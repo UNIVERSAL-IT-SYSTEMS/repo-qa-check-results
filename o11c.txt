@@ -67,8 +67,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-python/attoconf-9999
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-cpp/gtest-1.6.0-r2, attr description\nerror: Metadata Exception: pkg ebuild src: dev-cpp/gtest-1.6.0-r2, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-cpp/gtest-1.6.0-r2' @0x7fcff0ad0b90>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-python/attoconf-9999, attr description\nerror: Metadata Exception: pkg ebuild src: dev-python/attoconf-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-python/attoconf-9999' @0x7fcfedfe27d0>)
-coms error in 12404, read_line com failed w/ 1: backing out of daemon.
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-python/attoconf-9999, attr description\nerror: Metadata Exception: pkg ebuild src: dev-python/attoconf-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-python/attoconf-9999' @0x7fddeb8127d0>)
  * Cache regen failed with 65
