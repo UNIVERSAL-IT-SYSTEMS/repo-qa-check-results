@@ -16,7 +16,17 @@
 $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/alunduil/alunduil-overlay
+   10bd13d..92cd690  master     -> origin/master
+Updating 10bd13d..92cd690
+Fast-forward
+ dev-python/expects/Manifest                 |  3 ---
+ dev-python/expects/expects-0.8.0_rc2.ebuild | 40 -----------------------------
+ dev-python/expects/metadata.xml             | 10 --------
+ 3 files changed, 53 deletions(-)
+ delete mode 100644 dev-python/expects/Manifest
+ delete mode 100644 dev-python/expects/expects-0.8.0_rc2.ebuild
+ delete mode 100644 dev-python/expects/metadata.xml
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded
