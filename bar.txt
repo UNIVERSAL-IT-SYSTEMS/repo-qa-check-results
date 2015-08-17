@@ -16,16 +16,17 @@
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/tokiclover/bar-overlay
-   fc876df..da47a4c  master     -> origin/master
-Updating fc876df..da47a4c
+   da47a4c..491b7d8  master     -> origin/master
+Updating da47a4c..491b7d8
 Fast-forward
- .../deadbeef-plugins-infobar-1.4.ebuild            | 33 ++++++++++------
- media-plugins/deadbeef-plugins-waveform/Manifest   |  1 +
- .../deadbeef-plugins-waveform-0.5.ebuild           | 46 ++++++++++++++++++++++
- .../deadbeef-plugins-waveform-9999.ebuild          | 36 +++++++++++------
- 4 files changed, 93 insertions(+), 23 deletions(-)
- create mode 100644 media-plugins/deadbeef-plugins-waveform/Manifest
- create mode 100644 media-plugins/deadbeef-plugins-waveform/deadbeef-plugins-waveform-0.5.ebuild
+ media-plugins/deadbeef-plugins-mpris2/Manifest     |  1 +
+ .../deadbeef-plugins-mpris2-1.8.ebuild             | 36 ++++++++++++++++++++++
+ .../deadbeef-plugins-mpris2-9999.ebuild            | 36 ++++++++++++++++++++++
+ sets/PACKAGE_LIST                                  |  1 +
+ 4 files changed, 74 insertions(+)
+ create mode 100644 media-plugins/deadbeef-plugins-mpris2/Manifest
+ create mode 100644 media-plugins/deadbeef-plugins-mpris2/deadbeef-plugins-mpris2-1.8.ebuild
+ create mode 100644 media-plugins/deadbeef-plugins-mpris2/deadbeef-plugins-mpris2-9999.ebuild
 *** syncing bar
 *** synced bar
  * Sync succeeded
