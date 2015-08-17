@@ -11,48 +11,7 @@
 $ pmaint sync mva
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/msva/mva-overlay
-   d7254db..2f568d2  master     -> origin/master
-Updating d7254db..2f568d2
-Fast-forward
- dev-util/android-ndk/Manifest                      |  4 +-
- ...droid-ndk-10d.ebuild => android-ndk-10e.ebuild} |  2 +-
- dev-util/android-sdk-update-manager/Manifest       |  2 +-
- ...ld => android-sdk-update-manager-24.3.3.ebuild} |  0
- dev-util/android-studio/Manifest                   |  2 +-
- ...36.ebuild => android-studio-141.2135290.ebuild} |  2 +-
- net-im/communi/Manifest                            |  1 -
- net-im/communi/communi-3.0.3.ebuild                | 53 ------------
- net-im/communi/communi-9999.ebuild                 | 51 -----------
- net-im/communi/metadata.xml                        |  9 --
- net-im/mdc/files/mdc-9999-disablenotify.patch      | 14 ----
- net-im/mdc/mdc-9999.ebuild                         | 49 -----------
- net-im/mdc/metadata.xml                            | 14 ----
- net-im/qipmsg/Manifest                             |  1 -
- net-im/qipmsg/qipmsg-1.0.0.ebuild                  | 26 ------
- net-im/qutecom/Manifest                            |  1 -
- ...om-2.2-no-deprecated-avcodec-decode-video.patch | 18 ----
- net-im/qutecom/metadata.xml                        | 10 ---
- net-im/qutecom/qutecom-2.2.1.ebuild                | 82 ------------------
- net-im/qutecom/qutecom-9999.ebuild                 | 98 ----------------------
- 20 files changed, 6 insertions(+), 433 deletions(-)
- rename dev-util/android-ndk/{android-ndk-10d.ebuild => android-ndk-10e.ebuild} (97%)
- rename dev-util/android-sdk-update-manager/{android-sdk-update-manager-24.0.2.ebuild => android-sdk-update-manager-24.3.3.ebuild} (100%)
- rename dev-util/android-studio/{android-studio-135.1641136.ebuild => android-studio-141.2135290.ebuild} (97%)
- delete mode 100644 net-im/communi/Manifest
- delete mode 100644 net-im/communi/communi-3.0.3.ebuild
- delete mode 100644 net-im/communi/communi-9999.ebuild
- delete mode 100644 net-im/communi/metadata.xml
- delete mode 100644 net-im/mdc/files/mdc-9999-disablenotify.patch
- delete mode 100644 net-im/mdc/mdc-9999.ebuild
- delete mode 100644 net-im/mdc/metadata.xml
- delete mode 100644 net-im/qipmsg/Manifest
- delete mode 100644 net-im/qipmsg/qipmsg-1.0.0.ebuild
- delete mode 100644 net-im/qutecom/Manifest
- delete mode 100644 net-im/qutecom/files/qutecom-2.2-no-deprecated-avcodec-decode-video.patch
- delete mode 100644 net-im/qutecom/metadata.xml
- delete mode 100644 net-im/qutecom/qutecom-2.2.1.ebuild
- delete mode 100644 net-im/qutecom/qutecom-9999.ebuild
+Already up-to-date.
 *** syncing mva
 *** synced mva
  * Sync succeeded
