@@ -70,8 +70,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-sound/amarok-9999-r1
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: games-sports/racer-1.1-r1, attr description\nerror: Metadata Exception: pkg ebuild src: games-sports/racer-1.1-r1, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='games-sports/racer-1.1-r1' @0x7f123e0e2b90>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-sound/amarok-9999-r1, attr description\nerror: Metadata Exception: pkg ebuild src: media-sound/amarok-9999-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-sound/amarok-9999-r1' @0x7f123e0e2e10>)
-coms error in 10247, read_line com failed w/ 1: backing out of daemon.
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-sound/amarok-9999-r1, attr description\nerror: Metadata Exception: pkg ebuild src: media-sound/amarok-9999-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-sound/amarok-9999-r1' @0x7f8973f5de10>)
  * Cache regen failed with 65

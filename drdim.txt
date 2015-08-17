@@ -11,22 +11,11 @@
             {'type': 'git', 'uri': 'git@github.com:drdim/layman.git'}],
  'status': 'unofficial'}
 $ pmaint sync drdim
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bleeding-edge' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/drdim/layman
-   090506b..248c5b8  master     -> origin/master
-Updating 090506b..248c5b8
-Fast-forward
- dev-util/idea-professional/Manifest                |  2 +
- .../idea-professional-142.3926.4.ebuild            | 40 +++++++++++++++++++
- dev-util/idea/Manifest                             |  2 +
- dev-util/idea/idea-142.3926.4.ebuild               | 40 +++++++++++++++++++
- dev-util/phpstorm/Manifest                         |  2 +
- dev-util/phpstorm/phpstorm-141.2402.ebuild         | 46 ++++++++++++++++++++++
- 6 files changed, 132 insertions(+)
- create mode 100644 dev-util/idea-professional/idea-professional-142.3926.4.ebuild
- create mode 100644 dev-util/idea/idea-142.3926.4.ebuild
- create mode 100644 dev-util/phpstorm/phpstorm-141.2402.ebuild
+Already up-to-date.
 *** syncing drdim
 *** synced drdim
  * Sync succeeded
