@@ -63,6 +63,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: media-plugins/xmms-scivi-0.2.0_rc3
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-plugins/xmms-scrobbler-0.3.6
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-plugins/xmms-scrobbler-0.3.7
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
