@@ -63,8 +63,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-misc/akonadi-googledata-1.2.0
 caught exception 'not well-formed (invalid token): line 1, column 1' while processing 'ebuild src: kde-misc/akonadi-googledata-1.2.0'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-drivers/xf86-video-nouveau-9999, attr description\nerror: Metadata Exception: pkg ebuild src: x11-drivers/xf86-video-nouveau-9999, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-drivers/xf86-video-nouveau-9999' @0x7f2471311b90>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/akonadi-googledata-1.2.0, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/akonadi-googledata-1.2.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/akonadi-googledata-1.2.0' @0x7f246e818690>)
-coms error in 13415, read_line com failed w/ 1: backing out of daemon.
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/akonadi-googledata-1.2.0, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/akonadi-googledata-1.2.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/akonadi-googledata-1.2.0' @0x7f8112c78690>)
  * Cache regen failed with 65
