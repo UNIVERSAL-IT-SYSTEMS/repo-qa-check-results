@@ -10,11 +10,15 @@
  'status': 'official'}
 $ pmaint sync slyfox
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to access 'http://repo.or.cz/r/slyfox-gentoo.git/': Failed to connect to repo.or.cz port 80: Connection timed out
 *** syncing slyfox
-*** synced slyfox
- * Sync succeeded
-$ pmaint regen --use-local-desc --pkg-desc-index -t 1 slyfox
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+*** failed syncing slyfox
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync slyfox
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/sync/slyfox'...
+fatal: unable to access 'http://repo.or.cz/r/slyfox-gentoo.git/': Failed to connect to repo.or.cz port 80: Connection timed out
+*** syncing slyfox
+*** failed syncing slyfox
+ * Sync failed again with 1, removing

@@ -7,49 +7,7 @@
  'status': 'unofficial'}
 $ pmaint sync tante
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/tante/overlay
-   77590fd..20ac40f  master     -> origin/master
-Updating 77590fd..20ac40f
-Fast-forward
- app-text/odt2txt/Manifest                          |   6 +-
- app-text/odt2txt/odt2txt-0.4.ebuild                |   1 +
- dev-lang/nodejs/Manifest                           |   7 --
- dev-lang/nodejs/nodejs-0.1.30.ebuild               |  26 -----
- dev-lang/nodejs/nodejs-0.1.31.ebuild               |  26 -----
- dev-lang/nodejs/nodejs-0.1.32.ebuild               |  26 -----
- dev-lang/nodejs/nodejs-9999.ebuild                 |  26 -----
- media-libs/libchamplain-gtk/Manifest               |   2 -
- .../libchamplain-gtk/libchamplain-gtk-0.2.6.ebuild |  24 -----
- media-sound/gpodder/Manifest                       |   2 -
- media-sound/gpodder/gpodder-2.5.ebuild             |  73 --------------
- media-sound/lastfmplayer/Manifest                  |   5 -
- .../lastfmplayer/files/fix_plugin_path.patch       |  13 ---
- .../lastfmplayer/files/volumeslider_h-qt45.patch   |  19 ----
- .../lastfmplayer-1.5.4.26862-r1.ebuild             | 111 ---------------------
- media-sound/nuvolaplayer/Manifest                  |   2 -
- media-sound/nuvolaplayer/nuvolaplayer-2.3.0.ebuild |  53 ----------
- x11-themes/moblin-sound-theme/ChangeLog            |  10 --
- x11-themes/moblin-sound-theme/Manifest             |   2 -
- .../moblin-sound-theme-0.3.ebuild                  |  21 ----
- 20 files changed, 4 insertions(+), 451 deletions(-)
- delete mode 100755 dev-lang/nodejs/Manifest
- delete mode 100755 dev-lang/nodejs/nodejs-0.1.30.ebuild
- delete mode 100755 dev-lang/nodejs/nodejs-0.1.31.ebuild
- delete mode 100755 dev-lang/nodejs/nodejs-0.1.32.ebuild
- delete mode 100755 dev-lang/nodejs/nodejs-9999.ebuild
- delete mode 100755 media-libs/libchamplain-gtk/Manifest
- delete mode 100755 media-libs/libchamplain-gtk/libchamplain-gtk-0.2.6.ebuild
- delete mode 100755 media-sound/gpodder/Manifest
- delete mode 100755 media-sound/gpodder/gpodder-2.5.ebuild
- delete mode 100755 media-sound/lastfmplayer/Manifest
- delete mode 100755 media-sound/lastfmplayer/files/fix_plugin_path.patch
- delete mode 100755 media-sound/lastfmplayer/files/volumeslider_h-qt45.patch
- delete mode 100755 media-sound/lastfmplayer/lastfmplayer-1.5.4.26862-r1.ebuild
- delete mode 100755 media-sound/nuvolaplayer/Manifest
- delete mode 100755 media-sound/nuvolaplayer/nuvolaplayer-2.3.0.ebuild
- delete mode 100755 x11-themes/moblin-sound-theme/ChangeLog
- delete mode 100755 x11-themes/moblin-sound-theme/Manifest
- delete mode 100755 x11-themes/moblin-sound-theme/moblin-sound-theme-0.3.ebuild
+Already up-to-date.
 *** syncing tante
 *** synced tante
  * Sync succeeded
