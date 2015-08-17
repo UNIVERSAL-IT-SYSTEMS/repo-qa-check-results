@@ -13,7 +13,18 @@
  'status': 'official'}
 $ pmaint sync dotnet
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/dotnet
+   8e3eb6e..fd2c667  master     -> origin/master
+Updating 8e3eb6e..fd2c667
+Fast-forward
+ dev-lang/mono/mono-4.0.3.20.ebuild                 |   1 +
+ dev-util/monodevelop/monodevelop-5.9.0.431.ebuild  | 119 ---------------------
+ dev-util/monodevelop/monodevelop-5.9.4.5.ebuild    | 119 ---------------------
+ ...p-5.9.5.5.ebuild => monodevelop-5.9.5.9.ebuild} |   0
+ 4 files changed, 1 insertion(+), 238 deletions(-)
+ delete mode 100644 dev-util/monodevelop/monodevelop-5.9.0.431.ebuild
+ delete mode 100644 dev-util/monodevelop/monodevelop-5.9.4.5.ebuild
+ rename dev-util/monodevelop/{monodevelop-5.9.5.5.ebuild => monodevelop-5.9.5.9.ebuild} (100%)
 *** syncing dotnet
 *** synced dotnet
  * Sync succeeded

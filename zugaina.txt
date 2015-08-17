@@ -7,7 +7,11 @@
              'uri': 'rsync://gentoo.zugaina.org/zugaina-portage'}],
  'status': 'unofficial'}
 $ pmaint sync zugaina
+WARNING:pkgcore:repository at location '/home/mgorny/sync/slyfox' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/slyfox' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/slyfox', named 'slyfox', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
 receiving incremental file list
 
@@ -18,13 +22,13 @@ Total file size: 3.70M bytes
 Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
-File list size: 49.21K
+File list size: 49.16K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 627
 Total bytes received: 55.02K
 
-sent 627 bytes  received 55.02K bytes  15.90K bytes/sec
+sent 627 bytes  received 55.02K bytes  8.56K bytes/sec
 total size is 3.70M  speedup is 66.52
 *** syncing zugaina
 *** synced zugaina

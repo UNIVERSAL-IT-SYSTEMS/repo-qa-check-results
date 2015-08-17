@@ -17,34 +17,12 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   461bb4f..9f1c381  master     -> origin/master
-Updating 461bb4f..9f1c381
+   9f1c381..49bb97b  master     -> origin/master
+Updating 9f1c381..49bb97b
 Fast-forward
- app-emulation/virtualbox-additions/Manifest        |   1 +
- .../virtualbox-additions-5.0.2.ebuild              |  36 ++
- app-emulation/virtualbox-bin/Manifest              |   4 +
- .../virtualbox-bin-5.0.2.102096.ebuild             | 357 +++++++++++++++++
- app-emulation/virtualbox-extpack-oracle/Manifest   |   1 +
- .../virtualbox-extpack-oracle-5.0.2.102096.ebuild  |  43 +++
- app-emulation/virtualbox-guest-additions/Manifest  |   1 +
- .../virtualbox-guest-additions-5.0.2.ebuild        | 212 +++++++++++
- app-emulation/virtualbox-modules/Manifest          |   1 +
- .../virtualbox-modules-5.0.2.ebuild                |  59 +++
- app-emulation/virtualbox/Manifest                  |   2 +
- app-emulation/virtualbox/virtualbox-5.0.2.ebuild   | 422 +++++++++++++++++++++
- dev-libs/gmime/gmime-2.6.20-r1.ebuild              |  69 ++++
- kde-misc/krename/krename-4.0.9-r3.ebuild           |   2 +-
- x11-drivers/xf86-video-virtualbox/Manifest         |   1 +
- .../xf86-video-virtualbox-5.0.2.ebuild             | 171 +++++++++
- 16 files changed, 1381 insertions(+), 1 deletion(-)
- create mode 100644 app-emulation/virtualbox-additions/virtualbox-additions-5.0.2.ebuild
- create mode 100644 app-emulation/virtualbox-bin/virtualbox-bin-5.0.2.102096.ebuild
- create mode 100644 app-emulation/virtualbox-extpack-oracle/virtualbox-extpack-oracle-5.0.2.102096.ebuild
- create mode 100644 app-emulation/virtualbox-guest-additions/virtualbox-guest-additions-5.0.2.ebuild
- create mode 100644 app-emulation/virtualbox-modules/virtualbox-modules-5.0.2.ebuild
- create mode 100644 app-emulation/virtualbox/virtualbox-5.0.2.ebuild
- create mode 100644 dev-libs/gmime/gmime-2.6.20-r1.ebuild
- create mode 100644 x11-drivers/xf86-video-virtualbox/xf86-video-virtualbox-5.0.2.ebuild
+ .../{monodevelop-5.9.5.5.ebuild => monodevelop-5.9.5.9.ebuild}            | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename dev-util/monodevelop/{monodevelop-5.9.5.5.ebuild => monodevelop-5.9.5.9.ebuild} (100%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

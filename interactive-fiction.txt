@@ -6,14 +6,7 @@
  'source': [{'type': 'git',
              'uri': 'git://repo.or.cz/gentoo-interactive-fiction.git'}],
  'status': 'unofficial'}
-$ pmaint sync interactive-fiction
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing interactive-fiction
-*** failed syncing interactive-fiction
- * Sync failed with 1
- * Will try to re-create
+ * Adding new repository
 $ pmaint sync interactive-fiction
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -24,4 +17,4 @@ Please make sure you have the correct access rights
 and the repository exists.
 *** syncing interactive-fiction
 *** failed syncing interactive-fiction
- * Sync failed again with 1, removing
+ * Sync failed with 1

@@ -8,17 +8,11 @@
  'quality': 'experimental',
  'source': [{'type': 'git', 'uri': 'http://repo.or.cz/r/slyfox-gentoo.git'}],
  'status': 'official'}
-$ pmaint sync slyfox
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: unable to access 'http://repo.or.cz/r/slyfox-gentoo.git/': Failed to connect to repo.or.cz port 80: Connection timed out
-*** syncing slyfox
-*** failed syncing slyfox
- * Sync failed with 1
- * Will try to re-create
+ * Adding new repository
 $ pmaint sync slyfox
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Cloning into '/home/mgorny/sync/slyfox'...
-fatal: unable to access 'http://repo.or.cz/r/slyfox-gentoo.git/': Failed to connect to repo.or.cz port 80: Connection timed out
+fatal: unable to access 'http://repo.or.cz/r/slyfox-gentoo.git/': Recv failure: Connection reset by peer
 *** syncing slyfox
 *** failed syncing slyfox
- * Sync failed again with 1, removing
+ * Sync failed with 1
