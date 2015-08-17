@@ -14,8 +14,6 @@
              'uri': 'git@github.com:zoobab/overlay4gentoo.git'}],
  'status': 'unofficial'}
 $ pmaint sync zoobab
-WARNING:pkgcore:repository at location '/home/mgorny/sync/poly-c' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing zoobab
@@ -28,6 +26,4 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 /home/mgorny/repos/zoobab/app-misc/sunxitools/sunxitools-9999.ebuild: line 25: `}'
 /home/mgorny/repos/zoobab/app-misc/sunxitools/sunxitools-9999.ebuild: line 25: syntax error near unexpected token `}'
 /home/mgorny/repos/zoobab/app-misc/sunxitools/sunxitools-9999.ebuild: line 25: `}'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-embedded/avrdude-9999, attr description\nerror: Metadata Exception: pkg ebuild src: dev-embedded/avrdude-9999, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-embedded/avrdude-9999' @0x7f84cb70eb90>)
-coms error in 17591, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 65
+ * Cache regenerated successfully
