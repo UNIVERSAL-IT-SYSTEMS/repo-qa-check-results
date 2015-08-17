@@ -51,10 +51,10 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 31710
+sandbox:stop  caught signal 15 in pid 8168
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-admin/wacfg-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-apps/roundcube-0.4
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-admin/wacfg-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-admin/wacfg-9999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-admin/wacfg-9999' @0x7efe1bc45b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-admin/wacfg-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-admin/wacfg-9999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-admin/wacfg-9999' @0x7f845ba0fb90>)
  * Cache regen failed with 65
