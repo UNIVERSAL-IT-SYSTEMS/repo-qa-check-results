@@ -62,6 +62,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 error: parsed eapi '4' doesn't match sourced eapi '2' while processing ebuild src: gnome-extra/cinnamon-1.4
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-text/scan2pdf-9999
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-emacs/find-recursive-20010326
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))

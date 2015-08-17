@@ -13,23 +13,7 @@
  'status': 'unofficial'}
 $ pmaint sync bliss-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/fearedbliss/bliss-overlay
-   7941847..a81c9f8  master     -> origin/master
-Updating 7941847..a81c9f8
-Fast-forward
- media-tv/plex-media-server/Manifest                |  4 +-
- .../plex-media-server-0.9.12.4.ebuild              | 99 ----------------------
- .../plex-media-server-0.9.12.8.ebuild              |  2 +-
- net-p2p/syncthing/Manifest                         |  6 +-
- net-p2p/syncthing/syncthing-0.11.19.ebuild         |  2 +-
- ...ing-0.11.18.ebuild => syncthing-0.11.20.ebuild} |  2 +-
- sys-kernel/bliss-kernel/Manifest                   |  4 +-
- .../bliss-kernel/bliss-kernel-3.14.49.ebuild       | 76 -----------------
- .../bliss-kernel/bliss-kernel-3.14.50.ebuild       |  2 +-
- 9 files changed, 9 insertions(+), 188 deletions(-)
- delete mode 100644 media-tv/plex-media-server/plex-media-server-0.9.12.4.ebuild
- rename net-p2p/syncthing/{syncthing-0.11.18.ebuild => syncthing-0.11.20.ebuild} (98%)
- delete mode 100644 sys-kernel/bliss-kernel/bliss-kernel-3.14.49.ebuild
+Already up-to-date.
 *** syncing bliss-overlay
 *** synced bliss-overlay
  * Sync succeeded
