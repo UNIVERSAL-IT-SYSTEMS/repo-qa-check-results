@@ -99,11 +99,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/Parse-Win32Registry-0.60
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: app-admin/ocsinventory-agent-2.0.5, attr description
-error: Metadata Exception: pkg ebuild src: app-admin/ocsinventory-agent-2.0.5, attr data
-error: False while processing ebuild src: app-admin/ocsinventory-agent-2.0.5
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-admin/ocsinventory-agent-2.0.5, attr description\nerror: Metadata Exception: pkg ebuild src: app-admin/ocsinventory-agent-2.0.5, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-admin/ocsinventory-agent-2.0.5' @0x7fc177ea5910>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: perl-gcpan/Parse-Win32Registry-0.60, attr description
-error: Metadata Exception: pkg ebuild src: perl-gcpan/Parse-Win32Registry-0.60, attr data
-error: False while processing ebuild src: perl-gcpan/Parse-Win32Registry-0.60
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/Parse-Win32Registry-0.60, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/Parse-Win32Registry-0.60, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/Parse-Win32Registry-0.60' @0x7fc177ea5b90>)
  * Cache regen failed with 65

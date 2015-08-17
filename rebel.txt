@@ -10,8 +10,6 @@
  'status': 'unofficial'}
 $ pmaint sync rebel
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/poly-c' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing rebel
 *** synced rebel
@@ -68,7 +66,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-misc/adjustableclock-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception Metadata Exception: pkg ebuild src: kde-misc/adjustableclock-9999, attr description
-error: Metadata Exception: pkg ebuild src: kde-misc/adjustableclock-9999, attr data
-error: False while processing ebuild src: kde-misc/adjustableclock-9999
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/adjustableclock-9999, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/adjustableclock-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/adjustableclock-9999' @0x7f86c3fd2cd0>)
  * Cache regen failed with 65
