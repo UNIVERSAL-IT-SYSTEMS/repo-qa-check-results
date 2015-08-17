@@ -48,9 +48,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 QA warning: set modification bled out of invocation source /home/mgorny/repos/v-fox/sys-kernel/nouveau-sources/nouveau-sources-9999.ebuild
           : was hB
           : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/v-fox/net-libs/lacewing/lacewing-9999.ebuild
-          : was hB
-          : now ehB
 WARNING: 'use' function invoked by games-emulation/pcsx2-0.9.9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
@@ -75,4 +72,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 QA warning: set modification bled out of invocation source /home/mgorny/repos/v-fox/sys-kernel/nouveau-sources/nouveau-sources-9999.ebuild
           : was hB
           : now ehB
- * Cache regenerated successfully
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-libs/lacewing-9999, attr description\nerror: Metadata Exception: pkg ebuild src: net-libs/lacewing-9999, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-libs/lacewing-9999' @0x7f8eb8100b90>)
+coms error in 13174, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65

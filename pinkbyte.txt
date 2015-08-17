@@ -21,4 +21,6 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 pinkbyte
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: games-util/ttyhlauncher-9999, attr description\nerror: Metadata Exception: pkg ebuild src: games-util/ttyhlauncher-9999, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='games-util/ttyhlauncher-9999' @0x7fbbe3e2cb90>)
+coms error in 29093, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
