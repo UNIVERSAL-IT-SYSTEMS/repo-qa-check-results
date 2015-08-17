@@ -9,18 +9,13 @@
 $ pmaint sync gentoo-zh
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/microcai/gentoo-zh
-   2194d6d..1573179  master     -> origin/master
-Updating 2194d6d..1573179
+   1573179..853b42d  master     -> origin/master
+Updating 1573179..853b42d
 Fast-forward
- dev-db/mycli/Manifest                              |  1 +
- .../avoid-to-use-print-statement-for-py3k.patch    |  9 ++++++
- dev-db/mycli/mycli-1.3.0.ebuild                    | 36 ++++++++++++++++++++++
- .../netease-musicbox-0.1.7.5.ebuild                | 32 +++++++++++++++++++
- 4 files changed, 78 insertions(+)
- create mode 100644 dev-db/mycli/Manifest
- create mode 100644 dev-db/mycli/files/avoid-to-use-print-statement-for-py3k.patch
- create mode 100644 dev-db/mycli/mycli-1.3.0.ebuild
- create mode 100644 media-sound/netease-musicbox/netease-musicbox-0.1.7.5.ebuild
+ app-office/wps-office/Manifest                     |   2 +
+ .../wps-office-9.1.0.4968_alpha19.ebuild           | 121 +++++++++++++++++++++
+ 2 files changed, 123 insertions(+)
+ create mode 100644 app-office/wps-office/wps-office-9.1.0.4968_alpha19.ebuild
 *** syncing gentoo-zh
 *** synced gentoo-zh
  * Sync succeeded
