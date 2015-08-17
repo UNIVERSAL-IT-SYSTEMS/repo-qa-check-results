@@ -13,19 +13,7 @@
 $ pmaint sync ikelos
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/dev/ikelos
-   110590c..8c6846b  master     -> origin/master
-Updating 110590c..8c6846b
-Fast-forward
- dev-util/capstone/Manifest                         |  3 +
- dev-util/capstone/capstone-3.0.4.ebuild            | 64 ++++++++++++++++++++++
- .../files/capstone-3.0.4-python-setup.patch        | 42 ++++++++++++++
- gnome-extra/gtkparasite/Manifest                   |  2 +-
- gnome-extra/gtkparasite/gtkparasite-9999.ebuild    |  7 ++-
- 5 files changed, 114 insertions(+), 4 deletions(-)
- create mode 100644 dev-util/capstone/Manifest
- create mode 100644 dev-util/capstone/capstone-3.0.4.ebuild
- create mode 100644 dev-util/capstone/files/capstone-3.0.4-python-setup.patch
+Already up-to-date.
 *** syncing ikelos
 *** synced ikelos
  * Sync succeeded
