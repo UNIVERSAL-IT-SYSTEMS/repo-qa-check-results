@@ -193,4 +193,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-kernel/ck-sources-3.4.105 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
- * Cache regenerated successfully
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-portage/update-20121210, attr description\nerror: Metadata Exception: pkg ebuild src: app-portage/update-20121210, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-portage/update-20121210' @0x7f66d9f05b90>)
+coms error in 20063, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
