@@ -8,21 +8,12 @@
  'quality': 'experimental',
  'source': [{'type': 'git', 'uri': 'git://github.com/gentoo/graveyard.git'}],
  'status': 'unofficial'}
+ * Adding new repository
 $ pmaint sync graveyard
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/sync/graveyard'...
 fatal: remote error: 
   Storage server temporarily offline. See https://status.github.com for GitHub system status.
 *** syncing graveyard
 *** failed syncing graveyard
  * Sync failed with 1
- * Will try to re-create
-$ pmaint sync graveyard
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/sync/graveyard'...
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-*** syncing graveyard
-*** failed syncing graveyard
- * Sync failed again with 1, removing

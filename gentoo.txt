@@ -17,21 +17,15 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   7444b0d..bda1499  master     -> origin/master
-Updating 7444b0d..bda1499
+   bda1499..9b78411  master     -> origin/master
+Updating bda1499..9b78411
 Fast-forward
- sci-geosciences/libtcd/Manifest                    |  1 +
- sci-geosciences/libtcd/libtcd-2.2.7.ebuild         | 33 ++++++++++++
- sci-geosciences/seawater/Manifest                  |  1 +
- sci-geosciences/seawater/seawater-3.3.3.ebuild     | 30 +++++++++++
- sci-geosciences/xtide/Manifest                     |  1 +
- .../xtide/files/xtide-2.13.2-clang.patch           | 33 ++++++++++++
- sci-geosciences/xtide/xtide-2.13.2.ebuild          | 63 ++++++++++++++++++++++
- 7 files changed, 162 insertions(+)
- create mode 100644 sci-geosciences/libtcd/libtcd-2.2.7.ebuild
- create mode 100644 sci-geosciences/seawater/seawater-3.3.3.ebuild
- create mode 100644 sci-geosciences/xtide/files/xtide-2.13.2-clang.patch
- create mode 100644 sci-geosciences/xtide/xtide-2.13.2.ebuild
+ dev-cpp/websocketpp/Manifest                       |  3 +-
+ dev-cpp/websocketpp/websocketpp-0.5.0.ebuild       | 35 ----------------------
+ ...ketpp-0.4.0.ebuild => websocketpp-0.6.0.ebuild} |  6 ++--
+ 3 files changed, 4 insertions(+), 40 deletions(-)
+ delete mode 100644 dev-cpp/websocketpp/websocketpp-0.5.0.ebuild
+ rename dev-cpp/websocketpp/{websocketpp-0.4.0.ebuild => websocketpp-0.6.0.ebuild} (87%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

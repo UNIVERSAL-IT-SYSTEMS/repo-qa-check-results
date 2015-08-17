@@ -6,17 +6,11 @@
  'source': [{'type': 'git',
              'uri': 'https://github.com/timroes/timroes-overlay.git'}],
  'status': 'unofficial'}
-$ pmaint sync timroes
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: could not read Username for 'https://github.com': No such device or address
-*** syncing timroes
-*** failed syncing timroes
- * Sync failed with 1
- * Will try to re-create
+ * Adding new repository
 $ pmaint sync timroes
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Cloning into '/home/mgorny/sync/timroes'...
 fatal: unable to access 'https://github.com/timroes/timroes-overlay.git/': The requested URL returned error: 503
 *** syncing timroes
 *** failed syncing timroes
- * Sync failed again with 1, removing
+ * Sync failed with 1
