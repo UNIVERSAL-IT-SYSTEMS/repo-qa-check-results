@@ -7,6 +7,8 @@
              'uri': 'rsync://gentoo.zugaina.org/zugaina-portage'}],
  'status': 'unofficial'}
 $ pmaint sync zugaina
+WARNING:pkgcore:repository at location '/home/mgorny/sync/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 
 receiving incremental file list
@@ -18,13 +20,13 @@ Total file size: 8.70M bytes
 Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
-File list size: 66.06K
+File list size: 69.65K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 670
 Total bytes received: 76.73K
 
-sent 670 bytes  received 76.73K bytes  17.20K bytes/sec
+sent 670 bytes  received 76.73K bytes  22.11K bytes/sec
 total size is 8.70M  speedup is 112.46
 *** syncing zugaina
 *** synced zugaina
