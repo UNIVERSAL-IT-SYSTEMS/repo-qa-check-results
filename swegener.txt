@@ -7,7 +7,11 @@
              'uri': 'rsync://rsync.gentoo.stealer.net/swegener-overlay/'}],
  'status': 'official'}
 $ pmaint sync swegener
+WARNING:pkgcore:repository at location '/home/mgorny/sync/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Welcome To
         ____ _____ _____    _    _     _____ ____               _
