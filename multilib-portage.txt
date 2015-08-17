@@ -7,23 +7,14 @@
              'uri': 'git://anongit.gentoo.org/proj/multilib-portage.git'}],
  'status': 'official'}
 $ pmaint sync multilib-portage
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing multilib-portage
-*** failed syncing multilib-portage
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync multilib-portage
 WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
-Cloning into '/home/mgorny/sync/multilib-portage'...
+Already up-to-date.
 *** syncing multilib-portage
 *** synced multilib-portage
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 multilib-portage
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

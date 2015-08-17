@@ -15,15 +15,24 @@
              'uri': 'https://github.com/mrueg/mrueg-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync mrueg
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/mrueg
+   d4ada14..976009f  master     -> origin/master
+Updating d4ada14..976009f
+Fast-forward
+ app-crypt/keyringer/Manifest               |  1 +
+ app-crypt/keyringer/keyringer-0.3.8.ebuild | 33 ++++++++++++++++++++++++++++++
+ app-crypt/keyringer/metadata.xml           |  8 ++++++++
+ 3 files changed, 42 insertions(+)
+ create mode 100644 app-crypt/keyringer/Manifest
+ create mode 100644 app-crypt/keyringer/keyringer-0.3.8.ebuild
+ create mode 100644 app-crypt/keyringer/metadata.xml
 *** syncing mrueg
 *** synced mrueg
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 mrueg
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by dev-libs/libspotify-12.1.51 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.

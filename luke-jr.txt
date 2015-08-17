@@ -7,15 +7,15 @@
              'uri': 'svn://svn.dashjr.org/luke-portage-overlay/trunk'}],
  'status': 'unofficial'}
 $ pmaint sync luke-jr
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 Current branch master is up to date.
 *** syncing luke-jr
 *** synced luke-jr
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 luke-jr
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: dev-perl/AniDB-0.3_pre414 failed.

@@ -13,15 +13,15 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/wschlich.git'}],
  'status': 'official'}
 $ pmaint sync wschlich
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing wschlich
 *** synced wschlich
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 wschlich
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: mail-filter/dkimproxy-1.0.1 failed.
@@ -105,7 +105,6 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: mail-filter/sbd-proxy-1.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-shells/bashinator-0.6.1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-shells/pdsh-2.18-r9999
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))

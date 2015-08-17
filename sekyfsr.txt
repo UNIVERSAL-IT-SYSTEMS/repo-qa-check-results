@@ -12,15 +12,15 @@
              'uri': 'https://github.com/npinto/sekyfsr-gentoo-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync sekyfsr
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing sekyfsr
 *** synced sekyfsr
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 sekyfsr
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: x11-libs/pango-1.28.3-r1 failed.
