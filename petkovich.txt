@@ -15,120 +15,50 @@
  'status': 'unofficial'}
 $ pmaint sync petkovich
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/jcpetkovich/overlay-petkovich
+   50dbf00..d46109b  master     -> origin/master
+Updating 50dbf00..d46109b
+Fast-forward
+ app-misc/powerline/powerline-9999-r14.ebuild       |   3 -
+ dev-lisp/cl-launch/Manifest                        |   2 -
+ dev-lisp/cl-launch/cl-launch-2.36.ebuild           |  25 -----
+ dev-lisp/gsd/Manifest                              |   1 -
+ dev-lisp/gsd/gsd-999.ebuild                        |  34 -------
+ gnome-base/gnome-panel/Manifest                    |   5 -
+ ...-panel-2.28.0-clock-applet-missing-cflags.patch |  24 -----
+ .../files/gnome-panel-2.28.0-crashes-xrandr.patch  |  79 ---------------
+ ...gnome-panel-2.28.0-remove-main-menu-arrow.patch |  25 -----
+ gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild   | 110 ---------------------
+ .../powerline-fonts/powerline-fonts-9999-r1.ebuild |   3 -
+ .../powerline-symbols-9999.ebuild                  |   3 -
+ x11-themes/bluecurve-xcursors/Manifest             |   2 -
+ .../bluecurve-xcursors-0.1.1.ebuild                |  42 --------
+ x11-themes/mesmerized/Manifest                     |   2 -
+ x11-themes/mesmerized/mesmerized-1.0.ebuild        |  26 -----
+ 16 files changed, 386 deletions(-)
+ delete mode 100644 dev-lisp/cl-launch/Manifest
+ delete mode 100644 dev-lisp/cl-launch/cl-launch-2.36.ebuild
+ delete mode 100644 dev-lisp/gsd/Manifest
+ delete mode 100644 dev-lisp/gsd/gsd-999.ebuild
+ delete mode 100644 gnome-base/gnome-panel/Manifest
+ delete mode 100644 gnome-base/gnome-panel/files/gnome-panel-2.28.0-clock-applet-missing-cflags.patch
+ delete mode 100644 gnome-base/gnome-panel/files/gnome-panel-2.28.0-crashes-xrandr.patch
+ delete mode 100644 gnome-base/gnome-panel/files/gnome-panel-2.28.0-remove-main-menu-arrow.patch
+ delete mode 100644 gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild
+ delete mode 100644 x11-themes/bluecurve-xcursors/Manifest
+ delete mode 100644 x11-themes/bluecurve-xcursors/bluecurve-xcursors-0.1.1.ebuild
+ delete mode 100644 x11-themes/mesmerized/Manifest
+ delete mode 100644 x11-themes/mesmerized/mesmerized-1.0.ebuild
 *** syncing petkovich
 *** synced petkovich
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 petkovich
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-
-!!! ERROR: gnome-base/gnome-panel-2.28.0 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '210' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
-!!!      gnome-panel-2.28.0.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
-
-QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/app-misc/powerline/powerline-9999-r14.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/media-fonts/powerline-fonts/powerline-fonts-9999-r1.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/media-fonts/powerline-symbols/powerline-symbols-9999.ebuild
+QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/media-fonts/ttf-font-icons/ttf-font-icons-9999.ebuild
           : was hB
           : now ehB
 QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/media-fonts/ttf-font-icons/ttf-font-icons-9999.ebuild
           : was hB
           : now ehB
-
-!!! ERROR: dev-lisp/gsd-999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '145' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/petkovich/dev-lisp/gsd/gsd-999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/petkovich/dev-lisp/gsd/gsd-999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/petkovich/dev-lisp/gsd/gsd-999.ebuild'
-!!!                 gsd-999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: gnome-base/gnome-panel-2.28.0 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '210' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/petkovich/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
-!!!      gnome-panel-2.28.0.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
-
-QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/app-misc/powerline/powerline-9999-r14.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/media-fonts/powerline-fonts/powerline-fonts-9999-r1.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/media-fonts/powerline-symbols/powerline-symbols-9999.ebuild
-          : was hB
-          : now ehB
-QA warning: set modification bled out of invocation source /home/mgorny/repos/petkovich/media-fonts/ttf-font-icons/ttf-font-icons-9999.ebuild
-          : was hB
-          : now ehB
-
-!!! ERROR: dev-lisp/gsd-999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '145' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/petkovich/dev-lisp/gsd/gsd-999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/petkovich/dev-lisp/gsd/gsd-999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/petkovich/dev-lisp/gsd/gsd-999.ebuild'
-!!!                 gsd-999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-sandbox:stop  caught signal 15 in pid 9417
-Sandboxed process killed by signal: Terminated
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-base/gnome-panel-2.28.0
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/gsd-999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-apps/data-science-toolbox-9999
-!!! caught exception Metadata Exception: pkg ebuild src: x11-themes/bluecurve-xcursors-0.1.1, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: x11-themes/bluecurve-xcursors-0.1.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: gnome-base/gnome-panel-2.28.0, attr description\nerror: Metadata Exception: pkg ebuild src: gnome-base/gnome-panel-2.28.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='gnome-base/gnome-panel-2.28.0' @0x7f0a9bfca690>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-lisp/gsd-999, attr description\nerror: Metadata Exception: pkg ebuild src: dev-lisp/gsd-999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-lisp/gsd-999' @0x7f0a9bfd4b90>)
- * Cache regen failed with 65
+ * Cache regenerated successfully
