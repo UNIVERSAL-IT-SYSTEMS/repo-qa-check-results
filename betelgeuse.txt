@@ -12,10 +12,6 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/betelgeuse.git'}],
  'status': 'official'}
 $ pmaint sync betelgeuse
-WARNING:pkgcore:repository at location '/home/mgorny/sync/Krontage' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/Krontage', named 'Krontage', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/arax-os-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/arax-os-overlay', named 'arax-os-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing betelgeuse
@@ -117,7 +113,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-libs/pango-1.16.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.14.10, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.14.10, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.14.10' @0x7f0cbcdf4cd0>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.14.10, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.14.10, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.14.10' @0x7fe3807d0cd0>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.16.3, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.16.3, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.16.3' @0x7f0cbcdf4e10>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.16.3, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.16.3, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.16.3' @0x7fe3807d0e10>)
  * Cache regen failed with 65

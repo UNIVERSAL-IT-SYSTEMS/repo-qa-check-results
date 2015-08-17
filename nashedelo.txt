@@ -21,4 +21,6 @@ no changes found
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 nashedelo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-lang/erlang-14.2.4, attr description\nerror: Metadata Exception: pkg ebuild src: dev-lang/erlang-14.2.4, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-lang/erlang-14.2.4' @0x7f2f46a19b90>)
+coms error in 10434, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65

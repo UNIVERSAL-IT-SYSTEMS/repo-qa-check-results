@@ -7,11 +7,20 @@
              'uri': 'git://git.calculate.ru/calculate/overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync calculate
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/sync/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://git.calculate.ru/calculate/overlay
+   acac69d..8709200  master     -> origin/master
+Updating acac69d..8709200
+Fast-forward
+ profiles/base/desktop/package.use/default | 18 ------------------
+ profiles/base/desktop/package.use/python  | 20 ++++++++++++++++++++
+ profiles/base/package.keywords/default    |  1 -
+ profiles/base/package.keywords/desktop    |  3 ++-
+ 4 files changed, 22 insertions(+), 20 deletions(-)
+ create mode 100644 profiles/base/desktop/package.use/python
 *** syncing calculate
 *** synced calculate
  * Sync succeeded

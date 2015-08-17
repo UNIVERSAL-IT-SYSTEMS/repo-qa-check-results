@@ -13,21 +13,7 @@
  'status': 'official'}
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/kde
-   a6366ff..8555794  master     -> origin/master
-Updating a6366ff..8555794
-Fast-forward
- .../kdegraphics-meta-15.07.90.ebuild               |  2 +-
- .../kdegraphics-meta-15.08.0.ebuild                |  2 +-
- .../kdegraphics-meta-15.08.49.9999.ebuild          |  2 +-
- .../kdegraphics-meta/kdegraphics-meta-9999.ebuild  |  2 +-
- kde-apps/kscreengenie/Manifest                     |  1 +
- kde-apps/kscreengenie/kscreengenie-2.0.0.ebuild    | 45 ++++++++++++++++++++++
- kde-apps/kscreengenie/kscreengenie-9999.ebuild     |  5 ++-
- profiles/package.use.mask                          |  1 +
- 8 files changed, 55 insertions(+), 5 deletions(-)
- create mode 100644 kde-apps/kscreengenie/Manifest
- create mode 100644 kde-apps/kscreengenie/kscreengenie-2.0.0.ebuild
+Already up-to-date.
 *** syncing kde
 *** synced kde
  * Sync succeeded
