@@ -15,27 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/jorgicio/jorgicio-gentoo
-   5d7f51e..5acbb0c  master     -> origin/master
-Updating 5d7f51e..5acbb0c
-Fast-forward
- media-sound/clementine/Manifest                    |   8 -
- media-sound/clementine/clementine-1.2.3-r1.ebuild  | 168 -------------------
- .../files/clementine-1.2.2-fix-build.patch         |  25 ---
- .../files/clementine-1.2.2-fix-build2.patch        |  38 -----
- .../clementine/files/clementine-1.2.2-gcc49.patch  |  17 --
- .../files/clementine-1.2.3-boost-1.5.7-fix.patch   | 181 ---------------------
- .../files/clementine-1.2.3-namespaces.patch        |  36 ----
- media-sound/clementine/metadata.xml                |  25 ---
- 8 files changed, 498 deletions(-)
- delete mode 100644 media-sound/clementine/Manifest
- delete mode 100644 media-sound/clementine/clementine-1.2.3-r1.ebuild
- delete mode 100644 media-sound/clementine/files/clementine-1.2.2-fix-build.patch
- delete mode 100644 media-sound/clementine/files/clementine-1.2.2-fix-build2.patch
- delete mode 100644 media-sound/clementine/files/clementine-1.2.2-gcc49.patch
- delete mode 100644 media-sound/clementine/files/clementine-1.2.3-boost-1.5.7-fix.patch
- delete mode 100644 media-sound/clementine/files/clementine-1.2.3-namespaces.patch
- delete mode 100644 media-sound/clementine/metadata.xml
+Already up-to-date.
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
