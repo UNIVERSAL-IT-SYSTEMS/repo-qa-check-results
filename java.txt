@@ -14,7 +14,17 @@
  'status': 'official'}
 $ pmaint sync java
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/java
+   587f3c4..8719b00  master     -> origin/master
+Updating 587f3c4..8719b00
+Fast-forward
+ dev-java/htmlcleaner/Manifest               |  1 -
+ dev-java/htmlcleaner/htmlcleaner-2.2.ebuild | 67 -----------------------------
+ dev-java/htmlcleaner/metadata.xml           |  5 ---
+ 3 files changed, 73 deletions(-)
+ delete mode 100644 dev-java/htmlcleaner/Manifest
+ delete mode 100644 dev-java/htmlcleaner/htmlcleaner-2.2.ebuild
+ delete mode 100644 dev-java/htmlcleaner/metadata.xml
 *** syncing java
 *** synced java
  * Sync succeeded

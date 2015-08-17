@@ -16,21 +16,16 @@
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/tokiclover/bar-overlay
-   5a88cbf..fc876df  master     -> origin/master
-Updating 5a88cbf..fc876df
+   fc876df..da47a4c  master     -> origin/master
+Updating fc876df..da47a4c
 Fast-forward
- .../deadbeef-plugins-filebrowser/Manifest          |  1 +
- .../deadbeef-plugins-filebrowser-20150416.ebuild   | 49 ++++++++++++++++++++++
- .../deadbeef-plugins-filebrowser-9999.ebuild       | 49 ++++++++++++++++++++++
- media-plugins/deadbeef-plugins-mpris/Manifest      |  1 +
- .../deadbeef-plugins-mpris-2.1.5_p2.ebuild         | 25 +++++++----
- .../deadbeef-plugins-mpris-9999.ebuild             | 24 +++++++----
- sets/PACKAGE_LIST                                  |  1 +
- 7 files changed, 133 insertions(+), 17 deletions(-)
- create mode 100644 media-plugins/deadbeef-plugins-filebrowser/Manifest
- create mode 100644 media-plugins/deadbeef-plugins-filebrowser/deadbeef-plugins-filebrowser-20150416.ebuild
- create mode 100644 media-plugins/deadbeef-plugins-filebrowser/deadbeef-plugins-filebrowser-9999.ebuild
- create mode 100644 media-plugins/deadbeef-plugins-mpris/Manifest
+ .../deadbeef-plugins-infobar-1.4.ebuild            | 33 ++++++++++------
+ media-plugins/deadbeef-plugins-waveform/Manifest   |  1 +
+ .../deadbeef-plugins-waveform-0.5.ebuild           | 46 ++++++++++++++++++++++
+ .../deadbeef-plugins-waveform-9999.ebuild          | 36 +++++++++++------
+ 4 files changed, 93 insertions(+), 23 deletions(-)
+ create mode 100644 media-plugins/deadbeef-plugins-waveform/Manifest
+ create mode 100644 media-plugins/deadbeef-plugins-waveform/deadbeef-plugins-waveform-0.5.ebuild
 *** syncing bar
 *** synced bar
  * Sync succeeded
