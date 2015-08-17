@@ -15,7 +15,17 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/jorgicio/jorgicio-gentoo
+   5da10a0..5d7f51e  master     -> origin/master
+Updating 5da10a0..5d7f51e
+Fast-forward
+ x11-misc/primus/Manifest               |  2 ++
+ x11-misc/primus/primus-20150118.ebuild | 41 ++++++++++++++++++++++++++++++++++
+ x11-misc/primus/primus-20150328.ebuild | 41 ++++++++++++++++++++++++++++++++++
+ 3 files changed, 84 insertions(+)
+ create mode 100644 x11-misc/primus/Manifest
+ create mode 100644 x11-misc/primus/primus-20150118.ebuild
+ create mode 100644 x11-misc/primus/primus-20150328.ebuild
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
