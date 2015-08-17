@@ -15,40 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync petkovich
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/jcpetkovich/overlay-petkovich
-   50dbf00..d46109b  master     -> origin/master
-Updating 50dbf00..d46109b
-Fast-forward
- app-misc/powerline/powerline-9999-r14.ebuild       |   3 -
- dev-lisp/cl-launch/Manifest                        |   2 -
- dev-lisp/cl-launch/cl-launch-2.36.ebuild           |  25 -----
- dev-lisp/gsd/Manifest                              |   1 -
- dev-lisp/gsd/gsd-999.ebuild                        |  34 -------
- gnome-base/gnome-panel/Manifest                    |   5 -
- ...-panel-2.28.0-clock-applet-missing-cflags.patch |  24 -----
- .../files/gnome-panel-2.28.0-crashes-xrandr.patch  |  79 ---------------
- ...gnome-panel-2.28.0-remove-main-menu-arrow.patch |  25 -----
- gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild   | 110 ---------------------
- .../powerline-fonts/powerline-fonts-9999-r1.ebuild |   3 -
- .../powerline-symbols-9999.ebuild                  |   3 -
- x11-themes/bluecurve-xcursors/Manifest             |   2 -
- .../bluecurve-xcursors-0.1.1.ebuild                |  42 --------
- x11-themes/mesmerized/Manifest                     |   2 -
- x11-themes/mesmerized/mesmerized-1.0.ebuild        |  26 -----
- 16 files changed, 386 deletions(-)
- delete mode 100644 dev-lisp/cl-launch/Manifest
- delete mode 100644 dev-lisp/cl-launch/cl-launch-2.36.ebuild
- delete mode 100644 dev-lisp/gsd/Manifest
- delete mode 100644 dev-lisp/gsd/gsd-999.ebuild
- delete mode 100644 gnome-base/gnome-panel/Manifest
- delete mode 100644 gnome-base/gnome-panel/files/gnome-panel-2.28.0-clock-applet-missing-cflags.patch
- delete mode 100644 gnome-base/gnome-panel/files/gnome-panel-2.28.0-crashes-xrandr.patch
- delete mode 100644 gnome-base/gnome-panel/files/gnome-panel-2.28.0-remove-main-menu-arrow.patch
- delete mode 100644 gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild
- delete mode 100644 x11-themes/bluecurve-xcursors/Manifest
- delete mode 100644 x11-themes/bluecurve-xcursors/bluecurve-xcursors-0.1.1.ebuild
- delete mode 100644 x11-themes/mesmerized/Manifest
- delete mode 100644 x11-themes/mesmerized/mesmerized-1.0.ebuild
+Already up-to-date.
 *** syncing petkovich
 *** synced petkovich
  * Sync succeeded

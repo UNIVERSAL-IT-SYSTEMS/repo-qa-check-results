@@ -8,11 +8,15 @@
  'status': 'unofficial'}
 $ pmaint sync timroes
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: could not read Username for 'https://github.com': No such device or address
 *** syncing timroes
-*** synced timroes
- * Sync succeeded
-$ pmaint regen --use-local-desc --pkg-desc-index -t 1 timroes
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+*** failed syncing timroes
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync timroes
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/sync/timroes'...
+fatal: unable to access 'https://github.com/timroes/timroes-overlay.git/': The requested URL returned error: 503
+*** syncing timroes
+*** failed syncing timroes
+ * Sync failed again with 1, removing
