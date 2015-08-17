@@ -138,12 +138,10 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/MathML-Entities-0.17
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-crypt/msva-perl-9999
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-embedded/simulavr-9999, attr description\nerror: Metadata Exception: pkg ebuild src: dev-embedded/simulavr-9999, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-embedded/simulavr-9999' @0x7f76fdf4ab90>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/Crypt-X509-0.51, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/Crypt-X509-0.51, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/Crypt-X509-0.51' @0x7f76fb45d550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/Crypt-X509-0.51, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/Crypt-X509-0.51, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/Crypt-X509-0.51' @0x7f9aa6f91550>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/MathML-Entities-0.17, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/MathML-Entities-0.17, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/MathML-Entities-0.17' @0x7f76fdf4ab90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/MathML-Entities-0.17, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/MathML-Entities-0.17, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/MathML-Entities-0.17' @0x7f9aa6f91690>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-crypt/msva-perl-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-crypt/msva-perl-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-crypt/msva-perl-9999' @0x7f76fb468550>)
-coms error in 9048, read_line com failed w/ 1: backing out of daemon.
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-crypt/msva-perl-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-crypt/msva-perl-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-crypt/msva-perl-9999' @0x7f9aa6f9d690>)
  * Cache regen failed with 65
