@@ -40,8 +40,27 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
+
+!!! ERROR: net-libs/nfqueue-bindings-0.3 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '212' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lootr/net-libs/nfqueue-bindings/nfqueue-bindings-0.3.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lootr/net-libs/nfqueue-bindings/nfqueue-bindings-0.3.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lootr/net-libs/nfqueue-bindings/nfqueue-bindings-0.3.ebuild'
+!!!    nfqueue-bindings-0.3.ebuild, line   5:  Called inherit 'cmake-utils' 'perl-module' 'linux-info'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-libs/nfqueue-bindings-0.3
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-libs/nfqueue-bindings-0.3, attr description\nerror: Metadata Exception: pkg ebuild src: net-libs/nfqueue-bindings-0.3, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-libs/nfqueue-bindings-0.3' @0x7f9dd88aab90>)
-coms error in 32188, read_line com failed w/ 1: backing out of daemon.
+ERROR pkgcore: returned val from gen_metadata was 'False'
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-libs/nfqueue-bindings-0.3, attr description\nerror: Metadata Exception: pkg ebuild src: net-libs/nfqueue-bindings-0.3, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-libs/nfqueue-bindings-0.3' @0x7fe8571f4b90>)
  * Cache regen failed with 65

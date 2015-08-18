@@ -16,7 +16,15 @@
 $ pmaint sync heather
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Heather/gentoo-heather
+   c1848f3..3f2f2ec  master     -> origin/master
+Updating c1848f3..3f2f2ec
+Fast-forward
+ app-portage/smart-live-rebuild/metadata.xml        | 21 -----------
+ .../smart-live-rebuild-9999.ebuild                 | 42 ----------------------
+ 2 files changed, 63 deletions(-)
+ delete mode 100644 app-portage/smart-live-rebuild/metadata.xml
+ delete mode 100644 app-portage/smart-live-rebuild/smart-live-rebuild-9999.ebuild
 *** syncing heather
 *** synced heather
  * Sync succeeded

@@ -37,4 +37,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-devel/gcc-4.8.5-r99 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
- * Cache regenerated successfully
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sys-libs/gdbm-1.11-r99, attr description\nerror: Metadata Exception: pkg ebuild src: sys-libs/gdbm-1.11-r99, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sys-libs/gdbm-1.11-r99' @0x7fad6b1dfb90>)
+coms error in 27498, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
