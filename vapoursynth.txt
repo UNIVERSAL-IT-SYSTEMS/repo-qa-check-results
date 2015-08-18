@@ -8,7 +8,14 @@
  'status': 'unofficial'}
 $ pmaint sync vapoursynth
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/4re/vapoursynth-portage
+   27a9981..c5b8c16  master     -> origin/master
+Updating 27a9981..c5b8c16
+Fast-forward
+ media-plugins/vapoursynth-fieldhint/Manifest       |  2 ++
+ .../vapoursynth-fieldhint-3.ebuild                 | 36 ++++++++++++++++++++++
+ 2 files changed, 38 insertions(+)
+ create mode 100644 media-plugins/vapoursynth-fieldhint/vapoursynth-fieldhint-3.ebuild
 *** syncing vapoursynth
 *** synced vapoursynth
  * Sync succeeded

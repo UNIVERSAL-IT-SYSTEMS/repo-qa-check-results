@@ -17,20 +17,15 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   365e3ea..4a7a471  master     -> origin/master
-Updating 365e3ea..4a7a471
+   4a7a471..7bc2bba  master     -> origin/master
+Updating 4a7a471..7bc2bba
 Fast-forward
- .../files/libkdcraw-4.14.3-libraw-0.16.1.patch     |  18 ++
- kde-apps/libkdcraw/libkdcraw-4.14.3-r1.ebuild      |  18 ++
- net-wireless/gnuradio/Manifest                     |   1 +
- net-wireless/gnuradio/gnuradio-3.7.8.ebuild        | 231 +++++++++++++++++++++
- net-wireless/gnuradio/gnuradio-9999.ebuild         |   6 +-
- sys-cluster/galera/Manifest                        |   2 +-
- sys-cluster/galera/galera-25.3.10.ebuild           |  26 +--
- 7 files changed, 281 insertions(+), 21 deletions(-)
- create mode 100644 kde-apps/libkdcraw/files/libkdcraw-4.14.3-libraw-0.16.1.patch
- create mode 100644 kde-apps/libkdcraw/libkdcraw-4.14.3-r1.ebuild
- create mode 100644 net-wireless/gnuradio/gnuradio-3.7.8.ebuild
+ dev-python/django-crispy-forms/Manifest            |  1 +
+ .../django-crispy-forms-1.5.0.ebuild               | 28 ++++++++++++++++++++++
+ sys-cluster/galera/files/garb.sh                   | 20 +++-------------
+ sys-cluster/galera/galera-25.3.10.ebuild           |  8 +------
+ 4 files changed, 33 insertions(+), 24 deletions(-)
+ create mode 100644 dev-python/django-crispy-forms/django-crispy-forms-1.5.0.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
