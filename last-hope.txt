@@ -12,7 +12,33 @@
 $ pmaint sync last-hope
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/ercpe/lh-overlay
+   7800677..a0459e9  master     -> origin/master
+Updating 7800677..a0459e9
+Fast-forward
+ sys-libs/ncurses/ChangeLog                         |  13 ++
+ sys-libs/ncurses/Manifest                          |   1 +
+ sys-libs/ncurses/files/ncurses-5.7-nongnu.patch    |  11 ++
+ sys-libs/ncurses/files/ncurses-5.8-gfbsd.patch     |  24 +++
+ .../files/ncurses-5.9-fix-clang-build.patch        |  44 +++++
+ sys-libs/ncurses/files/ncurses-5.9-gcc-5.patch     |  46 +++++
+ .../files/ncurses-5.9-no-I-usr-include.patch       |  45 +++++
+ .../ncurses/files/ncurses-5.9-pkg-config.patch     |  26 +++
+ .../files/ncurses-5.9-rxvt-unicode-9.15.patch      | 191 +++++++++++++++++++++
+ sys-libs/ncurses/metadata.xml                      |  14 ++
+ sys-libs/ncurses/ncurses-5.9-r104.ebuild           | 191 +++++++++++++++++++++
+ 11 files changed, 606 insertions(+)
+ create mode 100644 sys-libs/ncurses/ChangeLog
+ create mode 100644 sys-libs/ncurses/Manifest
+ create mode 100644 sys-libs/ncurses/files/ncurses-5.7-nongnu.patch
+ create mode 100644 sys-libs/ncurses/files/ncurses-5.8-gfbsd.patch
+ create mode 100644 sys-libs/ncurses/files/ncurses-5.9-fix-clang-build.patch
+ create mode 100644 sys-libs/ncurses/files/ncurses-5.9-gcc-5.patch
+ create mode 100644 sys-libs/ncurses/files/ncurses-5.9-no-I-usr-include.patch
+ create mode 100644 sys-libs/ncurses/files/ncurses-5.9-pkg-config.patch
+ create mode 100644 sys-libs/ncurses/files/ncurses-5.9-rxvt-unicode-9.15.patch
+ create mode 100644 sys-libs/ncurses/metadata.xml
+ create mode 100644 sys-libs/ncurses/ncurses-5.9-r104.ebuild
 *** syncing last-hope
 *** synced last-hope
  * Sync succeeded
