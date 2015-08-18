@@ -67,7 +67,7 @@ received unknown com: export CATEGORY='net-misc' PR=r0 PVR='1.025' PV='1.025' EB
 !!! The die message:
 !!!  inherit for mysql failed
 
-sandbox:stop  caught signal 15 in pid 26851
+sandbox:stop  caught signal 15 in pid 5517
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: dev-db/mysql-5.5.1 failed.
@@ -86,7 +86,7 @@ Sandboxed process killed by signal: Terminated
 !!! The die message:
 !!!  inherit for mysql failed
 
-sandbox:stop  caught signal 15 in pid 27965
+sandbox:stop  caught signal 15 in pid 6403
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, mysql cannot be found while processing ebuild src: dev-db/mysql-5.4.3_beta
 ERROR pkgcore: returned val from gen_metadata was 'False'
@@ -94,6 +94,6 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception inherit requires an unknown eclass, mysql cannot be found while processing ebuild src: net-misc/aqbd-1.025
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-print/foo2zjs-20101112
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-db/mysql-5.4.3_beta, attr description\nerror: Metadata Exception: pkg ebuild src: dev-db/mysql-5.4.3_beta, attr data\nerror: inherit requires an unknown eclass, mysql cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-db/mysql-5.4.3_beta' @0x7f63d2f1ea50>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-db/mysql-5.5.1, attr description\nerror: Metadata Exception: pkg ebuild src: dev-db/mysql-5.5.1, attr data\nerror: inherit requires an unknown eclass, mysql cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-db/mysql-5.5.1' @0x7f63d2f1eb90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-db/mysql-5.4.3_beta, attr description\nerror: Metadata Exception: pkg ebuild src: dev-db/mysql-5.4.3_beta, attr data\nerror: inherit requires an unknown eclass, mysql cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-db/mysql-5.4.3_beta' @0x7ff5a4c93a50>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-db/mysql-5.5.1, attr description\nerror: Metadata Exception: pkg ebuild src: dev-db/mysql-5.5.1, attr data\nerror: inherit requires an unknown eclass, mysql cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-db/mysql-5.5.1' @0x7ff5a4c93b90>)
  * Cache regen failed with 65
