@@ -14,13 +14,24 @@
              'uri': 'git://anongit.gentoo.org/repo/gentoo.git'}],
  'status': 'official'}
 $ pmaint sync gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   9f6b074..f4cfc9c  master     -> origin/master
+Updating 9f6b074..f4cfc9c
+Fast-forward
+ sys-kernel/gentoo-sources/Manifest                 |  3 +++
+ .../gentoo-sources/gentoo-sources-3.10.87.ebuild   | 30 ++++++++++++++++++++++
+ 2 files changed, 33 insertions(+)
+ create mode 100644 sys-kernel/gentoo-sources/gentoo-sources-3.10.87.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 gentoo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.10.87 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully

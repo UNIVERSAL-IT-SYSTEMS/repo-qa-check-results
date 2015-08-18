@@ -9,7 +9,9 @@
              'uri': 'rsync://rsync.mad-hacking.net/hacking-gentoo-overlay/'}],
  'status': 'unofficial'}
 $ pmaint sync hacking-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 receiving incremental file list
 
 Number of files: 1,853 (reg: 1,558, dir: 295)
@@ -19,21 +21,19 @@ Total file size: 5.13M bytes
 Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
-File list size: 46.85K
+File list size: 45.62K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 381
 Total bytes received: 48.37K
 
-sent 381 bytes  received 48.37K bytes  13.93K bytes/sec
+sent 381 bytes  received 48.37K bytes  19.50K bytes/sec
 total size is 5.13M  speedup is 105.30
 *** syncing hacking-gentoo
 *** synced hacking-gentoo
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 hacking-gentoo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by sys-devel/binutils-2.24-r2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
@@ -65,4 +65,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-kernel/raspberrypi-notro-sources-3.16.7-r20141111 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
- * Cache regenerated successfully
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-embedded/asl-1.41.8, attr description\nerror: Metadata Exception: pkg ebuild src: dev-embedded/asl-1.41.8, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-embedded/asl-1.41.8' @0x7fdbd2141b90>)
+coms error in 9804, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65

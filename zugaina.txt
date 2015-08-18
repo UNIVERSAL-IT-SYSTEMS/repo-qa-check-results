@@ -7,33 +7,33 @@
              'uri': 'rsync://gentoo.zugaina.org/zugaina-portage'}],
  'status': 'unofficial'}
 $ pmaint sync zugaina
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 
 receiving incremental file list
 profiles/
-deleting profiles/repo_name
+profiles/repo_name
 
-Number of files: 2,750 (reg: 2,214, dir: 536)
-Number of created files: 0
-Number of regular files transferred: 0
+Number of files: 2,751 (reg: 2,215, dir: 536)
+Number of created files: 1 (reg: 1)
+Number of regular files transferred: 1
 Total file size: 3.50M bytes
-Total transferred file size: 0 bytes
-Literal data: 0 bytes
+Total transferred file size: 8 bytes
+Literal data: 8 bytes
 Matched data: 0 bytes
-File list size: 48.69K
+File list size: 45.90K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 620
-Total bytes received: 53.12K
+Total bytes sent: 639
+Total bytes received: 53.18K
 
-sent 620 bytes  received 53.12K bytes  15.35K bytes/sec
-total size is 3.50M  speedup is 65.12
+sent 639 bytes  received 53.18K bytes  4.68K bytes/sec
+total size is 3.50M  speedup is 65.03
 *** syncing zugaina
 *** synced zugaina
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 zugaina
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully
