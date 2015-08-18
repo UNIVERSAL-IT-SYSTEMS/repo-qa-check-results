@@ -12,17 +12,7 @@
  'status': 'official'}
 $ pmaint sync lisp
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/lisp
-   d26fc02..f78e231  master     -> origin/master
-Updating d26fc02..f78e231
-Fast-forward
- app-text/skribilo/Manifest                      |  6 ++--
- app-text/skribilo/skribilo-0.9.1.ebuild         | 18 ++++++-----
- app-text/skribilo/skribilo-0.9.2.ebuild         | 41 +++++++++++++++++++++++++
- dev-scheme/guile-reader/Manifest                |  2 +-
- dev-scheme/guile-reader/guile-reader-0.6.ebuild | 11 ++++---
- 5 files changed, 62 insertions(+), 16 deletions(-)
- create mode 100644 app-text/skribilo/skribilo-0.9.2.ebuild
+Already up-to-date.
 *** syncing lisp
 *** synced lisp
  * Sync succeeded
