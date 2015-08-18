@@ -14,41 +14,19 @@
 $ pmaint sync dotnet
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/dotnet
-   576f0ca..611fd9e  master     -> origin/master
-Updating 576f0ca..611fd9e
+   611fd9e..0351cbb  master     -> origin/master
+Updating 611fd9e..0351cbb
 Fast-forward
- dev-dotnet/nant/nant-0.93.5019-r201504210.ebuild   |   2 +-
- dev-dotnet/nunit/Manifest                          |   1 +
- dev-dotnet/nunit/files/nunit.linux.sln.nuspec      |  31 +++
- .../nunit/files/removing-2.0-compatibiility.patch  |  29 +++
- dev-dotnet/nunit/files/removing-tests.patch        | 213 +++++++++++++++++++++
- dev-dotnet/nunit/metadata.xml                      |  13 ++
- dev-dotnet/nunit/nunit-3.0.0-r201508180.ebuild     |  60 ++++++
- eclass/dotnet.eclass                               |  31 ---
- eclass/nuget.eclass                                |  41 ++++
- 9 files changed, 389 insertions(+), 32 deletions(-)
- create mode 100644 dev-dotnet/nunit/Manifest
- create mode 100644 dev-dotnet/nunit/files/nunit.linux.sln.nuspec
- create mode 100644 dev-dotnet/nunit/files/removing-2.0-compatibiility.patch
- create mode 100644 dev-dotnet/nunit/files/removing-tests.patch
- create mode 100644 dev-dotnet/nunit/metadata.xml
- create mode 100644 dev-dotnet/nunit/nunit-3.0.0-r201508180.ebuild
+ .../files/libgdiplus-2.10.9-freetype251.patch      | 12 +++++++
+ .../files/libgdiplus-3.12-underlinking.patch       | 17 ++++++++++
+ dev-dotnet/libgdiplus/libgdiplus-3.12.ebuild       | 39 +++++++++++-----------
+ 3 files changed, 48 insertions(+), 20 deletions(-)
+ create mode 100644 dev-dotnet/libgdiplus/files/libgdiplus-2.10.9-freetype251.patch
+ create mode 100644 dev-dotnet/libgdiplus/files/libgdiplus-3.12-underlinking.patch
 *** syncing dotnet
 *** synced dotnet
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by dev-lang/fsharp-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-lang/fsharp-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-lang/nemerle-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-dotnet/fake-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully

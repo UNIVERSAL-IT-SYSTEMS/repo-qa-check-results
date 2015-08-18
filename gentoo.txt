@@ -17,13 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   fef1039..530f6e7  master     -> origin/master
-Updating fef1039..530f6e7
+   530f6e7..bc58ae6  master     -> origin/master
+Updating 530f6e7..bc58ae6
 Fast-forward
- .../files/libgdiplus-3.12-underlinking.patch       | 17 ++++++++++
- dev-dotnet/libgdiplus/libgdiplus-3.12.ebuild       | 39 +++++++++++-----------
- 2 files changed, 36 insertions(+), 20 deletions(-)
- create mode 100644 dev-dotnet/libgdiplus/files/libgdiplus-3.12-underlinking.patch
+ media-sound/banshee/Manifest             |   1 +
+ media-sound/banshee/banshee-2.6.2.ebuild | 150 +++++++++++++++++++++++++++++++
+ media-sound/banshee/metadata.xml         |  20 ++---
+ 3 files changed, 161 insertions(+), 10 deletions(-)
+ create mode 100644 media-sound/banshee/banshee-2.6.2.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
