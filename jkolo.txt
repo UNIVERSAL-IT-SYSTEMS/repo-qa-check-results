@@ -51,7 +51,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  unknown inherit command from pythonic side, 'alive' for eclass distutils-r1
 
-Sandboxed process killed by signal: Broken pipe
 
 !!! ERROR: dev-php5/ioncube-3.3.7 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
@@ -69,7 +68,7 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for php-ext-base-r1 failed
 
-sandbox:stop  caught signal 15 in pid 19020
+sandbox:stop  caught signal 15 in pid 27915
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: dev-python/g-pypi-0.4 failed.
@@ -97,7 +96,7 @@ Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, php-ext-base-r1 cannot be found while processing ebuild src: dev-php5/ioncube-3.3.7
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-python/g-pypi-0.4
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-php5/ioncube-3.3.7, attr description\nerror: Metadata Exception: pkg ebuild src: dev-php5/ioncube-3.3.7, attr data\nerror: inherit requires an unknown eclass, php-ext-base-r1 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-php5/ioncube-3.3.7' @0x7f991a612410>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-php5/ioncube-3.3.7, attr description\nerror: Metadata Exception: pkg ebuild src: dev-php5/ioncube-3.3.7, attr data\nerror: inherit requires an unknown eclass, php-ext-base-r1 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-php5/ioncube-3.3.7' @0x7fed091d7410>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-python/g-pypi-0.4, attr description\nerror: Metadata Exception: pkg ebuild src: dev-python/g-pypi-0.4, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-python/g-pypi-0.4' @0x7f991a612550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-python/g-pypi-0.4, attr description\nerror: Metadata Exception: pkg ebuild src: dev-python/g-pypi-0.4, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-python/g-pypi-0.4' @0x7fed091d7550>)
  * Cache regen failed with 65
