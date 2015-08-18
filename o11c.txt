@@ -10,9 +10,7 @@
             {'type': 'git', 'uri': 'https://github.com/o11c/ebuilds.git'}],
  'status': 'unofficial'}
 $ pmaint sync o11c
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing o11c
@@ -70,5 +68,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-python/attoconf-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-python/attoconf-9999, attr description\nerror: Metadata Exception: pkg ebuild src: dev-python/attoconf-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-python/attoconf-9999' @0x7f40538b57d0>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-python/attoconf-9999, attr description\nerror: Metadata Exception: pkg ebuild src: dev-python/attoconf-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-python/attoconf-9999' @0x7f1a1b3f27d0>)
  * Cache regen failed with 65

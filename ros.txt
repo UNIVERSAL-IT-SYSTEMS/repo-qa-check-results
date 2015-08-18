@@ -7,17 +7,8 @@
  'source': [{'type': 'git', 'uri': 'git://github.com/ros/ros-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync ros
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
-From git://github.com/ros/ros-overlay
-   4be4d6c..00f932f  master     -> origin/master
-Updating 4be4d6c..00f932f
-Fast-forward
- sci-electronics/sdformat/Manifest                                     | 4 ++--
- .../sdformat/{sdformat-1.4.11.ebuild => sdformat-1.4.9.ebuild}        | 2 +-
- 2 files changed, 3 insertions(+), 3 deletions(-)
- rename sci-electronics/sdformat/{sdformat-1.4.11.ebuild => sdformat-1.4.9.ebuild} (88%)
+Already up-to-date.
 *** syncing ros
 *** synced ros
  * Sync succeeded
