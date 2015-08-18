@@ -8,18 +8,13 @@
 $ pmaint sync rasdark
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/rasdark/overlay
-   23f6e2b..c5b69d2  master     -> origin/master
-Updating 23f6e2b..c5b69d2
+   c5b69d2..5c9ebc5  master     -> origin/master
+Updating c5b69d2..5c9ebc5
 Fast-forward
- media-video/openshot/Manifest                |  2 -
- media-video/openshot/openshot-1.4.3.ebuild   | 71 --------------------------
- net-p2p/qbittorrent/Manifest                 |  1 -
- net-p2p/qbittorrent/qbittorrent-3.2.0.ebuild | 76 ----------------------------
- 4 files changed, 150 deletions(-)
- delete mode 100644 media-video/openshot/Manifest
- delete mode 100644 media-video/openshot/openshot-1.4.3.ebuild
- delete mode 100644 net-p2p/qbittorrent/Manifest
- delete mode 100644 net-p2p/qbittorrent/qbittorrent-3.2.0.ebuild
+ media-gfx/blender/Manifest             |   1 +
+ media-gfx/blender/blender-2.75a.ebuild | 278 +++++++++++++++++++++++++++++++++
+ 2 files changed, 279 insertions(+)
+ create mode 100644 media-gfx/blender/blender-2.75a.ebuild
 *** syncing rasdark
 *** synced rasdark
  * Sync succeeded
