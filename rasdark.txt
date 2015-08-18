@@ -7,7 +7,14 @@
  'status': 'unofficial'}
 $ pmaint sync rasdark
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/rasdark/overlay
+   21d3b70..23f6e2b  master     -> origin/master
+Updating 21d3b70..23f6e2b
+Fast-forward
+ sys-kernel/calculate-sources/Manifest                                   | 2 +-
+ .../{calculate-sources-4.1.3.ebuild => calculate-sources-4.1.6.ebuild}  | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename sys-kernel/calculate-sources/{calculate-sources-4.1.3.ebuild => calculate-sources-4.1.6.ebuild} (100%)
 *** syncing rasdark
 *** synced rasdark
  * Sync succeeded

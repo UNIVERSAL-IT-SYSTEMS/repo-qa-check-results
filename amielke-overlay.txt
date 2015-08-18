@@ -10,35 +10,7 @@
 $ pmaint sync amielke-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/amielke/amielke-overlay
-   a2f4c5e..81773e2  master     -> origin/master
-Updating a2f4c5e..81773e2
-Fast-forward
- media-sound/alsa-driver/Manifest                   |   2 -
- media-sound/alsa-driver/alsa-driver-9999-r1.ebuild | 183 ------------------
- media-sound/alsa-driver/files/soc-core.patch       |  65 -------
- media-sound/banshee/Manifest                       |   2 -
- media-sound/banshee/banshee-9999.ebuild            | 163 ----------------
- .../files/banshee-1.7.4-make-webkit-optional.patch |  54 ------
- media-sound/gmusicbrowser/Manifest                 |   2 -
- .../gmusicbrowser/gmusicbrowser-1.1.7.ebuild       |  58 ------
- sys-fs/sysfsutils/ChangeLog                        | 209 ---------------------
- sys-fs/sysfsutils/Manifest                         |   4 -
- sys-fs/sysfsutils/metadata.xml                     |   9 -
- sys-fs/sysfsutils/sysfsutils-2.1.0-r1.ebuild       |  40 ----
- 12 files changed, 791 deletions(-)
- delete mode 100644 media-sound/alsa-driver/Manifest
- delete mode 100644 media-sound/alsa-driver/alsa-driver-9999-r1.ebuild
- delete mode 100644 media-sound/alsa-driver/files/soc-core.patch
- delete mode 100644 media-sound/banshee/Manifest
- delete mode 100644 media-sound/banshee/banshee-9999.ebuild
- delete mode 100644 media-sound/banshee/files/banshee-1.7.4-make-webkit-optional.patch
- delete mode 100644 media-sound/gmusicbrowser/Manifest
- delete mode 100644 media-sound/gmusicbrowser/gmusicbrowser-1.1.7.ebuild
- delete mode 100644 sys-fs/sysfsutils/ChangeLog
- delete mode 100644 sys-fs/sysfsutils/Manifest
- delete mode 100644 sys-fs/sysfsutils/metadata.xml
- delete mode 100644 sys-fs/sysfsutils/sysfsutils-2.1.0-r1.ebuild
+Already up-to-date.
 *** syncing amielke-overlay
 *** synced amielke-overlay
  * Sync succeeded

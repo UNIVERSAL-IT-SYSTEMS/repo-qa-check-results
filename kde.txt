@@ -14,11 +14,12 @@
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/kde
-   c4d16ec..b83ced6  master     -> origin/master
-Updating c4d16ec..b83ced6
+   b83ced6..d3291e7  master     -> origin/master
+Updating b83ced6..d3291e7
 Fast-forward
- eclass/kde5.eclass | 44 +++++++++++++++++++++++++++++++++++++++++++-
- 1 file changed, 43 insertions(+), 1 deletion(-)
+ eclass/kde4-base.eclass | 43 ++++++++++++++++++++++++++++++++++++++++++-
+ eclass/kde5.eclass      |  1 -
+ 2 files changed, 42 insertions(+), 2 deletions(-)
 *** syncing kde
 *** synced kde
  * Sync succeeded
