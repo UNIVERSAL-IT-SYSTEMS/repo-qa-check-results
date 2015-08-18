@@ -17,22 +17,24 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   3a955da..05759ad  master     -> origin/master
-Updating 3a955da..05759ad
+   05759ad..365e3ea  master     -> origin/master
+Updating 05759ad..365e3ea
 Fast-forward
- net-libs/gsoap/Manifest                            |   3 +-
- net-libs/gsoap/gsoap-2.8.21.ebuild                 |  72 ---
- .../{gsoap-2.8.19.ebuild => gsoap-2.8.23.ebuild}   |  20 +-
- sys-fs/udev/udev-208-r1.ebuild                     | 522 ---------------------
- sys-fs/udev/udev-220-r1.ebuild                     | 507 --------------------
- .../{udev-220-r2.ebuild => udev-224-r2.ebuild}     | 136 ++----
- sys-fs/udev/udev-9999.ebuild                       |   3 +-
- 7 files changed, 43 insertions(+), 1220 deletions(-)
- delete mode 100644 net-libs/gsoap/gsoap-2.8.21.ebuild
- rename net-libs/gsoap/{gsoap-2.8.19.ebuild => gsoap-2.8.23.ebuild} (80%)
- delete mode 100644 sys-fs/udev/udev-208-r1.ebuild
- delete mode 100644 sys-fs/udev/udev-220-r1.ebuild
- rename sys-fs/udev/{udev-220-r2.ebuild => udev-224-r2.ebuild} (81%)
+ app-text/pandoc/pandoc-1.12.1.ebuild               |  69 --------------
+ dev-haskell/semigroups/semigroups-0.11-r1.ebuild   |  34 +++++++
+ dev-java/gson/gson-2.3.1.ebuild                    |   2 +-
+ dev-python/django/Manifest                         |   6 +-
+ dev-python/django/django-1.4.22.ebuild             | 104 ++++++++++++++++++++
+ .../{django-1.5.10.ebuild => django-1.5.12.ebuild} |   2 +-
+ dev-python/django/django-1.7.10.ebuild             | 105 +++++++++++++++++++++
+ .../{django-1.8.3.ebuild => django-1.8.4.ebuild}   |   0
+ 8 files changed, 249 insertions(+), 73 deletions(-)
+ delete mode 100644 app-text/pandoc/pandoc-1.12.1.ebuild
+ create mode 100644 dev-haskell/semigroups/semigroups-0.11-r1.ebuild
+ create mode 100644 dev-python/django/django-1.4.22.ebuild
+ rename dev-python/django/{django-1.5.10.ebuild => django-1.5.12.ebuild} (95%)
+ create mode 100644 dev-python/django/django-1.7.10.ebuild
+ rename dev-python/django/{django-1.8.3.ebuild => django-1.8.4.ebuild} (100%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
