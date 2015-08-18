@@ -17,15 +17,11 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   ab672e8..40140f8  master     -> origin/master
-Updating ab672e8..40140f8
+   40140f8..383b782  master     -> origin/master
+Updating 40140f8..383b782
 Fast-forward
- app-backup/spideroak-bin/Manifest                 |  2 +
- app-backup/spideroak-bin/spideroak-bin-6.0.ebuild | 94 +++++++++++++++++++++++
- app-office/calligra/calligra-2.8.7.ebuild         | 20 ++---
- app-office/calligra/calligra-9999.ebuild          | 20 ++---
- 4 files changed, 118 insertions(+), 18 deletions(-)
- create mode 100644 app-backup/spideroak-bin/spideroak-bin-6.0.ebuild
+ profiles/base/package.use.mask | 5 +++++
+ 1 file changed, 5 insertions(+)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
