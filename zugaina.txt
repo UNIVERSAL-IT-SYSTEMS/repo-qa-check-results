@@ -18,13 +18,13 @@ Total file size: 3.20M bytes
 Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
-File list size: 39.51K
+File list size: 41.13K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 603
 Total bytes received: 51.10K
 
-sent 603 bytes  received 51.10K bytes  20.68K bytes/sec
+sent 603 bytes  received 51.10K bytes  14.77K bytes/sec
 total size is 3.20M  speedup is 61.91
 *** syncing zugaina
 *** synced zugaina
@@ -32,8 +32,4 @@ total size is 3.20M  speedup is 61.91
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 zugaina
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 28701, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+ * Cache regenerated successfully

@@ -17,23 +17,7 @@ WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profil
 WARNING:pkgcore:repository at location '/home/mgorny/sync/eigenlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/user/emery
-   07f3dab..1cfb2fe  master     -> origin/master
-Updating 07f3dab..1cfb2fe
-Fast-forward
- net-irc/znc/Manifest          |   1 +
- net-irc/znc/files/znc.confd   |   7 ++
- net-irc/znc/files/znc.initd   |  39 +++++++++++
- net-irc/znc/files/znc.service |   9 +++
- net-irc/znc/metadata.xml      |  12 ++++
- net-irc/znc/znc-1.6.0.ebuild  | 155 ++++++++++++++++++++++++++++++++++++++++++
- 6 files changed, 223 insertions(+)
- create mode 100644 net-irc/znc/Manifest
- create mode 100644 net-irc/znc/files/znc.confd
- create mode 100644 net-irc/znc/files/znc.initd
- create mode 100644 net-irc/znc/files/znc.service
- create mode 100644 net-irc/znc/metadata.xml
- create mode 100644 net-irc/znc/znc-1.6.0.ebuild
+Already up-to-date.
 *** syncing emery
 *** synced emery
  * Sync succeeded
