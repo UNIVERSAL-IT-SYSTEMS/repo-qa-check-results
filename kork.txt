@@ -56,8 +56,8 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for ruby failed
 
-sandbox:stop  caught signal 15 in pid 3795
+sandbox:stop  caught signal 15 in pid 32491
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, ruby cannot be found while processing ebuild src: app-office/ekee-2.0.2
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-office/ekee-2.0.2, attr description\nerror: Metadata Exception: pkg ebuild src: app-office/ekee-2.0.2, attr data\nerror: inherit requires an unknown eclass, ruby cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-office/ekee-2.0.2' @0x7f605e098190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-office/ekee-2.0.2, attr description\nerror: Metadata Exception: pkg ebuild src: app-office/ekee-2.0.2, attr data\nerror: inherit requires an unknown eclass, ruby cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-office/ekee-2.0.2' @0x7f3b25891190>)
  * Cache regen failed with 65
