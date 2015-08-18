@@ -9,19 +9,7 @@
  'status': 'unofficial'}
 $ pmaint sync quarks
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://www.startux.de/quarks
-   4803b48..e53153f  master     -> origin/master
-Updating 4803b48..e53153f
-Fast-forward
- dev-perl/Parse-Win32Registry/Manifest                |  2 ++
- .../Parse-Win32Registry-1.0.ebuild                   | 20 ++++++++++++++++++++
- perl-gcpan/Parse-Win32Registry/Manifest              |  2 --
- .../Parse-Win32Registry-0.60.ebuild                  | 18 ------------------
- 4 files changed, 22 insertions(+), 20 deletions(-)
- create mode 100644 dev-perl/Parse-Win32Registry/Manifest
- create mode 100644 dev-perl/Parse-Win32Registry/Parse-Win32Registry-1.0.ebuild
- delete mode 100644 perl-gcpan/Parse-Win32Registry/Manifest
- delete mode 100644 perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild
+Already up-to-date.
 *** syncing quarks
 *** synced quarks
  * Sync succeeded
