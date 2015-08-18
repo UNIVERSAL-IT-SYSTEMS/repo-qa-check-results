@@ -107,9 +107,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-devel/gcc-4.9.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-devel/gcc-2.95.3-r10 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 WARNING: 'use' function invoked by sys-devel/gcc-3.3.6-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
@@ -194,4 +191,6 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-devel/gcc-4.9.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
- * Cache regenerated successfully
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sys-devel/gcc-2.95.3-r10, attr description\nerror: Metadata Exception: pkg ebuild src: sys-devel/gcc-2.95.3-r10, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sys-devel/gcc-2.95.3-r10' @0x7f162bcb8b90>)
+coms error in 7944, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
