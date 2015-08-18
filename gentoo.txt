@@ -16,26 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   da3d0dd..8bb4548  master     -> origin/master
-Updating da3d0dd..8bb4548
-Fast-forward
- app-shells/bash/bash-4.3_p39.ebuild                |   2 +-
- ...0.80-impl-dec.patch => mtr-0.80-impl-dec.patch} |   0
- .../files/{0.85-gtk.patch => mtr-0.85-gtk.patch}   |   0
- net-analyzer/mtr/files/mtr-9999-tinfo.patch        |  11 +
- net-analyzer/mtr/mtr-9999.ebuild                   |   5 +-
- sys-apps/pciutils/pciutils-3.3.1.ebuild            |   2 +-
- sys-apps/smartmontools/smartmontools-6.4.ebuild    |   2 +-
- sys-libs/libcap-ng/libcap-ng-0.7.7.ebuild          |   2 +-
- sys-process/audit/audit-2.4.3-r1.ebuild            | 225 +++++++++++++++++++++
- sys-process/audit/files/auditd-init.d-2.4.3        |  91 +++++++++
- 10 files changed, 334 insertions(+), 6 deletions(-)
- rename net-analyzer/mtr/files/{0.80-impl-dec.patch => mtr-0.80-impl-dec.patch} (100%)
- rename net-analyzer/mtr/files/{0.85-gtk.patch => mtr-0.85-gtk.patch} (100%)
- create mode 100644 net-analyzer/mtr/files/mtr-9999-tinfo.patch
- create mode 100644 sys-process/audit/audit-2.4.3-r1.ebuild
- create mode 100644 sys-process/audit/files/auditd-init.d-2.4.3
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
