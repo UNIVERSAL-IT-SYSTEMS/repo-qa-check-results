@@ -15,7 +15,14 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/jorgicio/jorgicio-gentoo
+   46607b6..e8d8dce  master     -> origin/master
+Updating 46607b6..e8d8dce
+Fast-forward
+ app-laptop/prey/Manifest          |  1 +
+ app-laptop/prey/prey-1.4.1.ebuild | 47 +++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 48 insertions(+)
+ create mode 100644 app-laptop/prey/prey-1.4.1.ebuild
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
