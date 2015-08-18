@@ -10,26 +10,30 @@ $ pmaint sync zugaina
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 
 receiving incremental file list
+profiles/
+deleting profiles/repo_name
 
-Number of files: 2,751 (reg: 2,215, dir: 536)
+Number of files: 2,750 (reg: 2,214, dir: 536)
 Number of created files: 0
 Number of regular files transferred: 0
 Total file size: 3.50M bytes
 Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
-File list size: 45.69K
+File list size: 48.69K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 615
+Total bytes sent: 620
 Total bytes received: 53.12K
 
-sent 615 bytes  received 53.12K bytes  7.17K bytes/sec
-total size is 3.50M  speedup is 65.13
+sent 620 bytes  received 53.12K bytes  15.35K bytes/sec
+total size is 3.50M  speedup is 65.12
 *** syncing zugaina
 *** synced zugaina
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 zugaina
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

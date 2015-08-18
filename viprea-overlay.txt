@@ -18,7 +18,9 @@ Already up-to-date.
 *** synced viprea-overlay
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 viprea-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: net-misc/turpial-1.6.9 failed.
@@ -69,5 +71,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-misc/turpial-1.6.9
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/turpial-1.6.9, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/turpial-1.6.9, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/turpial-1.6.9' @0x7ff104ba2a50>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/turpial-1.6.9, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/turpial-1.6.9, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/turpial-1.6.9' @0x7fc302c82a50>)
  * Cache regen failed with 65

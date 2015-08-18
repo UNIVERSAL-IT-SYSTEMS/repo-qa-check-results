@@ -46,7 +46,9 @@ total size is 1.22M  speedup is 47.38
 *** synced swegener
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 swegener
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: gnome-extra/brightside-1.4.0 failed.
@@ -89,5 +91,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/brightside-1.4.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='gnome-extra/brightside-1.4.0' @0x7f981f360550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='gnome-extra/brightside-1.4.0' @0x7f8051878550>)
  * Cache regen failed with 65
