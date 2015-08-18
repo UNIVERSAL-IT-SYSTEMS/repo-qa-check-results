@@ -16,19 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   a08106e..78072d2  master     -> origin/master
-Updating a08106e..78072d2
-Fast-forward
- eclass/gtk-sharp-module.eclass                     |  2 +
- media-video/bino/Manifest                          |  2 -
- media-video/bino/bino-1.4.2-r1.ebuild              | 70 ----------------------
- media-video/bino/bino-1.4.4.ebuild                 | 70 ----------------------
- .../{bino-1.6.1.ebuild => bino-1.6.1-r1.ebuild}    | 11 +++-
- 5 files changed, 10 insertions(+), 145 deletions(-)
- delete mode 100644 media-video/bino/bino-1.4.2-r1.ebuild
- delete mode 100644 media-video/bino/bino-1.4.4.ebuild
- rename media-video/bino/{bino-1.6.1.ebuild => bino-1.6.1-r1.ebuild} (86%)
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
