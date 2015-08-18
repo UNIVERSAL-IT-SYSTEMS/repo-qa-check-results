@@ -193,7 +193,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 24462
+sandbox:stop  caught signal 15 in pid 21151
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: net-p2p/freicoin-qt-0.8.6.1 failed.
@@ -224,12 +224,12 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-p2p/freicoin-qt-0.8.6.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.3-r1, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.3-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.28.3-r1' @0x7ff737038b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.3-r1, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.3-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.28.3-r1' @0x7f7d3ca9fb90>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.4, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.4, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.28.4' @0x7ff737038e10>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.4, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.4, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.28.4' @0x7f7d3ca9fe10>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-text/gistp-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-text/gistp-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-text/gistp-9999' @0x7ff7344e1190>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-benchmarks/cuda_dgemmSweep-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-benchmarks/cuda_dgemmSweep-9999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-benchmarks/cuda_dgemmSweep-9999' @0x7ff7344f3410>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-text/gistp-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-text/gistp-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-text/gistp-9999' @0x7f7d39f48190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-benchmarks/cuda_dgemmSweep-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-benchmarks/cuda_dgemmSweep-9999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-benchmarks/cuda_dgemmSweep-9999' @0x7f7d39f5a410>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-p2p/freicoin-qt-0.8.6.1, attr description\nerror: Metadata Exception: pkg ebuild src: net-p2p/freicoin-qt-0.8.6.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-p2p/freicoin-qt-0.8.6.1' @0x7ff7344f3b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-p2p/freicoin-qt-0.8.6.1, attr description\nerror: Metadata Exception: pkg ebuild src: net-p2p/freicoin-qt-0.8.6.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-p2p/freicoin-qt-0.8.6.1' @0x7f7d39f5ab90>)
  * Cache regen failed with 65
