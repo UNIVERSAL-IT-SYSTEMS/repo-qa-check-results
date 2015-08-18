@@ -17,11 +17,22 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   bb16fc1..3a955da  master     -> origin/master
-Updating bb16fc1..3a955da
+   3a955da..05759ad  master     -> origin/master
+Updating 3a955da..05759ad
 Fast-forward
- kde-base/pykde4/pykde4-4.14.3.ebuild | 3 ++-
- 1 file changed, 2 insertions(+), 1 deletion(-)
+ net-libs/gsoap/Manifest                            |   3 +-
+ net-libs/gsoap/gsoap-2.8.21.ebuild                 |  72 ---
+ .../{gsoap-2.8.19.ebuild => gsoap-2.8.23.ebuild}   |  20 +-
+ sys-fs/udev/udev-208-r1.ebuild                     | 522 ---------------------
+ sys-fs/udev/udev-220-r1.ebuild                     | 507 --------------------
+ .../{udev-220-r2.ebuild => udev-224-r2.ebuild}     | 136 ++----
+ sys-fs/udev/udev-9999.ebuild                       |   3 +-
+ 7 files changed, 43 insertions(+), 1220 deletions(-)
+ delete mode 100644 net-libs/gsoap/gsoap-2.8.21.ebuild
+ rename net-libs/gsoap/{gsoap-2.8.19.ebuild => gsoap-2.8.23.ebuild} (80%)
+ delete mode 100644 sys-fs/udev/udev-208-r1.ebuild
+ delete mode 100644 sys-fs/udev/udev-220-r1.ebuild
+ rename sys-fs/udev/{udev-220-r2.ebuild => udev-224-r2.ebuild} (81%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

@@ -13,12 +13,12 @@
 $ pmaint sync lisp
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/lisp
-   f78e231..c4b4fa9  master     -> origin/master
-Updating f78e231..c4b4fa9
+   c4b4fa9..9cfb13a  master     -> origin/master
+Updating c4b4fa9..9cfb13a
 Fast-forward
- dev-scheme/jazzscheme/Manifest              |  2 +-
- dev-scheme/jazzscheme/jazzscheme-999.ebuild | 10 +++++-----
- 2 files changed, 6 insertions(+), 6 deletions(-)
+ app-emacs/geiser/Manifest          | 4 ++--
+ app-emacs/geiser/geiser-999.ebuild | 6 +++---
+ 2 files changed, 5 insertions(+), 5 deletions(-)
 *** syncing lisp
 *** synced lisp
  * Sync succeeded
@@ -41,46 +41,57 @@ WARNING: 'use' function invoked by dev-scheme/larceny-9999 during metadata regen
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 
-!!! ERROR: app-emacs/geiser-999 failed.
+!!! ERROR: dev-lisp/fsbv-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '157' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '150' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
-!!!              geiser-999.ebuild, line  12:  Called inherit 'git'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
+!!!               fsbv-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
 
-!!! ERROR: app-emacs/slime-2.0_p20130214 failed.
+!!! ERROR: dev-lisp/gsd-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '206' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '145' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/app-emacs/slime/slime-2.0_p20130214.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/app-emacs/slime/slime-2.0_p20130214.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/app-emacs/slime/slime-2.0_p20130214.ebuild'
-!!!     slime-2.0_p20130214.ebuild, line   7:  Called inherit 'common-lisp-3' 'elisp' 'eutils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'elisp'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
+!!!                gsd-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 161' for eclass elisp
+!!!  unknown inherit command from pythonic side, 'gen_metadata 150' for eclass git
 
-received unknown com: export CATEGORY='app-emacs' PR=r0 PVR='2.11' PV='2.11' EBUILD='/home/mgorny/repos/lisp/app-emacs/slime/slime-2.11.ebuild' P='slime-2.11' PF='slime-2.11' PN=slimepath
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-emacs/geiser-999
+received unknown com: export CATEGORY='dev-lisp' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild' P='gsll-9999' PF='gsll-9999' PN=gsllfailed
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/fsbv-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-emacs/slime-2.0_p20130214
+!!! caught exception False while processing ebuild src: dev-lisp/garbage-pools-0.1.2
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/gcl-2.6.8_pre20090419-r1, attr eapi
+error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/gcl-2.6.8_pre20090419-r1
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/gcl-2.7.0_alpha, attr eapi
+error: parsed eapi '1' doesn't match sourced eapi '2' while processing ebuild src: dev-lisp/gcl-2.7.0_alpha
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/genhash-1.7, attr eapi
+error: parsed eapi '0' doesn't match sourced eapi '1' while processing ebuild src: dev-lisp/genhash-1.7
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/graylex-9999, attr eapi
+error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/graylex-9999
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/gsd-9999, attr eapi
+error: parsed eapi '2' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/gsd-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/gsll-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-emacs/slime-2.11
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-emacs/slime-2.12
+!!! caught exception False while processing ebuild src: dev-lisp/html-encode-1.2
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-lisp/html-template-0.9.1
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
