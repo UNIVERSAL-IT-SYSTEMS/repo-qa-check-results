@@ -10,7 +10,35 @@
 $ pmaint sync amielke-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/amielke/amielke-overlay
+   a2f4c5e..81773e2  master     -> origin/master
+Updating a2f4c5e..81773e2
+Fast-forward
+ media-sound/alsa-driver/Manifest                   |   2 -
+ media-sound/alsa-driver/alsa-driver-9999-r1.ebuild | 183 ------------------
+ media-sound/alsa-driver/files/soc-core.patch       |  65 -------
+ media-sound/banshee/Manifest                       |   2 -
+ media-sound/banshee/banshee-9999.ebuild            | 163 ----------------
+ .../files/banshee-1.7.4-make-webkit-optional.patch |  54 ------
+ media-sound/gmusicbrowser/Manifest                 |   2 -
+ .../gmusicbrowser/gmusicbrowser-1.1.7.ebuild       |  58 ------
+ sys-fs/sysfsutils/ChangeLog                        | 209 ---------------------
+ sys-fs/sysfsutils/Manifest                         |   4 -
+ sys-fs/sysfsutils/metadata.xml                     |   9 -
+ sys-fs/sysfsutils/sysfsutils-2.1.0-r1.ebuild       |  40 ----
+ 12 files changed, 791 deletions(-)
+ delete mode 100644 media-sound/alsa-driver/Manifest
+ delete mode 100644 media-sound/alsa-driver/alsa-driver-9999-r1.ebuild
+ delete mode 100644 media-sound/alsa-driver/files/soc-core.patch
+ delete mode 100644 media-sound/banshee/Manifest
+ delete mode 100644 media-sound/banshee/banshee-9999.ebuild
+ delete mode 100644 media-sound/banshee/files/banshee-1.7.4-make-webkit-optional.patch
+ delete mode 100644 media-sound/gmusicbrowser/Manifest
+ delete mode 100644 media-sound/gmusicbrowser/gmusicbrowser-1.1.7.ebuild
+ delete mode 100644 sys-fs/sysfsutils/ChangeLog
+ delete mode 100644 sys-fs/sysfsutils/Manifest
+ delete mode 100644 sys-fs/sysfsutils/metadata.xml
+ delete mode 100644 sys-fs/sysfsutils/sysfsutils-2.1.0-r1.ebuild
 *** syncing amielke-overlay
 *** synced amielke-overlay
  * Sync succeeded
@@ -18,46 +46,46 @@ $ pmaint regen --use-local-desc --pkg-desc-index -t 1 amielke-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
-!!! ERROR: media-sound/alsa-driver-9999-r1 failed.
+!!! ERROR: media-plugins/banshee-community-extensions-9999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '215' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-sound/alsa-driver/alsa-driver-9999-r1.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-sound/alsa-driver/alsa-driver-9999-r1.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-sound/alsa-driver/alsa-driver-9999-r1.ebuild'
-!!!     alsa-driver-9999-r1.ebuild, line   5:  Called inherit 'linux-mod' 'flag-o-matic' 'eutils' 'multilib' 'autotools' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
+!!!                         ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!                         ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!                         ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '293' 'depend'
+!!!                         ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                                 ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/banshee-community-extensions/banshee-community-extensions-9999.ebuild'
+!!!                                 ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/banshee-community-extensions/banshee-community-extensions-9999.ebuild'
+!!!                     isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/banshee-community-extensions/banshee-community-extensions-9999.ebuild'
+!!!   banshee-community-extensions-9999.ebuild, line   7:  Called inherit 'base' 'mono' 'git' 'autotools'
+!!!               ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                          ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
 
-!!! ERROR: media-sound/banshee-9999 failed.
+!!! ERROR: media-plugins/vdr-burn-0.2.0_beta4 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '182' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '232' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-sound/banshee/banshee-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-sound/banshee/banshee-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-sound/banshee/banshee-9999.ebuild'
-!!!            banshee-9999.ebuild, line   7:  Called inherit 'eutils' 'autotools' 'mono' 'gnome2-utils' 'fdo-mime' 'versionator' 'git-2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mono'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-burn/vdr-burn-0.2.0_beta4.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-burn/vdr-burn-0.2.0_beta4.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/amielke-overlay/media-plugins/vdr-burn/vdr-burn-0.2.0_beta4.ebuild'
+!!!    vdr-burn-0.2.0_beta4.ebuild, line   7:  Called inherit 'vdr-plugin' 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 221' for eclass mono
+!!!  unknown inherit command from pythonic side, 'gen_metadata 237' for eclass vdr-plugin
 
-received unknown com: export CATEGORY='media-sound' PR=r0 PVR='1.1.7' PV='1.1.7' EBUILD='/home/mgorny/repos/amielke-overlay/media-sound/gmusicbrowser/gmusicbrowser-1.1.7.ebuild' P='gmusicbrowser-1.1.7' PF='gmusicbrowser-1.1.7' PN=gmusicbrowserpath
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/alsa-driver-9999-r1
+received unknown com: export CATEGORY='media-plugins' PR=r0 PVR='0.0.2' PV='0.0.2' EBUILD='/home/mgorny/repos/amielke-overlay/media-plugins/vdr-coverviewer/vdr-coverviewer-0.0.2.ebuild' P='vdr-coverviewer-0.0.2' PF='vdr-coverviewer-0.0.2' PN='vdr-coverviewer'path
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-plugins/banshee-community-extensions-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-sound/banshee-9999
+!!! caught exception False while processing ebuild src: media-plugins/vdr-burn-0.2.0_beta4
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-sound/gmusicbrowser-1.1.7
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-fs/sysfsutils-2.1.0-r1
+!!! caught exception False while processing ebuild src: media-plugins/vdr-coverviewer-0.0.2
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-plugins/vdr-extrecmenu-1.2
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
