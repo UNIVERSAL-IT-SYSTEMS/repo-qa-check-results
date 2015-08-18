@@ -11,7 +11,15 @@
 $ pmaint sync mva
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/msva/mva-overlay
+   ae519fa..fa8c5e5  master     -> origin/master
+Updating ae519fa..fa8c5e5
+Fast-forward
+ dev-util/android-studio/android-studio-141.2135290.ebuild              | 2 +-
+ www-client/yandex-browser-beta/Manifest                                | 3 +--
+ ...311.3894_p1.ebuild => yandex-browser-beta-15.9.2403.2150_p1.ebuild} | 2 +-
+ 3 files changed, 3 insertions(+), 4 deletions(-)
+ rename www-client/yandex-browser-beta/{yandex-browser-beta-15.6.2311.3894_p1.ebuild => yandex-browser-beta-15.9.2403.2150_p1.ebuild} (96%)
 *** syncing mva
 *** synced mva
  * Sync succeeded
