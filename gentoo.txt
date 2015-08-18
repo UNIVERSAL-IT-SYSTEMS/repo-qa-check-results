@@ -17,24 +17,20 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   05759ad..365e3ea  master     -> origin/master
-Updating 05759ad..365e3ea
+   365e3ea..4a7a471  master     -> origin/master
+Updating 365e3ea..4a7a471
 Fast-forward
- app-text/pandoc/pandoc-1.12.1.ebuild               |  69 --------------
- dev-haskell/semigroups/semigroups-0.11-r1.ebuild   |  34 +++++++
- dev-java/gson/gson-2.3.1.ebuild                    |   2 +-
- dev-python/django/Manifest                         |   6 +-
- dev-python/django/django-1.4.22.ebuild             | 104 ++++++++++++++++++++
- .../{django-1.5.10.ebuild => django-1.5.12.ebuild} |   2 +-
- dev-python/django/django-1.7.10.ebuild             | 105 +++++++++++++++++++++
- .../{django-1.8.3.ebuild => django-1.8.4.ebuild}   |   0
- 8 files changed, 249 insertions(+), 73 deletions(-)
- delete mode 100644 app-text/pandoc/pandoc-1.12.1.ebuild
- create mode 100644 dev-haskell/semigroups/semigroups-0.11-r1.ebuild
- create mode 100644 dev-python/django/django-1.4.22.ebuild
- rename dev-python/django/{django-1.5.10.ebuild => django-1.5.12.ebuild} (95%)
- create mode 100644 dev-python/django/django-1.7.10.ebuild
- rename dev-python/django/{django-1.8.3.ebuild => django-1.8.4.ebuild} (100%)
+ .../files/libkdcraw-4.14.3-libraw-0.16.1.patch     |  18 ++
+ kde-apps/libkdcraw/libkdcraw-4.14.3-r1.ebuild      |  18 ++
+ net-wireless/gnuradio/Manifest                     |   1 +
+ net-wireless/gnuradio/gnuradio-3.7.8.ebuild        | 231 +++++++++++++++++++++
+ net-wireless/gnuradio/gnuradio-9999.ebuild         |   6 +-
+ sys-cluster/galera/Manifest                        |   2 +-
+ sys-cluster/galera/galera-25.3.10.ebuild           |  26 +--
+ 7 files changed, 281 insertions(+), 21 deletions(-)
+ create mode 100644 kde-apps/libkdcraw/files/libkdcraw-4.14.3-libraw-0.16.1.patch
+ create mode 100644 kde-apps/libkdcraw/libkdcraw-4.14.3-r1.ebuild
+ create mode 100644 net-wireless/gnuradio/gnuradio-3.7.8.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

@@ -12,8 +12,6 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/lordvan.git'}],
  'status': 'unofficial'}
 $ pmaint sync lordvan
-WARNING:pkgcore:repository at location '/home/mgorny/sync/interactive-fiction' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing lordvan
@@ -87,5 +85,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-misc/labyrinth-0.4.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-misc/labyrinth-0.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: app-misc/labyrinth-0.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-misc/labyrinth-0.4.0' @0x7f7108210b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-misc/labyrinth-0.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: app-misc/labyrinth-0.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-misc/labyrinth-0.4.0' @0x7f802e822b90>)
  * Cache regen failed with 1
