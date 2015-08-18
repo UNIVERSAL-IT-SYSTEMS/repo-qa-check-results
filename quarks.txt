@@ -9,7 +9,19 @@
  'status': 'unofficial'}
 $ pmaint sync quarks
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://www.startux.de/quarks
+   4803b48..e53153f  master     -> origin/master
+Updating 4803b48..e53153f
+Fast-forward
+ dev-perl/Parse-Win32Registry/Manifest                |  2 ++
+ .../Parse-Win32Registry-1.0.ebuild                   | 20 ++++++++++++++++++++
+ perl-gcpan/Parse-Win32Registry/Manifest              |  2 --
+ .../Parse-Win32Registry-0.60.ebuild                  | 18 ------------------
+ 4 files changed, 22 insertions(+), 20 deletions(-)
+ create mode 100644 dev-perl/Parse-Win32Registry/Manifest
+ create mode 100644 dev-perl/Parse-Win32Registry/Parse-Win32Registry-1.0.ebuild
+ delete mode 100644 perl-gcpan/Parse-Win32Registry/Manifest
+ delete mode 100644 perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild
 *** syncing quarks
 *** synced quarks
  * Sync succeeded
@@ -17,47 +29,5 @@ $ pmaint regen --use-local-desc --pkg-desc-index -t 1 quarks
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 http://launchpad.net/cairo-dock-core/2.4/2.4.0/+download/cairo-dock-2.4.0~2.tar.gz
-
-!!! ERROR: perl-gcpan/Parse-Win32Registry-0.60 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '237' 'depend'
-!!!                ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!   Parse-Win32Registry-0.60.ebuild, line   9:  Called inherit 'perl-module'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
 http://launchpad.net/cairo-dock-core/2.4/2.4.0/+download/cairo-dock-2.4.0~2.tar.gz
-
-!!! ERROR: perl-gcpan/Parse-Win32Registry-0.60 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!                ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!                ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '237' 'depend'
-!!!                ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                        ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!                        ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!   Parse-Win32Registry-0.60.ebuild, line   9:  Called inherit 'perl-module'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!            isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-gcpan/Parse-Win32Registry-0.60
-ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/Parse-Win32Registry-0.60, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/Parse-Win32Registry-0.60, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/Parse-Win32Registry-0.60' @0x7fe2fd4e1a50>)
- * Cache regen failed with 65
+ * Cache regenerated successfully
