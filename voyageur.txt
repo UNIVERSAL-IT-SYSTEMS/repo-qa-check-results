@@ -16,4 +16,6 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 voyageur
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-editors/texworks-0.4.6, attr description\nerror: Metadata Exception: pkg ebuild src: app-editors/texworks-0.4.6, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-editors/texworks-0.4.6' @0x7f58d3bacb90>)
+coms error in 19366, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
