@@ -8,6 +8,8 @@
  'status': 'official'}
 $ pmaint sync swegener
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Welcome To
         ____ _____ _____    _    _     _____ ____               _
@@ -41,7 +43,7 @@ Total bytes sent: 235
 Total bytes received: 25.57K
 
 sent 235 bytes  received 25.57K bytes  10.32K bytes/sec
-total size is 1.22M  speedup is 47.37
+total size is 1.22M  speedup is 47.38
 *** syncing swegener
 *** synced swegener
  * Sync succeeded
@@ -89,5 +91,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/brightside-1.4.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='gnome-extra/brightside-1.4.0' @0x7efd9197f550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='gnome-extra/brightside-1.4.0' @0x7f441d187550>)
  * Cache regen failed with 65
