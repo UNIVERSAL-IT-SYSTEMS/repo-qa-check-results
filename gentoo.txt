@@ -17,14 +17,17 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   530f6e7..bc58ae6  master     -> origin/master
-Updating 530f6e7..bc58ae6
+   bc58ae6..dfce88b  master     -> origin/master
+Updating bc58ae6..dfce88b
 Fast-forward
- media-sound/banshee/Manifest             |   1 +
- media-sound/banshee/banshee-2.6.2.ebuild | 150 +++++++++++++++++++++++++++++++
- media-sound/banshee/metadata.xml         |  20 ++---
- 3 files changed, 161 insertions(+), 10 deletions(-)
- create mode 100644 media-sound/banshee/banshee-2.6.2.ebuild
+ dev-java/htmlcleaner/metadata.xml              |  3 +++
+ dev-python/PyPDF2/metadata.xml                 |  1 +
+ dev-python/pytest-runner/metadata.xml          |  1 +
+ dev-python/pywavelets/metadata.xml             | 13 +++++++------
+ dev-python/sphinxcontrib-newsfeed/metadata.xml |  1 +
+ dev-python/sphinxcontrib-spelling/metadata.xml |  1 +
+ www-servers/xsp/metadata.xml                   |  5 ++++-
+ 7 files changed, 18 insertions(+), 7 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

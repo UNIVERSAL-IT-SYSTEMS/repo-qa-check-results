@@ -13,16 +13,7 @@
  'status': 'official'}
 $ pmaint sync dotnet
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/dotnet
-   611fd9e..0351cbb  master     -> origin/master
-Updating 611fd9e..0351cbb
-Fast-forward
- .../files/libgdiplus-2.10.9-freetype251.patch      | 12 +++++++
- .../files/libgdiplus-3.12-underlinking.patch       | 17 ++++++++++
- dev-dotnet/libgdiplus/libgdiplus-3.12.ebuild       | 39 +++++++++++-----------
- 3 files changed, 48 insertions(+), 20 deletions(-)
- create mode 100644 dev-dotnet/libgdiplus/files/libgdiplus-2.10.9-freetype251.patch
- create mode 100644 dev-dotnet/libgdiplus/files/libgdiplus-3.12-underlinking.patch
+Already up-to-date.
 *** syncing dotnet
 *** synced dotnet
  * Sync succeeded
