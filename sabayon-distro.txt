@@ -10,23 +10,7 @@
 $ pmaint sync sabayon-distro
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/Sabayon/sabayon-distro
-   c170eab..1580367  master     -> origin/master
-Updating c170eab..1580367
-Fast-forward
- sys-kernel/ec2-sources/Manifest                    |  1 +
- sys-kernel/ec2-sources/ec2-sources-3.14.51.ebuild  | 21 +++++++++++++++++++++
- sys-kernel/linux-ec2/Manifest                      |  1 +
- sys-kernel/linux-ec2/linux-ec2-3.14.51.ebuild      | 16 ++++++++++++++++
- sys-kernel/linux-sabayon/Manifest                  |  1 +
- .../linux-sabayon/linux-sabayon-3.14.51.ebuild     | 21 +++++++++++++++++++++
- sys-kernel/sabayon-sources/Manifest                |  1 +
- .../sabayon-sources/sabayon-sources-3.14.51.ebuild | 22 ++++++++++++++++++++++
- 8 files changed, 84 insertions(+)
- create mode 100644 sys-kernel/ec2-sources/ec2-sources-3.14.51.ebuild
- create mode 100644 sys-kernel/linux-ec2/linux-ec2-3.14.51.ebuild
- create mode 100644 sys-kernel/linux-sabayon/linux-sabayon-3.14.51.ebuild
- create mode 100644 sys-kernel/sabayon-sources/sabayon-sources-3.14.51.ebuild
+Already up-to-date.
 *** syncing sabayon-distro
 *** synced sabayon-distro
  * Sync succeeded
