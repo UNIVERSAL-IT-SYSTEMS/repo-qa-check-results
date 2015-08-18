@@ -13,14 +13,12 @@
 $ pmaint sync lisp
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/lisp
-   9cfb13a..8b72f9e  master     -> origin/master
-Updating 9cfb13a..8b72f9e
+   8b72f9e..88f4f0e  master     -> origin/master
+Updating 8b72f9e..88f4f0e
 Fast-forward
- dev-lisp/fsbv/Manifest         | 2 +-
- dev-lisp/fsbv/fsbv-9999.ebuild | 4 ++--
- dev-lisp/gsd/Manifest          | 2 +-
- dev-lisp/gsd/gsd-9999.ebuild   | 4 ++--
- 4 files changed, 6 insertions(+), 6 deletions(-)
+ dev-lisp/gsll/Manifest         | 2 +-
+ dev-lisp/gsll/gsll-9999.ebuild | 4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
 *** syncing lisp
 *** synced lisp
  * Sync succeeded
@@ -42,161 +40,19 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by dev-scheme/larceny-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use' function invoked by dev-scheme/chibi-scheme-0.6.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
 
-!!! ERROR: dev-lisp/gsll-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '150' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
-!!!               gsll-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
+WARNING: 'use' function invoked by dev-scheme/chibi-scheme-0.7 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
 
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/gsll-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lisp/html-encode-1.2
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/html-template-0.9.1, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/html-template-0.9.1
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/hunchentoot-1.2.15, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/hunchentoot-1.2.15
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/hyperobject-2.11.0, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/hyperobject-2.11.0
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/ieee-floats-0.1_pre20080922, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: dev-lisp/ieee-floats-0.1_pre20080922
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/iolib-0.7.3, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/iolib-0.7.3
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/irc-logger-0.9.4, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '3' while processing ebuild src: dev-lisp/irc-logger-0.9.4
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/ironclad-0.28, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/ironclad-0.28
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/ironclad-0.33.0, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '2' while processing ebuild src: dev-lisp/ironclad-0.33.0
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/iterate-1.4.3, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/iterate-1.4.3
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/iterate-9999, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/iterate-9999
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/kr-2.3.4, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/kr-2.3.4
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/let-plus-9999, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/let-plus-9999
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/levenshtein-1.0, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/levenshtein-1.0
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/lift-9999, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/lift-9999
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/linedit-0.15.12-r1, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/linedit-0.15.12-r1
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/linedit-0.17.0, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/linedit-0.17.0
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/lispbuilder-sdl-gfx-0.7.0, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/lispbuilder-sdl-gfx-0.7.0
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/lml-2.5.7, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '3' while processing ebuild src: dev-lisp/lml-2.5.7
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/local-time-1.0.1_p20100617, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/local-time-1.0.1_p20100617
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/local-time-1.0.5, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '3' while processing ebuild src: dev-lisp/local-time-1.0.5
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/log5-0.3.2, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/log5-0.3.2
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/ltk-0.91, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '3' while processing ebuild src: dev-lisp/ltk-0.91
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/ltk-0.981, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/ltk-0.981
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/lw-compat-0.23, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/lw-compat-0.23
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/madeira-port-9999, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/madeira-port-9999
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/mcclim-0.9.6-r3, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/mcclim-0.9.6-r3
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/metabang-bind-9999, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/metabang-bind-9999
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/metacopy-0.2-r1, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/metacopy-0.2-r1
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/montezuma-0.1.3, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/montezuma-0.1.3
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/mop-features-0.50, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '2' while processing ebuild src: dev-lisp/mop-features-0.50
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/named-readtables-0.9-r1, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/named-readtables-0.9-r1
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/named-readtables-9999, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '2' while processing ebuild src: dev-lisp/named-readtables-9999
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/net-telent-date-0.4.1-r1, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/net-telent-date-0.4.1-r1
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/newlisp-10.1.6, attr eapi
-error: parsed eapi '2' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/newlisp-10.1.6
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/newlisp-10.5.4, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '2' while processing ebuild src: dev-lisp/newlisp-10.5.4
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/nibbles-0.9, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/nibbles-0.9
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/nuclblog-0.5, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '3' while processing ebuild src: dev-lisp/nuclblog-0.5
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/osicat-0.6.0, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/osicat-0.6.0
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/parenscript-2.2, attr eapi
-error: parsed eapi '3' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/parenscript-2.2
-!!! caught exception Metadata Exception: pkg ebuild src: dev-
-!!! ERROR: dev-lisp/picolisp-3.1.6 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '179' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/picolisp/picolisp-3.1.6.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/picolisp/picolisp-3.1.6.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-lisp/picolisp/picolisp-3.1.6.ebuild'
-!!!          picolisp-3.1.6.ebuild, line   7:  Called inherit 'eutils' 'bash-completion-r1'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'bash-completion-r1'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 227' for eclass bash-completion-r1
+WARNING: 'use' function invoked by dev-scheme/larceny-petit-0.97 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
 
-received unknown com: export CATEGORY='dev-lisp' PR=r0 PVR=20081207 PV=20081207 EBUILD='/home/mgorny/repos/lisp/dev-lisp/plexippus-xpath/plexippus-xpath-20081207.ebuild' P='plexippus-xpath-20081207' PF='plexippus-xpath-20081207' PN='plexippus-xpath'path
-lisp/parenscript-9999, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '3' while processing ebuild src: dev-lisp/parenscript-9999
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/parse-number-1.2, attr eapi
-error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-lisp/parse-number-1.2
-!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/picolisp-3.1.6, attr eapi
-error: parsed eapi '5' doesn't match sourced eapi '0' while processing ebuild src: dev-lisp/picolisp-3.1.6
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-lisp/plexippus-xpath-20081207
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-lisp/png-0.4-r2
-Traceback (most recent call last):
-  File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
-    scripts.main(basename(__file__))
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/__init__.py", line 43, in main
-    commandline.main(subcommands)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/util/commandline.py", line 915, in main
-    exitstatus = main_func(options, out, err)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/pmaint.py", line 272, in regen_main
-    eclass_caching=(not options.disable_eclass_caching))
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/__init__.py", line 68, in _recast_exception_decorator
-    return functor(*args, **kwds)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/repo.py", line 236, in _cmd_api_regen_cache
-    self._get_observer(observer), threads=threads, **options)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 41, in regen_repository
-    regen_iter(passthru(repo), _get_repo_helper(), observer)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 529, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 825, in get_keys
-    {"key": receive_key})
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 758, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 456, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
- * Cache regen failed with 1
+WARNING: 'use' function invoked by dev-scheme/larceny-0.97 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-scheme/larceny-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+ * Cache regenerated successfully

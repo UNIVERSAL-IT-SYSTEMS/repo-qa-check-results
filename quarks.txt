@@ -9,17 +9,7 @@
  'status': 'unofficial'}
 $ pmaint sync quarks
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://www.startux.de/quarks
-   e53153f..5202509  master     -> origin/master
-Updating e53153f..5202509
-Fast-forward
- app-forensics/regripper/Manifest                   |  6 +--
- app-forensics/regripper/files/plugins_folder.patch | 25 ++++------
- app-forensics/regripper/regripper-20111118.ebuild  | 42 ----------------
- app-forensics/regripper/regripper-9999.ebuild      | 56 ++++++++++++++++++++++
- 4 files changed, 68 insertions(+), 61 deletions(-)
- delete mode 100644 app-forensics/regripper/regripper-20111118.ebuild
- create mode 100644 app-forensics/regripper/regripper-9999.ebuild
+Already up-to-date.
 *** syncing quarks
 *** synced quarks
  * Sync succeeded
