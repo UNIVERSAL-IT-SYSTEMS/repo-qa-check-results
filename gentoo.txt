@@ -17,24 +17,25 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   5a2420c..da3d0dd  master     -> origin/master
-Updating 5a2420c..da3d0dd
+   da3d0dd..8bb4548  master     -> origin/master
+Updating da3d0dd..8bb4548
 Fast-forward
- .../robotframework-selenium2library/Manifest       |   2 +-
- ...> robotframework-selenium2library-1.7.2.ebuild} |  19 ++-
- gnome-base/gnome-control-center/Manifest           |   1 +
- .../gnome-control-center-3.14.5-r1.ebuild          | 152 +++++++++++++++++++
- .../gnome-control-center-3.14.5.ebuild             |   2 +
- .../gnome-control-center-3.16.2-r1.ebuild          | 164 +++++++++++++++++++++
- .../gnome-control-center-3.16.2.ebuild             |   2 +
- .../avant-window-navigator-0.4.2.ebuild            |   9 +-
- www-client/opera/Manifest                          |   2 +-
- ....1835.125.ebuild => opera-31.0.1889.174.ebuild} |   0
- 10 files changed, 341 insertions(+), 12 deletions(-)
- rename dev-python/robotframework-selenium2library/{robotframework-selenium2library-1.5.0.ebuild => robotframework-selenium2library-1.7.2.ebuild} (58%)
- create mode 100644 gnome-base/gnome-control-center/gnome-control-center-3.14.5-r1.ebuild
- create mode 100644 gnome-base/gnome-control-center/gnome-control-center-3.16.2-r1.ebuild
- rename www-client/opera/{opera-30.0.1835.125.ebuild => opera-31.0.1889.174.ebuild} (100%)
+ app-shells/bash/bash-4.3_p39.ebuild                |   2 +-
+ ...0.80-impl-dec.patch => mtr-0.80-impl-dec.patch} |   0
+ .../files/{0.85-gtk.patch => mtr-0.85-gtk.patch}   |   0
+ net-analyzer/mtr/files/mtr-9999-tinfo.patch        |  11 +
+ net-analyzer/mtr/mtr-9999.ebuild                   |   5 +-
+ sys-apps/pciutils/pciutils-3.3.1.ebuild            |   2 +-
+ sys-apps/smartmontools/smartmontools-6.4.ebuild    |   2 +-
+ sys-libs/libcap-ng/libcap-ng-0.7.7.ebuild          |   2 +-
+ sys-process/audit/audit-2.4.3-r1.ebuild            | 225 +++++++++++++++++++++
+ sys-process/audit/files/auditd-init.d-2.4.3        |  91 +++++++++
+ 10 files changed, 334 insertions(+), 6 deletions(-)
+ rename net-analyzer/mtr/files/{0.80-impl-dec.patch => mtr-0.80-impl-dec.patch} (100%)
+ rename net-analyzer/mtr/files/{0.85-gtk.patch => mtr-0.85-gtk.patch} (100%)
+ create mode 100644 net-analyzer/mtr/files/mtr-9999-tinfo.patch
+ create mode 100644 sys-process/audit/audit-2.4.3-r1.ebuild
+ create mode 100644 sys-process/audit/files/auditd-init.d-2.4.3
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
