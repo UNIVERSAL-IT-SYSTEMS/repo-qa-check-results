@@ -17,15 +17,11 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   4a7a471..7bc2bba  master     -> origin/master
-Updating 4a7a471..7bc2bba
+   7bc2bba..dbe41d5  master     -> origin/master
+Updating 7bc2bba..dbe41d5
 Fast-forward
- dev-python/django-crispy-forms/Manifest            |  1 +
- .../django-crispy-forms-1.5.0.ebuild               | 28 ++++++++++++++++++++++
- sys-cluster/galera/files/garb.sh                   | 20 +++-------------
- sys-cluster/galera/galera-25.3.10.ebuild           |  8 +------
- 4 files changed, 33 insertions(+), 24 deletions(-)
- create mode 100644 dev-python/django-crispy-forms/django-crispy-forms-1.5.0.ebuild
+ profiles/package.mask | 5 +++++
+ 1 file changed, 5 insertions(+)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
