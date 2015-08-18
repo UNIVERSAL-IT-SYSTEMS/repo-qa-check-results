@@ -16,7 +16,17 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   12334d1..e011078  master     -> origin/master
+Updating 12334d1..e011078
+Fast-forward
+ app-admin/clsync/metadata.xml          | 1 -
+ media-libs/opencv/opencv-3.0.0.ebuild  | 2 +-
+ profiles/arch/arm64/use.mask           | 3 ---
+ profiles/arch/mips/use.mask            | 3 ---
+ profiles/arch/powerpc/package.use.mask | 9 ---------
+ profiles/use.desc                      | 2 +-
+ 6 files changed, 2 insertions(+), 18 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
