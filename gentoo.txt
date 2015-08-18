@@ -16,27 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   220144e..12334d1  master     -> origin/master
-Updating 220144e..12334d1
-Fast-forward
- app-admin/rsyslog/Manifest                         |   2 +
- .../40-rsyslog-fix-parallel-build-issue-479.patch  |  25 ++
- app-admin/rsyslog/rsyslog-8.12.0.ebuild            | 414 +++++++++++++++++++++
- .../commons-configuration-1.6-r1.ebuild            |  71 ----
- .../commons-configuration-1.6-r2.ebuild            |   2 +-
- .../commons-configuration-1.6.ebuild               |  71 ----
- dev-libs/liblognorm/Manifest                       |   1 +
- dev-libs/liblognorm/liblognorm-1.1.2.ebuild        |  52 +++
- dev-php/PEAR-Mail_Mime/Manifest                    |   1 +
- dev-php/PEAR-Mail_Mime/PEAR-Mail_Mime-1.9.0.ebuild |  17 +
- 10 files changed, 513 insertions(+), 143 deletions(-)
- create mode 100644 app-admin/rsyslog/files/8-stable/40-rsyslog-fix-parallel-build-issue-479.patch
- create mode 100644 app-admin/rsyslog/rsyslog-8.12.0.ebuild
- delete mode 100644 dev-java/commons-configuration/commons-configuration-1.6-r1.ebuild
- delete mode 100644 dev-java/commons-configuration/commons-configuration-1.6.ebuild
- create mode 100644 dev-libs/liblognorm/liblognorm-1.1.2.ebuild
- create mode 100644 dev-php/PEAR-Mail_Mime/PEAR-Mail_Mime-1.9.0.ebuild
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
