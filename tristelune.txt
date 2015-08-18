@@ -10,7 +10,17 @@
  'status': 'unofficial'}
 $ pmaint sync tristelune
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/tristelune1/tristelune-overlay
+   e86cf65..4bdb244  master     -> origin/master
+Updating e86cf65..4bdb244
+Fast-forward
+ media-libs/libupnpp/Manifest                                          | 4 ++--
+ .../libupnpp/{libupnpp-0.10.0.ebuild => libupnpp-0.12.1.ebuild}       | 0
+ media-sound/upplay/Manifest                                           | 4 ++--
+ media-sound/upplay/{upplay-0.10.0.ebuild => upplay-1.0.0.ebuild}      | 0
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+ rename media-libs/libupnpp/{libupnpp-0.10.0.ebuild => libupnpp-0.12.1.ebuild} (100%)
+ rename media-sound/upplay/{upplay-0.10.0.ebuild => upplay-1.0.0.ebuild} (100%)
 *** syncing tristelune
 *** synced tristelune
  * Sync succeeded

@@ -12,7 +12,13 @@
  'status': 'official'}
 $ pmaint sync lisp
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/lisp
+   f78e231..c4b4fa9  master     -> origin/master
+Updating f78e231..c4b4fa9
+Fast-forward
+ dev-scheme/jazzscheme/Manifest              |  2 +-
+ dev-scheme/jazzscheme/jazzscheme-999.ebuild | 10 +++++-----
+ 2 files changed, 6 insertions(+), 6 deletions(-)
 *** syncing lisp
 *** synced lisp
  * Sync succeeded
@@ -25,47 +31,56 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by dev-scheme/chibi-scheme-0.7 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+WARNING: 'use' function invoked by dev-scheme/larceny-petit-0.97 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
 
-!!! ERROR: dev-scheme/jazzscheme-999 failed.
+WARNING: 'use' function invoked by dev-scheme/larceny-0.97 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-scheme/larceny-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+
+!!! ERROR: app-emacs/geiser-999 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '179' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '157' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
-!!!          jazzscheme-999.ebuild, line   5:  Called inherit 'git'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
+!!!              geiser-999.ebuild, line  12:  Called inherit 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
 
-!!! ERROR: dev-scheme/kawa-1.9.90 failed.
+!!! ERROR: app-emacs/slime-2.0_p20130214 failed.
 !!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '168' 'depend'
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '206' 'depend'
 !!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/kawa/kawa-1.9.90.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/kawa/kawa-1.9.90.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/dev-scheme/kawa/kawa-1.9.90.ebuild'
-!!!             kawa-1.9.90.ebuild, line   9:  Called inherit 'eutils' 'java-pkg-2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'java-pkg-2'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/lisp/app-emacs/slime/slime-2.0_p20130214.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/app-emacs/slime/slime-2.0_p20130214.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/lisp/app-emacs/slime/slime-2.0_p20130214.ebuild'
+!!!     slime-2.0_p20130214.ebuild, line   7:  Called inherit 'common-lisp-3' 'elisp' 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'elisp'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 154' for eclass java-pkg-2
+!!!  unknown inherit command from pythonic side, 'gen_metadata 161' for eclass elisp
 
-received unknown com: export CATEGORY='dev-scheme' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/lisp/dev-scheme/kawa/kawa-9999.ebuild' P='kawa-9999' PF='kawa-9999' PN=kawapath
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-scheme/jazzscheme-999
+received unknown com: export CATEGORY='app-emacs' PR=r0 PVR='2.11' PV='2.11' EBUILD='/home/mgorny/repos/lisp/app-emacs/slime/slime-2.11.ebuild' P='slime-2.11' PF='slime-2.11' PN=slimepath
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-emacs/geiser-999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-scheme/kawa-1.9.90
+!!! caught exception False while processing ebuild src: app-emacs/slime-2.0_p20130214
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-scheme/kawa-9999
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-scheme/ksm-0.3.2
+!!! caught exception False while processing ebuild src: app-emacs/slime-2.11
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-emacs/slime-2.12
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
