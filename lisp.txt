@@ -13,12 +13,12 @@
 $ pmaint sync lisp
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/lisp
-   8b72f9e..88f4f0e  master     -> origin/master
-Updating 8b72f9e..88f4f0e
+   88f4f0e..aa4700d  master     -> origin/master
+Updating 88f4f0e..aa4700d
 Fast-forward
- dev-lisp/gsll/Manifest         | 2 +-
- dev-lisp/gsll/gsll-9999.ebuild | 4 ++--
- 2 files changed, 3 insertions(+), 3 deletions(-)
+ eclass/bash-completion-r1.eclass | 134 +++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 134 insertions(+)
+ create mode 100644 eclass/bash-completion-r1.eclass
 *** syncing lisp
 *** synced lisp
  * Sync succeeded
