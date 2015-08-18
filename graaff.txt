@@ -12,7 +12,26 @@
  'status': 'official'}
 $ pmaint sync graaff
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/graaff
+   f26c7d3..03ee22b  master     -> origin/master
+Updating f26c7d3..03ee22b
+Fast-forward
+ dev-ruby/compass-rails/Manifest                    |  5 +---
+ dev-ruby/compass-rails/compass-rails-1.1.7.ebuild  | 32 ---------------------
+ dev-ruby/compass-rails/compass-rails-2.0.0.ebuild  | 31 --------------------
+ dev-ruby/compass-rails/compass-rails-2.0.1.ebuild  | 31 --------------------
+ ...ils-2.0.2.ebuild => compass-rails-2.0.5.ebuild} |  4 +--
+ dev-ruby/googlecharts/Manifest                     |  1 +
+ dev-ruby/googlecharts/googlecharts-1.6.12.ebuild   | 20 +++++++++++++
+ dev-ruby/minitest-around/Manifest                  |  1 +
+ .../minitest-around/minitest-around-0.3.2.ebuild   | 33 ++++++++++++++++++++++
+ 9 files changed, 58 insertions(+), 100 deletions(-)
+ delete mode 100644 dev-ruby/compass-rails/compass-rails-1.1.7.ebuild
+ delete mode 100644 dev-ruby/compass-rails/compass-rails-2.0.0.ebuild
+ delete mode 100644 dev-ruby/compass-rails/compass-rails-2.0.1.ebuild
+ rename dev-ruby/compass-rails/{compass-rails-2.0.2.ebuild => compass-rails-2.0.5.ebuild} (85%)
+ create mode 100644 dev-ruby/googlecharts/googlecharts-1.6.12.ebuild
+ create mode 100644 dev-ruby/minitest-around/minitest-around-0.3.2.ebuild
 *** syncing graaff
 *** synced graaff
  * Sync succeeded
