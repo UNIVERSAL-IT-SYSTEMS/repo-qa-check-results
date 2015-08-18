@@ -16,7 +16,16 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   c030d44..75f3515  master     -> origin/master
+Updating c030d44..75f3515
+Fast-forward
+ dev-libs/ucommon/Manifest                          |  2 +-
+ .../{ucommon-6.1.8.ebuild => ucommon-6.5.2.ebuild} | 28 +++++++++++++---------
+ sys-libs/glibc/Manifest                            |  2 +-
+ sys-libs/glibc/glibc-2.22.ebuild                   |  2 +-
+ 4 files changed, 20 insertions(+), 14 deletions(-)
+ rename dev-libs/ucommon/{ucommon-6.1.8.ebuild => ucommon-6.5.2.ebuild} (72%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
