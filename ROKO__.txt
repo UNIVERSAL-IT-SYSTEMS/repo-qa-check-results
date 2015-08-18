@@ -18,6 +18,4 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 ROKO__
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-drivers/ati-drivers-14.12-r4, attr description\nerror: Metadata Exception: pkg ebuild src: x11-drivers/ati-drivers-14.12-r4, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-drivers/ati-drivers-14.12-r4' @0x7ff4aa760b90>)
-coms error in 20410, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 65
+ * Cache regenerated successfully

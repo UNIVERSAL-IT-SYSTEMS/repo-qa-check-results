@@ -16,27 +16,10 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   55c0a98..11d1ad1  master     -> origin/master
-Updating 55c0a98..11d1ad1
-Fast-forward
- net-misc/ipv6calc/ipv6calc-0.97.4.ebuild        |   2 +-
- net-misc/stunnel/stunnel-5.20.ebuild            |   2 +-
- sys-kernel/ck-sources/Manifest                  |   6 ++
- sys-kernel/ck-sources/ck-sources-3.10.87.ebuild | 107 ++++++++++++++++++++++++
- sys-kernel/ck-sources/ck-sources-3.14.51.ebuild | 105 +++++++++++++++++++++++
- 5 files changed, 220 insertions(+), 2 deletions(-)
- create mode 100644 sys-kernel/ck-sources/ck-sources-3.10.87.ebuild
- create mode 100644 sys-kernel/ck-sources/ck-sources-3.14.51.ebuild
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sys-kernel/ck-sources-3.10.87 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-kernel/ck-sources-3.14.51 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
