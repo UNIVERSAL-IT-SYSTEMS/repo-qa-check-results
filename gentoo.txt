@@ -17,13 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   dbe41d5..968317b  master     -> origin/master
-Updating dbe41d5..968317b
+   968317b..87376f9  master     -> origin/master
+Updating 968317b..87376f9
 Fast-forward
- app-emacs/python-mode/Manifest                 |  1 +
- app-emacs/python-mode/python-mode-6.2.0.ebuild | 22 ++++++++++++++++++++++
- 2 files changed, 23 insertions(+)
- create mode 100644 app-emacs/python-mode/python-mode-6.2.0.ebuild
+ sys-cluster/nova/files/CVE-2015-3241-kilo.patch    | 351 +++++++++++++++++++++
+ ...-2015.1.1-r1.ebuild => nova-2015.1.1-r2.ebuild} |   4 +-
+ 2 files changed, 354 insertions(+), 1 deletion(-)
+ create mode 100644 sys-cluster/nova/files/CVE-2015-3241-kilo.patch
+ rename sys-cluster/nova/{nova-2015.1.1-r1.ebuild => nova-2015.1.1-r2.ebuild} (98%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
