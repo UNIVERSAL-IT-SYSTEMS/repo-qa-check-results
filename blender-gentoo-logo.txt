@@ -23,4 +23,6 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 blender-gentoo-logo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-gfx/blender-2.26, attr description\nerror: Metadata Exception: pkg ebuild src: media-gfx/blender-2.26, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-gfx/blender-2.26' @0x7f18143fcb90>)
+coms error in 10495, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 65
