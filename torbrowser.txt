@@ -22,6 +22,4 @@ Already up-to-date.
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 torbrowser
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-misc/mat-0.5.3, attr description\nerror: Metadata Exception: pkg ebuild src: app-misc/mat-0.5.3, attr data\nerror: [Errno 13] Permission denied',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-misc/mat-0.5.3' @0x7fe4088dab90>)
-coms error in 29732, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 65
+ * Cache regenerated successfully
