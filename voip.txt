@@ -73,7 +73,7 @@ received unknown com: export CATEGORY='net-im' PR=r0 PVR='0.6.0' PV='0.6.0' EBUI
 !!! The die message:
 !!!  inherit for qt3 failed
 
-sandbox:stop  caught signal 15 in pid 8944
+sandbox:stop  caught signal 15 in pid 22567
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: net-voip/sflphone-0.7.2 failed.
@@ -92,7 +92,7 @@ Sandboxed process killed by signal: Terminated
 !!! The die message:
 !!!  inherit for qt3 failed
 
-sandbox:stop  caught signal 15 in pid 9307
+sandbox:stop  caught signal 15 in pid 22928
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: net-im/ihu-0.6.0 failed.
@@ -111,7 +111,7 @@ Sandboxed process killed by signal: Terminated
 !!! The die message:
 !!!  inherit for qt3 failed
 
-sandbox:stop  caught signal 15 in pid 9650
+sandbox:stop  caught signal 15 in pid 23315
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: net-misc/asterisk-1.4.21.2 failed.
@@ -130,7 +130,7 @@ Sandboxed process killed by signal: Terminated
 !!! The die message:
 !!!  inherit for qt3 failed
 
-sandbox:stop  caught signal 15 in pid 10041
+sandbox:stop  caught signal 15 in pid 23768
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: net-misc/asterisk-1.4.22.1 failed.
@@ -149,7 +149,7 @@ Sandboxed process killed by signal: Terminated
 !!! The die message:
 !!!  inherit for qt3 failed
 
-sandbox:stop  caught signal 15 in pid 10458
+sandbox:stop  caught signal 15 in pid 24213
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, qt3 cannot be found while processing ebuild src: net-voip/sflphone-0.7.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
@@ -167,9 +167,9 @@ caught exception 'not well-formed (invalid token): line 22, column 14' while pro
 caught exception 'not well-formed (invalid token): line 22, column 14' while processing 'ebuild src: net-misc/zaptel-1.4.4'
 caught exception 'not well-formed (invalid token): line 22, column 14' while processing 'ebuild src: net-misc/zaptel-1.4.8'
 caught exception 'not well-formed (invalid token): line 22, column 14' while processing 'ebuild src: net-misc/zaptel-1.4.9.2'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.0, attr description\nerror: Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.0, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-voip/sflphone-0.7.0' @0x7f675d043410>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.2, attr description\nerror: Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.2, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-voip/sflphone-0.7.2' @0x7f675d043550>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-im/ihu-0.6.0, attr description\nerror: Metadata Exception: pkg ebuild src: net-im/ihu-0.6.0, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-im/ihu-0.6.0' @0x7f675d043e10>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.21.2, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.21.2, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/asterisk-1.4.21.2' @0x7f675cbba190>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.22.1, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.22.1, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/asterisk-1.4.22.1' @0x7f675d043e10>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.0, attr description\nerror: Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.0, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-voip/sflphone-0.7.0' @0x7f3647072410>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.2, attr description\nerror: Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.2, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-voip/sflphone-0.7.2' @0x7f3647072550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-im/ihu-0.6.0, attr description\nerror: Metadata Exception: pkg ebuild src: net-im/ihu-0.6.0, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-im/ihu-0.6.0' @0x7f3647072e10>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.21.2, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.21.2, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/asterisk-1.4.21.2' @0x7f3646be9190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.22.1, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.22.1, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/asterisk-1.4.22.1' @0x7f3647072e10>)
  * Cache regen failed with 1

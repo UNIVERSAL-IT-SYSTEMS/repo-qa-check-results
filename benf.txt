@@ -14,10 +14,20 @@
  'status': 'unofficial'}
 $ pmaint sync benf
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+*** syncing benf
+*** failed syncing benf
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync benf
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/sync/benf'...
 *** syncing benf
 *** synced benf
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 benf
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
