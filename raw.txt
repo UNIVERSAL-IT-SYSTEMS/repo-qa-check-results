@@ -11,15 +11,7 @@
 $ pmaint sync raw
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/mahatma-kaganovich/raw
-   3e9e9a5..7e23775  master     -> origin/master
-Updating 3e9e9a5..7e23775
-Fast-forward
- app-portage/ppatch/Manifest            | 2 +-
- app-portage/ppatch/files/cpu2conf.sh   | 2 +-
- profiles/common/_minimal/make.defaults | 2 +-
- profiles/common/fast/make.defaults     | 2 +-
- 4 files changed, 4 insertions(+), 4 deletions(-)
+Already up-to-date.
 *** syncing raw
 *** synced raw
  * Sync succeeded
@@ -179,10 +171,10 @@ Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directo
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 1781
+sandbox:stop  caught signal 15 in pid 30607
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-cluster/kerrighed-9999-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-cluster/kerrighed-9999-r2
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr description\nerror: Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sys-cluster/kerrighed-9999-r1' @0x7efdb1e05190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr description\nerror: Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sys-cluster/kerrighed-9999-r1' @0x7f806b6b9190>)
  * Cache regen failed with 65

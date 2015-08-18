@@ -15,19 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/tokiclover/bar-overlay
-   33e38db..002e968  master     -> origin/master
-Updating 33e38db..002e968
-Fast-forward
- app-benchmarks/rt-tests/Manifest             |  1 +
- app-benchmarks/rt-tests/rt-tests-0.93.ebuild | 58 ++++++++++++++++++++++++++++
- media-sound/laditools/laditools-1.0.1.ebuild |  3 +-
- media-sound/laditools/laditools-1.0.ebuild   |  1 +
- media-sound/laditools/laditools-9999.ebuild  |  3 +-
- sets/PACKAGE_LIST                            |  1 +
- 6 files changed, 65 insertions(+), 2 deletions(-)
- create mode 100644 app-benchmarks/rt-tests/Manifest
- create mode 100644 app-benchmarks/rt-tests/rt-tests-0.93.ebuild
+Already up-to-date.
 *** syncing bar
 *** synced bar
  * Sync succeeded
