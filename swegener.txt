@@ -40,7 +40,7 @@ File list transfer time: 0.000 seconds
 Total bytes sent: 231
 Total bytes received: 25.57K
 
-sent 231 bytes  received 25.57K bytes  10.32K bytes/sec
+sent 231 bytes  received 25.57K bytes  17.20K bytes/sec
 total size is 1.22M  speedup is 47.39
 *** syncing swegener
 *** synced swegener
@@ -89,5 +89,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/brightside-1.4.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='gnome-extra/brightside-1.4.0' @0x7f29e972e550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='gnome-extra/brightside-1.4.0' @0x7fa6e21e6550>)
  * Cache regen failed with 1
