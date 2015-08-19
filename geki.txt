@@ -8,21 +8,7 @@
  'status': 'unofficial'}
 $ pmaint sync geki
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/geki-yaba/gekis-playground
-   16551a2..df815a0  master     -> origin/master
-Updating 16551a2..df815a0
-Fast-forward
- dev-libs/boost-headers/Manifest                    |  2 ++
- dev-libs/boost-headers/boost-headers-1.59.0.ebuild | 11 +++++++++++
- dev-libs/boost/Manifest                            |  3 +++
- dev-libs/boost/boost-1.59.0-r10.ebuild             | 15 +++++++++++++++
- dev-util/boost-build/Manifest                      |  2 ++
- dev-util/boost-build/boost-build-1.59.0-r10.ebuild | 15 +++++++++++++++
- profiles/categories                                |  4 ++--
- 7 files changed, 50 insertions(+), 2 deletions(-)
- create mode 100644 dev-libs/boost-headers/boost-headers-1.59.0.ebuild
- create mode 100644 dev-libs/boost/boost-1.59.0-r10.ebuild
- create mode 100644 dev-util/boost-build/boost-build-1.59.0-r10.ebuild
+Already up-to-date.
 *** syncing geki
 *** synced geki
  * Sync succeeded
