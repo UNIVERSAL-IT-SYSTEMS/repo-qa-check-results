@@ -14,7 +14,14 @@
  'status': 'official'}
 $ pmaint sync java
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/java
+   8719b00..e4fccac  master     -> origin/master
+Updating 8719b00..e4fccac
+Fast-forward
+ ...jdk-5.1.0-r1.ebuild => gcj-jdk-5.1.0-r2.ebuild} | 24 +++++++++++-----------
+ dev-java/gcj-jdk/metadata.xml                      | 21 ++++++++++---------
+ 2 files changed, 23 insertions(+), 22 deletions(-)
+ rename dev-java/gcj-jdk/{gcj-jdk-5.1.0-r1.ebuild => gcj-jdk-5.1.0-r2.ebuild} (84%)
 *** syncing java
 *** synced java
  * Sync succeeded
