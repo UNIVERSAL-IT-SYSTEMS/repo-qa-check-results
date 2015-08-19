@@ -12,7 +12,14 @@
  'status': 'official'}
 $ pmaint sync maekke
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/maekke
+   e985403..cc91167  master     -> origin/master
+Updating e985403..cc91167
+Fast-forward
+ media-libs/libraw/Manifest                         | 36 +++++++++++-----------
+ ...aw-0.17.0_beta2.ebuild => libraw-0.17.0.ebuild} |  4 +--
+ 2 files changed, 20 insertions(+), 20 deletions(-)
+ rename media-libs/libraw/{libraw-0.17.0_beta2.ebuild => libraw-0.17.0.ebuild} (91%)
 *** syncing maekke
 *** synced maekke
  * Sync succeeded

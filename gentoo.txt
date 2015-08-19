@@ -17,12 +17,26 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   407f373..361d654  master     -> origin/master
-Updating 407f373..361d654
+   361d654..8659a21  master     -> origin/master
+Updating 361d654..8659a21
 Fast-forward
- sys-libs/pam/pam-1.2.1-r1.ebuild | 2 +-
- sys-libs/pam/pam-1.2.1.ebuild    | 4 ++--
- 2 files changed, 3 insertions(+), 3 deletions(-)
+ app-office/calligra-l10n/Manifest                  |  29 +++
+ .../calligra-l10n/calligra-l10n-2.9.6.ebuild       |  89 ++++++++
+ app-office/calligra/Manifest                       |   1 +
+ app-office/calligra/calligra-2.9.6.ebuild          | 227 +++++++++++++++++++++
+ app-office/calligra/calligra-9999.ebuild           |  77 ++++---
+ .../files/calligra-2.9.6-ghns-linking.patch        |  11 +
+ .../calligra/files/calligra-2.9.6-version.patch    |  24 +++
+ app-office/calligra/metadata.xml                   |   1 +
+ profiles/arch/arm/package.use.mask                 |   2 +-
+ profiles/arch/arm64/package.use.mask               |   2 +-
+ profiles/arch/nios2/package.use.mask               |   2 +-
+ profiles/desc/calligra_features.desc               |   1 +
+ 12 files changed, 421 insertions(+), 45 deletions(-)
+ create mode 100644 app-office/calligra-l10n/calligra-l10n-2.9.6.ebuild
+ create mode 100644 app-office/calligra/calligra-2.9.6.ebuild
+ create mode 100644 app-office/calligra/files/calligra-2.9.6-ghns-linking.patch
+ create mode 100644 app-office/calligra/files/calligra-2.9.6-version.patch
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
