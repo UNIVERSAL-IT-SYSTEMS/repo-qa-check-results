@@ -6,17 +6,158 @@
  'source': [{'type': 'git',
              'uri': 'https://gitlab.com/handheld-gentoo-overlays/n8x0.git'}],
  'status': 'unofficial'}
+ * Adding new repository
 $ pmaint sync n8x0
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: unable to access 'https://gitlab.com/handheld-gentoo-overlays/n8x0.git/': The requested URL returned error: 502
-*** syncing n8x0
-*** failed syncing n8x0
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync n8x0
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/n900' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/mooyooma' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Cloning into '/home/mgorny/sync/n8x0'...
-fatal: unable to access 'https://gitlab.com/handheld-gentoo-overlays/n8x0.git/': The requested URL returned error: 502
 *** syncing n8x0
-*** failed syncing n8x0
- * Sync failed again with 1, removing
+*** synced n8x0
+ * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 1 n8x0
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by net-wireless/cx3110x-2.0.15-r9 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+
+!!! ERROR: app-accessibility/florence-0.5.1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '197' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
+!!!          florence-0.5.1.ebuild, line   7:  Called inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported
+
+
+!!! ERROR: sys-apps/fb_text2screen-0.1.1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '211' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
+!!!    fb_text2screen-0.1.1.ebuild, line   5:  Called inherit 'cmake-utils' 'linux-info'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+
+!!! ERROR: sys-apps/opendsme-0.2 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '169' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!            opendsme-0.2.ebuild, line   5:  Called inherit 'cmake-utils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+WARNING: 'use' function invoked by net-wireless/cx3110x-2.0.15-r9 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+
+!!! ERROR: app-accessibility/florence-0.5.1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '197' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
+!!!          florence-0.5.1.ebuild, line   7:  Called inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported
+
+
+!!! ERROR: sys-apps/fb_text2screen-0.1.1 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '211' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
+!!!    fb_text2screen-0.1.1.ebuild, line   5:  Called inherit 'cmake-utils' 'linux-info'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+
+!!! ERROR: sys-apps/opendsme-0.2 failed.
+!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '169' 'depend'
+!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!            opendsme-0.2.ebuild, line   5:  Called inherit 'cmake-utils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-accessibility/florence-0.5.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-apps/fb_text2screen-0.1.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-apps/opendsme-0.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-accessibility/florence-0.5.1, attr description\nerror: Metadata Exception: pkg ebuild src: app-accessibility/florence-0.5.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-accessibility/florence-0.5.1' @0x7fcdd0462cd0>)
+ERROR pkgcore: returned val from gen_metadata was 'False'
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sys-apps/fb_text2screen-0.1.1, attr description\nerror: Metadata Exception: pkg ebuild src: sys-apps/fb_text2screen-0.1.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sys-apps/fb_text2screen-0.1.1' @0x7fcdd0471410>)
+ERROR pkgcore: returned val from gen_metadata was 'False'
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sys-apps/opendsme-0.2, attr description\nerror: Metadata Exception: pkg ebuild src: sys-apps/opendsme-0.2, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sys-apps/opendsme-0.2' @0x7fcdd0471cd0>)
+ * Cache regen failed with 1

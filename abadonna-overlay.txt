@@ -8,17 +8,17 @@
             {'type': 'git',
              'uri': 'git@gitlab.com:Abadonna/abadonna-overlay.git'}],
  'status': 'unofficial'}
-$ pmaint sync abadonna-overlay
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: unable to access 'https://gitlab.com/Abadonna/abadonna-overlay.git/': The requested URL returned error: 502
-*** syncing abadonna-overlay
-*** failed syncing abadonna-overlay
- * Sync failed with 1
- * Will try to re-create
+ * Adding new repository
 $ pmaint sync abadonna-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Cloning into '/home/mgorny/sync/abadonna-overlay'...
-fatal: unable to access 'https://gitlab.com/Abadonna/abadonna-overlay.git/': The requested URL returned error: 502
 *** syncing abadonna-overlay
-*** failed syncing abadonna-overlay
- * Sync failed again with 1, removing
+*** synced abadonna-overlay
+ * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 1 abadonna-overlay
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by media-gfx/AfterShotPro-2.1.2.10 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+ * Cache regenerated successfully

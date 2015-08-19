@@ -12,7 +12,17 @@
              'uri': 'https://github.com/zabuldon/psix-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync psix-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/sync/mooyooma' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/n900' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/nightmare' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/nightmare' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing psix-overlay
 *** synced psix-overlay
@@ -69,5 +79,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-games/mcedit-0.1.8_p654
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-games/mcedit-0.1.8_p654, attr description\nerror: Metadata Exception: pkg ebuild src: dev-games/mcedit-0.1.8_p654, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-games/mcedit-0.1.8_p654' @0x7f0f12a43b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-games/mcedit-0.1.8_p654, attr description\nerror: Metadata Exception: pkg ebuild src: dev-games/mcedit-0.1.8_p654, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-games/mcedit-0.1.8_p654' @0x7f513ad3fb90>)
  * Cache regen failed with 1
