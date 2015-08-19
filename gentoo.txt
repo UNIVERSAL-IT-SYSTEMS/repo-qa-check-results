@@ -17,16 +17,13 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   10c3d51..fa5ac7d  master     -> origin/master
-Updating 10c3d51..fa5ac7d
+   fa5ac7d..262ee4d  master     -> origin/master
+Updating fa5ac7d..262ee4d
 Fast-forward
- dev-libs/libev/Manifest            |  1 +
- dev-libs/libev/libev-4.20.ebuild   | 45 ++++++++++++++++++++++++
- sys-process/criu/Manifest          |  1 +
- sys-process/criu/criu-1.6.1.ebuild | 72 ++++++++++++++++++++++++++++++++++++++
- 4 files changed, 119 insertions(+)
- create mode 100644 dev-libs/libev/libev-4.20.ebuild
- create mode 100644 sys-process/criu/criu-1.6.1.ebuild
+ .../numexpr/files/numexpr-2.4.3-testfix.patch      | 34 ++++++++++++++++++++++
+ dev-python/numexpr/numexpr-2.4.3.ebuild            |  4 +--
+ 2 files changed, 36 insertions(+), 2 deletions(-)
+ create mode 100644 dev-python/numexpr/files/numexpr-2.4.3-testfix.patch
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
