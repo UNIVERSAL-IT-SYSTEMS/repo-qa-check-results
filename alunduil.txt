@@ -16,11 +16,23 @@
 $ pmaint sync alunduil
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/alunduil/alunduil-overlay
+   92cd690..f5e7eea  master     -> origin/master
+Updating 92cd690..f5e7eea
+Fast-forward
+ dev-python/torment/Manifest             |  3 +++
+ dev-python/torment/metadata.xml         | 10 +++++++
+ dev-python/torment/torment-2.0.4.ebuild | 46 +++++++++++++++++++++++++++++++++
+ 3 files changed, 59 insertions(+)
+ create mode 100644 dev-python/torment/Manifest
+ create mode 100644 dev-python/torment/metadata.xml
+ create mode 100644 dev-python/torment/torment-2.0.4.ebuild
 *** syncing alunduil
 *** synced alunduil
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 alunduil
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully
