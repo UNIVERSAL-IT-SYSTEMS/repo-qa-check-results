@@ -8,17 +8,11 @@
  'source': [{'type': 'git',
              'uri': 'https://git.kolosowscy.pl/jurek/gentoo-overlay.git'}],
  'status': 'unofficial'}
-$ pmaint sync jkolo
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: unable to access 'https://git.kolosowscy.pl/jurek/gentoo-overlay.git/': Failed to connect to git.kolosowscy.pl port 443: No route to host
-*** syncing jkolo
-*** failed syncing jkolo
- * Sync failed with 1
- * Will try to re-create
+ * Adding new repository
 $ pmaint sync jkolo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Cloning into '/home/mgorny/sync/jkolo'...
-fatal: unable to access 'https://git.kolosowscy.pl/jurek/gentoo-overlay.git/': Failed to connect to git.kolosowscy.pl port 443: No route to host
+fatal: unable to access 'https://git.kolosowscy.pl/jurek/gentoo-overlay.git/': Failed to connect to git.kolosowscy.pl port 443: Connection timed out
 *** syncing jkolo
 *** failed syncing jkolo
- * Sync failed again with 1, removing
+ * Sync failed with 1

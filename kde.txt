@@ -12,20 +12,22 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/kde.git'}],
  'status': 'official'}
 $ pmaint sync kde
-WARNING:pkgcore:repository at location '/home/mgorny/sync/interactive-fiction' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/jkolo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/jkolo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/proj/kde
-   808bc30..617f960  master     -> origin/master
-Updating 808bc30..617f960
+   617f960..662bd52  master     -> origin/master
+Updating 617f960..662bd52
 Fast-forward
- .../files/kde4-l10n-15.07.80-remove-messages       | 209 ----------------
- .../kde4-l10n/files/kde4-l10n-15.07.90-remove-dirs |  50 ++++
- profiles/package.mask/kde-apps-15.07.90            | 263 ---------------------
- 3 files changed, 50 insertions(+), 472 deletions(-)
- delete mode 100644 kde-apps/kde4-l10n/files/kde4-l10n-15.07.80-remove-messages
- create mode 100644 kde-apps/kde4-l10n/files/kde4-l10n-15.07.90-remove-dirs
- delete mode 100644 profiles/package.mask/kde-apps-15.07.90
+ kde-apps/kdepim/files/FindGpgme.cmake            | 387 -----------------------
+ kde-apps/kdepim/files/kdepim-4.81-includes.patch |  32 --
+ kde-apps/kdepim/files/kdepim-find-gpgme.patch    |  11 -
+ 3 files changed, 430 deletions(-)
+ delete mode 100644 kde-apps/kdepim/files/FindGpgme.cmake
+ delete mode 100644 kde-apps/kdepim/files/kdepim-4.81-includes.patch
+ delete mode 100644 kde-apps/kdepim/files/kdepim-find-gpgme.patch
 *** syncing kde
 *** synced kde
  * Sync succeeded
