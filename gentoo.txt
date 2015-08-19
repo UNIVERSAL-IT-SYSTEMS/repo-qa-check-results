@@ -17,16 +17,11 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   1959168..73215ac  master     -> origin/master
-Updating 1959168..73215ac
+   73215ac..5db7e49  master     -> origin/master
+Updating 73215ac..5db7e49
 Fast-forward
- sys-apps/cracklib-words/Manifest                   |  3 +-
- .../cracklib-words/cracklib-words-2.9.6.ebuild     | 29 +++++++
- sys-libs/cracklib/Manifest                         |  2 +-
- ...racklib-2.8.22.ebuild => cracklib-2.9.6.ebuild} | 88 +++++++++++-----------
- 4 files changed, 76 insertions(+), 46 deletions(-)
- create mode 100644 sys-apps/cracklib-words/cracklib-words-2.9.6.ebuild
- rename sys-libs/cracklib/{cracklib-2.8.22.ebuild => cracklib-2.9.6.ebuild} (52%)
+ dev-python/backports-lzma/backports-lzma-0.0.3.ebuild | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
