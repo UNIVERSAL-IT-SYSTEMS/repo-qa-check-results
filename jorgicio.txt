@@ -15,23 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/jorgicio/jorgicio-gentoo
-   dcb2d31..ee4111e  master     -> origin/master
-Updating dcb2d31..ee4111e
-Fast-forward
- app-text/cutemarked/Manifest                       |  2 ++
- app-text/cutemarked/cutemarked-9999.ebuild         | 32 ++++++++++++++++++++++
- .../files/cutemarked-0.11.1-respect-destdir.patch  | 24 ++++++++++++++++
- x11-plugins/purple-facebook/Manifest               |  2 ++
- x11-plugins/purple-facebook/metadata.xml           | 11 ++++++++
- .../purple-facebook/purple-facebook-9999.ebuild    | 29 ++++++++++++++++++++
- 6 files changed, 100 insertions(+)
- create mode 100644 app-text/cutemarked/Manifest
- create mode 100644 app-text/cutemarked/cutemarked-9999.ebuild
- create mode 100644 app-text/cutemarked/files/cutemarked-0.11.1-respect-destdir.patch
- create mode 100644 x11-plugins/purple-facebook/Manifest
- create mode 100644 x11-plugins/purple-facebook/metadata.xml
- create mode 100644 x11-plugins/purple-facebook/purple-facebook-9999.ebuild
+Already up-to-date.
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
