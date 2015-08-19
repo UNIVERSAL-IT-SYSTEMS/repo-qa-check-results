@@ -14,7 +14,21 @@
  'status': 'unofficial'}
 $ pmaint sync c2p-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/karolgrudzinski/c2p-overlay
+   29e9fd1..d9aad3f  master     -> origin/master
+Updating 29e9fd1..d9aad3f
+Fast-forward
+ eclass/mozconfig-v6.40.eclass                      |   6 +-
+ www-client/firefox/Manifest                        | 267 +++++---------
+ www-client/firefox/files/kde.js                    |   1 -
+ www-client/firefox/files/logjam.js-1               |   2 -
+ www-client/firefox/firefox-40.0.ebuild             | 402 ---------------------
+ ...41.0_beta1.ebuild => firefox-41.0_beta2.ebuild} |   9 +-
+ 6 files changed, 95 insertions(+), 592 deletions(-)
+ delete mode 100644 www-client/firefox/files/kde.js
+ delete mode 100644 www-client/firefox/files/logjam.js-1
+ delete mode 100644 www-client/firefox/firefox-40.0.ebuild
+ rename www-client/firefox/{firefox-41.0_beta1.ebuild => firefox-41.0_beta2.ebuild} (97%)
 *** syncing c2p-overlay
 *** synced c2p-overlay
  * Sync succeeded
