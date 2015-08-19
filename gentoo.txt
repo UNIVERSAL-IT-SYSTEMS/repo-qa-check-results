@@ -17,15 +17,16 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   46c8f64..b43441b  master     -> origin/master
-Updating 46c8f64..b43441b
+   b43441b..55e8bb9  master     -> origin/master
+Updating b43441b..55e8bb9
 Fast-forward
- sys-kernel/hardened-sources/Manifest               |  4 ++
- .../hardened-sources-3.14.51.ebuild                | 45 ++++++++++++++++++++++
- .../hardened-sources/hardened-sources-4.1.6.ebuild | 45 ++++++++++++++++++++++
- 3 files changed, 94 insertions(+)
- create mode 100644 sys-kernel/hardened-sources/hardened-sources-3.14.51.ebuild
- create mode 100644 sys-kernel/hardened-sources/hardened-sources-4.1.6.ebuild
+ dev-python/rdflib/Manifest                      |  1 +
+ dev-python/rdflib/files/rdflib-3.1.0-test.patch | 20 ------
+ dev-python/rdflib/rdflib-4.2.0.ebuild           |  6 +-
+ dev-python/rdflib/rdflib-4.2.1.ebuild           | 87 +++++++++++++++++++++++++
+ 4 files changed, 91 insertions(+), 23 deletions(-)
+ delete mode 100644 dev-python/rdflib/files/rdflib-3.1.0-test.patch
+ create mode 100644 dev-python/rdflib/rdflib-4.2.1.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
