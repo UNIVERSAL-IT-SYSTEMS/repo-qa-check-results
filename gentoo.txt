@@ -16,7 +16,17 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   8b10460..2c967d9  master     -> origin/master
+Updating 8b10460..2c967d9
+Fast-forward
+ app-crypt/keybase/Manifest                |   1 +
+ app-crypt/keybase/keybase-0.8.18.ebuild   |  33 ++++
+ sci-physics/lammps/Manifest               |   1 +
+ sci-physics/lammps/lammps-20150818.ebuild | 267 ++++++++++++++++++++++++++++++
+ 4 files changed, 302 insertions(+)
+ create mode 100644 app-crypt/keybase/keybase-0.8.18.ebuild
+ create mode 100644 sci-physics/lammps/lammps-20150818.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
