@@ -17,13 +17,20 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   39a891e..ea79a7e  master     -> origin/master
-Updating 39a891e..ea79a7e
+   ea79a7e..1959168  master     -> origin/master
+Updating ea79a7e..1959168
 Fast-forward
- x11-themes/elementary-xfce-icon-theme/Manifest     |  1 +
- ...elementary-xfce-icon-theme-0.4_p20150808.ebuild | 39 ++++++++++++++++++++++
- 2 files changed, 40 insertions(+)
- create mode 100644 x11-themes/elementary-xfce-icon-theme/elementary-xfce-icon-theme-0.4_p20150808.ebuild
+ app-emulation/aqemu/aqemu-0.8.2-r3.ebuild          | 41 ++++++++++++++++++++++
+ .../aqemu/files/aqemu-0.8.2_format-security.patch  | 38 ++++++++++++++++++++
+ www-client/google-chrome-unstable/Manifest         |  4 +--
+ ...> google-chrome-unstable-46.0.2486.0_p1.ebuild} |  0
+ www-plugins/chrome-binary-plugins/Manifest         |  4 +--
+ ...hrome-binary-plugins-46.0.2486.0_alpha1.ebuild} |  0
+ 6 files changed, 83 insertions(+), 4 deletions(-)
+ create mode 100644 app-emulation/aqemu/aqemu-0.8.2-r3.ebuild
+ create mode 100644 app-emulation/aqemu/files/aqemu-0.8.2_format-security.patch
+ rename www-client/google-chrome-unstable/{google-chrome-unstable-46.0.2478.0_p1.ebuild => google-chrome-unstable-46.0.2486.0_p1.ebuild} (100%)
+ rename www-plugins/chrome-binary-plugins/{chrome-binary-plugins-46.0.2478.0_alpha1.ebuild => chrome-binary-plugins-46.0.2486.0_alpha1.ebuild} (100%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
