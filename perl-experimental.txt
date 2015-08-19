@@ -15,7 +15,65 @@
  'status': 'official'}
 $ pmaint sync perl-experimental
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/perl-overlay
+   72006ec..8071e0f  master     -> origin/master
+Updating 72006ec..8071e0f
+Fast-forward
+ .../Canary-Stability-2001.0.0.ebuild               | 18 --------
+ dev-perl/Canary-Stability/Manifest                 |  1 -
+ dev-perl/Canary-Stability/metadata.xml             | 13 ------
+ .../IO-CaptureOutput-1.110.200-r1.ebuild           | 26 ------------
+ dev-perl/IO-CaptureOutput/Manifest                 |  1 -
+ dev-perl/IO-CaptureOutput/metadata.xml             | 13 ------
+ dev-perl/JSON-MaybeXS/JSON-MaybeXS-1.3.5.ebuild    | 32 ---------------
+ dev-perl/JSON-MaybeXS/Manifest                     |  1 -
+ dev-perl/JSON-MaybeXS/metadata.xml                 | 16 --------
+ .../Lexical-SealRequireHints-0.7.0.ebuild          | 48 ----------------------
+ dev-perl/Lexical-SealRequireHints/Manifest         |  1 -
+ dev-perl/Lexical-SealRequireHints/metadata.xml     | 13 ------
+ dev-perl/Module-Install-AuthorTests/Manifest       |  1 -
+ .../Module-Install-AuthorTests-0.2.0.ebuild        | 19 ---------
+ dev-perl/Module-Install-AuthorTests/metadata.xml   | 13 ------
+ dev-perl/Test-UseAllModules/Manifest               |  1 -
+ .../Test-UseAllModules-0.140.0-r1.ebuild           | 39 ------------------
+ dev-perl/Test-UseAllModules/metadata.xml           | 13 ------
+ dev-perl/autobox/Manifest                          |  1 -
+ dev-perl/autobox/autobox-2.830.0.ebuild            | 19 ---------
+ dev-perl/autobox/metadata.xml                      | 13 ------
+ perl-core/Unicode-Collate/Manifest                 |  2 -
+ .../Unicode-Collate/Unicode-Collate-0.970.0.ebuild | 44 --------------------
+ .../Unicode-Collate/Unicode-Collate-1.40.0.ebuild  | 23 -----------
+ perl-core/Unicode-Collate/metadata.xml             | 21 ----------
+ virtual/perl-Unicode-Collate/metadata.xml          |  5 ---
+ .../perl-Unicode-Collate-1.40.0.ebuild             | 19 ---------
+ 27 files changed, 416 deletions(-)
+ delete mode 100644 dev-perl/Canary-Stability/Canary-Stability-2001.0.0.ebuild
+ delete mode 100644 dev-perl/Canary-Stability/Manifest
+ delete mode 100644 dev-perl/Canary-Stability/metadata.xml
+ delete mode 100644 dev-perl/IO-CaptureOutput/IO-CaptureOutput-1.110.200-r1.ebuild
+ delete mode 100644 dev-perl/IO-CaptureOutput/Manifest
+ delete mode 100644 dev-perl/IO-CaptureOutput/metadata.xml
+ delete mode 100644 dev-perl/JSON-MaybeXS/JSON-MaybeXS-1.3.5.ebuild
+ delete mode 100644 dev-perl/JSON-MaybeXS/Manifest
+ delete mode 100644 dev-perl/JSON-MaybeXS/metadata.xml
+ delete mode 100644 dev-perl/Lexical-SealRequireHints/Lexical-SealRequireHints-0.7.0.ebuild
+ delete mode 100644 dev-perl/Lexical-SealRequireHints/Manifest
+ delete mode 100644 dev-perl/Lexical-SealRequireHints/metadata.xml
+ delete mode 100644 dev-perl/Module-Install-AuthorTests/Manifest
+ delete mode 100644 dev-perl/Module-Install-AuthorTests/Module-Install-AuthorTests-0.2.0.ebuild
+ delete mode 100644 dev-perl/Module-Install-AuthorTests/metadata.xml
+ delete mode 100644 dev-perl/Test-UseAllModules/Manifest
+ delete mode 100644 dev-perl/Test-UseAllModules/Test-UseAllModules-0.140.0-r1.ebuild
+ delete mode 100644 dev-perl/Test-UseAllModules/metadata.xml
+ delete mode 100644 dev-perl/autobox/Manifest
+ delete mode 100644 dev-perl/autobox/autobox-2.830.0.ebuild
+ delete mode 100644 dev-perl/autobox/metadata.xml
+ delete mode 100644 perl-core/Unicode-Collate/Manifest
+ delete mode 100644 perl-core/Unicode-Collate/Unicode-Collate-0.970.0.ebuild
+ delete mode 100644 perl-core/Unicode-Collate/Unicode-Collate-1.40.0.ebuild
+ delete mode 100644 perl-core/Unicode-Collate/metadata.xml
+ delete mode 100644 virtual/perl-Unicode-Collate/metadata.xml
+ delete mode 100644 virtual/perl-Unicode-Collate/perl-Unicode-Collate-1.40.0.ebuild
 *** syncing perl-experimental
 *** synced perl-experimental
  * Sync succeeded
