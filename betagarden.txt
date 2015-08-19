@@ -15,7 +15,17 @@
  'status': 'official'}
 $ pmaint sync betagarden
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/betagarden
+   01e0f8a..c40d821  master     -> origin/master
+Updating 01e0f8a..c40d821
+Fast-forward
+ x11-misc/screentest/Manifest              |  1 +
+ x11-misc/screentest/metadata.xml          |  8 ++++++++
+ x11-misc/screentest/screentest-2.0.ebuild | 24 ++++++++++++++++++++++++
+ 3 files changed, 33 insertions(+)
+ create mode 100644 x11-misc/screentest/Manifest
+ create mode 100644 x11-misc/screentest/metadata.xml
+ create mode 100644 x11-misc/screentest/screentest-2.0.ebuild
 *** syncing betagarden
 *** synced betagarden
  * Sync succeeded

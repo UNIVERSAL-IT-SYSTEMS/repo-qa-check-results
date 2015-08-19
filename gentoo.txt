@@ -16,41 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   710db44..075dde0  master     -> origin/master
-Updating 710db44..075dde0
-Fast-forward
- dev-python/pygame_sdl2/Manifest                    |   1 +
- dev-python/pygame_sdl2/pygame_sdl2-6.99.6.ebuild   |  29 ++
- dev-util/idea-ultimate/Manifest                    |   2 +
- .../idea-ultimate-14.1.4.141.1532.4.ebuild         |  31 ++
- .../idea-ultimate-15.0.0.142.3926.4_pre.ebuild     |  31 ++
- dev-util/idea-ultimate/metadata.xml                |  13 +
- games-engines/renpy/Manifest                       |   1 +
- .../renpy/files/renpy-6.99.6-multiple-abi.patch    | 337 +++++++++++++++++++++
- games-engines/renpy/renpy-6.99.6.ebuild            | 111 +++++++
- licenses/IDEA                                      | 113 +++++++
- licenses/IDEA_Academic                             | 117 +++++++
- licenses/IDEA_Classroom                            | 105 +++++++
- licenses/IDEA_OpenSource                           | 100 ++++++
- licenses/IDEA_Personal                             | 108 +++++++
- net-misc/badvpn/Manifest                           |   1 +
- net-misc/badvpn/badvpn-1.999.130.ebuild            |  85 ++++++
- net-misc/badvpn/metadata.xml                       |   6 -
- 17 files changed, 1185 insertions(+), 6 deletions(-)
- create mode 100644 dev-python/pygame_sdl2/pygame_sdl2-6.99.6.ebuild
- create mode 100644 dev-util/idea-ultimate/Manifest
- create mode 100644 dev-util/idea-ultimate/idea-ultimate-14.1.4.141.1532.4.ebuild
- create mode 100644 dev-util/idea-ultimate/idea-ultimate-15.0.0.142.3926.4_pre.ebuild
- create mode 100644 dev-util/idea-ultimate/metadata.xml
- create mode 100644 games-engines/renpy/files/renpy-6.99.6-multiple-abi.patch
- create mode 100644 games-engines/renpy/renpy-6.99.6.ebuild
- create mode 100644 licenses/IDEA
- create mode 100644 licenses/IDEA_Academic
- create mode 100644 licenses/IDEA_Classroom
- create mode 100644 licenses/IDEA_OpenSource
- create mode 100644 licenses/IDEA_Personal
- create mode 100644 net-misc/badvpn/badvpn-1.999.130.ebuild
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

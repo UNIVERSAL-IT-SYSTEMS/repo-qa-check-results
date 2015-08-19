@@ -12,11 +12,7 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/wuodan.git'}],
  'status': 'unofficial'}
 $ pmaint sync wuodan
-WARNING:pkgcore:repository at location '/home/mgorny/sync/jkolo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/jkolo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing wuodan
 *** synced wuodan
@@ -305,5 +301,5 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-servers/apache-2.4.2-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: www-servers/apache-2.4.2-r1, attr description\nerror: Metadata Exception: pkg ebuild src: www-servers/apache-2.4.2-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='www-servers/apache-2.4.2-r1' @0x7f4f56e5ba50>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: www-servers/apache-2.4.2-r1, attr description\nerror: Metadata Exception: pkg ebuild src: www-servers/apache-2.4.2-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='www-servers/apache-2.4.2-r1' @0x7fa8e35d8a50>)
  * Cache regen failed with 1

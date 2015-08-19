@@ -12,8 +12,6 @@
              'uri': 'https://github.com/viprea/viprea-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync viprea-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/sync/jkolo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing viprea-overlay
@@ -71,5 +69,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-misc/turpial-1.6.9
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/turpial-1.6.9, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/turpial-1.6.9, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/turpial-1.6.9' @0x7f4d4c164a50>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/turpial-1.6.9, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/turpial-1.6.9, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/turpial-1.6.9' @0x7f4f0993ba50>)
  * Cache regen failed with 1

@@ -12,7 +12,14 @@
 $ pmaint sync games-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hasufell/games-overlay
+   d0903e5..0002cf8  master     -> origin/master
+Updating d0903e5..0002cf8
+Fast-forward
+ games-engines/solarus/Manifest             |  1 +
+ games-engines/solarus/solarus-1.4.4.ebuild | 50 ++++++++++++++++++++++++++++++
+ 2 files changed, 51 insertions(+)
+ create mode 100644 games-engines/solarus/solarus-1.4.4.ebuild
 *** syncing games-overlay
 *** synced games-overlay
  * Sync succeeded
