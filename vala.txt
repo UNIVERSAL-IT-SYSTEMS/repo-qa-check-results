@@ -10,10 +10,17 @@
  'status': 'unofficial'}
 $ pmaint sync vala
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to access 'https://code.google.com/p/vala-overlay/': transfer closed with outstanding read data remaining
+*** syncing vala
+*** failed syncing vala
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync vala
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/sync/vala'...
 *** syncing vala
 *** synced vala
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 vala
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

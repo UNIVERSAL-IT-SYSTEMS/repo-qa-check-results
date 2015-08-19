@@ -14,7 +14,15 @@
  'status': 'official'}
 $ pmaint sync mysql
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/mysql
+   9210dba..d5e1289  master     -> origin/master
+Updating 9210dba..d5e1289
+Fast-forward
+ dev-db/mariadb-galera/ChangeLog                    |  6 ++++++
+ dev-db/mariadb-galera/Manifest                     | 23 ++++++++++++++++++++++
+ ....20-r1.ebuild => mariadb-galera-10.0.21.ebuild} |  2 +-
+ 3 files changed, 30 insertions(+), 1 deletion(-)
+ rename dev-db/mariadb-galera/{mariadb-galera-10.0.20-r1.ebuild => mariadb-galera-10.0.21.ebuild} (98%)
 *** syncing mysql
 *** synced mysql
  * Sync succeeded
