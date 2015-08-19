@@ -7,14 +7,6 @@
              'uri': 'rsync://gentoo.zugaina.org/zugaina-portage'}],
  'status': 'unofficial'}
 $ pmaint sync zugaina
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/n900' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/roslin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/roslin', named 'roslin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/nightmare' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 
 receiving incremental file list
@@ -26,7 +18,7 @@ Total file size: 3.20M bytes
 Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
-File list size: 43.80K
+File list size: 45.16K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 603

@@ -14,26 +14,18 @@
              'uri': 'git://anongit.gentoo.org/repo/gentoo.git'}],
  'status': 'official'}
 $ pmaint sync gentoo
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/flow' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/flow', named 'flow', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/flow' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/flow', named 'flow', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://anongit.gentoo.org/git/repo/gentoo
-   d889cb0..ed9396d  master     -> origin/master
-Updating d889cb0..ed9396d
+   ed9396d..407f373  master     -> origin/master
+Updating ed9396d..407f373
 Fast-forward
- media-libs/mlt/mlt-0.9.8.ebuild | 8 ++------
- 1 file changed, 2 insertions(+), 6 deletions(-)
+ x11-themes/elementary-xfce-icon-theme/Manifest     |  3 +-
+ ...elementary-xfce-icon-theme-0.4_p20150808.ebuild | 39 ----------------------
+ ...lementary-xfce-icon-theme-0.4_p20150818.ebuild} |  2 +-
+ 3 files changed, 2 insertions(+), 42 deletions(-)
+ delete mode 100644 x11-themes/elementary-xfce-icon-theme/elementary-xfce-icon-theme-0.4_p20150808.ebuild
+ rename x11-themes/elementary-xfce-icon-theme/{elementary-xfce-icon-theme-0.4_p20150327.ebuild => elementary-xfce-icon-theme-0.4_p20150818.ebuild} (94%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

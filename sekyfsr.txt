@@ -12,19 +12,7 @@
              'uri': 'https://github.com/npinto/sekyfsr-gentoo-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync sekyfsr
-WARNING:pkgcore:repository at location '/home/mgorny/sync/mooyooma' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/n900' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/roslin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/roslin', named 'roslin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/nightmare' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/nightmare' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing sekyfsr
 *** synced sekyfsr
@@ -205,7 +193,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 12924
+sandbox:stop  caught signal 15 in pid 11389
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: net-p2p/freicoin-qt-0.8.6.1 failed.
@@ -236,12 +224,12 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-p2p/freicoin-qt-0.8.6.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.3-r1, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.3-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.28.3-r1' @0x7fb060939b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.3-r1, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.3-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.28.3-r1' @0x7f57a8913b90>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.4, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.4, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.28.4' @0x7fb060939e10>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.4, attr description\nerror: Metadata Exception: pkg ebuild src: x11-libs/pango-1.28.4, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-libs/pango-1.28.4' @0x7f57a8913e10>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-text/gistp-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-text/gistp-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-text/gistp-9999' @0x7fb05dde0190>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-benchmarks/cuda_dgemmSweep-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-benchmarks/cuda_dgemmSweep-9999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-benchmarks/cuda_dgemmSweep-9999' @0x7fb05ddf4410>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-text/gistp-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-text/gistp-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-text/gistp-9999' @0x7f57a5dba190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-benchmarks/cuda_dgemmSweep-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-benchmarks/cuda_dgemmSweep-9999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-benchmarks/cuda_dgemmSweep-9999' @0x7f57a5dce410>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-p2p/freicoin-qt-0.8.6.1, attr description\nerror: Metadata Exception: pkg ebuild src: net-p2p/freicoin-qt-0.8.6.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-p2p/freicoin-qt-0.8.6.1' @0x7fb05ddf4b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-p2p/freicoin-qt-0.8.6.1, attr description\nerror: Metadata Exception: pkg ebuild src: net-p2p/freicoin-qt-0.8.6.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-p2p/freicoin-qt-0.8.6.1' @0x7f57a5dceb90>)
  * Cache regen failed with 1

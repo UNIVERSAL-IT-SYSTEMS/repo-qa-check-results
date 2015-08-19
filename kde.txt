@@ -12,27 +12,15 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/kde.git'}],
  'status': 'official'}
 $ pmaint sync kde
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/flow' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/flow', named 'flow', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/proj/kde
-   848436a..1a990c1  master     -> origin/master
-Updating 848436a..1a990c1
+   1a990c1..c607478  master     -> origin/master
+Updating 1a990c1..c607478
 Fast-forward
- kde-apps/kdenlive/kdenlive-15.04.3.ebuild       | 2 +-
- kde-apps/kdenlive/kdenlive-15.07.90.ebuild      | 2 +-
- kde-apps/kdenlive/kdenlive-15.08.0.ebuild       | 2 +-
- kde-apps/kdenlive/kdenlive-15.08.49.9999.ebuild | 2 +-
- kde-apps/kdenlive/kdenlive-9999.ebuild          | 2 +-
- 5 files changed, 5 insertions(+), 5 deletions(-)
+ kde-plasma/powerdevil/powerdevil-5.3.95.ebuild      | 2 +-
+ kde-plasma/powerdevil/powerdevil-5.4.49.9999.ebuild | 2 +-
+ kde-plasma/powerdevil/powerdevil-9999.ebuild        | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
 *** syncing kde
 *** synced kde
  * Sync succeeded
