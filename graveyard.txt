@@ -10,8 +10,6 @@
  'status': 'unofficial'}
 $ pmaint sync graveyard
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/flow' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/flow', named 'flow', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing graveyard
 *** synced graveyard
@@ -62,8 +60,8 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for kde-functions failed
 
-sandbox:stop  caught signal 15 in pid 24741
+sandbox:stop  caught signal 15 in pid 23102
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, kde-functions cannot be found while processing ebuild src: media-plugins/xmms-kde-3.1
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-plugins/xmms-kde-3.1, attr description\nerror: Metadata Exception: pkg ebuild src: media-plugins/xmms-kde-3.1, attr data\nerror: inherit requires an unknown eclass, kde-functions cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-plugins/xmms-kde-3.1' @0x7fb71cf75a50>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-plugins/xmms-kde-3.1, attr description\nerror: Metadata Exception: pkg ebuild src: media-plugins/xmms-kde-3.1, attr data\nerror: inherit requires an unknown eclass, kde-functions cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-plugins/xmms-kde-3.1' @0x7f0734b42a50>)
  * Cache regen failed with 1
