@@ -10,7 +10,14 @@
  'status': 'unofficial'}
 $ pmaint sync junkdrawer
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/doctaweeks/junkdrawer-overlay
+   a6553bf..ab7416f  master     -> origin/master
+Updating a6553bf..ab7416f
+Fast-forward
+ dev-cpp/wangle/Manifest             |  1 +
+ dev-cpp/wangle/wangle-0.12.0.ebuild | 30 ++++++++++++++++++++++++++++++
+ 2 files changed, 31 insertions(+)
+ create mode 100644 dev-cpp/wangle/wangle-0.12.0.ebuild
 *** syncing junkdrawer
 *** synced junkdrawer
  * Sync succeeded
