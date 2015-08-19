@@ -10,21 +10,7 @@
 $ pmaint sync sabayon-distro
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/Sabayon/sabayon-distro
-   c33e29e..4fb3200  master     -> origin/master
-Updating c33e29e..4fb3200
-Fast-forward
- media-video/amdcccle/Manifest                      |   1 +
- media-video/amdcccle/amdcccle-15.1.ebuild          |   2 +
- media-video/amdcccle/amdcccle-15.7.ebuild          |  74 +++
- x11-drivers/ati-drivers/Manifest                   |   1 +
- x11-drivers/ati-drivers/ati-drivers-15.7.ebuild    | 263 ++++++++++
- x11-drivers/ati-userspace/Manifest                 |   1 +
- .../ati-userspace/ati-userspace-15.7.ebuild        | 555 +++++++++++++++++++++
- 7 files changed, 897 insertions(+)
- create mode 100644 media-video/amdcccle/amdcccle-15.7.ebuild
- create mode 100644 x11-drivers/ati-drivers/ati-drivers-15.7.ebuild
- create mode 100644 x11-drivers/ati-userspace/ati-userspace-15.7.ebuild
+Already up-to-date.
 *** syncing sabayon-distro
 *** synced sabayon-distro
  * Sync succeeded
