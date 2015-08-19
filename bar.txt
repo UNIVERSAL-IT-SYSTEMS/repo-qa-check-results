@@ -15,7 +15,13 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/tokiclover/bar-overlay
+   a5a2901..eed4ed7  master     -> origin/master
+Updating a5a2901..eed4ed7
+Fast-forward
+ profiles/make.defaults | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 profiles/make.defaults
 *** syncing bar
 *** synced bar
  * Sync succeeded

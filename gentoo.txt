@@ -16,7 +16,21 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   ffaa7c1..bf60516  master     -> origin/master
+Updating ffaa7c1..bf60516
+Fast-forward
+ app-portage/gs-pypi/gs-pypi-9999.ebuild            |  2 +-
+ dev-python/rdflib/rdflib-4.2.1.ebuild              |  5 +-
+ sci-physics/looptools/Manifest                     |  1 +
+ .../looptools/files/looptools-2.10-makefile.patch  | 98 ++++++++++++++++++++++
+ sci-physics/looptools/looptools-2.12.ebuild        | 39 +++++++++
+ sci-physics/looptools/metadata.xml                 | 12 +++
+ 6 files changed, 153 insertions(+), 4 deletions(-)
+ create mode 100644 sci-physics/looptools/Manifest
+ create mode 100644 sci-physics/looptools/files/looptools-2.10-makefile.patch
+ create mode 100644 sci-physics/looptools/looptools-2.12.ebuild
+ create mode 100644 sci-physics/looptools/metadata.xml
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
