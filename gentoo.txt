@@ -16,7 +16,20 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   37e4f60..c30f20d  master     -> origin/master
+Updating 37e4f60..c30f20d
+Fast-forward
+ ...cj-jdk-4.7.4.ebuild => gcj-jdk-4.8.4-r1.ebuild} |  20 ++--
+ dev-java/gcj-jdk/gcj-jdk-4.8.4.ebuild              | 110 ---------------------
+ .../{gcj-jdk-4.9.2.ebuild => gcj-jdk-4.9.3.ebuild} |  22 ++---
+ dev-java/gcj-jdk/metadata.xml                      |  17 ++--
+ profiles/arch/amd64/package.use.mask               |   8 --
+ profiles/base/package.use.mask                     |   8 ++
+ 6 files changed, 37 insertions(+), 148 deletions(-)
+ rename dev-java/gcj-jdk/{gcj-jdk-4.7.4.ebuild => gcj-jdk-4.8.4-r1.ebuild} (88%)
+ delete mode 100644 dev-java/gcj-jdk/gcj-jdk-4.8.4.ebuild
+ rename dev-java/gcj-jdk/{gcj-jdk-4.9.2.ebuild => gcj-jdk-4.9.3.ebuild} (87%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
