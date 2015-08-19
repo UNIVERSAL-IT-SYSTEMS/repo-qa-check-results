@@ -16,7 +16,25 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   867ed22..c4456f9  master     -> origin/master
+Updating 867ed22..c4456f9
+Fast-forward
+ dev-libs/libnl/Manifest                         |   2 -
+ dev-libs/libnl/files/libnl-3.2.23-python.patch  |  26 ------
+ dev-libs/libnl/files/libnl-3.2.23-utils.h       |  41 ----------
+ dev-libs/libnl/libnl-3.2.23.ebuild              |  82 -------------------
+ dev-libs/libnl/libnl-3.2.24-r1.ebuild           | 102 ------------------------
+ dev-libs/libnl/libnl-3.2.24.ebuild              |  80 -------------------
+ www-client/vivaldi/Manifest                     |   2 +
+ www-client/vivaldi/vivaldi-1.0.249.12_p1.ebuild | 102 ++++++++++++++++++++++++
+ 8 files changed, 104 insertions(+), 333 deletions(-)
+ delete mode 100644 dev-libs/libnl/files/libnl-3.2.23-python.patch
+ delete mode 100644 dev-libs/libnl/files/libnl-3.2.23-utils.h
+ delete mode 100644 dev-libs/libnl/libnl-3.2.23.ebuild
+ delete mode 100644 dev-libs/libnl/libnl-3.2.24-r1.ebuild
+ delete mode 100644 dev-libs/libnl/libnl-3.2.24.ebuild
+ create mode 100644 www-client/vivaldi/vivaldi-1.0.249.12_p1.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
