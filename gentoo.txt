@@ -17,139 +17,19 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   82cd173..5f79c13  master     -> origin/master
-Updating 82cd173..5f79c13
+   5f79c13..9890347  master     -> origin/master
+Updating 5f79c13..9890347
 Fast-forward
- profiles/default/bsd/fbsd/amd64/10.2/clang/parent  |   2 +
- profiles/default/bsd/fbsd/amd64/10.2/eapi          |   1 +
- profiles/default/bsd/fbsd/amd64/10.2/make.defaults |   7 +
- .../default/bsd/fbsd/amd64/10.2/package.use.force  |   4 +
- profiles/default/bsd/fbsd/amd64/10.2/parent        |   2 +
- profiles/default/bsd/fbsd/x86/10.2/eapi            |   1 +
- profiles/default/bsd/fbsd/x86/10.2/make.defaults   |   5 +
- profiles/default/bsd/fbsd/x86/10.2/parent          |   2 +
- profiles/profiles.desc                             |   3 +
- profiles/releases/freebsd-10.2/package.mask        |  48 ++
- profiles/releases/freebsd-10.2/package.use.force   |   6 +
- profiles/releases/freebsd-10.2/packages            |  10 +
- profiles/releases/freebsd-10.2/packages.build      |   7 +
- profiles/releases/freebsd-10.2/parent              |   1 +
- profiles/releases/freebsd-10.2/profile.bashrc      |  35 ++
- sys-freebsd/boot0/Manifest                         |   1 +
- sys-freebsd/boot0/boot0-10.2.ebuild                |  96 ++++
- sys-freebsd/freebsd-bin/Manifest                   |   1 +
- sys-freebsd/freebsd-bin/freebsd-bin-10.2.ebuild    |  42 ++
- sys-freebsd/freebsd-cddl/Manifest                  |   1 +
- .../files/freebsd-cddl-10.2-libpaths.patch         | 220 +++++++
- .../files/freebsd-cddl-10.2-underlink.patch        |  12 +
- sys-freebsd/freebsd-cddl/freebsd-cddl-10.2.ebuild  |  66 +++
- sys-freebsd/freebsd-lib/Manifest                   |   1 +
- .../files/freebsd-lib-10.2-bsdxml2expat.patch      |  39 ++
- .../files/freebsd-lib-10.2-liblink.patch           |  26 +
- sys-freebsd/freebsd-lib/freebsd-lib-10.2.ebuild    | 636 +++++++++++++++++++++
- sys-freebsd/freebsd-libexec/Manifest               |   1 +
- .../files/freebsd-libexec-10.2-atf-check.patch     |  28 +
- .../freebsd-libexec/freebsd-libexec-10.2.ebuild    | 106 ++++
- sys-freebsd/freebsd-mk-defs/Manifest               |   1 +
- .../files/freebsd-mk-defs-10.2-gentoo.patch        | 337 +++++++++++
- .../files/freebsd-mk-defs-10.2-gnu.patch           |  63 ++
- .../freebsd-mk-defs/freebsd-mk-defs-10.2.ebuild    |  42 ++
- sys-freebsd/freebsd-pam-modules/Manifest           |   1 +
- .../freebsd-pam-modules-10.2.ebuild                |  48 ++
- sys-freebsd/freebsd-pf/Manifest                    |   1 +
- sys-freebsd/freebsd-pf/freebsd-pf-10.2.ebuild      |  73 +++
- sys-freebsd/freebsd-rescue/Manifest                |   1 +
- .../files/freebsd-ubin-10.2-bsdxml.patch           |  13 +
- .../freebsd-rescue/freebsd-rescue-10.2.ebuild      |  80 +++
- sys-freebsd/freebsd-sbin/Manifest                  |   1 +
- sys-freebsd/freebsd-sbin/freebsd-sbin-10.2.ebuild  |  99 ++++
- sys-freebsd/freebsd-share/Manifest                 |   1 +
- .../files/freebsd-share-10.2-gnu-miscfiles.patch   |  30 +
- .../freebsd-share/freebsd-share-10.2.ebuild        | 111 ++++
- sys-freebsd/freebsd-sources/Manifest               |   1 +
- .../freebsd-sources/freebsd-sources-10.2.ebuild    | 154 +++++
- sys-freebsd/freebsd-ubin/Manifest                  |   1 +
- .../files/freebsd-ubin-10.2-bsdxml.patch           |  13 +
- .../files/freebsd-ubin-10.2-talk-workaround.patch  |  12 +
- sys-freebsd/freebsd-ubin/freebsd-ubin-10.2.ebuild  | 203 +++++++
- sys-freebsd/freebsd-usbin/Manifest                 |   1 +
- .../freebsd-usbin/freebsd-usbin-10.2.ebuild        | 183 ++++++
- 54 files changed, 2880 insertions(+)
- create mode 100644 profiles/default/bsd/fbsd/amd64/10.2/clang/parent
- create mode 100644 profiles/default/bsd/fbsd/amd64/10.2/eapi
- create mode 100644 profiles/default/bsd/fbsd/amd64/10.2/make.defaults
- create mode 100644 profiles/default/bsd/fbsd/amd64/10.2/package.use.force
- create mode 100644 profiles/default/bsd/fbsd/amd64/10.2/parent
- create mode 100644 profiles/default/bsd/fbsd/x86/10.2/eapi
- create mode 100644 profiles/default/bsd/fbsd/x86/10.2/make.defaults
- create mode 100644 profiles/default/bsd/fbsd/x86/10.2/parent
- create mode 100644 profiles/releases/freebsd-10.2/package.mask
- create mode 100644 profiles/releases/freebsd-10.2/package.use.force
- create mode 100644 profiles/releases/freebsd-10.2/packages
- create mode 100644 profiles/releases/freebsd-10.2/packages.build
- create mode 100644 profiles/releases/freebsd-10.2/parent
- create mode 100644 profiles/releases/freebsd-10.2/profile.bashrc
- create mode 100644 sys-freebsd/boot0/boot0-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-bin/freebsd-bin-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-cddl/files/freebsd-cddl-10.2-libpaths.patch
- create mode 100644 sys-freebsd/freebsd-cddl/files/freebsd-cddl-10.2-underlink.patch
- create mode 100644 sys-freebsd/freebsd-cddl/freebsd-cddl-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-lib/files/freebsd-lib-10.2-bsdxml2expat.patch
- create mode 100644 sys-freebsd/freebsd-lib/files/freebsd-lib-10.2-liblink.patch
- create mode 100644 sys-freebsd/freebsd-lib/freebsd-lib-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-libexec/files/freebsd-libexec-10.2-atf-check.patch
- create mode 100644 sys-freebsd/freebsd-libexec/freebsd-libexec-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-mk-defs/files/freebsd-mk-defs-10.2-gentoo.patch
- create mode 100644 sys-freebsd/freebsd-mk-defs/files/freebsd-mk-defs-10.2-gnu.patch
- create mode 100644 sys-freebsd/freebsd-mk-defs/freebsd-mk-defs-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-pam-modules/freebsd-pam-modules-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-pf/freebsd-pf-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-rescue/files/freebsd-ubin-10.2-bsdxml.patch
- create mode 100644 sys-freebsd/freebsd-rescue/freebsd-rescue-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-sbin/freebsd-sbin-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-share/files/freebsd-share-10.2-gnu-miscfiles.patch
- create mode 100644 sys-freebsd/freebsd-share/freebsd-share-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-sources/freebsd-sources-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-ubin/files/freebsd-ubin-10.2-bsdxml.patch
- create mode 100644 sys-freebsd/freebsd-ubin/files/freebsd-ubin-10.2-talk-workaround.patch
- create mode 100644 sys-freebsd/freebsd-ubin/freebsd-ubin-10.2.ebuild
- create mode 100644 sys-freebsd/freebsd-usbin/freebsd-usbin-10.2.ebuild
+ dev-java/stax2-api/stax2-api-4.0.0.ebuild           |  2 +-
+ dev-java/trident/trident-1.3.ebuild                 |  8 ++++----
+ ...ty-1.5.7.ebuild => xml-security-1.5.7-r1.ebuild} | 21 +++++++++++++++------
+ dev-java/yanfs/yanfs-1.0.ebuild                     |  6 +++---
+ profiles/package.mask                               | 12 ++++++++++++
+ 5 files changed, 35 insertions(+), 14 deletions(-)
+ rename dev-java/xml-security/{xml-security-1.5.7.ebuild => xml-security-1.5.7-r1.ebuild} (75%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sys-freebsd/freebsd-cddl-10.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-lib-10.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-lib-10.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-rescue-10.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-sbin-10.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-share-10.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-sources-10.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-ubin-10.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-ubin-10.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-usbin-10.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-usbin-10.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
