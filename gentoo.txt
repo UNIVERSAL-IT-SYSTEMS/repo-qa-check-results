@@ -16,7 +16,14 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   bf60516..710db44  master     -> origin/master
+Updating bf60516..710db44
+Fast-forward
+ .../cronbase/{cronbase-0.3.7.ebuild => cronbase-0.3.7-r1.ebuild}        | 0
+ sys-process/cronbase/files/run-crons-0.3.7                              | 2 +-
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename sys-process/cronbase/{cronbase-0.3.7.ebuild => cronbase-0.3.7-r1.ebuild} (100%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
