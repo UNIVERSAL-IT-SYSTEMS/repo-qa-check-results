@@ -7,11 +7,22 @@
              'uri': 'git://git.calculate.ru/calculate/distros.git'}],
  'status': 'unofficial'}
 $ pmaint sync distros
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/distros
-   edb0352..03fbc8f  develop    -> origin/develop
-   edb0352..03fbc8f  update     -> origin/update
-Already up-to-date.
+   570e378..03fbc8f  master     -> origin/master
+Updating 570e378..03fbc8f
+Fast-forward
+ profiles/templates/3.2/6_ac_update_sync/world/0-ini  |  2 +-
+ .../3.2/6_ac_update_sync/world/create/applications   |  1 +
+ .../3.2/6_ac_update_sync/world/create/graphics       |  2 ++
+ .../3.2/6_ac_update_sync/world/create/multimedia     |  4 ++++
+ .../3.2/6_ac_update_sync/world/create/netapps        |  1 +
+ .../3.2/6_ac_update_sync/world/create/tools          |  1 +
+ .../3.2/6_ac_update_sync/world/update/100-199/130    | 20 ++++++++++++++++++++
+ 7 files changed, 30 insertions(+), 1 deletion(-)
+ create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/100-199/130
 *** syncing distros
 *** synced distros
  * Sync succeeded

@@ -13,9 +13,11 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/dswm.git'}],
  'status': 'unofficial'}
 $ pmaint sync dswm
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing dswm
 *** synced dswm

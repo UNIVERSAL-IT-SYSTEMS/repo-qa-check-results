@@ -7,26 +7,14 @@
  'source': [{'type': 'git',
              'uri': 'https://gitlab.com/roslin-uberlay/roslin.git'}],
  'status': 'unofficial'}
+ * Adding new repository
 $ pmaint sync roslin
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: could not read Username for 'https://gitlab.com': No such device or address
-*** syncing roslin
-*** failed syncing roslin
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync roslin
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/n900' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/mooyooma' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Cloning into '/home/mgorny/sync/roslin'...
-fatal: protocol error: bad line length character: {"GL
-fatal: The remote end hung up unexpectedly
 *** syncing roslin
-*** failed syncing roslin
- * Sync failed again with 1, removing
+*** synced roslin
+ * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 1 roslin
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

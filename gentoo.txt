@@ -15,8 +15,19 @@
  'status': 'official'}
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/flow' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/flow', named 'flow', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/flow' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/flow', named 'flow', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+From https://anongit.gentoo.org/git/repo/gentoo
+   16557b3..de663c9  master     -> origin/master
+Updating 16557b3..de663c9
+Fast-forward
+ app-crypt/bestcrypt/Manifest               |  1 +
+ app-crypt/bestcrypt/bestcrypt-2.0.9.ebuild | 76 ++++++++++++++++++++++++++++++
+ 2 files changed, 77 insertions(+)
+ create mode 100644 app-crypt/bestcrypt/bestcrypt-2.0.9.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
