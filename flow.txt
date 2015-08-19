@@ -11,11 +11,16 @@
 $ pmaint sync flow
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to access 'https://gitlab.com/Flow/flow-s-ebuilds.git/': The requested URL returned error: 502
 *** syncing flow
-*** synced flow
- * Sync succeeded
-$ pmaint regen --use-local-desc --pkg-desc-index -t 1 flow
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+*** failed syncing flow
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync flow
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/sync/flow'...
+fatal: unable to access 'https://gitlab.com/Flow/flow-s-ebuilds.git/': The requested URL returned error: 502
+*** syncing flow
+*** failed syncing flow
+ * Sync failed again with 1, removing
