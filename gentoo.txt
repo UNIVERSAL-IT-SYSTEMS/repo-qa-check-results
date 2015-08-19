@@ -16,24 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   55e8bb9..3f87f7d  master     -> origin/master
-Updating 55e8bb9..3f87f7d
-Fast-forward
- app-admin/apache-tools/apache-tools-2.2.31.ebuild  |   2 +-
- dev-db/mariadb-galera/Manifest                     |   4 +-
- .../mariadb-galera/mariadb-galera-10.0.19.ebuild   | 128 ---------------------
- .../mariadb-galera/mariadb-galera-10.0.20.ebuild   | 128 ---------------------
- ....20-r1.ebuild => mariadb-galera-10.0.21.ebuild} |   2 +-
- dev-db/mariadb-galera/metadata.xml                 |   1 -
- dev-lang/php/php-5.4.44.ebuild                     |   2 +-
- dev-lang/php/php-5.5.28.ebuild                     |   2 +-
- dev-lang/php/php-5.6.12.ebuild                     |   2 +-
- www-servers/apache/apache-2.2.31.ebuild            |   2 +-
- 10 files changed, 7 insertions(+), 266 deletions(-)
- delete mode 100644 dev-db/mariadb-galera/mariadb-galera-10.0.19.ebuild
- delete mode 100644 dev-db/mariadb-galera/mariadb-galera-10.0.20.ebuild
- rename dev-db/mariadb-galera/{mariadb-galera-10.0.20-r1.ebuild => mariadb-galera-10.0.21.ebuild} (98%)
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
