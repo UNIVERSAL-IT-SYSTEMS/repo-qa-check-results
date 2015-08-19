@@ -13,7 +13,14 @@
  'status': 'official'}
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   46c8f3f..808bc30  master     -> origin/master
+Updating 46c8f3f..808bc30
+Fast-forward
+ .../files/kde4-l10n-15.08.0-remove-messages        | 210 +++++++++++++++++++++
+ kde-apps/kde4-l10n/kde4-l10n-15.08.0.ebuild        |   6 +-
+ 2 files changed, 215 insertions(+), 1 deletion(-)
+ create mode 100644 kde-apps/kde4-l10n/files/kde4-l10n-15.08.0-remove-messages
 *** syncing kde
 *** synced kde
  * Sync succeeded
