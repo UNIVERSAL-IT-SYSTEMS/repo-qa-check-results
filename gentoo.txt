@@ -17,21 +17,11 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   c4456f9..cab178c  master     -> origin/master
-Updating c4456f9..cab178c
+   cab178c..4696d40  master     -> origin/master
+Updating cab178c..4696d40
 Fast-forward
- dev-ruby/rqrcode/Manifest                          |  2 +-
- ...qrcode-0.4.2-r1.ebuild => rqrcode-0.7.0.ebuild} |  2 ++
- dev-ruby/websocket-extensions/Manifest             |  1 +
- dev-ruby/websocket-extensions/metadata.xml         |  8 ++++++++
- .../websocket-extensions-0.1.2.ebuild              | 23 ++++++++++++++++++++++
- dev-vcs/git/git-2.3.8.ebuild                       |  2 +-
- dev-vcs/git/git-2.4.6.ebuild                       |  2 +-
- 7 files changed, 37 insertions(+), 3 deletions(-)
- rename dev-ruby/rqrcode/{rqrcode-0.4.2-r1.ebuild => rqrcode-0.7.0.ebuild} (92%)
- create mode 100644 dev-ruby/websocket-extensions/Manifest
- create mode 100644 dev-ruby/websocket-extensions/metadata.xml
- create mode 100644 dev-ruby/websocket-extensions/websocket-extensions-0.1.2.ebuild
+ dev-libs/libmemcached/libmemcached-1.0.18-r3.ebuild | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

@@ -12,23 +12,7 @@
  'status': 'official'}
 $ pmaint sync graaff
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/dev/graaff
-   b70c82f..b9af4a8  master     -> origin/master
-Updating b70c82f..b9af4a8
-Fast-forward
- dev-ruby/sassy-maps/Manifest                       |  1 -
- dev-ruby/sassy-maps/sassy-maps-0.3.2.ebuild        | 24 ----------------------
- dev-ruby/sassy-maps/sassy-maps-0.4.0.ebuild        |  4 ++--
- dev-ruby/websocket-extensions/ChangeLog            | 10 ---------
- dev-ruby/websocket-extensions/Manifest             |  1 -
- dev-ruby/websocket-extensions/metadata.xml         |  5 -----
- .../websocket-extensions-0.1.2.ebuild              | 23 ---------------------
- 7 files changed, 2 insertions(+), 66 deletions(-)
- delete mode 100644 dev-ruby/sassy-maps/sassy-maps-0.3.2.ebuild
- delete mode 100644 dev-ruby/websocket-extensions/ChangeLog
- delete mode 100644 dev-ruby/websocket-extensions/Manifest
- delete mode 100644 dev-ruby/websocket-extensions/metadata.xml
- delete mode 100644 dev-ruby/websocket-extensions/websocket-extensions-0.1.2.ebuild
+Already up-to-date.
 *** syncing graaff
 *** synced graaff
  * Sync succeeded
