@@ -9,8 +9,6 @@
              'uri': 'git://github.com/jmesmon/sigrok-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync sigrok
-WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing sigrok
@@ -260,15 +258,15 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sci-electronics/sigrok-cli-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/pulseview-0.2.0, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/pulseview-0.2.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/pulseview-0.2.0' @0x7f2f9af53a50>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/pulseview-0.2.0, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/pulseview-0.2.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/pulseview-0.2.0' @0x7f58ba0eda50>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/pulseview-0.1.0, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/pulseview-0.1.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/pulseview-0.1.0' @0x7f2f9af53b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/pulseview-0.1.0, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/pulseview-0.1.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/pulseview-0.1.0' @0x7f58ba0edb90>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/pulseview-9999, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/pulseview-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/pulseview-9999' @0x7f2f9af53a50>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/pulseview-9999, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/pulseview-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/pulseview-9999' @0x7f58ba0eda50>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-0.5.0, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-0.5.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/sigrok-cli-0.5.0' @0x7f2f9af53b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-0.5.0, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-0.5.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/sigrok-cli-0.5.0' @0x7f58ba0edb90>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-0.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-0.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/sigrok-cli-0.4.0' @0x7f2f9af53a50>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-0.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-0.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/sigrok-cli-0.4.0' @0x7f58ba0eda50>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-9999, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/sigrok-cli-9999' @0x7f2f9af53b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-9999, attr description\nerror: Metadata Exception: pkg ebuild src: sci-electronics/sigrok-cli-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sci-electronics/sigrok-cli-9999' @0x7f58ba0edb90>)
  * Cache regen failed with 1

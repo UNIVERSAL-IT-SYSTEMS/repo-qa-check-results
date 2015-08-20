@@ -53,25 +53,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!!  unknown inherit command from pythonic side, 'gen_metadata 229' for eclass autotools
 
 received unknown com: export CATEGORY='net-misc' PR=r0 PVR='0.12' PV='0.12' EBUILD='/home/mgorny/repos/flavour/net-misc/shell-oaiharvester/shell-oaiharvester-0.12.ebuild' P='shell-oaiharvester-0.12' PF='shell-oaiharvester-0.12' PN='shell-oaiharvester'path
-
-!!! ERROR: net-misc/epoptes-9999 failed.
-!!! die invoked from directory /home/mgorny/pkgcore-venv/lib/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 458:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 210:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 441:  Called __ebd_process_metadata '168' 'depend'
-!!!             ebuild-daemon.bash, line 374:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 431:  Called __load_ebuild '/home/mgorny/repos/flavour/net-misc/epoptes/epoptes-9999.ebuild'
-!!!                     ebuild.lib, line 252:  Called __qa_invoke 'source' '/home/mgorny/repos/flavour/net-misc/epoptes/epoptes-9999.ebuild'
-!!!         isolated-functions.lib, line 286:  Called source '/home/mgorny/repos/flavour/net-misc/epoptes/epoptes-9999.ebuild'
-!!!            epoptes-9999.ebuild, line  10:  Called inherit 'bzr' 'distutils' 'eutils' 'twisted'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'twisted'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for twisted failed
-
-sandbox:stop  caught signal 15 in pid 2714
-Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, twisted cannot be found while processing ebuild src: net-misc/epoptes-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-misc/forticlient-sslvpn-4.0.2143
@@ -81,6 +62,36 @@ error: parsed eapi '3' doesn't match sourced eapi '0' while processing ebuild sr
 error: parsed eapi '2' doesn't match sourced eapi '3' while processing ebuild src: net-misc/shell-oaiharvester-0.11
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-misc/shell-oaiharvester-0.12
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: net-misc/shell-oaiharvester-9999
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/epoptes-9999, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/epoptes-9999, attr data\nerror: inherit requires an unknown eclass, twisted cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/epoptes-9999' @0x7f597f31c050>)
+Traceback (most recent call last):
+  File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
+    scripts.main(basename(__file__))
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/__init__.py", line 43, in main
+    commandline.main(subcommands)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/util/commandline.py", line 915, in main
+    exitstatus = main_func(options, out, err)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/pmaint.py", line 272, in regen_main
+    eclass_caching=(not options.disable_eclass_caching))
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/__init__.py", line 68, in _recast_exception_decorator
+    return functor(*args, **kwds)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/repo.py", line 236, in _cmd_api_regen_cache
+    self._get_observer(observer), threads=threads, **options)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 41, in regen_repository
+    regen_iter(passthru(repo), _get_repo_helper(), observer)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 529, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 825, in get_keys
+    {"key": receive_key})
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 758, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 456, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
  * Cache regen failed with 1

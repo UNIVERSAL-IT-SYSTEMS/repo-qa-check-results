@@ -13,7 +13,14 @@
 $ pmaint sync pentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/pentoo/pentoo-overlay
+   f216144..3962efc  master     -> origin/master
+Updating f216144..3962efc
+Fast-forward
+ pentoo/pentoo-desktop/Manifest                                         | 2 +-
+ .../{pentoo-desktop-2015.1.ebuild => pentoo-desktop-2015.3.ebuild}     | 3 +--
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+ rename pentoo/pentoo-desktop/{pentoo-desktop-2015.1.ebuild => pentoo-desktop-2015.3.ebuild} (97%)
 *** syncing pentoo
 *** synced pentoo
  * Sync succeeded

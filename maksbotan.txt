@@ -15,7 +15,17 @@
  'status': 'official'}
 $ pmaint sync maksbotan
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/maksbotan
+   dd9f07a..9f9f963  master     -> origin/master
+Updating dd9f07a..9f9f963
+Fast-forward
+ sys-kernel/rt3573sta/Manifest              | 16 ++++++++++++++++
+ sys-kernel/rt3573sta/metadata.xml          | 10 ++++++++++
+ sys-kernel/rt3573sta/rt3573sta-9999.ebuild | 30 ++++++++++++++++++++++++++++++
+ 3 files changed, 56 insertions(+)
+ create mode 100644 sys-kernel/rt3573sta/Manifest
+ create mode 100644 sys-kernel/rt3573sta/metadata.xml
+ create mode 100644 sys-kernel/rt3573sta/rt3573sta-9999.ebuild
 *** syncing maksbotan
 *** synced maksbotan
  * Sync succeeded

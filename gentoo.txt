@@ -16,7 +16,51 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   35a3bea..ab07ca7  master     -> origin/master
+Updating 35a3bea..ab07ca7
+Fast-forward
+ eclass/kde4-functions.eclass                       | 23 ++++----
+ eclass/kde5-meta-pkg.eclass                        | 21 +++++++
+ kde-apps/audiocd-kio/Manifest                      |  1 +
+ kde-apps/audiocd-kio/audiocd-kio-15.08.0.ebuild    | 33 +++++++++++
+ kde-apps/dragon/Manifest                           |  1 +
+ kde-apps/dragon/dragon-15.08.0.ebuild              | 39 +++++++++++++
+ kde-apps/ffmpegthumbs/Manifest                     |  1 +
+ kde-apps/ffmpegthumbs/ffmpegthumbs-15.08.0.ebuild  | 18 ++++++
+ kde-apps/juk/Manifest                              |  1 +
+ kde-apps/juk/juk-15.08.0.ebuild                    | 27 +++++++++
+ .../kdemultimedia-meta-15.08.0.ebuild              | 28 +++++++++
+ kde-apps/kdenlive/Manifest                         |  1 +
+ kde-apps/kdenlive/kdenlive-15.08.0.ebuild          | 66 ++++++++++++++++++++++
+ kde-apps/kdenlive/metadata.xml                     |  5 ++
+ kde-apps/kmix/Manifest                             |  1 +
+ .../kmix/files/kmix-15.04.2-alsa-optional.patch    | 26 +++++++++
+ kde-apps/kmix/kmix-15.08.0.ebuild                  | 53 +++++++++++++++++
+ kde-apps/kscd/Manifest                             |  1 +
+ kde-apps/kscd/kscd-15.08.0.ebuild                  | 19 +++++++
+ kde-apps/libkcddb/Manifest                         |  1 +
+ kde-apps/libkcddb/libkcddb-15.08.0.ebuild          | 41 ++++++++++++++
+ kde-apps/libkcompactdisc/Manifest                  |  1 +
+ .../libkcompactdisc/libkcompactdisc-15.08.0.ebuild | 18 ++++++
+ kde-apps/mplayerthumbs/Manifest                    |  1 +
+ .../mplayerthumbs/mplayerthumbs-15.08.0.ebuild     | 23 ++++++++
+ 25 files changed, 438 insertions(+), 12 deletions(-)
+ create mode 100644 eclass/kde5-meta-pkg.eclass
+ create mode 100644 kde-apps/audiocd-kio/audiocd-kio-15.08.0.ebuild
+ create mode 100644 kde-apps/dragon/dragon-15.08.0.ebuild
+ create mode 100644 kde-apps/ffmpegthumbs/ffmpegthumbs-15.08.0.ebuild
+ create mode 100644 kde-apps/juk/juk-15.08.0.ebuild
+ create mode 100644 kde-apps/kdemultimedia-meta/kdemultimedia-meta-15.08.0.ebuild
+ create mode 100644 kde-apps/kdenlive/Manifest
+ create mode 100644 kde-apps/kdenlive/kdenlive-15.08.0.ebuild
+ create mode 100644 kde-apps/kdenlive/metadata.xml
+ create mode 100644 kde-apps/kmix/files/kmix-15.04.2-alsa-optional.patch
+ create mode 100644 kde-apps/kmix/kmix-15.08.0.ebuild
+ create mode 100644 kde-apps/kscd/kscd-15.08.0.ebuild
+ create mode 100644 kde-apps/libkcddb/libkcddb-15.08.0.ebuild
+ create mode 100644 kde-apps/libkcompactdisc/libkcompactdisc-15.08.0.ebuild
+ create mode 100644 kde-apps/mplayerthumbs/mplayerthumbs-15.08.0.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
