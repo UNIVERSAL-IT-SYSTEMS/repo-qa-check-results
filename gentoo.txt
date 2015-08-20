@@ -17,17 +17,15 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   4bda767..dae5155  master     -> origin/master
-Updating 4bda767..dae5155
+   dae5155..237ca6d  master     -> origin/master
+Updating dae5155..237ca6d
 Fast-forward
- .../elasticsearch-py/elasticsearch-py-1.6.0.ebuild |  4 +-
- sci-physics/yoda/Manifest                          |  1 +
- sci-physics/yoda/metadata.xml                      | 16 +++++++
- sci-physics/yoda/yoda-1.4.0.ebuild                 | 51 ++++++++++++++++++++++
- 4 files changed, 71 insertions(+), 1 deletion(-)
- create mode 100644 sci-physics/yoda/Manifest
- create mode 100644 sci-physics/yoda/metadata.xml
- create mode 100644 sci-physics/yoda/yoda-1.4.0.ebuild
+ dev-ruby/websocket-driver/Manifest                 |  1 +
+ dev-ruby/websocket-driver/metadata.xml             |  2 +-
+ .../websocket-driver/websocket-driver-0.6.2.ebuild | 37 ++++++++++++++++++++++
+ profiles/package.mask                              |  5 +++
+ 4 files changed, 44 insertions(+), 1 deletion(-)
+ create mode 100644 dev-ruby/websocket-driver/websocket-driver-0.6.2.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
