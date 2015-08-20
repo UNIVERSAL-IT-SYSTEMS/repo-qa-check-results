@@ -12,8 +12,6 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/sunrise-reviewed.git'}],
  'status': 'official'}
 $ pmaint sync sunrise
-WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing sunrise
@@ -103,7 +101,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-rpg/lipsofsuna-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: games-rpg/lipsofsuna-0.5.0, attr description\nerror: Metadata Exception: pkg ebuild src: games-rpg/lipsofsuna-0.5.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='games-rpg/lipsofsuna-0.5.0' @0x7f2f0db0e050>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: games-rpg/lipsofsuna-0.5.0, attr description\nerror: Metadata Exception: pkg ebuild src: games-rpg/lipsofsuna-0.5.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='games-rpg/lipsofsuna-0.5.0' @0x7fc694b05050>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: games-rpg/lipsofsuna-9999, attr description\nerror: Metadata Exception: pkg ebuild src: games-rpg/lipsofsuna-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='games-rpg/lipsofsuna-9999' @0x7f2f0db0e190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: games-rpg/lipsofsuna-9999, attr description\nerror: Metadata Exception: pkg ebuild src: games-rpg/lipsofsuna-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='games-rpg/lipsofsuna-9999' @0x7fc694b05190>)
  * Cache regen failed with 1

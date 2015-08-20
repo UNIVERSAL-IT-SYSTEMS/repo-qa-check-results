@@ -14,9 +14,18 @@
              'uri': 'git://anongit.gentoo.org/repo/gentoo.git'}],
  'status': 'official'}
 $ pmaint sync gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+From https://anongit.gentoo.org/git/repo/gentoo
+   f9dfa81..35a3bea  master     -> origin/master
+Updating f9dfa81..35a3bea
+Fast-forward
+ net-firewall/iptables/iptables-1.4.21-r2.ebuild | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

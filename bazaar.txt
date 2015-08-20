@@ -7,6 +7,8 @@
  'source': [{'type': 'bzr', 'uri': 'lp:bzr-gentoo-overlay'}],
  'status': 'unofficial'}
 $ pmaint sync bazaar
+WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 You have not informed bzr of your Launchpad ID, and you must do this to
 write to Launchpad or access private data.  See "bzr help launchpad-login".

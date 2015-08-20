@@ -9,6 +9,8 @@
              'uri': 'rsync://rsync.mad-hacking.net/hacking-gentoo-overlay/'}],
  'status': 'unofficial'}
 $ pmaint sync hacking-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 receiving incremental file list
 
@@ -19,7 +21,7 @@ Total file size: 5.13M bytes
 Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
-File list size: 46.84K
+File list size: 46.85K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 381

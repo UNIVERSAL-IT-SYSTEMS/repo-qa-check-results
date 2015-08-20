@@ -9,6 +9,8 @@
              'uri': 'https://bitbucket.org/belak/belak.gentoo'}],
  'status': 'unofficial'}
 $ pmaint sync belak
+WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 pulling from https://bitbucket.org/belak/belak.gentoo
 searching for changes
@@ -100,7 +102,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-editors/scribes-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-editors/scribes-0.4-r954, attr description\nerror: Metadata Exception: pkg ebuild src: app-editors/scribes-0.4-r954, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-editors/scribes-0.4-r954' @0x7f6ae9becb90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-editors/scribes-0.4-r954, attr description\nerror: Metadata Exception: pkg ebuild src: app-editors/scribes-0.4-r954, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-editors/scribes-0.4-r954' @0x7f5f6a879b90>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-editors/scribes-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-editors/scribes-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-editors/scribes-9999' @0x7f6ae9bece10>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-editors/scribes-9999, attr description\nerror: Metadata Exception: pkg ebuild src: app-editors/scribes-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-editors/scribes-9999' @0x7f5f6a879e10>)
  * Cache regen failed with 1
