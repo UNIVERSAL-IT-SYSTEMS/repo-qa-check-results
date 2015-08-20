@@ -15,7 +15,88 @@
  'status': 'unofficial'}
 $ pmaint sync lif
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/killer2tester/gentoo-overlay-lif
+   8627cae..d19e076  master     -> origin/master
+Updating 8627cae..d19e076
+Fast-forward
+ app-emulation/virtualbox-additions/metadata.xml    |  18 +
+ .../virtualbox-additions-5.0.2.ebuild              |  35 ++
+ .../virtualbox-extpack-oracle/metadata.xml         |  18 +
+ .../virtualbox-extpack-oracle-5.0.2.102096.ebuild  |  36 ++
+ .../files/vboxclient.desktop                       |   7 +
+ .../files/vboxguest-4.1.0-log-use-c99.patch        |  13 +
+ .../files/virtualbox-guest-additions-3-localconfig |  30 ++
+ .../files/virtualbox-guest-additions-5-localconfig |  30 ++
+ .../files/virtualbox-guest-additions-8.initd       |  26 ++
+ .../files/virtualbox-guest-additions.service       |  20 +
+ .../files/xorg.conf.vbox                           |  13 +
+ .../virtualbox-guest-additions/metadata.xml        |  18 +
+ .../virtualbox-guest-additions-5.0.2.ebuild        | 237 +++++++++++
+ .../files/create_vbox_modules_tarball.sh           |  29 ++
+ .../files/virtualbox-modules-4.1.4-pax-const.patch |  48 +++
+ .../virtualbox-modules/files/virtualbox.conf       |   3 +
+ app-emulation/virtualbox-modules/metadata.xml      |  22 +
+ .../virtualbox-modules-5.0.2.ebuild                |  58 +++
+ app-emulation/virtualbox/files/10-virtualbox.rules |   7 +
+ .../001_virtualbox-ose-3.2.8-mesa-check.patch      |  36 ++
+ ...albox-5.0.0_beta3-remove-configure-checks.patch |  20 +
+ ...virtualbox-4.0.2-restore_old_machines_dir.patch |  12 +
+ .../004_virtualbox-4.1.2-vboxpci-build.patch       |  18 +
+ .../patches/005_virtualbox-4.2.26-asneeded.patch   |  11 +
+ .../006_virtualbox-4.2.18-vboxwebsrv_fix.patch     |  15 +
+ .../patches/007_virtualbox-4.3.16-gsoap2813.patch  |  39 ++
+ .../008_virtualbox-4.3.14-missing_define.patch     |  14 +
+ .../files/patches/050_virtualbox-5.0.2-nopie.patch | 147 +++++++
+ app-emulation/virtualbox/files/vboxwebsrv-confd    |  20 +
+ app-emulation/virtualbox/files/vboxwebsrv-initd    |  24 ++
+ app-emulation/virtualbox/files/virtualbox-4-config |   1 +
+ .../virtualbox/files/virtualbox-4-localconfig      |  45 ++
+ .../virtualbox/files/virtualbox-5-localconfig      |  45 ++
+ .../virtualbox/files/virtualbox-ose-3-config       |   1 +
+ .../virtualbox/files/virtualbox-ose-3-wrapper      | 104 +++++
+ .../virtualbox/files/virtualbox-ose.desktop-2      |   8 +
+ app-emulation/virtualbox/metadata.xml              |  27 ++
+ app-emulation/virtualbox/virtualbox-5.0.2.ebuild   | 454 +++++++++++++++++++++
+ sets/dl-core                                       |   1 +
+ 39 files changed, 1710 insertions(+)
+ create mode 100644 app-emulation/virtualbox-additions/metadata.xml
+ create mode 100644 app-emulation/virtualbox-additions/virtualbox-additions-5.0.2.ebuild
+ create mode 100644 app-emulation/virtualbox-extpack-oracle/metadata.xml
+ create mode 100644 app-emulation/virtualbox-extpack-oracle/virtualbox-extpack-oracle-5.0.2.102096.ebuild
+ create mode 100644 app-emulation/virtualbox-guest-additions/files/vboxclient.desktop
+ create mode 100644 app-emulation/virtualbox-guest-additions/files/vboxguest-4.1.0-log-use-c99.patch
+ create mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions-3-localconfig
+ create mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions-5-localconfig
+ create mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions-8.initd
+ create mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions.service
+ create mode 100644 app-emulation/virtualbox-guest-additions/files/xorg.conf.vbox
+ create mode 100644 app-emulation/virtualbox-guest-additions/metadata.xml
+ create mode 100644 app-emulation/virtualbox-guest-additions/virtualbox-guest-additions-5.0.2.ebuild
+ create mode 100755 app-emulation/virtualbox-modules/files/create_vbox_modules_tarball.sh
+ create mode 100644 app-emulation/virtualbox-modules/files/virtualbox-modules-4.1.4-pax-const.patch
+ create mode 100644 app-emulation/virtualbox-modules/files/virtualbox.conf
+ create mode 100644 app-emulation/virtualbox-modules/metadata.xml
+ create mode 100644 app-emulation/virtualbox-modules/virtualbox-modules-5.0.2.ebuild
+ create mode 100644 app-emulation/virtualbox/files/10-virtualbox.rules
+ create mode 100644 app-emulation/virtualbox/files/patches/001_virtualbox-ose-3.2.8-mesa-check.patch
+ create mode 100644 app-emulation/virtualbox/files/patches/002_virtualbox-5.0.0_beta3-remove-configure-checks.patch
+ create mode 100644 app-emulation/virtualbox/files/patches/003_virtualbox-4.0.2-restore_old_machines_dir.patch
+ create mode 100644 app-emulation/virtualbox/files/patches/004_virtualbox-4.1.2-vboxpci-build.patch
+ create mode 100644 app-emulation/virtualbox/files/patches/005_virtualbox-4.2.26-asneeded.patch
+ create mode 100644 app-emulation/virtualbox/files/patches/006_virtualbox-4.2.18-vboxwebsrv_fix.patch
+ create mode 100644 app-emulation/virtualbox/files/patches/007_virtualbox-4.3.16-gsoap2813.patch
+ create mode 100644 app-emulation/virtualbox/files/patches/008_virtualbox-4.3.14-missing_define.patch
+ create mode 100644 app-emulation/virtualbox/files/patches/050_virtualbox-5.0.2-nopie.patch
+ create mode 100644 app-emulation/virtualbox/files/vboxwebsrv-confd
+ create mode 100644 app-emulation/virtualbox/files/vboxwebsrv-initd
+ create mode 100644 app-emulation/virtualbox/files/virtualbox-4-config
+ create mode 100644 app-emulation/virtualbox/files/virtualbox-4-localconfig
+ create mode 100644 app-emulation/virtualbox/files/virtualbox-5-localconfig
+ create mode 100644 app-emulation/virtualbox/files/virtualbox-ose-3-config
+ create mode 100644 app-emulation/virtualbox/files/virtualbox-ose-3-wrapper
+ create mode 100644 app-emulation/virtualbox/files/virtualbox-ose.desktop-2
+ create mode 100644 app-emulation/virtualbox/metadata.xml
+ create mode 100644 app-emulation/virtualbox/virtualbox-5.0.2.ebuild
 *** syncing lif
 *** synced lif
  * Sync succeeded
