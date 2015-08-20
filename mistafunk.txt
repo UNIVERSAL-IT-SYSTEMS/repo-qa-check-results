@@ -15,14 +15,24 @@
  'status': 'unofficial'}
 $ pmaint sync mistafunk
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+*** syncing mistafunk
+*** failed syncing mistafunk
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync mistafunk
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/sync/mistafunk'...
 *** syncing mistafunk
 *** synced mistafunk
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 mistafunk
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 !!! caught exception Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi
 error: parsed eapi '0' doesn't match sourced eapi '3' while processing ebuild src: media-gfx/blender-cycles-9999
-caught exception '%s' while processing '%s'(MetadataException("Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr description\nerror: Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr data\nerror: Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi\nerror: parsed eapi '0' doesn't match sourced eapi '3'",), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-gfx/blender-cycles-9999' @0x7f23bfed7e10>)
+caught exception '%s' while processing '%s'(MetadataException("Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr description\nerror: Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr data\nerror: Metadata Exception: pkg ebuild src: media-gfx/blender-cycles-9999, attr eapi\nerror: parsed eapi '0' doesn't match sourced eapi '3'",), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-gfx/blender-cycles-9999' @0x7f44fda41e10>)
  * Cache regen failed with 1

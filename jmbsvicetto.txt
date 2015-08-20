@@ -15,7 +15,16 @@
 $ pmaint sync jmbsvicetto
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/jmbsvicetto
+   6ce5ced..2d282e2  master     -> origin/master
+Updating 6ce5ced..2d282e2
+Fast-forward
+ www-apps/dokuwiki/Manifest                         |  1 +
+ ...140929d.ebuild => dokuwiki-20140929d-r1.ebuild} |  4 +-
+ www-apps/dokuwiki/dokuwiki-20150810.ebuild         | 68 ++++++++++++++++++++++
+ 3 files changed, 71 insertions(+), 2 deletions(-)
+ rename www-apps/dokuwiki/{dokuwiki-20140929d.ebuild => dokuwiki-20140929d-r1.ebuild} (96%)
+ create mode 100644 www-apps/dokuwiki/dokuwiki-20150810.ebuild
 *** syncing jmbsvicetto
 *** synced jmbsvicetto
  * Sync succeeded
