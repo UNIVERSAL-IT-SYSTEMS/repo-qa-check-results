@@ -10,49 +10,7 @@
 $ pmaint sync amielke-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/amielke/amielke-overlay
-   81773e2..d806f8d  master     -> origin/master
-Updating 81773e2..d806f8d
-Fast-forward
- .../banshee-community-extensions/Manifest          |   1 -
- .../banshee-community-extensions-9999.ebuild       |  85 --------------
- media-plugins/vdr-burn/Manifest                    |  17 ---
- .../files/0.1.0_pre21/charset-vdr-1.5.diff         |  20 ----
- media-plugins/vdr-burn/files/0.1.0_pre21/i18n.diff |  29 -----
- .../vdr-burn/files/0.1.0_pre21/menuburn.diff       |  20 ----
- .../vdr-burn/files/0.1.0_pre21/menuitems.diff      |  11 --
- .../vdr-burn/files/0.1.0_pre21/requantfactor.diff  |  15 ---
- .../0.1.0_pre21/vdr-burn-0.1.0_pre21-gcc43.patch   |  63 ----------
- .../0.1.0_pre21/vdr-burn-0.1.0_pre21-gentoo.diff   |  51 ---------
- .../0.1.0_pre21/vdr-burn-0.1.0_pre21-makefile.diff |  22 ----
- .../vdr-burn-0.1.0_pre21_setdefaults-V2.diff       |  44 -------
- media-plugins/vdr-burn/files/confd                 |  27 -----
- media-plugins/vdr-burn/files/rc-addon.sh           |  33 ------
- .../files/vdr-burn-0.2.0_beta4-gentoo-paths.diff   |  18 ---
- .../vdr-burn-0.2.0_beta4-gentoo-projectx.diff      |  16 ---
- .../files/vdr-burn-0.2.0_beta4-makefile.diff       |  22 ----
- .../files/vdr-burn-0.2.0_beta4-setdefaults-V2.diff |  45 --------
- media-plugins/vdr-burn/vdr-burn-0.2.0_beta4.ebuild | 127 ---------------------
- 19 files changed, 666 deletions(-)
- delete mode 100644 media-plugins/banshee-community-extensions/Manifest
- delete mode 100644 media-plugins/banshee-community-extensions/banshee-community-extensions-9999.ebuild
- delete mode 100644 media-plugins/vdr-burn/Manifest
- delete mode 100644 media-plugins/vdr-burn/files/0.1.0_pre21/charset-vdr-1.5.diff
- delete mode 100644 media-plugins/vdr-burn/files/0.1.0_pre21/i18n.diff
- delete mode 100644 media-plugins/vdr-burn/files/0.1.0_pre21/menuburn.diff
- delete mode 100644 media-plugins/vdr-burn/files/0.1.0_pre21/menuitems.diff
- delete mode 100644 media-plugins/vdr-burn/files/0.1.0_pre21/requantfactor.diff
- delete mode 100644 media-plugins/vdr-burn/files/0.1.0_pre21/vdr-burn-0.1.0_pre21-gcc43.patch
- delete mode 100644 media-plugins/vdr-burn/files/0.1.0_pre21/vdr-burn-0.1.0_pre21-gentoo.diff
- delete mode 100644 media-plugins/vdr-burn/files/0.1.0_pre21/vdr-burn-0.1.0_pre21-makefile.diff
- delete mode 100644 media-plugins/vdr-burn/files/0.1.0_pre21/vdr-burn-0.1.0_pre21_setdefaults-V2.diff
- delete mode 100644 media-plugins/vdr-burn/files/confd
- delete mode 100644 media-plugins/vdr-burn/files/rc-addon.sh
- delete mode 100644 media-plugins/vdr-burn/files/vdr-burn-0.2.0_beta4-gentoo-paths.diff
- delete mode 100644 media-plugins/vdr-burn/files/vdr-burn-0.2.0_beta4-gentoo-projectx.diff
- delete mode 100644 media-plugins/vdr-burn/files/vdr-burn-0.2.0_beta4-makefile.diff
- delete mode 100644 media-plugins/vdr-burn/files/vdr-burn-0.2.0_beta4-setdefaults-V2.diff
- delete mode 100644 media-plugins/vdr-burn/vdr-burn-0.2.0_beta4.ebuild
+Already up-to-date.
 *** syncing amielke-overlay
 *** synced amielke-overlay
  * Sync succeeded
