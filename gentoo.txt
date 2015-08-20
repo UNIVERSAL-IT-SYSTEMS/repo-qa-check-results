@@ -17,13 +17,24 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   8d70b24..7b32662  master     -> origin/master
-Updating 8d70b24..7b32662
+   7b32662..a44aab6  master     -> origin/master
+Updating 7b32662..a44aab6
 Fast-forward
- www-apps/dokuwiki/Manifest                 |  1 +
- www-apps/dokuwiki/dokuwiki-20150810.ebuild | 68 ++++++++++++++++++++++++++++++
- 2 files changed, 69 insertions(+)
- create mode 100644 www-apps/dokuwiki/dokuwiki-20150810.ebuild
+ .../backup-manager-0.7.10.1-r1.ebuild              |  50 ----------
+ .../backup-manager-0.7.10.1-r2.ebuild              |   4 +-
+ .../backup-manager/backup-manager-0.7.5.ebuild     |   4 +-
+ media-libs/libgroove/Manifest                      |   1 +
+ .../files/libgroove-4.3.0_GNUInstallDirs.patch     | 105 +++++++++++++++++++++
+ .../libgroove/files/libgroove-4.3.0_cflags.patch   |  43 +++++++++
+ media-libs/libgroove/libgroove-4.3.0.ebuild        |  43 +++++++++
+ media-libs/libgroove/metadata.xml                  |  25 +++++
+ 8 files changed, 221 insertions(+), 54 deletions(-)
+ delete mode 100644 app-backup/backup-manager/backup-manager-0.7.10.1-r1.ebuild
+ create mode 100644 media-libs/libgroove/Manifest
+ create mode 100644 media-libs/libgroove/files/libgroove-4.3.0_GNUInstallDirs.patch
+ create mode 100644 media-libs/libgroove/files/libgroove-4.3.0_cflags.patch
+ create mode 100644 media-libs/libgroove/libgroove-4.3.0.ebuild
+ create mode 100644 media-libs/libgroove/metadata.xml
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
