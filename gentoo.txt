@@ -17,16 +17,12 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   b956734..8727387  master     -> origin/master
-Updating b956734..8727387
+   8727387..e8c8e1b  master     -> origin/master
+Updating 8727387..e8c8e1b
 Fast-forward
- dev-java/vecmath/Manifest             |  1 +
- dev-java/vecmath/metadata.xml         |  9 +++++++++
- dev-java/vecmath/vecmath-1.5.2.ebuild | 22 ++++++++++++++++++++++
- 3 files changed, 32 insertions(+)
- create mode 100644 dev-java/vecmath/Manifest
- create mode 100644 dev-java/vecmath/metadata.xml
- create mode 100644 dev-java/vecmath/vecmath-1.5.2.ebuild
+ .../0ad/{0ad-0.0.18_alpha.ebuild => 0ad-0.0.18_alpha-r1.ebuild}          | 1 +
+ 1 file changed, 1 insertion(+)
+ rename games-strategy/0ad/{0ad-0.0.18_alpha.ebuild => 0ad-0.0.18_alpha-r1.ebuild} (99%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
