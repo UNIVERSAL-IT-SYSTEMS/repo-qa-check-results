@@ -16,10 +16,28 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   75a2af9..326a0e9  master     -> origin/master
+Updating 75a2af9..326a0e9
+Fast-forward
+ app-emulation/libvirt/libvirt-1.2.18-r2.ebuild | 2 +-
+ app-emulation/libvirt/libvirt-9999.ebuild      | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by app-emulation/libvirt-1.2.18-r2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by app-emulation/libvirt-1.2.18-r2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by app-emulation/libvirt-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by app-emulation/libvirt-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully
