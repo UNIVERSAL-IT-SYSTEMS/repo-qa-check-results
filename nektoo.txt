@@ -13,8 +13,6 @@
              'uri': 'ssh://hg@bitbucket.org/neko259/nektoo'}],
  'status': 'unofficial'}
 $ pmaint sync nektoo
-WARNING:pkgcore:repository at location '/home/mgorny/sync/jkolo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 pulling from https://bitbucket.org/neko259/nektoo
 searching for changes
