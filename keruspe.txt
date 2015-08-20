@@ -25,7 +25,9 @@ Already up-to-date.
 *** synced keruspe
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 keruspe
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use_enable' function invoked by x11-misc/gpaste-2.2.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
