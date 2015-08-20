@@ -17,68 +17,7 @@ WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profil
 WARNING:pkgcore:repository at location '/home/mgorny/sync/jkolo' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/pentoo/pentoo-overlay
-   1436e7c..f216144  master     -> origin/master
-Updating 1436e7c..f216144
-Fast-forward
- .../pentoo/base/package.accept_keywords/sys-kernel |   5 +-
- profiles/pentoo/base/package.mask                  |   2 +-
- profiles/pentoo/base/package.unmask                |  10 -
- sys-kernel/genkernel/Manifest                      |  47 -
- sys-kernel/genkernel/files/9999-pass-1.patch       | 597 -------------
- sys-kernel/genkernel/files/9999-pass-2.patch       | 589 -------------
- .../genkernel/files/aufs-changes-e2fsprogs-2.diff  | 599 -------------
- .../genkernel/files/aufs-changes-e2fsprogs.diff    | 605 -------------
- .../genkernel/files/aufs-correct-hacked.diff       | 548 ------------
- sys-kernel/genkernel/files/aufs-new.patch          | 975 ---------------------
- sys-kernel/genkernel/files/aufs-reference.diff     | 572 ------------
- .../files/busybox-1.20.2-glibc-sys-resource.patch  | 109 ---
- sys-kernel/genkernel/files/distfiles-fix.patch     |  16 -
- sys-kernel/genkernel/files/genkernel.bash          |  73 --
- sys-kernel/genkernel/files/initramfs.mounts        |  23 -
- sys-kernel/genkernel/files/v3.4.45.1.patch         | 456 ----------
- sys-kernel/genkernel/files/verify.patch            |  66 --
- sys-kernel/genkernel/files/zfs-fix.patch           |  40 -
- sys-kernel/genkernel/genkernel-3.4.41-r1.ebuild    | 162 ----
- sys-kernel/genkernel/genkernel-3.4.41-r2.ebuild    | 163 ----
- sys-kernel/genkernel/genkernel-3.4.41-r3.ebuild    | 164 ----
- sys-kernel/genkernel/genkernel-3.4.41-r4.ebuild    | 167 ----
- sys-kernel/genkernel/genkernel-3.4.41.ebuild       | 161 ----
- sys-kernel/genkernel/genkernel-3.4.49.2.ebuild     | 172 ----
- sys-kernel/genkernel/genkernel-3.4.50.9999.ebuild  | 141 ---
- .../genkernel/genkernel-3.4.51.9999-r1.ebuild      | 142 ---
- sys-kernel/genkernel/genkernel-3.4.51.9999.ebuild  | 142 ---
- sys-kernel/genkernel/genkernel-9999.2540.ebuild    | 151 ----
- sys-kernel/genkernel/genkernel-9999.2998.ebuild    | 151 ----
- sys-kernel/genkernel/genkernel-9999.ebuild         | 162 ----
- 30 files changed, 2 insertions(+), 7208 deletions(-)
- delete mode 100644 sys-kernel/genkernel/Manifest
- delete mode 100644 sys-kernel/genkernel/files/9999-pass-1.patch
- delete mode 100644 sys-kernel/genkernel/files/9999-pass-2.patch
- delete mode 100644 sys-kernel/genkernel/files/aufs-changes-e2fsprogs-2.diff
- delete mode 100644 sys-kernel/genkernel/files/aufs-changes-e2fsprogs.diff
- delete mode 100644 sys-kernel/genkernel/files/aufs-correct-hacked.diff
- delete mode 100644 sys-kernel/genkernel/files/aufs-new.patch
- delete mode 100644 sys-kernel/genkernel/files/aufs-reference.diff
- delete mode 100644 sys-kernel/genkernel/files/busybox-1.20.2-glibc-sys-resource.patch
- delete mode 100644 sys-kernel/genkernel/files/distfiles-fix.patch
- delete mode 100644 sys-kernel/genkernel/files/genkernel.bash
- delete mode 100644 sys-kernel/genkernel/files/initramfs.mounts
- delete mode 100644 sys-kernel/genkernel/files/v3.4.45.1.patch
- delete mode 100644 sys-kernel/genkernel/files/verify.patch
- delete mode 100644 sys-kernel/genkernel/files/zfs-fix.patch
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.41-r1.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.41-r2.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.41-r3.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.41-r4.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.41.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.49.2.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.50.9999.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.51.9999-r1.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.51.9999.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-9999.2540.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-9999.2998.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-9999.ebuild
+Already up-to-date.
 *** syncing pentoo
 *** synced pentoo
  * Sync succeeded
