@@ -14,8 +14,6 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/improvise.git'}],
  'status': 'unofficial'}
 $ pmaint sync improvise
-WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing improvise
@@ -209,11 +207,11 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-libs/libtvdb-0.3.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-misc/service-discovery-applet-0.4.3-r1, attr description\nerror: Metadata Exception: pkg ebuild src: x11-misc/service-discovery-applet-0.4.3-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-misc/service-discovery-applet-0.4.3-r1' @0x7f5199808b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: x11-misc/service-discovery-applet-0.4.3-r1, attr description\nerror: Metadata Exception: pkg ebuild src: x11-misc/service-discovery-applet-0.4.3-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='x11-misc/service-discovery-applet-0.4.3-r1' @0x7f86393ceb90>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/kdev-ruby-9999, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/kdev-ruby-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/kdev-ruby-9999' @0x7f5196d08550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/kdev-ruby-9999, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/kdev-ruby-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/kdev-ruby-9999' @0x7f86368d2550>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/nvidiadevicemonitor-0.1.2, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/nvidiadevicemonitor-0.1.2, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/nvidiadevicemonitor-0.1.2' @0x7f5199808b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/nvidiadevicemonitor-0.1.2, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/nvidiadevicemonitor-0.1.2, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/nvidiadevicemonitor-0.1.2' @0x7f86393ceb90>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-libs/libtvdb-0.3.0, attr description\nerror: Metadata Exception: pkg ebuild src: media-libs/libtvdb-0.3.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-libs/libtvdb-0.3.0' @0x7f5196d08b90>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-libs/libtvdb-0.3.0, attr description\nerror: Metadata Exception: pkg ebuild src: media-libs/libtvdb-0.3.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-libs/libtvdb-0.3.0' @0x7f86368d2b90>)
  * Cache regen failed with 1

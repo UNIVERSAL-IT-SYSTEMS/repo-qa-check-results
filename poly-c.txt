@@ -8,8 +8,6 @@
  'source': [{'type': 'rsync', 'uri': 'rsync://gentoofan.no-ip.org/poly-c'}],
  'status': 'official'}
 $ pmaint sync poly-c
-WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 -------------------------------------------------------------------------------
 | Welcome to rsync on gentoofan.no-ip.org:873                                 |

@@ -8,12 +8,8 @@
              'uri': 'http://ohnopublishing.net/hg/ohnobinki_overlay'}],
  'status': 'unofficial'}
 $ pmaint sync ohnobinki_overlay
-WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 pulling from http://ohnopublishing.net/hg/ohnobinki_overlay
 real URL is http://hg.ohnopub.net/hg/ohnobinki_overlay
 searching for changes
@@ -106,7 +102,6 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-doc/doxygen-1.5.9
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-doc/doxygen-1.6.1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-doc/doxygen-1.7.1
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
