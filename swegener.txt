@@ -10,8 +10,6 @@ $ pmaint sync swegener
 WARNING:pkgcore:repository at location '/home/mgorny/sync/jkolo' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/jkolo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/jkolo', named 'jkolo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Welcome To
         ____ _____ _____    _    _     _____ ____               _
@@ -39,13 +37,13 @@ Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
 File list size: 25.40K
-File list generation time: 0.054 seconds
+File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 235
+Total bytes sent: 239
 Total bytes received: 25.57K
 
-sent 235 bytes  received 25.57K bytes  10.32K bytes/sec
-total size is 1.22M  speedup is 47.38
+sent 239 bytes  received 25.57K bytes  17.20K bytes/sec
+total size is 1.22M  speedup is 47.37
 *** syncing swegener
 *** synced swegener
  * Sync succeeded
@@ -93,5 +91,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/brightside-1.4.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='gnome-extra/brightside-1.4.0' @0x7fc2d1b34550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr description\nerror: Metadata Exception: pkg ebuild src: gnome-extra/brightside-1.4.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='gnome-extra/brightside-1.4.0' @0x7f7368075550>)
  * Cache regen failed with 1
