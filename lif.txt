@@ -15,38 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync lif
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/killer2tester/gentoo-overlay-lif
-   d19e076..06c1f74  master     -> origin/master
-Updating d19e076..06c1f74
-Fast-forward
- .../virtualbox-guest-additions-5.0.2.ebuild        |   1 +
- ...xf86-video-virtualbox-2.2.0-enable-opengl.patch |  13 ++
- .../files/xf86-video-virtualbox-3-localconfig      |  30 +++
- .../xf86-video-virtualbox-3-vboxvideo_drm.makefile | 240 +++++++++++++++++++++
- .../xf86-video-virtualbox-3.2.8-mesa-check.patch   |  36 ++++
- .../xf86-video-virtualbox-4-makeself-check.patch   |  10 +
- .../xf86-video-virtualbox-4-mkisofs-check.patch    |  10 +
- .../xf86-video-virtualbox-4.3.6-link-lazy.patch    |  17 ++
- ...o-virtualbox-4.3.8-vboxvideo_compilefixes.patch |  31 +++
- .../files/xf86-video-virtualbox-5-localconfig      |  30 +++
- ...o-virtualbox-5.0.0_beta3-configure_checks.patch |  52 +++++
- .../files/xf86-video-virtualbox-link-lazy.patch    |  16 ++
- x11-drivers/xf86-video-virtualbox/metadata.xml     |  13 ++
- .../xf86-video-virtualbox-5.0.2.ebuild             | 169 +++++++++++++++
- 14 files changed, 668 insertions(+)
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-2.2.0-enable-opengl.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3-localconfig
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3-vboxvideo_drm.makefile
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3.2.8-mesa-check.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4-makeself-check.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4-mkisofs-check.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4.3.6-link-lazy.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4.3.8-vboxvideo_compilefixes.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-5-localconfig
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-5.0.0_beta3-configure_checks.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-link-lazy.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/metadata.xml
- create mode 100644 x11-drivers/xf86-video-virtualbox/xf86-video-virtualbox-5.0.2.ebuild
+Already up-to-date.
 *** syncing lif
 *** synced lif
  * Sync succeeded
