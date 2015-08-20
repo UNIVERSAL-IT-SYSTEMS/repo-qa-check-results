@@ -10,27 +10,7 @@
 $ pmaint sync amielke-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/amielke/amielke-overlay
-   d806f8d..6d937d5  master     -> origin/master
-Updating d806f8d..6d937d5
-Fast-forward
- media-plugins/vdr-live/ChangeLog                   | 109 ---------------------
- media-plugins/vdr-live/Manifest                    |   5 -
- media-plugins/vdr-live/files/confd                 |   8 --
- media-plugins/vdr-live/files/rc-addon.sh           |  11 ---
- media-plugins/vdr-live/metadata.xml                |  10 --
- media-plugins/vdr-live/vdr-live-9999.ebuild        |  67 -------------
- media-plugins/vdr-vnsiserver/Manifest              |   1 -
- .../vdr-vnsiserver/vdr-vnsiserver-9999.ebuild      |  50 ----------
- 8 files changed, 261 deletions(-)
- delete mode 100644 media-plugins/vdr-live/ChangeLog
- delete mode 100644 media-plugins/vdr-live/Manifest
- delete mode 100644 media-plugins/vdr-live/files/confd
- delete mode 100644 media-plugins/vdr-live/files/rc-addon.sh
- delete mode 100644 media-plugins/vdr-live/metadata.xml
- delete mode 100644 media-plugins/vdr-live/vdr-live-9999.ebuild
- delete mode 100644 media-plugins/vdr-vnsiserver/Manifest
- delete mode 100644 media-plugins/vdr-vnsiserver/vdr-vnsiserver-9999.ebuild
+Already up-to-date.
 *** syncing amielke-overlay
 *** synced amielke-overlay
  * Sync succeeded

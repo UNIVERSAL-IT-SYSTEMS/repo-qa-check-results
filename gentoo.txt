@@ -16,7 +16,16 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   9e02c40..f373afd  master     -> origin/master
+Updating 9e02c40..f373afd
+Fast-forward
+ app-benchmarks/i7z/i7z-0.27.2.ebuild      |   4 +-
+ dev-lang/R/Manifest                       |   1 +
+ dev-lang/R/R-3.2.2.ebuild                 | 206 ++++++++++++++++++++++++++++++
+ net-ftp/filezilla/filezilla-3.13.0.ebuild |   7 +-
+ 4 files changed, 211 insertions(+), 7 deletions(-)
+ create mode 100644 dev-lang/R/R-3.2.2.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
