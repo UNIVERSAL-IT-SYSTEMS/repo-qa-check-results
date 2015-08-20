@@ -15,10 +15,19 @@
  'status': 'unofficial'}
 $ pmaint sync eatnumber1
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: read error: Connection reset by peer
+*** syncing eatnumber1
+*** failed syncing eatnumber1
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync eatnumber1
+WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/sync/eatnumber1'...
 *** syncing eatnumber1
 *** synced eatnumber1
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 eatnumber1
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
@@ -62,6 +71,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-strategy/rftg-0.6.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-wm/wmname-0.1
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-java/commons-ssl-0.3.9
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))

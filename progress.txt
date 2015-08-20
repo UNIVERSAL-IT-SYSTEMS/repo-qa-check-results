@@ -2046,13 +2046,6 @@ r1299 = b1eebae87b1e5eee7d2005a1b9bf6cdf6e696b26 (refs/remotes/git-svn)
 	M	dev-python/python-gettext/Manifest
 W: -empty_dir: dev-python/python-gettext/python-gettext-1.1.1.ebuild
 r1300 = 7a5673bca01237bb329f5e36bd6caaa9a80496c5 (refs/remotes/git-svn)
-W: Ignoring error from SVN, path probably does not exist: (175002): RA layer request failed: Unexpected HTTP status 502 'Bad Gateway' on '/svn/!svn/vcc/default'
-W: Do not be alarmed at the above message git-svn is just searching aggressively for old history.
-This may take a while on large repositories
-Checked through r1400Path '' was probably deleted:
-RA layer request failed: Unexpected HTTP status 502 'Bad Gateway' on '/svn/!svn/vcc/default'
-Will attempt to follow revisions r1301 .. r1400 committed before the deletion
-r1301 .. r1399 OK
 	D	net-zope/cmfcore/cmfcore-2.2.4.ebuild
 	A	net-zope/cmfcore/cmfcore-2.2.5.ebuild
 	M	net-zope/cmfcore/Manifest
@@ -2504,6 +2497,2547 @@ r1382 = 3940c2d09def05e73c2c7ea5c20ae16b5c1d413b (refs/remotes/git-svn)
 W: -empty_dir: dev-python/fabric/fabric-1.2.4.ebuild
 W: -empty_dir: dev-python/fabric/fabric-1.3.2.ebuild
 r1383 = 12a0924021ed9f7618c8328280e6f1735ccd187b (refs/remotes/git-svn)
+	D	net-zope/zcatalog/zcatalog-2.13.21.ebuild
+	M	net-zope/zcatalog/Manifest
+	A	net-zope/zcatalog/zcatalog-2.13.22.ebuild
+W: -empty_dir: net-zope/zcatalog/zcatalog-2.13.21.ebuild
+r1384 = 04b37deaba644c276fc6607fa884be4ef3881670 (refs/remotes/git-svn)
+	M	eclass/php-ext-source-r2.eclass
+r1385 = 057b588c0b593ffe20c940abaa660b15a6e1cabd (refs/remotes/git-svn)
+	D	dev-python/chameleon/chameleon-2.5.3.ebuild
+	A	dev-python/chameleon/chameleon-2.6.0.ebuild
+	M	dev-python/chameleon/Manifest
+W: -empty_dir: dev-python/chameleon/chameleon-2.5.3.ebuild
+r1386 = 79fc442b32c6a60888b80434402ed7db99522521 (refs/remotes/git-svn)
+	D	net-zope/z3c-pt/z3c-pt-2.1.4.ebuild
+	A	net-zope/z3c-pt/z3c-pt-2.1.5.ebuild
+	M	net-zope/z3c-pt/Manifest
+W: -empty_dir: net-zope/z3c-pt/z3c-pt-2.1.4.ebuild
+r1387 = 25d5e6dff0959bb1b5ccf500bd5912d1e3f3b20c (refs/remotes/git-svn)
+	D	dev-libs/redland-bindings/redland-bindings-1.0.13.1.ebuild
+	A	dev-libs/redland-bindings/redland-bindings-1.0.14.1.ebuild
+	M	dev-libs/redland-bindings/Manifest
+W: -empty_dir: dev-libs/redland-bindings/redland-bindings-1.0.13.1.ebuild
+r1388 = 416ebec96f3ea311fa19f838935320b16127a812 (refs/remotes/git-svn)
+	D	dev-python/markdown/markdown-2.0.3.ebuild
+	A	dev-python/markdown/markdown-2.1.0.ebuild
+	M	dev-python/markdown/Manifest
+W: -empty_dir: dev-python/markdown/markdown-2.0.3.ebuild
+r1389 = 6862cf2f4ddd4598def65a1c327bed65334d8bcd (refs/remotes/git-svn)
+	D	dev-python/python-ldap/python-ldap-2.4.4.ebuild
+	A	dev-python/python-ldap/python-ldap-2.4.5.ebuild
+	M	dev-python/python-ldap/Manifest
+W: -empty_dir: dev-python/python-ldap/python-ldap-2.4.4.ebuild
+r1390 = 9998de1d44783c72544ef793353df3fa134901f0 (refs/remotes/git-svn)
+	D	net-zope/infrae-rest/infrae-rest-1.0.1.ebuild
+	A	net-zope/infrae-rest/infrae-rest-1.1.ebuild
+	M	net-zope/infrae-rest/Manifest
+W: -empty_dir: net-zope/infrae-rest/infrae-rest-1.0.1.ebuild
+r1391 = 2c3fb43346410132fb42018acaa2a8f7b92a5223 (refs/remotes/git-svn)
+	D	dev-python/python-ldap/python-ldap-2.4.5.ebuild
+	M	dev-python/python-ldap/Manifest
+	A	dev-python/python-ldap/python-ldap-2.4.6.ebuild
+W: -empty_dir: dev-python/python-ldap/python-ldap-2.4.5.ebuild
+r1392 = 84d372f947149e3b001b8691f385919245d185e2 (refs/remotes/git-svn)
+	D	dev-lang/python/python-3.3_pre20111030.ebuild
+	D	dev-lang/python/python-3.2.3_pre20111030.ebuild
+	D	dev-lang/python/python-2.7.3_pre20111030.ebuild
+	M	dev-lang/python/Manifest
+	A	dev-lang/python/python-3.3_pre20111127.ebuild
+	A	dev-lang/python/python-3.2.3_pre20111127.ebuild
+	A	dev-lang/python/python-2.7.3_pre20111127.ebuild
+W: -empty_dir: dev-lang/python/python-2.7.3_pre20111030.ebuild
+W: -empty_dir: dev-lang/python/python-3.2.3_pre20111030.ebuild
+W: -empty_dir: dev-lang/python/python-3.3_pre20111030.ebuild
+r1393 = f9f47710ef90b194da792a723d34b11430731ee3 (refs/remotes/git-svn)
+	A	dev-python/python-memcached/python-memcached-1.48.ebuild
+	A	dev-python/python-memcached/Manifest
+r1394 = d0723ee49d51f4d0261fb141d7008119c3b8394f (refs/remotes/git-svn)
+	M	dev-python/redis-py/redis-py-2.4.10.ebuild
+	M	dev-python/redis-py/Manifest
+r1395 = a4a9f5a5be2f19d494d94447acb2dd9436cac418 (refs/remotes/git-svn)
+	D	dev-python/virtualenv/virtualenv-1.6.4.ebuild
+	A	dev-python/virtualenv/virtualenv-1.7.ebuild
+	M	dev-python/virtualenv/Manifest
+W: -empty_dir: dev-python/virtualenv/virtualenv-1.6.4.ebuild
+r1396 = 0b1b1dafddfdcfa95c25aa6f2ac9bafe3ee1d6d0 (refs/remotes/git-svn)
+	M	dev-python/pygobject/Manifest
+	M	dev-python/pygobject/pygobject-3.0.2.ebuild
+r1397 = 806e5881f0b5da9093c64b1969a1c44654290053 (refs/remotes/git-svn)
+	A	dev-python/mozinfo/mozinfo-0.3.3.ebuild
+	A	dev-python/mozinfo/Manifest
+r1398 = cb7a32f2a68b3d438543bb98b9369fc8e8b92c09 (refs/remotes/git-svn)
+	A	dev-python/mozprocess/mozprocess-0.1_beta2.ebuild
+	A	dev-python/mozprocess/Manifest
+r1399 = 85d664f4e92c9d5a96c17c4f11a7d0b6fe794d36 (refs/remotes/git-svn)
+	A	dev-python/manifestdestiny/Manifest
+	A	dev-python/manifestdestiny/manifestdestiny-0.5.4.ebuild
+r1400 = 579566224a437c9882ba873d6b4f2aa2f9bf2f78 (refs/remotes/git-svn)
+	A	dev-python/mozprofile/mozprofile-0.1.ebuild
+	A	dev-python/mozprofile/Manifest
+r1401 = 72de2d4bce1b6fe6468d114d94dba6ff70b0bbcb (refs/remotes/git-svn)
+	M	dev-python/mozprofile/mozprofile-0.1.ebuild
+	M	dev-python/mozprofile/Manifest
+r1402 = ba230c5ff0903f77488f5dc0ede46996edeb5988 (refs/remotes/git-svn)
+	D	dev-python/mozrunner/mozrunner-4.0.ebuild
+	A	dev-python/mozrunner/mozrunner-4.1.ebuild
+	M	dev-python/mozrunner/Manifest
+W: -empty_dir: dev-python/mozrunner/mozrunner-4.0.ebuild
+r1403 = 2d79213ac325a83f42b711ba3d27f3648c2007a0 (refs/remotes/git-svn)
+	M	eclass/python.eclass
+r1404 = 04d268e5629cf3e170004934e4d8caa98b7dbb71 (refs/remotes/git-svn)
+	D	dev-python/urwid/urwid-1.0.0.ebuild
+	M	dev-python/urwid/Manifest
+	A	dev-python/urwid/urwid-1.0.1.ebuild
+W: -empty_dir: dev-python/urwid/urwid-1.0.0.ebuild
+r1405 = 6421e6ee190268fbd4f2e16cf97680bc480164ec (refs/remotes/git-svn)
+	D	dev-python/chameleon/chameleon-2.6.0.ebuild
+	A	dev-python/chameleon/chameleon-2.6.1.ebuild
+	M	dev-python/chameleon/Manifest
+W: -empty_dir: dev-python/chameleon/chameleon-2.6.0.ebuild
+r1406 = 59d636a93032d2582699ddeb46330fcd1d82b5e5 (refs/remotes/git-svn)
+	D	dev-lang/python/python-3.2.3_pre20111106.ebuild
+	D	dev-lang/python/python-3.3_pre20111106.ebuild
+	D	dev-lang/python/python-2.7.3_pre20111106.ebuild
+	A	dev-lang/python/python-3.3_pre20111204.ebuild
+	A	dev-lang/python/python-3.2.3_pre20111204.ebuild
+	M	dev-lang/python/Manifest
+	A	dev-lang/python/python-2.7.3_pre20111204.ebuild
+W: -empty_dir: dev-lang/python/python-2.7.3_pre20111106.ebuild
+W: -empty_dir: dev-lang/python/python-3.2.3_pre20111106.ebuild
+W: -empty_dir: dev-lang/python/python-3.3_pre20111106.ebuild
+r1407 = dc4c64e96a1e4b6ae67cd32e6b2e38a5e5a6c5e3 (refs/remotes/git-svn)
+	M	eclass/python.eclass
+r1408 = 9210420269009756a9b17e5a36623e152381ffb2 (refs/remotes/git-svn)
+	M	eclass/base.eclass
+	M	eclass/fortran-2.eclass
+	M	eclass/waf-utils.eclass
+	M	eclass/kde4-functions.eclass
+	M	eclass/python-namespaces.eclass
+	M	eclass/cmake-utils.eclass
+	M	eclass/python.eclass
+	M	eclass/twisted.eclass
+	M	eclass/bash-completion-r1.eclass
+	M	eclass/distutils.eclass
+	M	eclass/perl-module.eclass
+r1409 = 3ea0013bc5768a29dc41037fa10e423d1b708994 (refs/remotes/git-svn)
+	D	dev-vcs/mercurial/mercurial-2.0.ebuild
+	A	dev-vcs/mercurial/mercurial-2.0.1.ebuild
+	M	dev-vcs/mercurial/Manifest
+W: -empty_dir: dev-vcs/mercurial/mercurial-2.0.ebuild
+r1410 = 49315a4f333db7d8e5a7b689dc9b0f5be7382cd5 (refs/remotes/git-svn)
+	D	dev-python/feedparser/feedparser-5.0.1.ebuild
+	D	dev-python/feedparser/files/feedparser-5.0.1-sgmllib.patch
+	A	dev-python/feedparser/files/feedparser-5.1-sgmllib.patch
+	A	dev-python/feedparser/feedparser-5.1.ebuild
+	M	dev-python/feedparser/Manifest
+W: -empty_dir: dev-python/feedparser/feedparser-5.0.1.ebuild
+W: -empty_dir: dev-python/feedparser/files/feedparser-5.0.1-sgmllib.patch
+r1411 = 0d78bbbe048e59a7660aeacd28f4e28af4d3b1d0 (refs/remotes/git-svn)
+	D	dev-vcs/subversion/subversion-1.7.1.ebuild
+	A	dev-vcs/subversion/subversion-1.7.2.ebuild
+	M	dev-vcs/subversion/Manifest
+W: -empty_dir: dev-vcs/subversion/subversion-1.7.1.ebuild
+r1412 = d2aa3291d49cf1639af823f2d5911461c41c52db (refs/remotes/git-svn)
+	D	dev-python/sqlobject/sqlobject-1.2.0.ebuild
+	A	dev-python/sqlobject/sqlobject-1.2.1.ebuild
+	M	dev-python/sqlobject/Manifest
+W: -empty_dir: dev-python/sqlobject/sqlobject-1.2.0.ebuild
+r1413 = f14870f5209ebb3fa452627216370390de24229f (refs/remotes/git-svn)
+	D	dev-python/simplejson/simplejson-2.2.1.ebuild
+	A	dev-python/simplejson/simplejson-2.3.0.ebuild
+	M	dev-python/simplejson/Manifest
+W: -empty_dir: dev-python/simplejson/simplejson-2.2.1.ebuild
+r1414 = 1b360aee9c685bb8b25f90b612dfbd24093f3d4e (refs/remotes/git-svn)
+	D	dev-util/eric/eric-4.4.18.ebuild
+	D	dev-util/eric/eric-5.1.6.ebuild
+	A	dev-util/eric/eric-4.4.19.ebuild
+	M	dev-util/eric/Manifest
+	A	dev-util/eric/eric-5.1.7.ebuild
+W: -empty_dir: dev-util/eric/eric-4.4.18.ebuild
+W: -empty_dir: dev-util/eric/eric-5.1.6.ebuild
+r1415 = cd4b176fa27c9cae9904d99ab54307155be7d9be (refs/remotes/git-svn)
+	D	net-zope/zope-filerepresentation/zope-filerepresentation-3.6.0.ebuild
+	A	net-zope/zope-filerepresentation/zope-filerepresentation-3.6.1.ebuild
+	M	net-zope/zope-filerepresentation/Manifest
+W: -empty_dir: net-zope/zope-filerepresentation/zope-filerepresentation-3.6.0.ebuild
+r1416 = f227bcf3ceaaab6072a24da4b84fa8b68782c5d7 (refs/remotes/git-svn)
+	D	net-zope/zope-datetime/zope-datetime-3.4.0.ebuild
+	M	net-zope/zope-datetime/Manifest
+	A	net-zope/zope-datetime/zope-datetime-3.4.1.ebuild
+W: -empty_dir: net-zope/zope-datetime/zope-datetime-3.4.0.ebuild
+r1417 = 2925b6cb000e62695f31d735aaf3ff52d820d15c (refs/remotes/git-svn)
+	M	eclass/python.eclass
+r1418 = a497e01dff407a1417c85c4c322ad051b224a23b (refs/remotes/git-svn)
+	A	dev-python/odfpy/Manifest
+	A	dev-python/odfpy/odfpy-0.9.3.ebuild
+r1419 = 855b46c9f0ea53136a43bf0145e356c04f6005f1 (refs/remotes/git-svn)
+	A	dev-python/python-dateutil/Manifest
+	A	dev-python/python-dateutil/python-dateutil-2.0.ebuild
+	A	dev-python/python-dateutil/python-dateutil-1.5.ebuild
+r1420 = 2e7d3b021f97c4065cfa2721e20b40c288d0ce39 (refs/remotes/git-svn)
+	D	net-zope/zope-app-locales/zope-app-locales-3.7.0.ebuild
+	A	net-zope/zope-app-locales/zope-app-locales-3.7.1.ebuild
+	M	net-zope/zope-app-locales/Manifest
+W: -empty_dir: net-zope/zope-app-locales/zope-app-locales-3.7.0.ebuild
+r1421 = a264d4229087e2228d4375073e8dcdf5efea73fc (refs/remotes/git-svn)
+	D	dev-python/pyramid/pyramid-1.2.3.ebuild
+	M	dev-python/pyramid/Manifest
+	A	dev-python/pyramid/pyramid-1.2.4.ebuild
+W: -empty_dir: dev-python/pyramid/pyramid-1.2.3.ebuild
+r1422 = 654cb6c4c0ba06d0641105c3fd6aecb44cd4e8a0 (refs/remotes/git-svn)
+	D	dev-python/pyasn1/pyasn1-0.1.1.ebuild
+	M	dev-python/pyasn1/Manifest
+	A	dev-python/pyasn1/pyasn1-0.1.2.ebuild
+W: -empty_dir: dev-python/pyasn1/pyasn1-0.1.1.ebuild
+r1423 = a4777fd43dcfc77c007af7071ad4b59757c98469 (refs/remotes/git-svn)
+	D	dev-python/pymongo/pymongo-2.0.1.ebuild
+	M	dev-python/pymongo/Manifest
+	A	dev-python/pymongo/pymongo-2.1.ebuild
+W: -empty_dir: dev-python/pymongo/pymongo-2.0.1.ebuild
+r1424 = 432e85ebf5a3760030bc787bde224a0cbf60ce9b (refs/remotes/git-svn)
+	A	dev-python/eyeD3/eyeD3-0.6.18.ebuild
+	A	dev-python/eyeD3/Manifest
+r1425 = 216bf97626c575efb60d2efce22944d42dd31d78 (refs/remotes/git-svn)
+	D	kde-base/pykde4/pykde4-4.7.2-r1.ebuild
+	M	kde-base/pykde4/Manifest
+W: -empty_dir: kde-base/pykde4/pykde4-4.7.2-r1.ebuild
+r1426 = eeda2fd93b2716ab055ae4c8591f6956d3f5bae2 (refs/remotes/git-svn)
+	D	dev-python/wxpython/wxpython-2.8.12.0.ebuild
+	M	dev-python/wxpython/Manifest
+	A	dev-python/wxpython/wxpython-2.8.12.1.ebuild
+W: -empty_dir: dev-python/wxpython/wxpython-2.8.12.0.ebuild
+r1427 = be667fa025533de94b6d1b30d5c0de7f5134ffc7 (refs/remotes/git-svn)
+	D	dev-python/sqlalchemy/sqlalchemy-0.7.3.ebuild
+	M	dev-python/sqlalchemy/Manifest
+	A	dev-python/sqlalchemy/sqlalchemy-0.7.4.ebuild
+W: -empty_dir: dev-python/sqlalchemy/sqlalchemy-0.7.3.ebuild
+r1428 = 7b86c9bf3db064dc6283d83dd9c334e6b2f7ac20 (refs/remotes/git-svn)
+	D	dev-lang/python/python-3.2.3_pre20111113.ebuild
+	D	dev-lang/python/python-3.3_pre20111113.ebuild
+	D	dev-lang/python/python-2.7.3_pre20111113.ebuild
+	A	dev-lang/python/python-3.3_pre20111211.ebuild
+	A	dev-lang/python/python-3.2.3_pre20111211.ebuild
+	M	dev-lang/python/Manifest
+	A	dev-lang/python/python-2.7.3_pre20111211.ebuild
+W: -empty_dir: dev-lang/python/python-2.7.3_pre20111113.ebuild
+W: -empty_dir: dev-lang/python/python-3.2.3_pre20111113.ebuild
+W: -empty_dir: dev-lang/python/python-3.3_pre20111113.ebuild
+r1429 = 175af846bdba0b55bcc66f67b5f2ec9c2efcd439 (refs/remotes/git-svn)
+	M	kde-base/pykde4/Manifest
+	A	kde-base/pykde4/pykde4-4.7.4.ebuild
+r1430 = c843b626d6821a4e9abd5df6ff8c5769fa828719 (refs/remotes/git-svn)
+	A	dev-python/cssutils/cssutils-0.9.8.ebuild
+	A	dev-python/cssutils/Manifest
+r1431 = a0035673d991fc6295400509d2763224d254963f (refs/remotes/git-svn)
+	D	dev-python/astng/astng-0.23.0.ebuild
+	M	dev-python/astng/Manifest
+	A	dev-python/astng/astng-0.23.1.ebuild
+W: -empty_dir: dev-python/astng/astng-0.23.0.ebuild
+r1432 = 52113dd8de6f8adc32ba09c37e8c00bcfa739a43 (refs/remotes/git-svn)
+	D	dev-python/pylint/pylint-0.25.0.ebuild
+	A	dev-python/pylint/pylint-0.25.1.ebuild
+	M	dev-python/pylint/Manifest
+W: -empty_dir: dev-python/pylint/pylint-0.25.0.ebuild
+r1433 = 3fe7e23df807e0afb4ee9e80989e2139501a81b5 (refs/remotes/git-svn)
+	D	dev-python/chameleon/chameleon-2.6.1.ebuild
+	A	dev-python/chameleon/chameleon-2.6.2.ebuild
+	M	dev-python/chameleon/Manifest
+W: -empty_dir: dev-python/chameleon/chameleon-2.6.1.ebuild
+r1434 = 91caf78e291f3b347c261c12c1f63574d6fb2801 (refs/remotes/git-svn)
+	D	net-zope/zope-keyreference/zope-keyreference-3.6.2.ebuild
+	M	net-zope/zope-keyreference/Manifest
+	A	net-zope/zope-keyreference/zope-keyreference-3.6.4.ebuild
+W: -empty_dir: net-zope/zope-keyreference/zope-keyreference-3.6.2.ebuild
+r1435 = 5ad1abdd3f908039c7a87c723b8a689b29c7dcb7 (refs/remotes/git-svn)
+	M	dev-python/dbus-python/dbus-python-0.84.0.ebuild
+	M	dev-python/dbus-python/Manifest
+r1436 = 5e9015ae46a12c02001dd8234a7e6c1a7d2b95ca (refs/remotes/git-svn)
+	D	sci-libs/scipy/scipy-0.9.0-r2.ebuild
+	A	sci-libs/scipy/files/scipy-0.9.0-superlu-4.3.patch
+	M	sci-libs/scipy/Manifest
+	A	sci-libs/scipy/scipy-0.9.0-r3.ebuild
+W: -empty_dir: sci-libs/scipy/scipy-0.9.0-r2.ebuild
+r1437 = 3f8375c79dd516def355287a2fc1ad257ad96ea2 (refs/remotes/git-svn)
+	M	dev-python/imdbpy/Manifest
+	M	dev-python/imdbpy/imdbpy-4.8.2.ebuild
+r1438 = 854dd87bf9005b61fd11c13f3b88dac55990cc1b (refs/remotes/git-svn)
+	D	dev-libs/xapian-bindings/xapian-bindings-1.2.7-r2.ebuild
+	A	dev-libs/xapian-bindings/xapian-bindings-1.2.8.ebuild
+	M	dev-libs/xapian-bindings/Manifest
+W: -empty_dir: dev-libs/xapian-bindings/xapian-bindings-1.2.7-r2.ebuild
+r1439 = 5e91cbff82ee094da4ff4d184ac21bad671a5a34 (refs/remotes/git-svn)
+	M	dev-python/pycairo/pycairo-1.10.0-r2.ebuild
+	M	dev-python/pycairo/Manifest
+r1440 = 3c960a056813b567a16ad7803713b228e606ac0d (refs/remotes/git-svn)
+	D	dev-python/sphinx/sphinx-1.1.2.ebuild
+	M	dev-python/sphinx/Manifest
+	A	dev-python/sphinx/sphinx-1.1.2-r1.ebuild
+W: -empty_dir: dev-python/sphinx/sphinx-1.1.2.ebuild
+r1441 = 8a82fbda1b784eda487ae488c87318951f184973 (refs/remotes/git-svn)
+	D	dev-python/django/django-1.3.1.ebuild
+	A	dev-python/django/django-1.3.1-r1.ebuild
+	M	dev-python/django/Manifest
+	M	dev-python/django/django-9999.ebuild
+W: -empty_dir: dev-python/django/django-1.3.1.ebuild
+r1442 = 32f142b068c8b3fca533c551d83121ddfb57e84b (refs/remotes/git-svn)
+	A	dev-python/django/files/django-1.3.1-djangodocs_extension.patch
+	M	dev-python/django/django-1.3.1-r1.ebuild
+	M	dev-python/django/Manifest
+r1443 = 63f9d0ebf04d24cea46b60c768c2efdf8f53c1cf (refs/remotes/git-svn)
+	M	dev-python/django/django-1.3.1-r1.ebuild
+	M	dev-python/django/Manifest
+	M	dev-python/django/django-9999.ebuild
+r1444 = 20602906294629f278d2f62bf704db09e009f84d (refs/remotes/git-svn)
+	M	dev-python/paver/paver-1.0.5.ebuild
+	M	dev-python/paver/Manifest
+r1445 = a19a080b671bd146cf73c4683854018f10d9db43 (refs/remotes/git-svn)
+	M	dev-python/rst2pdf/Manifest
+	M	dev-python/rst2pdf/rst2pdf-0.16-r1.ebuild
+r1446 = 66173408433e021dff27c819b3345bc1be894d8f (refs/remotes/git-svn)
+	M	dev-python/sip/sip-4.13.ebuild
+	M	dev-python/sip/Manifest
+r1447 = 28b8e42bfae2d31e969976043338195c520f291f (refs/remotes/git-svn)
+	M	dev-python/pymongo/Manifest
+	M	dev-python/pymongo/pymongo-2.1.ebuild
+r1448 = d49132bc3814fcb173b2f5f78b76586e07becc9c (refs/remotes/git-svn)
+	D	dev-python/sip/sip-4.12.4.ebuild
+	M	dev-python/sip/Manifest
+W: -empty_dir: dev-python/sip/sip-4.12.4.ebuild
+r1449 = 4c11497de41e4bbc8574338c16d6a0fc9abfdc77 (refs/remotes/git-svn)
+	D	sys-fs/ecryptfs-utils/files/ecryptfs-utils-93-python.patch
+	D	sys-fs/ecryptfs-utils/files/
+	D	sys-fs/ecryptfs-utils/ecryptfs-utils-93.ebuild
+	M	sys-fs/ecryptfs-utils/Manifest
+	A	sys-fs/ecryptfs-utils/ecryptfs-utils-95.ebuild
+W: -empty_dir: sys-fs/ecryptfs-utils/ecryptfs-utils-93.ebuild
+W: -empty_dir: sys-fs/ecryptfs-utils/files
+r1450 = 539ebe5acc17fe2e3458a6d37c69231be9a0e4d1 (refs/remotes/git-svn)
+	M	eclass/gnome2.eclass
+	M	eclass/base.eclass
+	M	eclass/gnome2-utils.eclass
+r1451 = 75774a0d00eb268d30d4024ba1c718b022c590ca (refs/remotes/git-svn)
+	D	dev-python/odfpy/odfpy-0.9.3.ebuild
+	A	dev-python/odfpy/files/odfpy-0.9.4-tests.patch
+	M	dev-python/odfpy/Manifest
+	A	dev-python/odfpy/odfpy-0.9.4.ebuild
+W: -empty_dir: dev-python/odfpy/odfpy-0.9.3.ebuild
+r1452 = 8d392f331ab2d45fab9cccdaf2fe470148b03a39 (refs/remotes/git-svn)
+	M	dev-vcs/mercurial/mercurial-2.0.1.ebuild
+	M	dev-vcs/mercurial/Manifest
+	M	dev-vcs/mercurial/mercurial-9999.ebuild
+r1453 = 08f1293e3bfa0c75d5ad7f722137bb30f6fbeaa2 (refs/remotes/git-svn)
+	D	dev-python/werkzeug/werkzeug-0.8.1.ebuild
+	M	dev-python/werkzeug/Manifest
+	A	dev-python/werkzeug/werkzeug-0.8.2.ebuild
+W: -empty_dir: dev-python/werkzeug/werkzeug-0.8.1.ebuild
+r1454 = e9e566f78462e7c0fffd706658ab91ada92e3a7b (refs/remotes/git-svn)
+	M	dev-libs/xapian-bindings/xapian-bindings-1.2.8.ebuild
+	A	dev-libs/xapian-bindings/files/fix-LUA_LIB-envvar.patch
+	M	dev-libs/xapian-bindings/Manifest
+r1455 = 65585bcdd62f1e7ab6297fb4e425022a09d6a1c0 (refs/remotes/git-svn)
+	M	eclass/kde4-functions.eclass
+r1456 = 768662e8321d89e94e39e76cf75d4bbfebd2ab2b (refs/remotes/git-svn)
+	D	dev-lang/python/python-3.2.3_pre20111120.ebuild
+	D	dev-lang/python/python-3.3_pre20111120.ebuild
+	D	dev-lang/python/python-2.7.3_pre20111120.ebuild
+	A	dev-lang/python/python-2.7.3_pre20111218.ebuild
+	A	dev-lang/python/files/3.3-20111218/05_all_verbose_building_of_extensions.patch
+	A	dev-lang/python/files/3.3-20111218/22_all_tests_environment.patch
+	A	dev-lang/python/files/3.3-20111218/06_all_non-zero_exit_status_on_failure.patch
+	A	dev-lang/python/files/3.3-20111218/23_all_h2py_encoding.patch
+	A	dev-lang/python/files/3.3-20111218/03_all_add_portage_search_path.patch
+	A	dev-lang/python/files/3.3-20111218/61_all_process_data.patch
+	A	dev-lang/python/files/3.3-20111218/21_all_distutils_c++.patch
+	A	dev-lang/python/files/3.3-20111218/02_all_disable_modules_and_ssl.patch
+	A	dev-lang/python/files/3.3-20111218/01_all_static_library_location.patch
+	A	dev-lang/python/files/3.3-20111218/41_all_crosscompile.patch
+	A	dev-lang/python/files/3.3-20111218/07_all_regenerate_platform-specific_modules.patch
+	A	dev-lang/python/files/3.3-20111218/04_all_libdir.patch
+	M	dev-lang/python/Manifest
+	A	dev-lang/python/python-3.2.3_pre20111218.ebuild
+	A	dev-lang/python/python-3.3_pre20111218.ebuild
+W: -empty_dir: dev-lang/python/python-2.7.3_pre20111120.ebuild
+W: -empty_dir: dev-lang/python/python-3.2.3_pre20111120.ebuild
+W: -empty_dir: dev-lang/python/python-3.3_pre20111120.ebuild
+r1457 = 74172251003bb6e13dfa0c04cbec81ec6e981985 (refs/remotes/git-svn)
+	D	dev-python/py/py-1.4.5.ebuild
+	A	dev-python/py/py-1.4.6.ebuild
+	M	dev-python/py/Manifest
+W: -empty_dir: dev-python/py/py-1.4.5.ebuild
+r1458 = 846e642dc6eb474691deaf4f142bb71025d9b6c4 (refs/remotes/git-svn)
+	D	dev-python/pytest/pytest-2.2.0.ebuild
+	M	dev-python/pytest/Manifest
+	A	dev-python/pytest/pytest-2.2.1.ebuild
+W: -empty_dir: dev-python/pytest/pytest-2.2.0.ebuild
+r1459 = 6969cbd84edecefeb5840a85df805c1ca9329706 (refs/remotes/git-svn)
+	D	kde-base/pykde4/pykde4-4.6.5-r1.ebuild
+	D	kde-base/pykde4/files/pykde4-4.6.4-pyqt475.patch
+	M	kde-base/pykde4/Manifest
+W: -empty_dir: kde-base/pykde4/files/pykde4-4.6.4-pyqt475.patch
+W: -empty_dir: kde-base/pykde4/pykde4-4.6.5-r1.ebuild
+r1460 = 95cf040df225b33769069f462afcf4e9ae42ff7c (refs/remotes/git-svn)
+	M	eclass/python.eclass
+r1461 = 8ad4cfb690948479774047236897bb0b0083a967 (refs/remotes/git-svn)
+	M	dev-python/nose/nose-1.1.2.ebuild
+	M	dev-python/nose/Manifest
+r1462 = 46b6bfc0ca48517364b1c3381cd8bcdd1bf079a7 (refs/remotes/git-svn)
+	M	dev-python/pyro/Manifest
+	M	dev-python/pyro/pyro-4.11.ebuild
+r1463 = cba6becefe79384f48681a8a3512283958ac1e4e (refs/remotes/git-svn)
+	D	dev-python/dulwich/dulwich-0.8.1.ebuild
+	A	dev-python/dulwich/dulwich-0.8.2.ebuild
+	M	dev-python/dulwich/Manifest
+W: -empty_dir: dev-python/dulwich/dulwich-0.8.1.ebuild
+r1464 = ce4844496c326dd73c2d00756178eb1d2a59330f (refs/remotes/git-svn)
+	D	dev-python/chameleon/chameleon-2.6.2.ebuild
+	A	dev-python/chameleon/chameleon-2.7.0.ebuild
+	M	dev-python/chameleon/Manifest
+W: -empty_dir: dev-python/chameleon/chameleon-2.6.2.ebuild
+r1465 = 0dc5039e2a8ba8c92b8fe8acc722004e5643661e (refs/remotes/git-svn)
+	D	dev-python/beaker/beaker-1.6.1.ebuild
+	M	dev-python/beaker/Manifest
+	A	dev-python/beaker/beaker-1.6.2.ebuild
+W: -empty_dir: dev-python/beaker/beaker-1.6.1.ebuild
+r1466 = e18c64e6a136b1c3450369d9fafaaf988d7cde30 (refs/remotes/git-svn)
+	M	dev-python/beaker/Manifest
+	M	dev-python/beaker/beaker-1.6.2.ebuild
+r1467 = 9679139dece755b79890e2b77cd23af2060cb2b2 (refs/remotes/git-svn)
+	D	dev-python/pyzmq/pyzmq-2.1.10.ebuild
+	A	dev-python/pyzmq/pyzmq-2.1.11.ebuild
+	M	dev-python/pyzmq/Manifest
+W: -empty_dir: dev-python/pyzmq/pyzmq-2.1.10.ebuild
+r1468 = 1347b45be81668366fda23957284f615062d3299 (refs/remotes/git-svn)
+	D	dev-python/psycopg/psycopg-2.4.2.ebuild
+	D	dev-python/psycopg/files/psycopg-2.4.2-begin-segfault.patch
+	M	dev-python/psycopg/Manifest
+	A	dev-python/psycopg/psycopg-2.4.4.ebuild
+W: -empty_dir: dev-python/psycopg/files/psycopg-2.4.2-begin-segfault.patch
+W: -empty_dir: dev-python/psycopg/psycopg-2.4.2.ebuild
+r1469 = 5436b0031b6a4f82738bd1b31f4d52afd94a10ef (refs/remotes/git-svn)
+	D	dev-python/mozrunner/mozrunner-4.1.ebuild
+	A	dev-python/mozrunner/mozrunner-5.0.ebuild
+	M	dev-python/mozrunner/Manifest
+W: -empty_dir: dev-python/mozrunner/mozrunner-4.1.ebuild
+r1470 = f1c48b056a251655aad642c4270a2b2aa7caf8ac (refs/remotes/git-svn)
+	M	dev-python/imaging/imaging-1.1.7-r1.ebuild
+	A	dev-python/imaging/files/imaging-1.1.7-nolcms.patch
+	M	dev-python/imaging/Manifest
+r1471 = 8e8be2da27db4cd960b6ef9284ab3c9bd91f6305 (refs/remotes/git-svn)
+	D	dev-python/mozrunner/mozrunner-5.0.ebuild
+	A	dev-python/mozrunner/mozrunner-5.1.ebuild
+	M	dev-python/mozrunner/Manifest
+W: -empty_dir: dev-python/mozrunner/mozrunner-5.0.ebuild
+r1472 = 368dea54b33b66853d779df85c0ac77bcac951b4 (refs/remotes/git-svn)
+	D	dev-python/pyinotify/pyinotify-0.9.2.ebuild
+	A	dev-python/pyinotify/pyinotify-0.9.3.ebuild
+	M	dev-python/pyinotify/Manifest
+W: -empty_dir: dev-python/pyinotify/pyinotify-0.9.2.ebuild
+r1473 = 57a4c0356e931b408090a8e97518da72c8e73ae3 (refs/remotes/git-svn)
+	D	dev-python/html2text/html2text-3.1.0.1.ebuild
+	M	dev-python/html2text/Manifest
+	A	dev-python/html2text/html2text-3.200.0.ebuild
+W: -empty_dir: dev-python/html2text/html2text-3.1.0.1.ebuild
+r1474 = d9a385b8d613c29ae0da423132e789903ee43e1d (refs/remotes/git-svn)
+	D	dev-python/html2text/html2text-3.200.0.ebuild
+	M	dev-python/html2text/Manifest
+	A	dev-python/html2text/html2text-3.200.1.ebuild
+W: -empty_dir: dev-python/html2text/html2text-3.200.0.ebuild
+r1475 = 9aff3a6f94bab9198db10a93ade03d4f6e4c8034 (refs/remotes/git-svn)
+	M	dev-vcs/hgsubversion/hgsubversion-1.3.ebuild
+	M	dev-vcs/hgsubversion/Manifest
+r1476 = bd054fef3e12c9b75fd27f36c03ea2ce42d5fb92 (refs/remotes/git-svn)
+	M	profiles/categories
+W: +empty_dir: www-servers
+r1477 = fb67c4fa988c3bef4c6c34535a7cb5e3f34bb4d1 (refs/remotes/git-svn)
+	A	www-servers/tornado/tornado-2.1.1.ebuild
+	A	www-servers/tornado/Manifest
+r1478 = a5956cd8fa8abf8e8855cc19fdfbb354243cf2b8 (refs/remotes/git-svn)
+	M	dev-python/subvertpy/subvertpy-0.8.9.ebuild
+	M	dev-python/subvertpy/Manifest
+r1479 = 3294eafddedd190d03947ebdb96eb997b579269b (refs/remotes/git-svn)
+	A	dev-vcs/hgsubversion/hgsubversion-9999.ebuild
+	M	dev-vcs/hgsubversion/Manifest
+r1480 = cd66411843b709b6ad59aec39a8e862618d269ee (refs/remotes/git-svn)
+	D	dev-python/python-gettext/python-gettext-1.2.ebuild
+	A	dev-python/python-gettext/python-gettext-2.0.ebuild
+	M	dev-python/python-gettext/Manifest
+W: -empty_dir: dev-python/python-gettext/python-gettext-1.2.ebuild
+r1481 = 6a80bb41f4b095c27ac671ab40d51189ce9d86d6 (refs/remotes/git-svn)
+	D	dev-python/pydns/pydns-2.3.5.ebuild
+	D	dev-python/pydns/pydns-3.0.1.ebuild
+	A	dev-python/pydns/pydns-2.3.5-r1.ebuild
+	M	dev-python/pydns/Manifest
+	A	dev-python/pydns/pydns-3.0.1-r1.ebuild
+W: -empty_dir: dev-python/pydns/pydns-2.3.5.ebuild
+W: -empty_dir: dev-python/pydns/pydns-3.0.1.ebuild
+r1482 = cc5ae6da7d14209c8b0fe06ba2d4116c016d7f92 (refs/remotes/git-svn)
+	M	dev-python/pyspf/pyspf-2.0.6.ebuild
+	M	dev-python/pyspf/Manifest
+r1483 = a32131870f8b106aca3676da6500c36ebd4d2c1e (refs/remotes/git-svn)
+	D	dev-python/sip/sip-4.13.ebuild
+	A	dev-python/sip/sip-4.13.1.ebuild
+	M	dev-python/sip/Manifest
+W: -empty_dir: dev-python/sip/sip-4.13.ebuild
+r1484 = 03f716bd318d4a935868d2a252a87ff9030c2835 (refs/remotes/git-svn)
+	D	dev-python/PyQt4/PyQt4-4.8.6.ebuild
+	M	dev-python/PyQt4/Manifest
+	A	dev-python/PyQt4/PyQt4-4.9.ebuild
+W: -empty_dir: dev-python/PyQt4/PyQt4-4.8.6.ebuild
+r1485 = bf131f1af15699861e6e25664e43b43d91c82deb (refs/remotes/git-svn)
+	D	dev-python/pygtkhelpers/pygtkhelpers-0.4.2.ebuild
+	A	dev-python/pygtkhelpers/pygtkhelpers-0.4.3.ebuild
+	M	dev-python/pygtkhelpers/Manifest
+W: -empty_dir: dev-python/pygtkhelpers/pygtkhelpers-0.4.2.ebuild
+r1486 = 62b1cccc80353ece44c39c6aebc3c1959a44cc2c (refs/remotes/git-svn)
+	D	dev-lang/python/python-3.3_pre20111127.ebuild
+	D	dev-lang/python/python-3.2.3_pre20111127.ebuild
+	D	dev-lang/python/python-2.7.3_pre20111127.ebuild
+	A	dev-lang/python/files/2.7-20111225/07_all_loadable_sqlite_extensions.patch
+	A	dev-lang/python/files/2.7-20111225/05_all_verbose_building_of_extensions.patch
+	A	dev-lang/python/files/2.7-20111225/24_all_tests_environment.patch
+	A	dev-lang/python/files/2.7-20111225/06_all_non-zero_exit_status_on_failure.patch
+	A	dev-lang/python/files/2.7-20111225/62_all_xml.use_pyxml.patch
+	A	dev-lang/python/files/2.7-20111225/22_all_turkish_locale.patch
+	A	dev-lang/python/files/2.7-20111225/03_all_add_portage_search_path.patch
+	A	dev-lang/python/files/2.7-20111225/23_all_arm_OABI.patch
+	A	dev-lang/python/files/2.7-20111225/61_all_process_data.patch
+	A	dev-lang/python/files/2.7-20111225/21_all_distutils_c++.patch
+	A	dev-lang/python/files/2.7-20111225/02_all_disable_modules_and_ssl.patch
+	A	dev-lang/python/files/2.7-20111225/01_all_static_library_location.patch
+	A	dev-lang/python/files/2.7-20111225/41_all_crosscompile.patch
+	A	dev-lang/python/files/2.7-20111225/08_all_regenerate_platform-specific_modules.patch
+	A	dev-lang/python/files/2.7-20111225/04_all_libdir.patch
+	A	dev-lang/python/files/3.2-20111225/05_all_verbose_building_of_extensions.patch
+	A	dev-lang/python/files/3.2-20111225/22_all_tests_environment.patch
+	A	dev-lang/python/files/3.2-20111225/06_all_non-zero_exit_status_on_failure.patch
+	A	dev-lang/python/files/3.2-20111225/23_all_h2py_encoding.patch
+	A	dev-lang/python/files/3.2-20111225/03_all_add_portage_search_path.patch
+	A	dev-lang/python/files/3.2-20111225/61_all_process_data.patch
+	A	dev-lang/python/files/3.2-20111225/21_all_distutils_c++.patch
+	A	dev-lang/python/files/3.2-20111225/02_all_disable_modules_and_ssl.patch
+	A	dev-lang/python/files/3.2-20111225/01_all_static_library_location.patch
+	A	dev-lang/python/files/3.2-20111225/41_all_crosscompile.patch
+	A	dev-lang/python/files/3.2-20111225/07_all_regenerate_platform-specific_modules.patch
+	A	dev-lang/python/files/3.2-20111225/04_all_libdir.patch
+	A	dev-lang/python/files/3.3-20111225/05_all_verbose_building_of_extensions.patch
+	A	dev-lang/python/files/3.3-20111225/22_all_tests_environment.patch
+	A	dev-lang/python/files/3.3-20111225/06_all_non-zero_exit_status_on_failure.patch
+	A	dev-lang/python/files/3.3-20111225/23_all_h2py_encoding.patch
+	A	dev-lang/python/files/3.3-20111225/03_all_add_portage_search_path.patch
+	A	dev-lang/python/files/3.3-20111225/61_all_process_data.patch
+	A	dev-lang/python/files/3.3-20111225/21_all_distutils_c++.patch
+	A	dev-lang/python/files/3.3-20111225/02_all_disable_modules_and_ssl.patch
+	A	dev-lang/python/files/3.3-20111225/01_all_static_library_location.patch
+	A	dev-lang/python/files/3.3-20111225/41_all_crosscompile.patch
+	A	dev-lang/python/files/3.3-20111225/07_all_regenerate_platform-specific_modules.patch
+	A	dev-lang/python/files/3.3-20111225/04_all_libdir.patch
+	M	dev-lang/python/Manifest
+	A	dev-lang/python/python-3.2.3_pre20111225.ebuild
+	A	dev-lang/python/python-3.3_pre20111225.ebuild
+	A	dev-lang/python/python-2.7.3_pre20111225.ebuild
+W: -empty_dir: dev-lang/python/python-2.7.3_pre20111127.ebuild
+W: -empty_dir: dev-lang/python/python-3.2.3_pre20111127.ebuild
+W: -empty_dir: dev-lang/python/python-3.3_pre20111127.ebuild
+r1495 = 5cbd990094674d0e84ec7cdd82637890d23abd15 (refs/remotes/git-svn)
+	D	dev-python/pygobject/pygobject-2.28.6-r1.ebuild
+	D	dev-python/pygobject/pygobject-2.28.6-r50.ebuild
+	M	dev-python/pygobject/Manifest
+	M	dev-python/pygobject/pygobject-3.0.2.ebuild
+	A	dev-python/pygobject/pygobject-2.28.6-r51.ebuild
+W: -empty_dir: dev-python/pygobject/pygobject-2.28.6-r1.ebuild
+W: -empty_dir: dev-python/pygobject/pygobject-2.28.6-r50.ebuild
+r1500 = 3e83d331712e8aa0be6402719d63993df2e7a71d (refs/remotes/git-svn)
+	D	dev-python/pygobject/pygobject-3.0.2.ebuild
+	D	dev-python/pygobject/files/pygobject-3.0.2-disable-new-gi-tests.patch
+	A	dev-python/pygobject/files/pygobject-3.0.3-gobject-property-min-max.patch
+	M	dev-python/pygobject/files/pygobject-2.28.3-disable-failing-tests.patch
+	M	dev-python/pygobject/files/pygobject-2.28.3-make_check.patch
+	A	dev-python/pygobject/files/pygobject-3.0.3-tests-python3.patch
+	M	dev-python/pygobject/files/pygobject-2.28.3-fix-codegen-location.patch
+	A	dev-python/pygobject/files/pygobject-3.0.3-disable-new-gi-tests.patch
+	M	dev-python/pygobject/files/pygobject-2.28.3-support_multiple_python_versions.patch
+	M	dev-python/pygobject/Manifest
+	A	dev-python/pygobject/pygobject-3.0.3.ebuild
+	M	dev-python/pygobject/pygobject-2.28.6-r51.ebuild
+W: -empty_dir: dev-python/pygobject/files/pygobject-3.0.2-disable-new-gi-tests.patch
+W: -empty_dir: dev-python/pygobject/pygobject-3.0.2.ebuild
+r1501 = c1774b23e1e6fdd62f76a7ec820e425b6edd01b2 (refs/remotes/git-svn)
+	M	eclass/python.eclass
+r1503 = 2b975b124d0bc361fd37631a9db788b8043732f9 (refs/remotes/git-svn)
+	M	eclass/qt4-r2.eclass
+r1504 = 7b0bb7b31b4aa20ef01d4c6764d8229dfbfd7b82 (refs/remotes/git-svn)
+	D	dev-python/egenix-mx-base/egenix-mx-base-3.2.1.ebuild
+	M	dev-python/egenix-mx-base/Manifest
+	A	dev-python/egenix-mx-base/egenix-mx-base-3.2.1-r1.ebuild
+W: -empty_dir: dev-python/egenix-mx-base/egenix-mx-base-3.2.1.ebuild
+r1505 = 6d6e8380a3de54d18cf12f55c6c3a6cb9cef0162 (refs/remotes/git-svn)
+	A	dev-python/pycxx/files/pycxx-6.2.3-python-3.2-Py_hash_t.patch
+	A	dev-python/pycxx/files/pycxx-6.2.3-python-3.patch
+	A	dev-python/pycxx/files/pycxx-6.2.3-python-3.2.patch
+	A	dev-python/pycxx/files/pycxx-6.2.3-installation.patch
+	A	dev-python/pycxx/pycxx-6.2.3-r3.ebuild
+	A	dev-python/pycxx/Manifest
+r1506 = c935bded464689c12a4cebd3d3eae0b3d15613e7 (refs/remotes/git-svn)
+	M	dev-python/pycxx/pycxx-6.2.3-r3.ebuild
+	M	dev-python/pycxx/Manifest
+r1507 = 5de2e5decd2157d8ca683f469c94cc2efd9eef28 (refs/remotes/git-svn)
+	M	virtual/python-sqlite/python-sqlite-0.ebuild
+	M	virtual/python-sqlite/Manifest
+r1509 = f172ff2f07af100b7bc8439205f55fb3305bb467 (refs/remotes/git-svn)
+	M	dev-python/ipdb/ipdb-0.6.1.ebuild
+	M	dev-python/ipdb/Manifest
+r1510 = b5ae7006fdfb7b31d96fb0c04e2fb37e698bbf95 (refs/remotes/git-svn)
+	A	dev-python/pysvn/files/pysvn-1.7.6_pre1437-respect_flags.patch
+	A	dev-python/pysvn/Manifest
+	A	dev-python/pysvn/pysvn-1.7.6_pre1437.ebuild
+r1511 = 302f970376d41fe120bb715ce787062cbc5b7abd (refs/remotes/git-svn)
+	M	dev-lang/python/python-3.0.1.ebuild
+	M	dev-lang/python/Manifest
+	M	dev-lang/python/python-3.2.3_pre20111225.ebuild
+	M	dev-lang/python/python-3.3_pre20111225.ebuild
+	M	dev-lang/python/python-2.7.3_pre20111225.ebuild
+r1512 = 30d0ad3560bd350fd2a3fb8fa906a4d94bd1b98b (refs/remotes/git-svn)
+	D	dev-vcs/bzr/bzr-2.4.1.ebuild
+	A	dev-vcs/bzr/bzr-2.4.2.ebuild
+	D	dev-vcs/bzr/files/bzr-2.4.0-no-pyrex-cython.patch
+	A	dev-vcs/bzr/files/bzr-2.4.2-no-pyrex-cython.patch
+	M	dev-vcs/bzr/Manifest
+W: -empty_dir: dev-vcs/bzr/bzr-2.4.1.ebuild
+W: -empty_dir: dev-vcs/bzr/files/bzr-2.4.0-no-pyrex-cython.patch
+r1514 = 9638865bcac9d2c93bbaa68400859d53f3ea9ed9 (refs/remotes/git-svn)
+	M	dev-lang/python/python-3.0.1.ebuild
+	M	dev-lang/python/Manifest
+r1515 = 32f1814c5f2aa32ef87b565dbf064ecdf0aaa500 (refs/remotes/git-svn)
+	A	dev-python/libcloud/libcloud-0.7.1.ebuild
+	A	dev-python/libcloud/Manifest
+r1516 = 76ab2e63d8f8977bb3192c574d1c8d5ee87acd45 (refs/remotes/git-svn)
+	D	dev-python/python-distutils-extra/python-distutils-extra-2.29.ebuild
+	M	dev-python/python-distutils-extra/Manifest
+	A	dev-python/python-distutils-extra/python-distutils-extra-2.31.ebuild
+W: -empty_dir: dev-python/python-distutils-extra/python-distutils-extra-2.29.ebuild
+r1517 = bbbad7f6d2e75205554c5a9d9a73cd30f577bec3 (refs/remotes/git-svn)
+	M	dev-python/cherrypy/Manifest
+	M	dev-python/cherrypy/cherrypy-3.2.2.ebuild
+r1519 = ded5d2231d961902afeea2cfcd93c5907bbeece4 (refs/remotes/git-svn)
+	A	dev-python/pyconstruct/pyconstruct-2.06.ebuild
+	A	dev-python/pyconstruct/Manifest
+r1520 = a83d69dbafd3cc1f71af6ebde9ed5df89196674e (refs/remotes/git-svn)
+	M	eclass/qt4-r2.eclass
+r1521 = 29f1dca52d0edeb0a96048bdd5c7054876f4a5bb (refs/remotes/git-svn)
+	M	dev-vcs/bzr/bzr-2.4.2.ebuild
+	M	dev-vcs/bzr/Manifest
+r1522 = 6963528be02cb604c352b6b697140e3a3f17a629 (refs/remotes/git-svn)
+	A	dev-python/timelib/timelib-0.2.3.ebuild
+	A	dev-python/timelib/Manifest
+r1523 = 5a3e62457d73456fb8e92176679398cfa086f0c3 (refs/remotes/git-svn)
+	A	dev-python/pysvg/Manifest
+	A	dev-python/pysvg/pysvg-0.2.1.ebuild
+r1524 = 9615e054940d2afe47ea0d333670a47d491ac14f (refs/remotes/git-svn)
+	A	dev-python/jonpy/Manifest
+	A	dev-python/jonpy/jonpy-0.10.ebuild
+r1525 = 4de685b88251121a456863c73b0f69429b221c7d (refs/remotes/git-svn)
+	A	dev-python/amqplib/files/amqplib-0.6.1_disable_socket_tests.patch
+	A	dev-python/amqplib/amqplib-1.0.2.ebuild
+	A	dev-python/amqplib/Manifest
+r1526 = 9f430fd786d31c0182b128fa6c743358a24c5a3f (refs/remotes/git-svn)
+	D	dev-python/chameleon/chameleon-2.7.0.ebuild
+	A	dev-python/chameleon/chameleon-2.7.1.ebuild
+	M	dev-python/chameleon/Manifest
+W: -empty_dir: dev-python/chameleon/chameleon-2.7.0.ebuild
+r1527 = 43313cb5c7a2ef59dc96cd073d2e72b9ff004ee5 (refs/remotes/git-svn)
+	A	dev-python/pydispatcher/pydispatcher-2.0.3.ebuild
+	A	dev-python/pydispatcher/Manifest
+r1528 = 2df66984ac19894722cbfcbccc206607c0b899e3 (refs/remotes/git-svn)
+	A	dev-python/lockfile/Manifest
+	A	dev-python/lockfile/lockfile-0.9.1.ebuild
+r1529 = 11c04ed075e760d139cc3f91657b4dc58721c93d (refs/remotes/git-svn)
+	A	dev-python/pyPdf/pyPdf-1.13.ebuild
+	A	dev-python/pyPdf/Manifest
+r1530 = 7d2c2da5e899b24935ef4fefbb2b50fc6718a294 (refs/remotes/git-svn)
+	D	dev-python/simplejson/simplejson-2.3.0.ebuild
+	A	dev-python/simplejson/simplejson-2.3.2.ebuild
+	M	dev-python/simplejson/Manifest
+W: -empty_dir: dev-python/simplejson/simplejson-2.3.0.ebuild
+r1531 = edbaa4fe7e2afdf13d71c5ce9fd137f04f15e29a (refs/remotes/git-svn)
+	A	dev-python/genshi/genshi-0.6.ebuild
+	A	dev-python/genshi/Manifest
+r1532 = 01efdca88be5c5864518068ab3ea166ee4439f2a (refs/remotes/git-svn)
+	M	dev-lang/python/files/pydoc.init
+r1533 = e344b50c16e6e474c68ed5b8f80a93631becc5b6 (refs/remotes/git-svn)
+	A	www-apps/trac/files/postinst-en.txt
+	A	www-apps/trac/files/tracd.initd
+	A	www-apps/trac/files/tracd.confd
+	A	www-apps/trac/files/postupgrade-en.txt
+	A	www-apps/trac/Manifest
+	A	www-apps/trac/trac-0.12.2-r1.ebuild
+r1534 = 2d8568f302629c0caa3a8b69fed0d0a6e9127e4d (refs/remotes/git-svn)
+	M	eclass/python.eclass
+r1535 = 7386959393e410d5c4587e9668096b43808d2acb (refs/remotes/git-svn)
+	M	dev-python/pygobject/Manifest
+	M	dev-python/pygobject/pygobject-3.0.3.ebuild
+	M	dev-python/pygobject/pygobject-2.28.6-r51.ebuild
+r1536 = 66c9da0828bd4cdd4f8ee28125ad08d1c0e1e9eb (refs/remotes/git-svn)
+	M	dev-python/pygtk/pygtk-2.24.0-r2.ebuild
+	M	dev-python/pygtk/Manifest
+r1537 = e894569a4d42081276a7838daa3b6c95c517e7d1 (refs/remotes/git-svn)
+	D	sys-apps/file/file-5.09.ebuild
+	A	sys-apps/file/file-5.10.ebuild
+	M	sys-apps/file/Manifest
+W: -empty_dir: sys-apps/file/file-5.09.ebuild
+r1538 = df90b6174b3d9c0281fb84ad60c934dd33961c37 (refs/remotes/git-svn)
+W: +empty_dir: metadata/news
+r1539 = 332570d1d7736bc639603c2dbf8c2ea462026e9d (refs/remotes/git-svn)
+	A	metadata/news/2012-01-01-python-updater/2012-01-01-python-updater.en.txt
+r1540 = 189f89c37ceb12e6326409b76f8a9165fae9ebd7 (refs/remotes/git-svn)
+	M	eclass/python.eclass
+r1541 = 9647418535b4503a13d5b90d3a89d22fb1ce71cf (refs/remotes/git-svn)
+	M	eclass/python.eclass
+r1542 = 55c9119893590f1893c4c4c201090b73e6b4c3fa (refs/remotes/git-svn)
+	M	profiles/use.mask
+r1543 = 500bd6e3a0dedff6528318f86c534be2414628a7 (refs/remotes/git-svn)
+	D	dev-lang/python/python-3.3_pre20111204.ebuild
+	D	dev-lang/python/python-3.2.3_pre20111204.ebuild
+	D	dev-lang/python/python-2.7.3_pre20111204.ebuild
+	A	dev-lang/python/python-3.2.3_pre20120101.ebuild
+	A	dev-lang/python/python-3.3_pre20120101.ebuild
+	A	dev-lang/python/python-2.7.3_pre20120101.ebuild
+	M	dev-lang/python/Manifest
+W: -empty_dir: dev-lang/python/python-2.7.3_pre20111204.ebuild
+W: -empty_dir: dev-lang/python/python-3.2.3_pre20111204.ebuild
+W: -empty_dir: dev-lang/python/python-3.3_pre20111204.ebuild
+r1544 = 9f76303ff7f09bff74aa87ab27fcfc239f49edc9 (refs/remotes/git-svn)
+	A	dev-python/eunuchs/files/eunuchs-20050320.1-python-2.5.patch
+	A	dev-python/eunuchs/eunuchs-20050320.1.ebuild
+	A	dev-python/eunuchs/Manifest
+r1545 = c9477fbe9c48b360a72d938229d5fdd061f14352 (refs/remotes/git-svn)
+	A	dev-python/twisted-pair/Manifest
+	A	dev-python/twisted-pair/twisted-pair-11.1.0.ebuild
+r1546 = 8d24a9679734aa6468829585dd49ecc6679de218 (refs/remotes/git-svn)
+	A	dev-python/logilab-common/files/logilab-common-date.patch
+	M	dev-python/logilab-common/Manifest
+	M	dev-python/logilab-common/logilab-common-0.57.1.ebuild
+r1547 = a9b5d73d9c38a8b378ae6723c0ac4b737d8793a4 (refs/remotes/git-svn)
+	D	dev-python/pygame/pygame-1.9.2_pre3203.ebuild
+	M	dev-python/pygame/Manifest
+	A	dev-python/pygame/pygame-1.9.2_pre20120101.ebuild
+W: -empty_dir: dev-python/pygame/pygame-1.9.2_pre3203.ebuild
+r1548 = bb279583a522519dcc055dc63a7d8db7645511aa (refs/remotes/git-svn)
+	D	dev-python/docutils/files/docutils-0.6-extra_modules.patch
+	D	dev-python/docutils/files/
+	D	dev-python/docutils/docutils-0.8.1.ebuild
+	M	dev-python/docutils/Manifest
+	A	dev-python/docutils/docutils-0.9_pre7298.ebuild
+W: -empty_dir: dev-python/docutils/docutils-0.8.1.ebuild
+W: -empty_dir: dev-python/docutils/files
+r1549 = bf09911a9e742e87059d64fa0e90f4b4563c53fd (refs/remotes/git-svn)
+	A	dev-python/roman/Manifest
+	A	dev-python/roman/roman-1.4.0.ebuild
+r1550 = e83067a48c68310a693b5c2f2ac5e9fbcecf0705 (refs/remotes/git-svn)
+	M	dev-python/docutils/Manifest
+	M	dev-python/docutils/docutils-0.9_pre7298.ebuild
+r1551 = 11495d0efef4f9c83e4a10f564341d265e8de396 (refs/remotes/git-svn)
+	M	dev-util/eric/eric-4.4.19.ebuild
+	M	dev-util/eric/Manifest
+	M	dev-util/eric/eric-5.1.7.ebuild
+r1552 = 9a09354a51560ed2d12c0fe7eea4a46a9d5e45e6 (refs/remotes/git-svn)
+	M	net-zope/zsqlmethods/zsqlmethods-2.13.4.ebuild
+	M	net-zope/zsqlmethods/Manifest
+r1553 = da6d25da04d99ff76a398f9761775308cf625890 (refs/remotes/git-svn)
+	M	eclass/python.eclass
+r1554 = 5047afeeef4908f9937d1a83ab7c8d0f42fce446 (refs/remotes/git-svn)
+	M	dev-python/argparse/argparse-1.2.1.ebuild
+	M	dev-python/argparse/Manifest
+r1555 = 409ac5d8543e0da329c4d327b428217623e1bc40 (refs/remotes/git-svn)
+	M	eclass/distutils.eclass
+r1556 = bae6d921202ce41f1160f80c5557f0a2c9d4fb0e (refs/remotes/git-svn)
+	M	dev-python/httplib2/Manifest
+	M	dev-python/httplib2/httplib2-0.7.2.ebuild
+r1557 = b35650791156a725818c1d06b856e9172bed0bef (refs/remotes/git-svn)
+	M	dev-python/mako/Manifest
+	M	dev-python/mako/mako-0.5.0.ebuild
+r1558 = e73bf4efd665a4d111f075b4ac90b184d7ba61d4 (refs/remotes/git-svn)
+	M	dev-python/sphinx/Manifest
+	M	dev-python/sphinx/sphinx-1.1.2-r1.ebuild
+r1559 = 405fbbae8ffdb73057807b1aafefcead4b77bdb4 (refs/remotes/git-svn)
+	M	dev-python/twisted/twisted-11.1.0.ebuild
+	M	dev-python/twisted/Manifest
+r1560 = d03193e68f7afc97e8644dfc452c048ca8b8526e (refs/remotes/git-svn)
+	M	dev-python/roman/Manifest
+	M	dev-python/roman/roman-1.4.0.ebuild
+r1561 = 081e1ea9d0a438e374ef94c59e8663b6eaa10556 (refs/remotes/git-svn)
+	M	dev-python/amqplib/amqplib-1.0.2.ebuild
+	M	dev-python/amqplib/Manifest
+r1562 = 05a01eac1a4b1fb466d08b2ba51170b80e7de603 (refs/remotes/git-svn)
+	M	dev-python/httplib2/Manifest
+	M	dev-python/httplib2/httplib2-0.7.2.ebuild
+r1563 = 0c6429188f178aa5a868fd279910f54073279ae6 (refs/remotes/git-svn)
+	M	dev-python/pycairo/pycairo-1.10.0-r2.ebuild
+	M	dev-python/pycairo/Manifest
+r1564 = ab6d3c320c6f2158dc90c72e22818ec676f46589 (refs/remotes/git-svn)
+	M	dev-python/wxpython/Manifest
+	M	dev-python/wxpython/wxpython-2.8.12.1.ebuild
+r1565 = 854f4aab771ed119005427f6a5e94064ab3133bc (refs/remotes/git-svn)
+	A	dev-python/pysnmp/Manifest
+	A	dev-python/pysnmp/pysnmp-4.2.1.ebuild
+r1566 = 0a78c9fe4e96b2eead6e069a9d05dc9a260dcbad (refs/remotes/git-svn)
+	A	dev-python/pysnmp-apps/Manifest
+	A	dev-python/pysnmp-apps/pysnmp-apps-0.3.1.ebuild
+r1567 = 914663a8b1ec874a9c1665ce2d0969db1a6fad4b (refs/remotes/git-svn)
+	A	dev-python/pysnmp-mibs/Manifest
+	A	dev-python/pysnmp-mibs/pysnmp-mibs-0.1.2.ebuild
+r1568 = 5f44ae925d9b68fbea1bff2bb7a22bcd5dd20093 (refs/remotes/git-svn)
+	A	dev-python/greenlet/greenlet-0.3.2.ebuild
+	A	dev-python/greenlet/Manifest
+r1569 = 610cc1533c90dae2c4c16d4255f529ea66ed5be8 (refs/remotes/git-svn)
+	D	dev-python/lxml/lxml-2.3.2.ebuild
+	A	dev-python/lxml/lxml-2.3.3.ebuild
+	M	dev-python/lxml/Manifest
+W: -empty_dir: dev-python/lxml/lxml-2.3.2.ebuild
+r1570 = 5ca00537efc3c2b07e2b24f26ad4a531e9bfe051 (refs/remotes/git-svn)
+	D	dev-python/pymongo/pymongo-2.1.ebuild
+	M	dev-python/pymongo/Manifest
+	A	dev-python/pymongo/pymongo-2.1.1.ebuild
+W: -empty_dir: dev-python/pymongo/pymongo-2.1.ebuild
+r1571 = d9c6c9cbbc3c3a7268719dc51a8b213b9dbbe375 (refs/remotes/git-svn)
+	D	dev-python/pyodbc/pyodbc-2.1.11.ebuild
+	A	dev-python/pyodbc/pyodbc-3.0.3.ebuild
+	M	dev-python/pyodbc/Manifest
+W: -empty_dir: dev-python/pyodbc/pyodbc-2.1.11.ebuild
+r1572 = 3affd192b22d7f819137776cafa79887243a5b9b (refs/remotes/git-svn)
+	M	dev-python/wxpython/Manifest
+	M	dev-python/wxpython/wxpython-2.8.12.1.ebuild
+r1573 = f007e819d11a5a0e231c324ee3cddc43ada8447f (refs/remotes/git-svn)
+	M	dev-python/wxpython/Manifest
+	M	dev-python/wxpython/wxpython-2.8.12.1.ebuild
+r1574 = 31d76baba9f1249b17489f77249ad6ae4e2f36c0 (refs/remotes/git-svn)
+	M	sci-biology/biopython/Manifest
+	M	sci-biology/biopython/biopython-1.58.ebuild
+	M	virtual/python-sqlite/python-sqlite-0.ebuild
+	M	virtual/python-sqlite/Manifest
+	M	virtual/python-argparse/python-argparse-0.ebuild
+	M	virtual/python-argparse/Manifest
+	M	virtual/python-json/Manifest
+	M	virtual/python-json/python-json-0.ebuild
+	M	dev-python/decorator/decorator-3.3.2.ebuild
+	M	dev-python/decorator/Manifest
+	M	dev-python/markupsafe/markupsafe-0.15.ebuild
+	M	dev-python/markupsafe/Manifest
+	M	dev-python/ctypesgen/Manifest
+	M	dev-python/ctypesgen/ctypesgen-0_p72.ebuild
+	M	dev-python/gnuplot-py/gnuplot-py-1.8.ebuild
+	M	dev-python/gnuplot-py/Manifest
+	M	dev-python/pysvn/Manifest
+	M	dev-python/pysvn/pysvn-1.7.6_pre1437.ebuild
+	M	dev-python/reportlab/reportlab-2.5.ebuild
+	M	dev-python/reportlab/Manifest
+	M	dev-python/jinja/jinja-2.6.ebuild
+	M	dev-python/jinja/Manifest
+	M	dev-python/configobj/Manifest
+	M	dev-python/configobj/configobj-4.7.2.ebuild
+	M	dev-python/pymssql/Manifest
+	M	dev-python/pymssql/pymssql-1.0.2.ebuild
+	M	dev-python/medusa/medusa-0.5.4.ebuild
+	M	dev-python/medusa/Manifest
+	M	dev-python/beautifulsoup/beautifulsoup-3.1.0.1-r1.ebuild
+	M	dev-python/beautifulsoup/Manifest
+	M	dev-python/beautifulsoup/beautifulsoup-3.2.0.ebuild
+	M	dev-python/pyinotify/pyinotify-0.9.3.ebuild
+	M	dev-python/pyinotify/Manifest
+	M	dev-python/pyftpdlib/pyftpdlib-0.6.0.ebuild
+	M	dev-python/pyftpdlib/Manifest
+	M	dev-python/dulwich/dulwich-0.8.2.ebuild
+	M	dev-python/dulwich/Manifest
+	M	dev-python/unittest2/unittest2-0.5.1.ebuild
+	M	dev-python/unittest2/Manifest
+	M	dev-python/tempita/tempita-0.5.1.ebuild
+	M	dev-python/tempita/Manifest
+	M	dev-python/paramiko/Manifest
+	M	dev-python/paramiko/paramiko-1.7.7.1.ebuild
+	M	dev-python/argparse/argparse-1.2.1.ebuild
+	M	dev-python/argparse/Manifest
+	M	dev-python/Babel/Babel-0.9.6.ebuild
+	M	dev-python/Babel/Manifest
+	M	dev-python/celementtree/Manifest
+	M	dev-python/celementtree/celementtree-1.0.5-r1.ebuild
+	M	dev-python/simplejson/simplejson-2.3.2.ebuild
+	M	dev-python/simplejson/Manifest
+	M	dev-python/ssh/ssh-1.7.11.ebuild
+	M	dev-python/ssh/Manifest
+	M	dev-python/fpconst/fpconst-0.7.3.ebuild
+	M	dev-python/fpconst/Manifest
+	M	dev-python/pyparsing/pyparsing-1.5.6.ebuild
+	M	dev-python/pyparsing/Manifest
+	M	dev-python/kinterbasdb/Manifest
+	M	dev-python/kinterbasdb/kinterbasdb-3.2.2.ebuild
+	M	dev-python/sqlalchemy-migrate/Manifest
+	M	dev-python/sqlalchemy-migrate/sqlalchemy-migrate-0.7.2.ebuild
+	M	dev-python/python-dateutil/Manifest
+	M	dev-python/python-dateutil/python-dateutil-1.5.ebuild
+	M	dev-python/python-openid/python-openid-2.2.5.ebuild
+	M	dev-python/python-openid/Manifest
+	M	dev-python/ipy/Manifest
+	M	dev-python/ipy/ipy-0.75.ebuild
+	M	dev-python/cheetah/Manifest
+	M	dev-python/cheetah/cheetah-2.4.4.ebuild
+	M	dev-python/mechanize/Manifest
+	M	dev-python/mechanize/mechanize-0.2.5.ebuild
+	M	dev-python/flup/flup-1.0.2.ebuild
+	M	dev-python/flup/Manifest
+	M	dev-python/pyquery/Manifest
+	M	dev-python/pyquery/pyquery-1.1.1.ebuild
+	M	dev-python/pyflakes/pyflakes-0.5.0.ebuild
+	M	dev-python/pyflakes/Manifest
+	M	dev-python/mysql-python/mysql-python-1.2.3.ebuild
+	M	dev-python/mysql-python/Manifest
+	M	dev-python/httplib2/Manifest
+	M	dev-python/httplib2/httplib2-0.7.2.ebuild
+	M	dev-python/pyenchant/pyenchant-1.6.5.ebuild
+	M	dev-python/pyenchant/Manifest
+	M	dev-python/namespaces-paste/Manifest
+	M	dev-python/namespaces-paste/namespaces-paste-0.ebuild
+	M	dev-python/mock/Manifest
+	M	dev-python/mock/mock-0.7.2.ebuild
+	M	dev-python/xlwt/xlwt-0.7.2.ebuild
+	M	dev-python/xlwt/Manifest
+	M	dev-python/pexpect/Manifest
+	M	dev-python/pexpect/pexpect-2.4.ebuild
+	M	dev-python/paste/paste-1.7.5.1.ebuild
+	M	dev-python/paste/Manifest
+	M	dev-python/pycurl/Manifest
+	M	dev-python/pycurl/pycurl-7.19.0.ebuild
+	M	dev-python/pyopengl/Manifest
+	M	dev-python/pyopengl/pyopengl-3.0.1.ebuild
+	M	dev-python/pywebkitgtk/Manifest
+	M	dev-python/pywebkitgtk/pywebkitgtk-1.1.8.ebuild
+	M	dev-python/elementtree/elementtree-1.2.6-r2.ebuild
+	M	dev-python/elementtree/Manifest
+	M	dev-python/pysqlite/pysqlite-2.6.3.ebuild
+	M	dev-python/pysqlite/Manifest
+	M	dev-python/m2crypto/m2crypto-0.21.1.ebuild
+	M	dev-python/m2crypto/Manifest
+	M	dev-python/formencode/formencode-1.2.4.ebuild
+	M	dev-python/formencode/Manifest
+	M	dev-python/pygments/Manifest
+	M	dev-python/pygments/pygments-1.4.ebuild
+	M	dev-python/chardet/Manifest
+	M	dev-python/chardet/chardet-2.0.1.ebuild
+	M	dev-java/java-config/Manifest
+	M	dev-java/java-config/java-config-2.1.11-r3.ebuild
+	M	dev-java/javatoolkit/Manifest
+	M	dev-java/javatoolkit/javatoolkit-0.3.0-r6.ebuild
+	M	net-zope/namespaces-zope/Manifest
+	M	net-zope/namespaces-zope/namespaces-zope-0.ebuild
+	M	net-zope/zope-fixers/Manifest
+	M	net-zope/zope-fixers/zope-fixers-1.0.ebuild
+	M	dev-libs/libxml2/Manifest
+	M	dev-libs/libxml2/libxml2-2.7.8-r3.ebuild
+	M	mail-filter/pypolicyd-spf/Manifest
+	M	mail-filter/pypolicyd-spf/pypolicyd-spf-0.8.1.ebuild
+	M	dev-vcs/hg-git/hg-git-0.3.1.ebuild
+	M	dev-vcs/hg-git/Manifest
+r1575 = 0253211240568fff74bf3318aa1dc2f4128185ec (refs/remotes/git-svn)
+	M	app-portage/g-pypi/g-pypi-0.2.2.ebuild
+	M	app-portage/g-pypi/Manifest
+	M	sys-apps/file/file-5.10.ebuild
+	M	sys-apps/file/Manifest
+	M	sci-biology/biopython/Manifest
+	M	sci-biology/biopython/biopython-1.58.ebuild
+	M	sys-fs/ecryptfs-utils/Manifest
+	M	sys-fs/ecryptfs-utils/ecryptfs-utils-95.ebuild
+	M	www-apps/trac/files/tracd.initd
+	M	www-apps/trac/Manifest
+	M	www-apps/trac/trac-0.12.2-r1.ebuild
+	M	www-apps/roundup/Manifest
+	M	www-apps/roundup/roundup-1.4.19.ebuild
+	M	virtual/python-sqlite/python-sqlite-0.ebuild
+	M	virtual/python-sqlite/Manifest
+	M	virtual/python-argparse/python-argparse-0.ebuild
+	M	virtual/python-argparse/Manifest
+	M	virtual/python-json/Manifest
+	M	virtual/python-json/python-json-0.ebuild
+	M	dev-util/eric/eric-4.4.19.ebuild
+	M	dev-util/eric/Manifest
+	M	dev-util/eric/eric-5.1.7.ebuild
+	M	dev-util/buildbot/files/buildmaster.initd
+	M	dev-util/buildbot/Manifest
+	M	dev-util/buildbot/buildbot-0.8.5.ebuild
+	M	dev-util/buildbot-slave/files/buildslave.initd
+	M	dev-util/buildbot-slave/buildbot-slave-0.8.5.ebuild
+	M	dev-util/buildbot-slave/Manifest
+	M	dev-util/pida/pida-0.6.2.ebuild
+	M	dev-util/pida/Manifest
+	M	dev-python/twisted-lore/twisted-lore-11.1.0.ebuild
+	M	dev-python/twisted-lore/Manifest
+	M	dev-python/decorator/decorator-3.3.2.ebuild
+	M	dev-python/decorator/Manifest
+	M	dev-python/timelib/timelib-0.2.3.ebuild
+	M	dev-python/timelib/Manifest
+	M	dev-python/blinker/Manifest
+	M	dev-python/blinker/blinker-1.2.ebuild
+	M	dev-python/fabric/Manifest
+	M	dev-python/fabric/fabric-1.3.3.ebuild
+	M	dev-python/fabric/fabric-1.2.5.ebuild
+	M	dev-python/webpy/Manifest
+	M	dev-python/webpy/webpy-0.36.ebuild
+	M	dev-python/colander/colander-0.9.4.ebuild
+	M	dev-python/colander/Manifest
+	M	dev-python/pycrypto/Manifest
+	M	dev-python/pycrypto/pycrypto-2.4.1.ebuild
+	M	dev-python/redis-py/redis-py-2.4.10.ebuild
+	M	dev-python/redis-py/Manifest
+	M	dev-python/markupsafe/markupsafe-0.15.ebuild
+	M	dev-python/markupsafe/Manifest
+	M	dev-python/unidecode/Manifest
+	M	dev-python/unidecode/unidecode-0.04.9.ebuild
+	M	dev-python/pylibmc/pylibmc-1.2.2.ebuild
+	M	dev-python/pylibmc/Manifest
+	M	dev-python/ctypesgen/Manifest
+	M	dev-python/ctypesgen/ctypesgen-0_p72.ebuild
+	M	dev-python/rdflib/rdflib-3.1.0.ebuild
+	M	dev-python/rdflib/Manifest
+	M	dev-python/nose/nose-1.1.2.ebuild
+	M	dev-python/nose/Manifest
+	M	dev-python/pysvg/Manifest
+	M	dev-python/pysvg/pysvg-0.2.1.ebuild
+	M	dev-python/wstools/Manifest
+	M	dev-python/wstools/wstools-0.3.ebuild
+	M	dev-python/roman/Manifest
+	M	dev-python/roman/roman-1.4.0.ebuild
+	M	dev-python/gnuplot-py/gnuplot-py-1.8.ebuild
+	M	dev-python/gnuplot-py/Manifest
+	M	dev-python/pysvn/Manifest
+	M	dev-python/pysvn/pysvn-1.7.6_pre1437.ebuild
+	M	dev-python/mako/Manifest
+	M	dev-python/mako/mako-0.5.0.ebuild
+	M	dev-python/pymongo/Manifest
+	M	dev-python/pymongo/pymongo-2.1.1.ebuild
+	M	dev-python/venusian/Manifest
+	M	dev-python/venusian/venusian-1.0_alpha2.ebuild
+	M	dev-python/reportlab/reportlab-2.5.ebuild
+	M	dev-python/reportlab/Manifest
+	M	dev-python/martian/Manifest
+	M	dev-python/martian/martian-0.14.ebuild
+	M	dev-python/html2text/Manifest
+	M	dev-python/html2text/html2text-3.200.1.ebuild
+	M	dev-python/sip/sip-4.13.1.ebuild
+	M	dev-python/sip/Manifest
+	M	dev-python/jinja/jinja-2.6.ebuild
+	M	dev-python/jinja/Manifest
+	M	dev-python/libcloud/libcloud-0.7.1.ebuild
+	M	dev-python/libcloud/Manifest
+	M	dev-python/flask/flask-0.8.ebuild
+	M	dev-python/flask/Manifest
+	M	dev-python/configobj/Manifest
+	M	dev-python/configobj/configobj-4.7.2.ebuild
+	M	dev-python/pygraphviz/pygraphviz-1.1-r1.ebuild
+	M	dev-python/pygraphviz/Manifest
+	M	dev-python/python-gettext/python-gettext-2.0.ebuild
+	M	dev-python/python-gettext/Manifest
+	M	dev-python/storm/Manifest
+	M	dev-python/storm/storm-0.19.ebuild
+	M	dev-python/mozprocess/mozprocess-0.1_beta2.ebuild
+	M	dev-python/mozprocess/Manifest
+	M	dev-python/rope/Manifest
+	M	dev-python/rope/rope-0.9.3-r1.ebuild
+	M	dev-python/cherrypy/Manifest
+	M	dev-python/cherrypy/cherrypy-3.2.2.ebuild
+	M	dev-python/foolscap/Manifest
+	M	dev-python/foolscap/foolscap-0.6.2.ebuild
+	M	dev-python/pymssql/Manifest
+	M	dev-python/pymssql/pymssql-1.0.2.ebuild
+	M	dev-python/medusa/medusa-0.5.4.ebuild
+	M	dev-python/medusa/Manifest
+	M	dev-python/twisted-words/Manifest
+	M	dev-python/twisted-words/twisted-words-11.1.0.ebuild
+	M	dev-python/manuel/manuel-1.5.0.ebuild
+	M	dev-python/manuel/Manifest
+	M	dev-python/qscintilla-python/Manifest
+	M	dev-python/qscintilla-python/qscintilla-python-2.6.ebuild
+	M	dev-python/python-distutils-extra/Manifest
+	M	dev-python/python-distutils-extra/python-distutils-extra-2.31.ebuild
+	M	dev-python/twisted-names/twisted-names-11.1.0.ebuild
+	M	dev-python/twisted-names/Manifest
+	M	dev-python/psycopg/Manifest
+	M	dev-python/psycopg/psycopg-2.4.4.ebuild
+	M	dev-python/sourcecodegen/Manifest
+	M	dev-python/sourcecodegen/sourcecodegen-0.6.14.ebuild
+	M	dev-python/beautifulsoup/beautifulsoup-3.1.0.1-r1.ebuild
+	M	dev-python/beautifulsoup/Manifest
+	M	dev-python/beautifulsoup/beautifulsoup-3.2.0.ebuild
+	M	dev-python/pytest/Manifest
+	M	dev-python/pytest/pytest-2.2.1.ebuild
+	M	dev-python/pyro/pyro-3.15.ebuild
+	M	dev-python/pyro/Manifest
+	M	dev-python/pyro/pyro-4.11.ebuild
+	M	dev-python/pyinotify/pyinotify-0.9.3.ebuild
+	M	dev-python/pyinotify/Manifest
+	M	dev-python/urwid/Manifest
+	M	dev-python/urwid/urwid-1.0.1.ebuild
+	M	dev-python/coverage/coverage-3.5.1.ebuild
+	M	dev-python/coverage/Manifest
+	M	dev-python/pydns/pydns-2.3.5-r1.ebuild
+	M	dev-python/pydns/Manifest
+	M	dev-python/pydns/pydns-3.0.1-r1.ebuild
+	M	dev-python/pythonmagick/Manifest
+	M	dev-python/pythonmagick/pythonmagick-0.9.7.ebuild
+	M	dev-python/pyftpdlib/pyftpdlib-0.6.0.ebuild
+	M	dev-python/pyftpdlib/Manifest
+	M	dev-python/twisted-web/Manifest
+	M	dev-python/twisted-web/twisted-web-11.1.0.ebuild
+	M	dev-python/jonpy/Manifest
+	M	dev-python/jonpy/jonpy-0.10.ebuild
+	M	dev-python/dulwich/dulwich-0.8.2.ebuild
+	M	dev-python/dulwich/Manifest
+	M	dev-python/unittest2/unittest2-0.5.1.ebuild
+	M	dev-python/unittest2/Manifest
+	M	dev-python/pyspf/pyspf-2.0.6.ebuild
+	M	dev-python/pyspf/Manifest
+	M	dev-python/repoze-sphinx-autointerface/repoze-sphinx-autointerface-0.6.2.ebuild
+	M	dev-python/repoze-sphinx-autointerface/Manifest
+	M	dev-python/tempita/tempita-0.5.1.ebuild
+	M	dev-python/tempita/Manifest
+	M	dev-python/paramiko/Manifest
+	M	dev-python/paramiko/paramiko-1.7.7.1.ebuild
+	M	dev-python/cython/Manifest
+	M	dev-python/cython/cython-0.15.1.ebuild
+	M	dev-python/argparse/argparse-1.2.1.ebuild
+	M	dev-python/argparse/Manifest
+	M	dev-python/Babel/Babel-0.9.6.ebuild
+	M	dev-python/Babel/Manifest
+	M	dev-python/pyramid/Manifest
+	M	dev-python/pyramid/pyramid-1.2.4.ebuild
+	M	dev-python/numpy/Manifest
+	M	dev-python/numpy/numpy-1.6.1-r2.ebuild
+	M	dev-python/ropemacs/Manifest
+	M	dev-python/ropemacs/ropemacs-0.6.ebuild
+	M	dev-python/eyeD3/eyeD3-0.6.18.ebuild
+	M	dev-python/eyeD3/Manifest
+	M	dev-python/soappy/soappy-0.12.5.ebuild
+	M	dev-python/soappy/Manifest
+	M	dev-python/pycxx/pycxx-6.2.3-r3.ebuild
+	M	dev-python/pycxx/Manifest
+	M	dev-python/flask-openid/Manifest
+	M	dev-python/flask-openid/flask-openid-1.0.1.ebuild
+	M	dev-python/celementtree/Manifest
+	M	dev-python/celementtree/celementtree-1.0.5-r1.ebuild
+	M	dev-python/genshi/genshi-0.6.ebuild
+	M	dev-python/genshi/Manifest
+	M	dev-python/netaddr/Manifest
+	M	dev-python/netaddr/netaddr-0.7.6.ebuild
+	M	dev-python/markdown/markdown-2.1.0.ebuild
+	M	dev-python/markdown/Manifest
+	M	dev-python/bpython/bpython-0.10.1.ebuild
+	M	dev-python/bpython/Manifest
+	M	dev-python/simplejson/simplejson-2.3.2.ebuild
+	M	dev-python/simplejson/Manifest
+	M	dev-python/rst2pdf/Manifest
+	M	dev-python/rst2pdf/rst2pdf-0.16-r1.ebuild
+	M	dev-python/amqplib/amqplib-1.0.2.ebuild
+	M	dev-python/amqplib/Manifest
+	M	dev-python/sqlobject/sqlobject-1.2.1.ebuild
+	M	dev-python/sqlobject/Manifest
+	M	dev-python/mozprofile/mozprofile-0.1.ebuild
+	M	dev-python/mozprofile/Manifest
+	M	dev-python/pysnmp/Manifest
+	M	dev-python/pysnmp/pysnmp-4.2.1.ebuild
+	M	dev-python/ropeide/Manifest
+	M	dev-python/ropeide/ropeide-1.5.1-r1.ebuild
+	M	dev-python/lockfile/Manifest
+	M	dev-python/lockfile/lockfile-0.9.1.ebuild
+	M	dev-python/simpletal/Manifest
+	M	dev-python/simpletal/simpletal-5.1.ebuild
+	M	dev-python/execnet/execnet-1.0.9.ebuild
+	M	dev-python/execnet/Manifest
+	M	dev-python/ssh/ssh-1.7.11.ebuild
+	M	dev-python/ssh/Manifest
+	M	dev-python/python-gnupg/python-gnupg-0.2.8.ebuild
+	M	dev-python/python-gnupg/Manifest
+	M	dev-python/pastescript/Manifest
+	M	dev-python/pastescript/pastescript-1.7.5.ebuild
+	M	dev-python/repoze-lru/Manifest
+	M	dev-python/repoze-lru/repoze-lru-0.4.ebuild
+	M	dev-python/greenlet/greenlet-0.3.2.ebuild
+	M	dev-python/greenlet/Manifest
+	M	dev-python/egenix-mx-base/Manifest
+	M	dev-python/egenix-mx-base/egenix-mx-base-3.2.1-r1.ebuild
+	M	dev-python/sphinx/Manifest
+	M	dev-python/sphinx/sphinx-1.1.2-r1.ebuild
+	M	dev-python/apsw/Manifest
+	M	dev-python/apsw/apsw-3.7.9.1.ebuild
+	M	dev-python/eunuchs/eunuchs-20050320.1.ebuild
+	M	dev-python/eunuchs/Manifest
+	M	dev-python/fpconst/fpconst-0.7.3.ebuild
+	M	dev-python/fpconst/Manifest
+	M	dev-python/pyparsing/pyparsing-1.5.6.ebuild
+	M	dev-python/pyparsing/Manifest
+	M	dev-python/fanstatic/Manifest
+	M	dev-python/fanstatic/fanstatic-0.11.3.ebuild
+	M	dev-python/astng/Manifest
+	M	dev-python/astng/astng-0.23.1.ebuild
+	M	dev-python/peppercorn/Manifest
+	M	dev-python/peppercorn/peppercorn-0.3.ebuild
+	M	dev-python/webtest/webtest-1.3.3.ebuild
+	M	dev-python/webtest/Manifest
+	M	dev-python/ipdb/ipdb-0.6.1.ebuild
+	M	dev-python/ipdb/Manifest
+	M	dev-python/pysnmp-mibs/Manifest
+	M	dev-python/pysnmp-mibs/pysnmp-mibs-0.1.2.ebuild
+	M	dev-python/pygtkhelpers/pygtkhelpers-0.4.3.ebuild
+	M	dev-python/pygtkhelpers/Manifest
+	M	dev-python/pygame/Manifest
+	M	dev-python/pygame/pygame-1.9.2_pre20120101.ebuild
+	M	dev-python/pycups/pycups-1.9.60.ebuild
+	M	dev-python/pycups/Manifest
+	M	dev-python/translationstring/Manifest
+	M	dev-python/translationstring/translationstring-0.4.ebuild
+	M	dev-python/pysnmp-apps/Manifest
+	M	dev-python/pysnmp-apps/pysnmp-apps-0.3.1.ebuild
+	M	dev-python/kinterbasdb/Manifest
+	M	dev-python/kinterbasdb/kinterbasdb-3.2.2.ebuild
+	M	dev-python/sqlalchemy-migrate/Manifest
+	M	dev-python/sqlalchemy-migrate/sqlalchemy-migrate-0.7.2.ebuild
+	M	dev-python/python-dateutil/Manifest
+	M	dev-python/python-dateutil/python-dateutil-2.0.ebuild
+	M	dev-python/python-dateutil/python-dateutil-1.5.ebuild
+	M	dev-python/python-gnutls/Manifest
+	M	dev-python/python-gnutls/python-gnutls-1.2.2.ebuild
+	M	dev-python/python-openid/python-openid-2.2.5.ebuild
+	M	dev-python/python-openid/Manifest
+	M	dev-python/wxpython/Manifest
+	M	dev-python/wxpython/wxpython-2.8.12.1.ebuild
+	M	dev-python/wtforms/wtforms-0.6.3.ebuild
+	M	dev-python/wtforms/Manifest
+	M	dev-python/ipy/Manifest
+	M	dev-python/ipy/ipy-0.75.ebuild
+	M	dev-python/cheetah/Manifest
+	M	dev-python/cheetah/cheetah-2.4.4.ebuild
+	M	dev-python/mechanize/Manifest
+	M	dev-python/mechanize/mechanize-0.2.5.ebuild
+	M	dev-python/pytz/Manifest
+	M	dev-python/pytz/pytz-2011n.ebuild
+	M	dev-python/flup/flup-1.0.2.ebuild
+	M	dev-python/flup/Manifest
+	M	dev-python/pyalsaaudio/pyalsaaudio-0.7.ebuild
+	M	dev-python/pyalsaaudio/Manifest
+	M	dev-python/pyudev/Manifest
+	M	dev-python/pyudev/pyudev-0.13.ebuild
+	M	dev-python/paver/paver-1.0.5.ebuild
+	M	dev-python/paver/Manifest
+	M	dev-python/pyquery/Manifest
+	M	dev-python/pyquery/pyquery-1.1.1.ebuild
+	M	dev-python/pyflakes/pyflakes-0.5.0.ebuild
+	M	dev-python/pyflakes/Manifest
+	M	dev-python/pylint/pylint-0.25.1.ebuild
+	M	dev-python/pylint/Manifest
+	M	dev-python/mocker/mocker-1.1.ebuild
+	M	dev-python/mocker/Manifest
+	M	dev-python/odfpy/Manifest
+	M	dev-python/odfpy/odfpy-0.9.4.ebuild
+	M	dev-python/python-gflags/Manifest
+	M	dev-python/python-gflags/python-gflags-1.6.ebuild
+	M	dev-python/twisted/twisted-11.1.0.ebuild
+	M	dev-python/twisted/Manifest
+	M	dev-python/imdbpy/Manifest
+	M	dev-python/imdbpy/imdbpy-4.8.2.ebuild
+	M	dev-python/mysql-python/mysql-python-1.2.3.ebuild
+	M	dev-python/mysql-python/Manifest
+	M	dev-python/python-memcached/python-memcached-1.48.ebuild
+	M	dev-python/python-memcached/Manifest
+	M	dev-python/pygobject/Manifest
+	M	dev-python/pygobject/pygobject-3.0.3.ebuild
+	M	dev-python/pygobject/pygobject-2.28.6-r51.ebuild
+	M	dev-python/httplib2/Manifest
+	M	dev-python/httplib2/httplib2-0.7.2.ebuild
+	M	dev-python/pyserial/Manifest
+	M	dev-python/pyserial/pyserial-2.6.ebuild
+	M	dev-python/ordereddict/Manifest
+	M	dev-python/ordereddict/ordereddict-1.1.ebuild
+	M	dev-python/pyenchant/pyenchant-1.6.5.ebuild
+	M	dev-python/pyenchant/Manifest
+	M	dev-python/namespaces-paste/Manifest
+	M	dev-python/namespaces-paste/namespaces-paste-0.ebuild
+	M	dev-python/mock/Manifest
+	M	dev-python/mock/mock-0.7.2.ebuild
+	M	dev-python/ipython/Manifest
+	M	dev-python/ipython/ipython-0.11.ebuild
+	M	dev-python/chameleon/chameleon-2.7.1.ebuild
+	M	dev-python/chameleon/Manifest
+	M	dev-python/xlwt/xlwt-0.7.2.ebuild
+	M	dev-python/xlwt/Manifest
+	M	dev-python/python-ldap/Manifest
+	M	dev-python/python-ldap/python-ldap-2.4.6.ebuild
+	M	dev-python/mozrunner/mozrunner-5.1.ebuild
+	M	dev-python/mozrunner/Manifest
+	M	dev-python/flask-sqlalchemy/flask-sqlalchemy-0.15.ebuild
+	M	dev-python/flask-sqlalchemy/Manifest
+	M	dev-python/BitVector/BitVector-3.0-r1.ebuild
+	M	dev-python/BitVector/Manifest
+	M	dev-python/bsddb3/bsddb3-5.2.0.ebuild
+	M	dev-python/bsddb3/Manifest
+	M	dev-python/django/django-1.3.1-r1.ebuild
+	M	dev-python/django/Manifest
+	M	dev-python/django/django-9999.ebuild
+	M	dev-python/sqlalchemy/Manifest
+	M	dev-python/sqlalchemy/sqlalchemy-0.7.4.ebuild
+	M	dev-python/werkzeug/Manifest
+	M	dev-python/werkzeug/werkzeug-0.8.2.ebuild
+	M	dev-python/boto/boto-2.1.1.ebuild
+	M	dev-python/boto/Manifest
+	M	dev-python/twisted-mail/twisted-mail-11.1.0.ebuild
+	M	dev-python/twisted-mail/Manifest
+	M	dev-python/minimock/Manifest
+	M	dev-python/minimock/minimock-1.2.7.ebuild
+	M	dev-python/python-docs/Manifest
+	M	dev-python/python-docs/python-docs-3.0.1.ebuild
+	M	dev-python/pexpect/Manifest
+	M	dev-python/pexpect/pexpect-2.4.ebuild
+	M	dev-python/iso8601/Manifest
+	M	dev-python/iso8601/iso8601-0.1.4.ebuild
+	M	dev-python/pyasn1/Manifest
+	M	dev-python/pyasn1/pyasn1-0.1.2.ebuild
+	M	dev-python/paste/paste-1.7.5.1.ebuild
+	M	dev-python/paste/Manifest
+	M	dev-python/deform/deform-0.9.3.ebuild
+	M	dev-python/deform/Manifest
+	M	dev-python/pycurl/Manifest
+	M	dev-python/pycurl/pycurl-7.19.0.ebuild
+	M	dev-python/gdata/gdata-2.0.15.ebuild
+	M	dev-python/gdata/Manifest
+	M	dev-python/pyzmq/pyzmq-2.1.11.ebuild
+	M	dev-python/pyzmq/Manifest
+	M	dev-python/mozinfo/mozinfo-0.3.3.ebuild
+	M	dev-python/mozinfo/Manifest
+	M	dev-python/setproctitle/setproctitle-1.1.3.ebuild
+	M	dev-python/setproctitle/Manifest
+	M	dev-python/h5py/h5py-2.0.1.ebuild
+	M	dev-python/h5py/Manifest
+	M	dev-python/docutils/Manifest
+	M	dev-python/docutils/docutils-0.9_pre7298.ebuild
+	M	dev-python/fudge/Manifest
+	M	dev-python/fudge/fudge-1.0.3.ebuild
+	M	dev-python/twisted-runner/Manifest
+	M	dev-python/twisted-runner/twisted-runner-11.1.0.ebuild
+	M	dev-python/pyopengl/Manifest
+	M	dev-python/pyopengl/pyopengl-3.0.1.ebuild
+	M	dev-python/pyconstruct/pyconstruct-2.06.ebuild
+	M	dev-python/pyconstruct/Manifest
+	M	dev-python/webob/Manifest
+	M	dev-python/webob/webob-1.2_beta2.ebuild
+	M	dev-python/pygtk/pygtk-2.24.0-r2.ebuild
+	M	dev-python/pygtk/Manifest
+	M	dev-python/logilab-common/Manifest
+	M	dev-python/logilab-common/logilab-common-0.57.1.ebuild
+	M	dev-python/pydispatcher/pydispatcher-2.0.3.ebuild
+	M	dev-python/pydispatcher/Manifest
+	M	dev-python/subvertpy/subvertpy-0.8.9.ebuild
+	M	dev-python/subvertpy/Manifest
+	M	dev-python/pywebkitgtk/Manifest
+	M	dev-python/pywebkitgtk/pywebkitgtk-1.1.8.ebuild
+	M	dev-python/manifestdestiny/Manifest
+	M	dev-python/manifestdestiny/manifestdestiny-0.5.4.ebuild
+	M	dev-python/elementtree/elementtree-1.2.6-r2.ebuild
+	M	dev-python/elementtree/Manifest
+	M	dev-python/pysqlite/pysqlite-2.6.3.ebuild
+	M	dev-python/pysqlite/Manifest
+	M	dev-python/restrictedpython/restrictedpython-3.6.0.ebuild
+	M	dev-python/restrictedpython/Manifest
+	M	dev-python/apipkg/Manifest
+	M	dev-python/apipkg/apipkg-1.0.ebuild
+	M	dev-python/imaging/imaging-1.1.7-r1.ebuild
+	M	dev-python/imaging/Manifest
+	M	dev-python/twisted-pair/Manifest
+	M	dev-python/twisted-pair/twisted-pair-11.1.0.ebuild
+	M	dev-python/lxml/lxml-2.3.3.ebuild
+	M	dev-python/lxml/Manifest
+	M	dev-python/m2crypto/m2crypto-0.21.1.ebuild
+	M	dev-python/m2crypto/Manifest
+	M	dev-python/anyvc/anyvc-0.3.5.ebuild
+	M	dev-python/anyvc/Manifest
+	M	dev-python/feedparser/feedparser-5.1.ebuild
+	M	dev-python/feedparser/Manifest
+	M	dev-python/pyodbc/pyodbc-3.0.3.ebuild
+	M	dev-python/pyodbc/Manifest
+	M	dev-python/setuptools/Manifest
+	M	dev-python/setuptools/setuptools-0.6.24.ebuild
+	M	dev-python/pyasn1-modules/pyasn1-modules-0.0.2.ebuild
+	M	dev-python/pyasn1-modules/Manifest
+	M	dev-python/formencode/formencode-1.2.4.ebuild
+	M	dev-python/formencode/Manifest
+	M	dev-python/namespaces-repoze/namespaces-repoze-0.ebuild
+	M	dev-python/namespaces-repoze/Manifest
+	M	dev-python/PyQt4/Manifest
+	M	dev-python/PyQt4/PyQt4-4.9.ebuild
+	M	dev-python/pyPdf/pyPdf-1.13.ebuild
+	M	dev-python/pyPdf/Manifest
+	M	dev-python/epydoc/epydoc-3.0.1-r2.ebuild
+	M	dev-python/epydoc/Manifest
+	M	dev-python/simpleparse/simpleparse-2.1.1.ebuild
+	M	dev-python/simpleparse/Manifest
+	M	dev-python/stripogram/Manifest
+	M	dev-python/stripogram/stripogram-1.5.ebuild
+	M	dev-python/py/py-1.4.6.ebuild
+	M	dev-python/py/Manifest
+	M	dev-python/pastedeploy/Manifest
+	M	dev-python/pastedeploy/pastedeploy-1.5.0.ebuild
+	M	dev-python/beaker/Manifest
+	M	dev-python/beaker/beaker-1.6.2.ebuild
+	M	dev-python/subunit/Manifest
+	M	dev-python/subunit/subunit-0.0.7.ebuild
+	M	dev-python/pyopenssl/Manifest
+	M	dev-python/pyopenssl/pyopenssl-0.13.ebuild
+	M	dev-python/twisted-news/Manifest
+	M	dev-python/twisted-news/twisted-news-11.1.0.ebuild
+	M	dev-python/pygui/pygui-2.5.3.ebuild
+	M	dev-python/pygui/Manifest
+	M	dev-python/virtualenv/virtualenv-1.7.ebuild
+	M	dev-python/virtualenv/Manifest
+	M	dev-python/testtools/Manifest
+	M	dev-python/testtools/testtools-0.9.12.ebuild
+	M	dev-python/jsonpickle/jsonpickle-0.4.0.ebuild
+	M	dev-python/jsonpickle/Manifest
+	M	dev-python/ipaddr/Manifest
+	M	dev-python/ipaddr/ipaddr-2.1.9.ebuild
+	M	dev-python/pygments/Manifest
+	M	dev-python/pygments/pygments-1.4.ebuild
+	M	dev-python/pycairo/pycairo-1.10.0-r2.ebuild
+	M	dev-python/pycairo/Manifest
+	M	dev-python/cssutils/cssutils-0.9.8.ebuild
+	M	dev-python/cssutils/Manifest
+	M	dev-python/chardet/Manifest
+	M	dev-python/chardet/chardet-2.0.1.ebuild
+	M	dev-python/ropemode/ropemode-0.1_rc2.ebuild
+	M	dev-python/ropemode/Manifest
+	M	dev-python/twisted-conch/Manifest
+	M	dev-python/twisted-conch/twisted-conch-11.1.0.ebuild
+	M	dev-python/dbus-python/dbus-python-0.84.0.ebuild
+	M	dev-python/dbus-python/Manifest
+	M	dev-lang/python/python-3.0.1.ebuild
+	M	dev-lang/python/python-3.2.3_pre20120101.ebuild
+	M	dev-lang/python/files/pydoc.init
+	M	dev-lang/python/files/pydoc.conf
+	M	dev-lang/python/python-3.3_pre20120101.ebuild
+	M	dev-lang/python/python-2.7.3_pre20120101.ebuild
+	M	dev-lang/python/Manifest
+	M	dev-java/java-config/Manifest
+	M	dev-java/java-config/java-config-2.1.11-r3.ebuild
+	M	dev-java/javatoolkit/Manifest
+	M	dev-java/javatoolkit/javatoolkit-0.3.0-r6.ebuild
+	M	net-zope/namespaces-grok/namespaces-grok-0.ebuild
+	M	net-zope/namespaces-grok/Manifest
+	M	net-zope/zope-applicationcontrol/Manifest
+	M	net-zope/zope-applicationcontrol/zope-applicationcontrol-3.5.5.ebuild
+	M	net-zope/btreefolder2/btreefolder2-2.13.3.ebuild
+	M	net-zope/btreefolder2/Manifest
+	M	net-zope/zope-intid/Manifest
+	M	net-zope/zope-intid/zope-intid-3.7.2.ebuild
+	M	net-zope/grokcore-view/Manifest
+	M	net-zope/grokcore-view/grokcore-view-2.6.1.ebuild
+	M	net-zope/zope-size/Manifest
+	M	net-zope/zope-size/zope-size-3.4.1.ebuild
+	M	net-zope/zope-app-publisher/Manifest
+	M	net-zope/zope-app-publisher/zope-app-publisher-3.10.2.ebuild
+	M	net-zope/zope-fanstatic/Manifest
+	M	net-zope/zope-fanstatic/zope-fanstatic-0.12.ebuild
+	M	net-zope/z3c-recipe-scripts/Manifest
+	M	net-zope/z3c-recipe-scripts/z3c-recipe-scripts-1.0.1.ebuild
+	M	net-zope/zope-exceptions/zope-exceptions-3.6.1.ebuild
+	M	net-zope/zope-exceptions/Manifest
+	M	net-zope/genericsetup/genericsetup-1.6.4.ebuild
+	M	net-zope/genericsetup/Manifest
+	M	net-zope/zope-browser/zope-browser-1.3.ebuild
+	M	net-zope/zope-browser/Manifest
+	M	net-zope/zope-app-intid/Manifest
+	M	net-zope/zope-app-intid/zope-app-intid-3.7.1.ebuild
+	M	net-zope/zope-dublincore/Manifest
+	M	net-zope/zope-dublincore/zope-dublincore-3.8.2.ebuild
+	M	net-zope/extensionclass/extensionclass-2.13.2.ebuild
+	M	net-zope/extensionclass/Manifest
+	M	net-zope/zope-browserresource/Manifest
+	M	net-zope/zope-browserresource/zope-browserresource-3.12.0.ebuild
+	M	net-zope/zope-datetime/Manifest
+	M	net-zope/zope-datetime/zope-datetime-3.4.1.ebuild
+	M	net-zope/zexceptions/Manifest
+	M	net-zope/zexceptions/zexceptions-2.13.0.ebuild
+	M	net-zope/zope-app-locales/zope-app-locales-3.7.1.ebuild
+	M	net-zope/zope-app-locales/Manifest
+	M	net-zope/zope-schema/zope-schema-3.8.0.ebuild
+	M	net-zope/zope-schema/Manifest
+	M	net-zope/zope-app-dependable/zope-app-dependable-3.5.1.ebuild
+	M	net-zope/zope-app-dependable/Manifest
+	M	net-zope/zope-app-debug/zope-app-debug-3.4.1.ebuild
+	M	net-zope/zope-app-debug/Manifest
+	M	net-zope/zope-configuration/Manifest
+	M	net-zope/zope-configuration/zope-configuration-3.7.4.ebuild
+	M	net-zope/zope-browsermenu/Manifest
+	M	net-zope/zope-browsermenu/zope-browsermenu-3.9.1.ebuild
+	M	net-zope/zope-tales/Manifest
+	M	net-zope/zope-tales/zope-tales-3.5.1.ebuild
+	M	net-zope/transaction/transaction-1.1.1.ebuild
+	M	net-zope/transaction/Manifest
+	M	net-zope/namespaces-zc/Manifest
+	M	net-zope/namespaces-zc/namespaces-zc-0.ebuild
+	M	net-zope/zope-broken/zope-broken-3.6.0.ebuild
+	M	net-zope/zope-broken/Manifest
+	M	net-zope/zope-errorview/zope-errorview-0.11.ebuild
+	M	net-zope/zope-errorview/Manifest
+	M	net-zope/zope-contentprovider/Manifest
+	M	net-zope/zope-contentprovider/zope-contentprovider-3.7.2.ebuild
+	M	net-zope/zcatalog/Manifest
+	M	net-zope/zcatalog/zcatalog-2.13.22.ebuild
+	M	net-zope/zope-minmax/zope-minmax-1.1.2.ebuild
+	M	net-zope/zope-minmax/Manifest
+	M	net-zope/ofsp/Manifest
+	M	net-zope/ofsp/ofsp-2.13.2.ebuild
+	M	net-zope/grokcore-component/grokcore-component-2.4.ebuild
+	M	net-zope/grokcore-component/Manifest
+	M	net-zope/zsqlmethods/zsqlmethods-2.13.4.ebuild
+	M	net-zope/zsqlmethods/Manifest
+	M	net-zope/zope/zope-2.13.10-r1.ebuild
+	M	net-zope/zope/zope-2.12.20-r1.ebuild
+	M	net-zope/zope/files/zope.initd
+	M	net-zope/zope/zope-2.13.9999.ebuild
+	M	net-zope/zope/Manifest
+	M	net-zope/zope-site/Manifest
+	M	net-zope/zope-site/zope-site-3.9.2.ebuild
+	M	net-zope/mailhost/mailhost-2.13.1.ebuild
+	M	net-zope/mailhost/Manifest
+	M	net-zope/z3c-pt/z3c-pt-2.1.5.ebuild
+	M	net-zope/z3c-pt/Manifest
+	M	net-zope/zope-server/Manifest
+	M	net-zope/zope-server/zope-server-3.8.5.ebuild
+	M	net-zope/five-formlib/five-formlib-1.0.4.ebuild
+	M	net-zope/five-formlib/Manifest
+	M	net-zope/zope-location/Manifest
+	M	net-zope/zope-location/zope-location-3.9.1.ebuild
+	M	net-zope/persistence/Manifest
+	M	net-zope/persistence/persistence-2.13.2.ebuild
+	M	net-zope/zope-copy/Manifest
+	M	net-zope/zope-copy/zope-copy-3.5.0.ebuild
+	M	net-zope/pythonscripts/Manifest
+	M	net-zope/pythonscripts/pythonscripts-2.13.0.ebuild
+	M	net-zope/zope-browserpage/zope-browserpage-3.12.2.ebuild
+	M	net-zope/zope-browserpage/Manifest
+	M	net-zope/zope-traversing/zope-traversing-3.14.0.ebuild
+	M	net-zope/zope-traversing/Manifest
+	M	net-zope/zope-dottedname/Manifest
+	M	net-zope/zope-dottedname/zope-dottedname-3.4.6.ebuild
+	M	net-zope/five-globalrequest/five-globalrequest-1.0.ebuild
+	M	net-zope/five-globalrequest/Manifest
+	M	net-zope/zc-buildout/zc-buildout-1.5.2.ebuild
+	M	net-zope/zc-buildout/Manifest
+	M	net-zope/zope-app-publication/Manifest
+	M	net-zope/zope-app-publication/zope-app-publication-3.13.2.ebuild
+	M	net-zope/zc-lockfile/zc-lockfile-1.0.0.ebuild
+	M	net-zope/zc-lockfile/Manifest
+	M	net-zope/grokcore-formlib/Manifest
+	M	net-zope/grokcore-formlib/grokcore-formlib-1.8.ebuild
+	M	net-zope/zope-copypastemove/zope-copypastemove-3.8.0.ebuild
+	M	net-zope/zope-copypastemove/Manifest
+	M	net-zope/documenttemplate/Manifest
+	M	net-zope/documenttemplate/documenttemplate-2.13.1.ebuild
+	M	net-zope/zlog/Manifest
+	M	net-zope/zlog/zlog-2.11.1.ebuild
+	M	net-zope/zope-password/zope-password-3.6.1.ebuild
+	M	net-zope/zope-password/Manifest
+	M	net-zope/record/record-2.13.0.ebuild
+	M	net-zope/record/Manifest
+	M	net-zope/cmfcore/cmfcore-2.2.5.ebuild
+	M	net-zope/cmfcore/Manifest
+	M	net-zope/threadlock/threadlock-2.13.0.ebuild
+	M	net-zope/threadlock/Manifest
+	M	net-zope/grokcore-security/grokcore-security-1.5.ebuild
+	M	net-zope/grokcore-security/Manifest
+	M	net-zope/zc-recipe-egg/zc-recipe-egg-1.3.2.ebuild
+	M	net-zope/zc-recipe-egg/Manifest
+	M	net-zope/grokcore-annotation/grokcore-annotation-1.2.ebuild
+	M	net-zope/grokcore-annotation/Manifest
+	M	net-zope/zope-pagetemplate/Manifest
+	M	net-zope/zope-pagetemplate/zope-pagetemplate-3.6.3.ebuild
+	M	net-zope/zope-annotation/Manifest
+	M	net-zope/zope-annotation/zope-annotation-3.5.0.ebuild
+	M	net-zope/zope-contenttype/zope-contenttype-3.5.5.ebuild
+	M	net-zope/zope-contenttype/Manifest
+	M	net-zope/grokcore-viewlet/grokcore-viewlet-1.9.ebuild
+	M	net-zope/grokcore-viewlet/Manifest
+	M	net-zope/acquisition/acquisition-2.13.8.ebuild
+	M	net-zope/acquisition/Manifest
+	M	net-zope/tempstorage/Manifest
+	M	net-zope/tempstorage/tempstorage-2.12.1.ebuild
+	M	net-zope/zopeskel/zopeskel-2.21.2.ebuild
+	M	net-zope/zopeskel/Manifest
+	M	net-zope/zope-container/zope-container-3.12.0.ebuild
+	M	net-zope/zope-container/Manifest
+	M	net-zope/zdaemon/zdaemon-2.0.4.ebuild
+	M	net-zope/zdaemon/Manifest
+	M	net-zope/zope-testbrowser/zope-testbrowser-4.0.2.ebuild
+	M	net-zope/zope-testbrowser/Manifest
+	M	net-zope/issuetrackerproduct/issuetrackerproduct-0.13.0.ebuild
+	M	net-zope/issuetrackerproduct/Manifest
+	M	net-zope/zope-app-testing/Manifest
+	M	net-zope/zope-app-testing/zope-app-testing-3.9.0.ebuild
+	M	net-zope/zope-processlifetime/Manifest
+	M	net-zope/zope-processlifetime/zope-processlifetime-1.0.ebuild
+	M	net-zope/mimetools/Manifest
+	M	net-zope/mimetools/mimetools-2.13.0.ebuild
+	M	net-zope/filesystemsite/Manifest
+	M	net-zope/filesystemsite/filesystemsite-2.3.1.ebuild
+	M	net-zope/zope-app-container/zope-app-container-3.9.1.ebuild
+	M	net-zope/zope-app-container/Manifest
+	M	net-zope/zope-interface/zope-interface-3.8.0.ebuild
+	M	net-zope/zope-interface/Manifest
+	M	net-zope/zope-structuredtext/Manifest
+	M	net-zope/zope-structuredtext/zope-structuredtext-3.5.1.ebuild
+	M	net-zope/zope-testrunner/Manifest
+	M	net-zope/zope-testrunner/zope-testrunner-4.0.4.ebuild
+	M	net-zope/zope-deferredimport/Manifest
+	M	net-zope/zope-deferredimport/zope-deferredimport-3.5.3.ebuild
+	M	net-zope/five-grok/Manifest
+	M	net-zope/five-grok/five-grok-1.3.0.ebuild
+	M	net-zope/zope-i18n/zope-i18n-3.7.4.ebuild
+	M	net-zope/zope-i18n/Manifest
+	M	net-zope/namespaces-zope/Manifest
+	M	net-zope/namespaces-zope/namespaces-zope-0.ebuild
+	M	net-zope/zope-app-basicskin/zope-app-basicskin-3.5.1.ebuild
+	M	net-zope/zope-app-basicskin/Manifest
+	M	net-zope/accesscontrol/Manifest
+	M	net-zope/accesscontrol/accesscontrol-2.13.4.ebuild
+	M	net-zope/standardcachemanagers/standardcachemanagers-2.13.0.ebuild
+	M	net-zope/standardcachemanagers/Manifest
+	M	net-zope/initgroups/initgroups-2.13.0.ebuild
+	M	net-zope/initgroups/Manifest
+	M	net-zope/zope-componentvocabulary/zope-componentvocabulary-1.0.1.ebuild
+	M	net-zope/zope-componentvocabulary/Manifest
+	M	net-zope/zope-formlib/Manifest
+	M	net-zope/zope-formlib/zope-formlib-4.0.6.ebuild
+	M	net-zope/ldapuserfolder/Manifest
+	M	net-zope/ldapuserfolder/ldapuserfolder-2.20.ebuild
+	M	net-zope/zope-lifecycleevent/zope-lifecycleevent-3.7.0.ebuild
+	M	net-zope/zope-lifecycleevent/Manifest
+	M	net-zope/zope-i18nmessageid/zope-i18nmessageid-3.6.1.ebuild
+	M	net-zope/zope-i18nmessageid/Manifest
+	M	net-zope/namespaces-z3c/Manifest
+	M	net-zope/namespaces-z3c/namespaces-z3c-0.ebuild
+	M	net-zope/zope-sqlalchemy/zope-sqlalchemy-0.6.1.ebuild
+	M	net-zope/zope-sqlalchemy/Manifest
+	M	net-zope/zope-ramcache/Manifest
+	M	net-zope/zope-ramcache/zope-ramcache-1.0.ebuild
+	M	net-zope/zope-login/zope-login-1.0.0.ebuild
+	M	net-zope/zope-login/Manifest
+	M	net-zope/zope-globalrequest/zope-globalrequest-1.0.ebuild
+	M	net-zope/zope-globalrequest/Manifest
+	M	net-zope/zope-viewlet/zope-viewlet-3.7.2.ebuild
+	M	net-zope/zope-viewlet/Manifest
+	M	net-zope/zope-sequencesort/Manifest
+	M	net-zope/zope-sequencesort/zope-sequencesort-3.4.0.ebuild
+	M	net-zope/zope-tal/zope-tal-3.6.0.ebuild
+	M	net-zope/zope-tal/Manifest
+	M	net-zope/namespaces-silva/Manifest
+	M	net-zope/namespaces-silva/namespaces-silva-0.ebuild
+	M	net-zope/five-intid/Manifest
+	M	net-zope/five-intid/five-intid-1.0.ebuild
+	M	net-zope/zodb/zodb-3.10.5.ebuild
+	M	net-zope/zodb/Manifest
+	M	net-zope/zconfig/Manifest
+	M	net-zope/zconfig/zconfig-2.9.0.ebuild
+	M	net-zope/zope-app-pagetemplate/zope-app-pagetemplate-3.11.2.ebuild
+	M	net-zope/zope-app-pagetemplate/Manifest
+	M	net-zope/zope-fixers/Manifest
+	M	net-zope/zope-fixers/zope-fixers-1.0.ebuild
+	M	net-zope/grokcore-site/grokcore-site-1.5.ebuild
+	M	net-zope/grokcore-site/Manifest
+	M	net-zope/zope-mkzeoinstance/zope-mkzeoinstance-3.9.5.ebuild
+	M	net-zope/zope-mkzeoinstance/Manifest
+	M	net-zope/zc-recipe-testrunner/Manifest
+	M	net-zope/zc-recipe-testrunner/zc-recipe-testrunner-1.4.0.ebuild
+	M	net-zope/zope-app-appsetup/zope-app-appsetup-3.16.0.ebuild
+	M	net-zope/zope-app-appsetup/Manifest
+	M	net-zope/zope-authentication/zope-authentication-3.7.1.ebuild
+	M	net-zope/zope-authentication/Manifest
+	M	net-zope/zope-proxy/zope-proxy-3.6.1.ebuild
+	M	net-zope/zope-proxy/Manifest
+	M	net-zope/zope-app-applicationcontrol/zope-app-applicationcontrol-3.5.10.ebuild
+	M	net-zope/zope-app-applicationcontrol/Manifest
+	M	net-zope/zope-cachedescriptors/zope-cachedescriptors-3.5.1.ebuild
+	M	net-zope/zope-cachedescriptors/Manifest
+	M	net-zope/zopeundo/zopeundo-2.12.0.ebuild
+	M	net-zope/zopeundo/Manifest
+	M	net-zope/zope-error/Manifest
+	M	net-zope/zope-error/zope-error-3.7.2.ebuild
+	M	net-zope/zope-ptresource/Manifest
+	M	net-zope/zope-ptresource/zope-ptresource-3.9.0.ebuild
+	M	net-zope/zope-sendmail/zope-sendmail-3.7.4.ebuild
+	M	net-zope/zope-sendmail/Manifest
+	M	net-zope/zope-sendmail/zope-sendmail-3.6.1.ebuild
+	M	net-zope/zctextindex/Manifest
+	M	net-zope/zctextindex/zctextindex-2.13.3.ebuild
+	M	net-zope/zope-filerepresentation/zope-filerepresentation-3.6.1.ebuild
+	M	net-zope/zope-filerepresentation/Manifest
+	M	net-zope/infrae-rest/infrae-rest-1.1.ebuild
+	M	net-zope/infrae-rest/Manifest
+	M	net-zope/groups/groups-0.8.ebuild
+	M	net-zope/groups/Manifest
+	M	net-zope/zope-keyreference/Manifest
+	M	net-zope/zope-keyreference/zope-keyreference-3.6.4.ebuild
+	M	net-zope/zope-security/Manifest
+	M	net-zope/zope-security/zope-security-3.8.3.ebuild
+	M	net-zope/externalmethod/externalmethod-2.13.0.ebuild
+	M	net-zope/externalmethod/Manifest
+	M	net-zope/zope-testing/Manifest
+	M	net-zope/zope-testing/zope-testing-3.10.3.ebuild
+	M	net-zope/zope-app-schema/Manifest
+	M	net-zope/zope-app-schema/zope-app-schema-3.5.0.ebuild
+	M	net-zope/datetime/datetime-2.12.6.ebuild
+	M	net-zope/datetime/Manifest
+	M	net-zope/zope-app-form/Manifest
+	M	net-zope/zope-app-form/zope-app-form-4.0.2.ebuild
+	M	net-zope/zope-event/zope-event-3.5.1.ebuild
+	M	net-zope/zope-event/Manifest
+	M	net-zope/zope-session/Manifest
+	M	net-zope/zope-session/zope-session-3.9.5.ebuild
+	M	net-zope/zope-hookable/zope-hookable-3.4.1.ebuild
+	M	net-zope/zope-hookable/Manifest
+	M	net-zope/five-localsitemanager/five-localsitemanager-2.0.5.ebuild
+	M	net-zope/five-localsitemanager/Manifest
+	M	net-zope/multimapping/Manifest
+	M	net-zope/multimapping/multimapping-2.13.0.ebuild
+	M	net-zope/zope-deprecation/Manifest
+	M	net-zope/zope-deprecation/zope-deprecation-3.5.0.ebuild
+	M	net-zope/zope-publisher/Manifest
+	M	net-zope/zope-publisher/zope-publisher-3.13.0.ebuild
+	M	net-zope/missing/Manifest
+	M	net-zope/missing/missing-2.13.1.ebuild
+	M	net-zope/cmfdefault/Manifest
+	M	net-zope/cmfdefault/cmfdefault-2.2.2.ebuild
+	M	net-zope/five-pt/Manifest
+	M	net-zope/five-pt/five-pt-2.2.0.ebuild
+	M	net-zope/zope-component/zope-component-3.12.0.ebuild
+	M	net-zope/zope-component/Manifest
+	M	sys-libs/cracklib/Manifest
+	M	sys-libs/cracklib/cracklib-2.8.18-r1.ebuild
+	M	sys-libs/libcap-ng/libcap-ng-0.6.6.ebuild
+	M	sys-libs/libcap-ng/Manifest
+	M	dev-libs/libxslt/Manifest
+	M	dev-libs/libxslt/libxslt-1.1.26-r2.ebuild
+	M	dev-libs/botan/botan-1.10.1.ebuild
+	M	dev-libs/botan/Manifest
+	M	dev-libs/redland-bindings/redland-bindings-1.0.14.1.ebuild
+	M	dev-libs/redland-bindings/Manifest
+	M	dev-libs/libxml2/Manifest
+	M	dev-libs/libxml2/libxml2-2.7.8-r3.ebuild
+	M	dev-libs/xapian-bindings/xapian-bindings-1.2.8.ebuild
+	M	dev-libs/xapian-bindings/Manifest
+	M	sci-libs/scipy/Manifest
+	M	sci-libs/scipy/scipy-0.9.0-r3.ebuild
+	M	mail-filter/pypolicyd-spf/Manifest
+	M	mail-filter/pypolicyd-spf/pypolicyd-spf-0.8.1.ebuild
+	M	dev-vcs/hg-git/hg-git-0.3.1.ebuild
+	M	dev-vcs/hg-git/Manifest
+	M	dev-vcs/subversion/files/svnserve.initd
+	M	dev-vcs/subversion/subversion-1.7.2.ebuild
+	M	dev-vcs/subversion/Manifest
+	M	dev-vcs/mercurial/mercurial-2.0.1.ebuild
+	M	dev-vcs/mercurial/Manifest
+	M	dev-vcs/mercurial/mercurial-9999.ebuild
+	M	dev-vcs/hgview/Manifest
+	M	dev-vcs/hgview/hgview-1.4.0.ebuild
+	M	dev-vcs/bzr/bzr-2.4.2.ebuild
+	M	dev-vcs/bzr/Manifest
+	M	dev-vcs/hgsubversion/hgsubversion-1.3.ebuild
+	M	dev-vcs/hgsubversion/hgsubversion-9999.ebuild
+	M	dev-vcs/hgsubversion/Manifest
+	M	eclass/gnome2.eclass
+	M	eclass/qt4-r2.eclass
+	M	eclass/base.eclass
+	M	eclass/fortran-2.eclass
+	M	eclass/waf-utils.eclass
+	M	eclass/kde4-functions.eclass
+	M	eclass/python-namespaces.eclass
+	M	eclass/cmake-utils.eclass
+	M	eclass/python.eclass
+	M	eclass/twisted.eclass
+	M	eclass/bash-completion-r1.eclass
+	M	eclass/php-ext-source-r2.eclass
+	M	eclass/distutils.eclass
+	M	eclass/perl-module.eclass
+	M	eclass/gnome2-utils.eclass
+	M	kde-base/pykde4/Manifest
+	M	kde-base/pykde4/pykde4-4.7.3.ebuild
+	M	kde-base/pykde4/pykde4-4.7.4.ebuild
+	M	www-servers/tornado/tornado-2.1.1.ebuild
+	M	www-servers/tornado/Manifest
+r1576 = f5db43cb595c6bcba81513f7c6b86711c3f67d7c (refs/remotes/git-svn)
+	D	dev-lang/python/python-3.3_pre20111211.ebuild
+	D	dev-lang/python/python-3.2.3_pre20111211.ebuild
+	D	dev-lang/python/python-2.7.3_pre20111211.ebuild
+	D	dev-lang/python/files/3.3-20111023/01_all_static_library_location.patch
+	D	dev-lang/python/files/3.3-20111023/02_all_disable_modules_and_ssl.patch
+	D	dev-lang/python/files/3.3-20111023/03_all_add_portage_search_path.patch
+	D	dev-lang/python/files/3.3-20111023/04_all_libdir.patch
+	D	dev-lang/python/files/3.3-20111023/05_all_verbose_building_of_extensions.patch
+	D	dev-lang/python/files/3.3-20111023/06_all_non-zero_exit_status_on_failure.patch
+	D	dev-lang/python/files/3.3-20111023/07_all_regenerate_platform-specific_modules.patch
+	D	dev-lang/python/files/3.3-20111023/21_all_distutils_c++.patch
+	D	dev-lang/python/files/3.3-20111023/22_all_tests_environment.patch
+	D	dev-lang/python/files/3.3-20111023/23_all_h2py_encoding.patch
+	D	dev-lang/python/files/3.3-20111023/41_all_crosscompile.patch
+	D	dev-lang/python/files/3.3-20111023/61_all_process_data.patch
+	D	dev-lang/python/files/3.3-20111023/
+	M	dev-lang/python/Manifest
+	A	dev-lang/python/python-3.2.3_pre20120108.ebuild
+	A	dev-lang/python/python-3.3_pre20120108.ebuild
+	A	dev-lang/python/python-2.7.3_pre20120108.ebuild
+W: -empty_dir: dev-lang/python/files/3.3-20111023
+W: -empty_dir: dev-lang/python/python-2.7.3_pre20111211.ebuild
+W: -empty_dir: dev-lang/python/python-3.2.3_pre20111211.ebuild
+W: -empty_dir: dev-lang/python/python-3.3_pre20111211.ebuild
+r1577 = c63de49f21c7bde034f736e559a5c3bb0ca5f0cb (refs/remotes/git-svn)
+	D	dev-python/html2text/html2text-3.200.1.ebuild
+	A	dev-python/html2text/html2text-3.200.3.ebuild
+	M	dev-python/html2text/Manifest
+W: -empty_dir: dev-python/html2text/html2text-3.200.1.ebuild
+r1578 = 9ca5f4e1bb002af2dc40a9b4ef5687117d8c357d (refs/remotes/git-svn)
+	D	dev-python/greenlet/greenlet-0.3.2.ebuild
+	M	dev-python/greenlet/Manifest
+	A	dev-python/greenlet/greenlet-0.3.3.ebuild
+W: -empty_dir: dev-python/greenlet/greenlet-0.3.2.ebuild
+r1579 = fc94ed6bd85dfa3073b3fdbc1f18952d234e9aac (refs/remotes/git-svn)
+	D	dev-python/gdata/gdata-2.0.15.ebuild
+	A	dev-python/gdata/gdata-2.0.16.ebuild
+	M	dev-python/gdata/Manifest
+W: -empty_dir: dev-python/gdata/gdata-2.0.15.ebuild
+r1580 = 774597069cccd4fc954b8a70c138e0d7b57765e2 (refs/remotes/git-svn)
+	M	net-zope/standardcachemanagers/standardcachemanagers-2.13.0.ebuild
+	M	net-zope/standardcachemanagers/Manifest
+r1581 = 8c1fef14875b8ff82282d64511ed9e5c85be6304 (refs/remotes/git-svn)
+	D	dev-python/chameleon/chameleon-2.7.1.ebuild
+	A	dev-python/chameleon/chameleon-2.7.2.ebuild
+	M	dev-python/chameleon/Manifest
+W: -empty_dir: dev-python/chameleon/chameleon-2.7.1.ebuild
+r1582 = 4e007a5d0f7b0be40326e45b96e0f20b36d9aafe (refs/remotes/git-svn)
+	M	dev-python/python-memcached/python-memcached-1.48.ebuild
+	M	dev-python/python-memcached/Manifest
+r1583 = 4da1e5e299340d080d3eb966b54c95ee7928fdbb (refs/remotes/git-svn)
+	D	dev-python/foolscap/foolscap-0.6.2.ebuild
+	M	dev-python/foolscap/Manifest
+	A	dev-python/foolscap/foolscap-0.6.3.ebuild
+W: -empty_dir: dev-python/foolscap/foolscap-0.6.2.ebuild
+r1584 = 037087a7571e91494bd7d84e07c5c24f1bf0681c (refs/remotes/git-svn)
+	D	sci-libs/scipy/scipy-0.9.0-r3.ebuild
+	A	sci-libs/scipy/scipy-0.10.0.ebuild
+	M	sci-libs/scipy/Manifest
+W: -empty_dir: sci-libs/scipy/scipy-0.9.0-r3.ebuild
+r1585 = f0f1dab9e4026ad2991fc16f44d4118cafb6d1ab (refs/remotes/git-svn)
+	D	dev-python/ipython/ipython-0.11.ebuild
+	D	dev-python/ipython/files/ipython-0.11-python3-scripts_versioning.patch
+	D	dev-python/ipython/files/ipython-0.11-global_path.patch
+	A	dev-python/ipython/files/ipython-0.12-python3-scripts_versioning.patch
+	A	dev-python/ipython/files/ipython-0.12-global_path.patch
+	M	dev-python/ipython/Manifest
+	A	dev-python/ipython/ipython-0.12.ebuild
+W: -empty_dir: dev-python/ipython/files/ipython-0.11-global_path.patch
+W: -empty_dir: dev-python/ipython/files/ipython-0.11-python3-scripts_versioning.patch
+W: -empty_dir: dev-python/ipython/ipython-0.11.ebuild
+r1586 = 89d093e2cb7b60a71930ab3c4648fbd08d5df467 (refs/remotes/git-svn)
+	A	dev-libs/mathjax/Manifest
+	A	dev-libs/mathjax/mathjax-1.1a.ebuild
+r1587 = 90b4bd93c34fd8432cf9f73ca8036f7ed0917e5b (refs/remotes/git-svn)
+	M	dev-python/ipython/Manifest
+	M	dev-python/ipython/ipython-0.12.ebuild
+r1588 = 6e1c5c3622dec49682f6e648ec91a1536c6d4f34 (refs/remotes/git-svn)
+	M	dev-python/ipython/Manifest
+	M	dev-python/ipython/ipython-0.12.ebuild
+r1589 = cd2ff2b620eec2d7ca3481869e48087d1370a0f3 (refs/remotes/git-svn)
+	A	dev-python/six/six-1.1.0.ebuild
+	A	dev-python/six/Manifest
+r1590 = eb359155c4d664b32aa01a6e40738db98a2a75e8 (refs/remotes/git-svn)
+	D	net-zope/zope-testing/zope-testing-3.10.3.ebuild
+	M	net-zope/zope-testing/Manifest
+	A	net-zope/zope-testing/zope-testing-4.0.0.ebuild
+W: -empty_dir: net-zope/zope-testing/zope-testing-3.10.3.ebuild
+r1591 = b25eccc9fabd873b09f6f83c8d840430777c179e (refs/remotes/git-svn)
+	D	net-zope/zope-schema/zope-schema-3.8.0.ebuild
+	M	net-zope/zope-schema/Manifest
+	A	net-zope/zope-schema/zope-schema-4.0.1.ebuild
+W: -empty_dir: net-zope/zope-schema/zope-schema-3.8.0.ebuild
+r1592 = 9ba9652072657ee39f2dee0c3226d9426d82b57a (refs/remotes/git-svn)
+	D	net-zope/zope-configuration/zope-configuration-3.7.4.ebuild
+	M	net-zope/zope-configuration/Manifest
+	A	net-zope/zope-configuration/zope-configuration-3.8.0.ebuild
+W: -empty_dir: net-zope/zope-configuration/zope-configuration-3.7.4.ebuild
+r1593 = d94bf528f3208be6e0f31f2bf837c667cd728acd (refs/remotes/git-svn)
+	D	net-zope/transaction/transaction-1.1.1.ebuild
+	A	net-zope/transaction/transaction-1.2.0.ebuild
+	M	net-zope/transaction/Manifest
+W: -empty_dir: net-zope/transaction/transaction-1.1.1.ebuild
+r1594 = a8d4c506cd14630604d416d032d30c2e4df85915 (refs/remotes/git-svn)
+	D	net-zope/zope-sqlalchemy/zope-sqlalchemy-0.6.1.ebuild
+	A	net-zope/zope-sqlalchemy/zope-sqlalchemy-0.7.ebuild
+	M	net-zope/zope-sqlalchemy/Manifest
+W: -empty_dir: net-zope/zope-sqlalchemy/zope-sqlalchemy-0.6.1.ebuild
+r1595 = 57d90b6fd180cb4874acac96c60ec2945a88809b (refs/remotes/git-svn)
+	D	net-zope/accesscontrol/accesscontrol-2.13.4.ebuild
+	M	net-zope/accesscontrol/Manifest
+	A	net-zope/accesscontrol/accesscontrol-2.13.7.ebuild
+W: -empty_dir: net-zope/accesscontrol/accesscontrol-2.13.4.ebuild
+r1596 = 0e428ae841df93ffdc8d9cf01dff41a2c80f47ee (refs/remotes/git-svn)
+	M	net-zope/issuetrackerproduct/issuetrackerproduct-0.13.0.ebuild
+	M	net-zope/issuetrackerproduct/Manifest
+r1597 = 07f635da0ec0f5feb7bdd74358e64eec4fcc8c44 (refs/remotes/git-svn)
+	D	net-zope/z3c-pt/z3c-pt-2.1.5.ebuild
+	A	net-zope/z3c-pt/z3c-pt-2.2.ebuild
+	M	net-zope/z3c-pt/Manifest
+W: -empty_dir: net-zope/z3c-pt/z3c-pt-2.1.5.ebuild
+r1598 = cf62ad87fc081f88738a08200fdaf02b8525f5d8 (refs/remotes/git-svn)
+	D	net-zope/five-pt/five-pt-2.2.0.ebuild
+	M	net-zope/five-pt/Manifest
+	A	net-zope/five-pt/five-pt-2.2.1.ebuild
+W: -empty_dir: net-zope/five-pt/five-pt-2.2.0.ebuild
+r1599 = 2e6e9c91b60ddd97fe7ffac8ecc10f5564194c04 (refs/remotes/git-svn)
+	D	net-zope/btreefolder2/btreefolder2-2.13.3.ebuild
+	A	net-zope/btreefolder2/btreefolder2-2.13.4.ebuild
+	M	net-zope/btreefolder2/Manifest
+W: -empty_dir: net-zope/btreefolder2/btreefolder2-2.13.3.ebuild
+r1600 = 2d74e6a9a0fe990f2448021b6d134e745402f068 (refs/remotes/git-svn)
+	M	dev-python/pyzmq/pyzmq-2.1.11.ebuild
+	M	dev-python/pyzmq/Manifest
+r1601 = ca6246718d93c6e618eb4469d0910ee4cb4328b2 (refs/remotes/git-svn)
+	D	net-zope/zope-size/zope-size-3.4.1.ebuild
+	M	net-zope/zope-size/Manifest
+	A	net-zope/zope-size/zope-size-3.5.0.ebuild
+W: -empty_dir: net-zope/zope-size/zope-size-3.4.1.ebuild
+r1602 = 11d24d5e0290577f469d16e2f89b9e67e3837180 (refs/remotes/git-svn)
+	D	net-zope/zope-app-locales/zope-app-locales-3.7.1.ebuild
+	A	net-zope/zope-app-locales/zope-app-locales-3.7.3.ebuild
+	M	net-zope/zope-app-locales/Manifest
+W: -empty_dir: net-zope/zope-app-locales/zope-app-locales-3.7.1.ebuild
+r1603 = d4757b1bbcc54aeaa7c930fc2cda88dc1d705bc4 (refs/remotes/git-svn)
+	D	net-zope/documenttemplate/documenttemplate-2.13.1.ebuild
+	M	net-zope/documenttemplate/Manifest
+	A	net-zope/documenttemplate/documenttemplate-2.13.2.ebuild
+W: -empty_dir: net-zope/documenttemplate/documenttemplate-2.13.1.ebuild
+r1604 = 20319a0f8baf14cbfb477ca6cc5ae472b6e29d88 (refs/remotes/git-svn)
+	D	net-zope/five-intid/five-intid-1.0.ebuild
+	M	net-zope/five-intid/Manifest
+	A	net-zope/five-intid/five-intid-1.0.2.ebuild
+W: -empty_dir: net-zope/five-intid/five-intid-1.0.ebuild
+r1605 = e82f3ea87d7b6b5f766804a4e9621e6aad77e1ab (refs/remotes/git-svn)
+	D	net-zope/zope-server/zope-server-3.8.5.ebuild
+	M	net-zope/zope-server/Manifest
+	A	net-zope/zope-server/zope-server-3.8.6.ebuild
+W: -empty_dir: net-zope/zope-server/zope-server-3.8.5.ebuild
+r1606 = 38723d174cb09e4496cc85d7aa33cd209c715b71 (refs/remotes/git-svn)
+	D	net-zope/zope/zope-2.13.10-r1.ebuild
+	D	net-zope/zope/zope-2.12.20-r1.ebuild
+	A	net-zope/zope/zope-2.12.21.ebuild
+	A	net-zope/zope/zope-2.13.11.ebuild
+	D	net-zope/zope/files/zope-2.12.20-authentication.patch
+	D	net-zope/zope/files/zope-2.13.10-authentication.patch
+	M	net-zope/zope/Manifest
+W: -empty_dir: net-zope/zope/files/zope-2.12.20-authentication.patch
+W: -empty_dir: net-zope/zope/files/zope-2.13.10-authentication.patch
+W: -empty_dir: net-zope/zope/zope-2.12.20-r1.ebuild
+W: -empty_dir: net-zope/zope/zope-2.13.10-r1.ebuild
+r1607 = 42498e2cff6e194373b1cc4699e9b663bf108aa6 (refs/remotes/git-svn)
+	M	sci-libs/scipy/scipy-0.10.0.ebuild
+	M	sci-libs/scipy/Manifest
+r1608 = 210df7880f9d62ca67c54a0262bef2072407e9f6 (refs/remotes/git-svn)
+	A	dev-python/simplegeneric/Manifest
+	A	dev-python/simplegeneric/simplegeneric-0.8.ebuild
+r1609 = ef61986dd0de2a721f901e62de079c9ad6646ccd (refs/remotes/git-svn)
+	D	dev-python/ipython/ipython-0.12.ebuild
+	M	dev-python/ipython/files/ipython-0.12-global_path.patch
+	M	dev-python/ipython/Manifest
+	A	dev-python/ipython/ipython-0.12-r1.ebuild
+W: -empty_dir: dev-python/ipython/ipython-0.12.ebuild
+r1610 = 41c2c64ff51ccdf3b0ddc8e9177e6349465386d5 (refs/remotes/git-svn)
+	M	net-zope/zope-applicationcontrol/Manifest
+	M	net-zope/zope-applicationcontrol/zope-applicationcontrol-3.5.5.ebuild
+	M	net-zope/zope-intid/Manifest
+	M	net-zope/zope-intid/zope-intid-3.7.2.ebuild
+	M	net-zope/grokcore-view/Manifest
+	M	net-zope/grokcore-view/grokcore-view-2.6.1.ebuild
+	M	net-zope/zope-app-publisher/Manifest
+	M	net-zope/zope-app-publisher/zope-app-publisher-3.10.2.ebuild
+	M	net-zope/zope-app-intid/Manifest
+	M	net-zope/zope-app-intid/zope-app-intid-3.7.1.ebuild
+	M	net-zope/zope-dublincore/Manifest
+	M	net-zope/zope-dublincore/zope-dublincore-3.8.2.ebuild
+	M	net-zope/zope-browserresource/Manifest
+	M	net-zope/zope-browserresource/zope-browserresource-3.12.0.ebuild
+	M	net-zope/zexceptions/Manifest
+	M	net-zope/zexceptions/zexceptions-2.13.0.ebuild
+	M	net-zope/zope-app-dependable/zope-app-dependable-3.5.1.ebuild
+	M	net-zope/zope-app-dependable/Manifest
+	M	net-zope/zope-app-debug/zope-app-debug-3.4.1.ebuild
+	M	net-zope/zope-app-debug/Manifest
+	M	net-zope/zope-browsermenu/Manifest
+	M	net-zope/zope-browsermenu/zope-browsermenu-3.9.1.ebuild
+	M	net-zope/zope-errorview/zope-errorview-0.11.ebuild
+	M	net-zope/zope-errorview/Manifest
+	M	net-zope/zope-contentprovider/Manifest
+	M	net-zope/zope-contentprovider/zope-contentprovider-3.7.2.ebuild
+	M	net-zope/zope-minmax/zope-minmax-1.1.2.ebuild
+	M	net-zope/zope-minmax/Manifest
+	M	net-zope/grokcore-component/grokcore-component-2.4.ebuild
+	M	net-zope/grokcore-component/Manifest
+	M	net-zope/zope-site/Manifest
+	M	net-zope/zope-site/zope-site-3.9.2.ebuild
+	M	net-zope/five-formlib/five-formlib-1.0.4.ebuild
+	M	net-zope/five-formlib/Manifest
+	M	net-zope/zope-location/Manifest
+	M	net-zope/zope-location/zope-location-3.9.1.ebuild
+	M	net-zope/persistence/Manifest
+	M	net-zope/persistence/persistence-2.13.2.ebuild
+	M	net-zope/zope-browserpage/zope-browserpage-3.12.2.ebuild
+	M	net-zope/zope-browserpage/Manifest
+	M	net-zope/zope-traversing/zope-traversing-3.14.0.ebuild
+	M	net-zope/zope-traversing/Manifest
+	M	net-zope/zope-app-publication/Manifest
+	M	net-zope/zope-app-publication/zope-app-publication-3.13.2.ebuild
+	M	net-zope/grokcore-formlib/Manifest
+	M	net-zope/grokcore-formlib/grokcore-formlib-1.8.ebuild
+	M	net-zope/zope-copypastemove/zope-copypastemove-3.8.0.ebuild
+	M	net-zope/zope-copypastemove/Manifest
+	M	net-zope/zope-password/zope-password-3.6.1.ebuild
+	M	net-zope/zope-password/Manifest
+	M	net-zope/grokcore-security/grokcore-security-1.5.ebuild
+	M	net-zope/grokcore-security/Manifest
+	M	net-zope/grokcore-annotation/grokcore-annotation-1.2.ebuild
+	M	net-zope/grokcore-annotation/Manifest
+	M	net-zope/zope-pagetemplate/Manifest
+	M	net-zope/zope-pagetemplate/zope-pagetemplate-3.6.3.ebuild
+	M	net-zope/zope-annotation/Manifest
+	M	net-zope/zope-annotation/zope-annotation-3.5.0.ebuild
+	M	net-zope/grokcore-viewlet/grokcore-viewlet-1.9.ebuild
+	M	net-zope/grokcore-viewlet/Manifest
+	M	net-zope/tempstorage/Manifest
+	M	net-zope/tempstorage/tempstorage-2.12.1.ebuild
+	M	net-zope/zope-container/zope-container-3.12.0.ebuild
+	M	net-zope/zope-container/Manifest
+	M	net-zope/zope-app-container/zope-app-container-3.9.1.ebuild
+	M	net-zope/zope-app-container/Manifest
+	M	net-zope/zope-i18n/zope-i18n-3.7.4.ebuild
+	M	net-zope/zope-i18n/Manifest
+	M	net-zope/zope-app-basicskin/zope-app-basicskin-3.5.1.ebuild
+	M	net-zope/zope-app-basicskin/Manifest
+	M	net-zope/zope-componentvocabulary/zope-componentvocabulary-1.0.1.ebuild
+	M	net-zope/zope-componentvocabulary/Manifest
+	M	net-zope/zope-formlib/Manifest
+	M	net-zope/zope-formlib/zope-formlib-4.0.6.ebuild
+	M	net-zope/zope-lifecycleevent/zope-lifecycleevent-3.7.0.ebuild
+	M	net-zope/zope-lifecycleevent/Manifest
+	M	net-zope/zope-ramcache/Manifest
+	M	net-zope/zope-ramcache/zope-ramcache-1.0.ebuild
+	M	net-zope/zope-login/zope-login-1.0.0.ebuild
+	M	net-zope/zope-login/Manifest
+	M	net-zope/zope-viewlet/zope-viewlet-3.7.2.ebuild
+	M	net-zope/zope-viewlet/Manifest
+	M	net-zope/zodb/zodb-3.10.5.ebuild
+	M	net-zope/zodb/Manifest
+	M	net-zope/zope-app-pagetemplate/zope-app-pagetemplate-3.11.2.ebuild
+	M	net-zope/zope-app-pagetemplate/Manifest
+	M	net-zope/grokcore-site/grokcore-site-1.5.ebuild
+	M	net-zope/grokcore-site/Manifest
+	M	net-zope/zope-mkzeoinstance/zope-mkzeoinstance-3.9.5.ebuild
+	M	net-zope/zope-mkzeoinstance/Manifest
+	M	net-zope/zope-app-appsetup/zope-app-appsetup-3.16.0.ebuild
+	M	net-zope/zope-app-appsetup/Manifest
+	M	net-zope/zope-authentication/zope-authentication-3.7.1.ebuild
+	M	net-zope/zope-authentication/Manifest
+	M	net-zope/zope-app-applicationcontrol/zope-app-applicationcontrol-3.5.10.ebuild
+	M	net-zope/zope-app-applicationcontrol/Manifest
+	M	net-zope/zope-error/Manifest
+	M	net-zope/zope-error/zope-error-3.7.2.ebuild
+	M	net-zope/zope-ptresource/Manifest
+	M	net-zope/zope-ptresource/zope-ptresource-3.9.0.ebuild
+	M	net-zope/zope-sendmail/zope-sendmail-3.7.4.ebuild
+	M	net-zope/zope-sendmail/Manifest
+	M	net-zope/zope-sendmail/zope-sendmail-3.6.1.ebuild
+	M	net-zope/zope-filerepresentation/zope-filerepresentation-3.6.1.ebuild
+	M	net-zope/zope-filerepresentation/Manifest
+	M	net-zope/zope-keyreference/Manifest
+	M	net-zope/zope-keyreference/zope-keyreference-3.6.4.ebuild
+	M	net-zope/zope-security/Manifest
+	M	net-zope/zope-security/zope-security-3.8.3.ebuild
+	M	net-zope/zope-app-schema/Manifest
+	M	net-zope/zope-app-schema/zope-app-schema-3.5.0.ebuild
+	M	net-zope/zope-app-form/Manifest
+	M	net-zope/zope-app-form/zope-app-form-4.0.2.ebuild
+	M	net-zope/zope-session/Manifest
+	M	net-zope/zope-session/zope-session-3.9.5.ebuild
+	M	net-zope/zope-publisher/Manifest
+	M	net-zope/zope-publisher/zope-publisher-3.13.0.ebuild
+	M	net-zope/zope-component/zope-component-3.12.0.ebuild
+	M	net-zope/zope-component/Manifest
+r1611 = d947f0372bad2cd1f35d8f51fa9c6d19dac110a5 (refs/remotes/git-svn)
+	D	dev-libs/libxml2/libxml2-2.7.8-r3.ebuild
+	A	dev-libs/libxml2/files/libxml2-2.7.8-allocation-error-copying-entities.patch
+	M	dev-libs/libxml2/Manifest
+	A	dev-libs/libxml2/libxml2-2.7.8-r4.ebuild
+W: -empty_dir: dev-libs/libxml2/libxml2-2.7.8-r3.ebuild
+r1612 = 3c9c8bca9acf11370fbc811e9feff9cb74603098 (refs/remotes/git-svn)
+	M	eclass/php-ext-source-r2.eclass
+r1613 = e3a1aeced300a8e1aed0d94648b387630580bb92 (refs/remotes/git-svn)
+	D	dev-python/egenix-mx-base/egenix-mx-base-3.2.1-r1.ebuild
+	M	dev-python/egenix-mx-base/Manifest
+	A	dev-python/egenix-mx-base/egenix-mx-base-3.2.2.ebuild
+W: -empty_dir: dev-python/egenix-mx-base/egenix-mx-base-3.2.1-r1.ebuild
+r1614 = 14058088aad8f1067e3b6cca2f0ddd3b789a98bc (refs/remotes/git-svn)
+	D	dev-python/python-gnutls/python-gnutls-1.2.2.ebuild
+	M	dev-python/python-gnutls/Manifest
+	A	dev-python/python-gnutls/python-gnutls-1.2.3.ebuild
+W: -empty_dir: dev-python/python-gnutls/python-gnutls-1.2.2.ebuild
+r1615 = 1b3cab9001cb2bbb0ec78908b8ddaee4d3e78fdd (refs/remotes/git-svn)
+	D	dev-vcs/hgview/hgview-1.4.0.ebuild
+	M	dev-vcs/hgview/Manifest
+	A	dev-vcs/hgview/hgview-1.5.0.ebuild
+W: -empty_dir: dev-vcs/hgview/hgview-1.4.0.ebuild
+r1616 = f59fcd28d3393e811709fbce9855321b93403fea (refs/remotes/git-svn)
+	A	dev-python/bottle/Manifest
+	A	dev-python/bottle/bottle-0.10.7.ebuild
+r1617 = da633b01e0d0ab3a413bf106a3f21119de225f7b (refs/remotes/git-svn)
+	D	dev-python/pycrypto/pycrypto-2.4.1.ebuild
+	M	dev-python/pycrypto/Manifest
+	A	dev-python/pycrypto/pycrypto-2.5.ebuild
+W: -empty_dir: dev-python/pycrypto/pycrypto-2.4.1.ebuild
+r1618 = d2b968d99ae5c1e787d1c6069871583a14eb9502 (refs/remotes/git-svn)
+	D	dev-python/colander/colander-0.9.4.ebuild
+	A	dev-python/colander/colander-0.9.5.ebuild
+	M	dev-python/colander/Manifest
+W: -empty_dir: dev-python/colander/colander-0.9.4.ebuild
+r1619 = aad50056d8577dd00367664a254d311d78f11628 (refs/remotes/git-svn)
+	D	dev-python/fabric/fabric-1.3.3.ebuild
+	M	dev-python/fabric/Manifest
+	A	dev-python/fabric/fabric-1.3.4.ebuild
+W: -empty_dir: dev-python/fabric/fabric-1.3.3.ebuild
+r1620 = 31b3dd9a4f3ab04800aff77d79eda3f393b5fd40 (refs/remotes/git-svn)
+	M	eclass/php-ext-source-r2.eclass
+r1621 = 00c129df9be703bddbede0925fea5378fbe6ec2f (refs/remotes/git-svn)
+	D	dev-util/eric/eric-4.4.19.ebuild
+	D	dev-util/eric/eric-5.1.7.ebuild
+	M	dev-util/eric/Manifest
+	A	dev-util/eric/eric-4.4.20.ebuild
+	A	dev-util/eric/eric-5.1.8.ebuild
+W: -empty_dir: dev-util/eric/eric-4.4.19.ebuild
+W: -empty_dir: dev-util/eric/eric-5.1.7.ebuild
+r1622 = 1a8412ae3880a4bf9ccd86280084d57eeb92d952 (refs/remotes/git-svn)
+	D	net-zope/zope-app-testing/zope-app-testing-3.9.0.ebuild
+	M	net-zope/zope-app-testing/Manifest
+	A	net-zope/zope-app-testing/zope-app-testing-3.10.0.ebuild
+W: -empty_dir: net-zope/zope-app-testing/zope-app-testing-3.9.0.ebuild
+r1623 = 8a44c996ea9be2ecebb83924c44654316f82e034 (refs/remotes/git-svn)
+	D	dev-python/redis-py/redis-py-2.4.10.ebuild
+	A	dev-python/redis-py/redis-py-2.4.11.ebuild
+	M	dev-python/redis-py/Manifest
+W: -empty_dir: dev-python/redis-py/redis-py-2.4.10.ebuild
+r1624 = be6ce32d48895cfc1719721be907c3ade2df1cda (refs/remotes/git-svn)
+	M	dev-util/pida/pida-0.6.2.ebuild
+	M	dev-util/pida/Manifest
+r1625 = ee0846435480cae4f5f9abb071c9b483552dba20 (refs/remotes/git-svn)
+	A	dev-python/pyfltk/files/pyfltk-1.3.0-linux-3.x-detection.patch
+	A	dev-python/pyfltk/Manifest
+	A	dev-python/pyfltk/pyfltk-1.3.0.ebuild
+r1626 = 8d7f0ec68c14e1761b5b3500c352c2f0f210684c (refs/remotes/git-svn)
+	M	dev-libs/libxml2/Manifest
+	M	dev-libs/libxml2/libxml2-2.7.8-r4.ebuild
+r1627 = 310198846de37392991b8e99049b97fd0e4e1928 (refs/remotes/git-svn)
+	A	dev-python/matplotlib/matplotlib-1.1.0.ebuild
+	A	dev-python/matplotlib/Manifest
+r1628 = e3d461a728f289fb33ced8e665486a8b65d386cb (refs/remotes/git-svn)
+	D	dev-lang/python/python-2.7.3_pre20111218.ebuild
+	D	dev-lang/python/python-3.2.3_pre20111218.ebuild
+	D	dev-lang/python/python-3.3_pre20111218.ebuild
+	D	dev-lang/python/files/3.3-20111218/01_all_static_library_location.patch
+	D	dev-lang/python/files/3.3-20111218/02_all_disable_modules_and_ssl.patch
+	D	dev-lang/python/files/3.3-20111218/03_all_add_portage_search_path.patch
+	D	dev-lang/python/files/3.3-20111218/04_all_libdir.patch
+	D	dev-lang/python/files/3.3-20111218/05_all_verbose_building_of_extensions.patch
+	D	dev-lang/python/files/3.3-20111218/06_all_non-zero_exit_status_on_failure.patch
+	D	dev-lang/python/files/3.3-20111218/07_all_regenerate_platform-specific_modules.patch
+	D	dev-lang/python/files/3.3-20111218/21_all_distutils_c++.patch
+	D	dev-lang/python/files/3.3-20111218/22_all_tests_environment.patch
+	D	dev-lang/python/files/3.3-20111218/23_all_h2py_encoding.patch
+	D	dev-lang/python/files/3.3-20111218/41_all_crosscompile.patch
+	D	dev-lang/python/files/3.3-20111218/61_all_process_data.patch
+	D	dev-lang/python/files/3.3-20111218/
+	D	dev-lang/python/files/2.7-20110911/01_all_static_library_location.patch
+	D	dev-lang/python/files/2.7-20110911/02_all_disable_modules_and_ssl.patch
+	D	dev-lang/python/files/2.7-20110911/03_all_add_portage_search_path.patch
+	D	dev-lang/python/files/2.7-20110911/04_all_libdir.patch
+	D	dev-lang/python/files/2.7-20110911/05_all_verbose_building_of_extensions.patch
+	D	dev-lang/python/files/2.7-20110911/06_all_non-zero_exit_status_on_failure.patch
+	D	dev-lang/python/files/2.7-20110911/07_all_loadable_sqlite_extensions.patch
+	D	dev-lang/python/files/2.7-20110911/08_all_regenerate_platform-specific_modules.patch
+	D	dev-lang/python/files/2.7-20110911/21_all_distutils_c++.patch
+	D	dev-lang/python/files/2.7-20110911/22_all_turkish_locale.patch
+	D	dev-lang/python/files/2.7-20110911/23_all_arm_OABI.patch
+	D	dev-lang/python/files/2.7-20110911/24_all_tests_environment.patch
+	D	dev-lang/python/files/2.7-20110911/41_all_crosscompile.patch
+	D	dev-lang/python/files/2.7-20110911/61_all_process_data.patch
+	D	dev-lang/python/files/2.7-20110911/62_all_xml.use_pyxml.patch
+	D	dev-lang/python/files/2.7-20110911/
+	D	dev-lang/python/files/3.2-20111016/01_all_static_library_location.patch
+	D	dev-lang/python/files/3.2-20111016/02_all_disable_modules_and_ssl.patch
+	D	dev-lang/python/files/3.2-20111016/03_all_add_portage_search_path.patch
+	D	dev-lang/python/files/3.2-20111016/04_all_libdir.patch
+	D	dev-lang/python/files/3.2-20111016/05_all_verbose_building_of_extensions.patch
+	D	dev-lang/python/files/3.2-20111016/06_all_non-zero_exit_status_on_failure.patch
+	D	dev-lang/python/files/3.2-20111016/07_all_regenerate_platform-specific_modules.patch
+	D	dev-lang/python/files/3.2-20111016/21_all_distutils_c++.patch
+	D	dev-lang/python/files/3.2-20111016/22_all_tests_environment.patch
+	D	dev-lang/python/files/3.2-20111016/23_all_h2py_encoding.patch
+	D	dev-lang/python/files/3.2-20111016/41_all_crosscompile.patch
+	D	dev-lang/python/files/3.2-20111016/61_all_process_data.patch
+	D	dev-lang/python/files/3.2-20111016/
+	M	dev-lang/python/Manifest
+	A	dev-lang/python/python-3.3_pre20120115.ebuild
+	A	dev-lang/python/python-3.2.3_pre20120115.ebuild
+	A	dev-lang/python/python-2.7.3_pre20120115.ebuild
+W: -empty_dir: dev-lang/python/files/2.7-20110911
+W: -empty_dir: dev-lang/python/files/3.2-20111016
+W: -empty_dir: dev-lang/python/files/3.3-20111218
+W: -empty_dir: dev-lang/python/python-2.7.3_pre20111218.ebuild
+W: -empty_dir: dev-lang/python/python-3.2.3_pre20111218.ebuild
+W: -empty_dir: dev-lang/python/python-3.3_pre20111218.ebuild
+r1629 = 1e7ced73a1974772a8ee064a8b8abaebd8659cbe (refs/remotes/git-svn)
+	M	dev-vcs/subversion/files/svnserve.initd
+	M	dev-vcs/subversion/subversion-1.7.2.ebuild
+	M	dev-vcs/subversion/Manifest
+r1630 = f24d36ad7f43e18fe22ef88a8406d12ae65cde45 (refs/remotes/git-svn)
+	M	dev-python/ipython/Manifest
+	M	dev-python/ipython/ipython-0.12-r1.ebuild
+r1631 = 8d444654332cc6d6236154d644a2d613a934e0d8 (refs/remotes/git-svn)
+	M	eclass/python.eclass
+r1632 = 9dd3b3d4b76baf164eedd30dd45ec92d455cbc0f (refs/remotes/git-svn)
+	D	dev-python/chameleon/chameleon-2.7.2.ebuild
+	A	dev-python/chameleon/chameleon-2.7.3.ebuild
+	M	dev-python/chameleon/Manifest
+W: -empty_dir: dev-python/chameleon/chameleon-2.7.2.ebuild
+r1633 = 5672c960e0715c5c43e63c923199832a330ee91c (refs/remotes/git-svn)
+	A	eclass/check-reqs.eclass
+r1634 = 9f3b21c2b5f921ec2274c116f4fc0145ce21740d (refs/remotes/git-svn)
+	A	dev-python/pylibpcap/Manifest
+	A	dev-python/pylibpcap/pylibpcap-0.6.4.ebuild
+r1635 = 6cd16dc4ea2927283cd2512f5dadf94c1bda285a (refs/remotes/git-svn)
+	M	dev-python/matplotlib/matplotlib-1.1.0.ebuild
+	M	dev-python/matplotlib/Manifest
+r1636 = a3afc84eedfee5e1bccabb28dc6ce04df06f9fcc (refs/remotes/git-svn)
+	M	dev-python/h5py/h5py-2.0.1.ebuild
+	M	dev-python/h5py/Manifest
+r1637 = 9853e7f7a27f0f72ea15ff4c54005bbcaf9f74d9 (refs/remotes/git-svn)
+	D	net-zope/zope-error/zope-error-3.7.2.ebuild
+	M	net-zope/zope-error/Manifest
+	A	net-zope/zope-error/zope-error-3.7.3.ebuild
+W: -empty_dir: net-zope/zope-error/zope-error-3.7.2.ebuild
+r1638 = 6905ac2dce9f5461a7f50a19f3cef8245a531f4d (refs/remotes/git-svn)
+	D	net-zope/zope/zope-2.12.21.ebuild
+	D	net-zope/zope/zope-2.13.11.ebuild
+	A	net-zope/zope/zope-2.12.22.ebuild
+	A	net-zope/zope/zope-2.13.12.ebuild
+	M	net-zope/zope/Manifest
+W: -empty_dir: net-zope/zope/zope-2.12.21.ebuild
+W: -empty_dir: net-zope/zope/zope-2.13.11.ebuild
+r1639 = 061b23e01fca7268087826a921e47a607ebbc3b6 (refs/remotes/git-svn)
+	M	net-zope/zope/zope-2.13.9999.ebuild
+	M	net-zope/zope/Manifest
+r1640 = 7bbd96be8831c1a166f74007e7c3cf82698c8c3e (refs/remotes/git-svn)
+	D	dev-python/bsddb3/bsddb3-5.2.0.ebuild
+	A	dev-python/bsddb3/bsddb3-5.3.0.ebuild
+	M	dev-python/bsddb3/Manifest
+W: -empty_dir: dev-python/bsddb3/bsddb3-5.2.0.ebuild
+r1641 = 635e54cbdff7e29bc329c1c2ab8088d1d6452e6c (refs/remotes/git-svn)
+	M	eclass/php-ext-source-r2.eclass
+r1642 = 42742f8cf2cbebec1b0cdd20037549aef26411b1 (refs/remotes/git-svn)
+	A	dev-python/sqlalchemy/files/lru_cache_timestamping.patch
+	M	dev-python/sqlalchemy/Manifest
+	M	dev-python/sqlalchemy/sqlalchemy-0.7.4.ebuild
+r1643 = fa41d555848c38abdaf04980ac6331ace5a3d701 (refs/remotes/git-svn)
+	A	dev-libs/boost/boost-1.48.0-r1.ebuild
+	A	dev-libs/boost/files/boost-1.48.0-mpi_python3.patch
+	A	dev-libs/boost/files/boost-1.48.0-python_linking.patch
+	A	dev-libs/boost/files/boost-1.48.0-respect_python-buildid.patch
+	A	dev-libs/boost/files/remove-toolset-1.48.0.patch
+	A	dev-libs/boost/files/boost-1.48.0-disable_icu_rpath.patch
+	A	dev-libs/boost/files/random-Jamfile-1.48.0
+	A	dev-libs/boost/files/boost-1.48.0-disable_libboost_python3.patch
+	A	dev-libs/boost/files/boost-1.48.0-support_dots_in_python-buildid.patch
+	A	dev-libs/boost/Manifest
+r1644 = d874d5cc4f437ada84298a2886ca5ca6cafcaba7 (refs/remotes/git-svn)
+	M	dev-python/pythonmagick/Manifest
+	A	dev-python/pythonmagick/pythonmagick-0.9.7-r1.ebuild
+	M	dev-python/pythonmagick/pythonmagick-0.9.7.ebuild
+r1645 = 64f25ee0c630a7e98dfa6eebc3640d6c4c60762c (refs/remotes/git-svn)
+	M	sys-fs/ecryptfs-utils/Manifest
+	M	sys-fs/ecryptfs-utils/ecryptfs-utils-95.ebuild
+	M	dev-python/pythonmagick/Manifest
+	M	dev-python/pythonmagick/pythonmagick-0.9.7-r1.ebuild
+	M	dev-python/pythonmagick/pythonmagick-0.9.7.ebuild
+	M	dev-python/dbus-python/dbus-python-0.84.0.ebuild
+	M	dev-python/dbus-python/Manifest
+	M	sys-libs/libcap-ng/libcap-ng-0.6.6.ebuild
+	M	sys-libs/libcap-ng/Manifest
+r1646 = ee0fe5b9df987047aaa2d7eac946bc8c1636e1da (refs/remotes/git-svn)
+	M	dev-libs/botan/botan-1.10.1.ebuild
+	A	dev-libs/botan/botan-1.10.1-r1.ebuild
+	M	dev-libs/botan/Manifest
+r1647 = 9b2cb67950a179b50e87eef17559097c166d5a44 (refs/remotes/git-svn)
+	M	dev-libs/botan/botan-1.10.1-r1.ebuild
+	M	dev-libs/botan/Manifest
+r1648 = 02cd66b818dcff61ec740321880da37977d5216c (refs/remotes/git-svn)
+	D	dev-python/dulwich/dulwich-0.8.2.ebuild
+	A	dev-python/dulwich/dulwich-0.8.3.ebuild
+	M	dev-python/dulwich/Manifest
+W: -empty_dir: dev-python/dulwich/dulwich-0.8.2.ebuild
+r1649 = 97d9d49914a0aa298e6442de482ee84e688f7499 (refs/remotes/git-svn)
+	D	dev-python/mako/mako-0.5.0.ebuild
+	M	dev-python/mako/Manifest
+	A	dev-python/mako/mako-0.6.0.ebuild
+W: -empty_dir: dev-python/mako/mako-0.5.0.ebuild
+r1650 = 2dc234d9fc9c69b5484136898078e0cd2c938bc1 (refs/remotes/git-svn)
+	A	dev-python/pyproj/Manifest
+	A	dev-python/pyproj/pyproj-1.9.0.ebuild
+r1651 = b8177c43d91751dff844ff26e9b42b9020c8b8a2 (refs/remotes/git-svn)
+	M	dev-libs/boost/boost-1.48.0-r1.ebuild
+	M	dev-libs/boost/files/boost-1.48.0-python_linking.patch
+	A	dev-libs/boost/files/boost-1.48.0-no_strict_aliasing_python2.patch
+	M	dev-libs/boost/files/boost-1.48.0-disable_libboost_python3.patch
+	M	dev-libs/boost/Manifest
+r1652 = 44483388fcd0867a52747a8c3e7b3922514d54a5 (refs/remotes/git-svn)
+	D	dev-lang/python/python-3.2.3_pre20111225.ebuild
+	D	dev-lang/python/python-3.3_pre20111225.ebuild
+	D	dev-lang/python/python-2.7.3_pre20111225.ebuild
+	A	dev-lang/python/python-3.2.3_pre20120122.ebuild
+	A	dev-lang/python/python-3.3_pre20120122.ebuild
+	M	dev-lang/python/Manifest
+	A	dev-lang/python/python-2.7.3_pre20120122.ebuild
+W: -empty_dir: dev-lang/python/python-2.7.3_pre20111225.ebuild
+W: -empty_dir: dev-lang/python/python-3.2.3_pre20111225.ebuild
+W: -empty_dir: dev-lang/python/python-3.3_pre20111225.ebuild
+r1653 = ae0449a6c7b8baed449c2dcecfe8548be9aee18c (refs/remotes/git-svn)
+	M	eclass/cmake-utils.eclass
+r1654 = 2a328a77228ab585a50bdc46530ed2b60d56c30e (refs/remotes/git-svn)
+	D	dev-python/markdown/markdown-2.1.0.ebuild
+	A	dev-python/markdown/markdown-2.1.1.ebuild
+	M	dev-python/markdown/Manifest
+W: -empty_dir: dev-python/markdown/markdown-2.1.0.ebuild
+r1655 = b578be18286311420bb2068c55a6cb9719587cc9 (refs/remotes/git-svn)
+	M	dev-util/pida/pida-0.6.2.ebuild
+	M	dev-util/pida/Manifest
+r1656 = 3c0762c7817f425ead032769b68d3c28a7ba9fd2 (refs/remotes/git-svn)
+	M	dev-python/matplotlib/matplotlib-1.1.0.ebuild
+	M	dev-python/matplotlib/Manifest
+r1657 = f3453feda7501163e4c13663cf2646c293eb4ea0 (refs/remotes/git-svn)
+	D	dev-python/subvertpy/subvertpy-0.8.9.ebuild
+	M	dev-python/subvertpy/Manifest
+	A	dev-python/subvertpy/subvertpy-0.8.10.ebuild
+W: -empty_dir: dev-python/subvertpy/subvertpy-0.8.9.ebuild
+r1658 = de5554bc8efa5f8be4350b6e569e4f3c6839c93c (refs/remotes/git-svn)
+	D	net-zope/zope-app-container/zope-app-container-3.9.1.ebuild
+	A	net-zope/zope-app-container/zope-app-container-3.9.2.ebuild
+	M	net-zope/zope-app-container/Manifest
+W: -empty_dir: net-zope/zope-app-container/zope-app-container-3.9.1.ebuild
+r1659 = a3d65621aa9f8ee007ec5b6823d6fd6aa2f8e809 (refs/remotes/git-svn)
+	M	profiles/categories
+W: +empty_dir: x11-libs
+r1660 = 2be6c1a2cdd16e39e70a711ba6c3d653f1400b17 (refs/remotes/git-svn)
+	A	x11-libs/vte/files/vte-0.30.1-alt-meta.patch
+	A	x11-libs/vte/Manifest
+	A	x11-libs/vte/vte-0.28.2-r202.ebuild
+r1661 = 0d1361cb07e694899f12c43d167f1a84943a910a (refs/remotes/git-svn)
+	M	dev-util/pida/pida-0.6.2.ebuild
+	M	dev-util/pida/Manifest
+r1662 = 5667d5d6705d27c680d659959bb863475e49b29b (refs/remotes/git-svn)
+	A	dev-python/tagpy/tagpy-0.94.8-r1.ebuild
+	A	dev-python/tagpy/Manifest
+r1663 = eb59f3372b176ac292124ace03c550973e836fad (refs/remotes/git-svn)
+	D	dev-python/python-ldap/python-ldap-2.4.6.ebuild
+	M	dev-python/python-ldap/Manifest
+	A	dev-python/python-ldap/python-ldap-2.4.7.ebuild
+W: -empty_dir: dev-python/python-ldap/python-ldap-2.4.6.ebuild
+r1664 = 087373f4cd46473a4f7fa23ed678668ce6fd1384 (refs/remotes/git-svn)
+	A	dev-python/isodate/Manifest
+	A	dev-python/isodate/isodate-0.4.6.ebuild
+r1665 = 306ce79fb1b1977134d883c38425185ed621b9f9 (refs/remotes/git-svn)
+	D	dev-python/fanstatic/fanstatic-0.11.3.ebuild
+	M	dev-python/fanstatic/Manifest
+	A	dev-python/fanstatic/fanstatic-0.11.4.ebuild
+W: -empty_dir: dev-python/fanstatic/fanstatic-0.11.3.ebuild
+r1666 = 341119e7902ced8fa8f9423dc7b25e0859d0a2c2 (refs/remotes/git-svn)
+	D	dev-python/rdflib/rdflib-3.1.0.ebuild
+	A	dev-python/rdflib/rdflib-3.2.0.ebuild
+	M	dev-python/rdflib/Manifest
+W: -empty_dir: dev-python/rdflib/rdflib-3.1.0.ebuild
+r1667 = 43462cfeaea3e5cde21d1827ed382dabf0651826 (refs/remotes/git-svn)
+	A	dev-python/certifi/Manifest
+	A	dev-python/certifi/certifi-0.0.7.ebuild
+r1668 = 5400626fac80ef1c0d12151d28ebac0e00308149 (refs/remotes/git-svn)
+	A	dev-python/requests/Manifest
+	A	dev-python/requests/requests-0.10.1.ebuild
+r1669 = 4671b69f5887695d5bba0fc10621ee0dd7f5be99 (refs/remotes/git-svn)
+	M	dev-python/PyQt4/Manifest
+	M	dev-python/PyQt4/PyQt4-4.9.ebuild
+r1670 = d9f1bfbee5ffc7f6a11822aaa8df7c853d287ca4 (refs/remotes/git-svn)
+	A	dev-python/pysendfile/pysendfile-2.0.0.ebuild
+	A	dev-python/pysendfile/Manifest
+r1671 = 9b02abb6442c90989aa1cf4a62d9fb94949dc6ae (refs/remotes/git-svn)
+	D	dev-python/pyftpdlib/pyftpdlib-0.6.0.ebuild
+	A	dev-python/pyftpdlib/pyftpdlib-0.7.0.ebuild
+	M	dev-python/pyftpdlib/Manifest
+W: -empty_dir: dev-python/pyftpdlib/pyftpdlib-0.6.0.ebuild
+r1672 = 848bf8769d758f6e42c2e62761f5732034104fa2 (refs/remotes/git-svn)
+	A	dev-python/fonttools/Manifest
+	A	dev-python/fonttools/fonttools-2.3.ebuild
+r1673 = 689a319b5cfcdaa37fecf913f8a858abc51809b8 (refs/remotes/git-svn)
+	A	dev-python/ttfquery/ttfquery-1.0.4.ebuild
+	A	dev-python/ttfquery/Manifest
+r1674 = 0595ef856aacfbd87f403addb077cd5f6b7722d2 (refs/remotes/git-svn)
+	D	kde-base/pykde4/pykde4-4.7.3.ebuild
+	M	kde-base/pykde4/Manifest
+	A	kde-base/pykde4/pykde4-4.8.0.ebuild
+W: -empty_dir: kde-base/pykde4/pykde4-4.7.3.ebuild
+r1675 = e7de8ac0f5ccc3a98f1d31bcf3372a6b62986f8f (refs/remotes/git-svn)
+	D	dev-python/dbus-python/files/dbus-python-0.83.1-workaround-broken-test.patch
+	D	dev-python/dbus-python/files/
+	D	dev-python/dbus-python/dbus-python-0.84.0.ebuild
+	M	dev-python/dbus-python/Manifest
+	A	dev-python/dbus-python/dbus-python-1.0.0.ebuild
+W: -empty_dir: dev-python/dbus-python/dbus-python-0.84.0.ebuild
+W: -empty_dir: dev-python/dbus-python/files
+r1676 = 4a5a1b27d96928a3c69ec277a3288aab9ca4b2e1 (refs/remotes/git-svn)
+	M	dev-python/PyQt4/Manifest
+	M	dev-python/PyQt4/PyQt4-4.9.ebuild
+r1677 = ab619a726f25cd3e2d57d287b7dab1d834439e31 (refs/remotes/git-svn)
+	D	dev-python/python-gflags/python-gflags-1.6.ebuild
+	A	dev-python/python-gflags/python-gflags-2.0.ebuild
+	M	dev-python/python-gflags/Manifest
+W: -empty_dir: dev-python/python-gflags/python-gflags-1.6.ebuild
+r1678 = 1abd0e534c3c174017ca82c474e019639573ddeb (refs/remotes/git-svn)
+	M	dev-python/python-gflags/python-gflags-2.0.ebuild
+	M	dev-python/python-gflags/Manifest
+r1679 = 8b15da28597ee5676616865fbf2fc1595a954a3b (refs/remotes/git-svn)
+	A	dev-python/pyxattr/Manifest
+	A	dev-python/pyxattr/pyxattr-0.5.0.ebuild
+r1680 = 9b6bf71573440588d5e76e5b30f54a8a6bcc238c (refs/remotes/git-svn)
+	D	dev-vcs/mercurial/mercurial-2.0.1.ebuild
+	A	dev-vcs/mercurial/mercurial-2.0.2.ebuild
+	M	dev-vcs/mercurial/Manifest
+W: -empty_dir: dev-vcs/mercurial/mercurial-2.0.1.ebuild
+r1681 = b9b4bfd0450280739d2c92e338757087f5d5b417 (refs/remotes/git-svn)
+	D	dev-vcs/hg-git/hg-git-0.3.1.ebuild
+	A	dev-vcs/hg-git/hg-git-0.3.2.ebuild
+	M	dev-vcs/hg-git/Manifest
+W: -empty_dir: dev-vcs/hg-git/hg-git-0.3.1.ebuild
+r1682 = 469a47c897205eccb9e4610e4ad814be002db33f (refs/remotes/git-svn)
+	A	dev-python/gmpy/gmpy-1.15.ebuild
+	A	dev-python/gmpy/Manifest
+r1683 = 7a987dc77b100509632798cd87506accf89be1fd (refs/remotes/git-svn)
+	D	dev-python/mako/mako-0.6.0.ebuild
+	M	dev-python/mako/Manifest
+	A	dev-python/mako/mako-0.6.1.ebuild
+W: -empty_dir: dev-python/mako/mako-0.6.0.ebuild
+r1684 = 1213ee0f5b7bd67560a0d0d5e87b99be4f54e7be (refs/remotes/git-svn)
+	D	dev-python/isodate/isodate-0.4.6.ebuild
+	A	dev-python/isodate/isodate-0.4.7.ebuild
+	M	dev-python/isodate/Manifest
+W: -empty_dir: dev-python/isodate/isodate-0.4.6.ebuild
+r1685 = c9dbf30f5a0eeddc13d899d6d0a8793ac6ffff33 (refs/remotes/git-svn)
+	A	dev-python/polygon/Manifest
+	A	dev-python/polygon/polygon-2.0.4.ebuild
+	A	dev-python/polygon/polygon-3.0.4.ebuild
+r1686 = 1bc72f71cf9100fb2eec22ef3e958a3f48998a49 (refs/remotes/git-svn)
+	A	profiles/package.use.mask
+r1687 = afcba7e61e985029d53b60017832850cb3602676 (refs/remotes/git-svn)
+	A	dev-python/visual/visual-5.72-r1.ebuild
+	A	dev-python/visual/Manifest
+r1688 = 7222bc77c10bcf1e83541c6d9f52706aa9585282 (refs/remotes/git-svn)
+	M	dev-python/visual/visual-5.72-r1.ebuild
+	M	dev-python/visual/Manifest
+r1689 = 709a9727270893a723f3c0074ba073fae68b6112 (refs/remotes/git-svn)
+	M	dev-libs/boost/boost-1.48.0-r1.ebuild
+	A	dev-libs/boost/files/boost-1.48.0-BOOST_FOREACH.patch
+	M	dev-libs/boost/Manifest
+r1690 = da62b57ff73ed6c1d33f750e80e6c28fa6d4aad4 (refs/remotes/git-svn)
+	D	dev-lang/python/python-3.2.3_pre20120101.ebuild
+	D	dev-lang/python/python-3.3_pre20120101.ebuild
+	D	dev-lang/python/python-2.7.3_pre20120101.ebuild
+	A	dev-lang/python/python-2.7.3_pre20120129.ebuild
+	M	dev-lang/python/Manifest
+	A	dev-lang/python/python-3.3_pre20120129.ebuild
+	A	dev-lang/python/python-3.2.3_pre20120129.ebuild
+W: -empty_dir: dev-lang/python/python-2.7.3_pre20120101.ebuild
+W: -empty_dir: dev-lang/python/python-3.2.3_pre20120101.ebuild
+W: -empty_dir: dev-lang/python/python-3.3_pre20120101.ebuild
+r1691 = 0248eaf227a75cbc68703d8c1b2e5b7a38573351 (refs/remotes/git-svn)
+	D	net-zope/zope-testing/zope-testing-4.0.0.ebuild
+	M	net-zope/zope-testing/Manifest
+	A	net-zope/zope-testing/zope-testing-4.1.0.ebuild
+W: -empty_dir: net-zope/zope-testing/zope-testing-4.0.0.ebuild
+r1692 = 30eb439de020f37b3311d6d537892b3a7a55a573 (refs/remotes/git-svn)
+	D	dev-python/sqlalchemy/files/lru_cache_timestamping.patch
+	D	dev-python/sqlalchemy/files/
+	D	dev-python/sqlalchemy/sqlalchemy-0.7.4.ebuild
+	M	dev-python/sqlalchemy/Manifest
+	A	dev-python/sqlalchemy/sqlalchemy-0.7.5.ebuild
+W: -empty_dir: dev-python/sqlalchemy/files
+W: -empty_dir: dev-python/sqlalchemy/sqlalchemy-0.7.4.ebuild
+r1693 = bd1f41ed1d182c48e23abb04fa958132d92f74b7 (refs/remotes/git-svn)
+	A	dev-python/pep8/pep8-0.6.1.ebuild
+	A	dev-python/pep8/Manifest
+r1694 = 01690a70df6899723a809585409a9172a63519ee (refs/remotes/git-svn)
+	A	dev-python/spyder/files/spyder-2.1.2-disable_sphinx_dependency.patch
+	A	dev-python/spyder/Manifest
+	A	dev-python/spyder/spyder-2.1.7.ebuild
+r1695 = 4be4bf70438cc9214c57605c385a0ad00b22e0b6 (refs/remotes/git-svn)
+	A	dev-python/PyQt4/files/PyQt4-4.9-dbus.mainloop.qt_python-3.patch
+	M	dev-python/PyQt4/Manifest
+	M	dev-python/PyQt4/PyQt4-4.9.ebuild
+r1696 = 9c513e586a046bbb833f460457e2e8e2b2185619 (refs/remotes/git-svn)
+	D	dev-python/python-gnutls/python-gnutls-1.2.3.ebuild
+	M	dev-python/python-gnutls/Manifest
+	A	dev-python/python-gnutls/python-gnutls-1.2.4.ebuild
+W: -empty_dir: dev-python/python-gnutls/python-gnutls-1.2.3.ebuild
+r1697 = dd302fe9a3ab58233b4953b96a3ddb99647b1173 (refs/remotes/git-svn)
+	D	www-servers/tornado/tornado-2.1.1.ebuild
+	M	www-servers/tornado/Manifest
+	A	www-servers/tornado/tornado-2.2.ebuild
+W: -empty_dir: www-servers/tornado/tornado-2.1.1.ebuild
+r1698 = d5b6d7f53061481adbc9fbe97fb9f0651414bb85 (refs/remotes/git-svn)
+	D	x11-libs/vte/vte-0.28.2-r202.ebuild
+	M	x11-libs/vte/Manifest
+	A	x11-libs/vte/vte-0.28.2-r203.ebuild
+W: -empty_dir: x11-libs/vte/vte-0.28.2-r202.ebuild
+r1699 = dfa85381afdbf6b3ec848b88b6911402cb5613dc (refs/remotes/git-svn)
+	D	dev-python/certifi/certifi-0.0.7.ebuild
+	M	dev-python/certifi/Manifest
+	A	dev-python/certifi/certifi-0.0.8.ebuild
+W: -empty_dir: dev-python/certifi/certifi-0.0.7.ebuild
+r1700 = f7557e4ec4fbb696f86772a9878fb29730d71e37 (refs/remotes/git-svn)
+	A	www-servers/tornado/files/tornado-2.2-python-3.2.3.patch
+	M	www-servers/tornado/Manifest
+	M	www-servers/tornado/tornado-2.2.ebuild
+r1701 = fc38b62e4b39aeeeee17eb4e001807275dd8cda9 (refs/remotes/git-svn)
+	D	dev-python/apsw/apsw-3.7.9.1.ebuild
+	A	dev-python/apsw/apsw-3.7.10.1.ebuild
+	M	dev-python/apsw/Manifest
+W: -empty_dir: dev-python/apsw/apsw-3.7.9.1.ebuild
+r1702 = 14e9a609715e375c78b216ddbff9a393c4c46184 (refs/remotes/git-svn)
+	M	dev-python/pyzmq/pyzmq-2.1.11.ebuild
+	M	dev-python/pyzmq/Manifest
+r1703 = 4b419125bd764f1abe481523427ba2939a130f0e (refs/remotes/git-svn)
+	D	dev-python/webob/webob-1.2_beta2.ebuild
+	M	dev-python/webob/Manifest
+	A	dev-python/webob/webob-1.2_beta3.ebuild
+W: -empty_dir: dev-python/webob/webob-1.2_beta2.ebuild
+r1704 = ef2cd6af6ac652341421b03eca0f5909a5591280 (refs/remotes/git-svn)
+	M	eclass/python.eclass
+r1705 = a48b19726f7b7f269bd90ac3a5b576f17f62448f (refs/remotes/git-svn)
+	M	dev-lang/python/python-2.7.3_pre20120129.ebuild
+	M	dev-lang/python/python-3.0.1.ebuild
+	M	dev-lang/python/Manifest
+	M	dev-lang/python/python-3.3_pre20120129.ebuild
+	M	dev-lang/python/python-3.2.3_pre20120129.ebuild
+r1706 = 364887a4cdd0d4a4b622bf0eff4d0e1592d83375 (refs/remotes/git-svn)
 RA layer request failed: Unexpected HTTP status 502 'Bad Gateway' on '/svn/!svn/vcc/default' at /usr/lib64/perl5/vendor_perl/5.22.0/Git/SVN/Ra.pm line 308.
 
 *** syncing progress
