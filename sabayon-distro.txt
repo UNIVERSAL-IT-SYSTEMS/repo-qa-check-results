@@ -11,15 +11,17 @@ $ pmaint sync sabayon-distro
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://github.com/Sabayon/sabayon-distro
-   de834f6..4f38861  master     -> origin/master
-Updating de834f6..4f38861
+   4f38861..f38246b  master     -> origin/master
+Updating 4f38861..f38246b
 Fast-forward
- media-video/amdcccle/amdcccle-13.12.ebuild | 2 +-
- media-video/amdcccle/amdcccle-14.12.ebuild | 2 +-
- media-video/amdcccle/amdcccle-14.4.ebuild  | 2 +-
- media-video/amdcccle/amdcccle-15.1.ebuild  | 2 +-
- media-video/amdcccle/amdcccle-15.7.ebuild  | 2 +-
- 5 files changed, 5 insertions(+), 5 deletions(-)
+ media-video/amdcccle/amdcccle-13.12.ebuild      | 4 ++--
+ media-video/amdcccle/amdcccle-14.12.ebuild      | 4 ++--
+ media-video/amdcccle/amdcccle-14.4.ebuild       | 4 ++--
+ media-video/amdcccle/amdcccle-15.1.ebuild       | 4 ++--
+ media-video/amdcccle/amdcccle-15.7.ebuild       | 4 ++--
+ x11-drivers/ati-drivers/ati-drivers-15.1.ebuild | 5 +----
+ x11-drivers/ati-drivers/ati-drivers-15.7.ebuild | 4 +---
+ 7 files changed, 12 insertions(+), 17 deletions(-)
 *** syncing sabayon-distro
 *** synced sabayon-distro
  * Sync succeeded
