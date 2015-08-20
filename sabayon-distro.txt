@@ -12,7 +12,15 @@ WARNING:pkgcore:repository at location '/home/mgorny/sync/progress' lacks a defi
 WARNING:pkgcore:repository at '/home/mgorny/sync/progress', named 'progress', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Sabayon/sabayon-distro
+   4fb3200..67d5ca3  master     -> origin/master
+Updating 4fb3200..67d5ca3
+Fast-forward
+ x11-drivers/ati-drivers/ati-drivers-15.7.ebuild            |  4 ----
+ .../files/ati-drivers-15.7-linux-3.19-4.0.patch            | 11 +++++++++++
+ x11-drivers/ati-userspace/ati-userspace-15.7.ebuild        | 14 +-------------
+ 3 files changed, 12 insertions(+), 17 deletions(-)
+ create mode 100644 x11-drivers/ati-drivers/files/ati-drivers-15.7-linux-3.19-4.0.patch
 *** syncing sabayon-distro
 *** synced sabayon-distro
  * Sync succeeded
