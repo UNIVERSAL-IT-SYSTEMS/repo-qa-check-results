@@ -15,15 +15,16 @@
 $ pmaint sync java
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/java
-   e4fccac..34e867c  master     -> origin/master
-Updating e4fccac..34e867c
+   34e867c..34118f2  master     -> origin/master
+Updating 34e867c..34118f2
 Fast-forward
- dev-java/vecmath/Manifest             |  1 +
- dev-java/vecmath/vecmath-1.5.1.ebuild | 60 -----------------------------------
- dev-java/vecmath/vecmath-1.5.2.ebuild | 22 +++++++++++++
- 3 files changed, 23 insertions(+), 60 deletions(-)
- delete mode 100644 dev-java/vecmath/vecmath-1.5.1.ebuild
- create mode 100644 dev-java/vecmath/vecmath-1.5.2.ebuild
+ dev-java/vecmath/Manifest             |  3 ---
+ dev-java/vecmath/metadata.xml         |  9 ---------
+ dev-java/vecmath/vecmath-1.5.2.ebuild | 22 ----------------------
+ 3 files changed, 34 deletions(-)
+ delete mode 100644 dev-java/vecmath/Manifest
+ delete mode 100644 dev-java/vecmath/metadata.xml
+ delete mode 100644 dev-java/vecmath/vecmath-1.5.2.ebuild
 *** syncing java
 *** synced java
  * Sync succeeded
