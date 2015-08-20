@@ -7,15 +7,33 @@
  'source': [{'type': 'git', 'uri': 'git://github.com/microcai/gentoo-zh.git'}],
  'status': 'unofficial'}
 $ pmaint sync gentoo-zh
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
+From git://github.com/microcai/gentoo-zh
+   853b42d..b0d5a2f  master     -> origin/master
+Updating 853b42d..b0d5a2f
+Fast-forward
+ dev-libs/libunity/libunity-7.1.4.ebuild            |  62 +++
+ net-im/telegram-desktop/Manifest                   |   1 +
+ .../files/disable-custom-scheme-linux.patch        |  20 +
+ .../telegram-desktop/files/disable-updater.patch   | 499 +++++++++++++++++++++
+ .../telegram-desktop/files/telegramdesktop.desktop |  12 +
+ net-im/telegram-desktop/files/xvfb-run             | 192 ++++++++
+ .../telegram-desktop-0.8.50.ebuild                 | 153 +++++++
+ 7 files changed, 939 insertions(+)
+ create mode 100644 dev-libs/libunity/libunity-7.1.4.ebuild
+ create mode 100644 net-im/telegram-desktop/Manifest
+ create mode 100644 net-im/telegram-desktop/files/disable-custom-scheme-linux.patch
+ create mode 100644 net-im/telegram-desktop/files/disable-updater.patch
+ create mode 100644 net-im/telegram-desktop/files/telegramdesktop.desktop
+ create mode 100755 net-im/telegram-desktop/files/xvfb-run
+ create mode 100644 net-im/telegram-desktop/telegram-desktop-0.8.50.ebuild
 *** syncing gentoo-zh
 *** synced gentoo-zh
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 gentoo-zh
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by sys-kernel/e-sources-3.18.14 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
