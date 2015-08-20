@@ -17,24 +17,13 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   7b32662..a44aab6  master     -> origin/master
-Updating 7b32662..a44aab6
+   a44aab6..b956734  master     -> origin/master
+Updating a44aab6..b956734
 Fast-forward
- .../backup-manager-0.7.10.1-r1.ebuild              |  50 ----------
- .../backup-manager-0.7.10.1-r2.ebuild              |   4 +-
- .../backup-manager/backup-manager-0.7.5.ebuild     |   4 +-
- media-libs/libgroove/Manifest                      |   1 +
- .../files/libgroove-4.3.0_GNUInstallDirs.patch     | 105 +++++++++++++++++++++
- .../libgroove/files/libgroove-4.3.0_cflags.patch   |  43 +++++++++
- media-libs/libgroove/libgroove-4.3.0.ebuild        |  43 +++++++++
- media-libs/libgroove/metadata.xml                  |  25 +++++
- 8 files changed, 221 insertions(+), 54 deletions(-)
- delete mode 100644 app-backup/backup-manager/backup-manager-0.7.10.1-r1.ebuild
- create mode 100644 media-libs/libgroove/Manifest
- create mode 100644 media-libs/libgroove/files/libgroove-4.3.0_GNUInstallDirs.patch
- create mode 100644 media-libs/libgroove/files/libgroove-4.3.0_cflags.patch
- create mode 100644 media-libs/libgroove/libgroove-4.3.0.ebuild
- create mode 100644 media-libs/libgroove/metadata.xml
+ net-misc/knemo/Manifest           |  1 +
+ net-misc/knemo/knemo-0.7.7.ebuild | 40 +++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 41 insertions(+)
+ create mode 100644 net-misc/knemo/knemo-0.7.7.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
