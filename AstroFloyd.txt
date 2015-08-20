@@ -15,17 +15,10 @@
  'status': 'unofficial'}
 $ pmaint sync AstroFloyd
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing AstroFloyd
-*** failed syncing AstroFloyd
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync AstroFloyd
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/sync/AstroFloyd'...
+Already up-to-date.
 *** syncing AstroFloyd
 *** synced AstroFloyd
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 AstroFloyd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

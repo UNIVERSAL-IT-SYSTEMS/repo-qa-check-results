@@ -14,22 +14,10 @@
  'status': 'unofficial'}
 $ pmaint sync andy
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-*** syncing andy
-*** failed syncing andy
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync andy
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/AstroFloyd' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/AstroFloyd', named 'AstroFloyd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/sync/andy'...
+Already up-to-date.
 *** syncing andy
 *** synced andy
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 andy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'

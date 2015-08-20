@@ -15,25 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync bobwya
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/bobwya/miscellaneous_ebuilds
-   2e83ebc..5b490c8  master     -> origin/master
-Updating 2e83ebc..5b490c8
-Fast-forward
- README.md                                          |   1 +
- mail-client/thunderbird-kde-opensuse/Manifest      | 116 ++++++++++-----------
- ...uild => thunderbird-kde-opensuse-38.2.0.ebuild} |   2 +-
- sys-auth/polkit-explorer/Manifest                  |   4 +
- sys-auth/polkit-explorer/files/font_fix.sh         |  21 ++++
- .../polkit-explorer/files/polkit-explorer.desktop  |  10 ++
- sys-auth/polkit-explorer/metadata.xml              |   4 +
- .../polkit-explorer/polkit-explorer-9999.ebuild    |  49 +++++++++
- 8 files changed, 148 insertions(+), 59 deletions(-)
- rename mail-client/thunderbird-kde-opensuse/{thunderbird-kde-opensuse-38.1.0.ebuild => thunderbird-kde-opensuse-38.2.0.ebuild} (99%)
- create mode 100644 sys-auth/polkit-explorer/Manifest
- create mode 100755 sys-auth/polkit-explorer/files/font_fix.sh
- create mode 100644 sys-auth/polkit-explorer/files/polkit-explorer.desktop
- create mode 100644 sys-auth/polkit-explorer/metadata.xml
- create mode 100644 sys-auth/polkit-explorer/polkit-explorer-9999.ebuild
+Already up-to-date.
 *** syncing bobwya
 *** synced bobwya
  * Sync succeeded
