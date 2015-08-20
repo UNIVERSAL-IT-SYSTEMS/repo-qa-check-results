@@ -16,17 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   d31c1bc..4bda767  master     -> origin/master
-Updating d31c1bc..4bda767
-Fast-forward
- sys-kernel/genkernel/Manifest                      |   2 +-
- sys-kernel/genkernel/genkernel-3.4.52.1.ebuild     | 172 ---------------------
- ...el-9999-r1.ebuild => genkernel-3.4.52.2.ebuild} |  12 +-
- sys-kernel/genkernel/genkernel-9999.ebuild         |  76 +++++----
- 4 files changed, 43 insertions(+), 219 deletions(-)
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.52.1.ebuild
- rename sys-kernel/genkernel/{genkernel-9999-r1.ebuild => genkernel-3.4.52.2.ebuild} (95%)
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
