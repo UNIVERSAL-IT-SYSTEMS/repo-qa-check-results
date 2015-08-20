@@ -16,14 +16,9 @@
 $ pmaint sync barzog-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/barzog/barzog-gentoo-overlay
-   ae94c2b..00dbed5  master     -> origin/master
-Updating ae94c2b..00dbed5
-Fast-forward
- dev-db/pg_statsinfo/Manifest                  |  2 ++
- dev-db/pg_statsinfo/pg_statsinfo-3.1.0.ebuild | 27 +++++++++++++++++++++++++++
- 2 files changed, 29 insertions(+)
- create mode 100644 dev-db/pg_statsinfo/pg_statsinfo-3.1.0.ebuild
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bleeding-edge' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Already up-to-date.
 *** syncing barzog-overlay
 *** synced barzog-overlay
  * Sync succeeded

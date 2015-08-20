@@ -11,7 +11,13 @@
 $ pmaint sync raw
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/mahatma-kaganovich/raw
+   c87e650..6d534df  master     -> origin/master
+Updating c87e650..6d534df
+Fast-forward
+ sys-kernel/genpnprd/Manifest                |  2 +-
+ sys-kernel/genpnprd/files/_dep_firmware.use | 24 ++++++++++++++++++++++--
+ 2 files changed, 23 insertions(+), 3 deletions(-)
 *** syncing raw
 *** synced raw
  * Sync succeeded
@@ -171,10 +177,10 @@ Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directo
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 9384
+sandbox:stop  caught signal 15 in pid 15474
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-cluster/kerrighed-9999-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-cluster/kerrighed-9999-r2
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr description\nerror: Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sys-cluster/kerrighed-9999-r1' @0x7fcdb800c190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr description\nerror: Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sys-cluster/kerrighed-9999-r1' @0x7fd1d1491190>)
  * Cache regen failed with 1

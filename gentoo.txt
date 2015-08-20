@@ -17,61 +17,19 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   401e405..dc1f9b0  master     -> origin/master
-Updating 401e405..dc1f9b0
+   af7e58e..a955f52  master     -> origin/master
+Updating af7e58e..a955f52
 Fast-forward
- app-shells/tcsh/tcsh-6.17-r1.ebuild                |   3 +-
- app-shells/tcsh/tcsh-6.17.06.ebuild                |   3 +-
- app-shells/tcsh/tcsh-6.18.01-r2.ebuild             |   3 +-
- app-shells/tcsh/tcsh-6.18.01-r3.ebuild             |   3 +-
- app-shells/tcsh/tcsh-6.18.01-r4.ebuild             | 107 +++++++++++
- app-shells/tcsh/tcsh-6.18.01.ebuild                |   3 +-
- app-shells/zsh/metadata.xml                        |  10 +-
- app-shells/zsh/zsh-5.0.5.ebuild                    |   2 +-
- app-shells/zsh/zsh-5.0.7-r1.ebuild                 |   2 +-
- app-shells/zsh/zsh-5.0.7-r2.ebuild                 |   2 +-
- app-shells/zsh/zsh-5.0.8.ebuild                    |   2 +-
- app-shells/zsh/zsh-9999.ebuild                     |   2 +-
- app-text/aspell/aspell-0.60.6.1-r1.ebuild          |   2 +-
- app-text/aspell/aspell-0.60.6.1-r2.ebuild          |   2 +-
- app-text/aspell/metadata.xml                       |   6 +-
- dev-python/celery/celery-3.1.18-r1.ebuild          |  88 +++++++++
- dev-python/celery/files/celery.confd-r2            |  51 +++++
- dev-python/celery/files/celery.initd-r2            | 206 +++++++++++++++++++++
- media-sound/alsa-utils/alsa-utils-1.0.27.2.ebuild  |   2 +-
- media-sound/alsa-utils/alsa-utils-1.0.28-r1.ebuild |   2 +-
- media-sound/alsa-utils/alsa-utils-1.0.28.ebuild    |   2 +-
- media-sound/alsa-utils/alsa-utils-1.0.29.ebuild    |   2 +-
- media-sound/alsa-utils/metadata.xml                |   4 +-
- net-analyzer/nload/nload-0.7.4.ebuild              |   3 +-
- net-misc/iputils/Manifest                          |   2 +
- .../files/iputils-20150815-nonroot-floodping.patch |  11 ++
- .../files/iputils-20150815-ping6_crypto.patch      |  29 +++
- .../files/iputils-20150815-ping_default_ipv4.patch |  65 +++++++
- net-misc/iputils/iputils-20150815.ebuild           | 163 ++++++++++++++++
- net-misc/iputils/metadata.xml                      |   3 +
- profiles/package.mask                              |   4 +
- sys-devel/gcc/Manifest                             |   4 +-
- sys-devel/gcc/gcc-4.8.4.ebuild                     |   2 +-
- sys-devel/gcc/gcc-4.8.5.ebuild                     |   2 +-
- 34 files changed, 761 insertions(+), 36 deletions(-)
- create mode 100644 app-shells/tcsh/tcsh-6.18.01-r4.ebuild
- create mode 100644 dev-python/celery/celery-3.1.18-r1.ebuild
- create mode 100644 dev-python/celery/files/celery.confd-r2
- create mode 100644 dev-python/celery/files/celery.initd-r2
- create mode 100644 net-misc/iputils/files/iputils-20150815-nonroot-floodping.patch
- create mode 100644 net-misc/iputils/files/iputils-20150815-ping6_crypto.patch
- create mode 100644 net-misc/iputils/files/iputils-20150815-ping_default_ipv4.patch
- create mode 100644 net-misc/iputils/iputils-20150815.ebuild
+ dev-libs/crossguid/Manifest                       |  1 +
+ dev-libs/crossguid/crossguid-0_pre20150817.ebuild | 47 +++++++++++++++++++++++
+ dev-libs/crossguid/metadata.xml                   |  8 ++++
+ 3 files changed, 56 insertions(+)
+ create mode 100644 dev-libs/crossguid/Manifest
+ create mode 100644 dev-libs/crossguid/crossguid-0_pre20150817.ebuild
+ create mode 100644 dev-libs/crossguid/metadata.xml
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.4 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-devel/gcc-4.8.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
