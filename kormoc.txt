@@ -69,6 +69,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 error: parsed eapi '2' doesn't match sourced eapi '3' while processing ebuild src: www-apache/mod_pagespeed-9999-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-apache/mod_sed-0.0.1
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: www-apache/mod_spdy-9999
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))

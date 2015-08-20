@@ -17,21 +17,20 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   326a0e9..4f93376  master     -> origin/master
-Updating 326a0e9..4f93376
+   4f93376..d31c1bc  master     -> origin/master
+Updating 4f93376..d31c1bc
 Fast-forward
- sys-kernel/genkernel/Manifest                      |   6 +-
- sys-kernel/genkernel/genkernel-3.4.49.1.ebuild     | 167 --------------------
- sys-kernel/genkernel/genkernel-3.4.49.ebuild       | 167 --------------------
- sys-kernel/genkernel/genkernel-3.4.51.1.ebuild     | 172 ---------------------
- sys-kernel/genkernel/genkernel-3.4.51.2.ebuild     | 172 ---------------------
- ...nel-3.4.51.ebuild => genkernel-3.4.52.1.ebuild} |  18 +--
- 6 files changed, 10 insertions(+), 692 deletions(-)
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.49.1.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.49.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.51.1.ebuild
- delete mode 100644 sys-kernel/genkernel/genkernel-3.4.51.2.ebuild
- rename sys-kernel/genkernel/{genkernel-3.4.51.ebuild => genkernel-3.4.52.1.ebuild} (94%)
+ dev-python/routes/Manifest              |  3 +-
+ dev-python/routes/routes-1.13-r1.ebuild | 42 -----------------------
+ dev-python/routes/routes-2.0.ebuild     | 61 ---------------------------------
+ dev-python/routes/routes-2.1-r1.ebuild  |  2 +-
+ dev-python/routes/routes-2.1.ebuild     | 53 ----------------------------
+ dev-python/routes/routes-2.2.ebuild     | 56 ++++++++++++++++++++++++++++++
+ 6 files changed, 58 insertions(+), 159 deletions(-)
+ delete mode 100644 dev-python/routes/routes-1.13-r1.ebuild
+ delete mode 100644 dev-python/routes/routes-2.0.ebuild
+ delete mode 100644 dev-python/routes/routes-2.1.ebuild
+ create mode 100644 dev-python/routes/routes-2.2.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
