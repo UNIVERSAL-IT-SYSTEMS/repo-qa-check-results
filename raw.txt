@@ -11,7 +11,15 @@
 $ pmaint sync raw
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/mahatma-kaganovich/raw
+   69d2728..6331e93  master     -> origin/master
+Updating 69d2728..6331e93
+Fast-forward
+ app-portage/ppatch/Manifest                        |  1 +
+ .../linux-sources/compile/sparc-mdesc-werror.patch | 29 ++++++++++++
+ eclass/kernel-2.eclass                             | 51 +++++++++++++++-------
+ 3 files changed, 66 insertions(+), 15 deletions(-)
+ create mode 100644 app-portage/ppatch/files/extensions/virtual/linux-sources/compile/sparc-mdesc-werror.patch
 *** syncing raw
 *** synced raw
  * Sync succeeded
@@ -171,10 +179,10 @@ Can't open perl script "/usr/share/genpnprd/Kconfig.pl": No such file or directo
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 25136
+sandbox:stop  caught signal 15 in pid 23235
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-cluster/kerrighed-9999-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-cluster/kerrighed-9999-r2
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr description\nerror: Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sys-cluster/kerrighed-9999-r1' @0x7ff8c901d190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr description\nerror: Metadata Exception: pkg ebuild src: sys-cluster/kerrighed-9999-r1, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='sys-cluster/kerrighed-9999-r1' @0x7ff857a8b190>)
  * Cache regen failed with 1

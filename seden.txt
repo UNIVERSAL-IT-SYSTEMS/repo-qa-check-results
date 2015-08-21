@@ -15,23 +15,31 @@
 $ pmaint sync seden
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/seden
+   dabd984..d94ec06  master     -> origin/master
+Updating dabd984..d94ec06
+Fast-forward
+ net-mail/davmail-bin/ChangeLog                                     | 7 +++++++
+ net-mail/davmail-bin/Manifest                                      | 6 +++---
+ .../{davmail-bin-4.6.0.ebuild => davmail-bin-4.6.2.ebuild}         | 2 +-
+ 3 files changed, 11 insertions(+), 4 deletions(-)
+ rename net-mail/davmail-bin/{davmail-bin-4.6.0.ebuild => davmail-bin-4.6.2.ebuild} (99%)
 *** syncing seden
 *** synced seden
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 seden
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by net-mail/davmail-bin-4.6.0 during metadata regeneration.
+WARNING: 'use' function invoked by net-mail/davmail-bin-4.6.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by net-mail/davmail-bin-4.6.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by net-mail/davmail-bin-4.6.1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by net-mail/davmail-bin-4.6.0 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-mail/davmail-bin-4.6.1 during metadata regeneration.
+WARNING: 'use' function invoked by net-mail/davmail-bin-4.6.2 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
  * Cache regenerated successfully
