@@ -11,8 +11,6 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/dberkholz.git'}],
  'status': 'unofficial'}
 $ pmaint sync dberkholz
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing dberkholz
@@ -61,7 +59,6 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-drivers/nvidia-drivers-280.11
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-drivers/xf86-video-intel-2.15.901
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: mail-client/mutt-1.5.21-r3
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))

@@ -8,7 +8,14 @@
  'status': 'unofficial'}
 $ pmaint sync open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   ad6e8ca..8bed206  master     -> origin/master
+Updating ad6e8ca..8bed206
+Fast-forward
+ www-client/firefox-developer-bin/Manifest                      |  6 +++---
+ ..._alpha1.ebuild => firefox-developer-bin-42.0_alpha2.ebuild} | 10 +++++-----
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+ rename www-client/firefox-developer-bin/{firefox-developer-bin-42.0_alpha1.ebuild => firefox-developer-bin-42.0_alpha2.ebuild} (85%)
 *** syncing open-overlay
 *** synced open-overlay
  * Sync succeeded

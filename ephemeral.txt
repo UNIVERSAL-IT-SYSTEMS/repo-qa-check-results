@@ -371,17 +371,17 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-libs/libconcord-0.24
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-emulation/virt-v2v-0.8.9-r1, attr description\nerror: Metadata Exception: pkg ebuild src: app-emulation/virt-v2v-0.8.9-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-emulation/virt-v2v-0.8.9-r1' @0x7fec8c0ff190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-emulation/virt-v2v-0.8.9-r1, attr description\nerror: Metadata Exception: pkg ebuild src: app-emulation/virt-v2v-0.8.9-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-emulation/virt-v2v-0.8.9-r1' @0x7fcc33771190>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-emulation/virt-v2v-0.9.0, attr description\nerror: Metadata Exception: pkg ebuild src: app-emulation/virt-v2v-0.9.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-emulation/virt-v2v-0.9.0' @0x7fec8c0ff2d0>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-emulation/virt-v2v-0.9.0, attr description\nerror: Metadata Exception: pkg ebuild src: app-emulation/virt-v2v-0.9.0, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-emulation/virt-v2v-0.9.0' @0x7fcc337712d0>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-perl/Archive-Extract-0.72, attr description\nerror: Metadata Exception: pkg ebuild src: dev-perl/Archive-Extract-0.72, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-perl/Archive-Extract-0.72' @0x7fec8c11a410>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-perl/Archive-Extract-0.72, attr description\nerror: Metadata Exception: pkg ebuild src: dev-perl/Archive-Extract-0.72, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-perl/Archive-Extract-0.72' @0x7fcc3378c410>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-perl/DateTime-Format-Epoch-0.13, attr description\nerror: Metadata Exception: pkg ebuild src: dev-perl/DateTime-Format-Epoch-0.13, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-perl/DateTime-Format-Epoch-0.13' @0x7fec8c0ff2d0>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-perl/DateTime-Format-Epoch-0.13, attr description\nerror: Metadata Exception: pkg ebuild src: dev-perl/DateTime-Format-Epoch-0.13, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-perl/DateTime-Format-Epoch-0.13' @0x7fcc337712d0>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-perl/Proc-ParallelLoop-0.5, attr description\nerror: Metadata Exception: pkg ebuild src: dev-perl/Proc-ParallelLoop-0.5, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-perl/Proc-ParallelLoop-0.5' @0x7fec8c11a410>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-perl/Proc-ParallelLoop-0.5, attr description\nerror: Metadata Exception: pkg ebuild src: dev-perl/Proc-ParallelLoop-0.5, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-perl/Proc-ParallelLoop-0.5' @0x7fcc3378c410>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-perl/Term-Prompt-1.04, attr description\nerror: Metadata Exception: pkg ebuild src: dev-perl/Term-Prompt-1.04, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-perl/Term-Prompt-1.04' @0x7fec8c0ff2d0>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-perl/Term-Prompt-1.04, attr description\nerror: Metadata Exception: pkg ebuild src: dev-perl/Term-Prompt-1.04, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-perl/Term-Prompt-1.04' @0x7fcc337712d0>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
 caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-sound/phonoripper-0.10.1-r3, attr description\nerror: Metadata Exception: pkg ebuild src: media-sound/phonoripper-0.10.1-r3, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_s
 !!! ERROR: dev-libs/libconcord-0.23 failed.
@@ -429,9 +429,9 @@ caught exception '%s' while processing '%s'(MetadataException('Metadata Exceptio
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
 
-rc.package'> cpv='media-sound/phonoripper-0.10.1-r3' @0x7fec8c11acd0>)
+rc.package'> cpv='media-sound/phonoripper-0.10.1-r3' @0x7fcc3378ccd0>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-libs/libconcord-0.23, attr description\nerror: Metadata Exception: pkg ebuild src: dev-libs/libconcord-0.23, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-libs/libconcord-0.23' @0x7fec8bc6e050>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-libs/libconcord-0.23, attr description\nerror: Metadata Exception: pkg ebuild src: dev-libs/libconcord-0.23, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-libs/libconcord-0.23' @0x7fcc332e0050>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-libs/libconcord-0.24, attr description\nerror: Metadata Exception: pkg ebuild src: dev-libs/libconcord-0.24, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-libs/libconcord-0.24' @0x7fec8c11acd0>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-libs/libconcord-0.24, attr description\nerror: Metadata Exception: pkg ebuild src: dev-libs/libconcord-0.24, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-libs/libconcord-0.24' @0x7fcc3378ccd0>)
  * Cache regen failed with 1

@@ -16,21 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   8c1f6fc..e5d4497  master     -> origin/master
-Updating 8c1f6fc..e5d4497
-Fast-forward
- media-libs/mlt/Manifest                            |   2 -
- media-libs/mlt/files/mlt-0.7.2-ruby-link.patch     |  18 --
- .../mlt/files/mlt-0.8.2-av_codec_is_encoder.patch  |  32 ----
- media-libs/mlt/mlt-0.8.2.ebuild                    | 176 --------------------
- media-libs/mlt/mlt-0.8.8.ebuild                    | 181 ---------------------
- media-libs/mlt/mlt-0.9.8.ebuild                    |   7 +-
- 6 files changed, 4 insertions(+), 412 deletions(-)
- delete mode 100644 media-libs/mlt/files/mlt-0.7.2-ruby-link.patch
- delete mode 100644 media-libs/mlt/files/mlt-0.8.2-av_codec_is_encoder.patch
- delete mode 100644 media-libs/mlt/mlt-0.8.2.ebuild
- delete mode 100644 media-libs/mlt/mlt-0.8.8.ebuild
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
