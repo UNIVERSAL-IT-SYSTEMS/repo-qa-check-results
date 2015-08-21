@@ -17,22 +17,45 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   b1aaecf..73b3877  master     -> origin/master
-Updating b1aaecf..73b3877
+   73b3877..988ec09  master     -> origin/master
+Updating 73b3877..988ec09
 Fast-forward
- dev-db/mariadb/mariadb-10.0.21.ebuild              |   2 +-
- dev-libs/jsoncpp/jsoncpp-0.10.2-r1.ebuild          |   2 +-
- dev-python/cffi/cffi-1.1.2.ebuild                  |   2 +-
- dev-python/ply/ply-3.6-r1.ebuild                   |   2 +-
- dev-python/pycparser/pycparser-2.14.ebuild         |   2 +-
- dev-util/cmake/cmake-3.2.2.ebuild                  |   2 +-
- .../sane-backends-1.0.25_pre20150628.ebuild        |  19 +-
- media-gfx/sane-backends/sane-backends-9999.ebuild  | 342 +++++++++++++++++++++
- profiles/package.mask                              |   4 -
- sys-apps/pciutils/pciutils-3.3.1.ebuild            |   2 +-
- sys-apps/smartmontools/smartmontools-6.4.ebuild    |   2 +-
- 11 files changed, 364 insertions(+), 17 deletions(-)
- create mode 100644 media-gfx/sane-backends/sane-backends-9999.ebuild
+ dev-python/django-crispy-forms/Manifest            |  1 +
+ .../django-crispy-forms-1.5.1.ebuild               | 33 +++++++++++++++++++
+ dev-python/path-py/Manifest                        |  1 +
+ dev-python/path-py/path-py-7.6.1.ebuild            | 38 ++++++++++++++++++++++
+ dev-python/prompt_toolkit/Manifest                 |  1 +
+ .../prompt_toolkit/prompt_toolkit-0.47.ebuild      | 34 +++++++++++++++++++
+ kde-apps/kdenlive/Manifest                         |  2 ++
+ .../kdenlive/kdenlive-0.9.10.ebuild                |  0
+ .../kdenlive/kdenlive-0.9.8.ebuild                 |  0
+ media-video/kdenlive/Manifest                      |  2 --
+ media-video/kdenlive/metadata.xml                  |  9 -----
+ profiles/updates/3Q-2015                           |  1 +
+ sys-fs/lvm2/lvm2-2.02.103.ebuild                   |  4 +--
+ sys-fs/lvm2/lvm2-2.02.109-r1.ebuild                |  4 +--
+ sys-fs/lvm2/lvm2-2.02.109.ebuild                   |  2 +-
+ sys-fs/lvm2/lvm2-2.02.110.ebuild                   |  4 +--
+ sys-fs/lvm2/lvm2-2.02.116.ebuild                   |  2 +-
+ www-client/google-chrome-beta/Manifest             |  4 +--
+ ...d => google-chrome-beta-45.0.2454.46_p1.ebuild} |  0
+ www-client/google-chrome/Manifest                  |  4 +--
+ ...build => google-chrome-44.0.2403.157_p1.ebuild} |  0
+ www-plugins/chrome-binary-plugins/Manifest         |  8 ++---
+ ... chrome-binary-plugins-44.0.2403.157_p1.ebuild} |  0
+ ...hrome-binary-plugins-45.0.2454.46_beta1.ebuild} |  0
+ 24 files changed, 127 insertions(+), 27 deletions(-)
+ create mode 100644 dev-python/django-crispy-forms/django-crispy-forms-1.5.1.ebuild
+ create mode 100644 dev-python/path-py/path-py-7.6.1.ebuild
+ create mode 100644 dev-python/prompt_toolkit/prompt_toolkit-0.47.ebuild
+ rename {media-video => kde-apps}/kdenlive/kdenlive-0.9.10.ebuild (100%)
+ rename {media-video => kde-apps}/kdenlive/kdenlive-0.9.8.ebuild (100%)
+ delete mode 100644 media-video/kdenlive/Manifest
+ delete mode 100644 media-video/kdenlive/metadata.xml
+ rename www-client/google-chrome-beta/{google-chrome-beta-45.0.2454.37_p1.ebuild => google-chrome-beta-45.0.2454.46_p1.ebuild} (100%)
+ rename www-client/google-chrome/{google-chrome-44.0.2403.155_p1.ebuild => google-chrome-44.0.2403.157_p1.ebuild} (100%)
+ rename www-plugins/chrome-binary-plugins/{chrome-binary-plugins-44.0.2403.155_p1.ebuild => chrome-binary-plugins-44.0.2403.157_p1.ebuild} (100%)
+ rename www-plugins/chrome-binary-plugins/{chrome-binary-plugins-45.0.2454.37_beta1.ebuild => chrome-binary-plugins-45.0.2454.46_beta1.ebuild} (100%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

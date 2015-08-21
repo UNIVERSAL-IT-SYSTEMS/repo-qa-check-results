@@ -13,7 +13,13 @@
  'status': 'unofficial'}
 $ pmaint sync webos
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/feniksa/webos-overlay
+   6c0cde0..88be5b0  master     -> origin/master
+Updating 6c0cde0..88be5b0
+Fast-forward
+ dev-db/indb8/indb8-202.ebuild | 49 +++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 49 insertions(+)
+ create mode 100644 dev-db/indb8/indb8-202.ebuild
 *** syncing webos
 *** synced webos
  * Sync succeeded
