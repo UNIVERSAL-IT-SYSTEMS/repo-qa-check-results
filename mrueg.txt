@@ -16,7 +16,14 @@
  'status': 'unofficial'}
 $ pmaint sync mrueg
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/mrueg
+   976009f..99ee0da  master     -> origin/master
+Updating 976009f..99ee0da
+Fast-forward
+ www-apps/redmine_git_hosting/Manifest                                   | 2 +-
+ ...edmine_git_hosting-1.1.1.ebuild => redmine_git_hosting-1.1.2.ebuild} | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename www-apps/redmine_git_hosting/{redmine_git_hosting-1.1.1.ebuild => redmine_git_hosting-1.1.2.ebuild} (100%)
 *** syncing mrueg
 *** synced mrueg
  * Sync succeeded
