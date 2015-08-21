@@ -17,50 +17,20 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   a97b73f..8c1f6fc  master     -> origin/master
-Updating a97b73f..8c1f6fc
+   8c1f6fc..e5d4497  master     -> origin/master
+Updating 8c1f6fc..e5d4497
 Fast-forward
- dev-java/bctsp/bctsp-1.45-r1.ebuild                |  15 +-
- dev-java/boilerpipe/boilerpipe-1.2.0.ebuild        |   6 +-
- dev-java/cdi-api/cdi-api-1.2.ebuild                |   2 +-
- ...mate-0.9.0.ebuild => classmate-0.9.0-r1.ebuild} |  13 +-
- dev-java/cofoja/Manifest                           |   1 -
- dev-java/cofoja/cofoja-1.1_p150.ebuild             |  45 -----
- media-libs/mlt/mlt-0.9.8.ebuild                    |  22 +--
- www-servers/resin/Manifest                         |   6 -
- www-servers/resin/files/4.0.13/resin.conf          |  16 --
- www-servers/resin/files/4.0.13/resin.init          |  37 ----
- www-servers/resin/files/4.0.14/resin.conf          |  16 --
- www-servers/resin/files/4.0.14/resin.init          |  37 ----
- www-servers/resin/files/4.0.15/resin.conf          |  16 --
- www-servers/resin/files/4.0.15/resin.init          |  37 ----
- www-servers/resin/files/4.0.22/resin.conf          |  16 --
- www-servers/resin/files/4.0.22/resin.init          |  37 ----
- www-servers/resin/files/4.0.25/resin.conf          |  16 --
- www-servers/resin/files/4.0.25/resin.init          |  37 ----
- www-servers/resin/files/4.0.26/resin.conf          |  16 --
- www-servers/resin/files/4.0.26/resin.init          |  37 ----
- www-servers/resin/resin-4.0.22.ebuild              | 186 ---------------------
- www-servers/resin/resin-4.0.25.ebuild              | 186 ---------------------
- www-servers/resin/resin-4.0.26.ebuild              | 182 --------------------
- 23 files changed, 25 insertions(+), 957 deletions(-)
- rename dev-java/classmate/{classmate-0.9.0.ebuild => classmate-0.9.0-r1.ebuild} (81%)
- delete mode 100644 dev-java/cofoja/cofoja-1.1_p150.ebuild
- delete mode 100644 www-servers/resin/files/4.0.13/resin.conf
- delete mode 100644 www-servers/resin/files/4.0.13/resin.init
- delete mode 100644 www-servers/resin/files/4.0.14/resin.conf
- delete mode 100644 www-servers/resin/files/4.0.14/resin.init
- delete mode 100644 www-servers/resin/files/4.0.15/resin.conf
- delete mode 100644 www-servers/resin/files/4.0.15/resin.init
- delete mode 100644 www-servers/resin/files/4.0.22/resin.conf
- delete mode 100644 www-servers/resin/files/4.0.22/resin.init
- delete mode 100644 www-servers/resin/files/4.0.25/resin.conf
- delete mode 100644 www-servers/resin/files/4.0.25/resin.init
- delete mode 100644 www-servers/resin/files/4.0.26/resin.conf
- delete mode 100644 www-servers/resin/files/4.0.26/resin.init
- delete mode 100644 www-servers/resin/resin-4.0.22.ebuild
- delete mode 100644 www-servers/resin/resin-4.0.25.ebuild
- delete mode 100644 www-servers/resin/resin-4.0.26.ebuild
+ media-libs/mlt/Manifest                            |   2 -
+ media-libs/mlt/files/mlt-0.7.2-ruby-link.patch     |  18 --
+ .../mlt/files/mlt-0.8.2-av_codec_is_encoder.patch  |  32 ----
+ media-libs/mlt/mlt-0.8.2.ebuild                    | 176 --------------------
+ media-libs/mlt/mlt-0.8.8.ebuild                    | 181 ---------------------
+ media-libs/mlt/mlt-0.9.8.ebuild                    |   7 +-
+ 6 files changed, 4 insertions(+), 412 deletions(-)
+ delete mode 100644 media-libs/mlt/files/mlt-0.7.2-ruby-link.patch
+ delete mode 100644 media-libs/mlt/files/mlt-0.8.2-av_codec_is_encoder.patch
+ delete mode 100644 media-libs/mlt/mlt-0.8.2.ebuild
+ delete mode 100644 media-libs/mlt/mlt-0.8.8.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
