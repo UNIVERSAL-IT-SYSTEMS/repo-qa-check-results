@@ -17,13 +17,22 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   f692edd..b1aaecf  master     -> origin/master
-Updating f692edd..b1aaecf
+   b1aaecf..73b3877  master     -> origin/master
+Updating b1aaecf..73b3877
 Fast-forward
- kde-base/kdelibs/kdelibs-4.14.11.ebuild |  1 +
- net-misc/spiped/spiped-1.5.0-r1.ebuild  | 43 +++++++++++++++++++++++++++++++++
- 2 files changed, 44 insertions(+)
- create mode 100644 net-misc/spiped/spiped-1.5.0-r1.ebuild
+ dev-db/mariadb/mariadb-10.0.21.ebuild              |   2 +-
+ dev-libs/jsoncpp/jsoncpp-0.10.2-r1.ebuild          |   2 +-
+ dev-python/cffi/cffi-1.1.2.ebuild                  |   2 +-
+ dev-python/ply/ply-3.6-r1.ebuild                   |   2 +-
+ dev-python/pycparser/pycparser-2.14.ebuild         |   2 +-
+ dev-util/cmake/cmake-3.2.2.ebuild                  |   2 +-
+ .../sane-backends-1.0.25_pre20150628.ebuild        |  19 +-
+ media-gfx/sane-backends/sane-backends-9999.ebuild  | 342 +++++++++++++++++++++
+ profiles/package.mask                              |   4 -
+ sys-apps/pciutils/pciutils-3.3.1.ebuild            |   2 +-
+ sys-apps/smartmontools/smartmontools-6.4.ebuild    |   2 +-
+ 11 files changed, 364 insertions(+), 17 deletions(-)
+ create mode 100644 media-gfx/sane-backends/sane-backends-9999.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
