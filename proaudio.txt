@@ -9,7 +9,18 @@
 $ pmaint sync proaudio
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Current branch master is up to date.
+	D	media-sound/samplv1/samplv1-0.6.1.ebuild
+	D	media-sound/samplv1/samplv1-0.6.2.ebuild
+	M	media-sound/samplv1/Manifest
+	A	media-sound/samplv1/samplv1-0.7.0.ebuild
+	M	media-sound/samplv1/ChangeLog
+	M	media-sound/samplv1/samplv1-9999.ebuild
+	A	media-sound/samplv1/samplv1-0.6.3.ebuild
+W: -empty_dir: media-sound/samplv1/samplv1-0.6.1.ebuild
+W: -empty_dir: media-sound/samplv1/samplv1-0.6.2.ebuild
+r2967 = 706d8cdc85b927e502a870baf7da9223590ccba9 (refs/remotes/git-svn)
+First, rewinding head to replay your work on top of it...
+Fast-forwarded master to refs/remotes/git-svn.
 *** syncing proaudio
 *** synced proaudio
  * Sync succeeded
@@ -57,5 +68,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-sound/abraca-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr description\nerror: Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-sound/abraca-9999' @0x7fe04386ccd0>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr description\nerror: Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-sound/abraca-9999' @0x7f8bd6994cd0>)
  * Cache regen failed with 1

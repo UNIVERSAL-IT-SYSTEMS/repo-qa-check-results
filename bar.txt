@@ -15,7 +15,14 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/tokiclover/bar-overlay
+   6a1435c..381f127  master     -> origin/master
+Updating 6a1435c..381f127
+Fast-forward
+ net-misc/dhcpcd/Manifest                                     | 2 +-
+ net-misc/dhcpcd/{dhcpcd-6.9.1.ebuild => dhcpcd-6.9.2.ebuild} | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename net-misc/dhcpcd/{dhcpcd-6.9.1.ebuild => dhcpcd-6.9.2.ebuild} (100%)
 *** syncing bar
 *** synced bar
  * Sync succeeded
