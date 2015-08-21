@@ -15,7 +15,27 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/tokiclover/bar-overlay
+   67f546b..a6047b7  master     -> origin/master
+Updating 67f546b..a6047b7
+Fast-forward
+ media-libs/libutvideo/Manifest                 |    1 +
+ media-libs/libutvideo/files/GNUmakefile        |  179 +++
+ media-libs/libutvideo/files/config.guess       | 1493 ++++++++++++++++++++
+ media-libs/libutvideo/files/config.sub         | 1729 ++++++++++++++++++++++++
+ media-libs/libutvideo/files/configure          |  513 +++++++
+ media-libs/libutvideo/libutvideo-15.2.0.ebuild |   74 +
+ media-libs/libutvideo/libutvideo-9999.ebuild   |   74 +
+ profiles/package.mask                          |    5 +
+ sets/PACKAGE_LIST                              |    1 +
+ 9 files changed, 4069 insertions(+)
+ create mode 100644 media-libs/libutvideo/Manifest
+ create mode 100644 media-libs/libutvideo/files/GNUmakefile
+ create mode 100755 media-libs/libutvideo/files/config.guess
+ create mode 100755 media-libs/libutvideo/files/config.sub
+ create mode 100755 media-libs/libutvideo/files/configure
+ create mode 100644 media-libs/libutvideo/libutvideo-15.2.0.ebuild
+ create mode 100644 media-libs/libutvideo/libutvideo-9999.ebuild
 *** syncing bar
 *** synced bar
  * Sync succeeded

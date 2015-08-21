@@ -16,23 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   e999422..18b673b  master     -> origin/master
-Updating e999422..18b673b
-Fast-forward
- app-backup/backup-manager/metadata.xml        |  3 +++
- app-benchmarks/i7z/i7z-0.27.2.ebuild          |  4 ++--
- app-benchmarks/i7z/metadata.xml               |  1 +
- media-libs/opencv/metadata.xml                |  1 +
- net-analyzer/mtr/metadata.xml                 |  2 +-
- net-analyzer/mtr/mtr-0.86.ebuild              |  3 ++-
- net-analyzer/mtr/mtr-9999.ebuild              |  3 ++-
- net-analyzer/nagstamon/metadata.xml           |  1 +
- net-analyzer/nethogs/nethogs-0.8.0-r4.ebuild  |  4 ++--
- sys-libs/uid_wrapper/Manifest                 |  1 +
- sys-libs/uid_wrapper/uid_wrapper-1.1.1.ebuild | 31 +++++++++++++++++++++++++++
- 11 files changed, 47 insertions(+), 7 deletions(-)
- create mode 100644 sys-libs/uid_wrapper/uid_wrapper-1.1.1.ebuild
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

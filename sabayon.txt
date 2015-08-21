@@ -8,7 +8,17 @@
  'status': 'unofficial'}
 $ pmaint sync sabayon
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Sabayon/for-gentoo
+   cdda2df..b76fe20  master     -> origin/master
+Updating cdda2df..b76fe20
+Fast-forward
+ net-misc/libteam/Manifest            |  1 -
+ net-misc/libteam/libteam-1.10.ebuild | 59 ------------------------------------
+ net-misc/libteam/metadata.xml        | 15 ---------
+ 3 files changed, 75 deletions(-)
+ delete mode 100644 net-misc/libteam/Manifest
+ delete mode 100644 net-misc/libteam/libteam-1.10.ebuild
+ delete mode 100644 net-misc/libteam/metadata.xml
 *** syncing sabayon
 *** synced sabayon
  * Sync succeeded
