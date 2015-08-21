@@ -17,14 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   cd8a8af..47e087a  master     -> origin/master
-Updating cd8a8af..47e087a
+   47e087a..ec8d5c9  master     -> origin/master
+Updating 47e087a..ec8d5c9
 Fast-forward
- dev-python/rsa/Manifest                       |  1 +
- dev-python/rsa/rsa-3.2.ebuild                 | 34 +++++++++++++++++++++++++++
- dev-python/traceback2/traceback2-1.4.0.ebuild |  2 +-
- 3 files changed, 36 insertions(+), 1 deletion(-)
- create mode 100644 dev-python/rsa/rsa-3.2.ebuild
+ dev-python/SaltTesting/Manifest                    |  1 +
+ dev-python/SaltTesting/SaltTesting-2015.5.8.ebuild |  1 -
+ .../SaltTesting/SaltTesting-2015.7.10.ebuild       | 30 ++++++++++++++++++++++
+ 3 files changed, 31 insertions(+), 1 deletion(-)
+ create mode 100644 dev-python/SaltTesting/SaltTesting-2015.7.10.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
