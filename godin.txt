@@ -13,7 +13,14 @@
  'status': 'unofficial'}
 $ pmaint sync godin
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Godin/gentoo-overlay
+   33cf8fa..d901df4  master     -> origin/master
+Updating 33cf8fa..d901df4
+Fast-forward
+ dev-util/sonar-bin/Manifest               |  1 +
+ dev-util/sonar-bin/sonar-bin-4.5.5.ebuild | 65 +++++++++++++++++++++++++++++++
+ 2 files changed, 66 insertions(+)
+ create mode 100644 dev-util/sonar-bin/sonar-bin-4.5.5.ebuild
 *** syncing godin
 *** synced godin
  * Sync succeeded
