@@ -17,20 +17,16 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   31e515b..dd68895  master     -> origin/master
-Updating 31e515b..dd68895
+   dd68895..d5babab  master     -> origin/master
+Updating dd68895..d5babab
 Fast-forward
- dev-ruby/file-tail/file-tail-1.1.0.ebuild          |  2 +-
- sys-kernel/gentoo-sources/Manifest                 |  3 +++
- .../gentoo-sources/gentoo-sources-3.18.20.ebuild   | 29 ++++++++++++++++++++++
- 3 files changed, 33 insertions(+), 1 deletion(-)
- create mode 100644 sys-kernel/gentoo-sources/gentoo-sources-3.18.20.ebuild
+ x11-libs/libdockapp/Manifest                |  1 +
+ x11-libs/libdockapp/libdockapp-0.7.0.ebuild | 46 +++++++++++++++++++++++++++++
+ 2 files changed, 47 insertions(+)
+ create mode 100644 x11-libs/libdockapp/libdockapp-0.7.0.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.18.20 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
