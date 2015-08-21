@@ -17,31 +17,24 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   7912400..b34a209  master     -> origin/master
-Updating 7912400..b34a209
+   b34a209..e9d28fc  master     -> origin/master
+Updating b34a209..e9d28fc
 Fast-forward
- dev-python/cffi/Manifest                       |  1 +
- dev-python/cffi/cffi-1.2.1.ebuild              | 40 ++++++++++++++
- dev-python/ldap3/Manifest                      |  1 +
- dev-python/ldap3/ldap3-0.9.8.8.ebuild          | 29 ++++++++++
- dev-python/patsy/Manifest                      |  1 +
- dev-python/patsy/patsy-0.4.0.ebuild            | 47 +++++++++++++++++
- dev-python/pytables/Manifest                   |  1 +
- dev-python/pytables/pytables-3.2.1.ebuild      | 73 ++++++++++++++++++++++++++
- dev-python/setuptools/Manifest                 |  1 +
- dev-python/setuptools/setuptools-18.2.ebuild   | 51 ++++++++++++++++++
- dev-python/virtualenv/Manifest                 |  1 +
- dev-python/virtualenv/virtualenv-13.1.1.ebuild | 46 ++++++++++++++++
- sys-block/parted/metadata.xml                  | 10 ++--
- sys-block/parted/parted-2.4.ebuild             |  6 +--
- sys-block/parted/parted-3.2.ebuild             | 11 ++--
- 15 files changed, 306 insertions(+), 13 deletions(-)
- create mode 100644 dev-python/cffi/cffi-1.2.1.ebuild
- create mode 100644 dev-python/ldap3/ldap3-0.9.8.8.ebuild
- create mode 100644 dev-python/patsy/patsy-0.4.0.ebuild
- create mode 100644 dev-python/pytables/pytables-3.2.1.ebuild
- create mode 100644 dev-python/setuptools/setuptools-18.2.ebuild
- create mode 100644 dev-python/virtualenv/virtualenv-13.1.1.ebuild
+ app-crypt/signing-party/Manifest                   |   1 +
+ app-crypt/signing-party/signing-party-2.1.ebuild   | 115 +++++++++++++++++++++
+ dev-java/balloontip/balloontip-1.2.1.ebuild        |   8 +-
+ dev-java/commons-beanutils/Manifest                |   1 +
+ .../commons-beanutils-1.9.2.ebuild                 |  65 ++++++++++++
+ .../commons-collections-3.2.1.ebuild               |  58 -----------
+ net-libs/gnutls/Manifest                           |   4 +-
+ ...gnutls-3.3.17.ebuild => gnutls-3.3.17.1.ebuild} |   0
+ .../{gnutls-3.4.4.ebuild => gnutls-3.4.4.1.ebuild} |   0
+ 9 files changed, 188 insertions(+), 64 deletions(-)
+ create mode 100644 app-crypt/signing-party/signing-party-2.1.ebuild
+ create mode 100644 dev-java/commons-beanutils/commons-beanutils-1.9.2.ebuild
+ delete mode 100644 dev-java/commons-collections/commons-collections-3.2.1.ebuild
+ rename net-libs/gnutls/{gnutls-3.3.17.ebuild => gnutls-3.3.17.1.ebuild} (100%)
+ rename net-libs/gnutls/{gnutls-3.4.4.ebuild => gnutls-3.4.4.1.ebuild} (100%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
