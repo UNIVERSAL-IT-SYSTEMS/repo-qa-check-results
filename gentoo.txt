@@ -16,26 +16,10 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   d5babab..5ac3165  master     -> origin/master
-Updating d5babab..5ac3165
-Fast-forward
- sys-kernel/aufs-sources/Manifest                   | 10 ++----
- ...s-3.19.8.ebuild => aufs-sources-3.18.20.ebuild} |  4 +--
- x11-plugins/wmfsm/Manifest                         |  1 +
- x11-plugins/wmfsm/wmfsm-0.36.ebuild                | 36 ++++++++++++++++++++++
- x11-plugins/wmitime/Manifest                       |  1 +
- x11-plugins/wmitime/wmitime-0.5.ebuild             | 33 ++++++++++++++++++++
- 6 files changed, 76 insertions(+), 9 deletions(-)
- rename sys-kernel/aufs-sources/{aufs-sources-3.19.8.ebuild => aufs-sources-3.18.20.ebuild} (97%)
- create mode 100644 x11-plugins/wmfsm/wmfsm-0.36.ebuild
- create mode 100644 x11-plugins/wmitime/wmitime-0.5.ebuild
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sys-kernel/aufs-sources-3.18.20 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
