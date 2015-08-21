@@ -17,11 +17,18 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   29ac83a..bfe1144  master     -> origin/master
-Updating 29ac83a..bfe1144
+   bfe1144..e999422  master     -> origin/master
+Updating bfe1144..e999422
 Fast-forward
- dev-haskell/semigroups/semigroups-0.12.2.ebuild | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ net-misc/plowshare/Manifest                        |  4 +-
+ .../files/plowshare-2.1.0-fix_git_invocation.patch | 56 -------------
+ net-misc/plowshare/metadata.xml                    |  1 -
+ net-misc/plowshare/plowshare-2.0.1.ebuild          | 92 ----------------------
+ ...hare-2.1.0-r1.ebuild => plowshare-2.1.2.ebuild} |  4 +-
+ 5 files changed, 2 insertions(+), 155 deletions(-)
+ delete mode 100644 net-misc/plowshare/files/plowshare-2.1.0-fix_git_invocation.patch
+ delete mode 100644 net-misc/plowshare/plowshare-2.0.1.ebuild
+ rename net-misc/plowshare/{plowshare-2.1.0-r1.ebuild => plowshare-2.1.2.ebuild} (95%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
