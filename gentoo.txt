@@ -16,7 +16,17 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   d6680ee..871c0ed  master     -> origin/master
+Updating d6680ee..871c0ed
+Fast-forward
+ sci-physics/rivet/Manifest           |  1 +
+ sci-physics/rivet/metadata.xml       | 16 ++++++++++
+ sci-physics/rivet/rivet-2.3.0.ebuild | 60 ++++++++++++++++++++++++++++++++++++
+ 3 files changed, 77 insertions(+)
+ create mode 100644 sci-physics/rivet/Manifest
+ create mode 100644 sci-physics/rivet/metadata.xml
+ create mode 100644 sci-physics/rivet/rivet-2.3.0.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

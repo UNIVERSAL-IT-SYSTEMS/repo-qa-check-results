@@ -13,75 +13,7 @@
  'status': 'official'}
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/kde
-   0e3a558..4d1c1f4  master     -> origin/master
-Updating 0e3a558..4d1c1f4
-Fast-forward
- kde-apps/audiocd-kio/Manifest                      |  2 -
- kde-apps/audiocd-kio/audiocd-kio-15.04.3.ebuild    | 33 -----------
- kde-apps/audiocd-kio/audiocd-kio-15.08.0.ebuild    | 33 -----------
- kde-apps/dragon/Manifest                           |  2 -
- kde-apps/dragon/dragon-15.04.3.ebuild              | 20 -------
- kde-apps/dragon/dragon-15.08.0.ebuild              | 39 -------------
- kde-apps/ffmpegthumbs/Manifest                     |  2 -
- kde-apps/ffmpegthumbs/ffmpegthumbs-15.04.3.ebuild  | 18 ------
- kde-apps/ffmpegthumbs/ffmpegthumbs-15.08.0.ebuild  | 18 ------
- kde-apps/juk/Manifest                              |  2 -
- kde-apps/juk/juk-15.04.3.ebuild                    | 27 ---------
- kde-apps/juk/juk-15.08.0.ebuild                    | 27 ---------
- .../kdemultimedia-meta-15.04.3.ebuild              | 28 ---------
- .../kdemultimedia-meta-15.08.0.ebuild              | 28 ---------
- kde-apps/kdenlive/Manifest                         |  2 -
- kde-apps/kdenlive/kdenlive-15.04.3.ebuild          | 63 ---------------------
- kde-apps/kdenlive/kdenlive-15.08.0.ebuild          | 66 ----------------------
- kde-apps/kmix/Manifest                             |  2 -
- kde-apps/kmix/kmix-15.04.3.ebuild                  | 50 ----------------
- kde-apps/kmix/kmix-15.08.0.ebuild                  | 53 -----------------
- kde-apps/kscd/Manifest                             |  2 -
- kde-apps/kscd/kscd-15.04.3.ebuild                  | 19 -------
- kde-apps/kscd/kscd-15.08.0.ebuild                  | 19 -------
- kde-apps/libkcddb/Manifest                         |  2 -
- kde-apps/libkcddb/libkcddb-15.04.3.ebuild          | 41 --------------
- kde-apps/libkcddb/libkcddb-15.08.0.ebuild          | 41 --------------
- kde-apps/libkcompactdisc/Manifest                  |  2 -
- .../libkcompactdisc/libkcompactdisc-15.04.3.ebuild | 18 ------
- .../libkcompactdisc/libkcompactdisc-15.08.0.ebuild | 18 ------
- kde-apps/mplayerthumbs/Manifest                    |  2 -
- .../mplayerthumbs/mplayerthumbs-15.04.3.ebuild     | 23 --------
- .../mplayerthumbs/mplayerthumbs-15.08.0.ebuild     | 23 --------
- 32 files changed, 725 deletions(-)
- delete mode 100644 kde-apps/audiocd-kio/Manifest
- delete mode 100644 kde-apps/audiocd-kio/audiocd-kio-15.04.3.ebuild
- delete mode 100644 kde-apps/audiocd-kio/audiocd-kio-15.08.0.ebuild
- delete mode 100644 kde-apps/dragon/Manifest
- delete mode 100644 kde-apps/dragon/dragon-15.04.3.ebuild
- delete mode 100644 kde-apps/dragon/dragon-15.08.0.ebuild
- delete mode 100644 kde-apps/ffmpegthumbs/Manifest
- delete mode 100644 kde-apps/ffmpegthumbs/ffmpegthumbs-15.04.3.ebuild
- delete mode 100644 kde-apps/ffmpegthumbs/ffmpegthumbs-15.08.0.ebuild
- delete mode 100644 kde-apps/juk/Manifest
- delete mode 100644 kde-apps/juk/juk-15.04.3.ebuild
- delete mode 100644 kde-apps/juk/juk-15.08.0.ebuild
- delete mode 100644 kde-apps/kdemultimedia-meta/kdemultimedia-meta-15.04.3.ebuild
- delete mode 100644 kde-apps/kdemultimedia-meta/kdemultimedia-meta-15.08.0.ebuild
- delete mode 100644 kde-apps/kdenlive/Manifest
- delete mode 100644 kde-apps/kdenlive/kdenlive-15.04.3.ebuild
- delete mode 100644 kde-apps/kdenlive/kdenlive-15.08.0.ebuild
- delete mode 100644 kde-apps/kmix/Manifest
- delete mode 100644 kde-apps/kmix/kmix-15.04.3.ebuild
- delete mode 100644 kde-apps/kmix/kmix-15.08.0.ebuild
- delete mode 100644 kde-apps/kscd/Manifest
- delete mode 100644 kde-apps/kscd/kscd-15.04.3.ebuild
- delete mode 100644 kde-apps/kscd/kscd-15.08.0.ebuild
- delete mode 100644 kde-apps/libkcddb/Manifest
- delete mode 100644 kde-apps/libkcddb/libkcddb-15.04.3.ebuild
- delete mode 100644 kde-apps/libkcddb/libkcddb-15.08.0.ebuild
- delete mode 100644 kde-apps/libkcompactdisc/Manifest
- delete mode 100644 kde-apps/libkcompactdisc/libkcompactdisc-15.04.3.ebuild
- delete mode 100644 kde-apps/libkcompactdisc/libkcompactdisc-15.08.0.ebuild
- delete mode 100644 kde-apps/mplayerthumbs/Manifest
- delete mode 100644 kde-apps/mplayerthumbs/mplayerthumbs-15.04.3.ebuild
- delete mode 100644 kde-apps/mplayerthumbs/mplayerthumbs-15.08.0.ebuild
+Already up-to-date.
 *** syncing kde
 *** synced kde
  * Sync succeeded
