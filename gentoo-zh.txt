@@ -8,7 +8,14 @@
  'status': 'unofficial'}
 $ pmaint sync gentoo-zh
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/microcai/gentoo-zh
+   18aac82..c43ae4f  master     -> origin/master
+Updating 18aac82..c43ae4f
+Fast-forward
+ app-office/wps-office/Manifest                                        | 4 ++--
+ ....0.4968_alpha19.ebuild => wps-office-9.1.0.4975_alpha19_p1.ebuild} | 3 +++
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+ rename app-office/wps-office/{wps-office-9.1.0.4968_alpha19.ebuild => wps-office-9.1.0.4975_alpha19_p1.ebuild} (94%)
 *** syncing gentoo-zh
 *** synced gentoo-zh
  * Sync succeeded
