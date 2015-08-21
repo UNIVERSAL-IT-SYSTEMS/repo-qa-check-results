@@ -11,7 +11,14 @@ WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profil
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/sync/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://git.calculate.ru/calculate/overlay
+   f208e04..9c07108  master     -> origin/master
+Updating f208e04..9c07108
+Fast-forward
+ .../2-user/x11-themes/calculate-xcursors-14/.calculate_directory        | 2 +-
+ .../{calculate-xcursors-14.ebuild => calculate-xcursors-14-r1.ebuild}   | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename x11-themes/calculate-xcursors/{calculate-xcursors-14.ebuild => calculate-xcursors-14-r1.ebuild} (100%)
 *** syncing calculate
 *** synced calculate
  * Sync succeeded

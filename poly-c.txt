@@ -39,7 +39,7 @@ receiving incremental file list
 timestamp.chk
 
 Number of files: 1 (reg: 1)
-Number of created files: 0
+Number of created files: 1 (reg: 1)
 Number of deleted files: 0
 Number of regular files transferred: 1
 Total file size: 32 bytes
@@ -54,74 +54,6 @@ Total bytes received: 131
 
 sent 85 bytes  received 131 bytes  86.40 bytes/sec
 total size is 32  speedup is 0.15
--------------------------------------------------------------------------------
-| Welcome to rsync on gentoofan.no-ip.org:873                                 |
-| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
-| Thus this server only has a dynamic IP I cannot stat it here.               |
--------------------------------------------------------------------------------
-
-  ,-~~-.___.
- / |  '     \
-(  )        0
- \_/-, ,----'
-    ====           //
-   /  \-'~;    /~~~(O)
-  /  __/~|   /       |
-=(  _____| (_________|
-
- server specs:
-    -CPU		Intel Atom-330 (2x 1,6 GHz)
-    -RAM		2048 MB PC2-533
-    -OS			Gentoo GNU/Linux (Kernel 3.x)
-    -BANDWIDTH		ADSL (16000/1024)
-    -LIMIT		3 users (concurrently)
-    -LOCATION		Ludwigshafen / Germany
-    -CONTACT		polynomial-c@gentoo.org
-
--------------------------------------------------------------------------------
-
-receiving incremental file list
-./
-metadata/
-metadata/timestamp.chk
-metadata/md5-cache/
-deleting kde-base/kdelibs/files/dist/02_gentoo_append_xdg_config_dirs-1.patch
-deleting kde-base/kdelibs/files/dist/01_gentoo_set_xdg_menu_prefix-1.patch
-deleting kde-base/kdelibs/files/dist/
-deleting kde-base/kdelibs/files/kdelibs-4.9.3-werror.patch
-deleting kde-base/kdelibs/files/kdelibs-4.8.1-norpath.patch
-deleting kde-base/kdelibs/files/kdelibs-4.6.3-no_suid_kdeinit.patch
-deleting kde-base/kdelibs/files/kdelibs-4.4.90-xslt.patch
-deleting kde-base/kdelibs/files/kdelibs-4.3.80-kdeui_util_kkeyserver_mac.patch
-deleting kde-base/kdelibs/files/kdelibs-4.14.5-mimetypes.patch
-deleting kde-base/kdelibs/files/kdelibs-4.14.5-fatalwarnings.patch
-deleting kde-base/kdelibs/files/kdelibs-4.14.11-cmake_breakage.patch
-deleting kde-base/kdelibs/files/kdelibs-4.10.0-udisks.patch
-deleting kde-base/kdelibs/files/
-deleting kde-base/kdelibs/kdelibs-4.14.11.ebuild
-deleting kde-base/kdelibs/Manifest
-deleting kde-base/kdelibs/
-deleting kde-base/
-deleting metadata/.tmp.timestamp.chk
-deleting metadata/md5-cache/kde-base/kdelibs-4.14.11
-deleting metadata/md5-cache/kde-base/
-
-Number of files: 1,185 (reg: 899, dir: 286)
-Number of created files: 0
-Number of deleted files: 20 (reg: 15, dir: 5)
-Number of regular files transferred: 1
-Total file size: 3.26M bytes
-Total transferred file size: 32 bytes
-Literal data: 32 bytes
-Matched data: 0 bytes
-File list size: 33.51K
-File list generation time: 0.001 seconds
-File list transfer time: 0.000 seconds
-Total bytes sent: 425
-Total bytes received: 38.08K
-
-sent 425 bytes  received 38.08K bytes  15.40K bytes/sec
-total size is 3.26M  speedup is 84.77
 *** syncing poly-c
 *** synced poly-c
  * Sync succeeded
