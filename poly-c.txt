@@ -39,7 +39,7 @@ receiving incremental file list
 timestamp.chk
 
 Number of files: 1 (reg: 1)
-Number of created files: 0
+Number of created files: 1 (reg: 1)
 Number of deleted files: 0
 Number of regular files transferred: 1
 Total file size: 32 bytes
@@ -54,71 +54,6 @@ Total bytes received: 133
 
 sent 85 bytes  received 133 bytes  87.20 bytes/sec
 total size is 32  speedup is 0.15
--------------------------------------------------------------------------------
-| Welcome to rsync on gentoofan.no-ip.org:873                                 |
-| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
-| Thus this server only has a dynamic IP I cannot stat it here.               |
--------------------------------------------------------------------------------
-
-  ,-~~-.___.
- / |  '     \
-(  )        0
- \_/-, ,----'
-    ====           //
-   /  \-'~;    /~~~(O)
-  /  __/~|   /       |
-=(  _____| (_________|
-
- server specs:
-    -CPU		Intel Atom-330 (2x 1,6 GHz)
-    -RAM		2048 MB PC2-533
-    -OS			Gentoo GNU/Linux (Kernel 3.x)
-    -BANDWIDTH		ADSL (16000/1024)
-    -LIMIT		3 users (concurrently)
-    -LOCATION		Ludwigshafen / Germany
-    -CONTACT		polynomial-c@gentoo.org
-
--------------------------------------------------------------------------------
-
-receiving incremental file list
-games-fps/rtcw/
-games-fps/rtcw/Manifest
-games-fps/rtcw/rtcw-1.42b.ebuild
-games-fps/rtcw/rtcw-9999.ebuild
-metadata/
-metadata/timestamp.chk
-metadata/md5-cache/games-fps/
-metadata/md5-cache/games-fps/rtcw-1.42b
-metadata/md5-cache/games-fps/rtcw-9999
-metadata/md5-cache/net-misc/
-metadata/md5-cache/net-misc/dhcpcd-6.9.2_pre
-metadata/md5-cache/net-misc/openssh-7.1_p1_pre
-net-misc/dhcpcd/
-net-misc/dhcpcd/Manifest
-net-misc/dhcpcd/dhcpcd-6.9.2_pre.ebuild
-net-misc/openssh/
-net-misc/openssh/Manifest
-net-misc/openssh/openssh-7.1_p1_pre.ebuild
-net-misc/openssh/files/
-net-misc/openssh/files/openssh-7.0_p1-sctp-x509-glue.patch
-deleting metadata/.tmp.timestamp.chk
-
-Number of files: 1,204 (reg: 913, dir: 291)
-Number of created files: 5 (reg: 5)
-Number of deleted files: 1 (reg: 1)
-Number of regular files transferred: 13
-Total file size: 3.30M bytes
-Total transferred file size: 50.11K bytes
-Literal data: 50.11K bytes
-Matched data: 0 bytes
-File list size: 36.39K
-File list generation time: 0.001 seconds
-File list transfer time: 0.000 seconds
-Total bytes sent: 694
-Total bytes received: 64.00K
-
-sent 694 bytes  received 64.00K bytes  18.48K bytes/sec
-total size is 3.30M  speedup is 50.96
 *** syncing poly-c
 *** synced poly-c
  * Sync succeeded

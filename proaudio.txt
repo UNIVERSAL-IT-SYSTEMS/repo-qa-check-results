@@ -9,16 +9,21 @@
 $ pmaint sync proaudio
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-	D	media-sound/samplv1/samplv1-0.6.1.ebuild
-	D	media-sound/samplv1/samplv1-0.6.2.ebuild
-	M	media-sound/samplv1/Manifest
-	A	media-sound/samplv1/samplv1-0.7.0.ebuild
-	M	media-sound/samplv1/ChangeLog
-	M	media-sound/samplv1/samplv1-9999.ebuild
-	A	media-sound/samplv1/samplv1-0.6.3.ebuild
-W: -empty_dir: media-sound/samplv1/samplv1-0.6.1.ebuild
-W: -empty_dir: media-sound/samplv1/samplv1-0.6.2.ebuild
-r2967 = 706d8cdc85b927e502a870baf7da9223590ccba9 (refs/remotes/git-svn)
+	M	media-sound/synthv1/ChangeLog
+	M	media-sound/synthv1/synthv1-0.7.0.ebuild
+	M	media-sound/synthv1/synthv1-9999.ebuild
+	M	media-sound/synthv1/Manifest
+r2968 = 6e1d7d7225094825b8f9ec60975203a37d17c030 (refs/remotes/git-svn)
+	D	media-sound/drumkv1/drumkv1-0.6.1.ebuild
+	D	media-sound/drumkv1/drumkv1-0.6.2.ebuild
+	M	media-sound/drumkv1/Manifest
+	M	media-sound/drumkv1/ChangeLog
+	A	media-sound/drumkv1/drumkv1-0.7.0.ebuild
+	M	media-sound/drumkv1/drumkv1-9999.ebuild
+	A	media-sound/drumkv1/drumkv1-0.6.3.ebuild
+W: -empty_dir: media-sound/drumkv1/drumkv1-0.6.1.ebuild
+W: -empty_dir: media-sound/drumkv1/drumkv1-0.6.2.ebuild
+r2969 = 125ba9292dbfe3cad6e7ca5fd4a2c145c3ed02ba (refs/remotes/git-svn)
 First, rewinding head to replay your work on top of it...
 Fast-forwarded master to refs/remotes/git-svn.
 *** syncing proaudio
@@ -68,5 +73,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-sound/abraca-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr description\nerror: Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-sound/abraca-9999' @0x7f8bd6994cd0>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr description\nerror: Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-sound/abraca-9999' @0x7f980a2d7cd0>)
  * Cache regen failed with 1
