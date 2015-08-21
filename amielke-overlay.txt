@@ -10,71 +10,7 @@
 $ pmaint sync amielke-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/amielke/amielke-overlay
-   6d937d5..b08ecc9  master     -> origin/master
-Updating 6d937d5..b08ecc9
-Fast-forward
- media-video/vdrconvert/ChangeLog                   |  79 --------
- media-video/vdrconvert/Manifest                    | 117 ------------
- .../files/0.2.1/commands.vdrconvert.conf           |   6 -
- media-video/vdrconvert/files/0.2.1/grab.sh         |  31 ---
- .../vdrconvert/files/0.2.1/rc-vdrconvert.sh        |  38 ----
- .../vdrconvert/files/0.2.1/reccmds.vdrconvert.conf |  49 -----
- media-video/vdrconvert/files/0.2.1/vdrconvert      |  23 ---
- .../files/0.2.1/vdrconvert-0.2.1-chown.diff        |  24 ---
- media-video/vdrconvert/files/0.2.1/vdrconvert.burn |  31 ---
- media-video/vdrconvert/files/0.2.1/vdrconvert.divx |  27 ---
- media-video/vdrconvert/files/0.2.1/vdrconvert.dvd  |  84 ---------
- media-video/vdrconvert/files/0.2.1/vdrconvert.env  |  29 ---
- .../vdrconvert/files/0.2.1/vdrconvert.global       |  73 --------
- media-video/vdrconvert/files/0.2.1/vdrconvert.mp3  |  12 --
- media-video/vdrconvert/files/0.2.1/vdrconvert.mpeg |   7 -
- media-video/vdrconvert/files/0.2.1/vdrconvert.vcd  |  15 --
- .../vdrconvert/files/0.2.1/vdrsync-path.diff       |  72 -------
- .../vdrconvert/files/VDRConvert-commands.conf      |   5 -
- .../vdrconvert/files/VDRconvert-en-reccmds.conf    |  28 ---
- .../vdrconvert/files/VDRconvert-reccmds.conf       |  28 ---
- .../vdrconvert/files/digest-vdrconvert-0.1.1       |   6 -
- .../vdrconvert/files/digest-vdrconvert-0.2.1-r1    |   3 -
- media-video/vdrconvert/files/reccmds.conf          |  26 ---
- .../vdrconvert/files/vdr2divx-0.1.1-fix.diff       |   8 -
- .../vdrconvert/files/vdr2dvd-0.1.1-fix-label.diff  | 208 ---------------------
- media-video/vdrconvert/files/vdrconvert            |  67 -------
- media-video/vdrconvert/files/vdrconvert-0.1.1.env  |  57 ------
- media-video/vdrconvert/metadata.xml                |   9 -
- media-video/vdrconvert/vdrconvert-0.1.1.ebuild     | 145 --------------
- media-video/vdrconvert/vdrconvert-0.2.1-r1.ebuild  | 144 --------------
- 30 files changed, 1451 deletions(-)
- delete mode 100644 media-video/vdrconvert/ChangeLog
- delete mode 100644 media-video/vdrconvert/Manifest
- delete mode 100644 media-video/vdrconvert/files/0.2.1/commands.vdrconvert.conf
- delete mode 100644 media-video/vdrconvert/files/0.2.1/grab.sh
- delete mode 100644 media-video/vdrconvert/files/0.2.1/rc-vdrconvert.sh
- delete mode 100644 media-video/vdrconvert/files/0.2.1/reccmds.vdrconvert.conf
- delete mode 100644 media-video/vdrconvert/files/0.2.1/vdrconvert
- delete mode 100644 media-video/vdrconvert/files/0.2.1/vdrconvert-0.2.1-chown.diff
- delete mode 100644 media-video/vdrconvert/files/0.2.1/vdrconvert.burn
- delete mode 100644 media-video/vdrconvert/files/0.2.1/vdrconvert.divx
- delete mode 100644 media-video/vdrconvert/files/0.2.1/vdrconvert.dvd
- delete mode 100644 media-video/vdrconvert/files/0.2.1/vdrconvert.env
- delete mode 100644 media-video/vdrconvert/files/0.2.1/vdrconvert.global
- delete mode 100644 media-video/vdrconvert/files/0.2.1/vdrconvert.mp3
- delete mode 100644 media-video/vdrconvert/files/0.2.1/vdrconvert.mpeg
- delete mode 100644 media-video/vdrconvert/files/0.2.1/vdrconvert.vcd
- delete mode 100644 media-video/vdrconvert/files/0.2.1/vdrsync-path.diff
- delete mode 100644 media-video/vdrconvert/files/VDRConvert-commands.conf
- delete mode 100644 media-video/vdrconvert/files/VDRconvert-en-reccmds.conf
- delete mode 100644 media-video/vdrconvert/files/VDRconvert-reccmds.conf
- delete mode 100644 media-video/vdrconvert/files/digest-vdrconvert-0.1.1
- delete mode 100644 media-video/vdrconvert/files/digest-vdrconvert-0.2.1-r1
- delete mode 100644 media-video/vdrconvert/files/reccmds.conf
- delete mode 100644 media-video/vdrconvert/files/vdr2divx-0.1.1-fix.diff
- delete mode 100644 media-video/vdrconvert/files/vdr2dvd-0.1.1-fix-label.diff
- delete mode 100644 media-video/vdrconvert/files/vdrconvert
- delete mode 100644 media-video/vdrconvert/files/vdrconvert-0.1.1.env
- delete mode 100644 media-video/vdrconvert/metadata.xml
- delete mode 100644 media-video/vdrconvert/vdrconvert-0.1.1.ebuild
- delete mode 100644 media-video/vdrconvert/vdrconvert-0.2.1-r1.ebuild
+Already up-to-date.
 *** syncing amielke-overlay
 *** synced amielke-overlay
  * Sync succeeded

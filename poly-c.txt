@@ -36,23 +36,88 @@ WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profil
 -------------------------------------------------------------------------------
 
 receiving incremental file list
+timestamp.chk
 
 Number of files: 1 (reg: 1)
 Number of created files: 0
 Number of deleted files: 0
-Number of regular files transferred: 0
+Number of regular files transferred: 1
 Total file size: 32 bytes
-Total transferred file size: 0 bytes
-Literal data: 0 bytes
+Total transferred file size: 32 bytes
+Literal data: 32 bytes
 Matched data: 0 bytes
 File list size: 46
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 62
-Total bytes received: 57
+Total bytes sent: 85
+Total bytes received: 132
 
-sent 62 bytes  received 57 bytes  47.60 bytes/sec
-total size is 32  speedup is 0.27
+sent 85 bytes  received 132 bytes  86.80 bytes/sec
+total size is 32  speedup is 0.15
+-------------------------------------------------------------------------------
+| Welcome to rsync on gentoofan.no-ip.org:873                                 |
+| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
+| Thus this server only has a dynamic IP I cannot stat it here.               |
+-------------------------------------------------------------------------------
+
+  ,-~~-.___.
+ / |  '     \
+(  )        0
+ \_/-, ,----'
+    ====           //
+   /  \-'~;    /~~~(O)
+  /  __/~|   /       |
+=(  _____| (_________|
+
+ server specs:
+    -CPU		Intel Atom-330 (2x 1,6 GHz)
+    -RAM		2048 MB PC2-533
+    -OS			Gentoo GNU/Linux (Kernel 3.x)
+    -BANDWIDTH		ADSL (16000/1024)
+    -LIMIT		3 users (concurrently)
+    -LOCATION		Ludwigshafen / Germany
+    -CONTACT		polynomial-c@gentoo.org
+
+-------------------------------------------------------------------------------
+
+receiving incremental file list
+games-fps/rtcw/
+games-fps/rtcw/Manifest
+games-fps/rtcw/rtcw-1.42b.ebuild
+games-fps/rtcw/rtcw-9999.ebuild
+metadata/
+metadata/timestamp.chk
+metadata/md5-cache/app-cdr/
+metadata/md5-cache/app-cdr/k3b-2.0.3-r2
+metadata/md5-cache/dev-util/
+metadata/md5-cache/dev-util/kdevplatform-1.7.1
+metadata/md5-cache/games-fps/
+metadata/md5-cache/games-fps/rtcw-1.42b
+metadata/md5-cache/games-fps/rtcw-9999
+metadata/md5-cache/kde-base/
+metadata/md5-cache/kde-base/kdelibs-4.14.11
+metadata/md5-cache/kde-misc/
+metadata/md5-cache/kde-misc/kaption-0.1.1
+metadata/md5-cache/net-misc/
+metadata/md5-cache/net-misc/knemo-0.7.6-r2
+deleting metadata/.tmp.timestamp.chk
+
+Number of files: 1,199 (reg: 908, dir: 291)
+Number of created files: 2 (reg: 2)
+Number of deleted files: 1 (reg: 1)
+Number of regular files transferred: 11
+Total file size: 3.27M bytes
+Total transferred file size: 38.10K bytes
+Literal data: 38.10K bytes
+Matched data: 0 bytes
+File list size: 36.72K
+File list generation time: 0.001 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 659
+Total bytes received: 52.70K
+
+sent 659 bytes  received 52.70K bytes  15.24K bytes/sec
+total size is 3.27M  speedup is 61.37
 *** syncing poly-c
 *** synced poly-c
  * Sync succeeded
