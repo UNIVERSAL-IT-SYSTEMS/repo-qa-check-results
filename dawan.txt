@@ -13,14 +13,14 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/dawan.git'}],
  'status': 'unofficial'}
 $ pmaint sync dawan
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing dawan
 *** synced dawan
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 dawan
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

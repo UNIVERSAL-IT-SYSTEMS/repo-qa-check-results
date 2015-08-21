@@ -17,25 +17,13 @@
  'status': 'official'}
 $ pmaint sync science
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/sci
-   faa03fe..3a687ca  master     -> origin/master
-Updating faa03fe..3a687ca
-Fast-forward
- eclass/mpi.eclass                             |  23 ++-
- sci-biology/salmon/ChangeLog                  |   6 +
- sci-biology/salmon/Manifest                   |   1 +
- sci-biology/salmon/salmon-0.3.2.ebuild        |   4 +
- sci-biology/salmon/salmon-0.4.2.ebuild        |  22 +++
- sci-biology/salmon/salmon-9999.ebuild         |   4 +
- sci-chemistry/gromacs/ChangeLog               |   5 +
- sci-chemistry/gromacs/gromacs-5.1.9999.ebuild | 269 ++++++++++++++++++++++++++
- 8 files changed, 330 insertions(+), 4 deletions(-)
- create mode 100644 sci-biology/salmon/salmon-0.4.2.ebuild
- create mode 100644 sci-chemistry/gromacs/gromacs-5.1.9999.ebuild
+Already up-to-date.
 *** syncing science
 *** synced science
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 science
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully
