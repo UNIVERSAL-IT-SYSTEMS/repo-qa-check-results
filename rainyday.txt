@@ -7,9 +7,7 @@
  'source': [{'type': 'git', 'uri': 'git://github.com/iegor/rainyday.git'}],
  'status': 'unofficial'}
 $ pmaint sync rainyday
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing rainyday
@@ -241,6 +239,7 @@ error: parsed eapi '5' doesn't match sourced eapi '2' while processing ebuild sr
 error: parsed eapi '0' doesn't match sourced eapi '5' while processing ebuild src: dev-perl/DCOP-Amarok-Player-0.036
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-Player-0.037
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-perl/DCOP-Amarok-0.035
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))

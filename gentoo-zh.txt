@@ -7,17 +7,8 @@
  'source': [{'type': 'git', 'uri': 'git://github.com/microcai/gentoo-zh.git'}],
  'status': 'unofficial'}
 $ pmaint sync gentoo-zh
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
-From git://github.com/microcai/gentoo-zh
-   b0d5a2f..18aac82  master     -> origin/master
-Updating b0d5a2f..18aac82
-Fast-forward
- sys-kernel/e-sources/Manifest                              | 10 ++++++----
- .../{e-sources-4.1.3.ebuild => e-sources-4.1.6.ebuild}     | 14 +++++++-------
- 2 files changed, 13 insertions(+), 11 deletions(-)
- rename sys-kernel/e-sources/{e-sources-4.1.3.ebuild => e-sources-4.1.6.ebuild} (66%)
+Already up-to-date.
 *** syncing gentoo-zh
 *** synced gentoo-zh
  * Sync succeeded

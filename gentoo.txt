@@ -14,19 +14,9 @@
              'uri': 'git://anongit.gentoo.org/repo/gentoo.git'}],
  'status': 'official'}
 $ pmaint sync gentoo
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   4febb67..60f3428  master     -> origin/master
-Updating 4febb67..60f3428
-Fast-forward
- dev-lang/go/Manifest       |   1 +
- dev-lang/go/go-1.5.ebuild  | 208 +++++++++++++++++++++++++++++++++++++++++++++
- dev-lang/go/go-9999.ebuild | 109 +++++++++++++++++++++---
- 3 files changed, 304 insertions(+), 14 deletions(-)
- create mode 100644 dev-lang/go/go-1.5.ebuild
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
