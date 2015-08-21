@@ -68,7 +68,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 !!! The die message:
 !!!  inherit for php-ext-base-r1 failed
 
-sandbox:stop  caught signal 15 in pid 32012
+sandbox:stop  caught signal 15 in pid 10587
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: dev-python/g-pypi-0.4 failed.
@@ -96,7 +96,7 @@ Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, php-ext-base-r1 cannot be found while processing ebuild src: dev-php5/ioncube-3.3.7
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-python/g-pypi-0.4
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-php5/ioncube-3.3.7, attr description\nerror: Metadata Exception: pkg ebuild src: dev-php5/ioncube-3.3.7, attr data\nerror: inherit requires an unknown eclass, php-ext-base-r1 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-php5/ioncube-3.3.7' @0x7f98c3f78410>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-php5/ioncube-3.3.7, attr description\nerror: Metadata Exception: pkg ebuild src: dev-php5/ioncube-3.3.7, attr data\nerror: inherit requires an unknown eclass, php-ext-base-r1 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-php5/ioncube-3.3.7' @0x7f9201c16410>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-python/g-pypi-0.4, attr description\nerror: Metadata Exception: pkg ebuild src: dev-python/g-pypi-0.4, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-python/g-pypi-0.4' @0x7f98c3f78550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-python/g-pypi-0.4, attr description\nerror: Metadata Exception: pkg ebuild src: dev-python/g-pypi-0.4, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-python/g-pypi-0.4' @0x7f9201c16550>)
  * Cache regen failed with 1
