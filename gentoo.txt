@@ -17,12 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   50c0111..cd8a8af  master     -> origin/master
-Updating 50c0111..cd8a8af
+   cd8a8af..47e087a  master     -> origin/master
+Updating cd8a8af..47e087a
 Fast-forward
- dev-python/linecache2/linecache2-1.0.0.ebuild | 2 +-
- dev-python/rsa/rsa-3.1.4-r1.ebuild            | 2 +-
- 2 files changed, 2 insertions(+), 2 deletions(-)
+ dev-python/rsa/Manifest                       |  1 +
+ dev-python/rsa/rsa-3.2.ebuild                 | 34 +++++++++++++++++++++++++++
+ dev-python/traceback2/traceback2-1.4.0.ebuild |  2 +-
+ 3 files changed, 36 insertions(+), 1 deletion(-)
+ create mode 100644 dev-python/rsa/rsa-3.2.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
