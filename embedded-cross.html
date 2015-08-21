@@ -296,71 +296,73 @@
 </pre></td></tr>
             <tr class="err" id="l143"><td><a href="#l143"><span>143</span></a></td><td><pre>!!! caught exception False while processing ebuild src: app-editors/vim-core-7.1.330
 </pre></td><td>[FATAL]</td></tr>
-            <tr class="" id="l144"><td><a href="#l144"><span>144</span></a></td><td><pre>Traceback (most recent call last):
+            <tr class="err" id="l144"><td><a href="#l144"><span>144</span></a></td><td><pre>!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-editors/vim-core-7.2.303
+</pre></td><td>[FATAL]</td></tr>
+            <tr class="" id="l145"><td><a href="#l145"><span>145</span></a></td><td><pre>Traceback (most recent call last):
 </pre></td></tr>
-            <tr class="" id="l145"><td><a href="#l145"><span>145</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in &lt;module&gt;
+            <tr class="" id="l146"><td><a href="#l146"><span>146</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in &lt;module&gt;
 </pre></td></tr>
-            <tr class="" id="l146"><td><a href="#l146"><span>146</span></a></td><td><pre>    scripts.main(basename(__file__))
+            <tr class="" id="l147"><td><a href="#l147"><span>147</span></a></td><td><pre>    scripts.main(basename(__file__))
 </pre></td></tr>
-            <tr class="" id="l147"><td><a href="#l147"><span>147</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/__init__.py", line 43, in main
+            <tr class="" id="l148"><td><a href="#l148"><span>148</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/__init__.py", line 43, in main
 </pre></td></tr>
-            <tr class="" id="l148"><td><a href="#l148"><span>148</span></a></td><td><pre>    commandline.main(subcommands)
+            <tr class="" id="l149"><td><a href="#l149"><span>149</span></a></td><td><pre>    commandline.main(subcommands)
 </pre></td></tr>
-            <tr class="" id="l149"><td><a href="#l149"><span>149</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/util/commandline.py", line 915, in main
+            <tr class="" id="l150"><td><a href="#l150"><span>150</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/util/commandline.py", line 915, in main
 </pre></td></tr>
-            <tr class="" id="l150"><td><a href="#l150"><span>150</span></a></td><td><pre>    exitstatus = main_func(options, out, err)
+            <tr class="" id="l151"><td><a href="#l151"><span>151</span></a></td><td><pre>    exitstatus = main_func(options, out, err)
 </pre></td></tr>
-            <tr class="" id="l151"><td><a href="#l151"><span>151</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/pmaint.py", line 272, in regen_main
+            <tr class="" id="l152"><td><a href="#l152"><span>152</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/scripts/pmaint.py", line 272, in regen_main
 </pre></td></tr>
-            <tr class="" id="l152"><td><a href="#l152"><span>152</span></a></td><td><pre>    eclass_caching=(not options.disable_eclass_caching))
+            <tr class="" id="l153"><td><a href="#l153"><span>153</span></a></td><td><pre>    eclass_caching=(not options.disable_eclass_caching))
 </pre></td></tr>
-            <tr class="" id="l153"><td><a href="#l153"><span>153</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/__init__.py", line 68, in _recast_exception_decorator
+            <tr class="" id="l154"><td><a href="#l154"><span>154</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/__init__.py", line 68, in _recast_exception_decorator
 </pre></td></tr>
-            <tr class="" id="l154"><td><a href="#l154"><span>154</span></a></td><td><pre>    return functor(*args, **kwds)
+            <tr class="" id="l155"><td><a href="#l155"><span>155</span></a></td><td><pre>    return functor(*args, **kwds)
 </pre></td></tr>
-            <tr class="" id="l155"><td><a href="#l155"><span>155</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/repo.py", line 236, in _cmd_api_regen_cache
+            <tr class="" id="l156"><td><a href="#l156"><span>156</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/repo.py", line 236, in _cmd_api_regen_cache
 </pre></td></tr>
-            <tr class="" id="l156"><td><a href="#l156"><span>156</span></a></td><td><pre>    self._get_observer(observer), threads=threads, **options)
+            <tr class="" id="l157"><td><a href="#l157"><span>157</span></a></td><td><pre>    self._get_observer(observer), threads=threads, **options)
 </pre></td></tr>
-            <tr class="" id="l157"><td><a href="#l157"><span>157</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 41, in regen_repository
+            <tr class="" id="l158"><td><a href="#l158"><span>158</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 41, in regen_repository
 </pre></td></tr>
-            <tr class="" id="l158"><td><a href="#l158"><span>158</span></a></td><td><pre>    regen_iter(passthru(repo), _get_repo_helper(), observer)
+            <tr class="" id="l159"><td><a href="#l159"><span>159</span></a></td><td><pre>    regen_iter(passthru(repo), _get_repo_helper(), observer)
 </pre></td></tr>
-            <tr class="" id="l159"><td><a href="#l159"><span>159</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+            <tr class="" id="l160"><td><a href="#l160"><span>160</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
 </pre></td></tr>
-            <tr class="" id="l160"><td><a href="#l160"><span>160</span></a></td><td><pre>    regen_func(x)
+            <tr class="" id="l161"><td><a href="#l161"><span>161</span></a></td><td><pre>    regen_func(x)
 </pre></td></tr>
-            <tr class="" id="l161"><td><a href="#l161"><span>161</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 529, in __call__
+            <tr class="" id="l162"><td><a href="#l162"><span>162</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/repository.py", line 529, in __call__
 </pre></td></tr>
-            <tr class="" id="l162"><td><a href="#l162"><span>162</span></a></td><td><pre>    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+            <tr class="" id="l163"><td><a href="#l163"><span>163</span></a></td><td><pre>    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
 </pre></td></tr>
-            <tr class="" id="l163"><td><a href="#l163"><span>163</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
+            <tr class="" id="l164"><td><a href="#l164"><span>164</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 269, in _fetch_metadata
 </pre></td></tr>
-            <tr class="" id="l164"><td><a href="#l164"><span>164</span></a></td><td><pre>    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+            <tr class="" id="l165"><td><a href="#l165"><span>165</span></a></td><td><pre>    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
 </pre></td></tr>
-            <tr class="" id="l165"><td><a href="#l165"><span>165</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
+            <tr class="" id="l166"><td><a href="#l166"><span>166</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 360, in _get_metadata
 </pre></td></tr>
-            <tr class="" id="l166"><td><a href="#l166"><span>166</span></a></td><td><pre>    return self._update_metadata(pkg, ebp=ebp)
+            <tr class="" id="l167"><td><a href="#l167"><span>167</span></a></td><td><pre>    return self._update_metadata(pkg, ebp=ebp)
 </pre></td></tr>
-            <tr class="" id="l167"><td><a href="#l167"><span>167</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
+            <tr class="" id="l168"><td><a href="#l168"><span>168</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 368, in _update_metadata
 </pre></td></tr>
-            <tr class="" id="l168"><td><a href="#l168"><span>168</span></a></td><td><pre>    mydata = my_proc.get_keys(pkg, self._ecache)
+            <tr class="" id="l169"><td><a href="#l169"><span>169</span></a></td><td><pre>    mydata = my_proc.get_keys(pkg, self._ecache)
 </pre></td></tr>
-            <tr class="" id="l169"><td><a href="#l169"><span>169</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 825, in get_keys
+            <tr class="" id="l170"><td><a href="#l170"><span>170</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 825, in get_keys
 </pre></td></tr>
-            <tr class="" id="l170"><td><a href="#l170"><span>170</span></a></td><td><pre>    {"key": receive_key})
+            <tr class="" id="l171"><td><a href="#l171"><span>171</span></a></td><td><pre>    {"key": receive_key})
 </pre></td></tr>
-            <tr class="" id="l171"><td><a href="#l171"><span>171</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 758, in _run_depend_like_phase
+            <tr class="" id="l172"><td><a href="#l172"><span>172</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 758, in _run_depend_like_phase
 </pre></td></tr>
-            <tr class="" id="l172"><td><a href="#l172"><span>172</span></a></td><td><pre>    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+            <tr class="" id="l173"><td><a href="#l173"><span>173</span></a></td><td><pre>    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
 </pre></td></tr>
-            <tr class="" id="l173"><td><a href="#l173"><span>173</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 456, in write
+            <tr class="" id="l174"><td><a href="#l174"><span>174</span></a></td><td><pre>  File "/home/mgorny/pkgcore-venv/lib/python2.7/site-packages/pkgcore/ebuild/processor.py", line 456, in write
 </pre></td></tr>
-            <tr class="" id="l174"><td><a href="#l174"><span>174</span></a></td><td><pre>    raise RuntimeError(ie)
+            <tr class="" id="l175"><td><a href="#l175"><span>175</span></a></td><td><pre>    raise RuntimeError(ie)
 </pre></td></tr>
-            <tr class="" id="l175"><td><a href="#l175"><span>175</span></a></td><td><pre>RuntimeError: [Errno 32] Broken pipe
+            <tr class="" id="l176"><td><a href="#l176"><span>176</span></a></td><td><pre>RuntimeError: [Errno 32] Broken pipe
 </pre></td></tr>
-            <tr class="" id="l176"><td><a href="#l176"><span>176</span></a></td><td><pre> * Cache regen failed with 1
+            <tr class="" id="l177"><td><a href="#l177"><span>177</span></a></td><td><pre> * Cache regen failed with 1
 </pre></td></tr>
 
         </table>
