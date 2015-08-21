@@ -17,11 +17,13 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   da48a65..4fdee71  master     -> origin/master
-Updating da48a65..4fdee71
+   4fdee71..d3d7401  master     -> origin/master
+Updating 4fdee71..d3d7401
 Fast-forward
- dev-python/pyside-tools/pyside-tools-0.2.15-r1.ebuild | 1 +
- 1 file changed, 1 insertion(+)
+ app-editors/hexedit/files/hexedit-1.2.13-tinfo.patch | 10 ++++++++++
+ app-editors/hexedit/hexedit-1.2.13.ebuild            | 14 +++++++++++---
+ 2 files changed, 21 insertions(+), 3 deletions(-)
+ create mode 100644 app-editors/hexedit/files/hexedit-1.2.13-tinfo.patch
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
