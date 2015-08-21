@@ -16,7 +16,16 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   52cb61b..64dd942  master     -> origin/master
+Updating 52cb61b..64dd942
+Fast-forward
+ dev-python/httpretty/httpretty-0.8.10.ebuild                    | 2 +-
+ dev-python/oslo-concurrency/oslo-concurrency-1.8.2.ebuild       | 2 +-
+ dev-python/python-ironicclient/python-ironicclient-0.5.1.ebuild | 2 +-
+ sys-block/open-iscsi/open-iscsi-2.0.873.ebuild                  | 2 +-
+ sys-cluster/nova/nova-2015.1.1-r2.ebuild                        | 2 +-
+ 5 files changed, 5 insertions(+), 5 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
