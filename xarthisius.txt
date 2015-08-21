@@ -14,15 +14,25 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/xarthisius.git'}],
  'status': 'official'}
 $ pmaint sync xarthisius
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+*** syncing xarthisius
+*** failed syncing xarthisius
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync xarthisius
+WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/sync/xarthisius'...
 *** syncing xarthisius
 *** synced xarthisius
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 xarthisius
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * 
  * "/home/mgorny/repos/xarthisius/net-misc/gwibber/gwibber-2.31.4.ebuild":

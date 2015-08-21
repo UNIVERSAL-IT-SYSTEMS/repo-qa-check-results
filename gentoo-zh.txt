@@ -7,15 +7,22 @@
  'source': [{'type': 'git', 'uri': 'git://github.com/microcai/gentoo-zh.git'}],
  'status': 'unofficial'}
 $ pmaint sync gentoo-zh
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
+From git://github.com/microcai/gentoo-zh
+   b0d5a2f..18aac82  master     -> origin/master
+Updating b0d5a2f..18aac82
+Fast-forward
+ sys-kernel/e-sources/Manifest                              | 10 ++++++----
+ .../{e-sources-4.1.3.ebuild => e-sources-4.1.6.ebuild}     | 14 +++++++-------
+ 2 files changed, 13 insertions(+), 11 deletions(-)
+ rename sys-kernel/e-sources/{e-sources-4.1.3.ebuild => e-sources-4.1.6.ebuild} (66%)
 *** syncing gentoo-zh
 *** synced gentoo-zh
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 gentoo-zh
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by sys-kernel/e-sources-3.18.14 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
@@ -65,19 +72,25 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-kernel/e-sources-4.0.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 WARNING: 'use' function invoked by sys-kernel/e-sources-3.18.14 during metadata regeneration.
@@ -128,19 +141,25 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 WARNING: 'use' function invoked by sys-kernel/e-sources-4.0.5 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.3 during metadata regeneration.
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.6 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
 caught exception 'mismatched tag: line 10, column 3' while processing 'ebuild src: app-vim/easymotion-1.3'

@@ -9,14 +9,13 @@
              'uri': 'https://github.com/doctaweeks/junkdrawer-overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync junkdrawer
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing junkdrawer
 *** synced junkdrawer
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 junkdrawer
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully
