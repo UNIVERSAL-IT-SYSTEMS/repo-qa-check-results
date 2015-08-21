@@ -17,16 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   d6680ee..871c0ed  master     -> origin/master
-Updating d6680ee..871c0ed
+   871c0ed..794f61e  master     -> origin/master
+Updating 871c0ed..794f61e
 Fast-forward
- sci-physics/rivet/Manifest           |  1 +
- sci-physics/rivet/metadata.xml       | 16 ++++++++++
- sci-physics/rivet/rivet-2.3.0.ebuild | 60 ++++++++++++++++++++++++++++++++++++
- 3 files changed, 77 insertions(+)
- create mode 100644 sci-physics/rivet/Manifest
- create mode 100644 sci-physics/rivet/metadata.xml
- create mode 100644 sci-physics/rivet/rivet-2.3.0.ebuild
+ .../files/perl-cleaner-2.20-prefix.patch           | 111 +++++++++++++++++++++
+ app-admin/perl-cleaner/perl-cleaner-2.20.ebuild    |  13 ++-
+ net-libs/meanwhile/meanwhile-1.0.2-r1.ebuild       |   5 +-
+ 3 files changed, 126 insertions(+), 3 deletions(-)
+ create mode 100644 app-admin/perl-cleaner/files/perl-cleaner-2.20-prefix.patch
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
