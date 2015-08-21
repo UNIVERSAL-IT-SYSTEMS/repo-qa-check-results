@@ -10,8 +10,16 @@
              'uri': 'http://github.com/cschwan/sage-on-gentoo.git'}],
  'status': 'unofficial'}
 $ pmaint sync sage-on-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/sync/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/cschwan/sage-on-gentoo
+   4a434ff..4f64d35  master     -> origin/master
+Updating 4a434ff..4f64d35
+Fast-forward
+ sci-mathematics/sage/ChangeLog                 |  4 +++
+ sci-mathematics/sage/files/sage-6.9-exec.patch | 45 +++++++++++++++-----------
+ 2 files changed, 30 insertions(+), 19 deletions(-)
 *** syncing sage-on-gentoo
 *** synced sage-on-gentoo
  * Sync succeeded
