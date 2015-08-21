@@ -17,13 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   f4d0b67..e1b83a4  master     -> origin/master
-Updating f4d0b67..e1b83a4
+   e1b83a4..1187ddb  master     -> origin/master
+Updating e1b83a4..1187ddb
 Fast-forward
- x11-misc/py3status/Manifest                                       | 2 +-
- x11-misc/py3status/{py3status-2.4.ebuild => py3status-2.5.ebuild} | 0
- 2 files changed, 1 insertion(+), 1 deletion(-)
- rename x11-misc/py3status/{py3status-2.4.ebuild => py3status-2.5.ebuild} (100%)
+ net-misc/openssh/Manifest              |   1 +
+ net-misc/openssh/openssh-7.1_p1.ebuild | 324 +++++++++++++++++++++++++++++++++
+ profiles/package.mask                  |   2 +-
+ 3 files changed, 326 insertions(+), 1 deletion(-)
+ create mode 100644 net-misc/openssh/openssh-7.1_p1.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

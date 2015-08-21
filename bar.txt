@@ -15,19 +15,7 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/tokiclover/bar-overlay
-   a6047b7..6a1435c  master     -> origin/master
-Updating a6047b7..6a1435c
-Fast-forward
- profiles/updades/3Q-2015                                         | 2 +-
- sets/PACKAGE_LIST                                                | 2 +-
- {sys-firmware/iucode-tool => sys-apps/iucode_tool}/Manifest      | 0
- .../iucode_tool/iucode_tool-1.3.ebuild                           | 9 ++++++---
- .../iucode_tool/iucode_tool-9999.ebuild                          | 8 +++++---
- 5 files changed, 13 insertions(+), 8 deletions(-)
- rename {sys-firmware/iucode-tool => sys-apps/iucode_tool}/Manifest (100%)
- rename sys-firmware/iucode-tool/iucode-tool-9999.ebuild => sys-apps/iucode_tool/iucode_tool-1.3.ebuild (72%)
- rename sys-firmware/iucode-tool/iucode-tool-1.3.ebuild => sys-apps/iucode_tool/iucode_tool-9999.ebuild (74%)
+Already up-to-date.
 *** syncing bar
 *** synced bar
  * Sync succeeded
