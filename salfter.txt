@@ -8,15 +8,15 @@
  'source': [{'type': 'git', 'uri': 'https://github.com/salfter/portage'}],
  'status': 'unofficial'}
 $ pmaint sync salfter
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing salfter
 *** synced salfter
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 salfter
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: perl-gcpan/CSS-1.08 failed.
@@ -219,13 +219,13 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/Math-Round-0.06
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/CSS-1.08, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/CSS-1.08, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/CSS-1.08' @0x7f915ef54050>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/CSS-1.08, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/CSS-1.08, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/CSS-1.08' @0x7f3672c73050>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/HTML-CalendarMonthSimple-1.25, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/HTML-CalendarMonthSimple-1.25, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/HTML-CalendarMonthSimple-1.25' @0x7f915ef54190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/HTML-CalendarMonthSimple-1.25, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/HTML-CalendarMonthSimple-1.25, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/HTML-CalendarMonthSimple-1.25' @0x7f3672c73190>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/HTML-WikiConverter-DokuWiki-0.53' @0x7f915ef54050>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/HTML-WikiConverter-DokuWiki-0.53' @0x7f3672c73050>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/HTML-WikiConverter-0.68, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/HTML-WikiConverter-0.68, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/HTML-WikiConverter-0.68' @0x7f915ef54190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/HTML-WikiConverter-0.68, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/HTML-WikiConverter-0.68, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/HTML-WikiConverter-0.68' @0x7f3672c73190>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/Math-Round-0.06, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/Math-Round-0.06, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/Math-Round-0.06' @0x7f915ef54050>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: perl-gcpan/Math-Round-0.06, attr description\nerror: Metadata Exception: pkg ebuild src: perl-gcpan/Math-Round-0.06, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='perl-gcpan/Math-Round-0.06' @0x7f3672c73050>)
  * Cache regen failed with 1

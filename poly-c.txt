@@ -8,7 +8,9 @@
  'source': [{'type': 'rsync', 'uri': 'rsync://gentoofan.no-ip.org/poly-c'}],
  'status': 'official'}
 $ pmaint sync poly-c
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 -------------------------------------------------------------------------------
 | Welcome to rsync on gentoofan.no-ip.org:873                                 |
 | This is a mirror of gentoo's portage-tree and host of my portage overlay    |
@@ -51,14 +53,12 @@ File list transfer time: 0.000 seconds
 Total bytes sent: 62
 Total bytes received: 58
 
-sent 62 bytes  received 58 bytes  48.00 bytes/sec
+sent 62 bytes  received 58 bytes  80.00 bytes/sec
 total size is 32  speedup is 0.27
 *** syncing poly-c
 *** synced poly-c
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 poly-c
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

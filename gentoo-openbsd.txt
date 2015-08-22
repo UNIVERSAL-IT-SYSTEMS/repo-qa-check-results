@@ -14,16 +14,16 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/gentoo-openbsd.git'}],
  'status': 'official'}
 $ pmaint sync gentoo-openbsd
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing gentoo-openbsd
 *** synced gentoo-openbsd
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 gentoo-openbsd
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING: 'use' function invoked by sys-devel/binutils-2.21 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
