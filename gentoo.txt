@@ -17,20 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   27f66a5..f64619d  master     -> origin/master
-Updating 27f66a5..f64619d
+   f64619d..444b68b  master     -> origin/master
+Updating f64619d..444b68b
 Fast-forward
- media-libs/mesa/Manifest                           |   1 +
- media-libs/mesa/mesa-10.6.5.ebuild                 | 455 +++++++++++++++++++++
- .../broadcom-sta-6.30.223.248-r4.ebuild            |  78 ++++
- .../broadcom-sta-6.30.223.248-r4-linux-4.2.patch   |  16 +
- x11-libs/libdrm/Manifest                           |   1 +
- x11-libs/libdrm/libdrm-2.4.64.ebuild               |  61 +++
- 6 files changed, 612 insertions(+)
- create mode 100644 media-libs/mesa/mesa-10.6.5.ebuild
- create mode 100644 net-wireless/broadcom-sta/broadcom-sta-6.30.223.248-r4.ebuild
- create mode 100644 net-wireless/broadcom-sta/files/broadcom-sta-6.30.223.248-r4-linux-4.2.patch
- create mode 100644 x11-libs/libdrm/libdrm-2.4.64.ebuild
+ .../spice-vdagent/spice-vdagent-0.16.0.ebuild      |  4 +--
+ x11-libs/pixman/pixman-0.33.2.ebuild               |  9 ++++--
+ x11-libs/pixman/pixman-9999.ebuild                 | 37 ++++++++++++++++++++++
+ 3 files changed, 46 insertions(+), 4 deletions(-)
+ create mode 100644 x11-libs/pixman/pixman-9999.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

@@ -12,7 +12,15 @@
  'status': 'official'}
 $ pmaint sync x11
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/x11
+   7c8fefb..c9a7568  master     -> origin/master
+Updating 7c8fefb..c9a7568
+Fast-forward
+ x11-libs/pixman/metadata.xml       |  8 --------
+ x11-libs/pixman/pixman-9999.ebuild | 32 --------------------------------
+ 2 files changed, 40 deletions(-)
+ delete mode 100644 x11-libs/pixman/metadata.xml
+ delete mode 100644 x11-libs/pixman/pixman-9999.ebuild
 *** syncing x11
 *** synced x11
  * Sync succeeded
