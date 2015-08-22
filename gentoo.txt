@@ -16,7 +16,14 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   4de211b..80e68c9  master     -> origin/master
+Updating 4de211b..80e68c9
+Fast-forward
+ www-servers/monkeyd/Manifest                                 |  2 +-
+ .../{monkeyd-1.6.0-r1.ebuild => monkeyd-1.6.1.ebuild}        | 12 +++++++++---
+ 2 files changed, 10 insertions(+), 4 deletions(-)
+ rename www-servers/monkeyd/{monkeyd-1.6.0-r1.ebuild => monkeyd-1.6.1.ebuild} (93%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
