@@ -17,18 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   d52fcf9..a877cc5  master     -> origin/master
-Updating d52fcf9..a877cc5
+   a877cc5..4412213  master     -> origin/master
+Updating a877cc5..4412213
 Fast-forward
- app-portage/g-sorcery/Manifest                   |  1 +
- app-portage/g-sorcery/g-sorcery-0.2.1.ebuild     | 37 ++++++++++++++++++++++++
- app-portage/gs-pypi/Manifest                     |  1 +
- app-portage/gs-pypi/gs-pypi-0.2.1.ebuild         | 26 +++++++++++++++++
- dev-python/pygame_sdl2/pygame_sdl2-6.99.5.ebuild |  3 +-
- dev-python/pygame_sdl2/pygame_sdl2-6.99.6.ebuild |  3 +-
- 6 files changed, 69 insertions(+), 2 deletions(-)
- create mode 100644 app-portage/g-sorcery/g-sorcery-0.2.1.ebuild
- create mode 100644 app-portage/gs-pypi/gs-pypi-0.2.1.ebuild
+ sys-fs/udev/Manifest                               |  4 ---
+ ...e-getxpid-syscall-on-alpha-for-raw_getpid.patch | 30 ++++++++++++++++++++++
+ sys-fs/udev/udev-224-r2.ebuild                     |  2 ++
+ 3 files changed, 32 insertions(+), 4 deletions(-)
+ create mode 100644 sys-fs/udev/files/224-0002-Use-getxpid-syscall-on-alpha-for-raw_getpid.patch
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
