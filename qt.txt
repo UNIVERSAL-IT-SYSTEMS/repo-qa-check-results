@@ -14,12 +14,13 @@ $ pmaint sync qt
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/qt
-   103cd61..b47f0bc  master     -> origin/master
-Updating 103cd61..b47f0bc
+   b47f0bc..41d4190  master     -> origin/master
+Updating b47f0bc..41d4190
 Fast-forward
- eclass/qt4-build-multilib.eclass | 4 ++--
- eclass/qt5-build.eclass          | 4 ++++
- 2 files changed, 6 insertions(+), 2 deletions(-)
+ dev-qt/qtquickcontrols/qtquickcontrols-5.5.0.ebuild    | 2 +-
+ dev-qt/qtquickcontrols/qtquickcontrols-5.5.9999.ebuild | 2 +-
+ dev-qt/qtquickcontrols/qtquickcontrols-5.9999.ebuild   | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
 *** syncing qt
 *** synced qt
  * Sync succeeded
