@@ -14,7 +14,9 @@ Current branch master is up to date.
 *** synced proaudio
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 proaudio
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: media-sound/abraca-9999 failed.
@@ -57,5 +59,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-sound/abraca-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr description\nerror: Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-sound/abraca-9999' @0x7fa6ada82cd0>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr description\nerror: Metadata Exception: pkg ebuild src: media-sound/abraca-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='media-sound/abraca-9999' @0x7f11f3567cd0>)
  * Cache regen failed with 1
