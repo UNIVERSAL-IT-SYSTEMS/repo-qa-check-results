@@ -17,19 +17,13 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   e543f16..36f0872  master     -> origin/master
-Updating e543f16..36f0872
+   36f0872..d52fcf9  master     -> origin/master
+Updating 36f0872..d52fcf9
 Fast-forward
- dev-java/ant-eclipse-ecj/Manifest                  |  1 -
- .../ant-eclipse-ecj/ant-eclipse-ecj-4.4.1.ebuild   | 48 ---------------
- .../ant-eclipse-ecj/ant-eclipse-ecj-4.4.2.ebuild   |  2 +-
- dev-java/eclipse-ecj/Manifest                      |  1 -
- dev-java/eclipse-ecj/eclipse-ecj-4.4.1.ebuild      | 71 ----------------------
- dev-java/eclipse-ecj/eclipse-ecj-4.4.2-r1.ebuild   |  2 +-
- .../linux-misc-apps/linux-misc-apps-3.18.ebuild    | 18 +++---
- 7 files changed, 13 insertions(+), 130 deletions(-)
- delete mode 100644 dev-java/ant-eclipse-ecj/ant-eclipse-ecj-4.4.1.ebuild
- delete mode 100644 dev-java/eclipse-ecj/eclipse-ecj-4.4.1.ebuild
+ media-libs/mesa/Manifest               |   1 +
+ media-libs/mesa/mesa-11.0.0_rc1.ebuild | 455 +++++++++++++++++++++++++++++++++
+ 2 files changed, 456 insertions(+)
+ create mode 100644 media-libs/mesa/mesa-11.0.0_rc1.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
