@@ -13,7 +13,71 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   84fa204..ca7442f  master     -> origin/master
+Updating 84fa204..ca7442f
+Fast-forward
+ app-editors/leksah-server/Manifest                 |  1 +
+ .../leksah-server/leksah-server-0.15.0.7.ebuild    | 52 +++++++++++++
+ app-editors/leksah-server/metadata.xml             |  1 +
+ app-editors/leksah/Manifest                        |  1 +
+ app-editors/leksah/leksah-0.15.1.3.ebuild          | 85 ++++++++++++++++++++++
+ app-editors/leksah/metadata.xml                    |  1 +
+ dev-haskell/aeson-qq/Manifest                      |  2 +-
+ ...aeson-qq-0.8.0.ebuild => aeson-qq-0.8.1.ebuild} |  3 +-
+ dev-haskell/ansi-wl-pprint/Manifest                |  2 +-
+ ....6.7.2.ebuild => ansi-wl-pprint-0.6.7.3.ebuild} |  6 +-
+ dev-haskell/bindings-glfw/Manifest                 |  2 +-
+ ...3.1.1.3.ebuild => bindings-glfw-3.1.1.4.ebuild} |  0
+ dev-haskell/feed/Manifest                          |  2 +-
+ .../{feed-0.3.9.7.ebuild => feed-0.3.10.0.ebuild}  |  4 +-
+ dev-haskell/file-embed/Manifest                    |  2 +-
+ ...mbed-0.0.8.2.ebuild => file-embed-0.0.9.ebuild} |  2 +-
+ dev-haskell/glib/Manifest                          |  4 +-
+ dev-haskell/glib/glib-0.12.5.0-r1.ebuild           | 34 ---------
+ dev-haskell/glib/glib-0.12.5.4.ebuild              | 34 ---------
+ .../{glib-0.13.1.0.ebuild => glib-0.13.2.1.ebuild} | 10 +--
+ dev-haskell/glib/glib-9999.ebuild                  | 38 ----------
+ dev-haskell/gtk3/Manifest                          |  1 +
+ .../gtk3/{gtk3-9999.ebuild => gtk3-0.13.9.ebuild}  | 34 +++------
+ dev-haskell/gtksourceview3/Manifest                |  2 +-
+ ...3.1.1.ebuild => gtksourceview3-0.13.2.0.ebuild} | 10 +--
+ .../gtksourceview3/gtksourceview3-9999.ebuild      | 32 --------
+ dev-haskell/jsaddle/Manifest                       |  2 +-
+ ...addle-0.2.0.3.ebuild => jsaddle-0.2.1.0.ebuild} | 28 +++----
+ dev-haskell/juicypixels/Manifest                   |  2 +-
+ ...els-3.2.5.3.ebuild => juicypixels-3.2.6.ebuild} |  2 +-
+ dev-haskell/ltk/Manifest                           |  1 +
+ dev-haskell/ltk/ltk-0.15.0.3.ebuild                | 32 ++++++++
+ dev-haskell/mutable-containers/Manifest            |  2 +-
+ ....3.0.ebuild => mutable-containers-0.3.2.ebuild} |  4 +-
+ .../files/regex-tdfa-text-1.0.0.2-ghc-7.10.patch   |  7 ++
+ .../regex-tdfa-text/regex-tdfa-text-1.0.0.2.ebuild |  4 +
+ dev-haskell/vcsgui/Manifest                        |  2 +-
+ ...vcsgui-0.1.1.0.ebuild => vcsgui-0.1.3.0.ebuild} |  6 +-
+ dev-haskell/vcsgui/vcsgui-9999.ebuild              | 38 ----------
+ 39 files changed, 240 insertions(+), 255 deletions(-)
+ create mode 100644 app-editors/leksah-server/leksah-server-0.15.0.7.ebuild
+ create mode 100644 app-editors/leksah/leksah-0.15.1.3.ebuild
+ rename dev-haskell/aeson-qq/{aeson-qq-0.8.0.ebuild => aeson-qq-0.8.1.ebuild} (90%)
+ rename dev-haskell/ansi-wl-pprint/{ansi-wl-pprint-0.6.7.2.ebuild => ansi-wl-pprint-0.6.7.3.ebuild} (84%)
+ rename dev-haskell/bindings-glfw/{bindings-glfw-3.1.1.3.ebuild => bindings-glfw-3.1.1.4.ebuild} (100%)
+ rename dev-haskell/feed/{feed-0.3.9.7.ebuild => feed-0.3.10.0.ebuild} (94%)
+ rename dev-haskell/file-embed/{file-embed-0.0.8.2.ebuild => file-embed-0.0.9.ebuild} (93%)
+ delete mode 100644 dev-haskell/glib/glib-0.12.5.0-r1.ebuild
+ delete mode 100644 dev-haskell/glib/glib-0.12.5.4.ebuild
+ rename dev-haskell/glib/{glib-0.13.1.0.ebuild => glib-0.13.2.1.ebuild} (75%)
+ delete mode 100644 dev-haskell/glib/glib-9999.ebuild
+ rename dev-haskell/gtk3/{gtk3-9999.ebuild => gtk3-0.13.9.ebuild} (55%)
+ rename dev-haskell/gtksourceview3/{gtksourceview3-0.13.1.1.ebuild => gtksourceview3-0.13.2.0.ebuild} (67%)
+ delete mode 100644 dev-haskell/gtksourceview3/gtksourceview3-9999.ebuild
+ rename dev-haskell/jsaddle/{jsaddle-0.2.0.3.ebuild => jsaddle-0.2.1.0.ebuild} (59%)
+ rename dev-haskell/juicypixels/{juicypixels-3.2.5.3.ebuild => juicypixels-3.2.6.ebuild} (96%)
+ create mode 100644 dev-haskell/ltk/ltk-0.15.0.3.ebuild
+ rename dev-haskell/mutable-containers/{mutable-containers-0.3.0.ebuild => mutable-containers-0.3.2.ebuild} (88%)
+ create mode 100644 dev-haskell/regex-tdfa-text/files/regex-tdfa-text-1.0.0.2-ghc-7.10.patch
+ rename dev-haskell/vcsgui/{vcsgui-0.1.1.0.ebuild => vcsgui-0.1.3.0.ebuild} (85%)
+ delete mode 100644 dev-haskell/vcsgui/vcsgui-9999.ebuild
 *** syncing haskell
 *** synced haskell
  * Sync succeeded

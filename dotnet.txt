@@ -13,11 +13,29 @@
  'status': 'official'}
 $ pmaint sync dotnet
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/dotnet
+   c7bf550..d443249  master     -> origin/master
+Updating c7bf550..d443249
+Fast-forward
+ eclass/dotnet.eclass                           |  1 +
+ www-servers/xsp/xsp-2014.12-r2014120900.ebuild | 15 ++++++---------
+ 2 files changed, 7 insertions(+), 9 deletions(-)
 *** syncing dotnet
 *** synced dotnet
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by dev-lang/fsharp-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-lang/fsharp-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-lang/nemerle-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-dotnet/fake-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully
