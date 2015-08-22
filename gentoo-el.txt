@@ -8,9 +8,7 @@
  'source': [{'type': 'git', 'uri': 'git://github.com/gentoo-el/overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync gentoo-el
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing gentoo-el
 *** synced gentoo-el
@@ -251,13 +249,13 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/gnome-globalmenu-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/kdiff3-0.9.96, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/kdiff3-0.9.96, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/kdiff3-0.9.96' @0x7fbd48ecc550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/kdiff3-0.9.96, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/kdiff3-0.9.96, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/kdiff3-0.9.96' @0x7fcd60e9a550>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/kdiff3-0.9.97, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/kdiff3-0.9.97, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/kdiff3-0.9.97' @0x7fbd48ecc690>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/kdiff3-0.9.97, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/kdiff3-0.9.97, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/kdiff3-0.9.97' @0x7fcd60e9a690>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/plasma-workflow-0.1.98, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/plasma-workflow-0.1.98, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/plasma-workflow-0.1.98' @0x7fbd48ecc550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/plasma-workflow-0.1.98, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/plasma-workflow-0.1.98, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/plasma-workflow-0.1.98' @0x7fcd60e9a550>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/semantik-0.8.2, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/semantik-0.8.2, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/semantik-0.8.2' @0x7fbd48ecc690>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: kde-misc/semantik-0.8.2, attr description\nerror: Metadata Exception: pkg ebuild src: kde-misc/semantik-0.8.2, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='kde-misc/semantik-0.8.2' @0x7fcd60e9a690>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: gnome-extra/gnome-globalmenu-9999, attr description\nerror: Metadata Exception: pkg ebuild src: gnome-extra/gnome-globalmenu-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='gnome-extra/gnome-globalmenu-9999' @0x7fbd48ed82d0>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: gnome-extra/gnome-globalmenu-9999, attr description\nerror: Metadata Exception: pkg ebuild src: gnome-extra/gnome-globalmenu-9999, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='gnome-extra/gnome-globalmenu-9999' @0x7fcd60ea62d0>)
  * Cache regen failed with 1

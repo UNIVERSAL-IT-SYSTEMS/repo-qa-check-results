@@ -14,16 +14,23 @@
              'uri': 'git://anongit.gentoo.org/repo/gentoo.git'}],
  'status': 'official'}
 $ pmaint sync gentoo
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   e540e3d..5949156  master     -> origin/master
-Updating e540e3d..5949156
+   5949156..4de211b  master     -> origin/master
+Updating 5949156..4de211b
 Fast-forward
- sys-libs/timezone-data/timezone-data-2015f.ebuild | 25 ++++++++++-------------
- 1 file changed, 11 insertions(+), 14 deletions(-)
+ dev-python/amodem/Manifest                         |   1 +
+ dev-python/amodem/amodem-1.12.0.ebuild             |  19 +++
+ media-sound/gmusicbrowser/Manifest                 |   1 +
+ .../gmusicbrowser/gmusicbrowser-1.1.15.ebuild      |  81 +++++++++
+ .../gmusicbrowser/gmusicbrowser-9999.ebuild        |   5 +-
+ net-firewall/xtables-addons/Manifest               |   1 +
+ .../xtables-addons/xtables-addons-2.8.ebuild       | 186 +++++++++++++++++++++
+ 7 files changed, 293 insertions(+), 1 deletion(-)
+ create mode 100644 dev-python/amodem/amodem-1.12.0.ebuild
+ create mode 100644 media-sound/gmusicbrowser/gmusicbrowser-1.1.15.ebuild
+ create mode 100644 net-firewall/xtables-addons/xtables-addons-2.8.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

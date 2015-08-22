@@ -9,9 +9,7 @@
              'uri': 'https://gitlab.com/n900-gentoo/overlay.git'}],
  'status': 'unofficial'}
 $ pmaint sync n900
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing n900
 *** synced n900
@@ -59,7 +57,6 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-misc/ofono-1.0-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-misc/phonet-utils-9999
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-video/omap3camera-firmware-9999
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
