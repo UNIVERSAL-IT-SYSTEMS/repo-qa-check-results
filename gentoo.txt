@@ -17,14 +17,19 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   833c98e..d18d89c  master     -> origin/master
-Updating 833c98e..d18d89c
+   d18d89c..efc4511  master     -> origin/master
+Updating d18d89c..efc4511
 Fast-forward
- media-video/ffmpeg/ffmpeg-2.6.3.ebuild | 2 +-
- media-video/ffmpeg/ffmpeg-2.6.4.ebuild | 2 +-
- media-video/ffmpeg/ffmpeg-2.7.2.ebuild | 2 +-
- media-video/ffmpeg/ffmpeg-9999.ebuild  | 2 +-
- 4 files changed, 4 insertions(+), 4 deletions(-)
+ media-video/ffmpeg/ffmpeg-2.6.3.ebuild | 6 +++---
+ media-video/ffmpeg/ffmpeg-2.6.4.ebuild | 6 +++---
+ media-video/ffmpeg/ffmpeg-2.7.2.ebuild | 6 +++---
+ media-video/ffmpeg/ffmpeg-9999.ebuild  | 6 +++---
+ media-video/ffmpeg/metadata.xml        | 2 +-
+ profiles/arch/alpha/use.mask           | 1 +
+ profiles/arch/arm/use.mask             | 1 +
+ profiles/arch/ia64/use.mask            | 1 +
+ profiles/arch/sparc/use.mask           | 1 +
+ 9 files changed, 17 insertions(+), 13 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
