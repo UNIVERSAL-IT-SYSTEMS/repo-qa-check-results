@@ -11,7 +11,25 @@
  'status': 'official'}
 $ pmaint sync libressl
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/gentoo/libressl
+   ccdb24b..89ad83b  master     -> origin/master
+Updating ccdb24b..89ad83b
+Fast-forward
+ dev-lang/ruby/ChangeLog              |   20 +-
+ dev-lang/ruby/ChangeLog-2014         | 2888 ----------------------------------
+ dev-lang/ruby/Manifest               |    6 +
+ dev-lang/ruby/metadata.xml           |    2 +-
+ dev-lang/ruby/ruby-2.0.0_p645.ebuild |    2 +-
+ dev-lang/ruby/ruby-2.0.0_p647.ebuild |  236 +++
+ dev-lang/ruby/ruby-2.1.6-r1.ebuild   |    4 +-
+ dev-lang/ruby/ruby-2.1.7.ebuild      |  233 +++
+ dev-lang/ruby/ruby-2.2.2-r1.ebuild   |    2 +-
+ dev-lang/ruby/ruby-2.2.3.ebuild      |  244 +++
+ 10 files changed, 743 insertions(+), 2894 deletions(-)
+ delete mode 100644 dev-lang/ruby/ChangeLog-2014
+ create mode 100644 dev-lang/ruby/ruby-2.0.0_p647.ebuild
+ create mode 100644 dev-lang/ruby/ruby-2.1.7.ebuild
+ create mode 100644 dev-lang/ruby/ruby-2.2.3.ebuild
 *** syncing libressl
 *** synced libressl
  * Sync succeeded
