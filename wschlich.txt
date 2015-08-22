@@ -132,7 +132,7 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 1766
+sandbox:stop  caught signal 15 in pid 31330
 Sandboxed process killed by signal: Terminated
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: mail-filter/dkimproxy-1.0.1
@@ -140,8 +140,8 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: mail-filter/dkimproxy-1.1
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: mail-filter/dovecot-antispam-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: mail-filter/dkimproxy-1.0.1, attr description\nerror: Metadata Exception: pkg ebuild src: mail-filter/dkimproxy-1.0.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='mail-filter/dkimproxy-1.0.1' @0x7f221b78be10>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: mail-filter/dkimproxy-1.0.1, attr description\nerror: Metadata Exception: pkg ebuild src: mail-filter/dkimproxy-1.0.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='mail-filter/dkimproxy-1.0.1' @0x7f918010ae10>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: mail-filter/dkimproxy-1.1, attr description\nerror: Metadata Exception: pkg ebuild src: mail-filter/dkimproxy-1.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='mail-filter/dkimproxy-1.1' @0x7f221b798050>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: mail-filter/dovecot-antispam-9999, attr description\nerror: Metadata Exception: pkg ebuild src: mail-filter/dovecot-antispam-9999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='mail-filter/dovecot-antispam-9999' @0x7f221b78be10>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: mail-filter/dkimproxy-1.1, attr description\nerror: Metadata Exception: pkg ebuild src: mail-filter/dkimproxy-1.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='mail-filter/dkimproxy-1.1' @0x7f9180117050>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: mail-filter/dovecot-antispam-9999, attr description\nerror: Metadata Exception: pkg ebuild src: mail-filter/dovecot-antispam-9999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='mail-filter/dovecot-antispam-9999' @0x7f918010ae10>)
  * Cache regen failed with 1

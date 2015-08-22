@@ -17,24 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   7572631..833c98e  master     -> origin/master
-Updating 7572631..833c98e
+   833c98e..d18d89c  master     -> origin/master
+Updating 833c98e..d18d89c
 Fast-forward
- dev-libs/urdfdom/urdfdom-0.3.0.ebuild              |   1 +
- dev-libs/urdfdom/urdfdom-9999.ebuild               |   1 +
- media-video/gpac/Manifest                          |   1 +
- .../gpac/files/gpac-0.5.2-static-libs.patch        |  77 +++++++-------
- .../gpac/files/gpac-0.5.3-static-libs.patch        |  85 +++++++++++++++
- media-video/gpac/gpac-0.5.2.ebuild                 | 115 +++++++++++++++++++++
- media-video/gpac/gpac-9999.ebuild                  |   4 +-
- media-video/x264-encoder/files/gpac.patch          |  13 +++
- .../x264-encoder-0.0.20150820-r1.ebuild            |  75 ++++++++++++++
- media-video/x264-encoder/x264-encoder-9999.ebuild  |   8 +-
- 10 files changed, 334 insertions(+), 46 deletions(-)
- create mode 100644 media-video/gpac/files/gpac-0.5.3-static-libs.patch
- create mode 100644 media-video/gpac/gpac-0.5.2.ebuild
- create mode 100644 media-video/x264-encoder/files/gpac.patch
- create mode 100644 media-video/x264-encoder/x264-encoder-0.0.20150820-r1.ebuild
+ media-video/ffmpeg/ffmpeg-2.6.3.ebuild | 2 +-
+ media-video/ffmpeg/ffmpeg-2.6.4.ebuild | 2 +-
+ media-video/ffmpeg/ffmpeg-2.7.2.ebuild | 2 +-
+ media-video/ffmpeg/ffmpeg-9999.ebuild  | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
