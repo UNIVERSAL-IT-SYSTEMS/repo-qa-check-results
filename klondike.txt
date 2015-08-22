@@ -15,20 +15,10 @@
  'status': 'unofficial'}
 $ pmaint sync klondike
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-*** syncing klondike
-*** failed syncing klondike
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync klondike
-WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/sync/klondike'...
+Already up-to-date.
 *** syncing klondike
 *** synced klondike
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 klondike
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
