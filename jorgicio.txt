@@ -15,7 +15,15 @@
  'status': 'unofficial'}
 $ pmaint sync jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/jorgicio/jorgicio-gentoo
+   baec58c..f7c15e6  master     -> origin/master
+Updating baec58c..f7c15e6
+Fast-forward
+ dev-python/python3-xlib/Manifest                   |  1 +
+ .../python3-xlib/python3-xlib-20141113.ebuild      | 46 ++++++++++++++++++++++
+ 2 files changed, 47 insertions(+)
+ create mode 100644 dev-python/python3-xlib/Manifest
+ create mode 100644 dev-python/python3-xlib/python3-xlib-20141113.ebuild
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
