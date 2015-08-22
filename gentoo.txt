@@ -16,7 +16,19 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   cac7779..099dfe6  master     -> origin/master
+Updating cac7779..099dfe6
+Fast-forward
+ net-p2p/litecoin-qt/Manifest                    |   1 -
+ net-p2p/litecoin-qt/litecoin-qt-0.10.2.2.ebuild |   2 +-
+ net-p2p/litecoin-qt/litecoin-qt-0.8.7.4.ebuild  | 143 ------------------------
+ net-p2p/litecoind/Manifest                      |   1 -
+ net-p2p/litecoind/litecoind-0.10.2.2-r1.ebuild  |   2 +-
+ net-p2p/litecoind/litecoind-0.8.7.4.ebuild      | 123 --------------------
+ 6 files changed, 2 insertions(+), 270 deletions(-)
+ delete mode 100644 net-p2p/litecoin-qt/litecoin-qt-0.8.7.4.ebuild
+ delete mode 100644 net-p2p/litecoind/litecoind-0.8.7.4.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
