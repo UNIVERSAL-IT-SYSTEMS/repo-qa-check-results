@@ -17,17 +17,24 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   8600971..82e736b  master     -> origin/master
-Updating 8600971..82e736b
+   82e736b..b268cb1  master     -> origin/master
+Updating 82e736b..b268cb1
 Fast-forward
- net-ftp/lftp/Manifest                              |  1 +
- net-ftp/lftp/lftp-4.6.4.ebuild                     | 90 ++++++++++++++++++++++
- .../files/xscreensaver-app-2.3-configure.ac        | 21 +++++
- .../xscreensaver-app-2.3-r3.ebuild                 | 46 +++++++++++
- 4 files changed, 158 insertions(+)
- create mode 100644 net-ftp/lftp/lftp-4.6.4.ebuild
- create mode 100644 x11-misc/xscreensaver-app/files/xscreensaver-app-2.3-configure.ac
- create mode 100644 x11-misc/xscreensaver-app/xscreensaver-app-2.3-r3.ebuild
+ app-dicts/prime-dict/prime-dict-1.0.0-r2.ebuild    |   2 +-
+ app-editors/emacs/emacs-24.5.ebuild                |   2 +-
+ net-misc/openvpn/openvpn-2.3.7.ebuild              |   2 +-
+ sys-cluster/nova/Manifest                          |   1 -
+ sys-cluster/nova/nova-2015.1.0-r3.ebuild           | 200 ---------------------
+ www-client/opera-developer/Manifest                |   4 +-
+ ...0.ebuild => opera-developer-33.0.1963.0.ebuild} |   0
+ www-client/vivaldi/Manifest                        |   6 +-
+ www-client/vivaldi/vivaldi-1.0.231.3_p1.ebuild     | 102 -----------
+ ...233.3_p1.ebuild => vivaldi-1.0.252.3_p1.ebuild} |   0
+ 10 files changed, 7 insertions(+), 312 deletions(-)
+ delete mode 100644 sys-cluster/nova/nova-2015.1.0-r3.ebuild
+ rename www-client/opera-developer/{opera-developer-32.0.1926.0.ebuild => opera-developer-33.0.1963.0.ebuild} (100%)
+ delete mode 100644 www-client/vivaldi/vivaldi-1.0.231.3_p1.ebuild
+ rename www-client/vivaldi/{vivaldi-1.0.233.3_p1.ebuild => vivaldi-1.0.252.3_p1.ebuild} (100%)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
