@@ -17,19 +17,17 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   d18d89c..efc4511  master     -> origin/master
-Updating d18d89c..efc4511
+   efc4511..f75e0ac  master     -> origin/master
+Updating efc4511..f75e0ac
 Fast-forward
- media-video/ffmpeg/ffmpeg-2.6.3.ebuild | 6 +++---
- media-video/ffmpeg/ffmpeg-2.6.4.ebuild | 6 +++---
- media-video/ffmpeg/ffmpeg-2.7.2.ebuild | 6 +++---
- media-video/ffmpeg/ffmpeg-9999.ebuild  | 6 +++---
- media-video/ffmpeg/metadata.xml        | 2 +-
- profiles/arch/alpha/use.mask           | 1 +
- profiles/arch/arm/use.mask             | 1 +
- profiles/arch/ia64/use.mask            | 1 +
- profiles/arch/sparc/use.mask           | 1 +
- 9 files changed, 17 insertions(+), 13 deletions(-)
+ media-sound/helm/Manifest          |  1 +
+ media-sound/helm/helm-0.4.1.ebuild | 33 +++++++++++++++++++++++++++++++++
+ media-sound/helm/metadata.xml      |  5 +++++
+ net-ftp/lftp/lftp-4.6.4.ebuild     |  3 ++-
+ 4 files changed, 41 insertions(+), 1 deletion(-)
+ create mode 100644 media-sound/helm/Manifest
+ create mode 100644 media-sound/helm/helm-0.4.1.ebuild
+ create mode 100644 media-sound/helm/metadata.xml
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
