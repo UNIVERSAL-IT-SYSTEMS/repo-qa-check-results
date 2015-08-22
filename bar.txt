@@ -15,7 +15,12 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/tokiclover/bar-overlay
+   dbd04c0..cb30d1a  master     -> origin/master
+Updating dbd04c0..cb30d1a
+Fast-forward
+ media-gfx/ephoto/ephoto-9999.ebuild | 22 ++++++++++++++--------
+ 1 file changed, 14 insertions(+), 8 deletions(-)
 *** syncing bar
 *** synced bar
  * Sync succeeded
