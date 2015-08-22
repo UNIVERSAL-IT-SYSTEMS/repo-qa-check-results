@@ -13,8 +13,6 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/kork.git'}],
  'status': 'unofficial'}
 $ pmaint sync kork
-WARNING:pkgcore:repository at location '/home/mgorny/sync/interactive-fiction' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/interactive-fiction', named 'interactive-fiction', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing kork
@@ -58,8 +56,8 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for ruby failed
 
-sandbox:stop  caught signal 15 in pid 30078
+sandbox:stop  caught signal 15 in pid 28431
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, ruby cannot be found while processing ebuild src: app-office/ekee-2.0.2
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-office/ekee-2.0.2, attr description\nerror: Metadata Exception: pkg ebuild src: app-office/ekee-2.0.2, attr data\nerror: inherit requires an unknown eclass, ruby cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-office/ekee-2.0.2' @0x7f59f92bc190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: app-office/ekee-2.0.2, attr description\nerror: Metadata Exception: pkg ebuild src: app-office/ekee-2.0.2, attr data\nerror: inherit requires an unknown eclass, ruby cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='app-office/ekee-2.0.2' @0x7f7f92ba0190>)
  * Cache regen failed with 1

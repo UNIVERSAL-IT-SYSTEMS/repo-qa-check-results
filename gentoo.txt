@@ -17,14 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   444b68b..ef0ca3a  master     -> origin/master
-Updating 444b68b..ef0ca3a
+   ef0ca3a..e543f16  master     -> origin/master
+Updating ef0ca3a..e543f16
 Fast-forward
- ...xorg-server-1.17.2-uninit-clientsWritable.patch |  65 ++++++
- x11-base/xorg-server/xorg-server-1.17.2-r1.ebuild  | 245 +++++++++++++++++++++
- 2 files changed, 310 insertions(+)
- create mode 100644 x11-base/xorg-server/files/xorg-server-1.17.2-uninit-clientsWritable.patch
- create mode 100644 x11-base/xorg-server/xorg-server-1.17.2-r1.ebuild
+ .../default/bsd/fbsd/amd64/10.1/package.use.force  |  4 +-
+ .../default/bsd/fbsd/amd64/10.2/package.use.force  |  4 +-
+ .../tomcat/files/tomcat-7.0.63-build.xml.patch     | 36 +++++++++++--
+ .../tomcat/files/tomcat-8.0.24-build.xml.patch     | 61 +++++++++++++++++-----
+ 4 files changed, 82 insertions(+), 23 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded

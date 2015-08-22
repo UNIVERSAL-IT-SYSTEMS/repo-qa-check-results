@@ -13,25 +13,7 @@
 $ pmaint sync ikelos
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/dev/ikelos
-   0e7c50f..3315b6a  master     -> origin/master
-Updating 0e7c50f..3315b6a
-Fast-forward
- dev-python/git-python/Manifest                     |  1 -
- dev-python/git-python/git-python-9999.ebuild       | 27 -------
- dev-python/gitty/Manifest                          |  1 -
- dev-python/gitty/gitty-9999.ebuild                 | 35 ---------
- dev-util/libbls/Manifest                           |  2 -
- .../libbls/files/libbls-9999-python-fixes.patch    | 83 ----------------------
- dev-util/libbls/libbls-9999.ebuild                 | 34 ---------
- 7 files changed, 183 deletions(-)
- delete mode 100644 dev-python/git-python/Manifest
- delete mode 100644 dev-python/git-python/git-python-9999.ebuild
- delete mode 100644 dev-python/gitty/Manifest
- delete mode 100644 dev-python/gitty/gitty-9999.ebuild
- delete mode 100644 dev-util/libbls/Manifest
- delete mode 100644 dev-util/libbls/files/libbls-9999-python-fixes.patch
- delete mode 100644 dev-util/libbls/libbls-9999.ebuild
+Already up-to-date.
 *** syncing ikelos
 *** synced ikelos
  * Sync succeeded
