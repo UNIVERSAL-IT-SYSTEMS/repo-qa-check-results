@@ -15,7 +15,19 @@
 $ pmaint sync jmbsvicetto
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/jmbsvicetto
+   2cf4445..5fe8d4a  master     -> origin/master
+Updating 2cf4445..5fe8d4a
+Fast-forward
+ www-apps/drupal/Manifest                           |  5 +-
+ .../{drupal-6.36.ebuild => drupal-6.37.ebuild}     |  2 +-
+ .../{drupal-7.38.ebuild => drupal-7.39.ebuild}     |  2 +-
+ www-apps/drupal/drupal-8.0.0_beta14.ebuild         | 87 ++++++++++++++++++++++
+ www-apps/drupal/files/postinstall-en.txt           |  2 +-
+ 5 files changed, 93 insertions(+), 5 deletions(-)
+ rename www-apps/drupal/{drupal-6.36.ebuild => drupal-6.37.ebuild} (99%)
+ rename www-apps/drupal/{drupal-7.38.ebuild => drupal-7.39.ebuild} (99%)
+ create mode 100644 www-apps/drupal/drupal-8.0.0_beta14.ebuild
 *** syncing jmbsvicetto
 *** synced jmbsvicetto
  * Sync succeeded
