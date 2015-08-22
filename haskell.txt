@@ -13,7 +13,52 @@
  'status': 'official'}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   ca7442f..258694e  master     -> origin/master
+Updating ca7442f..258694e
+Fast-forward
+ dev-haskell/ansi-terminal/Manifest                 |  2 +-
+ ...0.6.2.1.ebuild => ansi-terminal-0.6.2.2.ebuild} |  4 +--
+ dev-haskell/htf/Manifest                           |  2 +-
+ .../{htf-0.13.0.0.ebuild => htf-0.13.1.0.ebuild}   |  2 +-
+ dev-haskell/http-client/Manifest                   |  2 +-
+ ...ent-0.4.19.ebuild => http-client-0.4.20.ebuild} |  0
+ dev-haskell/openal/Manifest                        |  2 +-
+ ...openal-1.7.0.0.ebuild => openal-1.7.0.1.ebuild} |  4 +--
+ dev-haskell/openglraw/Manifest                     |  1 +
+ dev-haskell/openglraw/openglraw-2.5.2.1.ebuild     | 41 ++++++++++++++++++++++
+ dev-haskell/quickcheck-io/Manifest                 |  2 +-
+ ...-0.1.1-r1.ebuild => quickcheck-io-0.1.2.ebuild} |  8 ++---
+ dev-haskell/snap-core/Manifest                     |  2 +-
+ ...ore-0.9.7.2.ebuild => snap-core-0.9.8.0.ebuild} |  4 +--
+ dev-haskell/tasty-hspec/Manifest                   |  2 +-
+ ...y-hspec-1.1.ebuild => tasty-hspec-1.1.1.ebuild} | 12 +++++--
+ dev-haskell/texmath/Manifest                       |  2 +-
+ ...texmath-0.8.2.2.ebuild => texmath-0.8.3.ebuild} |  2 +-
+ dev-haskell/utf8-string/Manifest                   |  3 +-
+ dev-haskell/utf8-string/utf8-string-0.3.8.ebuild   | 30 ----------------
+ ...f8-string-1.ebuild => utf8-string-1.0.1.ebuild} |  3 +-
+ dev-haskell/utility-ht/Manifest                    |  2 +-
+ ...y-ht-0.0.10.ebuild => utility-ht-0.0.11.ebuild} |  6 ++--
+ dev-haskell/webkitgtk3-javascriptcore/Manifest     |  2 +-
+ ...d => webkitgtk3-javascriptcore-0.13.1.0.ebuild} | 12 ++-----
+ dev-haskell/yesod-core/Manifest                    |  2 +-
+ ...core-1.4.13.ebuild => yesod-core-1.4.14.ebuild} |  1 +
+ 27 files changed, 83 insertions(+), 72 deletions(-)
+ rename dev-haskell/ansi-terminal/{ansi-terminal-0.6.2.1.ebuild => ansi-terminal-0.6.2.2.ebuild} (85%)
+ rename dev-haskell/htf/{htf-0.13.0.0.ebuild => htf-0.13.1.0.ebuild} (96%)
+ rename dev-haskell/http-client/{http-client-0.4.19.ebuild => http-client-0.4.20.ebuild} (100%)
+ rename dev-haskell/openal/{openal-1.7.0.0.ebuild => openal-1.7.0.1.ebuild} (90%)
+ create mode 100644 dev-haskell/openglraw/openglraw-2.5.2.1.ebuild
+ rename dev-haskell/quickcheck-io/{quickcheck-io-0.1.1-r1.ebuild => quickcheck-io-0.1.2.ebuild} (77%)
+ rename dev-haskell/snap-core/{snap-core-0.9.7.2.ebuild => snap-core-0.9.8.0.ebuild} (95%)
+ rename dev-haskell/tasty-hspec/{tasty-hspec-1.1.ebuild => tasty-hspec-1.1.1.ebuild} (74%)
+ rename dev-haskell/texmath/{texmath-0.8.2.2.ebuild => texmath-0.8.3.ebuild} (96%)
+ delete mode 100644 dev-haskell/utf8-string/utf8-string-0.3.8.ebuild
+ rename dev-haskell/utf8-string/{utf8-string-1.ebuild => utf8-string-1.0.1.ebuild} (92%)
+ rename dev-haskell/utility-ht/{utility-ht-0.0.10.ebuild => utility-ht-0.0.11.ebuild} (85%)
+ rename dev-haskell/webkitgtk3-javascriptcore/{webkitgtk3-javascriptcore-0.13.0.4.ebuild => webkitgtk3-javascriptcore-0.13.1.0.ebuild} (74%)
+ rename dev-haskell/yesod-core/{yesod-core-1.4.13.ebuild => yesod-core-1.4.14.ebuild} (98%)
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
