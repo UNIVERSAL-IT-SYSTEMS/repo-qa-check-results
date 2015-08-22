@@ -16,7 +16,19 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   42a8f07..43ea4a4  master     -> origin/master
+Updating 42a8f07..43ea4a4
+Fast-forward
+ www-apps/drupal/Manifest                           |  5 +-
+ .../{drupal-6.36.ebuild => drupal-6.37.ebuild}     |  0
+ .../{drupal-7.38.ebuild => drupal-7.39.ebuild}     |  0
+ www-apps/drupal/drupal-8.0.0_beta14.ebuild         | 87 ++++++++++++++++++++++
+ www-apps/drupal/files/postinstall-en.txt           |  2 +-
+ 5 files changed, 91 insertions(+), 3 deletions(-)
+ rename www-apps/drupal/{drupal-6.36.ebuild => drupal-6.37.ebuild} (100%)
+ rename www-apps/drupal/{drupal-7.38.ebuild => drupal-7.39.ebuild} (100%)
+ create mode 100644 www-apps/drupal/drupal-8.0.0_beta14.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
