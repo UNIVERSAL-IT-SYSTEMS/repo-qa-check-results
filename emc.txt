@@ -12,7 +12,128 @@
  'status': 'unofficial'}
 $ pmaint sync emc
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/emcek/gentoo.mipl
+   fe5f83c..c825a4c  master     -> origin/master
+Updating fe5f83c..c825a4c
+Fast-forward
+ .travis.yml                                        |   2 +-
+ app-admin/cvechecker/Manifest                      |   4 +-
+ ...checker-3.5.ebuild => cvechecker-3.5-r1.ebuild} |   4 +-
+ app-admin/cvechecker/cvechecker-9999.ebuild        |   4 +-
+ app-editors/atom-bin/Manifest                      |   6 +-
+ app-editors/atom-bin/atom-bin-1.0.3.ebuild         |  82 -------
+ ...atom-bin-1.0.2.ebuild => atom-bin-1.0.7.ebuild} |   6 +-
+ app-editors/atom/Manifest                          |   6 +-
+ app-editors/atom/atom-0.211.0.ebuild               | 106 ---------
+ app-editors/atom/atom-1.0.3.ebuild                 | 106 ---------
+ .../atom/{atom-1.0.2.ebuild => atom-1.0.7.ebuild}  |   2 +-
+ app-editors/atom/atom-9999.ebuild                  |   2 +-
+ app-misc/rbutil/Manifest                           |   2 +-
+ ...{rbutil-1.4.0.ebuild => rbutil-1.4.0-r1.ebuild} |   4 +-
+ app-office/pinpoint/Manifest                       |   4 +-
+ ...ebuild => pinpoint-0.1.5_pre20141026-r2.ebuild} |   2 +-
+ app-office/pinpoint/pinpoint-9999.ebuild           |   2 +-
+ app-portage/gcruft/Manifest                        |   2 +-
+ ...{gcruft-0.1.1.ebuild => gcruft-0.1.1-r1.ebuild} |   4 +-
+ app-portage/gentwoo/Manifest                       |   2 +-
+ ...20705.ebuild => gentwoo-0.0.20120705-r1.ebuild} |   2 +-
+ app-vim/pinpoint-syntax/Manifest                   |   2 +-
+ ...1.ebuild => pinpoint-syntax-20140121-r1.ebuild} |   4 +-
+ dev-games/gigi-fo/Manifest                         |   2 +-
+ dev-games/gigi-fo/gigi-fo-9999.ebuild              |   4 +-
+ dev-python/yappi/Manifest                          |   2 +-
+ .../{yappi-0.94.ebuild => yappi-0.94-r1.ebuild}    |   2 +-
+ dev-util/atom-shell/Manifest                       |   8 +-
+ dev-util/atom-shell/atom-shell-0.22.3-r1.ebuild    | 117 ----------
+ dev-util/atom-shell/atom-shell-0.22.3-r2.ebuild    | 117 ----------
+ dev-util/atom-shell/atom-shell-0.22.3-r3.ebuild    |   4 +-
+ dev-util/atom-shell/atom-shell-0.23.0.ebuild       |   2 +-
+ dev-util/atom-shell/atom-shell-9999.ebuild         |   4 +-
+ dev-util/electron/Manifest                         |   2 +-
+ dev-util/electron/electron-9999.ebuild             |   2 +-
+ dev-vcs/gitflow/Manifest                           |   2 +-
+ ...low-1.8.0-r1.ebuild => gitflow-1.8.0-r2.ebuild} |   2 +-
+ games-emulation/gr-lida/Manifest                   |   4 +-
+ ...lida-0.10.0.ebuild => gr-lida-0.10.0-r1.ebuild} |   6 +-
+ ...lida-0.11.0.ebuild => gr-lida-0.11.0-r1.ebuild} |   4 +-
+ games-engines/fife/Manifest                        |   4 +-
+ .../{fife-0.3.3-r3.ebuild => fife-0.3.3-r4.ebuild} |   4 +-
+ games-engines/fife/fife-9999.ebuild                |   2 +-
+ games-engines/fifechan/Manifest                    |   6 +-
+ ...echan-0.1.1.ebuild => fifechan-0.1.0-r1.ebuild} |   4 +-
+ ...echan-0.1.0.ebuild => fifechan-0.1.1-r1.ebuild} |   4 +-
+ games-engines/fifechan/fifechan-9999.ebuild        |   4 +-
+ games-engines/openmw/Manifest                      |   4 +-
+ ...penmw-0.34.0.ebuild => openmw-0.34.0-r1.ebuild} |   2 +-
+ games-engines/openmw/openmw-9999.ebuild            |   4 +-
+ games-fps/assaultcube/Manifest                     |   4 +-
+ ....1.0.4.ebuild => assaultcube-1.1.0.4-r1.ebuild} |   2 +-
+ ....2.0.2.ebuild => assaultcube-1.2.0.2-r1.ebuild} |   2 +-
+ games-strategy/0ad/0ad-99999.ebuild                |   4 +-
+ games-strategy/0ad/Manifest                        |   2 +-
+ games-strategy/freeorion/Manifest                  |   2 +-
+ games-strategy/freeorion/freeorion-9999.ebuild     |   4 +-
+ games-strategy/unknown-horizons/Manifest           |   6 +-
+ ....3.ebuild => unknown-horizons-2011.3-r1.ebuild} |   4 +-
+ ....1.ebuild => unknown-horizons-2012.1-r1.ebuild} |   4 +-
+ .../unknown-horizons/unknown-horizons-9999.ebuild  |   2 +-
+ media-fonts/inconsolata-dz/Manifest                |   2 +-
+ ...02.ebuild => inconsolata-dz-20091202-r1.ebuild} |   4 +-
+ media-gfx/splashutils/Manifest                     |   3 +-
+ .../splashutils/splashutils-1.5.4.4-r6.ebuild      | 243 ---------------------
+ ...4.4-r7.ebuild => splashutils-1.5.4.4-r8.ebuild} |   4 +-
+ media-sound/decibel-audio-player/Manifest          |   4 +-
+ ....ebuild => decibel-audio-player-1.04-r3.ebuild} |   2 +-
+ ....ebuild => decibel-audio-player-1.08-r1.ebuild} |   2 +-
+ sci-misc/librecad/Manifest                         |   6 +-
+ ...0.0_rc2.ebuild => librecad-2.0.0_rc1-r1.ebuild} |   4 +-
+ ...0.0_rc1.ebuild => librecad-2.0.0_rc2-r1.ebuild} |   4 +-
+ sci-misc/librecad/librecad-9999.ebuild             |   4 +-
+ sys-apps/uksmstat/Manifest                         |   2 +-
+ sys-apps/uksmstat/uksmstat-9999.ebuild             |   4 +-
+ sys-auth/google-authenticator/Manifest             |   2 +-
+ ...0.ebuild => google-authenticator-1.0-r1.ebuild} |   4 +-
+ .../{3dfsb-1.0.ebuild => 3dfsb-1.0-r1.ebuild}      |   2 +-
+ .../{3dfsb-1.1.1.ebuild => 3dfsb-1.1.1-r1.ebuild}  |   2 +-
+ x11-misc/3dfsb/Manifest                            |   4 +-
+ x11-misc/ideskconfig/Manifest                      |   2 +-
+ x11-misc/ideskconfig/ideskconfig-0.9.1.ebuild      |   2 +-
+ 82 files changed, 123 insertions(+), 901 deletions(-)
+ rename app-admin/cvechecker/{cvechecker-3.5.ebuild => cvechecker-3.5-r1.ebuild} (84%)
+ delete mode 100644 app-editors/atom-bin/atom-bin-1.0.3.ebuild
+ rename app-editors/atom-bin/{atom-bin-1.0.2.ebuild => atom-bin-1.0.7.ebuild} (97%)
+ delete mode 100644 app-editors/atom/atom-0.211.0.ebuild
+ delete mode 100644 app-editors/atom/atom-1.0.3.ebuild
+ rename app-editors/atom/{atom-1.0.2.ebuild => atom-1.0.7.ebuild} (99%)
+ rename app-misc/rbutil/{rbutil-1.4.0.ebuild => rbutil-1.4.0-r1.ebuild} (94%)
+ rename app-office/pinpoint/{pinpoint-0.1.5_pre20141026-r1.ebuild => pinpoint-0.1.5_pre20141026-r2.ebuild} (98%)
+ rename app-portage/gcruft/{gcruft-0.1.1.ebuild => gcruft-0.1.1-r1.ebuild} (97%)
+ rename app-portage/gentwoo/{gentwoo-0.0.20120705.ebuild => gentwoo-0.0.20120705-r1.ebuild} (98%)
+ rename app-vim/pinpoint-syntax/{pinpoint-syntax-20140121.ebuild => pinpoint-syntax-20140121-r1.ebuild} (90%)
+ rename dev-python/yappi/{yappi-0.94.ebuild => yappi-0.94-r1.ebuild} (98%)
+ delete mode 100644 dev-util/atom-shell/atom-shell-0.22.3-r1.ebuild
+ delete mode 100644 dev-util/atom-shell/atom-shell-0.22.3-r2.ebuild
+ rename dev-vcs/gitflow/{gitflow-1.8.0-r1.ebuild => gitflow-1.8.0-r2.ebuild} (98%)
+ rename games-emulation/gr-lida/{gr-lida-0.10.0.ebuild => gr-lida-0.10.0-r1.ebuild} (92%)
+ rename games-emulation/gr-lida/{gr-lida-0.11.0.ebuild => gr-lida-0.11.0-r1.ebuild} (93%)
+ rename games-engines/fife/{fife-0.3.3-r3.ebuild => fife-0.3.3-r4.ebuild} (97%)
+ rename games-engines/fifechan/{fifechan-0.1.1.ebuild => fifechan-0.1.0-r1.ebuild} (93%)
+ rename games-engines/fifechan/{fifechan-0.1.0.ebuild => fifechan-0.1.1-r1.ebuild} (93%)
+ rename games-engines/openmw/{openmw-0.34.0.ebuild => openmw-0.34.0-r1.ebuild} (99%)
+ rename games-fps/assaultcube/{assaultcube-1.1.0.4.ebuild => assaultcube-1.1.0.4-r1.ebuild} (99%)
+ rename games-fps/assaultcube/{assaultcube-1.2.0.2.ebuild => assaultcube-1.2.0.2-r1.ebuild} (99%)
+ rename games-strategy/unknown-horizons/{unknown-horizons-2011.3.ebuild => unknown-horizons-2011.3-r1.ebuild} (94%)
+ rename games-strategy/unknown-horizons/{unknown-horizons-2012.1.ebuild => unknown-horizons-2012.1-r1.ebuild} (96%)
+ rename media-fonts/inconsolata-dz/{inconsolata-dz-20091202.ebuild => inconsolata-dz-20091202-r1.ebuild} (89%)
+ delete mode 100644 media-gfx/splashutils/splashutils-1.5.4.4-r6.ebuild
+ rename media-gfx/splashutils/{splashutils-1.5.4.4-r7.ebuild => splashutils-1.5.4.4-r8.ebuild} (99%)
+ rename media-sound/decibel-audio-player/{decibel-audio-player-1.04-r2.ebuild => decibel-audio-player-1.04-r3.ebuild} (99%)
+ rename media-sound/decibel-audio-player/{decibel-audio-player-1.08.ebuild => decibel-audio-player-1.08-r1.ebuild} (99%)
+ rename sci-misc/librecad/{librecad-2.0.0_rc2.ebuild => librecad-2.0.0_rc1-r1.ebuild} (94%)
+ rename sci-misc/librecad/{librecad-2.0.0_rc1.ebuild => librecad-2.0.0_rc2-r1.ebuild} (94%)
+ rename sys-auth/google-authenticator/{google-authenticator-1.0.ebuild => google-authenticator-1.0-r1.ebuild} (95%)
+ rename x11-misc/3dfsb/{3dfsb-1.0.ebuild => 3dfsb-1.0-r1.ebuild} (98%)
+ rename x11-misc/3dfsb/{3dfsb-1.1.1.ebuild => 3dfsb-1.1.1-r1.ebuild} (98%)
 *** syncing emc
 *** synced emc
  * Sync succeeded
