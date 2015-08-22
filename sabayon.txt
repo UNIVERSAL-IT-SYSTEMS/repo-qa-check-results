@@ -8,44 +8,7 @@
  'status': 'unofficial'}
 $ pmaint sync sabayon
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/Sabayon/for-gentoo
-   b76fe20..d9e9642  master     -> origin/master
-Updating b76fe20..d9e9642
-Fast-forward
- app-admin/equo/Manifest                           |   1 +
- app-admin/equo/equo-298.ebuild                    |  42 ++++++++
- app-admin/matter/Manifest                         |   1 +
- app-admin/matter/matter-298.ebuild                |  37 +++++++
- app-admin/rigo/Manifest                           |   1 +
- app-admin/rigo/rigo-298.ebuild                    |  49 ++++++++++
- app-misc/magneto-loader/Manifest                  |   1 +
- app-misc/magneto-loader/magneto-loader-298.ebuild |  31 ++++++
- kde-misc/magneto-kde/Manifest                     |   1 +
- kde-misc/magneto-kde/magneto-kde-298.ebuild       |  33 +++++++
- sys-apps/entropy-server/Manifest                  |   1 +
- sys-apps/entropy-server/entropy-server-298.ebuild |  36 +++++++
- sys-apps/entropy/Manifest                         |   1 +
- sys-apps/entropy/entropy-298.ebuild               | 112 ++++++++++++++++++++++
- sys-apps/magneto-core/Manifest                    |   1 +
- sys-apps/magneto-core/magneto-core-298.ebuild     |  32 +++++++
- sys-apps/rigo-daemon/Manifest                     |   1 +
- sys-apps/rigo-daemon/rigo-daemon-298.ebuild       |  44 +++++++++
- x11-misc/magneto-gtk/Manifest                     |   1 +
- x11-misc/magneto-gtk/magneto-gtk-298.ebuild       |  34 +++++++
- x11-misc/magneto-gtk3/Manifest                    |   1 +
- x11-misc/magneto-gtk3/magneto-gtk3-298.ebuild     |  35 +++++++
- 22 files changed, 496 insertions(+)
- create mode 100644 app-admin/equo/equo-298.ebuild
- create mode 100644 app-admin/matter/matter-298.ebuild
- create mode 100644 app-admin/rigo/rigo-298.ebuild
- create mode 100644 app-misc/magneto-loader/magneto-loader-298.ebuild
- create mode 100644 kde-misc/magneto-kde/magneto-kde-298.ebuild
- create mode 100644 sys-apps/entropy-server/entropy-server-298.ebuild
- create mode 100644 sys-apps/entropy/entropy-298.ebuild
- create mode 100644 sys-apps/magneto-core/magneto-core-298.ebuild
- create mode 100644 sys-apps/rigo-daemon/rigo-daemon-298.ebuild
- create mode 100644 x11-misc/magneto-gtk/magneto-gtk-298.ebuild
- create mode 100644 x11-misc/magneto-gtk3/magneto-gtk3-298.ebuild
+Already up-to-date.
 *** syncing sabayon
 *** synced sabayon
  * Sync succeeded
