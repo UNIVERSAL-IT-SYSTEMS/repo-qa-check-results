@@ -12,7 +12,19 @@
 $ pmaint sync last-hope
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/ercpe/lh-overlay
+   76f7bf1..fa4d81a  master     -> origin/master
+Updating 76f7bf1..fa4d81a
+Fast-forward
+ dev-python/fuzzywuzzy/ChangeLog               |  9 +++++++++
+ dev-python/fuzzywuzzy/Manifest                |  1 +
+ dev-python/fuzzywuzzy/fuzzywuzzy-0.6.1.ebuild | 21 +++++++++++++++++++++
+ dev-python/fuzzywuzzy/metadata.xml            | 11 +++++++++++
+ 4 files changed, 42 insertions(+)
+ create mode 100644 dev-python/fuzzywuzzy/ChangeLog
+ create mode 100644 dev-python/fuzzywuzzy/Manifest
+ create mode 100644 dev-python/fuzzywuzzy/fuzzywuzzy-0.6.1.ebuild
+ create mode 100644 dev-python/fuzzywuzzy/metadata.xml
 *** syncing last-hope
 *** synced last-hope
  * Sync succeeded
