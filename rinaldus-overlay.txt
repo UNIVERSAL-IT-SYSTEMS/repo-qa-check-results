@@ -9,26 +9,7 @@
 $ pmaint sync rinaldus-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/rinaldus/rinaldus-overlay
-   d0eb569..e4c7c11  master     -> origin/master
-Updating d0eb569..e4c7c11
-Fast-forward
- net-libs/ccnet/Manifest                            |  6 +-
- net-libs/ccnet/ccnet-4.2.2.ebuild                  | 49 ---------------
- .../{ccnet-4.2.5.ebuild => ccnet-4.3.2.ebuild}     |  0
- net-misc/seafile-client/Manifest                   |  6 +-
- .../seafile-client/seafile-client-4.2.2.ebuild     | 29 ---------
- ...nt-4.2.5.ebuild => seafile-client-4.3.2.ebuild} |  0
- net-misc/seafile/Manifest                          |  6 +-
- net-misc/seafile/seafile-4.2.2.ebuild              | 73 ----------------------
- .../{seafile-4.2.5.ebuild => seafile-4.3.2.ebuild} |  0
- 9 files changed, 6 insertions(+), 163 deletions(-)
- delete mode 100644 net-libs/ccnet/ccnet-4.2.2.ebuild
- rename net-libs/ccnet/{ccnet-4.2.5.ebuild => ccnet-4.3.2.ebuild} (100%)
- delete mode 100644 net-misc/seafile-client/seafile-client-4.2.2.ebuild
- rename net-misc/seafile-client/{seafile-client-4.2.5.ebuild => seafile-client-4.3.2.ebuild} (100%)
- delete mode 100644 net-misc/seafile/seafile-4.2.2.ebuild
- rename net-misc/seafile/{seafile-4.2.5.ebuild => seafile-4.3.2.ebuild} (100%)
+Already up-to-date.
 *** syncing rinaldus-overlay
 *** synced rinaldus-overlay
  * Sync succeeded
