@@ -16,7 +16,18 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   8600971..82e736b  master     -> origin/master
+Updating 8600971..82e736b
+Fast-forward
+ net-ftp/lftp/Manifest                              |  1 +
+ net-ftp/lftp/lftp-4.6.4.ebuild                     | 90 ++++++++++++++++++++++
+ .../files/xscreensaver-app-2.3-configure.ac        | 21 +++++
+ .../xscreensaver-app-2.3-r3.ebuild                 | 46 +++++++++++
+ 4 files changed, 158 insertions(+)
+ create mode 100644 net-ftp/lftp/lftp-4.6.4.ebuild
+ create mode 100644 x11-misc/xscreensaver-app/files/xscreensaver-app-2.3-configure.ac
+ create mode 100644 x11-misc/xscreensaver-app/xscreensaver-app-2.3-r3.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
