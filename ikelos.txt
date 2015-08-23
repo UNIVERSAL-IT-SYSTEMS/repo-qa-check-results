@@ -13,40 +13,7 @@
 $ pmaint sync ikelos
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/dev/ikelos
-   3ccbbc5..67f1240  master     -> origin/master
-Updating 3ccbbc5..67f1240
-Fast-forward
- media-video/get_iplayer/Manifest                   |   6 +-
- ...iplayer-2.90.ebuild => get_iplayer-2.94.ebuild} |   7 +-
- media-video/get_iplayer/get_iplayer-9999.ebuild    |   7 +-
- net-analyzer/bro/Manifest                          |   5 -
- net-analyzer/bro/bro-2.0.ebuild                    |  67 -------------
- net-analyzer/bro/files/bro-config-root.patch       |  26 -----
- .../bro/files/bro-installpackageconfig.patch       |  94 ------------------
- net-analyzer/bro/files/bro-userchanged.patch       |  91 ------------------
- net-analyzer/inetsim/Manifest                      |   4 +-
- .../{inetsim-1.2.4.ebuild => inetsim-1.2.5.ebuild} |   4 +-
- net-misc/facebook-notify/Manifest                  |   2 -
- .../facebook-notify/facebook-notify-9999.ebuild    |  31 ------
- net-misc/kamailio/Manifest                         |   4 -
- net-misc/kamailio/files/kamailio.confd             |  11 ---
- net-misc/kamailio/files/kamailio.rc6               |  49 ----------
- net-misc/kamailio/kamailio-1.4.3.ebuild            | 106 ---------------------
- 16 files changed, 13 insertions(+), 501 deletions(-)
- rename media-video/get_iplayer/{get_iplayer-2.90.ebuild => get_iplayer-2.94.ebuild} (89%)
- delete mode 100644 net-analyzer/bro/Manifest
- delete mode 100644 net-analyzer/bro/bro-2.0.ebuild
- delete mode 100644 net-analyzer/bro/files/bro-config-root.patch
- delete mode 100644 net-analyzer/bro/files/bro-installpackageconfig.patch
- delete mode 100644 net-analyzer/bro/files/bro-userchanged.patch
- rename net-analyzer/inetsim/{inetsim-1.2.4.ebuild => inetsim-1.2.5.ebuild} (84%)
- delete mode 100644 net-misc/facebook-notify/Manifest
- delete mode 100644 net-misc/facebook-notify/facebook-notify-9999.ebuild
- delete mode 100644 net-misc/kamailio/Manifest
- delete mode 100644 net-misc/kamailio/files/kamailio.confd
- delete mode 100755 net-misc/kamailio/files/kamailio.rc6
- delete mode 100644 net-misc/kamailio/kamailio-1.4.3.ebuild
+Already up-to-date.
 *** syncing ikelos
 *** synced ikelos
  * Sync succeeded
