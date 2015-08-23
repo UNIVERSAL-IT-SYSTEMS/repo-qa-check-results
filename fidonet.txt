@@ -21,7 +21,7 @@ Total file size: 157.49K bytes
 Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
-File list size: 4.36K
+File list size: 4.35K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 111
@@ -33,6 +33,8 @@ total size is 157.49K  speedup is 34.79
 *** synced fidonet
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 fidonet
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

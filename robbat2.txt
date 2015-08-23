@@ -20,7 +20,9 @@ Already up-to-date.
 *** synced robbat2
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 robbat2
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 /home/mgorny/repos/robbat2/dev-ruby/reckon/reckon-0.3.10.ebuild: line 33: dev-ruby/terminal-table: No such file or directory
 
@@ -63,7 +65,6 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Acme-Damn-0.04
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Archive-Tar-Streamed-0.03
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-perl/Authen-Captcha-1.023
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
