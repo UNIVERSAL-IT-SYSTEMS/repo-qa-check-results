@@ -14,10 +14,18 @@
              'uri': 'git@github.com:jorgicio/jorgicio-gentoo.git'}],
  'status': 'unofficial'}
 $ pmaint sync jorgicio
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
-Already up-to-date.
+From https://github.com/jorgicio/jorgicio-gentoo
+   f7c15e6..5ad348d  master     -> origin/master
+Updating f7c15e6..5ad348d
+Fast-forward
+ app-editors/atom/Manifest                          |  1 +
+ app-editors/atom/atom-1.0.7.ebuild                 | 92 ++++++++++++++++++++++
+ app-editors/visual-studio-code/Manifest            |  3 +
+ .../visual-studio-code-0.7.0.ebuild                | 56 +++++++++++++
+ 4 files changed, 152 insertions(+)
+ create mode 100644 app-editors/atom/atom-1.0.7.ebuild
+ create mode 100644 app-editors/visual-studio-code/visual-studio-code-0.7.0.ebuild
 *** syncing jorgicio
 *** synced jorgicio
  * Sync succeeded
