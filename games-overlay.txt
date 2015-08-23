@@ -12,7 +12,15 @@
 $ pmaint sync games-overlay
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hasufell/games-overlay
+   1a111e8..c5f92c5  master     -> origin/master
+Updating 1a111e8..c5f92c5
+Fast-forward
+ games-rpg/pillars-of-eternity/Manifest             |  6 +--
+ ...build => pillars-of-eternity-1.0.6.0617.ebuild} | 46 +++++++++++++---------
+ profiles/package.mask                              |  5 +++
+ 3 files changed, 34 insertions(+), 23 deletions(-)
+ rename games-rpg/pillars-of-eternity/{pillars-of-eternity-1.5.0.7.ebuild => pillars-of-eternity-1.0.6.0617.ebuild} (58%)
 *** syncing games-overlay
 *** synced games-overlay
  * Sync succeeded
