@@ -16,7 +16,19 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   50e65ee..f68b678  master     -> origin/master
+Updating 50e65ee..f68b678
+Fast-forward
+ sci-physics/thepeg/Manifest                      |  5 ++
+ sci-physics/thepeg/files/thepeg-1.8.3-java.patch | 37 +++++++++
+ sci-physics/thepeg/metadata.xml                  | 24 ++++++
+ sci-physics/thepeg/thepeg-1.9.2.ebuild           | 97 ++++++++++++++++++++++++
+ 4 files changed, 163 insertions(+)
+ create mode 100644 sci-physics/thepeg/Manifest
+ create mode 100644 sci-physics/thepeg/files/thepeg-1.8.3-java.patch
+ create mode 100644 sci-physics/thepeg/metadata.xml
+ create mode 100644 sci-physics/thepeg/thepeg-1.9.2.ebuild
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
