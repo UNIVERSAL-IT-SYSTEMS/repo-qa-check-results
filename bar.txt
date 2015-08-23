@@ -15,7 +15,18 @@
  'status': 'unofficial'}
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/tokiclover/bar-overlay
+   75e0cbb..8007b2f  master     -> origin/master
+Updating 75e0cbb..8007b2f
+Fast-forward
+ net-p2p/epour/Manifest           |  1 +
+ net-p2p/epour/epour-0.6.0.ebuild | 37 +++++++++++++++++++++++++++++++++++++
+ net-p2p/epour/epour-9999.ebuild  | 37 +++++++++++++++++++++++++++++++++++++
+ sets/PACKAGE_LIST                |  1 +
+ 4 files changed, 76 insertions(+)
+ create mode 100644 net-p2p/epour/Manifest
+ create mode 100644 net-p2p/epour/epour-0.6.0.ebuild
+ create mode 100644 net-p2p/epour/epour-9999.ebuild
 *** syncing bar
 *** synced bar
  * Sync succeeded
