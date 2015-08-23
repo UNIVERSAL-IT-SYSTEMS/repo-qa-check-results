@@ -54,8 +54,8 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for git failed
 
-sandbox:stop  caught signal 15 in pid 28401
+sandbox:stop  caught signal 15 in pid 27220
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-im/centerim-999
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-im/centerim-999, attr description\nerror: Metadata Exception: pkg ebuild src: net-im/centerim-999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-im/centerim-999' @0x7fb179894e10>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-im/centerim-999, attr description\nerror: Metadata Exception: pkg ebuild src: net-im/centerim-999, attr data\nerror: inherit requires an unknown eclass, git cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-im/centerim-999' @0x7fbf7182ce10>)
  * Cache regen failed with 1
