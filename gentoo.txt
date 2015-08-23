@@ -17,18 +17,14 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://anongit.gentoo.org/git/repo/gentoo
-   50e65ee..f68b678  master     -> origin/master
-Updating 50e65ee..f68b678
+   f68b678..ccd35db  master     -> origin/master
+Updating f68b678..ccd35db
 Fast-forward
- sci-physics/thepeg/Manifest                      |  5 ++
- sci-physics/thepeg/files/thepeg-1.8.3-java.patch | 37 +++++++++
- sci-physics/thepeg/metadata.xml                  | 24 ++++++
- sci-physics/thepeg/thepeg-1.9.2.ebuild           | 97 ++++++++++++++++++++++++
- 4 files changed, 163 insertions(+)
- create mode 100644 sci-physics/thepeg/Manifest
- create mode 100644 sci-physics/thepeg/files/thepeg-1.8.3-java.patch
- create mode 100644 sci-physics/thepeg/metadata.xml
- create mode 100644 sci-physics/thepeg/thepeg-1.9.2.ebuild
+ .../firefox-38-dont-hardcode-libc-soname.patch     | 22 ++++++++++++++++++++++
+ www-client/firefox/firefox-38.2.0.ebuild           |  1 +
+ www-client/firefox/firefox-40.0.2.ebuild           |  2 +-
+ 3 files changed, 24 insertions(+), 1 deletion(-)
+ create mode 100644 www-client/firefox/files/firefox-38-dont-hardcode-libc-soname.patch
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
