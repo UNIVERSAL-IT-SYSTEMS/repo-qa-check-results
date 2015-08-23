@@ -10,7 +10,11 @@
  'status': 'unofficial'}
 $ pmaint sync Krontage
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/gentoo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/gentoo', named 'gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/Armageddon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/Armageddon', named 'Armageddon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/sync/Krontage'...
 *** syncing Krontage
 *** synced Krontage
  * Sync succeeded
@@ -288,15 +292,15 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-servers/nginx-1.2.6-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-php/pecl-stem-1.5.1, attr description\nerror: Metadata Exception: pkg ebuild src: dev-php/pecl-stem-1.5.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-php/pecl-stem-1.5.1' @0x7f057f773690>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-php/pecl-stem-1.5.1, attr description\nerror: Metadata Exception: pkg ebuild src: dev-php/pecl-stem-1.5.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-php/pecl-stem-1.5.1' @0x7f71e2db9690>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-php/pecl-zookeeper-0.2.1, attr description\nerror: Metadata Exception: pkg ebuild src: dev-php/pecl-zookeeper-0.2.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-php/pecl-zookeeper-0.2.1' @0x7f057f773910>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-php/pecl-zookeeper-0.2.1, attr description\nerror: Metadata Exception: pkg ebuild src: dev-php/pecl-zookeeper-0.2.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-php/pecl-zookeeper-0.2.1' @0x7f71e2db9910>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-php/pecl-zookeeper-0.2.2, attr description\nerror: Metadata Exception: pkg ebuild src: dev-php/pecl-zookeeper-0.2.2, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-php/pecl-zookeeper-0.2.2' @0x7f057f773690>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: dev-php/pecl-zookeeper-0.2.2, attr description\nerror: Metadata Exception: pkg ebuild src: dev-php/pecl-zookeeper-0.2.2, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='dev-php/pecl-zookeeper-0.2.2' @0x7f71e2db9690>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.1, attr description\nerror: Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='www-servers/nginx-1.2.1' @0x7f057f773a50>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.1, attr description\nerror: Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='www-servers/nginx-1.2.1' @0x7f71e2db9a50>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.5, attr description\nerror: Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.5, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='www-servers/nginx-1.2.5' @0x7f057f773690>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.5, attr description\nerror: Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.5, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='www-servers/nginx-1.2.5' @0x7f71e2db9690>)
 ERROR pkgcore: returned val from gen_metadata was 'False'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.6-r1, attr description\nerror: Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.6-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='www-servers/nginx-1.2.6-r1' @0x7f057f773a50>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.6-r1, attr description\nerror: Metadata Exception: pkg ebuild src: www-servers/nginx-1.2.6-r1, attr data\nerror: False',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='www-servers/nginx-1.2.6-r1' @0x7f71e2db9a50>)
  * Cache regen failed with 1

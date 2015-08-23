@@ -13,7 +13,39 @@
              'uri': 'git+ssh://git@git.gentoo.org/proj/voip.git'}],
  'status': 'official'}
 $ pmaint sync voip
+WARNING:pkgcore:repository at location '/home/mgorny/sync/fordfrog' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/fordfrog', named 'fordfrog', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/calculate' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/calculate', named 'calculate', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bobwya' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bobwya', named 'bobwya', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bliss-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bliss-overlay', named 'bliss-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/FireBurn' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/FireBurn', named 'FireBurn', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/abnorm' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bar' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bar', named 'bar', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/dev-zero' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/dev-zero', named 'dev-zero', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/ROKO__' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/elementary' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/elementary', named 'elementary', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/ext-devlibs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/OSSDL' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/OSSDL', named 'OSSDL', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/bar' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/bar', named 'bar', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/dev-zero' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/dev-zero', named 'dev-zero', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/abnorm' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/sync/elementary' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/sync/elementary', named 'elementary', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing voip
 *** synced voip
@@ -73,7 +105,7 @@ received unknown com: export CATEGORY='net-im' PR=r0 PVR='0.6.0' PV='0.6.0' EBUI
 !!! The die message:
 !!!  inherit for qt3 failed
 
-sandbox:stop  caught signal 15 in pid 20730
+sandbox:stop  caught signal 15 in pid 28726
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: net-voip/sflphone-0.7.2 failed.
@@ -92,7 +124,7 @@ Sandboxed process killed by signal: Terminated
 !!! The die message:
 !!!  inherit for qt3 failed
 
-sandbox:stop  caught signal 15 in pid 21109
+sandbox:stop  caught signal 15 in pid 29059
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: net-im/ihu-0.6.0 failed.
@@ -111,7 +143,7 @@ Sandboxed process killed by signal: Terminated
 !!! The die message:
 !!!  inherit for qt3 failed
 
-sandbox:stop  caught signal 15 in pid 21463
+sandbox:stop  caught signal 15 in pid 29375
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: net-misc/asterisk-1.4.21.2 failed.
@@ -130,7 +162,7 @@ Sandboxed process killed by signal: Terminated
 !!! The die message:
 !!!  inherit for qt3 failed
 
-sandbox:stop  caught signal 15 in pid 21898
+sandbox:stop  caught signal 15 in pid 29801
 Sandboxed process killed by signal: Terminated
 
 !!! ERROR: net-misc/asterisk-1.4.22.1 failed.
@@ -149,7 +181,7 @@ Sandboxed process killed by signal: Terminated
 !!! The die message:
 !!!  inherit for qt3 failed
 
-sandbox:stop  caught signal 15 in pid 22373
+sandbox:stop  caught signal 15 in pid 30204
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, qt3 cannot be found while processing ebuild src: net-voip/sflphone-0.7.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
@@ -167,9 +199,9 @@ caught exception 'not well-formed (invalid token): line 22, column 14' while pro
 caught exception 'not well-formed (invalid token): line 22, column 14' while processing 'ebuild src: net-misc/zaptel-1.4.4'
 caught exception 'not well-formed (invalid token): line 22, column 14' while processing 'ebuild src: net-misc/zaptel-1.4.8'
 caught exception 'not well-formed (invalid token): line 22, column 14' while processing 'ebuild src: net-misc/zaptel-1.4.9.2'
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.0, attr description\nerror: Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.0, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-voip/sflphone-0.7.0' @0x7f035f14a410>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.2, attr description\nerror: Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.2, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-voip/sflphone-0.7.2' @0x7f035f14a550>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-im/ihu-0.6.0, attr description\nerror: Metadata Exception: pkg ebuild src: net-im/ihu-0.6.0, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-im/ihu-0.6.0' @0x7f035f14ae10>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.21.2, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.21.2, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/asterisk-1.4.21.2' @0x7f035ecc4190>)
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.22.1, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.22.1, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/asterisk-1.4.22.1' @0x7f035f14ae10>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.0, attr description\nerror: Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.0, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-voip/sflphone-0.7.0' @0x7fa38a2a7410>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.2, attr description\nerror: Metadata Exception: pkg ebuild src: net-voip/sflphone-0.7.2, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-voip/sflphone-0.7.2' @0x7fa38a2a7550>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-im/ihu-0.6.0, attr description\nerror: Metadata Exception: pkg ebuild src: net-im/ihu-0.6.0, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-im/ihu-0.6.0' @0x7fa38a2a7e10>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.21.2, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.21.2, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/asterisk-1.4.21.2' @0x7fa389e1f190>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.22.1, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/asterisk-1.4.22.1, attr data\nerror: inherit requires an unknown eclass, qt3 cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/asterisk-1.4.22.1' @0x7fa38a2a7e10>)
  * Cache regen failed with 1
