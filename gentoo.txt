@@ -16,7 +16,30 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://anongit.gentoo.org/git/repo/gentoo
+   865ed0e..e0697d1  master     -> origin/master
+Updating 865ed0e..e0697d1
+Fast-forward
+ dev-python/bcrypt/bcrypt-2.0.0.ebuild                           | 2 ++
+ dev-python/cairocffi/cairocffi-0.5.3-r1.ebuild                  | 3 ++-
+ dev-python/cairocffi/cairocffi-0.5.4.ebuild                     | 3 ++-
+ dev-python/cairocffi/cairocffi-0.6-r1.ebuild                    | 2 +-
+ dev-python/cairocffi/cairocffi-0.6.ebuild                       | 2 +-
+ dev-python/cairocffi/cairocffi-0.7.1.ebuild                     | 8 +++++---
+ dev-python/cairocffi/cairocffi-0.7.2.ebuild                     | 8 +++++---
+ dev-python/cffi/cffi-0.8.6.ebuild                               | 2 +-
+ dev-python/cffi/cffi-1.1.2.ebuild                               | 2 +-
+ dev-python/cffi/cffi-1.2.1.ebuild                               | 4 +++-
+ dev-python/cryptography/cryptography-1.0.ebuild                 | 3 ++-
+ dev-python/python-cinderclient/python-cinderclient-1.1.2.ebuild | 2 +-
+ dev-python/xcffib/xcffib-0.1.10.ebuild                          | 2 +-
+ dev-python/xcffib/xcffib-0.2.0.ebuild                           | 2 +-
+ dev-python/xcffib/xcffib-0.2.1.ebuild                           | 2 +-
+ dev-python/xcffib/xcffib-0.2.5.ebuild                           | 5 +++--
+ dev-python/xcffib/xcffib-0.3.2.ebuild                           | 3 ++-
+ dev-python/xcffib/xcffib-0.3.4.ebuild                           | 3 ++-
+ profiles/package.mask                                           | 5 +++++
+ 19 files changed, 41 insertions(+), 22 deletions(-)
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
