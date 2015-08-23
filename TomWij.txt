@@ -12,38 +12,15 @@
             {'type': 'git',
              'uri': 'git+ssh://git@git.gentoo.org/dev/TomWij.git'}],
  'status': 'official'}
+ * Adding new repository
 $ pmaint sync TomWij
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/gentoo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/gentoo', named 'gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/ROKO__' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/DuPol' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/DuPol', named 'DuPol', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/OSSDL' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/OSSDL', named 'OSSDL', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/FireBurn' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/FireBurn', named 'FireBurn', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/Armageddon' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/Armageddon', named 'Armageddon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/abendbrot' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/abendbrot', named 'abendbrot', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/AstroFloyd' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/AstroFloyd', named 'AstroFloyd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/AzP' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/AzP', named 'AzP', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/Krontage' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/Krontage', named 'Krontage', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/activehome' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/activehome', named 'activehome', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/gentoo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/gentoo', named 'gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Cloning into '/home/mgorny/sync/TomWij'...
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
 *** syncing TomWij
-*** failed syncing TomWij
- * Sync failed with 1
+*** synced TomWij
+ * Sync succeeded
+$ pmaint regen --use-local-desc --pkg-desc-index -t 1 TomWij
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

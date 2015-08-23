@@ -7,39 +7,7 @@
              'uri': 'rsync://gentoo.zugaina.org/zugaina-portage'}],
  'status': 'unofficial'}
 $ pmaint sync zugaina
-WARNING:pkgcore:repository at location '/home/mgorny/sync/fordfrog' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/fordfrog', named 'fordfrog', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/calculate' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/calculate', named 'calculate', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bobwya' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bobwya', named 'bobwya', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bliss-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bliss-overlay', named 'bliss-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/FireBurn' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/FireBurn', named 'FireBurn', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/abnorm' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bar' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bar', named 'bar', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/dev-zero' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/dev-zero', named 'dev-zero', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/ROKO__' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/elementary' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/elementary', named 'elementary', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/ext-devlibs' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/ext-devlibs', named 'ext-devlibs', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/OSSDL' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/OSSDL', named 'OSSDL', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/sync/bar' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/bar', named 'bar', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/dev-zero' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/dev-zero', named 'dev-zero', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/abnorm' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/sync/elementary' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/sync/elementary', named 'elementary', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
 receiving incremental file list
 
@@ -50,13 +18,13 @@ Total file size: 3.20M bytes
 Total transferred file size: 0 bytes
 Literal data: 0 bytes
 Matched data: 0 bytes
-File list size: 46.60K
+File list size: 42.28K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 603
 Total bytes received: 51.01K
 
-sent 603 bytes  received 51.01K bytes  14.75K bytes/sec
+sent 603 bytes  received 51.01K bytes  20.64K bytes/sec
 total size is 3.20M  speedup is 61.96
 *** syncing zugaina
 *** synced zugaina
