@@ -70,7 +70,7 @@ received unknown com: export CATEGORY='net-misc' PR=r0 PVR='0.12' PV='0.12' EBUI
 !!! The die message:
 !!!  inherit for twisted failed
 
-sandbox:stop  caught signal 15 in pid 15973
+sandbox:stop  caught signal 15 in pid 28059
 Sandboxed process killed by signal: Terminated
 !!! caught exception inherit requires an unknown eclass, twisted cannot be found while processing ebuild src: net-misc/epoptes-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
@@ -82,5 +82,5 @@ error: parsed eapi '2' doesn't match sourced eapi '3' while processing ebuild sr
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-misc/shell-oaiharvester-0.12
 !!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: net-misc/shell-oaiharvester-9999
-caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/epoptes-9999, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/epoptes-9999, attr data\nerror: inherit requires an unknown eclass, twisted cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/epoptes-9999' @0x7f3906e0b050>)
+caught exception '%s' while processing '%s'(MetadataException('Metadata Exception: pkg ebuild src: net-misc/epoptes-9999, attr description\nerror: Metadata Exception: pkg ebuild src: net-misc/epoptes-9999, attr data\nerror: inherit requires an unknown eclass, twisted cannot be found',), <<class 'pkgcore.ebuild.ebuild_src.package'> cpv='net-misc/epoptes-9999' @0x7f7a93642050>)
  * Cache regen failed with 1
