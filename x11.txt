@@ -12,32 +12,7 @@
  'status': 'official'}
 $ pmaint sync x11
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/x11
-   c9a7568..7481dca  master     -> origin/master
-Updating c9a7568..7481dca
-Fast-forward
- media-libs/glu/glu-9999.ebuild                     |  43 --
- media-libs/mesa/files/eselect-mesa.conf.9.2        |  39 --
- media-libs/mesa/files/glx_ro_text_segm.patch       |  28 --
- .../mesa-9.2-dont-require-llvm-for-r300.patch      |  12 -
- .../mesa-9999-dont-require-llvm-for-r300.patch     |  11 -
- media-libs/mesa/mesa-9999.ebuild                   | 456 ---------------------
- media-libs/mesa/metadata.xml                       |  27 --
- profiles/package.mask                              |   4 -
- x11-base/nouveau-drm/nouveau-drm-99999999.ebuild   |  54 ---
- x11-libs/libdrm/libdrm-9999.ebuild                 |  60 ---
- x11-libs/libdrm/metadata.xml                       |   9 -
- 11 files changed, 743 deletions(-)
- delete mode 100644 media-libs/glu/glu-9999.ebuild
- delete mode 100644 media-libs/mesa/files/eselect-mesa.conf.9.2
- delete mode 100644 media-libs/mesa/files/glx_ro_text_segm.patch
- delete mode 100644 media-libs/mesa/files/mesa-9.2-dont-require-llvm-for-r300.patch
- delete mode 100644 media-libs/mesa/files/mesa-9999-dont-require-llvm-for-r300.patch
- delete mode 100644 media-libs/mesa/mesa-9999.ebuild
- delete mode 100644 media-libs/mesa/metadata.xml
- delete mode 100644 x11-base/nouveau-drm/nouveau-drm-99999999.ebuild
- delete mode 100644 x11-libs/libdrm/libdrm-9999.ebuild
- delete mode 100644 x11-libs/libdrm/metadata.xml
+Already up-to-date.
 *** syncing x11
 *** synced x11
  * Sync succeeded
