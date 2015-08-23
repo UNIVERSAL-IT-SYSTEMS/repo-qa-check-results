@@ -69,7 +69,6 @@ error: parsed eapi '2' doesn't match sourced eapi '3' while processing ebuild sr
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/kamailio-1.4.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-video/get_iplayer-2.90
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-video/get_iplayer-9999
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))
