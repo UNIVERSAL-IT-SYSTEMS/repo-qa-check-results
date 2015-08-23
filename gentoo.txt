@@ -16,19 +16,7 @@
 $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://anongit.gentoo.org/git/repo/gentoo
-   400ce1c..865ed0e  master     -> origin/master
-Updating 400ce1c..865ed0e
-Fast-forward
- dev-util/bless/bless-0.6.0-r2.ebuild          |   6 +-
- dev-util/bless/files/bless-0.6.0-mono-4.patch |  36 ++++++
- profiles/base/package.use.mask                |   4 -
- x11-libs/cairo/Manifest                       |   1 -
- x11-libs/cairo/cairo-1.12.18-r1.ebuild        | 174 --------------------------
- x11-libs/cairo/metadata.xml                   |   3 -
- 6 files changed, 40 insertions(+), 184 deletions(-)
- create mode 100644 dev-util/bless/files/bless-0.6.0-mono-4.patch
- delete mode 100644 x11-libs/cairo/cairo-1.12.18-r1.ebuild
+Already up-to-date.
 *** syncing gentoo
 *** synced gentoo
  * Sync succeeded
