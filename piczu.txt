@@ -13,16 +13,16 @@
              'uri': 'git+ssh://git@git.gentoo.org/user/piczu.git'}],
  'status': 'unofficial'}
 $ pmaint sync piczu
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing piczu
 *** synced piczu
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 piczu
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * 
  * "/home/mgorny/repos/piczu/dev-util/hgview/hgview-9999.ebuild":
@@ -301,6 +301,7 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-python/django-grappelli-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-python/django-registration-9999
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-python/django-tagging-0.3.1
 Traceback (most recent call last):
   File "/home/mgorny/pkgcore-venv/bin/pmaint", line 4, in <module>
     scripts.main(basename(__file__))

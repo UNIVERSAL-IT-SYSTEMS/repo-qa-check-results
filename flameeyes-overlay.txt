@@ -12,15 +12,15 @@
              'uri': 'git+ssh://git@git.gentoo.org/dev/flameeyes.git'}],
  'status': 'unofficial'}
 $ pmaint sync flameeyes-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/sync/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/sync/zugaina' lacks a defined repo_name
 Already up-to-date.
 *** syncing flameeyes-overlay
 *** synced flameeyes-overlay
  * Sync succeeded
 $ pmaint regen --use-local-desc --pkg-desc-index -t 1 flameeyes-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 
 !!! ERROR: dev-ruby/ruby-hunspell-9999-r1 failed.
